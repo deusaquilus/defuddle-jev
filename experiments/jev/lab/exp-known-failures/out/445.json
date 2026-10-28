@@ -1,0 +1,1670 @@
+{
+ "file": "pages/445.html",
+ "url": "https://ukhumanrightsblog.com/2024/01/25/financial-sanction-and-free-speech-in-the-high-court/",
+ "ms": 383,
+ "wordCount": 1287,
+ "contentSelector": "html.no-js > body > div.page > div.contant-container > div.content > article.article",
+ "title": "Financial Sanction and Free Speech in the High Court",
+ "contentChars": 9092,
+ "presence": {
+  "The Court appeared to have little difficulty": false
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": "Cancel reply"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "WebFontConfig = {\"google\":{\"families\":[\"Roboto:b:latin,latin-ext\",\"Roboto:b:latin,latin-ext\"]},\"api_url\":\"https:\\/\\/fonts-api.wp.com\\/css\"};\n  (function() {\n   "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Article\",\"@id\":\"https:\\/\\/ukhumanrightsblog.com\\/2024\\/01\\/25\\/financial-sanction-and-free-speech-in-the-"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "img:is([sizes=auto i],[sizes^=\"auto,\" i]){contain-intrinsic-size:3000px 1500px}\n/*# sourceURL=wp-img-auto-sizes-contain-inline-css */"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ":root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@medi"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}\n/*# sourceURL=https://c0.wp.com/c/7.1.3/wp"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".has-text-align-justify{text-align:justify;}\n/*# sourceURL=wp-block-library-inline-css */"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "/*! This file is auto-generated */\n.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ":root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp-"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "img#wpstats{display:none}\n/*# sourceURL=jetpack-stats-inline-css */"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "#jp-post-flair{padding-top:.5em}#content div.sharedaddy,#main div.sharedaddy,div.sharedaddy{clear:both}div.sharedaddy h3.sd-title{display:inline-block;font-size"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ":root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"He"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var JETPACK_MU_WPCOM_SETTINGS = {\"assetsUrl\":\"https://ukhumanrightsblog.com/wp-content/mu-plugins/wpcomsh/jetpack_vendor/automattic/jetpack-mu-wpcom/src/build/\""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "WebFontConfig = {\"typekit\":{\"id\":\"wyc2nuv\"}};\n  (function() {\n    var wf = document.createElement('script');\n    wf.src = ('https:' == document.location.protoco"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".recentcomments a {\n\t\t\t\tdisplay: inline !important;\n\t\t\t\tpadding: 0 !important;\n\t\t\t\tmargin: 0 !important;\n\t\t\t}\n\n\t\t\ttable.recentcommentsavatartop img.avatar, tabl"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".jetpack-comments{visibility:visible!important}"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".jetpack-comments{visibility:visible!important}"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "UK Human Rights Blog -  1 Crown Office Row\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Home\nFree subscription\nAbout\nConvention rights\nIntroduction to Human Rights\nContact\nArchive"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Home\nFree subscription\nAbout\nConvention rights\nIntroduction to Human Rights\nContact\nArchive"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Home\nFree subscription\nAbout\nConvention rights\nIntroduction to Human Rights\nContact\nArchive"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Email a link to a friend (Opens in new window)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Share on Tumblr"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Share on Reddit (Opens in new window)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "1 comment;\t\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t\t    \n    \n                jeredaw7161d1fa2a says:    \n                \n    \n    As you note, the Regulations specifically mention Uk"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "You must be logged in to post a comment."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Welcome to the UKHRB\n\n\n\n\n\n\n\n\n\n\n\nThis blog is run by 1 Crown Office Row barristers' chambers. Subscribe for free updates here. The blog's editorial team is:\n\n\n\nC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Categories"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Select Category\n\tadoption\n\tBLOG POSTS\n\t   1COR\n\t   Blog news\n\t   Case law\n\t      Case comments\n\t      Case summaries\n\t   Features\n\t   In the news\n\t   Lectures\n\t"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Select Category"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "adoption"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "BLOG POSTS"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "1COR"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Blog news"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Case law"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Case comments"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Case summaries"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Features"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "In the news"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Lectures"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Poor reporting"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Roundup"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "CONVENTION RIGHTS"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 1 | ECHR jurisdiction"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 10 | Freedom of Expression"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 11 | Freedom of Association"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 12 | Right to Marry / Found Family"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 13 | Effective remedy"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 14 | Anti-Discrimination"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 2 | Right to life"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 3 | Torture / Inhumane Treatment"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 4 | Anti-Slavery"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 5 | Right to Liberty"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 6 | Right to Fair Trial"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 7 | Retrospective Punishment"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 8 | Right to Privacy / Family"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Article 9 | Thought / Conscience / Religion"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Protocol 1 Article 1 | Peaceful enjoyment of property"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Protocol 1 Article 3 | Free elections"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Protocol 2 Article 1 | Right to education"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "detention"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "environmental information"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "guantanamo"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "investigatory powers bill"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "investigatory powers tribunal"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "LEGAL TOPICS"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Agriculture"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Animals"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Bill of Rights"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Children"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Company/Commercial"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Costs and Procedure"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Court of Protection"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Criminal"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Damages"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Defamation / Libel"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Disciplinary Proceedings"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Discrimination"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Education"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Employment"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Environment"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "European"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Family"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Freedom of Information"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Housing"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Immigration/Extradition"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Inquests and Inquiries"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "International"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Judges and Juries"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Licensing"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Margin of Appreciation"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Media"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Medical"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Mental Health"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Pensions"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Personal Injury"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Police"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Politics / Public Order"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Prisons"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Property"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Public/Private"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Religion"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Scotland"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Secret justice"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Social Care"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Spending cuts"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Tax"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Technology"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Terrorism"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "VAT"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Northern Ireland"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "parliament"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "ripa"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "united states"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "/* <![CDATA[ */ \n(function() { \n    var dropdown = document.getElementById(\"cat\"); \n    function onCatChange() { \n     if (dropdown.options[ dropdown.selectedIn"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Free subscription\nAbout\nConvention rights\n\n\tArticles index\n\t\n\t\tArticle 10\n\t\tArticle 11\n\t\tArticle 12\n\t\tArticle 13\n\t\tArticle 14\n\t\tArticle 2\n\t\tArticle 3\n\t\tArticle "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Free subscription\nAbout\nConvention rights\n\n\tArticles index\n\t\n\t\tArticle 10\n\t\tArticle 11\n\t\tArticle 12\n\t\tArticle 13\n\t\tArticle 14\n\t\tArticle 2\n\t\tArticle 3\n\t\tArticle "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Home\nIntroduction to Human Rights\nConvention rights\nFree subscription\nAbout\nArchive\nContact\n            \n            \n                \n                    \n    "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Search"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Search"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"prefetch\":[{\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\"},{\"not\":{\"href_matches\":[\"/wp-*.php\",\"/wp-admin/*\",\"/wp-content/uploads/*\",\"/wp-content/*"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.WPCOM_sharing_counts = {\"https://ukhumanrightsblog.com/2024/01/25/financial-sanction-and-free-speech-in-the-high-court/\":196747};"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://conne"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "document.body.addEventListener( 'is.post-load', function() {\n\t\t\t\tif ( 'undefined' !== typeof FB ) {\n\t\t\t\t\tFB.XFBML.parse();\n\t\t\t\t}\n\t\t\t} );"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "( function () {\n\t\t\t\t\tvar currentScript = document.currentScript;\n\n\t\t\t\t\t// Helper function to load an external script.\n\t\t\t\t\tfunction loadScript( url, cb ) {\n\t\t\t\t"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "( function () {\n\t\t\t\t\t// Pinterest shared resources\n\t\t\t\t\tvar s = document.createElement( 'script' );\n\t\t\t\t\ts.type = 'text/javascript';\n\t\t\t\t\ts.async = true;\n\t\t\t\t\ts"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var ajax_object = {\"ajaxurl\":\"https://ukhumanrightsblog.com/wp-admin/admin-ajax.php\",\"ajax_nonce\":\"b1bbbc1a6b\",\"action\":\"tela_load_autocomplete\",\"url\":\"https://"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var WPGroHo = {\"my_hash\":\"\"};\n//# sourceURL=wpgroho-js-extra"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "_stq = window._stq || [];\n_stq.push([ \"view\", {\"v\":\"ext\",\"blog\":\"10797055\",\"post\":\"196747\",\"tz\":\"0\",\"srv\":\"ukhumanrightsblog.com\",\"hp\":\"atomic\",\"ac\":\"2\",\"amp\":\""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.JetpackComments = {\"version\":\"0.8.1-alpha\",\"styleUrl\":\"https://ukhumanrightsblog.com/wp-content/mu-plugins/wpcomsh/jetpack_vendor/automattic/jetpack-comm"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var sharing_js_options = {\"lang\":\"en\",\"counts\":\"1\",\"is_stats_active\":\"1\"};\n//# sourceURL=sharing-js-js-extra"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.WPCOM_sharing_popups = window.WPCOM_sharing_popups || {};\nwindow.WPCOM_sharing_popups[ \"facebook\" ] = \"menubar=1,resizable=1,width=600,height=400\";\n//# s"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "%d"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Home"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Free subscription"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "About"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Convention rights"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Introduction to Human Rights"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Contact"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Archive"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: more-",
+   "selector": "more-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: sharedaddy",
+   "selector": "sharedaddy",
+   "text": "Share:\n\t\t\t\t\n\t\t\t\tEmail\n\t\t\tTweet\n\t\t\t\t\n\t\t\t\tReddit"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: \\bnocontent\\b",
+   "selector": "\\bnocontent\\b",
+   "text": "Share:\n\t\t\t\t\n\t\t\t\tEmail\n\t\t\tTweet\n\t\t\t\t\n\t\t\t\tReddit"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: facebook",
+   "selector": "facebook",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: sharedaddy",
+   "selector": "sharedaddy",
+   "text": "Like this:Like Loading…"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: loading",
+   "selector": "loading",
+   "text": "Loading…"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": "1 comment;"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -comment\\b",
+   "selector": "-comment\\b",
+   "text": "As you note, the Regulations specifically mention Ukraine.  Is it appropriate for the legislation to specifically single out one side in a particular conflict? "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -comment\\b",
+   "selector": "-comment\\b",
+   "text": "Loading..."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: loading",
+   "selector": "loading",
+   "text": "Loading..."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: feedback",
+   "selector": "feedback",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comment-respond",
+   "selector": "comment-respond",
+   "text": "Leave a Reply"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": "You must be logged in to post a comment."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Categories"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: recent-",
+   "selector": "recent-",
+   "text": "Recent Posts\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\tThe UK Human Rights Blog has moved to Substack\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\tWeekly Round Up: Article 8 under the Immigration and "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": "Recent comments\t\t\t\t\n\t\t\t\t\tGeert Van Calster on Strasbourg Court dismisses cha…hrupdateadmin on Do oat stalks have udders? Con…A girl with OCD on Do oat stalks ha"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": "Geert Van Calster on Strasbourg Court dismisses cha…hrupdateadmin on Do oat stalks have udders? Con…A girl with OCD on Do oat stalks have udders? Con…davidlammi"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": "Geert Van Calster on Strasbourg Court dismisses cha…"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": "hrupdateadmin on Do oat stalks have udders? Con…"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": "A girl with OCD on Do oat stalks have udders? Con…"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": "davidlamming on Do oat stalks have udders? Con…"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": "Strong Legal Advocac… on Legal personhood for non-human…"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": "jeredaw7161d1fa2a on Financial Sanction and Free Sp…"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": "Michael Hall on Weekly Round Up: Met Police ac…"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -menu",
+   "selector": "-menu",
+   "text": "Home\nIntroduction to Human Rights\nConvention rights\nFree subscription\nAbout\nArchive\nContact"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Home"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Introduction to Human Rights"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Convention rights"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Free subscription"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "About"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Archive"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Contact"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "trailing non-content",
+   "text": "The Court appeared to have little difficulty deciding the Claimant’s application, but it  recognised other situations in which it may be less easy to distinguis"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "trailing non-content",
+   "text": "Returning to the conflict in issue, as the Court recorded, Russia retaliated to the sanctioning of its media outlets by blocking the BBC, Deutsche Welle and Voi"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "trailing non-content",
+   "text": "Marina Wheeler KC is a barrister at 1 Crown Office Row."
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "trailing non-content",
+   "text": ""
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "boilerplate text",
+   "text": "Comment"
+  }
+ ],
+ "content": "<article class=\"article\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<p>\n</p><p class=\"wp-block-paragraph\"><strong>Background</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Graham Phillips, the Claimant, is a British national and video blogger who posts content from the Donbass dressed in Russian military fatigues. He says he is a journalist who provides a “counterbalance” to widespread western misunderstanding of the true situation in Ukraine but the Administrative Court disagrees.  On 12 January 2024, it handed down judgment in <em><a href=\"https://www.bailii.org/ew/cases/EWHC/Admin/2024/32.html\" data-wpel-link=\"external\">R (Phillips) v Secretary of State for Foreign, Commonwealth and Development Affairs [2024] EWHC 32 (Admin)</a></em>, in which it upheld the Government’s view that the Claimant is a propagandist for Russia who is lawfully subject to a sanctions regime which allows the state to freeze his assets.</p>\n\n\n\n\n\n\n\n<p class=\"wp-block-paragraph\">The Claimant has blogged from Donetsk and Luhansk since 2014. In February 2022 he welcomed the Russian invasion, saying military action was necessary to “denazify” Ukraine. Since then the he has positioned himself behind Russian lines, displaying a “Z symbol” on his clothes and car. He has received medals from the Russian state for his work in the Donbas.  </p>\n\n\n\n<p class=\"wp-block-paragraph\">In Spring 2022, the Claimant posted a video “<em>interview</em>” with Aiden Aslin, a UK national serving with Ukrainian Armed Forces, who was taken prisoner by Russian forces and tortured after the fall of Mariupol. The interview was conducted under duress, while Mr Aslin was in handcuffs, facing the death penalty. According to the British Government, the interview was used to support Aslin’s conviction and death sentence (although he has since been released in a prisoner swap). The Government reported the video to YouTube as violating Article 13 of the Geneva Convention on the treatment of prisoners of war, and it was later taken down. In another post Mr Phillips stood in front of a Russian flag wearing combat uniform and camouflage from a dead Ukrainian. The caption read “<em>awesome camo – British camouflage from a Ukrainian soldier who no longer needs it</em>”.  </p>\n\n\n\n<p class=\"wp-block-paragraph\">In July 2022 the Claimant was sanctioned for producing and publishing in support of the Russian invasion and military campaign. The impact was swift. His bank account was frozen. Paypal and Patreon, which he used for crowdfunding, terminated his accounts. In the Court’s words, “<em>his entire income stream was eliminated</em>”.  The regulations entitled the Claimant to apply for licences to meet his basic needs but he declined to do so on the basis that would be “<em>buying into the system</em>” when he insists it is illegal and illegitimate.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In January 2023 he challenged the decision to maintain his listing, arguing (i) that the relevant statute – the Sanctions and Anti-Money Laundering Act 2018 Act – did not permit the imposition of financial sanctions on a person because of their political views; and (ii)  that his designation was a disproportionate restriction on his rights to freedom of expression, property, and family.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Meanwhile, he continued to post. On 7 March 2023, he shared a video showing the summary execution of unarmed Ukrainian soldier captioned “<em>Now imagine if everyone who repeated Nazi slogans was dealt with so effectively…</em>”</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>The Court’s Judgment</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Free speech, the Court said, is well-anchored as a fundamental right and the “<em>life-blood</em>” of democracy. Genuine political dissent is afforded strong protection as is debate on questions of public importance. Recognised contexts in which it may be curtailed include public order offences, incitement to violence, and certain terrorism offences. Thus, all speech is not afforded equal protection. As the EU General Court noted in<em> France v RT v Council </em>Case T125/22, propaganda and disinformation, especially in time of war, can corrode democracy and national security. The International Covenant on Civil and Political Rights protects freedom of expression (article 19) but article 20 call for the prohibition of “<em>propaganda for war</em>”.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In determining the scope of the statutory scheme, Parliamentary intention was key. When Parliament enacted the 2018 Act, the Court found, it intended to replicate the EU sanctions regime. This, the EU General Court in <em>Kiselev v Council</em> T-262/15 held, could be applied to sanction media support for actions and policies of the Russian government which destabilised Ukraine.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Similarly, under the UK Regulations (6(3)(a)), sanctions may be applied to anyone who “<em>engages in, provides support for, or promotes any policy or action which destabilises Ukraine or undermines or threatens the territorial integrity, sovereignty or independence of Ukraine</em>”. This language, the Court found, was unambiguous: “<em>promoting</em>” or “<em>supporting</em>” could both be done by way of expression and thus permitted sanctions in response to the exercise of free speech.</p>\n\n\n\n<p class=\"wp-block-paragraph\">So the Secretary of State had a statutory power to impose sanctions, but was the power <em>exercised</em> compatibly with the Claimant’s fundamental rights – to freedom of expression, respect for private and family life and the peaceful enjoyment of his possessions?</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Court had little trouble finding the interference was prescribed by law: the 2019 Regulations are published and accessible and contain ample safeguards against arbitrary use. Similarly, there was no real issue that the objective pursued – to encourage Russia to cease actions destabilising Ukraine – was a foreign policy objective “<em>of the highest order</em>”. The scheme overall was proportionate to that objective but whether the individual designation of the Claimant was proportionate, was a separate question.  </p>\n\n\n\n<p class=\"wp-block-paragraph\">In addressing it, the Court reminded itself that where matters relating to national security, foreign policy or the conduct of foreign relations are in issue, the court should place special weight on the assessment by the decision-maker. Having done so, the Court would decide for itself whether the interference was justified.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In itself, the Court recognised, the Claimant’s designation would not cause Russia to withdraw from Ukraine but “<em>in aggregate</em>”, as a “<em>package of measures</em>” taken alongside allies, such measures degraded “<em>Russia’s propaganda capacity</em>” and “<em>sent a message</em>” to Russia, to the Claimant and others who otherwise might be minded disseminate Russian propaganda.  Accordingly, there was a rational connection between the designation and protection of national security. As to the availability of less intrusive measures capable of achieving the lawful objective, the Court gave weight to, and upheld, the Defendant’s assessment that there were not. Requesting social media providers to remove content was expressly rejected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The nub of the proportionality test – whether a fair balance had been struck – hinged on the “<em>nature of the Claimant’s activities</em>”.  Article 10 was engaged, the Court held, but the “<em>nature of the Claimant’s activities meant his freedom of expression did not merit the level of protection that is afforded to political speech</em>”. The material he produced was “<em>entirely one-sided, supporting Russia and denigrating Ukraine. He is, in effect, embedded with and adopted by the Russian military</em>”.  He “<em>wears Russian military uniforms, displays their insignia and … has fired Russian weaponry</em>”. Moreover, his conduct was “<em>not at all consistent with responsible journalism</em>”. </p>\n\n\n\n<p class=\"wp-block-paragraph\">The Court dismissed the notion of a chilling effect: designation might deter others from travelling to the front line, aligning with the Russian military and assisting Russia’s propaganda war, it said, but it should not deter anyone from disagreeing with UK foreign policy.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As to the Claimant’s other rights, the Court recognised that the asset freeze limited his ability to see and communicate with his family, pay council tax on his home, and indeed do anything (without government permission) which involved spending money – all of which amounted to a significant interference. Against that, however, a legitimate aim of “<em>the greatest national and international importance</em>” was being pursued, engaging as it does the interests of international peace and security and the UK’s national security, and a fair balance had been struck. Accordingly his application was refused.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\n\t\t\t\t</article>",
+ "markdown": null
+}

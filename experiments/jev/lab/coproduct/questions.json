@@ -1,0 +1,50 @@
+{
+ "role_fwd": {
+  "type": "choice",
+  "instructions": "What is the main purpose of this block on its web page? Pick the one role that covers most of the block's text. A heading takes the role of the section it introduces. Judge only from what is in the block.",
+  "criteria": {
+   "article_content": "Part of the article itself: body text, a section heading, a figure or caption, code, a table, a quote, a footnote or a reference",
+   "site_navigation": "A site menu, breadcrumb trail, skip link, pagination, previous/next link, or table of contents",
+   "promotion_or_call_to_action": "An advertisement, sponsored content, or a request to subscribe, sign up, sign in, follow, share, donate or download an app",
+   "links_to_other_articles": "Related, recommended, popular, trending or more-stories links or cards that point to other articles",
+   "reader_comments": "Comments or replies written by readers, or the heading and controls of a comment section",
+   "author_or_publication_metadata": "An author byline or bio, publish date, read time, tags, categories, or like and share counts",
+   "site_footer_or_legal_notice": "A copyright line, site footer, cookie or consent banner, or privacy or terms notice",
+   "other": "None of these, or not enough information to tell"
+  }
+ },
+ "role_rev": {
+  "type": "choice",
+  "instructions": "What is the main purpose of this block on its web page? Pick the one role that covers most of the block's text. A heading takes the role of the section it introduces. Judge only from what is in the block.",
+  "criteria": {
+   "site_footer_or_legal_notice": "A copyright line, site footer, cookie or consent banner, or privacy or terms notice",
+   "author_or_publication_metadata": "An author byline or bio, publish date, read time, tags, categories, or like and share counts",
+   "reader_comments": "Comments or replies written by readers, or the heading and controls of a comment section",
+   "links_to_other_articles": "Related, recommended, popular, trending or more-stories links or cards that point to other articles",
+   "promotion_or_call_to_action": "An advertisement, sponsored content, or a request to subscribe, sign up, sign in, follow, share, donate or download an app",
+   "site_navigation": "A site menu, breadcrumb trail, skip link, pagination, previous/next link, or table of contents",
+   "article_content": "Part of the article itself: body text, a section heading, a figure or caption, code, a table, a quote, a footnote or a reference",
+   "other": "None of these, or not enough information to tell"
+  }
+ },
+ "has_article_prose": {
+  "type": "noul",
+  "instructions": "Does this block contain at least one complete sentence that explains, narrates or argues something, as an article would? Menu items, button labels, link titles, bylines, dates and headings on their own do not count."
+ },
+ "asks_reader_to_act": {
+  "type": "noul",
+  "instructions": "Does this block ask the reader to subscribe, sign up, sign in, follow, share, donate, download an app, or accept cookies?"
+ },
+ "metadata_only": {
+  "type": "noul",
+  "instructions": "Does this block consist only of publication metadata, such as an author name, a date, a reading time, a category, tags, or like and comment counts, with no sentence of article text?"
+ },
+ "mostly_links_elsewhere": {
+  "type": "noul",
+  "instructions": "Is this block mainly a list or group of links that send the reader to other pages or sections, such as menus, related posts, tag lists or pagination, rather than text to read here?"
+ },
+ "written_by_reader": {
+  "type": "noul",
+  "instructions": "Was this block written by a reader of the page, such as a comment or reply, rather than by the page's author or publisher?"
+ }
+}

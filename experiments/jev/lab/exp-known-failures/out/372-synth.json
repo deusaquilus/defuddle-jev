@@ -1,0 +1,37 @@
+{
+ "file": "pages/372-synth.html",
+ "url": "https://pages.example.com/acmelabs/posts/12345",
+ "ms": 49,
+ "wordCount": 190,
+ "contentSelector": "html > body > article",
+ "title": "Repro",
+ "contentChars": 1295,
+ "presence": {
+  "our profile": false,
+  "our other posts": false
+ },
+ "removals": [
+  {
+   "step": "removeByContentPattern",
+   "reason": "section breadcrumb",
+   "text": "our profile"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "section breadcrumb",
+   "text": "our profile"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "section breadcrumb",
+   "text": "our other posts"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "section breadcrumb",
+   "text": "our other posts"
+  }
+ ],
+ "content": "<article>\n  \n  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p>\n  <p>A paragraph long enough to exceed the rule's ten-word limit, ending with links to\n   and\n  .</p>\n  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p>\n</article>",
+ "markdown": null
+}

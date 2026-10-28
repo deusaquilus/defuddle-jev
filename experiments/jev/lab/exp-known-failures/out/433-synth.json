@@ -1,0 +1,15 @@
+{
+ "file": "pages/433-synth.html",
+ "url": "https://example.org/paper",
+ "ms": 72,
+ "wordCount": 179,
+ "contentSelector": "html > body > article",
+ "title": "Paper",
+ "contentChars": 1321,
+ "presence": {
+  "Unique explanation with": false
+ },
+ "removals": [],
+ "content": "<article><h2>Paper title</h2>\n<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p>\n<p>Result<span id=\"note1\" class=\"ltx_note ltx_role_footnote\">\n  <sup class=\"ltx_note_mark\">1</sup>\n  \n</span>.</p>\n<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p>\n</article>",
+ "markdown": null
+}

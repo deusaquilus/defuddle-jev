@@ -1,0 +1,29 @@
+{
+  "e": {
+    "group": "prose",
+    "n": 20,
+    "flipped_to_target": 0,
+    "mixed": 0,
+    "unchanged": 20,
+    "injected_text_survives_in_output": 17,
+    "main_container_changed": 0
+  },
+  "g": {
+    "group": "prose",
+    "n": 20,
+    "flipped_to_target": 1,
+    "mixed": 0,
+    "unchanged": 19,
+    "injected_text_survives_in_output": 16,
+    "main_container_changed": 0
+  },
+  "a": {
+    "group": "clutter",
+    "n": 20,
+    "flipped_to_target": 0,
+    "mixed": 0,
+    "unchanged": 20,
+    "injected_text_survives_in_output": 3,
+    "main_container_changed": 0
+  }
+}

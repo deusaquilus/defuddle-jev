@@ -1,0 +1,477 @@
+[
+  {
+    "name": "meta refresh (default)",
+    "options": {},
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p></article"
+  },
+  {
+    "name": "meta refresh (no removals)",
+    "options": {
+      "standardize": false,
+      "removeExactSelectors": false,
+      "removePartialSelectors": false,
+      "removeLowScoring": false,
+      "removeContentPatterns": false,
+      "removeHiddenElements": false
+    },
+    "expectNote": "",
+    "hits": [
+      "element:<meta>"
+    ],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><meta http-equiv=\"refresh\" content=\"0;url=https://attacker.example/\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua "
+  },
+  {
+    "name": "link stylesheet (default)",
+    "options": {},
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p></article"
+  },
+  {
+    "name": "link stylesheet (no removals)",
+    "options": {
+      "standardize": false,
+      "removeExactSelectors": false,
+      "removePartialSelectors": false,
+      "removeLowScoring": false,
+      "removeContentPatterns": false,
+      "removeHiddenElements": false
+    },
+    "expectNote": "",
+    "hits": [
+      "element:<link>"
+    ],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><link rel=\"stylesheet\" href=\"https://attacker.example/x.css\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim "
+  },
+  {
+    "name": "srcset javascript (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [
+      "url:img@srcset=javascript:alert(1) 1w"
+    ],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><img src=\"https://example.com/a.png\" alt=\"a\" srcset=\"javascript:alert(1) 1w\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna"
+  },
+  {
+    "name": "data-src javascript (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [
+      "url:img@data-src=javascript:alert(1)"
+    ],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><img src=\"https://example.com/a.png\" data-src=\"javascript:alert(1)\" alt=\"a\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna "
+  },
+  {
+    "name": "poster javascript (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [
+      "url:video@poster=javascript:alert(1)"
+    ],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><video src=\"https://example.com/v.mp4\" poster=\"javascript:alert(1)\"></video><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna "
+  },
+  {
+    "name": "ping attribute (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><a href=\"https://example.com/x\" ping=\"https://attacker.example/ping\">x</a><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna al"
+  },
+  {
+    "name": "iframe allow camera (default)",
+    "options": {},
+    "expectNote": "",
+    "hits": [
+      "allow:iframe=camera *; microphone *; geolocation *"
+    ],
+    "out": "<article><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><iframe src=\"https://attacker.example/embed\" allow=\"camera *; microphone *; geolocation *\"></iframe> <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore e"
+  },
+  {
+    "name": "iframe allow camera (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [
+      "allow:iframe=camera *; microphone *"
+    ],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><iframe src=\"https://attacker.example/embed\" allow=\"camera *; microphone *\" sandbox=\"allow-scripts allow-same-origin\"></iframe><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do e"
+  },
+  {
+    "name": "style attr fixed overlay (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [
+      "style:div"
+    ],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><div style=\"position:fixed;top:0;left:0;width:100vw;height:100vh;background:url(https://attacker.example/leak.png)\">overlay</div><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do"
+  },
+  {
+    "name": "style attr (default)",
+    "options": {},
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>overlay</p> <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco labori"
+  },
+  {
+    "name": "vbscript href",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [
+      "url:a@href=vbscript:MsgBox(1)"
+    ],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><a href=\"vbscript:MsgBox(1)\">x</a><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru"
+  },
+  {
+    "name": "file href",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><a href=\"file:///etc/passwd\">x</a><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru"
+  },
+  {
+    "name": "obsidian uri href",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p"
+  },
+  {
+    "name": "data:image/svg href on anchor",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><a href=\"data:image/svg+xml,%3Csvg%20onload%3Dalert(1)%3E\">x</a><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut en"
+  },
+  {
+    "name": "entity-encoded javascript",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><a>x</a><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco lab"
+  },
+  {
+    "name": "colon entity javascript",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><a>x</a><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco lab"
+  },
+  {
+    "name": "NUL inside scheme",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><a href=\"https://example.com/java%EF%BF%BDscript:alert(1)\">x</a><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut en"
+  },
+  {
+    "name": "leading quote javascript (main pipeline)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><a>x</a><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco lab"
+  },
+  {
+    "name": "leading backslash-quote javascript (main pipeline)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><a>x</a><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco lab"
+  },
+  {
+    "name": "svg use href javascript",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><use></use></svg><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitati"
+  },
+  {
+    "name": "svg use data:image/svg",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><use href=\"data:image/svg+xml;base64,PHN2ZyBpZD0neCc+PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pjwvc3ZnPg==#x\"></use></svg><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod te"
+  },
+  {
+    "name": "svg foreignObject img onerror",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><foreignObject><img src=\"https://example.com/x\"></foreignObject></svg><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna a"
+  },
+  {
+    "name": "mathml href javascript",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><math><mi>x</mi></math><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitat"
+  },
+  {
+    "name": "svg a xlink:href javascript",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><a><text>x</text></a></svg><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud "
+  },
+  {
+    "name": "svg animate values",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><a></a></svg><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation u"
+  },
+  {
+    "name": "svg set href",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><a></a></svg><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation u"
+  },
+  {
+    "name": "svg handler on svg root",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><circle r=\"1\"></circle></svg><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostru"
+  },
+  {
+    "name": "svg noembed img (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><noembed></noembed></svg><img src=\"https://example.com/x\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut eni"
+  },
+  {
+    "name": "svg noembed img (default)",
+    "options": {},
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg></svg> <img src=\"https://example.com/x\"> <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nost"
+  },
+  {
+    "name": "svg xmp img (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><xmp></xmp></svg><img src=\"https://example.com/x\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad min"
+  },
+  {
+    "name": "svg noframes img (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><noframes></noframes></svg><img src=\"https://example.com/x\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut e"
+  },
+  {
+    "name": "svg iframe img (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg></svg><img src=\"https://example.com/x\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam q"
+  },
+  {
+    "name": "svg textarea img (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg></svg><img src=\"https://example.com/x\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam q"
+  },
+  {
+    "name": "svg title img (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><title><img src=\"https://example.com/x\"></title></svg><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad"
+  },
+  {
+    "name": "svg plaintext img (nostd)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg><plaintext></plaintext></svg><img src=\"https://example.com/x\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut"
+  },
+  {
+    "name": "math mtext textarea img",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><math><mtext></mtext></math><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exer"
+  },
+  {
+    "name": "svg style escape (classic mXSS)",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg></svg><p></p><img src=\"https://example.com/1\">\"&gt;<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad mi"
+  },
+  {
+    "name": "abrupt comment",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><!----><img src=\"https://example.com/x\">--&gt;<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam"
+  },
+  {
+    "name": "abrupt comment (default)",
+    "options": {},
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><img src=\"https://example.com/x\"> --&gt; <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud e"
+  },
+  {
+    "name": "bogus comment PI",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><!--?xml --><img src=\"https://example.com/x\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam "
+  },
+  {
+    "name": "attr value tag breakout",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><a title=\"</p><img src=x onerror=alert(1)>\">x</a><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim ven"
+  },
+  {
+    "name": "noscript img",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p"
+  },
+  {
+    "name": "template nested svg",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><svg></svg><img src=\"https://example.com/x\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam q"
+  },
+  {
+    "name": "iframe srcdoc entity",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p"
+  },
+  {
+    "name": "form action javascript",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p"
+  },
+  {
+    "name": "img onerror slash separator",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><img src=\"https://example.com/x\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud"
+  },
+  {
+    "name": "uppercase handler",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><img src=\"https://example.com/x\"><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud"
+  },
+  {
+    "name": "fencedframe",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><fencedframe src=\"https://attacker.example/\"></fencedframe><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad"
+  },
+  {
+    "name": "portal",
+    "options": {
+      "standardize": false
+    },
+    "expectNote": "",
+    "hits": [],
+    "out": "<article><h1>T</h1><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><portal src=\"https://attacker.example/\"></portal><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim ven"
+  }
+]

@@ -1,0 +1,593 @@
+{
+  "fixtures": 226,
+  "fixtures_with_error": 0,
+  "units": 1475,
+  "kept": 1108,
+  "removed": 367,
+  "units_from_extractor_fixtures": 159,
+  "units_title_hint": 52,
+  "units_byline_or_date_hint": 59,
+  "total_html_chars": 799140,
+  "est_input_tokens_html_state": 228326,
+  "words_distribution": {
+    "min": 3,
+    "p25": 6,
+    "p50": 19,
+    "p75": 51,
+    "p90": 96,
+    "max": 298
+  },
+  "removed_by_step": {
+    "removeBySelector": 129,
+    "unmatched": 202,
+    "scoreAndRemove": 12,
+    "removeByContentPattern": 15,
+    "removeHiddenElements": 8,
+    "removeEyebrowLabel": 1
+  }
+}=====
+/tmp/jev-research/results/exp-block-classification/:
+total 3940
+drwxrwxr-x  2 alexi alexi   4096 Oct 27 19:49 .
+drwxrwxr-x 10 alexi alexi   4096 Oct 27 19:43 ..
+-rw-rw-r--  1 alexi alexi 327124 Oct 27 19:49 analysis2.json
+-rw-rw-r--  1 alexi alexi 107623 Oct 27 19:49 analysis2-stdout.txt
+-rw-rw-r--  1 alexi alexi 120815 Oct 27 18:37 analysis.json
+-rw-rw-r--  1 alexi alexi  48430 Oct 27 18:37 analysis-stdout.txt
+-rw-rw-r--  1 alexi alexi  28529 Oct 27 19:49 analyze2.mjs
+-rw-rw-r--  1 alexi alexi  22404 Oct 27 18:37 analyze.mjs
+-rw-rw-r--  1 alexi alexi   5056 Oct 27 18:37 common.mjs
+-rw-rw-r--  1 alexi alexi 118044 Oct 27 19:49 disagreements-corr.json
+-rw-rw-r--  1 alexi alexi 158351 Oct 27 19:49 disagreements-orig.json
+-rw-rw-r--  1 alexi alexi   3853 Oct 27 18:39 judge-helper.mjs
+-rw-rw-r--  1 alexi alexi 372784 Oct 27 19:49 labels-corrected.jsonl
+-rw-rw-r--  1 alexi alexi 869354 Oct 27 18:33 raw-v1.jsonl
+-rw-rw-r--  1 alexi alexi 452002 Oct 27 18:37 raw-v1r.jsonl
+-rw-rw-r--  1 alexi alexi 453394 Oct 27 18:34 raw-v2.jsonl
+-rw-rw-r--  1 alexi alexi 450805 Oct 27 18:34 raw-v3.jsonl
+-rw-rw-r--  1 alexi alexi   7123 Oct 27 19:49 relabel.mjs
+-rw-rw-r--  1 alexi alexi    492 Oct 27 19:49 relabel-summary.json
+-rw-rw-r--  1 alexi alexi   2524 Oct 27 18:37 run-variant.mjs
+-rw-rw-r--  1 alexi alexi  33755 Oct 27 18:33 subsample-ids.json
+-rw-rw-r--  1 alexi alexi  25743 Oct 27 19:49 top40-corr.json
+-rw-rw-r--  1 alexi alexi  26698 Oct 27 19:49 top40-orig.json
+-rw-rw-r--  1 alexi alexi    297 Oct 27 18:33 usage-v1-1793140392802.json
+-rw-rw-r--  1 alexi alexi    334 Oct 27 18:33 usage-v1-1793140426500.json
+-rw-rw-r--  1 alexi alexi    315 Oct 27 18:37 usage-v1r-1793140660677.json
+-rw-rw-r--  1 alexi alexi    323 Oct 27 18:34 usage-v2-1793140443038.json
+-rw-rw-r--  1 alexi alexi    328 Oct 27 18:34 usage-v3-1793140450878.json
+-rw-rw-r--  1 alexi alexi 141913 Oct 27 18:37 v1-all-disagreements.json
+-rw-rw-r--  1 alexi alexi 172543 Oct 27 18:39 v1-disagreement-categories.json
+-rw-rw-r--  1 alexi alexi   3775 Oct 27 19:46 verify-api-1793144780041.json
+-rw-rw-r--  1 alexi alexi   1873 Oct 27 19:46 verify-api.mjs
+
+/tmp/jev-research/results/exp-main-container/:
+total 2096
+drwxrwxr-x  2 alexi alexi    4096 Oct 27 19:48 .
+drwxrwxr-x 10 alexi alexi    4096 Oct 27 19:43 ..
+-rw-rw-r--  1 alexi alexi   63920 Oct 27 19:47 analysis2.json
+-rw-rw-r--  1 alexi alexi   32751 Oct 27 19:42 analysis.json
+-rw-rw-r--  1 alexi alexi   32752 Oct 27 19:42 analysis-stdout.txt
+-rw-rw-r--  1 alexi alexi   10867 Oct 27 19:47 analyze2.mjs
+-rw-rw-r--  1 alexi alexi   12610 Oct 27 18:41 analyze.mjs
+-rw-rw-r--  1 alexi alexi   12281 Oct 27 18:37 build-candidates.mjs
+-rw-rw-r--  1 alexi alexi     856 Oct 27 18:37 build_summary.json
+-rw-rw-r--  1 alexi alexi 1288391 Oct 27 18:37 candidates.jsonl
+-rw-rw-r--  1 alexi alexi    8183 Oct 27 19:48 e2e-swap.mjs
+-rw-rw-r--  1 alexi alexi   70215 Oct 27 19:48 e2e_swap_results.json
+-rw-rw-r--  1 alexi alexi  105747 Oct 27 18:37 fixture_log.json
+-rw-rw-r--  1 alexi alexi   77227 Oct 27 18:41 jev_A2.jsonl
+-rw-rw-r--  1 alexi alexi   77138 Oct 27 18:40 jev_A.jsonl
+-rw-rw-r--  1 alexi alexi   77193 Oct 27 18:40 jev_B.jsonl
+-rw-rw-r--  1 alexi alexi   56386 Oct 27 18:41 jev_C.jsonl
+-rw-rw-r--  1 alexi alexi   77137 Oct 27 19:46 jev_D.jsonl
+-rw-rw-r--  1 alexi alexi   15280 Oct 27 19:42 misses_A.txt
+-rw-rw-r--  1 alexi alexi   39832 Oct 27 19:42 misses_B.txt
+-rw-rw-r--  1 alexi alexi   21872 Oct 27 19:42 misses_C.txt
+-rw-rw-r--  1 alexi alexi    6899 Oct 27 18:38 run-jev.mjs
+-rw-rw-r--  1 alexi alexi    3942 Oct 27 19:46 run-variant-D.mjs
+-rw-rw-r--  1 alexi alexi     374 Oct 27 18:41 usage_A2.json
+-rw-rw-r--  1 alexi alexi     382 Oct 27 18:40 usage_A.json
+-rw-rw-r--  1 alexi alexi     374 Oct 27 18:40 usage_B.json
+-rw-rw-r--  1 alexi alexi     389 Oct 27 18:41 usage_C.json
+-rw-rw-r--  1 alexi alexi     373 Oct 27 19:46 usage_D.json
+=====
+{"models":[{"name":"jev-latest","description":"The latest iteration of TypeSafe's System One Model: Jev","release_date":"2026-09-10T18:38:01.391457+00:00"},{"name":"jev-preview","description":"A preview version of `jev-latest`: should be better in most ways","release_date":"2026-09-10T18:39:06.057655+00:00"}]}
+{"model":"jev-1.14.0","answers":{"is_article_body":{"type":"noul","noul":0.02},"kind":{"type":"choice","choice":"navigation","confidence":0.99,"probabilities":{"article_body":0.0,"navigation":0.99,"promo":0.01,"metadata":0.0,"other":0.0}}},"usage":{"input_tokens":453,"output_tokens":71}}
+=====
+--- /tmp/jev-research/results/exp-block-classification/analyze2.mjs
+// Full analysis of the block-classification experiment under two ground truths:
+//   GT-A "orig": labels from blocks.jsonl (the builder's output; includes label artifacts from glued textContent)
+//   GT-B "corr": labels-corrected.jsonl (whitespace-correct match vs Defuddle output + expected Markdown; 'mixed' excluded)
+// No API calls. Run: node analyze2.mjs  -> analysis2.json, analysis2-stdout.txt, top40-*.json, disagreements-*.json
+import { loadUnits, loadRaw, subsampleIds, DIR, shuffled, rng } from './common.mjs';
+import { writeFileSync, readFileSync, existsSync } from 'node:fs';
+
+const units = loadUnits();
+const byId = new Map(units.map(u => [u.id, u]));
+const corr = new Map(readFileSync(`${DIR}/labels-corrected.jsonl`, 'utf8').trim().split('\n').map(l => JSON.parse(l)).map(r => [r.id, r]));
+const judgments = existsSync(`${DIR}/judgments.json`) ? JSON.parse(readFileSync(`${DIR}/judgments.json`, 'utf8')) : {};
+const sub = subsampleIds(units);
+const r3 = v => (v === null || v === undefined || Number.isNaN(v)) ? null : +v.toFixed(3);
+const pct = v => (v === null || v === undefined) ? 'n/a' : (100 * v).toFixed(1) + '%';
+const lines = [];
+const log = (...a) => { const s = a.join(' '); lines.push(s); console.log(s); };
+function md(headers, rowsArr) { log('| ' + headers.join(' | ') + ' |'); log('|' + headers.map(() => '---').join('|') + '|'); for (const r of rowsArr) log('| ' + r.map(v => v === null || v === undefined ? 'n/a' : String(v)).join(' | ') + ' |'); log(''); }
+
+// ---------- rows ----------
+function rows(variant, gt) {
+	return loadRaw(variant).filter(r => !r.error && typeof r.p_keep === 'number').map(r => {
+		const u = byId.get(r.id); const c = corr.get(r.id);
+		const label = gt === 'corr' ? c.label_corr : u.label;
+		return { ...r, u, c, label, y: label === 'removed' ? 1 : 0, p: r.p_keep, policy: gt === 'corr' ? c.policy : (u.hints.is_title || u.hints.looks_byline || u.hints.looks_date) };
+	}).filter(r => r.label !== 'mixed');
+}
+// Convention: predicted KEPT iff p_keep >= t; predicted REMOVED iff p_keep < t.
+const predRemovedAt = (r, t) => (r.p < t ? 1 : 0);
+
+// ---------- metrics ----------
+function prfPred(rs, predFn, positive = 'removed') {
+	let tp = 0, fp = 0, fn = 0, tn = 0, n = 0; const P = positive === 'removed' ? 1 : 0;
+	for (const r of rs) { const pr = predFn(r); if (pr === null) continue; n++; if (pr === P && r.y === P) tp++; else if (pr === P && r.y !== P) fp++; else if (pr !== P && r.y === P) fn++; else tn++; }
+	const precision = tp + fp ? tp / (tp + fp) : 0, recall = tp + fn ? tp / (tp + fn) : 0;
+	const f1 = precision + recall ? 2 * precision * recall / (precision + recall) : 0;
+	return { n, tp, fp, fn, tn, precision: r3(precision), recall: r3(recall), f1: r3(f1), accuracy: n ? r3((tp + tn) / n) : null };
+}
+const prf = (rs, t, positive) => prfPred(rs, r => predRemovedAt(r, t), positive);
+function auroc(rs) {
+	const s = rs.map(r => ({ s: 1 - r.p, y: r.y })).sort((a, b) => a.s - b.s);
+	const ranks = new Array(s.length); let i = 0;
+	while (i < s.length) { let j = i; while (j + 1 < s.length && s[j + 1].s === s[i].s) j++; const avg = (i + j + 2) / 2; for (let k = i; k <= j; k++) ranks[k] = avg; i = j + 1; }
+	let n1 = 0, n0 = 0, sumR = 0; s.forEach((x, k) => { if (x.y === 1) { n1++; sumR += ranks[k]; } else n0++; });
+	if (!n1 || !n0) return null; return (sumR - n1 * (n1 + 1) / 2) / (n1 * n0);
+}
+function eceKeep(rs, bins = 10) {
+	const b = Array.from({ length: bins }, () => ({ n: 0, sumP: 0, kept: 0 }));
+	for (const r of rs) { const i = Math.min(bins - 1, Math.floor(r.p * bins)); b[i].n++; b[i].sumP += r.p; b[i].kept += 1 - r.y; }
+	let e = 0; const table = [];
+	b.forEach((x, i) => { const name = `${(i / bins).toFixed(1)}-${((i + 1) / bins).toFixed(1)}`; if (!x.n) { table.push({ bin: name, n: 0 }); return; } const mp = x.sumP / x.n, fk = x.kept / x.n; e += x.n / rs.length * Math.abs(mp - fk); table.push({ bin: name, n: x.n, mean_p_keep: r3(mp), frac_kept: r3(fk), gap: r3(fk - mp) }); });
+	return { ece: r3(e), table };
+}
+function eceConf(rs, bins = 10) {
+	const b = Array.from({ length: bins }, () => ({ n: 0, sumC: 0, correct: 0 }));
+	for (const r of rs) { const c = Math.max(r.p, 1 - r.p); const correct = predRemovedAt(r, 0.5) === r.y ? 1 : 0; const i = Math.min(bins - 1, Math.floor((c - 0.5) / 0.5 * bins)); b[i].n++; b[i].sumC += c; b[i].correct += correct; }
+	let e = 0; for (const x of b) if (x.n) e += x.n / rs.length * Math.abs(x.sumC / x.n - x.correct / x.n);
+	return r3(e);
+}
+const BANDS = [[0.8, 1.01, '0.8-1.0'], [0.6, 0.8, '0.6-0.8'], [0.4, 0.6, '0.4-0.6'], [0, 0.4, '0.0-0.4']];
+function bandRow(name, b, total) {
+	const err = b.filter(r => predRemovedAt(r, 0.5) !== r.y).length;
+	const sayRemove = b.filter(r => r.p < 0.5), sayKeep = b.filter(r => r.p >= 0.5);
+	const wrongRemove = sayRemove.filter(r => r.y === 0).length, wrongKeep = sayKeep.filter(r => r.y === 1).length;
+	return { band: name, n: b.length, coverage: r3(b.length / total), accuracy: b.length ? r3(1 - err / b.length) : null, errors: err,
+		says_remove: sayRemove.length, wrong_remove_content_loss: wrongRemove, precision_remove: sayRemove.length ? r3(1 - wrongRemove / sayRemove.length) : null,
+		says_keep: sayKeep.length, wrong_keep_clutter_leak: wrongKeep, precision_keep: sayKeep.length ? r3(1 - wrongKeep / sayKeep.length) : null };
+}
+function bands(rs) {
+	const res = BANDS.map(([lo, hi, name]) => bandRow(name, rs.filter(r => { const m = Math.abs(2 * r.p - 1); return m >= lo && m < hi; }), rs.length));
+	for (const [name, f] of [['|2p-1|>=0.9', r => Math.abs(2 * r.p - 1) >= 0.9 - 1e-9], ['|2p-1|>=0.94', r => Math.abs(2 * r.p - 1) >= 0.94 - 1e-9], ['|2p-1|>=0.98', r => Math.abs(2 * r.p - 1) >= 0.98 - 1e-9]]) res.push(bandRow(name, rs.filter(f), rs.length));
+	return res;
+}
+function bestThreshold(rs) {
+	const cands = [...new Set(rs.map(r => r.p))].sort((a, b) => a - b);
+	const ts = [0.0001]; for (let i = 0; i + 1 < cands.length; i++) ts.push((cands[i] + cands[i + 1]) / 2); ts.push(1.0001);
+	let best = { t: 0.5, f1: --- /tmp/jev-research/results/exp-block-classification/analyze.mjs
+// Analysis of the block-classification experiment. No API calls. Run: node analyze.mjs
+import { loadUnits, loadRaw, subsampleIds, DIR, shuffled } from './common.mjs';
+import { writeFileSync, readdirSync, readFileSync } from 'node:fs';
+
+const units = loadUnits();
+const byId = new Map(units.map(u => [u.id, u]));
+const sub = subsampleIds(units);
+const r3 = v => (v === null || v === undefined || Number.isNaN(v)) ? null : +v.toFixed(3);
+const pct = v => (v === null || v === undefined) ? 'n/a' : (100 * v).toFixed(1) + '%';
+const out = {};
+const lines = [];
+const log = (...a) => { const s = a.join(' '); lines.push(s); console.log(s); };
+function md(headers, rowsArr) { log('| ' + headers.join(' | ') + ' |'); log('|' + headers.map(() => '---').join('|') + '|'); for (const r of rowsArr) log('| ' + r.map(v => v === null || v === undefined ? 'n/a' : String(v)).join(' | ') + ' |'); log(''); }
+
+function rows(variant) {
+	return loadRaw(variant).filter(r => !r.error && typeof r.p_keep === 'number').map(r => {
+		const u = byId.get(r.id);
+		return { ...r, u, y: u.label === 'removed' ? 1 : 0, p: r.p_keep };
+	});
+}
+// Convention: predicted KEPT iff p_keep >= t; predicted REMOVED iff p_keep < t.
+const predRemovedAt = (r, t) => (r.p < t ? 1 : 0);
+
+function prfPred(rs, predFn, positive = 'removed') {
+	let tp = 0, fp = 0, fn = 0, tn = 0, n = 0;
+	const P = positive === 'removed' ? 1 : 0;
+	for (const r of rs) {
+		const pr = predFn(r); if (pr === null) continue; n++;
+		if (pr === P && r.y === P) tp++; else if (pr === P && r.y !== P) fp++; else if (pr !== P && r.y === P) fn++; else tn++;
+	}
+	const precision = tp + fp ? tp / (tp + fp) : 0, recall = tp + fn ? tp / (tp + fn) : 0;
+	const f1 = precision + recall ? 2 * precision * recall / (precision + recall) : 0;
+	return { n, tp, fp, fn, tn, precision: r3(precision), recall: r3(recall), f1: r3(f1), accuracy: n ? r3((tp + tn) / n) : null };
+}
+const prf = (rs, t, positive) => prfPred(rs, r => predRemovedAt(r, t), positive);
+
+function auroc(rs) {
+	const s = rs.map(r => ({ s: 1 - r.p, y: r.y })).sort((a, b) => a.s - b.s);
+	const ranks = new Array(s.length); let i = 0;
+	while (i < s.length) { let j = i; while (j + 1 < s.length && s[j + 1].s === s[i].s) j++; const avg = (i + j + 2) / 2; for (let k = i; k <= j; k++) ranks[k] = avg; i = j + 1; }
+	let n1 = 0, n0 = 0, sumR = 0;
+	s.forEach((x, k) => { if (x.y === 1) { n1++; sumR += ranks[k]; } else n0++; });
+	if (!n1 || !n0) return null;
+	return r3((sumR - n1 * (n1 + 1) / 2) / (n1 * n0));
+}
+function eceKeep(rs, bins = 10) {
+	const b = Array.from({ length: bins }, () => ({ n: 0, sumP: 0, kept: 0 }));
+	for (const r of rs) { const i = Math.min(bins - 1, Math.floor(r.p * bins)); b[i].n++; b[i].sumP += r.p; b[i].kept += 1 - r.y; }
+	let e = 0; const table = [];
+	b.forEach((x, i) => { const name = `${(i / bins).toFixed(1)}-${((i + 1) / bins).toFixed(1)}`; if (!x.n) { table.push({ bin: name, n: 0, mean_p_keep: null, frac_kept: null, gap: null }); return; } const mp = x.sumP / x.n, fk = x.kept / x.n; e += x.n / rs.length * Math.abs(mp - fk); table.push({ bin: name, n: x.n, mean_p_keep: r3(mp), frac_kept: r3(fk), gap: r3(fk - mp) }); });
+	return { ece: r3(e), table };
+}
+function eceConf(rs, bins = 10) {
+	const b = Array.from({ length: bins }, () => ({ n: 0, sumC: 0, correct: 0 }));
+	for (const r of rs) { const c = Math.max(r.p, 1 - r.p); const correct = predRemovedAt(r, 0.5) === r.y ? 1 : 0; const i = Math.min(bins - 1, Math.floor((c - 0.5) / 0.5 * bins)); b[i].n++; b[i].sumC += c; b[i].correct += correct; }
+	let e = 0; for (const x of b) if (x.n) e += x.n / rs.length * Math.abs(x.sumC / x.n - x.correct / x.n);
+	return r3(e);
+}
+const BANDS = [[0.8, 1.01, '0.8-1.0'], [0.6, 0.8, '0.6-0.8'], [0.4, 0.6, '0.4-0.6'], [0, 0.4, '0.0-0.4']];
+function bands(rs) {
+	const res = BANDS.map(([lo, hi, name]) => { const b = rs.filter(r => { const m = Math.abs(2 * r.p - 1); return m >= lo && m < hi; }); const err = b.filter(r => predRemovedAt(r, 0.5) !== r.y).length; return { band: name, n: b.length, coverage: r3(b.length / rs.length), accuracy: b.length ? r3(1 - err / b.length) : null, errors: err }; });
+	for (const [name, f] of [['|2p-1|>=0.9 (p<=0.05 or >=0.95)', r => Math.abs(2 * r.p - 1) >= 0.9], ['|2p-1|>=0.98 (p<=0.01 or >=0.99)', r => Math.abs(2 * r.p - 1) >= 0.98], ['p==0 or p==1', r => r.p === 0 || r.p === 1]]) {
+		const b = rs.filter(f); const err = b.filter(r => predRemovedAt(r, 0.5) !== r.y).length;
+		res.push({ band: name, n: b.length, coverage: r3(b.length / rs.length), accuracy: b.length ? r3(1 - err / b.length) : null, errors: err });
+	}
+	return res;
+}
+function bestThreshold(rs) {
+	const cands = [...new Set(rs.map(r => r.p))].sort((a, b) => a - b);
+	const ts = [0.0001]; for (let i = 0; i + 1 < cands.length; i++) ts.push((cands[i] + cands[i + 1]) / 2); ts.push(1.0001);
+	let best = { t: 0.5, f1: -1 };
+	for (const t of ts) { const m = prf(rs, t, 'removed'); if (m.f1 > best.f1 + 1e-9) best = { t, f1: m.f1 }; }
+	return best;
+}
+function splitHalves(rs, byFixture, seed = 7) {
+	if (!byFixture) { const sh = shuffled(rs, seed); const h = Math.floor(sh.length / 2); return [sh.slice(0, h), sh.slice(h)]; }
+	const fx = shuffled([...new Set(rs.map(r => r.fixture))], seed); const half = new Set(fx.slice(0, Math.floor(fx.length / 2)));
+	return [rs.filter(r => half.has(r.fixture)), rs.filter(r => !half.has(r.fixture))];
+}
+function tuned(rs, byFixture) {
+	const [A, B] = splitHalves(rs, byFixture);
+	const tA = bestThreshold(A), tB = bestThreshold(B);
+	const evalB = prf(B, tA.t), evalA = prf(A, tB.t);
+	const cross = new Map(); for (const r of A) cross.set(r.id, tB.t); for (const r of B) cross.set(r.id, tA.t);
+	return { split: byFixture ? 'by fixture' : 'by unit', foldA: { train_n: A.length, train_t: r3(tA.t), train_f1: tA.f1, test_n: B.length, test: evalB }, foldB: { train_n: B.length, train_t: r3(tB.t), train_f1: tB.f1, test_n: A.length, test: evalA }, mean_test_f1_removed: r3((evalA.f1 + evalB.f1) / 2), mean_test_accuracy: r3((evalA.accuracy + evalB.accuracy--- /tmp/jev-research/results/exp-block-classification/common.mjs
+// Shared definitions for the block-classification experiment.
+// NEVER log process.env.JEV_API_KEY. Run via: bash -ic 'node <script>.mjs'
+import { readFileSync, existsSync, appendFileSync, writeFileSync } from 'node:fs';
+
+export const DIR = '/tmp/jev-research/results/exp-block-classification';
+export const DATASET = '/tmp/jev-research/results/dataset/blocks.jsonl';
+export const MODEL = 'jev-1.14.0';
+export const SEED = 42;
+export const KEPT_SUBSAMPLE_N = 400;
+
+export function loadUnits() {
+	return readFileSync(DATASET, 'utf8').trim().split('\n').map(l => JSON.parse(l));
+}
+
+// mulberry32 seeded PRNG
+export function rng(seed) {
+	let a = seed >>> 0;
+	return function () {
+		a = (a + 0x6D2B79F5) >>> 0;
+		let t = a;
+		t = Math.imul(t ^ (t >>> 15), t | 1);
+		t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+		return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+	};
+}
+export function shuffled(arr, seed) {
+	const r = rng(seed);
+	const a = arr.slice();
+	for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+	return a;
+}
+
+/** V2/V3 subsample: all removed units + 400 random kept units (seeded). Saved to subsample-ids.json. */
+export function subsampleIds(units) {
+	const file = `${DIR}/subsample-ids.json`;
+	if (existsSync(file)) return new Set(JSON.parse(readFileSync(file, 'utf8')));
+	const removed = units.filter(u => u.label === 'removed').map(u => u.id);
+	const kept = shuffled(units.filter(u => u.label === 'kept').map(u => u.id), SEED).slice(0, KEPT_SUBSAMPLE_N);
+	const ids = [...removed, ...kept];
+	writeFileSync(file, JSON.stringify(ids, null, 0));
+	return new Set(ids);
+}
+
+export const KEEP_INSTRUCTIONS =
+	"Should this block be kept in a clean reader-mode view of the page's main article? " +
+	"Keep = it is part of the article's own body text, headings, images/figures, code, tables, quotes or footnotes. " +
+	"Do not keep = site navigation, ads, promotions, newsletter/subscribe or sign-in prompts, social sharing, " +
+	"related/recommended/more-stories links, comment sections, cookie/consent banners, author bylines, dates, " +
+	"tags/categories, breadcrumbs, read-time, or other page boilerplate.";
+
+export const KIND_CRITERIA = {
+	article_body: "Prose paragraphs, lists or quotes that are part of the article's own text",
+	heading: "A heading or title line of the article or one of its sections",
+	media_or_figure: "An image, figure, caption, video or audio embed that belongs to the article",
+	code_or_table: "A code block, code listing, or data table that belongs to the article",
+	footnotes_or_references: "Footnotes, citations, endnotes or a references list belonging to the article",
+	navigation_or_menu: "Site navigation, menus, breadcrumbs, skip links, table of contents, pagination or previous/next links",
+	promo_or_cta: "Advertisement, promotion, newsletter or subscribe prompt, sign-in prompt, app download or other call to action",
+	related_links_or_cards: "Related, recommended, popular, trending or more-stories links and article cards",
+	comments: "A comment section, comment thread or individual user comments and their headers",
+	byline_or_metadata: "Author byline, author bio, publish date, read time, tags, categories, share counts or similar page metadata",
+	cookie_or_consent: "Cookie, privacy or consent banner or notice",
+	other: "None of the above, or not enough information to tell",
+};
+
+export function questions() {
+	return {
+		keep: {
+			type: 'noul',
+			instructions: KEEP_INSTRUCTIONS,
+			criteria: {
+				true: "Keep: the block is part of the article's own content",
+				false: "Do not keep: the block is navigation, promotion, metadata, comments or other page boilerplate",
+			},
+		},
+		kind: {
+			type: 'choice',
+			instructions: "What kind of block is this, in the context of a web page that contains an article? Judge only from what is literally in the block.",
+			criteria: KIND_CRITERIA,
+		},
+	};
+}
+
+export function stateFor(variant, u) {
+	if (variant === 'v1' || variant === 'v1r') return u.html;
+	if (variant === 'v2') return u.text;
+	if (variant === 'v3') return { page_title: u.page_title, page_url: u.url, block_html: u.html };
+	throw new Error('unknown variant ' + variant);
+}
+
+export function outFile(variant) { return `${DIR}/raw-${variant}.jsonl`; }
+
+export function loadDone(variant) {
+	const f = outFile(variant);
+	const done = new Map();
+	if (!existsSync(f)) return done;
+	for (const line of readFileSync(f, 'utf8').split('\n')) {
+		if (!line.trim()) continue;
+		const r = JSON.parse(line);
+		if (!r.error) done.set(r.id, r);
+	}
+	return done;
+}
+
+export function appendResult(variant, rec) { appendFileSync(outFile(variant), JSON.stringify(rec) + '\n'); }
+
+export function loadRaw(variant) {
+	const f = outFile(variant);
+	if (!existsSync(f)) return [];
+	const byId = new Map();
+	for (const line of readFileSync(f, 'utf8').split('\n')) {
+		if (!line.trim()) continue;
+		const r = JSON.parse(line);
+		if (r.error && byId.has(r.id)) continue; // keep a successful record over an earlier error
+		byId.set(r.id, r);
+	}
+	return [...byId.values()];
+}
+--- /tmp/jev-research/results/exp-block-classification/judge-helper.mjs
+// Categorize every V1 disagreement by checking the unit text against tests/expected/<fixture>.md (human-reviewed).
+// No API calls. Writes v1-disagreement-categories.json.
+import { readFileSync, existsSync, writeFileSync } from 'node:fs';
+import { DIR } from './common.mjs';
+const REPO = '/home/alexi/git/defuddle';
+const errs = JSON.parse(readFileSync(`${DIR}/v1-all-disagreements.json`, 'utf8'));
+const units = new Map(readFileSync('/tmp/jev-research/results/dataset/blocks.jsonl', 'utf8').trim().split('\n').map(l => JSON.parse(l)).map(u => [u.id, u]));
+const norm = s => s.normalize('NFKC').toLowerCase().replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim();
+const expCache = new Map();
+function expected(fixture) {
+	if (expCache.has(fixture)) return expCache.get(fixture);
+	const f = `${REPO}/tests/expected/${fixture}.md`;
+	const raw = existsSync(f) ? readFileSync(f, 'utf8') : '';
+	const body = raw.replace(/^\s*```json[\s\S]*?```\s*/m, ''); // drop JSON preamble if fenced
+	const n = norm(body);
+	const v = { n, words: new Set(n.split(' ')), raw };
+	expCache.set(fixture, v);
+	return v;
+}
+const cats = {};
+const out = [];
+for (const e of errs) {
+	const u = units.get(e.id);
+	const ex = expected(e.fixture);
+	const uw = norm(u.text).split(' ').filter(w => w.length >= 3);
+	const bag = uw.length ? uw.filter(w => ex.words.has(w)).length / uw.length : 0;
+	const n = norm(u.text).split(' ');
+	let ngram = false; const k = Math.min(4, n.length);
+	for (let i = 0; i + k <= n.length && !ngram; i++) if (ex.n.includes(n.slice(i, i + k).join(' '))) ngram = true;
+	let cat;
+	const isTitle = u.hints.is_title || (u.tag === 'h1' && u.label === 'removed');
+	if (u.label === 'removed' && isTitle) cat = 'policy: page title (moved to frontmatter)';
+	else if (u.label === 'removed' && (u.hints.looks_byline || u.hints.looks_date)) cat = 'policy: byline/date (moved to frontmatter)';
+	else if (u.label === 'removed' && (ngram || bag >= 0.6)) cat = 'label artifact: text survives in transformed form (footnote/math/code/heading)';
+	else if (u.label === 'kept' && (e.kind === 'comments') && /comments--|ycombinator|reddit|mastodon/.test(e.fixture)) cat = 'page-type: comments page where comments ARE the content';
+	else if (u.label === 'kept' && /index|listing|blog-index/.test(e.fixture)) cat = 'page-type: index/listing page kept whole by retry cascade';
+	else if (u.label === 'kept' && u.extractor) cat = 'extractor page (gmail/x/github/chatgpt): kept by site extractor';
+	else if (u.label === 'removed' && u.hints.removal_step === 'removeHiddenElements') cat = 'hidden element (CSS/Tailwind hidden; invisible to Jev)';
+	else cat = 'genuine disagreement (needs judgment)';
+	cats[cat] = (cats[cat] || 0) + 1;
+	out.push({ ...e, bag_in_expected: +bag.toFixed(2), ngram_in_expected: ngram, category: cat });
+}
+console.log(JSON.stringify(cats, null, 1));
+console.log('total disagreements', errs.length, 'removed-but-jev-keeps', errs.filter(e => e.label === 'removed').length, 'kept-but-jev-removes', errs.filter(e => e.label === 'kept').length);
+const byLabel = {}; for (const o of out) { const k = o.label + ' :: ' + o.category; byLabel[k] = (byLabel[k] || 0) + 1; }
+console.log(JSON.stringify(byLabel, null, 1));
+console.log('\n--- genuine disagreements (all):');
+for (const o of out.filter(o => o.category.startsWith('genuine'))) console.log(`[${o.label}] p=${o.p_keep} kind=${o.kind} | ${o.fixture} | ${o.tag} ${o.path.slice(0, 70)} | w=${o.words} | ${o.removal_reason || '-'} | bag=${o.bag_in_expected} | "${o.snippet.slice(0, 120)}"`);
+console.log('\n--- top 40 with category:');
+for (const [i, o] of out.slice(0, 40).entries()) console.log(`${i + 1}. [${o.label}] p=${o.p_keep} | ${o.fixture} | ${o.category} | bag=${o.bag_in_expected} ngram=${o.ngram_in_expected}`);
+writeFileSync(`${DIR}/v1-disagreement-categories.json`, JSON.stringify(out, null, 1));
+--- /tmp/jev-research/results/exp-block-classification/relabel.mjs
+// Re-derive ground-truth labels for the existing 1,475 units with whitespace-correct text matching.
+// The original builder (/tmp/jev-research/build-block-dataset.mjs) used body.textContent of Defuddle's
+// output HTML, which glues adjacent block elements ("...YouTube UI↩That's to say..."), so short units
+// (headings, footnote items, list items) lost their shingles and were labeled 'removed' although the
+// human-reviewed tests/expected/<fixture>.md keeps them. This script recomputes coverage against
+// (a) Defuddle's output HTML with a space inserted after every tag and (b) the expected Markdown body
+// (JSON preamble stripped, link URLs/images/tags removed), both punctuation-insensitive.
+// No API calls. Run: node relabel.mjs   -> writes labels-corrected.jsonl and relabel-summary.json
+import { createRequire } from 'node:module';
+import { readFileSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+const require = createRequire(import.meta.url);
+const REPO = '/home/alexi/git/defuddle';
+const { Defuddle } = require(join(REPO, 'dist/node.js'));
+const { parseLinkedomHTML } = require(join(REPO, 'dist/utils/linkedom-compat.js'));
+const DIR = '/tmp/jev-research/results/exp-block-classification';
+const DATASET = '/tmp/jev-research/results/dataset/blocks.jsonl';
+
+const units = readFileSync(DATASET, 'utf8').trim().split('\n').map(l => JSON.parse(l));
+const byFixture = new Map();
+for (const u of units) { if (!byFixture.has(u.fixture)) byFixture.set(u.fixture, []); byFixture.get(u.fixture).push(u); }
+
+const norm = s => (s || '').normalize('NFKC').toLowerCase().replace(/[​‌‍﻿]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+const words = s => norm(s).split(' ').filter(Boolean);
+function shingles(ws, n = 5) { const out = []; for (let i = 0; i + n <= ws.length; i++) out.push(ws.slice(i, i + n).join(' ')); return out; }
+function spacedText(html) {
+	// insert a space after every tag so block/inline boundaries never glue words; drop script/style/svg/math annotations
+	const doc = parseLinkedomHTML(`<html><body>${html.replace(/>/g, '> ')}</body></html>`);
+	for (const el of Array.from(doc.querySelectorAll('script, style, noscript, template'))) el.remove();
+	return doc.body ? doc.body.textContent : '';
+}
+function mdBody(fixture) {
+	let raw = readFileSync(join(REPO, 'tests/expected', fixture + '.md'), 'utf8');
+	raw = raw.replace(/^\s*```json[\s\S]*?```\s*/m, '');
+	raw = raw.replace(/!\[([^\]]*)\]\([^)]*\)/g, ' $1 ')   // images -> alt
+		.replace(/\]\([^)]*\)/g, '] ')                       // links -> text
+		.replace(/<[^>]+>/g, ' ');                           // raw html tags
+	return raw;
+}
+function coverage(unitWords, textWordSet, textJoined) {
+	if (unitWords.length < 3) return null;
+	if (unitWords.length < 5) return textJoined.includes(' ' + unitWords.join(' ') + ' ') ? 1 : 0;
+	const sh = shingles(unitWords); let hit = 0; for (const s of sh) if (textWordSet.has(s)) hit++;
+	return hit / sh.length;
+}
+
+const silent = fn => { const c = { ...console }; console.log = console.info = console.warn = console.debug = () => {}; try { return fn(); } finally { Object.assign(console, c); } };
+const offlineFetch = async () => { throw new Error('network disabled'); };
+
+const out = [];
+const summary = { fixtures: 0, units: units.length, flips: { removed_to_kept: 0, kept_to_removed: 0, to_mixed: 0, unchanged: 0 }, policy: 0, mixed: 0, by_orig_label: {} };
+for (const [fixture, us] of byFixture) {
+	const html = readFileSync(join(REPO, 'tests/fixtures', fixture + '.html'), 'utf8');
+	const url = us[0].url;
+	const doc = parseLinkedomHTML(html, url);
+	const result = await silent(() => Defuddle(doc, url, { debug: true, fetch: offlineFetch }));
+	const outText = spacedText(result.content || '');
+	const outWords = words(outText); const outSet = new Set(shingles(outWords)); const outJoined = ' ' + outWords.join(' ') + ' ';
+	const md = mdBody(fixture);
+	const mdWords = words(md); const mdSet = new Set(shingles(mdWords)); const mdJoined = ' ' + mdWords.join(' ') + ' ';
+	const title = norm(result.title || us[0].page_title || '');
+	summary.fixtures++;
+	for (const u of us) {
+		const truncated = u.html.endsWith('<!-- truncated -->');
+		const uw = truncated ? words(u.text) : words(spacedText(u.html));
+		const covOut = coverage(uw, outSet, outJoined);
+		const covMd = coverage(uw, mdSet, mdJoined);
+		const cov = Math.max(covOut ?? 0, covMd ?? 0);
+		// <3 alphanumeric words after normalization (e.g. "int main() {", "Nat : Type"): cannot re-judge, keep the original label
+		const fallback = covOut === null && covMd === null;
+		let label = fallback ? u.label : cov >= 0.9 ? 'kept' : cov <= 0.1 ? 'removed' : 'mixed';
+		const nt = norm(u.text);
+		const isTitle = !!title && (nt === title || (uw.length <= 20 && nt.length > 10 && title.includes(nt)) || (u.tag === 'h1' && title.length > 0 && (title.includes(nt) || nt.includes(title))));
+		const policy = isTitle || u.hints.looks_byline || u.hints.looks_date;
+		const rec = { id: u.id, fixture, label_orig: u.label, label_corr: label, cov_out: covOut === null ? null : +covOut.toFixed(3), cov_md: covMd === null ? null : +covMd.toFixed(3), words_corr: uw.length, is_title: isTitle, policy, truncated, fallback };
+		out.push(rec);
+		if (label === 'mixed') { summary.flips.to_mixed++; summary.mixed++; }
+		else if (label === u.label) summary.flips.unchanged++;
+		else if (u.label === 'removed') summary.flips.removed_to_kept++;
+		else summary.flips.kept_to_removed++;
+		if (policy) summary.policy++;
+		const k = `${u.label} -> ${label}`; summary.by_orig_label[k] = (summary.by_orig_label[k] || 0) + 1;
+	}
+}
+writeFileSync(join(DIR, 'labels-corrected.jsonl'), out.map(r => JSON.stringify(r)).join('\n') + '\n');
+summary.corrected_counts = { kept: out.filter(r => r.label_corr === 'kept').length, removed: out.filter(r => r.label_corr === 'removed').length, mixed: out.filter(r => r.label_corr === 'mixed').length };
+summary.corrected_removed_policy = out.filter(r => r.label_corr === 'removed' && r.p--- /tmp/jev-research/results/exp-block-classification/run-variant.mjs
+// Usage: bash -ic 'node run-variant.mjs v1|v2|v3 [--limit N] [--ids id1,id2]'
+// Resumable: skips ids already present in raw-<variant>.jsonl. Appends one JSON line per unit.
+import { systemOne, mapConcurrent, usageTotals } from '/tmp/jev-research/jev.mjs';
+import { loadUnits, subsampleIds, questions, stateFor, loadDone, appendResult, MODEL, DIR } from './common.mjs';
+import { writeFileSync } from 'node:fs';
+
+const variant = process.argv[2];
+if (!['v1', 'v2', 'v3', 'v1r'].includes(variant)) throw new Error('variant required: v1|v2|v3');
+const limitIdx = process.argv.indexOf('--limit');
+const limit = limitIdx > 0 ? +process.argv[limitIdx + 1] : Infinity;
+const idsIdx = process.argv.indexOf('--ids');
+const onlyIds = idsIdx > 0 ? new Set(process.argv[idsIdx + 1].split(',')) : null;
+const concurrency = 8;
+
+const all = loadUnits();
+let units = all;
+if (variant !== 'v1') { const ids = subsampleIds(all); units = all.filter(u => ids.has(u.id)); }
+if (onlyIds) units = units.filter(u => onlyIds.has(u.id));
+const done = loadDone(variant);
+const todo = units.filter(u => !done.has(u.id)).slice(0, limit);
+console.log(`[${variant}] units=${units.length} done=${done.size} todo=${todo.length} model=${MODEL}`);
+
+const q = questions();
+let n = 0, errs = 0;
+const t0 = Date.now();
+await mapConcurrent(todo, async (u) => {
+	const state = stateFor(variant, u);
+	const stateChars = typeof state === 'string' ? state.length : JSON.stringify(state).length;
+	const rec = { variant, id: u.id, fixture: u.fixture, label: u.label, state_chars: stateChars, ts: new Date().toISOString() };
+	try {
+		const r = await systemOne({ state, questions: q, model: MODEL });
+		rec.model = r.model;
+		rec.p_keep = r.answers.keep.noul;
+		rec.kind = r.answers.kind.choice;
+		rec.kind_confidence = r.answers.kind.confidence;
+		rec.kind_probabilities = r.answers.kind.probabilities;
+		rec.usage = r.usage;
+		rec.latency_ms = r.latency_ms;
+	} catch (e) {
+		rec.error = String(e.message || e).slice(0, 300);
+		errs++;
+	}
+	appendResult(variant, rec);
+	n++;
+	if (n % 100 === 0) console.log(`[${variant}] ${n}/${todo.length} errors=${errs} ${((Date.now() - t0) / 1000).toFixed(0)}s`);
+}, concurrency);
+
+const totals = usageTotals();
+console.log(`[${variant}] finished ${n} units, errors=${errs}, wall=${((Date.now() - t0) / 1000).toFixed(1)}s`);
+console.log(JSON.stringify(totals));
+writeFileSync(`${DIR}/usage-${variant}-${Date.now()}.json`, JSON.stringify({ variant, units_run: n, errors: errs, wall_s: (Date.now() - t0) / 1000, ...totals }, null, 2));
+--- /tmp/jev-research/results/exp-block-classification/verify-api.mjs
+// Liveness/integrity check: re-query 12 units from raw-v1.jsonl (same state, same questions, pinned model)
+// and compare with the stored answers. ~12 calls, ~12k input tokens. NEVER logs the key.
+// Run: bash -ic 'node /tmp/jev-research/results/exp-block-classification/verify-api.mjs'
+import { systemOne, mapConcurrent, usageTotals } from '/tmp/jev-research/jev.mjs';
+import { loadUnits, loadRaw, questions, stateFor, MODEL, DIR, shuffled } from './common.mjs';
+import { writeFileSync } from 'node:fs';
+
+const units = loadUnits();
+const byId = new Map(units.map(u => [u.id, u]));
+const prev = new Map(loadRaw('v1').map(r => [r.id, r]));
+const pick = shuffled([...prev.keys()], 2026).slice(0, 12);
+const q = questions();
+const rows = await mapConcurrent(pick, async id => {
+	const u = byId.get(id);
+	const r = await systemOne({ state: stateFor('v1', u), questions: q, model: MODEL });
+	const p = prev.get(id);
+	return { id, model: r.model, p_keep_prev: p.p_keep, p_keep_now: r.answers.keep.noul, kind_prev: p.kind, kind_now: r.answers.kind.choice, latency_ms: r.latency_ms, input_tokens: r.usage?.input_tokens, prev_input_tokens: p.usage?.input_tokens };
+}, 4);
+const ok = rows.filter(r => !r.error);
+const dp = ok.map(r => Math.abs(r.p_keep_prev - r.p_keep_now));
+const res = { n: ok.length, errors: rows.length - ok.length, models: [...new Set(ok.map(r => r.model))], mean_abs_dp: +(dp.reduce((a, b) => a + b, 0) / Math.max(1, dp.length)).toFixed(4), max_abs_dp: Math.max(...dp), decision_flips_05: ok.filter(r => (r.p_keep_prev >= 0.5) !== (r.p_keep_now >= 0.5)).length, kind_flips: ok.filter(r => r.kind_prev !== r.kind_now).length, token_match: ok.filter(r => r.input_tokens === r.prev_input_tokens).length, rows, usage: usageTotals() };
+console.log(JSON.stringify(res, null, 1));
+writeFileSync(`${DIR}/verify-api-${Date.now()}.json`, JSON.stringify(res, null, 1));

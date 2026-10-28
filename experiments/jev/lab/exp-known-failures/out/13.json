@@ -1,0 +1,1495 @@
+{
+ "file": "pages/13.html",
+ "url": "https://community.grafana.com/t/change-grafana-ini-in-docker-install/27605",
+ "ms": 246,
+ "wordCount": 200,
+ "contentSelector": "html.text-size-normal.anon > body > noscript > div#main-outlet",
+ "title": "Change grafana.ini in docker install",
+ "contentChars": 4354,
+ "presence": {
+  "You can use Docker volumes": true
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\n  \"imports\": {\n    \"discourse/plugins/automation\": \"https://us1.discourse-cdn.com/grafana/assets/js/plugins/automation_main.RpkjzR-59f969qs.digested.js\",\n    "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.EmberENV ??= {};\n      window.EmberENV._DEFAULT_ASYNC_OBSERVERS = true;"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"@context\":\"http://schema.org\",\"@type\":\"QAPage\",\"name\":\"Change grafana.ini in docker install\",\"datePublished\":\"2020-03-24T13:50:48.264Z\",\"mainEntity\":{\"@type\":"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "html {\n      overflow-y: hidden !important;\n    }\n\n    /* user picked a theme where the \"regular\" scheme is dark */\n      /* user picked a theme a light scheme "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "const svg = `<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\"><!-- LCP candidate image ${\".\".repeat(5000)} --></"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "html {\n        overflow-y: revert !important;\n      }\n\n      #d-splash {\n        display: none;\n      }"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "html {\n        overflow-y: revert !important;\n      }\n\n      #d-splash {\n        display: none;\n      }"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"topic_27605\":\"{\\\"post_stream\\\":{\\\"posts\\\":[{\\\"id\\\":53797,\\\"name\\\":\\\"Patwiken\\\",\\\"username\\\":\\\"patwiken\\\",\\\"avatar_template\\\":\\\"https://avatars.discourse-cdn.c"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Grafana Labs Community Forums"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "docker"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Related topics\n  \n  \n    \n    \n      \n        \n          Topic\n          \n          Replies\n          Views\n          Activity\n        \n      \n      \n          "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Home \n        \n      \n      \n        \n          Categories \n        \n      \n      \n      \n        \n          Guidelines \n        \n      \n        \n          \n   "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Home \n        \n      \n      \n        \n          Categories \n        \n      \n      \n      \n        \n          Guidelines \n        \n      \n        \n          \n   "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Documentation\n\n      Ask Grot AI\n\n      Plugins\n      Get Grafana"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "/* Workaround for https://bugs.webkit.org/show_bug.cgi?id=209261 */"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: list-tags",
+   "selector": "list-tags",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-meta",
+   "selector": "post-meta",
+   "text": "patwiken\n                  \n                \n              \n\n\n\n              \n                  \n                    March 24, 2020,  1:50pm\n                  \n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-info",
+   "selector": "post-info",
+   "text": "March 24, 2020,  1:50pm\n                  \n                  \n              1"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-meta",
+   "selector": "post-meta",
+   "text": "agnestoulet1\n                  \n                \n              \n\n\n\n              \n                  \n                    March 25, 2020,  8:25am\n               "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-info",
+   "selector": "post-info",
+   "text": "March 25, 2020,  8:25am\n                  \n                  \n              2"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-meta",
+   "selector": "post-meta",
+   "text": "patwiken\n                  \n                \n              \n\n\n\n              \n                  \n                    March 25, 2020,  5:56pm\n                  \n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-info",
+   "selector": "post-info",
+   "text": "March 25, 2020,  5:56pm\n                  \n                  \n              3"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-meta",
+   "selector": "post-meta",
+   "text": "mfscorp\n                  \n                \n              \n\n\n\n              \n                  \n                    December 8, 2020, 11:36am\n                  "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-info",
+   "selector": "post-info",
+   "text": "December 8, 2020, 11:36am\n                  \n                  \n              4"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-meta",
+   "selector": "post-meta",
+   "text": "mvadu\n                  \n                \n              \n\n\n\n              \n                  \n                    February 1, 2021,  3:57am\n                  \n "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-info",
+   "selector": "post-info",
+   "text": "February 1, 2021,  3:57am\n                  \n                  \n              5"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-meta",
+   "selector": "post-meta",
+   "text": "waldomantilla\n                  \n                \n              \n\n\n\n              \n                  \n                    August 22, 2021,  6:57am\n             "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-info",
+   "selector": "post-info",
+   "text": "August 22, 2021,  6:57am\n                  \n                  \n              6"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: more-",
+   "selector": "more-",
+   "text": "Related topics"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: topic-list",
+   "selector": "topic-list",
+   "text": "Topic\n          \n          Replies\n          Views\n          Activity\n        \n      \n      \n          \n            \n              \n              \n             "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: topic-list",
+   "selector": "topic-list",
+   "text": "Topic\n          \n          Replies\n          Views\n          Activity\n        \n      \n      \n          \n            \n              \n              \n             "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: topic-list",
+   "selector": "topic-list",
+   "text": "How to use custom ini file for Grafana with Docker?\n              \n              \n                  \n                    \n                    \n                 "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: topic-list",
+   "selector": "topic-list",
+   "text": "I cannot load custom grafana.ini config file in docker-compose\n              \n              \n                  \n                    \n                    \n      "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: topic-list",
+   "selector": "topic-list",
+   "text": "Grafana as container - how to make grafana.ini available\n              \n              \n                  \n                    \n                    \n            "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: topic-list",
+   "selector": "topic-list",
+   "text": "Docker volumes & ENV config\n              \n              \n                  \n                    \n                    \n                      Configuration\n     "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: topic-list",
+   "selector": "topic-list",
+   "text": "When using a Docker install\n              \n              \n                  \n                    \n                    \n                      Configuration\n     "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -menu",
+   "selector": "-menu",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -menu",
+   "selector": "-menu",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": ""
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "trailing tag link block",
+   "text": "Mail Alert Contact Point"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "trailing tag link block",
+   "text": "Mail Alert Contact Point"
+  }
+ ],
+ "content": "<div id=\"main-outlet\" class=\"wrap\" role=\"main\">\n          \n            <div id=\"topic-title\">\n    \n\n      <div class=\"topic-category\">\n          <span>\n            <a href=\"https://community.grafana.com/c/support/33\" class=\"badge-wrapper bullet\">\n              <span class=\"badge-category-bg\"></span>\n              <span class=\"badge-category clear-badge\">\n                <span class=\"category-name\">Grafana</span>\n              </span>\n            </a>\n            \n          </span>\n          <span>\n            <a href=\"https://community.grafana.com/c/support/configuration/20\" class=\"badge-wrapper bullet\">\n              <span class=\"badge-category-bg\"></span>\n              <span class=\"badge-category clear-badge\">\n                <span class=\"category-name\">Configuration</span>\n              </span>\n            </a>\n            \n          </span>\n      </div>\n\n      <div class=\"topic-category\">\n        \n      </div>\n  </div>\n\n  \n\n    <div>\n      \n      \n      \n      \n\n      \n\n        <div>\n          \n\n\n          <div id=\"post_1\" data-qa-question=\"true\" class=\"topic-body crawler-post\">\n            \n            <div class=\"post\">\n              <p>I am using grafana with a basic docker installation. How can I change the grafana.ini file inside the docker to set up new logs level?</p>\n            </div>\n\n\n                <div class=\"crawler-linkback-list\">\n                    <div>\n                      <a href=\"https://community.grafana.com/t/custom-configuration-grafana-ini-docker/29553/4\">Custom configuration grafana.ini docker</a>\n                    </div>\n                </div>\n\n            \n\n\n          </div>\n          <div id=\"post_2\" class=\"topic-body crawler-post\">\n            \n            <div class=\"post\">\n              <p>Hi,</p>\n<p>You can use Docker volumes to map your local config file to docker file as below:</p>\n<pre><code>docker run --rm --mount type=bind,source=$PWD/custom.ini,target=/etc/grafana/grafana.ini -p 3000:3000 grafana/grafana</code></pre>\n<p>If it’s only for a small set of settings, you can also use environment variables:</p>\n<pre><code>docker run --rm -e \"GF_USERS_DEFAULT_THEME=light\" -p 3000:3000 grafana/grafana</code></pre>\n            </div>\n\n\n\n            \n\n\n          </div>\n          <div id=\"post_3\" class=\"topic-body crawler-post\">\n            \n            <div class=\"post\">\n              <p>Thanks, I used this in a docker compose file and it seems to be good</p>\n            </div>\n\n\n\n            \n\n\n          </div>\n          <div id=\"post_4\" class=\"topic-body crawler-post\">\n            \n            <div class=\"post\">\n              <p>hi Patwiken<br>\ni would like to do the same.<br>\ncan you share me what you entered in the compose file?</p>\n            </div>\n\n\n\n            \n\n\n          </div>\n          <div id=\"post_5\" class=\"topic-body crawler-post\">\n            \n            <div class=\"post\">\n              <p>You just use the config as another volume.</p>\n<pre><code>volumes:\n - ./volumes/grafana/data:/var/lib/grafana\n - ./volumes/grafana/log:/var/log/grafana\n - ./volumes/grafana/config/custom.ini:/etc/grafana/grafana.ini</code></pre>\n            </div>\n\n\n\n            \n\n\n          </div>\n          <div id=\"post_6\" class=\"topic-body crawler-post\">\n            \n            <div class=\"post\">\n              <p>Here is an example of how to include environmental variables to change the Grafana configuration using docker-compose. With this solved this issue #<a href=\"https://github.com/grafana/grafana/issues/36929\">https://github.com/grafana/grafana/issues/36929</a></p>\n<pre><code>version: '3.7'\nservices:\n  grafana:\n    image: grafana/grafana\n    container_name: grafana_container\n    restart: always\n    ports:\n      - 3000:3000\n    networks:\n      - monitoring_network\n    volumes:\n      - grafana-volume:/var/lib/grafana\n    environment:\n      - GF_LIVE_MAX_CONNECTIONS=0\n  influxdb:\n    image: influxdb:1.8.6\n    container_name: influxdb_container\n    restart: always\n    ports:\n      - 8086:8086\n    networks:\n      - monitoring_network\n    volumes:\n      - influxdb-volume:/var/lib/influxdb\nnetworks:\n  monitoring_network:\nvolumes:\n  grafana-volume:\n    external: true\n  influxdb-volume:\n    external: true</code></pre>\n            </div>\n\n\n                \n\n            \n\n\n          </div>\n\n        </div>\n    </div>\n\n\n    \n\n\n\n\n\n          \n        </div>",
+ "markdown": null
+}

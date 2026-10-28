@@ -1,0 +1,2307 @@
+[
+ {
+  "fixture": "author-contact-block",
+  "n": 3,
+  "removed": 2,
+  "kept": 1,
+  "words": 263,
+  "html": 3034,
+  "steps": {
+   "removeBySelector": 2
+  }
+ },
+ {
+  "fixture": "author-share-widget",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 237,
+  "html": 3073,
+  "steps": {}
+ },
+ {
+  "fixture": "callouts--obsidian-publish-callouts",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 109,
+  "html": 4686,
+  "steps": {}
+ },
+ {
+  "fixture": "code-blocks--chroma-linenums",
+  "n": 8,
+  "removed": 2,
+  "kept": 6,
+  "words": 92,
+  "html": 3935,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "code-blocks--hexo-br",
+  "n": 8,
+  "removed": 2,
+  "kept": 6,
+  "words": 45,
+  "html": 923,
+  "steps": {
+   "removeBySelector": 2
+  }
+ },
+ {
+  "fixture": "codeblocks--chatgpt-codemirror",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 18,
+  "html": 159,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "codeblocks--chroma-inline-linenums",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 32,
+  "html": 3575,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "codeblocks--chroma-line-spans",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 26,
+  "html": 1562,
+  "steps": {}
+ },
+ {
+  "fixture": "codeblocks--code-pre-nesting",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 40,
+  "html": 498,
+  "steps": {}
+ },
+ {
+  "fixture": "codeblocks--flex-row-gutter",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 26,
+  "html": 1580,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "codeblocks--hljs-header",
+  "n": 4,
+  "removed": 0,
+  "kept": 4,
+  "words": 42,
+  "html": 741,
+  "steps": {}
+ },
+ {
+  "fixture": "codeblocks--mintlify",
+  "n": 3,
+  "removed": 2,
+  "kept": 1,
+  "words": 287,
+  "html": 7258,
+  "steps": {
+   "removeBySelector": 1,
+   "scoreAndRemove": 1
+  }
+ },
+ {
+  "fixture": "codeblocks--pygments-lineno",
+  "n": 4,
+  "removed": 2,
+  "kept": 2,
+  "words": 22,
+  "html": 948,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "codeblocks--react-syntax-highlighter-linenums",
+  "n": 2,
+  "removed": 0,
+  "kept": 2,
+  "words": 15,
+  "html": 109,
+  "steps": {}
+ },
+ {
+  "fixture": "codeblocks--rehype-pretty-code",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 125,
+  "html": 1586,
+  "steps": {}
+ },
+ {
+  "fixture": "codeblocks--rehype-pretty-copy",
+  "n": 8,
+  "removed": 1,
+  "kept": 7,
+  "words": 127,
+  "html": 1375,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "codeblocks--rockthejvm.com-articles-kotlin-101-type-classes",
+  "n": 3,
+  "removed": 2,
+  "kept": 1,
+  "words": 278,
+  "html": 4454,
+  "steps": {
+   "removeBySelector": 2
+  }
+ },
+ {
+  "fixture": "codeblocks--rouge-linenums",
+  "n": 5,
+  "removed": 1,
+  "kept": 4,
+  "words": 58,
+  "html": 1941,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "codeblocks--stripe",
+  "n": 4,
+  "removed": 2,
+  "kept": 2,
+  "words": 188,
+  "html": 6315,
+  "steps": {
+   "removeBySelector": 2
+  }
+ },
+ {
+  "fixture": "comments--mastodon.social-@user-12345678",
+  "n": 13,
+  "removed": 6,
+  "kept": 7,
+  "words": 82,
+  "html": 6375,
+  "steps": {
+   "?": 6
+  }
+ },
+ {
+  "fixture": "comments--news.ycombinator.com-item-id=12345678",
+  "n": 10,
+  "removed": 6,
+  "kept": 4,
+  "words": 106,
+  "html": 2460,
+  "steps": {
+   "?": 6
+  }
+ },
+ {
+  "fixture": "comments--old.reddit.com-r-test-comments-abc123-test_post",
+  "n": 9,
+  "removed": 5,
+  "kept": 4,
+  "words": 68,
+  "html": 2044,
+  "steps": {
+   "?": 5
+  }
+ },
+ {
+  "fixture": "content-patterns--card-grid-stripped-headings",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 261,
+  "html": 2998,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "content-patterns--code-block-boilerplate-and-trailing-section",
+  "n": 19,
+  "removed": 0,
+  "kept": 19,
+  "words": 565,
+  "html": 6025,
+  "steps": {}
+ },
+ {
+  "fixture": "content-patterns--content-list-with-internal-links",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 135,
+  "html": 1067,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "content-patterns--heading-introduced-list",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 84,
+  "html": 1016,
+  "steps": {}
+ },
+ {
+  "fixture": "content-patterns--iso-date-and-read-time",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 176,
+  "html": 1363,
+  "steps": {}
+ },
+ {
+  "fixture": "content-patterns--leading-breadcrumb",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 237,
+  "html": 1603,
+  "steps": {}
+ },
+ {
+  "fixture": "content-patterns--live-blog-metadata",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 111,
+  "html": 1092,
+  "steps": {
+   "removeByContentPattern": 1
+  }
+ },
+ {
+  "fixture": "content-patterns--multi-image-row-midarticle",
+  "n": 6,
+  "removed": 0,
+  "kept": 6,
+  "words": 321,
+  "html": 3006,
+  "steps": {}
+ },
+ {
+  "fixture": "content-patterns--non-semantic-hero-header",
+  "n": 11,
+  "removed": 10,
+  "kept": 1,
+  "words": 231,
+  "html": 2700,
+  "steps": {
+   "removeBySelector": 7,
+   "removeByContentPattern": 3
+  }
+ },
+ {
+  "fixture": "content-patterns--social-counter-link",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 159,
+  "html": 1218,
+  "steps": {}
+ },
+ {
+  "fixture": "content-patterns--social-engagement-counter",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 82,
+  "html": 1038,
+  "steps": {}
+ },
+ {
+  "fixture": "content-patterns--socket-dev-blog",
+  "n": 4,
+  "removed": 3,
+  "kept": 1,
+  "words": 238,
+  "html": 2870,
+  "steps": {
+   "removeByContentPattern": 1,
+   "removeBySelector": 2
+  }
+ },
+ {
+  "fixture": "content-patterns--table-of-contents",
+  "n": 46,
+  "removed": 1,
+  "kept": 45,
+  "words": 321,
+  "html": 3868,
+  "steps": {
+   "removeByContentPattern": 1
+  }
+ },
+ {
+  "fixture": "content-patterns--trailing-related-posts",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 93,
+  "html": 1189,
+  "steps": {
+   "removeByContentPattern": 1
+  }
+ },
+ {
+  "fixture": "content-patterns--trailing-subscribe-after-footnotes",
+  "n": 8,
+  "removed": 1,
+  "kept": 7,
+  "words": 430,
+  "html": 2995,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "custom-elements--swiper-carousel",
+  "n": 2,
+  "removed": 0,
+  "kept": 2,
+  "words": 10,
+  "html": 77,
+  "steps": {}
+ },
+ {
+  "fixture": "elementor--archive-page",
+  "n": 8,
+  "removed": 2,
+  "kept": 6,
+  "words": 578,
+  "html": 12545,
+  "steps": {
+   "scoreAndRemove": 1,
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "elements--base64-placeholder-removal",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 66,
+  "html": 1017,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--bootstrap-alerts",
+  "n": 7,
+  "removed": 1,
+  "kept": 6,
+  "words": 37,
+  "html": 514,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "elements--br-between-blocks",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 51,
+  "html": 545,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--complex-tables",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 120,
+  "html": 1808,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--data-table",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 53,
+  "html": 813,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--embedded-videos",
+  "n": 5,
+  "removed": 1,
+  "kept": 4,
+  "words": 20,
+  "html": 149,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "elements--empty-p-br",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 13,
+  "html": 120,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "elements--empty-table",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 48,
+  "html": 519,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--farsi-zwnj",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 108,
+  "html": 985,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--figure-content-wrapper",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 33,
+  "html": 617,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--hugo-admonitions",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 47,
+  "html": 1429,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--image-dedup",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 83,
+  "html": 1475,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--javascript-links",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 58,
+  "html": 730,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--lazy-image",
+  "n": 5,
+  "removed": 0,
+  "kept": 5,
+  "words": 306,
+  "html": 6587,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--lightbox-image-dedup",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 83,
+  "html": 1131,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--nbsp-handling",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 29,
+  "html": 267,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--srcset-normalization",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 78,
+  "html": 1026,
+  "steps": {}
+ },
+ {
+  "fixture": "elements--svg-placeholder-lazy-image",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 174,
+  "html": 2500,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "elements--whitespace-newlines",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 65,
+  "html": 636,
+  "steps": {}
+ },
+ {
+  "fixture": "entry-point--js-article-content",
+  "n": 11,
+  "removed": 10,
+  "kept": 1,
+  "words": 626,
+  "html": 6361,
+  "steps": {
+   "removeBySelector": 5,
+   "scoreAndRemove": 1,
+   "?": 4
+  }
+ },
+ {
+  "fixture": "extractor--chatgpt-citations",
+  "n": 36,
+  "removed": 1,
+  "kept": 35,
+  "words": 611,
+  "html": 8264,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "extractor--chatgpt-post-thought-content",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 44,
+  "html": 584,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "eyebrow--linked-category",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 294,
+  "html": 2365,
+  "steps": {}
+ },
+ {
+  "fixture": "eyebrow--paragraph-label",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 233,
+  "html": 1831,
+  "steps": {}
+ },
+ {
+  "fixture": "eyebrow--spans-category",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 254,
+  "html": 1896,
+  "steps": {}
+ },
+ {
+  "fixture": "eyebrow--wrapper-with-icon",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 263,
+  "html": 1942,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--aside-ol-start",
+  "n": 5,
+  "removed": 0,
+  "kept": 5,
+  "words": 61,
+  "html": 751,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--bold-sup-trailing",
+  "n": 6,
+  "removed": 1,
+  "kept": 5,
+  "words": 43,
+  "html": 392,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "footnotes--br-separated-named-anchors",
+  "n": 5,
+  "removed": 1,
+  "kept": 4,
+  "words": 70,
+  "html": 635,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "footnotes--child-anchor-id",
+  "n": 2,
+  "removed": 0,
+  "kept": 2,
+  "words": 19,
+  "html": 163,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--easy-footnotes-wrapper",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 157,
+  "html": 2369,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--external-labeled-section",
+  "n": 2,
+  "removed": 0,
+  "kept": 2,
+  "words": 61,
+  "html": 635,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--google-docs-ftnt",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 97,
+  "html": 828,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "footnotes--heading-notes",
+  "n": 6,
+  "removed": 3,
+  "kept": 3,
+  "words": 30,
+  "html": 292,
+  "steps": {
+   "?": 3
+  }
+ },
+ {
+  "fixture": "footnotes--hidden-aside-data-definition",
+  "n": 4,
+  "removed": 0,
+  "kept": 4,
+  "words": 98,
+  "html": 932,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--hidden-section",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 40,
+  "html": 795,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--hr-continuation",
+  "n": 6,
+  "removed": 2,
+  "kept": 4,
+  "words": 30,
+  "html": 294,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "footnotes--hr-strong-numbered",
+  "n": 7,
+  "removed": 3,
+  "kept": 4,
+  "words": 33,
+  "html": 337,
+  "steps": {
+   "?": 3
+  }
+ },
+ {
+  "fixture": "footnotes--hr-sup-numbered",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 20,
+  "html": 190,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "footnotes--inline-footnote-span",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 14,
+  "html": 123,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--labeled-section-ol",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 55,
+  "html": 622,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "footnotes--maggieappleton.com-xanadu-patterns",
+  "n": 101,
+  "removed": 20,
+  "kept": 81,
+  "words": 2514,
+  "html": 48294,
+  "steps": {
+   "removeBySelector": 6,
+   "scoreAndRemove": 4,
+   "?": 10
+  }
+ },
+ {
+  "fixture": "footnotes--named-anchor",
+  "n": 5,
+  "removed": 0,
+  "kept": 5,
+  "words": 110,
+  "html": 1085,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--nested-prose",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 22,
+  "html": 198,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "footnotes--no-false-positive-equation-refs",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 84,
+  "html": 778,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--numeric-anchor-id",
+  "n": 2,
+  "removed": 0,
+  "kept": 2,
+  "words": 29,
+  "html": 390,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--p-class-footnote",
+  "n": 3,
+  "removed": 0,
+  "kept": 3,
+  "words": 44,
+  "html": 324,
+  "steps": {}
+ },
+ {
+  "fixture": "footnotes--pulldown-cmark-footnote-definition",
+  "n": 5,
+  "removed": 1,
+  "kept": 4,
+  "words": 109,
+  "html": 820,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "footnotes--sidenote-inline-with-list",
+  "n": 3,
+  "removed": 2,
+  "kept": 1,
+  "words": 17,
+  "html": 318,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "footnotes--span-fnref-colon",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 23,
+  "html": 442,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "footnotes--wikipedia-references",
+  "n": 5,
+  "removed": 3,
+  "kept": 2,
+  "words": 68,
+  "html": 1201,
+  "steps": {
+   "removeByContentPattern": 2,
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "footnotes--word-ftn-ftnref",
+  "n": 2,
+  "removed": 2,
+  "kept": 0,
+  "words": 12,
+  "html": 203,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "footnotes--wp-block-footnotes",
+  "n": 3,
+  "removed": 0,
+  "kept": 3,
+  "words": 85,
+  "html": 1098,
+  "steps": {}
+ },
+ {
+  "fixture": "gated-content--cookie-consent",
+  "n": 6,
+  "removed": 5,
+  "kept": 1,
+  "words": 488,
+  "html": 4649,
+  "steps": {
+   "removeBySelector": 5
+  }
+ },
+ {
+  "fixture": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+  "n": 54,
+  "removed": 9,
+  "kept": 45,
+  "words": 3811,
+  "html": 51646,
+  "steps": {
+   "removeBySelector": 6,
+   "?": 3
+  }
+ },
+ {
+  "fixture": "general--apnews-link-enhancement",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 107,
+  "html": 915,
+  "steps": {}
+ },
+ {
+  "fixture": "general--appendix-heading",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 116,
+  "html": 961,
+  "steps": {}
+ },
+ {
+  "fixture": "general--back-nav-link",
+  "n": 5,
+  "removed": 2,
+  "kept": 3,
+  "words": 79,
+  "html": 569,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "general--cp4space-jordan-algebra",
+  "n": 23,
+  "removed": 7,
+  "kept": 16,
+  "words": 490,
+  "html": 6199,
+  "steps": {
+   "removeBySelector": 6,
+   "?": 1
+  }
+ },
+ {
+  "fixture": "general--daringfireball.net-2025-02-the_iphone_16e",
+  "n": 28,
+  "removed": 5,
+  "kept": 23,
+  "words": 2101,
+  "html": 16165,
+  "steps": {
+   "removeBySelector": 4,
+   "?": 1
+  }
+ },
+ {
+  "fixture": "general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array",
+  "n": 10,
+  "removed": 1,
+  "kept": 9,
+  "words": 332,
+  "html": 2820,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "general--github.com-issue-56",
+  "n": 11,
+  "removed": 10,
+  "kept": 1,
+  "words": 684,
+  "html": 31793,
+  "steps": {
+   "removeHiddenElements": 1,
+   "removeBySelector": 8,
+   "?": 1
+  }
+ },
+ {
+  "fixture": "general--github.com-test-owner-test-repo-pull-42",
+  "n": 8,
+  "removed": 4,
+  "kept": 4,
+  "words": 128,
+  "html": 3287,
+  "steps": {
+   "?": 4
+  }
+ },
+ {
+  "fixture": "general--inline-comments-and-link-lists",
+  "n": 13,
+  "removed": 3,
+  "kept": 10,
+  "words": 177,
+  "html": 1918,
+  "steps": {
+   "?": 1,
+   "removeBySelector": 1,
+   "removeByContentPattern": 1
+  }
+ },
+ {
+  "fixture": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+  "n": 213,
+  "removed": 23,
+  "kept": 190,
+  "words": 11950,
+  "html": 122234,
+  "steps": {
+   "removeBySelector": 5,
+   "?": 18
+  }
+ },
+ {
+  "fixture": "general--multi-article-portfolio",
+  "n": 3,
+  "removed": 2,
+  "kept": 1,
+  "words": 216,
+  "html": 2408,
+  "steps": {
+   "removeBySelector": 2
+  }
+ },
+ {
+  "fixture": "general--news.ycombinator.com-item-id=12345678",
+  "n": 3,
+  "removed": 2,
+  "kept": 1,
+  "words": 55,
+  "html": 1682,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "general--obsidian-publish-cjk",
+  "n": 4,
+  "removed": 3,
+  "kept": 1,
+  "words": 16,
+  "html": 1253,
+  "steps": {
+   "removeBySelector": 3
+  }
+ },
+ {
+  "fixture": "general--obsidian.md-blog-verify-obsidian-sync-encryption",
+  "n": 25,
+  "removed": 6,
+  "kept": 19,
+  "words": 891,
+  "html": 17075,
+  "steps": {
+   "removeBySelector": 2,
+   "removeHiddenElements": 1,
+   "?": 1,
+   "scoreAndRemove": 2
+  }
+ },
+ {
+  "fixture": "general--react-streaming-ssr",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 232,
+  "html": 2011,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "general--scp-wiki.wikidot.com-scp-9935",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 234,
+  "html": 3929,
+  "steps": {}
+ },
+ {
+  "fixture": "general--stephango.com-buy-wisely",
+  "n": 43,
+  "removed": 5,
+  "kept": 38,
+  "words": 1276,
+  "html": 10931,
+  "steps": {
+   "removeBySelector": 3,
+   "?": 2
+  }
+ },
+ {
+  "fixture": "general--substack-app",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 498,
+  "html": 12038,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "general--substack-custom-domain",
+  "n": 7,
+  "removed": 2,
+  "kept": 5,
+  "words": 170,
+  "html": 1400,
+  "steps": {
+   "removeByContentPattern": 1,
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "general--substack-note-permalink",
+  "n": 4,
+  "removed": 3,
+  "kept": 1,
+  "words": 45,
+  "html": 1462,
+  "steps": {
+   "?": 3
+  }
+ },
+ {
+  "fixture": "general--substack-note",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 23,
+  "html": 788,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "general--svg-content-preservation",
+  "n": 8,
+  "removed": 3,
+  "kept": 5,
+  "words": 93,
+  "html": 978,
+  "steps": {
+   "?": 1,
+   "removeHiddenElements": 1,
+   "removeByContentPattern": 1
+  }
+ },
+ {
+  "fixture": "general--svg-external-css-fallback",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 47,
+  "html": 317,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "general--tailwind-hidden-blog-index",
+  "n": 15,
+  "removed": 6,
+  "kept": 9,
+  "words": 160,
+  "html": 2351,
+  "steps": {
+   "removeBySelector": 2,
+   "removeHiddenElements": 4
+  }
+ },
+ {
+  "fixture": "general--trailing-cta-newsletter",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 316,
+  "html": 2384,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "general--wikipedia-ipa-pronunciation",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 218,
+  "html": 1806,
+  "steps": {}
+ },
+ {
+  "fixture": "general--wikipedia",
+  "n": 37,
+  "removed": 21,
+  "kept": 16,
+  "words": 379,
+  "html": 13924,
+  "steps": {
+   "removeBySelector": 7,
+   "?": 14
+  }
+ },
+ {
+  "fixture": "general--www.figma.com-blog-introducing-codex-to-figma",
+  "n": 28,
+  "removed": 8,
+  "kept": 20,
+  "words": 949,
+  "html": 24684,
+  "steps": {
+   "removeBySelector": 4,
+   "removeHiddenElements": 1,
+   "?": 2,
+   "scoreAndRemove": 1
+  }
+ },
+ {
+  "fixture": "general--x.com-article-2026-02-13",
+  "n": 43,
+  "removed": 17,
+  "kept": 26,
+  "words": 893,
+  "html": 48373,
+  "steps": {
+   "?": 17
+  }
+ },
+ {
+  "fixture": "general--x.com-article",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 57,
+  "html": 1112,
+  "steps": {}
+ },
+ {
+  "fixture": "gmail--mail.google.com-mail-u-0-thread",
+  "n": 13,
+  "removed": 5,
+  "kept": 8,
+  "words": 170,
+  "html": 3444,
+  "steps": {
+   "?": 5
+  }
+ },
+ {
+  "fixture": "headings--fragment-url-not-permalink",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 109,
+  "html": 997,
+  "steps": {}
+ },
+ {
+  "fixture": "headings--permalink-title-match",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 55,
+  "html": 447,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "headings--testid-article-header",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 103,
+  "html": 1257,
+  "steps": {}
+ },
+ {
+  "fixture": "hidden--nodes",
+  "n": 4,
+  "removed": 0,
+  "kept": 4,
+  "words": 464,
+  "html": 2833,
+  "steps": {}
+ },
+ {
+  "fixture": "hidden--visibility",
+  "n": 3,
+  "removed": 0,
+  "kept": 3,
+  "words": 108,
+  "html": 874,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--106-menu-id",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 70,
+  "html": 579,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "issues--114-leading-hr",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 86,
+  "html": 659,
+  "steps": {
+   "removeByContentPattern": 1
+  }
+ },
+ {
+  "fixture": "issues--120-dhammatalks-footnotes",
+  "n": 46,
+  "removed": 4,
+  "kept": 42,
+  "words": 2227,
+  "html": 19297,
+  "steps": {
+   "removeBySelector": 3,
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--131-category-links",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 34,
+  "html": 338,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--132-hero-class",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 26,
+  "html": 196,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--136-time-element",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 163,
+  "html": 1367,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--141-arxiv-equation-tables",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 31,
+  "html": 2228,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--142-arxiv-multi-citations",
+  "n": 4,
+  "removed": 0,
+  "kept": 4,
+  "words": 73,
+  "html": 680,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--143-arxiv-cross-references",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 35,
+  "html": 844,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--144-arxiv-footnote-marks",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 32,
+  "html": 1155,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--159-lean-heading-permalink-emoji",
+  "n": 4,
+  "removed": 2,
+  "kept": 2,
+  "words": 52,
+  "html": 567,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "issues--159-lean-verso-code-blocks",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 118,
+  "html": 1181,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--159-lean-verso-empty-line-preserved",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 43,
+  "html": 972,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--159-lean-verso-grouped-blocks",
+  "n": 10,
+  "removed": 4,
+  "kept": 6,
+  "words": 94,
+  "html": 2216,
+  "steps": {
+   "?": 4
+  }
+ },
+ {
+  "fixture": "issues--159-lean-verso-missing-section-gap",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 52,
+  "html": 774,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--161-x-status-url-author",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 13,
+  "html": 300,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--162-aria-hidden-main-content",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 89,
+  "html": 836,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--167-partial-selector-inside-code",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 96,
+  "html": 1094,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--168-links-inside-inline-code",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 72,
+  "html": 871,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--169-svg-classname-crash",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 52,
+  "html": 388,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--196-og-title-brand-name",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 77,
+  "html": 520,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--217-writerside-docs",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 41,
+  "html": 1525,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--218-footnote-wrapper-text-lost",
+  "n": 5,
+  "removed": 2,
+  "kept": 3,
+  "words": 81,
+  "html": 736,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "issues--221-nextjs-noscript-images",
+  "n": 3,
+  "removed": 0,
+  "kept": 3,
+  "words": 15,
+  "html": 110,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--227-noscript-lazy-images",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 197,
+  "html": 3356,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--232-dismiss-in-hidden-content",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 83,
+  "html": 1197,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "issues--254-empty-video",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 80,
+  "html": 658,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--263-buttons-in-paragraphs",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 54,
+  "html": 1295,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "issues--272-x-localized-conversation-timeline",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 22,
+  "html": 386,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--280-texinfo-footnotes",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 302,
+  "html": 2810,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "issues--284-table-cell-header-scoring",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 135,
+  "html": 1306,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--285-tag-like-title-escaping",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 100,
+  "html": 1165,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--286-generic-alt-image-dedup",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 166,
+  "html": 1427,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--296-oreilly-noteref-footnotes",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 221,
+  "html": 1873,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--300-nested-layout-tables",
+  "n": 3,
+  "removed": 0,
+  "kept": 3,
+  "words": 75,
+  "html": 1208,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--361-escaped-id",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 169,
+  "html": 1258,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--361-shadow-selector-stability",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 169,
+  "html": 1246,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--361-special-class-selectors",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 169,
+  "html": 1249,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--361-tailwind-ancestor",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 170,
+  "html": 1286,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "issues--366-mixed-numbers",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 225,
+  "html": 1740,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--366-screen-reader-links",
+  "n": 7,
+  "removed": 2,
+  "kept": 5,
+  "words": 152,
+  "html": 1262,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "issues--374-explicit-image-sources",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 40,
+  "html": 667,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--374-image-source",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 40,
+  "html": 559,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--374-invalid-lazy-source",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 39,
+  "html": 757,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--374-lazy-source-precedence",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 44,
+  "html": 1292,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--374-lazy-srcset-placeholder",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 36,
+  "html": 699,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--374-unrelated-image-metadata",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 39,
+  "html": 906,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--footnote-id-with-quote",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 153,
+  "html": 1215,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--header-with-subtitle-p",
+  "n": 3,
+  "removed": 2,
+  "kept": 1,
+  "words": 235,
+  "html": 1758,
+  "steps": {
+   "removeEyebrowLabel": 1,
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "issues--header-wraps-content",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 268,
+  "html": 2278,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--pascalcase-section-id-partial-match",
+  "n": 8,
+  "removed": 2,
+  "kept": 6,
+  "words": 606,
+  "html": 4073,
+  "steps": {
+   "?": 1,
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "issues--preferred-async-empty",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 65,
+  "html": 487,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "issues--react-streaming-ssr-colon-id",
+  "n": 3,
+  "removed": 2,
+  "kept": 1,
+  "words": 260,
+  "html": 1952,
+  "steps": {
+   "removeBySelector": 2
+  }
+ },
+ {
+  "fixture": "issues--sidebar-toggle-checkbox",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 82,
+  "html": 713,
+  "steps": {}
+ },
+ {
+  "fixture": "issues--span-with-block-children-and-schema",
+  "n": 4,
+  "removed": 3,
+  "kept": 1,
+  "words": 144,
+  "html": 2262,
+  "steps": {
+   "removeBySelector": 2,
+   "?": 1
+  }
+ },
+ {
+  "fixture": "listing--news.ycombinator.com-news",
+  "n": 6,
+  "removed": 5,
+  "kept": 1,
+  "words": 57,
+  "html": 1883,
+  "steps": {
+   "?": 5
+  }
+ },
+ {
+  "fixture": "math--equation-table-mathml",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 41,
+  "html": 946,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "math--katex-centraliser",
+  "n": 18,
+  "removed": 8,
+  "kept": 10,
+  "words": 212,
+  "html": 26057,
+  "steps": {
+   "removeBySelector": 6,
+   "?": 2
+  }
+ },
+ {
+  "fixture": "math--katex-data-math",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 19,
+  "html": 2990,
+  "steps": {}
+ },
+ {
+  "fixture": "math--katex",
+  "n": 10,
+  "removed": 2,
+  "kept": 8,
+  "words": 149,
+  "html": 8317,
+  "steps": {
+   "removeBySelector": 1,
+   "?": 1
+  }
+ },
+ {
+  "fixture": "math--latex-image-services",
+  "n": 1,
+  "removed": 1,
+  "kept": 0,
+  "words": 16,
+  "html": 450,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "math--mathjax-chtml-no-assistive",
+  "n": 8,
+  "removed": 0,
+  "kept": 8,
+  "words": 103,
+  "html": 706,
+  "steps": {}
+ },
+ {
+  "fixture": "math--mathjax-svg",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 28,
+  "html": 1938,
+  "steps": {}
+ },
+ {
+  "fixture": "math--mathjax-tagged-equation",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 51,
+  "html": 379,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "math--mathjax-tex-scripts",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 8,
+  "html": 66,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "math--mathjax",
+  "n": 8,
+  "removed": 0,
+  "kept": 8,
+  "words": 55,
+  "html": 430,
+  "steps": {}
+ },
+ {
+  "fixture": "math--raw-latex",
+  "n": 8,
+  "removed": 4,
+  "kept": 4,
+  "words": 67,
+  "html": 472,
+  "steps": {
+   "?": 4
+  }
+ },
+ {
+  "fixture": "math--small-equation-image",
+  "n": 4,
+  "removed": 1,
+  "kept": 3,
+  "words": 34,
+  "html": 239,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "math--temml",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 68,
+  "html": 4046,
+  "steps": {}
+ },
+ {
+  "fixture": "math--wikipedia-mathml",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 9,
+  "html": 787,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "metadata--295-header-date-above-title",
+  "n": 6,
+  "removed": 3,
+  "kept": 3,
+  "words": 103,
+  "html": 1079,
+  "steps": {
+   "removeBySelector": 2,
+   "?": 1
+  }
+ },
+ {
+  "fixture": "metadata--295-suggested-post-date",
+  "n": 6,
+  "removed": 3,
+  "kept": 3,
+  "words": 102,
+  "html": 983,
+  "steps": {
+   "?": 2,
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "metadata--author-by-prefix-and-url",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 61,
+  "html": 493,
+  "steps": {}
+ },
+ {
+  "fixture": "metadata--date-adjacent-category-link",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 114,
+  "html": 984,
+  "steps": {}
+ },
+ {
+  "fixture": "metadata--email-style-header-block",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 87,
+  "html": 826,
+  "steps": {}
+ },
+ {
+  "fixture": "metadata--h1-sibling-byline",
+  "n": 5,
+  "removed": 2,
+  "kept": 3,
+  "words": 113,
+  "html": 903,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "metadata--multi-script-values",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 22,
+  "html": 284,
+  "steps": {}
+ },
+ {
+  "fixture": "metadata--placeholder-author-and-duplicate-published",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 64,
+  "html": 613,
+  "steps": {}
+ },
+ {
+  "fixture": "metadata--placeholder-values",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 64,
+  "html": 490,
+  "steps": {}
+ },
+ {
+  "fixture": "metadata--rel-author-in-bio-container",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 159,
+  "html": 1465,
+  "steps": {
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "related--inline-related-stories-block",
+  "n": 9,
+  "removed": 2,
+  "kept": 7,
+  "words": 357,
+  "html": 3066,
+  "steps": {
+   "?": 1,
+   "removeByContentPattern": 1
+  }
+ },
+ {
+  "fixture": "scoring--related-posts-byline",
+  "n": 3,
+  "removed": 2,
+  "kept": 1,
+  "words": 297,
+  "html": 3310,
+  "steps": {
+   "scoreAndRemove": 2
+  }
+ },
+ {
+  "fixture": "scoring--table-with-links",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 84,
+  "html": 2387,
+  "steps": {}
+ },
+ {
+  "fixture": "security--markdown-image-escaping",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 29,
+  "html": 215,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "security--math-literal-text",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 28,
+  "html": 203,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "selectors--arm-newsroom",
+  "n": 9,
+  "removed": 7,
+  "kept": 2,
+  "words": 237,
+  "html": 3507,
+  "steps": {
+   "removeBySelector": 5,
+   "?": 1,
+   "removeByContentPattern": 1
+  }
+ },
+ {
+  "fixture": "selectors--logo-substring-wrapper",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 524,
+  "html": 3475,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "small-images--svg-icon-viewbox",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 70,
+  "html": 695,
+  "steps": {}
+ },
+ {
+  "fixture": "standardize--span-data-as-paragraph",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 98,
+  "html": 842,
+  "steps": {}
+ },
+ {
+  "fixture": "table-layout--blogger-two-column",
+  "n": 5,
+  "removed": 2,
+  "kept": 3,
+  "words": 102,
+  "html": 1814,
+  "steps": {
+   "?": 2
+  }
+ },
+ {
+  "fixture": "table-layout--paulgraham.com-makersschedule",
+  "n": 3,
+  "removed": 1,
+  "kept": 2,
+  "words": 30,
+  "html": 3759,
+  "steps": {
+   "?": 1
+  }
+ },
+ {
+  "fixture": "table-layout--peripheral-tables",
+  "n": 27,
+  "removed": 2,
+  "kept": 25,
+  "words": 1460,
+  "html": 12006,
+  "steps": {
+   "?": 1,
+   "removeBySelector": 1
+  }
+ },
+ {
+  "fixture": "table-layout--single-column",
+  "n": 1,
+  "removed": 0,
+  "kept": 1,
+  "words": 31,
+  "html": 531,
+  "steps": {}
+ },
+ {
+  "fixture": "thin-section-before-see-also",
+  "n": 2,
+  "removed": 1,
+  "kept": 1,
+  "words": 163,
+  "html": 1896,
+  "steps": {
+   "removeBySelector": 1
+  }
+ }
+]

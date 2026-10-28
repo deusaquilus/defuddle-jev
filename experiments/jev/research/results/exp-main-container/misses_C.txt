@@ -1,0 +1,173 @@
+### author-share-widget  [C] htmlBytes=3961 n=2 truth=c2 (shingle+shingle_nocode+words) jev=none_of_these@conf0.37 probs={"c1":0.01,"c2":0.41,"none_of_these":0.58} defuddle=c2 relation=none_of_these
+  title: Blog Post Title | url: https://author-share-widget | contentSelector: html > body > div#__next > main
+  c1: <body> words=237 p=10 linkratio=0.01 contains=[c2] cov=1/1
+      start: home blog about blog blog post title this is the first paragraph of a long blog post. it discusses an important topic that many people care about. the author shares insights based on years of experien
+      end:   al difference for our users. thank you, as always, for your support. author jane smith share copyright 2025 company inc.
+  c2: <main> words=230 p=9 linkratio=0 contains=[] cov=1/1
+      start: blog blog post title this is the first paragraph of a long blog post. it discusses an important topic that many people care about. the author shares insights based on years of experience. background b
+      end:   these changes will make a real difference for our users. thank you, as always, for your support. author jane smith share
+
+### footnotes--external-labeled-section  [C] htmlBytes=1096 n=2 truth=c1 (words) jev=none_of_these@conf0.02 probs={"c1":0.31,"c2":0.34,"none_of_these":0.35} defuddle=c2 relation=none_of_these
+  title: Product Update | url: https://external-labeled-section | contentSelector: html > body > article
+  c1: <body> words=91 p=5 linkratio=0.03 contains=[c2] cov=0.829/0.977
+      start: product update this release includes several improvements to image processing. higher resolution. the system now processes images at up to 4096 pixels, more than three times the previous limit.1 bette
+      end:   rk b: memorization screens flag a subset of problems. 2 based on internal evaluations using standardized test harnesses.
+  c2: <article> words=45 p=2 linkratio=0 contains=[] cov=0.476/0.5
+      start: product update this release includes several improvements to image processing. higher resolution. the system now processes images at up to 4096 pixels, more than three times the previous limit.1 bette
+      end:   se features immediately.
+
+### footnotes--inline-footnote-span  [C] htmlBytes=1329 n=2 truth=none_of_these (none) jev=c2@conf0.86 probs={"c1":0.08,"c2":0.91,"none_of_these":0.01} defuddle=c2 relation=picked_when_label_none
+  title: Article with Inline Footnotes | url: https://inline-footnote-span | contentSelector: html > body > div.entry-content
+  c1: <body> words=59 p=3 linkratio=0.11 contains=[c2] cov=0.5/0.855
+      start: the field has drifted far from its roots.1you can pick any recent paper and have no idea what is going on. philosophy is often viewed as a science, which leads to misalignment.2the most common areas w
+      end:   alues are orthogonal.3orthogonal means they run independent of one another.
+  c2: <div class="entry-content"> words=59 p=3 linkratio=0.11 contains=[] cov=0.5/0.855
+      start: the field has drifted far from its roots.1you can pick any recent paper and have no idea what is going on. philosophy is often viewed as a science, which leads to misalignment.2the most common areas w
+      end:   alues are orthogonal.3orthogonal means they run independent of one another.
+
+### footnotes--labeled-section-ol  [C] htmlBytes=1032 n=2 truth=c1 (words) jev=c2@conf0.02 probs={"c1":0.33,"c2":0.35,"none_of_these":0.32} defuddle=c2 relation=descendant_of_truth(under-inclusive)
+  title: Policy Note | url: https://labeled-section-ol | contentSelector: html > body > article
+  c1: <body> words=79 p=2 linkratio=0.02 contains=[c2] cov=0.792/0.961
+      start: policy note we laid out our position in an earlier essay1, and have held it consistently. the first concern is that capable systems are hard to monitor once released2. the second concern is that testi
+      end:   l discussion. see this report for supporting analysis. testing regimes are described in appendix b of the same document.
+  c2: <article> words=49 p=2 linkratio=0 contains=[] cov=0.597/0.618
+      start: policy note we laid out our position in an earlier essay1, and have held it consistently. the first concern is that capable systems are hard to monitor once released2. the second concern is that testi
+      end:    competing.
+
+### footnotes--orgmode-css-sidenotes  [C] htmlBytes=1698 n=2 truth=none_of_these (none) jev=c2@conf0.97 probs={"c1":0.01,"c2":0.98,"none_of_these":0.01} defuddle=c2 relation=picked_when_label_none
+  title: Example Article | url: https://orgmode-css-sidenotes | contentSelector: html > body > article
+  c1: <body> words=87 p=6 linkratio=0.01 contains=[c2] cov=0.409/0.875
+      start: example article first paragraph with a sidenote reference. 1 1 this is the first footnote content. more text continues here. second paragraph with another reference. 2 2 this is the second footnote wi
+      end:   he second footnote with more detail about the topic. 3 a reader suggested an alternative approach, which has some merit.
+  c2: <article> words=87 p=6 linkratio=0.01 contains=[] cov=0.409/0.875
+      start: example article first paragraph with a sidenote reference. 1 1 this is the first footnote content. more text continues here. second paragraph with another reference. 2 2 this is the second footnote wi
+      end:   he second footnote with more detail about the topic. 3 a reader suggested an alternative approach, which has some merit.
+
+### footnotes--sidenote-inline-with-list  [C] htmlBytes=1392 n=3 truth=c3 (words) jev=c2@conf0.47 probs={"c1":0,"c2":0.6,"c3":0.4,"none_of_these":0} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Sample Post with Sidenotes | url: https://sidenote-inline-with-list | contentSelector: html > body > main > div.post-content.has-sidenotes
+  c1: <body> words=65 p=4 linkratio=0.01 contains=[c2,c3] cov=0.535/0.915
+      start: sample post title this is the first paragraph with a note about roundness11. one of the ugliest roundness examples is the youtube ui and some more text about design trends. this paragraph has another 
+      end:    ugliest roundness examples is the youtube ui 2 that's to say, contagious from inwards
+  c2: <main> words=65 p=4 linkratio=0.01 contains=[c3] cov=0.535/0.915
+      start: sample post title this is the first paragraph with a note about roundness11. one of the ugliest roundness examples is the youtube ui and some more text about design trends. this paragraph has another 
+      end:    ugliest roundness examples is the youtube ui 2 that's to say, contagious from inwards
+  c3: <div class="post-content has-sidenotes"> words=65 p=4 linkratio=0.01 contains=[] cov=0.535/0.915
+      start: sample post title this is the first paragraph with a note about roundness11. one of the ugliest roundness examples is the youtube ui and some more text about design trends. this paragraph has another 
+      end:    ugliest roundness examples is the youtube ui 2 that's to say, contagious from inwards
+
+### footnotes--word-ftn-ftnref  [C] htmlBytes=1152 n=2 truth=none_of_these (none) jev=c2@conf0.91 probs={"c1":0.04,"c2":0.94,"none_of_these":0.02} defuddle=c2 relation=picked_when_label_none
+  title: Word HTML footnotes: _ftn/_ftnref pattern | url: https://word-ftn-ftnref | contentSelector: html > body > article
+  c1: <body> words=37 p=4 linkratio=0.16 contains=[c2] cov=0.538/0.867
+      start: word html footnotes: _ftn/_ftnref pattern the initiative is aligned with the action plan [1], a community-led alternative to traditional publishing. the consortium includes members from multiple count
+      end:   
+  c2: <article> words=37 p=4 linkratio=0.16 contains=[] cov=0.538/0.867
+      start: word html footnotes: _ftn/_ftnref pattern the initiative is aligned with the action plan [1], a community-led alternative to traditional publishing. the consortium includes members from multiple count
+      end:   
+
+### general--appendix-heading  [C] htmlBytes=1083 n=4 truth=c4 (shingle+shingle_nocode+words) jev=c3@conf0.45 probs={"c1":0,"c2":0.02,"c3":0.56,"c4":0.42,"none_of_these":0} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Article with Appendix | url: https://appendix-heading | contentSelector: html > body > main > article
+  c1: <body> words=116 p=6 linkratio=0 contains=[c2,c3,c4] cov=1/1
+      start: article with appendix section this is the main article content discussing an important topic. it contains multiple paragraphs of text that establish it as the primary content of the page. introduction
+      end:   egular intervals throughout the experiment. acknowledgements thanks to all contributors who made this research possible.
+  c2: <main> words=116 p=6 linkratio=0 contains=[c3,c4] cov=1/1
+      start: article with appendix section this is the main article content discussing an important topic. it contains multiple paragraphs of text that establish it as the primary content of the page. introduction
+      end:   egular intervals throughout the experiment. acknowledgements thanks to all contributors who made this research possible.
+  c3: <article> words=116 p=6 linkratio=0 contains=[c4] cov=1/1
+      start: article with appendix section this is the main article content discussing an important topic. it contains multiple paragraphs of text that establish it as the primary content of the page. introduction
+      end:   egular intervals throughout the experiment. acknowledgements thanks to all contributors who made this research possible.
+  c4: <div class="article-body"> words=116 p=6 linkratio=0 contains=[] cov=1/1
+      start: article with appendix section this is the main article content discussing an important topic. it contains multiple paragraphs of text that establish it as the primary content of the page. introduction
+      end:   egular intervals throughout the experiment. acknowledgements thanks to all contributors who made this research possible.
+
+### general--cp4space-jordan-algebra  [C] htmlBytes=14002 n=4 truth=c4 (words) jev=c3@conf0.45 probs={"c1":0,"c2":0.01,"c3":0.56,"c4":0.43,"none_of_these":0} defuddle=c4 relation=ancestor_of_truth(over-inclusive)
+  title: The exceptional Jordan algebra | url: https://cp4space-jordan-algebra | contentSelector: html > body.single.single-post.postid-6213.single-format-standard.logged-in > div#wrapper > div#main > div#container > d
+  c1: <body class="single single-post postid-6213 single-format-standard logged-in"> words=775 p=13 linkratio=0.04 contains=[c2,c3,c4] cov=0.871/0.973
+      start: complex projective 4-space a blog. mostly maths. the exceptional jordan algebra posted on october 28, 2020 by apgoucher in the early 1930s, pascual jordan attempted to formalise the algebraic properti
+      end:   . bookmark the permalink. recent posts the alternating group a5 complex projective 4-space proudly powered by wordpress.
+  c2: <div id=content> words=755 p=13 linkratio=0.02 contains=[c3,c4] cov=0.871/0.973
+      start: the exceptional jordan algebra posted on october 28, 2020 by apgoucher in the early 1930s, pascual jordan attempted to formalise the algebraic properties of hermitian matrices. in particular: hermitia
+      end:   y that it’s equivalent to the elkies-gross construction. this entry was posted in uncategorized. bookmark the permalink.
+  c3: <div id=post-6213 class="post-6213 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized"> words=755 p=13 linkratio=0.02 contains=[c4] cov=0.871/0.973
+      start: the exceptional jordan algebra posted on october 28, 2020 by apgoucher in the early 1930s, pascual jordan attempted to formalise the algebraic properties of hermitian matrices. in particular: hermitia
+      end:   y that it’s equivalent to the elkies-gross construction. this entry was posted in uncategorized. bookmark the permalink.
+  c4: <div class="entry-content"> words=735 p=13 linkratio=0.01 contains=[] cov=0.871/0.973
+      start: in the early 1930s, pascual jordan attempted to formalise the algebraic properties of hermitian matrices. in particular: hermitian matrices form a real vector space: we can add and subtract hermitian 
+      end:   also involves , so it may be possible to show reasonably directly that it’s equivalent to the elkies-gross construction.
+
+### general--trailing-cta-newsletter  [C] htmlBytes=3065 n=2 truth=c2 (shingle+shingle_nocode+words) jev=none_of_these@conf0.38 probs={"c1":0.01,"c2":0.4,"none_of_these":0.59} defuddle=c2 relation=none_of_these
+  title: New Feature Announcement | url: https://example.com/blog/new-feature-announcement | contentSelector: html > body > main
+  c1: <body> words=316 p=7 linkratio=0 contains=[c2] cov=1/1
+      start: new feature announcement today we are announcing a major new feature that has been in development for the past six months. this feature represents a significant step forward in our platform's capabili
+      end:    min share see how our platform can help your team tips, tutorials, and product updates delivered monthly to your inbox.
+  c2: <main> words=316 p=7 linkratio=0 contains=[] cov=1/1
+      start: new feature announcement today we are announcing a major new feature that has been in development for the past six months. this feature represents a significant step forward in our platform's capabili
+      end:    min share see how our platform can help your team tips, tutorials, and product updates delivered monthly to your inbox.
+
+### general--tailwind-hidden-blog-index  [C] htmlBytes=3733 n=6 truth=c2 (words) jev=none_of_these@conf0.31 probs={"c1":0.01,"c2":0.12,"c3":0.39,"c4":0.05,"c5":0.01,"c6":0.01,"none_of_these":0.41} defuddle=c2 relation=none_of_these
+  title: Blog - Acme Corp | url: https://tailwind-hidden-blog-index | contentSelector: html > body > main
+  c1: <body> words=165 p=6 linkratio=0.78 contains=[c2,c3,c4,c5,c6] cov=0.767/0.953
+      start: home blog about engineering blog technical insights from the acme corp engineering team on infrastructure, machine learning, and design systems. featured ### [scaling distributed systems at acme] (htt
+      end:   ng breaking changes safely to thousands of integration partners. api design 7 min read january 10, 2026 © 2026 acme corp
+  c2: <main> words=158 p=5 linkratio=0.79 contains=[c3,c4,c5,c6] cov=0.767/0.947
+      start: engineering blog technical insights from the acme corp engineering team on infrastructure, machine learning, and design systems. featured ### [scaling distributed systems at acme] (https://example.com
+      end:   ints while shipping breaking changes safely to thousands of integration partners. api design 7 min read january 10, 2026
+  c3: <article> words=37 p=1 linkratio=0.91 contains=[] cov=0.178/0.22
+      start: ### [scaling distributed systems at acme] (https://example.com/blog/scaling-distributed-systems) how we redesigned our message queue infrastructure to handle ten times the throughput while reducing la
+      end:   
+  c4: <article> words=34 p=1 linkratio=0.89 contains=[] cov=0.164/0.2
+      start: ### [optimizing our ml pipeline] (https://example.com/blog/ml-pipeline-optimization) reducing model training time from hours to minutes with smart batching and caching strategies across our distribute
+      end:   
+  c5: <article> words=33 p=1 linkratio=0.89 contains=[] cov=0.151/0.193
+      start: ### [introducing our design system v2] (https://example.com/blog/design-system-v2) a ground-up rebuild of our component library with accessibility-first principles and comprehensive dark mode support 
+      end:   
+  c6: <article> words=34 p=1 linkratio=0.89 contains=[] cov=0.164/0.2
+      start: ### [our api versioning strategy] (https://example.com/blog/api-versioning-strategy) how we manage backward compatibility across hundreds of api endpoints while shipping breaking changes safely to tho
+      end:   
+
+### general--substack-app  [C] htmlBytes=68228 n=2 truth=c1 (shingle+shingle_nocode+words) jev=none_of_these@conf0.38 probs={"c1":0.05,"c2":0.36,"none_of_these":0.59} defuddle=not_a_candidate(inside c1) relation=none_of_these
+  title: Rich Holmes (@richholmes) | url: https://substack-app | contentSelector: html > body.pc-root > div#entry > div.reader-nav-root.reader2-font-base > div.reader-nav-page > div.pencraft.pc-display-
+  c1: <body class="pc-root"> words=565 p=21 linkratio=0.07 contains=[c2] cov=1/1
+      start: the app for independent voices get started learn more for you jameela jamil 3h wrote a piece about how we raise women to be wives but don’t raise men to be husbands. and how that imbalance is fucking 
+      end:    and hands-on tools: departmentofproduct.sub... 160 14 25 160 likes ∙ 14 replies ∙ 25 restacks jan 20 at 2:25 am get app
+  c2: <div class="pencraft pc-display-flex pc-flexDirection-column pc-position-relative pc-reset feedItem-ONDKv3"> words=63 p=1 linkratio=0.51 contains=[] cov=0/0.081
+      start: jameela jamil 3h wrote a piece about how we raise women to be wives but don’t raise men to be husbands. and how that imbalance is fucking us all the way up. nobody gets to feel like a fun whore in the
+      end:   31 2 4
+
+### issues--162-aria-hidden-main-content  [C] htmlBytes=1204 n=2 truth=c2 (shingle+shingle_nocode+words) jev=none_of_these@conf0.33 probs={"c1":0.02,"c2":0.43,"none_of_these":0.55} defuddle=not_a_candidate(inside c2) relation=none_of_these
+  title: Invitation | url: https://earendil.com/posts/invitation/ | contentSelector: html > body > main > div.updates-overlay
+  c1: <body> words=89 p=2 linkratio=0 contains=[c2] cov=1/1
+      start: invitation hello, we believe in building in the open and sharing progress publicly with people who care about resilient infrastructure, peer-to-peer systems, and practical tools. this invitation outli
+      end:   al surprises, and create a clearer path for contributors who want to understand the system deeply. fps: -- earendil inc.
+  c2: <main> words=89 p=2 linkratio=0 contains=[] cov=1/1
+      start: invitation hello, we believe in building in the open and sharing progress publicly with people who care about resilient infrastructure, peer-to-peer systems, and practical tools. this invitation outli
+      end:   al surprises, and create a clearer path for contributors who want to understand the system deeply. fps: -- earendil inc.
+
+### issues--header-with-subtitle-p  [C] htmlBytes=2110 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.89 probs={"c1":0,"c2":0.92,"c3":0.07,"none_of_these":0.01} defuddle=c2 relation=ancestor_of_truth(over-inclusive)
+  title: Playing a Classic FPS with One Hand in 2026 | url: https://header-with-subtitle-p | contentSelector: html > body > article
+  c1: <body> words=235 p=8 linkratio=0.01 contains=[c2,c3] cov=1/1
+      start: gaming playing a classic fps with one hand in 2026 over three decades later, this historical curiosity has more than a few rough edges alex johnson – mar 27, 2026 3:09 pm when the original first-perso
+      end:   oller support. going back to the early days of the genre puts that progress in sharp relief. copyright 2026 example tech
+  c2: <article> words=231 p=7 linkratio=0.01 contains=[c3] cov=1/1
+      start: gaming playing a classic fps with one hand in 2026 over three decades later, this historical curiosity has more than a few rough edges alex johnson – mar 27, 2026 3:09 pm when the original first-perso
+      end:    presets, and adaptive controller support. going back to the early days of the genre puts that progress in sharp relief.
+  c3: <div class="article-body"> words=199 p=6 linkratio=0 contains=[] cov=1/1
+      start: when the original first-person shooter was released in 1992, it changed gaming forever. the fast-paced action, the maze-like levels, and the visceral combat were unlike anything players had experience
+      end:    presets, and adaptive controller support. going back to the early days of the genre puts that progress in sharp relief.
+
+### math--raw-latex  [C] htmlBytes=1087 n=2 truth=none_of_these (none) jev=c2@conf0.97 probs={"c1":0.02,"c2":0.98,"none_of_these":0} defuddle=c2 relation=picked_when_label_none
+  title: Raw LaTeX Math Delimiters | url: https://raw-latex | contentSelector: html > body > article
+  c1: <body> words=99 p=8 linkratio=0 contains=[c2] cov=0.44/0.874
+      start: raw latex math delimiters the attention mechanism computes $$h_{i}^{\ell+1} = \text{attention} \left( q^{\ell} h_{i}^{\ell}, k^{\ell} h_{j}^{\ell}, v^{\ell} h_{j}^{\ell} \right)$$ for each node in the
+      end:   ackslash delimiters work too: \(e = mc^2\) is inline and \[f = ma\] this $\alpha$ should not be touched inside pre tags.
+  c2: <article> words=99 p=8 linkratio=0 contains=[] cov=0.44/0.874
+      start: raw latex math delimiters the attention mechanism computes $$h_{i}^{\ell+1} = \text{attention} \left( q^{\ell} h_{i}^{\ell}, k^{\ell} h_{j}^{\ell}, v^{\ell} h_{j}^{\ell} \right)$$ for each node in the
+      end:   ackslash delimiters work too: \(e = mc^2\) is inline and \[f = ma\] this $\alpha$ should not be touched inside pre tags.
+
+### math--mathjax-tex-scripts  [C] htmlBytes=1127 n=2 truth=none_of_these (none) jev=c2@conf0.98 probs={"c1":0.01,"c2":0.99,"none_of_these":0} defuddle=c2 relation=picked_when_label_none
+  title: MathJax math/tex Script Elements | url: https://mathjax-tex-scripts | contentSelector: html > body > article
+  c1: <body> words=52 p=4 linkratio=0 contains=[c2] cov=0.269/0.821
+      start: mathjax math/tex script elements we call these energy differences and (subscripts refer to "upper" and "lower"), or in units of frequency, and (where ). as a special case, when is aligned with the nv 
+      end:   io.
+  c2: <article> words=52 p=4 linkratio=0 contains=[] cov=0.269/0.821
+      start: mathjax math/tex script elements we call these energy differences and (subscripts refer to "upper" and "lower"), or in units of frequency, and (where ). as a special case, when is aligned with the nv 
+      end:   io.

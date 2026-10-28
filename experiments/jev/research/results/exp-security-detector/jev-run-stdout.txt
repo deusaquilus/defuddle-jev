@@ -1,0 +1,11 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+items done 20/155 elapsed 2s
+items done 40/155 elapsed 4s
+items done 60/155 elapsed 5s
+items done 80/155 elapsed 7s
+items done 100/155 elapsed 9s
+items done 120/155 elapsed 10s
+items done 140/155 elapsed 12s
+usage {"calls":924,"errors":0,"input_tokens":1308717,"output_tokens":272151,"est_cost_usd":0.054966,"latency_ms":{"p50":75.61277299999892,"p90":111.84152899999935,"p99":165.39490400000068,"max":282.8665599999995,"n":924}}
+exit 0

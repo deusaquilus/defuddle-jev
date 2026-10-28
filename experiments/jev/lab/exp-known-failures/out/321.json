@@ -1,0 +1,23 @@
+{
+ "file": "pages/321.html",
+ "url": "https://mpcjazz.github.io/",
+ "ms": 52,
+ "wordCount": 4,
+ "contentSelector": "html > body",
+ "title": "",
+ "contentChars": 63,
+ "presence": {
+  "Content heading": false,
+  "Content paragraph": false
+ },
+ "removals": [
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Content heading\n  Content paragraph."
+  }
+ ],
+ "content": "<body>\n<h2>Intro heading</h2>\n<p>Intro paragraph.</p>\n\n\n</body>",
+ "markdown": null
+}

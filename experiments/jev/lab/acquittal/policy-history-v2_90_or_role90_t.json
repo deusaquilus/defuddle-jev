@@ -1,0 +1,6756 @@
+{
+ "policy": "v2_90_or_role90_t",
+ "fixtures": null,
+ "bugs": null,
+ "history": {
+  "wrongful": 60,
+  "recovered": 44,
+  "controls": 537,
+  "controls_leaked": 8,
+  "restored": 273,
+  "restored_list": [
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|a979ef10cc6f|43077ab8",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "+",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.22,
+     "role": 0.02,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|42099b4af021|d82d8f74",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "/",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.17,
+     "role": 0.015,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|a979ef10cc6f|6d22eb27",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "+",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.22,
+     "role": 0.02,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|4c277e4de9aa|41d9a5a5",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 4,
+    "tag": "span",
+    "text": "5 out of 10",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.24,
+     "role": 0.245,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|42099b4af021|7246d343",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "/",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.17,
+     "role": 0.015,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|a979ef10cc6f|8036b867",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "+",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.22,
+     "role": 0.02,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|a979ef10cc6f|c7b167e6",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "+",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.22,
+     "role": 0.02,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-screen-reader-links",
+    "fp": "removeBySelector|span|e8e5b863862b|6a7d5b56",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 2,
+    "tag": "span",
+    "text": "Next article",
+    "ans": {
+     "ex": 0.3,
+     "plain": 0.37,
+     "po": 0.06,
+     "role": 0,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeHiddenElements|div|b1ad594360ff|43ccc4ab",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 39,
+    "tag": "div",
+    "text": "Maggie Appleton - indieweb.social/@maggierepliedNovember 30, 2022 Still very half-baked. Have to circle back and finish it off (Also don’t check on mobile - just pushed an update that screwed up responsive layouts 🤦‍♀️ - will fix in a minute)",
+    "ans": {
+     "ex": 0.73,
+     "plain": 0.58,
+     "po": 0.73,
+     "role": 0.02,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|div|35b0723d6dbb|efe448ce",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "A Pattern Language Christopher Alexander The book outlined a number of solutions for architecture and urban planning design, but the theory has since (appropriately) taken on a life of its own.",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.375,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "issues--pascalcase-section-id-partial-match",
+    "fp": "removeBySelector|div|091c8a1b4a82|d0e4408d",
+    "step": "removeBySelector",
+    "reason": "partial match: feedback",
+    "selector": "feedback",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "This delimited widget id should still be removed because its identifier contains a real delimiter, so the substring match still applies and correctly recognises it as clutter.",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.82,
+     "po": 0.89,
+     "role": 0.49,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|fe1a5d50",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.79,
+     "plain": 0.82,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|788587c8f3ed|a1e263de",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "G=Sn​",
+    "ans": {
+     "ex": 0.79,
+     "plain": 0.81,
+     "po": 0.43,
+     "role": 0.97,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|3bfcfe3d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.64,
+     "plain": 0.58,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.83
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|51576cd6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.7,
+     "plain": 0.67,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.85
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|4a7c9770",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.83,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|504a8f4f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.74,
+     "plain": 0.67,
+     "po": 0.65,
+     "role": 0.955,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|1637bd442d45|0717e2a0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩⟺∣⟨g⟩∣=∣CG​(g)∣⟺∣g∣=∣CG​(g)∣​",
+    "ans": {
+     "ex": 0.51,
+     "plain": 0.5,
+     "po": 0.7,
+     "role": 0.98,
+     "v2": 0.83
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|95059c48",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.91,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|6b8bed69d072|05a68267",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "span",
+    "text": "Stab(g)=CG​(g)​",
+    "ans": {
+     "ex": 0.81,
+     "plain": 0.84,
+     "po": 0.81,
+     "role": 0.97,
+     "v2": 0.07
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|86f7e437faa5|75e91f44",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "a",
+    "ans": {
+     "ex": 0.84,
+     "plain": 0.84,
+     "po": 0.37,
+     "role": 0.74,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e9d71f5ee7c9|ac4cf816",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "b",
+    "ans": {
+     "ex": 0.72,
+     "plain": 0.68,
+     "po": 0.26,
+     "role": 0.765,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|07c342be6e56|d446da1b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "l",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.67,
+     "po": 0.3,
+     "role": 0.74,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|aba4b871",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|848a197d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.76,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|c70a9e00bd2a|7820f828",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "abn!​=ab∣G∣​​",
+    "ans": {
+     "ex": 0.44,
+     "plain": 0.34,
+     "po": 0.62,
+     "role": 0.985,
+     "v2": 0.71
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|74b190371d55|f92373d2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣=ab∣G∣​​",
+    "ans": {
+     "ex": 0.3,
+     "plain": 0.27,
+     "po": 0.64,
+     "role": 0.985,
+     "v2": 0.72
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|92bdb438",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.78,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2fc9e3aaaaa8|5a85ff58",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Stab(g)∣=∣Orb(g)∣∣G∣​=∣G∣/ab∣G∣​=ab≥∣g∣b≥∣g∣=l​",
+    "ans": {
+     "ex": 0.43,
+     "plain": 0.51,
+     "po": 0.76,
+     "role": 0.99,
+     "v2": 0.89
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|8910acfec31a|ed7de527",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 3,
+    "tag": "span",
+    "text": "∣Stab(g)∣=∣g∣⟺a=l and b=1​",
+    "ans": {
+     "ex": 0.38,
+     "plain": 0.45,
+     "po": 0.72,
+     "role": 0.99,
+     "v2": 0.83
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|788587c8f3ed|8efd310e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "G=Sn​",
+    "ans": {
+     "ex": 0.74,
+     "plain": 0.8,
+     "po": 0.43,
+     "role": 0.97,
+     "v2": 0.87
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|d3b49f7b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.54,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.88
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|02a307ec",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.66,
+     "plain": 0.7,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.83
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|26c67f4e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.83,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|ecbd7bdb",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.64,
+     "po": 0.65,
+     "role": 0.955,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|5d0332a9",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|86f7e437faa5|c6c04da3",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "a",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.83,
+     "po": 0.37,
+     "role": 0.74,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e9d71f5ee7c9|b59495dd",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "b",
+    "ans": {
+     "ex": 0.65,
+     "plain": 0.65,
+     "po": 0.26,
+     "role": 0.765,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|07c342be6e56|532ccaa1",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "l",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.67,
+     "po": 0.3,
+     "role": 0.74,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|d646b9f2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|8bc40b5c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.76,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|7eae82b0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|02b14d75",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.58,
+     "plain": 0.62,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.86
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|d89fa978",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.7,
+     "plain": 0.69,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|9e2d3c29",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.67,
+     "plain": 0.67,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.83
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|e3487b1b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.79,
+     "plain": 0.78,
+     "po": 0.65,
+     "role": 0.955,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|9954bc76",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|86f7e437faa5|a7f92454",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "a",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.83,
+     "po": 0.37,
+     "role": 0.74,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e9d71f5ee7c9|a38355f6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "b",
+    "ans": {
+     "ex": 0.65,
+     "plain": 0.65,
+     "po": 0.26,
+     "role": 0.765,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|07c342be6e56|0468f377",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "l",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.67,
+     "po": 0.3,
+     "role": 0.74,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|09ca6a5f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|79b9d44f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.76,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|0645f6fa",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|fe2b1da9",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.83,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|f5090931",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.73,
+     "plain": 0.73,
+     "po": 0.65,
+     "role": 0.955,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|c2d936e5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|86f7e437faa5|0605555b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "a",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.83,
+     "po": 0.37,
+     "role": 0.74,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e9d71f5ee7c9|41347a2e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "b",
+    "ans": {
+     "ex": 0.65,
+     "plain": 0.65,
+     "po": 0.26,
+     "role": 0.765,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|07c342be6e56|efa8ffd4",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "l",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.67,
+     "po": 0.3,
+     "role": 0.74,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|735874ec",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|818aa23e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.76,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|bb4d2f91",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|7016d0bb",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.77,
+     "po": 0.65,
+     "role": 0.955,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|f7674b78",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|86f7e437faa5|cb8f07b2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "a",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.83,
+     "po": 0.37,
+     "role": 0.74,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e9d71f5ee7c9|c47bc339",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "b",
+    "ans": {
+     "ex": 0.65,
+     "plain": 0.65,
+     "po": 0.26,
+     "role": 0.765,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|07c342be6e56|a17722c0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "l",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.67,
+     "po": 0.3,
+     "role": 0.74,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|fb5e959d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|7114095e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.76,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|67e4a6bb",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|388806ca34e2|2111315c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∀x(M(x)→D(x))",
+    "ans": {
+     "ex": 0.47,
+     "plain": 0.51,
+     "po": 0.39,
+     "role": 0.955,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|c663095a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|2ac70aa7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|f24efd34",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|6260e147c63d|1d00436d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "span",
+    "text": "x=2a−b±b2−4ac",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 0.97,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|ab473ea8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.81,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|27c3bee8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.8,
+     "plain": 0.79,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|d1933893",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|932e278e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.74,
+     "plain": 0.64,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|b34abac5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.8,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|69388f8c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.83,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|388806ca34e2|2111315c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∀x(M(x)→D(x))",
+    "ans": {
+     "ex": 0.47,
+     "plain": 0.51,
+     "po": 0.39,
+     "role": 0.955,
+     "v2": 0.89
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|c663095a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|2ac70aa7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|f24efd34",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|6260e147c63d|1d00436d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "span",
+    "text": "x=2a−b±b2−4ac",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 0.97,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|ab473ea8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.81,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|27c3bee8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.8,
+     "plain": 0.79,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|d1933893",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|932e278e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.74,
+     "plain": 0.64,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|b34abac5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.8,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|69388f8c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.83,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "6de1634",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|table|38ae86aa4e0b|63387a4c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "table.infobox"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 38,
+    "tag": "table",
+    "text": "Obsidian Developer(s) Dynalist Inc. Initial release March 2020 (2020-03) Stable release 1.5.81 / January 15, 2024 Written in TypeScript, JavaScript Operating system Windows, macOS, Linux, Android, iOS, iPadOS Type Note-taking, personal knowledge management License Proprietary freemium Website obsidi",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.99,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|f519c1c4a760|55207ed0",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 52,
+    "tag": "p",
+    "text": "\"I had hoped that the director's affinity with these themes might push him to new creative heights, and enable him to conjure more believable characters. But the film features his usual combination of grandiosity and superficiality, and its vision is too confused to deliver what it half-promises,\" t",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 0.995,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|e67d16ef5de8|d0970f03",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 56,
+    "tag": "p",
+    "text": "She adds that the adaptation lacks many of the elements that make the poem great. It has nothing convincing to say about time, memory, history or war, or about the relationship between one warrior's glorious return and the lives of his family, adversaries, comrades and neighbors. The narrative struc",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 0.985,
+     "v2": 0.99
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|72fa926764e7|54c189a0",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 52,
+    "tag": "p",
+    "text": "The director praised the translation during his press tour, telling a film magazine that he used its opening line as a guide for bringing his protagonist to life on the big screen. But the translator concluded of the film that she would be ashamed to have written any part of the script.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|dd22e96d6052|6cafe17d",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "p",
+    "text": "Audiences don't appear to be sharing the translator's dissatisfaction. The movie received top marks in exit polling during its opening weekend and has turned into one of the year's biggest blockbusters at the box office, earning a reported ninety million dollars in its second weekend domestically.",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.94,
+     "po": 0.94,
+     "role": 1,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|e67d16ef5de8|05b6277d",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 56,
+    "tag": "p",
+    "text": "She adds that the adaptation lacks many of the elements that make the poem great. It has nothing convincing to say about time, memory, history or war, or about the relationship between one warrior's glorious return and the lives of his family, adversaries, comrades and neighbors. The narrative struc",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.96,
+     "role": 0.985,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|72fa926764e7|c7330daa",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 52,
+    "tag": "p",
+    "text": "The director praised the translation during his press tour, telling a film magazine that he used its opening line as a guide for bringing his protagonist to life on the big screen. But the translator concluded of the film that she would be ashamed to have written any part of the script.",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.94,
+     "role": 1,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|dd22e96d6052|f34b2d9d",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "p",
+    "text": "Audiences don't appear to be sharing the translator's dissatisfaction. The movie received top marks in exit polling during its opening weekend and has turned into one of the year's biggest blockbusters at the box office, earning a reported ninety million dollars in its second weekend domestically.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.94,
+     "po": 0.95,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|72fa926764e7|55afb947",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 52,
+    "tag": "p",
+    "text": "The director praised the translation during his press tour, telling a film magazine that he used its opening line as a guide for bringing his protagonist to life on the big screen. But the translator concluded of the film that she would be ashamed to have written any part of the script.",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|dd22e96d6052|0a0a42c7",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "p",
+    "text": "Audiences don't appear to be sharing the translator's dissatisfaction. The movie received top marks in exit polling during its opening weekend and has turned into one of the year's biggest blockbusters at the box office, earning a reported ninety million dollars in its second weekend domestically.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|dd22e96d6052|ee149f0f",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "p",
+    "text": "Audiences don't appear to be sharing the translator's dissatisfaction. The movie received top marks in exit polling during its opening weekend and has turned into one of the year's biggest blockbusters at the box office, earning a reported ninety million dollars in its second weekend domestically.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|9ecbe017b98d|276eb558",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 8,
+    "tag": "p",
+    "text": "The film is now playing in theaters nationwide.",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.63,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "selectors--logo-substring-wrapper",
+    "fp": "removeBySelector|div|324ae17916d4|58ef1dab",
+    "step": "removeBySelector",
+    "reason": "partial match: logo",
+    "selector": "logo",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 292,
+    "tag": "div",
+    "text": "The vote clears the way for construction to begin next spring on lines that will connect the eastern suburbs to the downtown core for the first time since the original system opened, when the eastern edge of the built-up area stopped several miles short of where it stands today. Officials estimate t",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.99,
+     "po": 0.99,
+     "role": 1,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|568b56d8cb15|421a0502",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 63,
+    "tag": "section",
+    "text": "Results The consolidated dataset shows a consistent seasonal pattern that had been suspected but never demonstrated across more than one site at a time. The effect is strongest in the spring and weakest in late autumn. Secondary analyses have identified a smaller regional variation layered on top of",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|b6973846b270|3e37774e",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 29,
+    "tag": "section",
+    "text": "Reception Reviews of the consolidated dataset have been broadly positive, though several commentators have noted that the sampling schedule was designed around institutional convenience rather than the underlying phenomenon.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|60f3ec03099b|0156a5df",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 31,
+    "tag": "section",
+    "text": "Legacy The protocol has since been adopted by adjacent fields, and the vocabulary it introduced is now standard in textbooks. Later work has largely extended rather than overturned the original findings.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|c489295be281|07f4da50",
+    "step": "removeByContentPattern",
+    "reason": "related post cards",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 89,
+    "tag": "section",
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely on a standard protocol agreed at a working conference. Samples are collected on a fixed schedule, catalogued at the point of collection, and cross-checked by a second team before an",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 1,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|b6973846b270|e78e79ca",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 29,
+    "tag": "section",
+    "text": "Reception Reviews of the consolidated dataset have been broadly positive, though several commentators have noted that the sampling schedule was designed around institutional convenience rather than the underlying phenomenon.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.94,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|60f3ec03099b|2bff1d62",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 31,
+    "tag": "section",
+    "text": "Legacy The protocol has since been adopted by adjacent fields, and the vocabulary it introduced is now standard in textbooks. Later work has largely extended rather than overturned the original findings.",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.85,
+     "po": 0.92,
+     "role": 1,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|c489295be281|2c79589f",
+    "step": "removeByContentPattern",
+    "reason": "related post cards",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 89,
+    "tag": "section",
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely on a standard protocol agreed at a working conference. Samples are collected on a fixed schedule, catalogued at the point of collection, and cross-checked by a second team before an",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.94,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|60f3ec03099b|c600cbb3",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 31,
+    "tag": "section",
+    "text": "Legacy The protocol has since been adopted by adjacent fields, and the vocabulary it introduced is now standard in textbooks. Later work has largely extended rather than overturned the original findings.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|c489295be281|82badc53",
+    "step": "removeByContentPattern",
+    "reason": "related post cards",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 89,
+    "tag": "section",
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely on a standard protocol agreed at a working conference. Samples are collected on a fixed schedule, catalogued at the point of collection, and cross-checked by a second team before an",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.94,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|c489295be281|399988a4",
+    "step": "removeByContentPattern",
+    "reason": "related post cards",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 89,
+    "tag": "section",
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely on a standard protocol agreed at a working conference. Samples are collected on a fixed schedule, catalogued at the point of collection, and cross-checked by a second team before an",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.94,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "0bfaca1",
+    "page": "issues--pascalcase-section-id-partial-match",
+    "fp": "removeBySelector|section|65021efe923c|d0e4408d",
+    "step": "removeBySelector",
+    "reason": "partial match: hero[_\\-a-z]",
+    "selector": "hero[_\\-a-z]",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 66,
+    "tag": "section",
+    "text": "The role of things This section must survive extraction. Its lowercased identifier reads as theroleofthings, and that run of letters contains the fragment that the hero banner pattern looks for, sitting in the interior of the word rather than at any real boundary. Under the previous behaviour the wh",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 0.99,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "0bfaca1",
+    "page": "issues--pascalcase-section-id-partial-match",
+    "fp": "removeBySelector|section|2a7e45f6c4e7|d0e4408d",
+    "step": "removeBySelector",
+    "reason": "partial match: feedback",
+    "selector": "feedback",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 64,
+    "tag": "section",
+    "text": "Loops and feedback This section must also survive extraction. Its lowercased identifier reads as loopsandfeedback, and that run of letters ends with the fragment that the feedback widget pattern looks for, even though the section is simply a paragraph of writing about control loops and has nothing t",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1,
+     "v2": 0.99
+    }
+   },
+   {
+    "commit": "0bfaca1",
+    "page": "issues--pascalcase-section-id-partial-match",
+    "fp": "removeBySelector|div|091c8a1b4a82|d0e4408d",
+    "step": "removeBySelector",
+    "reason": "partial match: feedback",
+    "selector": "feedback",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "This delimited widget id should still be removed because its identifier contains a real delimiter, so the substring match still applies and correctly recognises it as clutter.",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.82,
+     "po": 0.89,
+     "role": 0.49,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "de47bd8",
+    "page": "issues--284-table-cell-header-scoring",
+    "fp": "scoreAndRemove|div|b2eead6c6caf|c8db5a2c",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "Defined in header <cstddef>",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.79,
+     "po": 0.82,
+     "role": 0.96,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "de47bd8",
+    "page": "issues--284-table-cell-header-scoring",
+    "fp": "scoreAndRemove|div|6acf6b12dddb|4d675281",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "Defined in header <cstdlib>",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.88,
+     "po": 0.91,
+     "role": 0.975,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "3a95b35",
+    "page": "issues--263-buttons-in-paragraphs",
+    "fp": "removeBySelector|button|ba36b97a41e7|6ec82326",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "button"
+    ],
+    "fam": "ui",
+    "inline": true,
+    "words": 1,
+    "tag": "button",
+    "text": "special",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.59,
+     "role": 0.08,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "3a95b35",
+    "page": "issues--263-buttons-in-paragraphs",
+    "fp": "removeBySelector|button|c93781f80d29|fa231bf4",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "button"
+    ],
+    "fam": "ui",
+    "inline": true,
+    "words": 1,
+    "tag": "button",
+    "text": "subsequence",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.7,
+     "role": 0.355,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "3a95b35",
+    "page": "issues--263-buttons-in-paragraphs",
+    "fp": "removeBySelector|button|c93781f80d29|1310ed16",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "button"
+    ],
+    "fam": "ui",
+    "inline": true,
+    "words": 1,
+    "tag": "button",
+    "text": "subsequence",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.7,
+     "role": 0.355,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|p|f01107f4b428|6e145bd3",
+    "step": "removeByContentPattern",
+    "reason": "thin CTA section",
+    "selector": "",
+    "exact": [],
+    "fam": "promo",
+    "inline": false,
+    "words": 16,
+    "tag": "p",
+    "text": "In particular, the framework has proven useful for modeling complex systems where traditional approaches are insufficient.4",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1,
+     "v2": 0.99
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|div|5d20d0fee3b9|81b32259",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "References",
+    "ans": {
+     "ex": 0.12,
+     "plain": 0.16,
+     "po": 0.12,
+     "role": 1,
+     "v2": 0.83
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|div|7b1268ff9a10|6a100351",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "div",
+    "text": "Author, A. (2005). \"Introduction to placeholder topics.\" Journal of Examples. 10(2): 100-110.↩ Author, B. (2010). \"Applications in engineering.\" Engineering Review. 25(4): 300-315.↩ Author, C. (2015). \"Signal processing applications.\" Applied Mathematics Today. 8(1): 50-65.↩ Smith, D.; Jones, E. (20",
+    "ans": {
+     "ex": 0.14,
+     "plain": 0.13,
+     "po": 0.14,
+     "role": 1,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|div|4f3c5c18a679|6a100351",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 47,
+    "tag": "div",
+    "text": "Author, A. (2005). \"Introduction to placeholder topics.\" Journal of Examples. 10(2): 100-110.↩ Author, B. (2010). \"Applications in engineering.\" Engineering Review. 25(4): 300-315.↩ Author, C. (2015). \"Signal processing applications.\" Applied Mathematics Today. 8(1): 50-65.↩ ^ Smith, D.; Jones, E. (",
+    "ans": {
+     "ex": 0.24,
+     "plain": 0.18,
+     "po": 0.24,
+     "role": 1,
+     "v2": 0.87
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|div|5d20d0fee3b9|2e6e5e64",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "References",
+    "ans": {
+     "ex": 0.11,
+     "plain": 0.16,
+     "po": 0.11,
+     "role": 1,
+     "v2": 0.8
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|div|7b1268ff9a10|a4dcf770",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "div",
+    "text": "Author, A. (2005). \"Introduction to placeholder topics.\" Journal of Examples. 10(2): 100-110.↩ Author, B. (2010). \"Applications in engineering.\" Engineering Review. 25(4): 300-315.↩ Author, C. (2015). \"Signal processing applications.\" Applied Mathematics Today. 8(1): 50-65.↩ Smith, D.; Jones, E. (20",
+    "ans": {
+     "ex": 0.15,
+     "plain": 0.14,
+     "po": 0.15,
+     "role": 1,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|div|4f3c5c18a679|a4dcf770",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 47,
+    "tag": "div",
+    "text": "Author, A. (2005). \"Introduction to placeholder topics.\" Journal of Examples. 10(2): 100-110.↩ Author, B. (2010). \"Applications in engineering.\" Engineering Review. 25(4): 300-315.↩ Author, C. (2015). \"Signal processing applications.\" Applied Mathematics Today. 8(1): 50-65.↩ ^ Smith, D.; Jones, E. (",
+    "ans": {
+     "ex": 0.16,
+     "plain": 0.16,
+     "po": 0.16,
+     "role": 1,
+     "v2": 0.89
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|div|7b1268ff9a10|6e8135fa",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "div",
+    "text": "Author, A. (2005). \"Introduction to placeholder topics.\" Journal of Examples. 10(2): 100-110.↩ Author, B. (2010). \"Applications in engineering.\" Engineering Review. 25(4): 300-315.↩ Author, C. (2015). \"Signal processing applications.\" Applied Mathematics Today. 8(1): 50-65.↩ Smith, D.; Jones, E. (20",
+    "ans": {
+     "ex": 0.14,
+     "plain": 0.17,
+     "po": 0.14,
+     "role": 1,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|div|4f3c5c18a679|6e8135fa",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 47,
+    "tag": "div",
+    "text": "Author, A. (2005). \"Introduction to placeholder topics.\" Journal of Examples. 10(2): 100-110.↩ Author, B. (2010). \"Applications in engineering.\" Engineering Review. 25(4): 300-315.↩ Author, C. (2015). \"Signal processing applications.\" Applied Mathematics Today. 8(1): 50-65.↩ ^ Smith, D.; Jones, E. (",
+    "ans": {
+     "ex": 0.11,
+     "plain": 0.2,
+     "po": 0.11,
+     "role": 1,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "thin-section-before-see-also",
+    "fp": "removeByContentPattern|div|5d20d0fee3b9|39abb9bc",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "References",
+    "ans": {
+     "ex": 0.17,
+     "plain": 0.19,
+     "po": 0.17,
+     "role": 1,
+     "v2": 0.82
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "thin-section-before-see-also",
+    "fp": "removeByContentPattern|div|4d385dd2e53f|96bc8bd3",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 12,
+    "tag": "div",
+    "text": "Doe, Jane (2024). \"Governance and Constraint.\" Journal of Policy Studies. 15(3): 42-58.↩",
+    "ans": {
+     "ex": 0.16,
+     "plain": 0.25,
+     "po": 0.16,
+     "role": 1,
+     "v2": 0.86
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "thin-section-before-see-also",
+    "fp": "removeByContentPattern|div|4d385dd2e53f|713b7645",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 12,
+    "tag": "div",
+    "text": "Doe, Jane (2024). \"Governance and Constraint.\" Journal of Policy Studies. 15(3): 42-58.↩",
+    "ans": {
+     "ex": 0.06,
+     "plain": 0.12,
+     "po": 0.06,
+     "role": 1,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "956d3d7",
+    "page": "content-patterns--non-semantic-hero-header",
+    "fp": "removeByContentPattern|div|b15add6a12d4|95833d2f",
+    "step": "removeByContentPattern",
+    "reason": "trailing tag link block",
+    "selector": "",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "Company Unveils New Expansion",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.88,
+     "po": 0.9,
+     "role": 0.34,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "c2ce56a",
+    "page": "metadata--rel-author-in-bio-container",
+    "fp": "removeBySelector|section|2cb330ea8734|988f713c",
+    "step": "removeBySelector",
+    "reason": "partial match: frontmatter",
+    "selector": "frontmatter",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 10,
+    "tag": "section",
+    "text": "A short abstract paragraph that summarizes the article for readers.",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.79,
+     "po": 0.87,
+     "role": 0.65,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "739ba78",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "fp": "removeBySelector|label|356a192b7913|0a5cea68",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "label"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "label",
+    "text": "1",
+    "ans": {
+     "ex": 0.13,
+     "plain": 0.12,
+     "po": 0.2,
+     "role": 1,
+     "v2": 0.22
+    }
+   },
+   {
+    "commit": "739ba78",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "fp": "removeBySelector|label|da4b9237bacc|64e697a7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "label"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "label",
+    "text": "2",
+    "ans": {
+     "ex": 0.18,
+     "plain": 0.15,
+     "po": 0.22,
+     "role": 1,
+     "v2": 0.37
+    }
+   },
+   {
+    "commit": "739ba78",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "fp": "removeBySelector|label|77de68daecd8|0174b33b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "label"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "label",
+    "text": "3",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.21,
+     "po": 0.25,
+     "role": 1,
+     "v2": 0.48
+    }
+   },
+   {
+    "commit": "739ba78",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "fp": "removeBySelector|footer|1bdaa9d3423b|07dd207c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "footer"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 31,
+    "tag": "footer",
+    "text": "Sidenotes 1 This is the first footnote content. 2 This is the second footnote with more detail about the topic. 3 A reader suggested an alternative approach, which has some merit.",
+    "ans": {
+     "ex": 0.81,
+     "plain": 0.74,
+     "po": 0.81,
+     "role": 0.995,
+     "v2": 0.72
+    }
+   },
+   {
+    "commit": "739ba78",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "fp": "removeBySelector|footer|1bdaa9d3423b|810b728b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "footer"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 31,
+    "tag": "footer",
+    "text": "Sidenotes 1 This is the first footnote content. 2 This is the second footnote with more detail about the topic. 3 A reader suggested an alternative approach, which has some merit.",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.77,
+     "po": 0.83,
+     "role": 0.995,
+     "v2": 0.74
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|1355613facf4|b4869589",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Premium Apartment Market Overview Q1/2026",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|e64a1e2831f6|23399dca",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 6,
+    "tag": "div",
+    "text": "Premium Apartment Projects Currently For Sale",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.92,
+     "po": 0.93,
+     "role": 0.98,
+     "v2": 0.89
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|eeabbfce2fdc|79e8e815",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "Should you choose riverside or beachfront apartments?",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.93,
+     "po": 0.94,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|1355613facf4|da267d66",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Premium Apartment Market Overview Q1/2026",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|e64a1e2831f6|6b685317",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 6,
+    "tag": "div",
+    "text": "Premium Apartment Projects Currently For Sale",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.92,
+     "po": 0.93,
+     "role": 0.975,
+     "v2": 0.87
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|eeabbfce2fdc|65c1169a",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "Should you choose riverside or beachfront apartments?",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.92,
+     "po": 0.93,
+     "role": 1,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "060a0a5",
+    "page": "general--wikipedia-ipa-pronunciation",
+    "fp": "removeBySelector|span|6d76ada24ef7|eee516db",
+    "step": "removeBySelector",
+    "reason": "partial match: -comment",
+    "selector": "-comment",
+    "exact": [],
+    "fam": "comments",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "/ɪɡˈzæmpəl/",
+    "ans": {
+     "ex": 0.8,
+     "plain": 0.85,
+     "po": 0.33,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "95a99c3",
+    "page": "thin-section-before-see-also",
+    "fp": "removeByContentPattern|p|fcb437bfa64e|3063705e",
+    "step": "removeByContentPattern",
+    "reason": "thin CTA section",
+    "selector": "",
+    "exact": [],
+    "fam": "promo",
+    "inline": false,
+    "words": 21,
+    "tag": "p",
+    "text": "Scholar Jane Doe has argued that, if implemented, the concept would represent a significant constraint on individual liberty and local governance.1",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1,
+     "v2": 0.99
+    }
+   },
+   {
+    "commit": "95a99c3",
+    "page": "thin-section-before-see-also",
+    "fp": "removeByContentPattern|div|5d20d0fee3b9|e97e60ca",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "References",
+    "ans": {
+     "ex": 0.13,
+     "plain": 0.15,
+     "po": 0.13,
+     "role": 1,
+     "v2": 0.67
+    }
+   },
+   {
+    "commit": "95a99c3",
+    "page": "thin-section-before-see-also",
+    "fp": "removeByContentPattern|div|4d385dd2e53f|c8798526",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 12,
+    "tag": "div",
+    "text": "Doe, Jane (2024). \"Governance and Constraint.\" Journal of Policy Studies. 15(3): 42-58.↩",
+    "ans": {
+     "ex": 0.18,
+     "plain": 0.22,
+     "po": 0.18,
+     "role": 1,
+     "v2": 0.74
+    }
+   },
+   {
+    "commit": "95a99c3",
+    "page": "thin-section-before-see-also",
+    "fp": "removeByContentPattern|div|5d20d0fee3b9|39abb9bc",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "References",
+    "ans": {
+     "ex": 0.17,
+     "plain": 0.19,
+     "po": 0.17,
+     "role": 1,
+     "v2": 0.82
+    }
+   },
+   {
+    "commit": "95a99c3",
+    "page": "thin-section-before-see-also",
+    "fp": "removeByContentPattern|div|4d385dd2e53f|96bc8bd3",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 12,
+    "tag": "div",
+    "text": "Doe, Jane (2024). \"Governance and Constraint.\" Journal of Policy Studies. 15(3): 42-58.↩",
+    "ans": {
+     "ex": 0.16,
+     "plain": 0.25,
+     "po": 0.16,
+     "role": 1,
+     "v2": 0.86
+    }
+   },
+   {
+    "commit": "95a99c3",
+    "page": "thin-section-before-see-also",
+    "fp": "removeByContentPattern|div|4d385dd2e53f|713b7645",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 12,
+    "tag": "div",
+    "text": "Doe, Jane (2024). \"Governance and Constraint.\" Journal of Policy Studies. 15(3): 42-58.↩",
+    "ans": {
+     "ex": 0.06,
+     "plain": 0.12,
+     "po": 0.06,
+     "role": 1,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "cf886a0",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeHiddenElements|div|b1ad594360ff|43ccc4ab",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 39,
+    "tag": "div",
+    "text": "Maggie Appleton - indieweb.social/@maggierepliedNovember 30, 2022 Still very half-baked. Have to circle back and finish it off (Also don’t check on mobile - just pushed an update that screwed up responsive layouts 🤦‍♀️ - will fix in a minute)",
+    "ans": {
+     "ex": 0.73,
+     "plain": 0.58,
+     "po": 0.73,
+     "role": 0.02,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "cf886a0",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|div|35b0723d6dbb|efe448ce",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "A Pattern Language Christopher Alexander The book outlined a number of solutions for architecture and urban planning design, but the theory has since (appropriately) taken on a life of its own.",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.375,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "12dfa32",
+    "page": "gated-content--cookie-consent",
+    "fp": "removeHiddenElements|div|85d1b20d8750|8d44d719",
+    "step": "removeHiddenElements",
+    "reason": "class:[&_.newsletter-fallback-image]:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 282,
+    "tag": "div",
+    "text": "The company on Thursday began removing advertisements from attorneys seeking clients that claim to have been harmed by their product. Why it matters: This comes just two weeks after the company was found negligent in a landmark case about product liability. Lawyers across the country are now seeking",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "12dfa32",
+    "page": "gated-content--cookie-consent",
+    "fp": "removeBySelector|span|dcc20290b433|e65b5e61",
+    "step": "removeBySelector",
+    "reason": "partial match: gated-",
+    "selector": "gated-",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 262,
+    "tag": "span",
+    "text": "Why it matters: This comes just two weeks after the company was found negligent in a landmark case about product liability. Lawyers across the country are now seeking new plaintiffs, in the hopes of bringing a class action lawsuit that could result in significant verdicts. It is unclear if any of th",
+    "ans": {
+     "ex": 0.62,
+     "plain": 0.71,
+     "po": 0.72,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "0699bb0",
+    "page": "content-patterns--content-list-with-internal-links",
+    "fp": "removeByContentPattern|ul|8ef8968a7f16|8d8180ee",
+    "step": "removeByContentPattern",
+    "reason": "breadcrumb navigation list",
+    "selector": "",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 58,
+    "tag": "ul",
+    "text": "I wear monochromatic clothing without logos I use a specific date format everywhere I pluralize tag and folder names (e.g. groups not group) I use plain text files for all my writing I ask myself reflection questions every year I meal prep lunches every week, and exercise twice a week I write short ",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 0.875,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|03cc43e2cd3f|72d42934",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 29,
+    "tag": "aside",
+    "text": "By my count: 1) Alice and Bob. 2) Bob's backstory. 3) Charlie and the team. 4) Drama at headquarters. 5) Diana and the organization. 6) Eve and her scheming.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 0.95,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|38b985ff7f73|596ec854",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 16,
+    "tag": "aside",
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|e7f5b364db61|bdb72a2c",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 18,
+    "tag": "aside",
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.96,
+     "role": 0.965,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|38b985ff7f73|63506418",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 16,
+    "tag": "aside",
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.95,
+     "po": 0.95,
+     "role": 1,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|e7f5b364db61|6b1062a7",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 18,
+    "tag": "aside",
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.94,
+     "po": 0.96,
+     "role": 0.965,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|03cc43e2cd3f|f85ce4dd",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 29,
+    "tag": "aside",
+    "text": "By my count: 1) Alice and Bob. 2) Bob's backstory. 3) Charlie and the team. 4) Drama at headquarters. 5) Diana and the organization. 6) Eve and her scheming.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.95,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|e7f5b364db61|7452528b",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 18,
+    "tag": "aside",
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.96,
+     "role": 0.965,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|03cc43e2cd3f|949baf23",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 29,
+    "tag": "aside",
+    "text": "By my count: 1) Alice and Bob. 2) Bob's backstory. 3) Charlie and the team. 4) Drama at headquarters. 5) Diana and the organization. 6) Eve and her scheming.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.93,
+     "po": 0.96,
+     "role": 0.95,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|38b985ff7f73|f7021e68",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 16,
+    "tag": "aside",
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.92,
+     "role": 1,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|03cc43e2cd3f|72d42934",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 29,
+    "tag": "aside",
+    "text": "By my count: 1) Alice and Bob. 2) Bob's backstory. 3) Charlie and the team. 4) Drama at headquarters. 5) Diana and the organization. 6) Eve and her scheming.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.93,
+     "po": 0.95,
+     "role": 0.95,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|38b985ff7f73|596ec854",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 16,
+    "tag": "aside",
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|e7f5b364db61|bdb72a2c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 18,
+    "tag": "aside",
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.91,
+     "po": 0.95,
+     "role": 0.965,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|38b985ff7f73|63506418",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 16,
+    "tag": "aside",
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.87,
+     "po": 0.92,
+     "role": 1,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|e7f5b364db61|6b1062a7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 18,
+    "tag": "aside",
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.91,
+     "po": 0.95,
+     "role": 0.965,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "c612d0e",
+    "page": "callouts--obsidian-publish-callouts",
+    "fp": "removeHiddenElements|div|c2f6e01aec42|2cc4cbcd",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "Yes, the content is hidden when collapsed.",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.77,
+     "po": 0.89,
+     "role": 0.58,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "c612d0e",
+    "page": "callouts--obsidian-publish-callouts",
+    "fp": "removeHiddenElements|div|ca02ada3dae2|2809562c",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 8,
+    "tag": "div",
+    "text": "> [!abstract] > Lorem ipsum dolor sit amet",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.79,
+     "po": 0.83,
+     "role": 0.98,
+     "v2": 0.74
+    }
+   },
+   {
+    "commit": "c612d0e",
+    "page": "callouts--obsidian-publish-callouts",
+    "fp": "removeHiddenElements|div|19d2473073e9|6e9b40fb",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 8,
+    "tag": "div",
+    "text": "> [!tip] > Lorem ipsum dolor sit amet",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.86,
+     "po": 0.89,
+     "role": 0.97,
+     "v2": 0.82
+    }
+   },
+   {
+    "commit": "f91790f",
+    "page": "content-patterns--trailing-subscribe-after-footnotes",
+    "fp": "removeByContentPattern|div|785099456f36|c4a60838",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "This is the first footnote with additional context about the preceding claim.↩ This is the second footnote referencing external research.↩",
+    "ans": {
+     "ex": 0.22,
+     "plain": 0.2,
+     "po": 0.22,
+     "role": 1,
+     "v2": 0.81
+    }
+   },
+   {
+    "commit": "c5c5fa8",
+    "page": "general--svg-content-preservation",
+    "fp": "removeHiddenElements|div|12ba39be61fe|1dbb14a1",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 2,
+    "tag": "div",
+    "text": "2.0 1.0",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.78,
+     "po": 0.82,
+     "role": 0.91,
+     "v2": 0.87
+    }
+   },
+   {
+    "commit": "c5c5fa8",
+    "page": "general--svg-content-preservation",
+    "fp": "removeByContentPattern|p|cc6aae33428e|7c0534f6",
+    "step": "removeByContentPattern",
+    "reason": "related content intro",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 15,
+    "tag": "p",
+    "text": "For more on neural networks, see the references section at the end of this article.",
+    "ans": {
+     "ex": 0.57,
+     "plain": 0.55,
+     "po": 0.57,
+     "role": 0.93,
+     "v2": 0.38
+    }
+   },
+   {
+    "commit": "c5c5fa8",
+    "page": "general--svg-content-preservation",
+    "fp": "removeBySelector|div|12ba39be61fe|1dbb14a1",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     ".hidden"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "div",
+    "text": "2.0 1.0",
+    "ans": {
+     "ex": 0.74,
+     "plain": 0.69,
+     "po": 0.74,
+     "role": 0.91,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "77462b4",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "bd57660",
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|b05a83d90694|b16a2b45",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 6,
+    "tag": "h2",
+    "text": "New Ion Thruster Breaks Efficiency Record",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.92,
+     "po": 0.94,
+     "role": 1,
+     "v2": 0.36
+    }
+   },
+   {
+    "commit": "bd57660",
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|3db5c0551587|0f6c456b",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 7,
+    "tag": "h2",
+    "text": "Mars Sample Return Mission Gets Green Light",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.91,
+     "po": 0.95,
+     "role": 1,
+     "v2": 0.5
+    }
+   },
+   {
+    "commit": "bd57660",
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|b21cd744541a|1b21f808",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 7,
+    "tag": "h2",
+    "text": "Commercial Space Station Module Passes Critical Review",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.88,
+     "po": 0.93,
+     "role": 1,
+     "v2": 0.55
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeBySelector|h2|658fcb944ada|bda6f288",
+    "step": "removeBySelector",
+    "reason": "partial match: -error",
+    "selector": "-error",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 5,
+    "tag": "h2",
+    "text": "Ignore the Error and Retry",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.93,
+     "po": 0.95,
+     "role": 0.995,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeByContentPattern|p|415756375420|5e13be65",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 12,
+    "tag": "p",
+    "text": "We hope these lessons save you time on your own integration projects.",
+    "ans": {
+     "ex": 0.72,
+     "plain": 0.61,
+     "po": 0.72,
+     "role": 0.895,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeByContentPattern|p|e36afa9883f5|5e13be65",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 13,
+    "tag": "p",
+    "text": "The patterns we described here have served us well across many different APIs.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.83,
+     "po": 0.95,
+     "role": 0.995,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeByContentPattern|p|54dbda7cd813|5e13be65",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 9,
+    "tag": "p",
+    "text": "Building reliable API integrations requires patience and careful observation.",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.72,
+     "po": 0.89,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeByContentPattern|h2|e39262defe80|5e13be65",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 1,
+    "tag": "h2",
+    "text": "Conclusion",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.5,
+     "po": 0.6,
+     "role": 0.99,
+     "v2": 0.78
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeByContentPattern|p|415756375420|779e7bea",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 12,
+    "tag": "p",
+    "text": "We hope these lessons save you time on your own integration projects.",
+    "ans": {
+     "ex": 0.72,
+     "plain": 0.61,
+     "po": 0.72,
+     "role": 0.895,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeByContentPattern|p|e36afa9883f5|779e7bea",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 13,
+    "tag": "p",
+    "text": "The patterns we described here have served us well across many different APIs.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.83,
+     "po": 0.95,
+     "role": 0.995,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeByContentPattern|p|54dbda7cd813|779e7bea",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 9,
+    "tag": "p",
+    "text": "Building reliable API integrations requires patience and careful observation.",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.72,
+     "po": 0.89,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeByContentPattern|h2|e39262defe80|779e7bea",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 1,
+    "tag": "h2",
+    "text": "Conclusion",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.5,
+     "po": 0.6,
+     "role": 0.99,
+     "v2": 0.78
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "codeblocks--mintlify",
+    "fp": "removeBySelector|h2|3f170caead65|77628b33",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "selector": "next-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h2",
+    "text": "Next Steps",
+    "ans": {
+     "ex": 0.65,
+     "plain": 0.64,
+     "po": 0.65,
+     "role": 0.99,
+     "v2": 0.73
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--obsidian-publish-cjk",
+    "fp": "removeBySelector|div|ee2648cda514|11f314ad",
+    "step": "removeBySelector",
+    "reason": "partial match: graph-view",
+    "selector": "graph-view",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "div",
+    "text": "Interactive graph",
+    "ans": {
+     "ex": 0.32,
+     "plain": 0.33,
+     "po": 0.32,
+     "role": 0.99,
+     "v2": 0.41
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--obsidian-publish-cjk",
+    "fp": "scoreAndRemove|div|3e1274e4fe4b|6fb8ed5a",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "开发者",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.93,
+     "po": 0.95,
+     "role": 0.82,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|table|38ae86aa4e0b|63387a4c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "table.infobox"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 38,
+    "tag": "table",
+    "text": "Obsidian Developer(s) Dynalist Inc. Initial release March 2020 (2020-03) Stable release 1.5.81 / January 15, 2024 Written in TypeScript, JavaScript Operating system Windows, macOS, Linux, Android, iOS, iPadOS Type Note-taking, personal knowledge management License Proprietary freemium Website obsidi",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.99,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|dddee3d0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.1,
+     "plain": 0.08,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.29
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|82f7000a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.08,
+     "plain": 0.06,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.22
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|6e9742ed",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.09,
+     "plain": 0.07,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.22
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|45aa6c64",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.08,
+     "plain": 0.05,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.21
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|46217aa5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.08,
+     "plain": 0.06,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.26
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|b5179447",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.1,
+     "plain": 0.09,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.28
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|8d6e33bd",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.08,
+     "plain": 0.06,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.21
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|4bda8448",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.12,
+     "plain": 0.07,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.26
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|04c691af",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.08,
+     "plain": 0.06,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.23
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|c465567b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.09,
+     "plain": 0.08,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.25
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|24f8339e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.09,
+     "plain": 0.07,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.24
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|ca21a16b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.09,
+     "plain": 0.08,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.28
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|598db6bf",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.1,
+     "plain": 0.07,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.29
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|c19b2c47",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.13,
+     "plain": 0.11,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.28
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|aacec6a8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.14,
+     "plain": 0.09,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.27
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|1b9fe1cb",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.1,
+     "plain": 0.07,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.25
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|37b9281c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.12,
+     "plain": 0.08,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.23
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|e7c2431f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.15,
+     "plain": 0.08,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.28
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|53349987",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.11,
+     "plain": 0.08,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.27
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|163846ee",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.09,
+     "plain": 0.07,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.24
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|451cd3d2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.11,
+     "plain": 0.06,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.23
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|da44eb4d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.06,
+     "plain": 0.05,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.17
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|a|fe870e9c6897|d3bbba53",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.06,
+     "plain": 0.04,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.18
+    }
+   },
+   {
+    "commit": "d845aff",
+    "page": "footnotes--aside-ol-start",
+    "fp": "removeBySelector|aside|b94be9606efd|eb041661",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 13,
+    "tag": "aside",
+    "text": "There are other benefits too, but these are the ones you notice first.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.89,
+     "po": 0.95,
+     "role": 0.97,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "d845aff",
+    "page": "footnotes--aside-ol-start",
+    "fp": "removeBySelector|aside|464e2528b67b|2dc92d1a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 14,
+    "tag": "aside",
+    "text": "Shrinking finds the smallest input that triggers the bug. See this post for details.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.91,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "481de2b",
+    "page": "issues--120-dhammatalks-footnotes",
+    "fp": "removeBySelector|a|fe870e9c6897|21784825",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.17,
+     "plain": 0.16,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.36
+    }
+   },
+   {
+    "commit": "481de2b",
+    "page": "issues--120-dhammatalks-footnotes",
+    "fp": "removeBySelector|a|fe870e9c6897|d7c26076",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.18,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.56
+    }
+   },
+   {
+    "commit": "481de2b",
+    "page": "issues--120-dhammatalks-footnotes",
+    "fp": "removeBySelector|a|fe870e9c6897|94e6716b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.49,
+     "plain": 0.35,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.66
+    }
+   },
+   {
+    "commit": "481de2b",
+    "page": "issues--120-dhammatalks-footnotes",
+    "fp": "removeBySelector|a|fe870e9c6897|f04b7407",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.22,
+     "plain": 0.22,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.5
+    }
+   },
+   {
+    "commit": "481de2b",
+    "page": "issues--120-dhammatalks-footnotes",
+    "fp": "removeBySelector|a|fe870e9c6897|e99640f9",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.18,
+     "plain": 0.18,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.42
+    }
+   },
+   {
+    "commit": "481de2b",
+    "page": "issues--120-dhammatalks-footnotes",
+    "fp": "removeBySelector|a|fe870e9c6897|b0165881",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.18,
+     "plain": 0.17,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.45
+    }
+   },
+   {
+    "commit": "481de2b",
+    "page": "issues--120-dhammatalks-footnotes",
+    "fp": "removeBySelector|a|fe870e9c6897|6679164d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.19,
+     "plain": 0.19,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.46
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|a|fe870e9c6897|544abaa7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.18,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.32
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|a|fe870e9c6897|0a8a0060",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.17,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.46
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|a|fe870e9c6897|9f344450",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.26,
+     "plain": 0.29,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.5
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|a|fe870e9c6897|8bcc6169",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.17,
+     "plain": 0.17,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.41
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|a|fe870e9c6897|52f15bfd",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.22,
+     "plain": 0.22,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.46
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|a|fe870e9c6897|24ecc021",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.19,
+     "po": 0.2,
+     "role": 0.99,
+     "v2": 0.26
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|2ee4d049",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.19,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.57
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|52a31ec5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.24,
+     "plain": 0.24,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.53
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|8d2388dc",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.23,
+     "plain": 0.21,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.51
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|c4937168",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.22,
+     "plain": 0.19,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.46
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|497a096b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.36,
+     "plain": 0.31,
+     "po": 0.36,
+     "role": 0.99,
+     "v2": 0.58
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|e4ac9c6b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.24,
+     "plain": 0.23,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.62
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|cae231c0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.33,
+     "plain": 0.32,
+     "po": 0.33,
+     "role": 0.99,
+     "v2": 0.54
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|1ce6ac52",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.42,
+     "plain": 0.42,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.64
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|0a3be13c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.35,
+     "plain": 0.33,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.44
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|b50f2e7d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.23,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.51
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|16d7dc32",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.28,
+     "plain": 0.25,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.47
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|3b97d715",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.18,
+     "plain": 0.16,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.52
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|4c226821",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.38,
+     "plain": 0.38,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.68
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|43fc5e48",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.21,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.42
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|25773571",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.19,
+     "plain": 0.18,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.35
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|8989c13a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.39,
+     "plain": 0.31,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.53
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|d0a84a7a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.32,
+     "plain": 0.29,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.53
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|cac54276",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.24,
+     "plain": 0.22,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.48
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|df424487",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.53,
+     "plain": 0.56,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.71
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|8ad65229",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.22,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.48
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|3e0209a5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.3,
+     "plain": 0.26,
+     "po": 0.12,
+     "role": 0.985,
+     "v2": 0.39
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|726703cb",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.18,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.49
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|6688182b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.17,
+     "plain": 0.14,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.46
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|256ec4ec",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.18,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.5
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|2ce1369a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.25,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.45
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|7fd48cef",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.14,
+     "plain": 0.15,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.33
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|df69cb9b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.51,
+     "plain": 0.48,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.67
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|4eda5361",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.22,
+     "plain": 0.19,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.42
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|247c2ce1",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.19,
+     "plain": 0.17,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.42
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|8624a032",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.23,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.45
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|86fa4825",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.37,
+     "plain": 0.34,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.61
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|7f6791da",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.25,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.42
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|3fc8b0d3",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref)"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.38,
+     "plain": 0.37,
+     "po": 0.12,
+     "role": 0.99,
+     "v2": 0.55
+    }
+   },
+   {
+    "commit": "d3673b5",
+    "page": "issues--167-partial-selector-inside-code",
+    "fp": "removeBySelector|span|ac4ae97285c1|ad3a6c2e",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "selector": "next-",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "h1",
+    "ans": {
+     "ex": 0.44,
+     "plain": 0.54,
+     "po": 0.16,
+     "role": 0.605,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "d3673b5",
+    "page": "issues--167-partial-selector-inside-code",
+    "fp": "removeBySelector|span|bf1c365741a4|e1e709c9",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "selector": "next-",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "h2",
+    "ans": {
+     "ex": 0.54,
+     "plain": 0.62,
+     "po": 0.19,
+     "role": 0.445,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "d3673b5",
+    "page": "issues--167-partial-selector-inside-code",
+    "fp": "removeBySelector|span|bf1c365741a4|9abf2d7a",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "selector": "next-",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "h2",
+    "ans": {
+     "ex": 0.49,
+     "plain": 0.56,
+     "po": 0.19,
+     "role": 0.445,
+     "v2": 0.92
+    }
+   }
+  ],
+  "wrong_list": [
+   {
+    "commit": "ededffd",
+    "subject": "Keep screen-reader text as content (#390)",
+    "page": "issues--366-mixed-numbers",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "10",
+    "recovered": true
+   },
+   {
+    "commit": "ededffd",
+    "subject": "Keep screen-reader text as content (#390)",
+    "page": "issues--366-mixed-numbers",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "sel": "sr-only",
+    "words": 4,
+    "text": "5 out of 10",
+    "recovered": true
+   },
+   {
+    "commit": "ededffd",
+    "subject": "Keep screen-reader text as content (#390)",
+    "page": "issues--366-screen-reader-links",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "sel": "sr-only",
+    "words": 3,
+    "text": "Share this article",
+    "recovered": false
+   },
+   {
+    "commit": "ededffd",
+    "subject": "Keep screen-reader text as content (#390)",
+    "page": "issues--366-screen-reader-links",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "sel": "sr-only",
+    "words": 2,
+    "text": "Next article",
+    "recovered": true
+   },
+   {
+    "commit": "a212ac4",
+    "subject": "Fix metadata and content extraction consistency across DOMs",
+    "page": "math--katex-centraliser",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "g",
+    "recovered": false
+   },
+   {
+    "commit": "a212ac4",
+    "subject": "Fix metadata and content extraction consistency across DOMs",
+    "page": "math--katex-centraliser",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "G",
+    "recovered": false
+   },
+   {
+    "commit": "a212ac4",
+    "subject": "Fix metadata and content extraction consistency across DOMs",
+    "page": "math--katex-centraliser",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "a",
+    "recovered": false
+   },
+   {
+    "commit": "a212ac4",
+    "subject": "Fix metadata and content extraction consistency across DOMs",
+    "page": "math--katex-centraliser",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "b",
+    "recovered": false
+   },
+   {
+    "commit": "a212ac4",
+    "subject": "Fix metadata and content extraction consistency across DOMs",
+    "page": "math--katex-centraliser",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "l",
+    "recovered": false
+   },
+   {
+    "commit": "cc3787b",
+    "subject": "Extract LaTeX from data-math attribute in math elements (#238)",
+    "page": "math--katex-data-math",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)",
+    "words": 1,
+    "text": "x",
+    "recovered": false
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "related--inline-related-stories-block",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 52,
+    "text": "\"I had hoped that the director's affinity with these themes might push him to new creative heights, and enable him to co",
+    "recovered": true
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "related--inline-related-stories-block",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 56,
+    "text": "She adds that the adaptation lacks many of the elements that make the poem great. It has nothing convincing to say about",
+    "recovered": true
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "related--inline-related-stories-block",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 52,
+    "text": "The director praised the translation during his press tour, telling a film magazine that he used its opening line as a g",
+    "recovered": true
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "related--inline-related-stories-block",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 46,
+    "text": "Audiences don't appear to be sharing the translator's dissatisfaction. The movie received top marks in exit polling duri",
+    "recovered": true
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "related--inline-related-stories-block",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 8,
+    "text": "The film is now playing in theaters nationwide.",
+    "recovered": true
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "selectors--logo-substring-wrapper",
+    "step": "removeBySelector",
+    "reason": "partial match: logo",
+    "sel": "logo",
+    "words": 292,
+    "text": "The vote clears the way for construction to begin next spring on lines that will connect the eastern suburbs to the down",
+    "recovered": true
+   },
+   {
+    "commit": "5e781e6",
+    "subject": "Gmail (#350)",
+    "page": "gmail--mail.google.com-mail-u-0-thread",
+    "step": "removeByContentPattern",
+    "reason": "article metadata header block",
+    "sel": "",
+    "words": 7,
+    "text": "Alex Rivera May 15, 2026, 11:30 AM",
+    "recovered": false
+   },
+   {
+    "commit": "5e781e6",
+    "subject": "Gmail (#350)",
+    "page": "gmail--mail.google.com-mail-u-0-thread",
+    "step": "removeByContentPattern",
+    "reason": "article metadata header block",
+    "sel": "",
+    "words": 7,
+    "text": "Jane Doe May 15, 2026, 12:00 PM",
+    "recovered": false
+   },
+   {
+    "commit": "a1e8a51",
+    "subject": "Don't treat mid-article image rows as related post cards",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 63,
+    "text": "Results The consolidated dataset shows a consistent seasonal pattern that had been suspected but never demonstrated acro",
+    "recovered": true
+   },
+   {
+    "commit": "a1e8a51",
+    "subject": "Don't treat mid-article image rows as related post cards",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 29,
+    "text": "Reception Reviews of the consolidated dataset have been broadly positive, though several commentators have noted that th",
+    "recovered": true
+   },
+   {
+    "commit": "a1e8a51",
+    "subject": "Don't treat mid-article image rows as related post cards",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 31,
+    "text": "Legacy The protocol has since been adopted by adjacent fields, and the vocabulary it introduced is now standard in textb",
+    "recovered": true
+   },
+   {
+    "commit": "a1e8a51",
+    "subject": "Don't treat mid-article image rows as related post cards",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "step": "removeByContentPattern",
+    "reason": "related post cards",
+    "sel": "",
+    "words": 89,
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely o",
+    "recovered": true
+   },
+   {
+    "commit": "a1e8a51",
+    "subject": "Don't treat mid-article image rows as related post cards",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "step": "removeByContentPattern",
+    "reason": "boilerplate text",
+    "sel": "",
+    "words": 89,
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely o",
+    "recovered": true
+   },
+   {
+    "commit": "0bfaca1",
+    "subject": "fix: don't strip sections with delimiter-less anchor ids",
+    "page": "issues--pascalcase-section-id-partial-match",
+    "step": "removeBySelector",
+    "reason": "partial match: hero[_\\-a-z]",
+    "sel": "hero[_\\-a-z]",
+    "words": 66,
+    "text": "The role of things This section must survive extraction. Its lowercased identifier reads as theroleofthings, and that ru",
+    "recovered": true
+   },
+   {
+    "commit": "0bfaca1",
+    "subject": "fix: don't strip sections with delimiter-less anchor ids",
+    "page": "issues--pascalcase-section-id-partial-match",
+    "step": "removeBySelector",
+    "reason": "partial match: feedback",
+    "sel": "feedback",
+    "words": 64,
+    "text": "Loops and feedback This section must also survive extraction. Its lowercased identifier reads as loopsandfeedback, and t",
+    "recovered": true
+   },
+   {
+    "commit": "3a95b35",
+    "subject": "Leetcode fixes",
+    "page": "issues--263-buttons-in-paragraphs",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "button",
+    "words": 1,
+    "text": "special",
+    "recovered": true
+   },
+   {
+    "commit": "3a95b35",
+    "subject": "Leetcode fixes",
+    "page": "issues--263-buttons-in-paragraphs",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "button",
+    "words": 1,
+    "text": "subsequence",
+    "recovered": true
+   },
+   {
+    "commit": "48e2029",
+    "subject": "Fix Wikipedia footnotes",
+    "page": "footnotes--wikipedia-references",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 46,
+    "text": "Author, A. (2005). \"Introduction to placeholder topics.\" Journal of Examples. 10(2): 100-110.↩ Author, B. (2010). \"Appli",
+    "recovered": true
+   },
+   {
+    "commit": "48e2029",
+    "subject": "Fix Wikipedia footnotes",
+    "page": "thin-section-before-see-also",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 12,
+    "text": "Doe, Jane (2024). \"Governance and Constraint.\" Journal of Policy Studies. 15(3): 42-58.↩",
+    "recovered": true
+   },
+   {
+    "commit": "739ba78",
+    "subject": "Footnotes: sidenotes",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "label",
+    "words": 1,
+    "text": "1",
+    "recovered": true
+   },
+   {
+    "commit": "739ba78",
+    "subject": "Footnotes: sidenotes",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "label",
+    "words": 1,
+    "text": "2",
+    "recovered": true
+   },
+   {
+    "commit": "739ba78",
+    "subject": "Footnotes: sidenotes",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "label",
+    "words": 1,
+    "text": "3",
+    "recovered": true
+   },
+   {
+    "commit": "739ba78",
+    "subject": "Footnotes: sidenotes",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "footer",
+    "words": 31,
+    "text": "Sidenotes 1 This is the first footnote content. 2 This is the second footnote with more detail about the topic. 3 A read",
+    "recovered": true
+   },
+   {
+    "commit": "2385dad",
+    "subject": "Footnotes: more patterns",
+    "page": "footnotes--span-fnref-colon",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref):not(.footnote-backref)",
+    "words": 1,
+    "text": "1",
+    "recovered": false
+   },
+   {
+    "commit": "2385dad",
+    "subject": "Footnotes: more patterns",
+    "page": "footnotes--span-fnref-colon",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref):not(.footnote-backref)",
+    "words": 1,
+    "text": "2",
+    "recovered": false
+   },
+   {
+    "commit": "2385dad",
+    "subject": "Footnotes: more patterns",
+    "page": "footnotes--span-fnref-colon",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref):not(.footnote-backref)",
+    "words": 1,
+    "text": "3",
+    "recovered": false
+   },
+   {
+    "commit": "6186920",
+    "subject": "Fix #256",
+    "page": "elementor--archive-page",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "sel": "",
+    "words": 5,
+    "text": "Premium Apartment Market Overview Q1/2026",
+    "recovered": true
+   },
+   {
+    "commit": "6186920",
+    "subject": "Fix #256",
+    "page": "elementor--archive-page",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "sel": "",
+    "words": 6,
+    "text": "Premium Apartment Projects Currently For Sale",
+    "recovered": true
+   },
+   {
+    "commit": "6186920",
+    "subject": "Fix #256",
+    "page": "elementor--archive-page",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "sel": "",
+    "words": 7,
+    "text": "Should you choose riverside or beachfront apartments?",
+    "recovered": true
+   },
+   {
+    "commit": "060a0a5",
+    "subject": "Wikipedia: Keep phonetic",
+    "page": "general--wikipedia-ipa-pronunciation",
+    "step": "removeBySelector",
+    "reason": "partial match: -comment",
+    "sel": "-comment",
+    "words": 1,
+    "text": "/ɪɡˈzæmpəl/",
+    "recovered": true
+   },
+   {
+    "commit": "95a99c3",
+    "subject": "Wikipedia: Fix removals",
+    "page": "thin-section-before-see-also",
+    "step": "removeByContentPattern",
+    "reason": "thin CTA section",
+    "sel": "",
+    "words": 21,
+    "text": "Scholar Jane Doe has argued that, if implemented, the concept would represent a significant constraint on individual lib",
+    "recovered": true
+   },
+   {
+    "commit": "12dfa32",
+    "subject": "Axios: fixes",
+    "page": "gated-content--cookie-consent",
+    "step": "removeBySelector",
+    "reason": "partial match: gated-",
+    "sel": "gated-",
+    "words": 262,
+    "text": "Why it matters: This comes just two weeks after the company was found negligent in a landmark case about product liabili",
+    "recovered": true
+   },
+   {
+    "commit": "0699bb0",
+    "subject": "Retain ULs, overly aggressive removal",
+    "page": "content-patterns--content-list-with-internal-links",
+    "step": "removeByContentPattern",
+    "reason": "breadcrumb navigation list",
+    "sel": "",
+    "words": 58,
+    "text": "I wear monochromatic clothing without logos I use a specific date format everywhere I pluralize tag and folder names (e.",
+    "recovered": true
+   },
+   {
+    "commit": "0ee3118",
+    "subject": "Footnotes: WordPress fixes #237",
+    "page": "footnotes--hidden-aside-data-definition",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "sel": "",
+    "words": 29,
+    "text": "By my count: 1) Alice and Bob. 2) Bob's backstory. 3) Charlie and the team. 4) Drama at headquarters. 5) Diana and the o",
+    "recovered": true
+   },
+   {
+    "commit": "0ee3118",
+    "subject": "Footnotes: WordPress fixes #237",
+    "page": "footnotes--hidden-aside-data-definition",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "sel": "",
+    "words": 16,
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "recovered": true
+   },
+   {
+    "commit": "0ee3118",
+    "subject": "Footnotes: WordPress fixes #237",
+    "page": "footnotes--hidden-aside-data-definition",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "sel": "",
+    "words": 18,
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "recovered": false
+   },
+   {
+    "commit": "f91790f",
+    "subject": "Substack: More removal patterns for Likes",
+    "page": "content-patterns--trailing-subscribe-after-footnotes",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "sel": "",
+    "words": 20,
+    "text": "This is the first footnote with additional context about the preceding claim.↩ This is the second footnote referencing e",
+    "recovered": true
+   },
+   {
+    "commit": "5bb3f20",
+    "subject": "Fix #229",
+    "page": "content-patterns--heading-introduced-list",
+    "step": "removeByContentPattern",
+    "reason": "blog metadata list",
+    "sel": "",
+    "words": 14,
+    "text": "Written in Lua Asynchronous execution Buffer locking Opt-in default configurations Conditional formatting Before/after h",
+    "recovered": false
+   },
+   {
+    "commit": "77462b4",
+    "subject": "Fixes for WordPress footnotes and #228",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/tag/\"]",
+    "words": 3,
+    "text": "in subsequent usage",
+    "recovered": true
+   },
+   {
+    "commit": "29872c0",
+    "subject": "Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "step": "removeBySelector",
+    "reason": "partial match: -error",
+    "sel": "-error",
+    "words": 5,
+    "text": "Ignore the Error and Retry",
+    "recovered": true
+   },
+   {
+    "commit": "29872c0",
+    "subject": "Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "sel": "",
+    "words": 12,
+    "text": "We hope these lessons save you time on your own integration projects.",
+    "recovered": true
+   },
+   {
+    "commit": "29872c0",
+    "subject": "Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "sel": "",
+    "words": 13,
+    "text": "The patterns we described here have served us well across many different APIs.",
+    "recovered": true
+   },
+   {
+    "commit": "29872c0",
+    "subject": "Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "sel": "",
+    "words": 9,
+    "text": "Building reliable API integrations requires patience and careful observation.",
+    "recovered": true
+   },
+   {
+    "commit": "29872c0",
+    "subject": "Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "sel": "",
+    "words": 1,
+    "text": "Conclusion",
+    "recovered": true
+   },
+   {
+    "commit": "ef4933c",
+    "subject": "More removals",
+    "page": "issues--header-wraps-content",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "header",
+    "words": 262,
+    "text": "We Rewrote Example Tool with AI Jane Smith March 25, 2026 A few weeks ago, a major cloud provider published a post about",
+    "recovered": false
+   },
+   {
+    "commit": "d845aff",
+    "subject": "Footnotes: Alternate aside style",
+    "page": "footnotes--aside-ol-start",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "aside:not([class*=\"callout\"])",
+    "words": 13,
+    "text": "There are other benefits too, but these are the ones you notice first.",
+    "recovered": true
+   },
+   {
+    "commit": "d845aff",
+    "subject": "Footnotes: Alternate aside style",
+    "page": "footnotes--aside-ol-start",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "aside:not([class*=\"callout\"])",
+    "words": 14,
+    "text": "Shrinking finds the smallest input that triggers the bug. See this post for details.",
+    "recovered": true
+   },
+   {
+    "commit": "b1983b2",
+    "subject": "Callout standardization (#185)",
+    "page": "elements--bootstrap-alerts",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": ".alert",
+    "words": 3,
+    "text": "Operation completed successfully.",
+    "recovered": false
+   },
+   {
+    "commit": "d3673b5",
+    "subject": "Fix #167 Added `el.closest('code, pre')` to the skip guard so child elements inside code blocks (like `<span id=\"f-next-next\">`) are not removed by partial selector matching.",
+    "page": "issues--167-partial-selector-inside-code",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "sel": "next-",
+    "words": 1,
+    "text": "h1",
+    "recovered": true
+   },
+   {
+    "commit": "d3673b5",
+    "subject": "Fix #167 Added `el.closest('code, pre')` to the skip guard so child elements inside code blocks (like `<span id=\"f-next-next\">`) are not removed by partial selector matching.",
+    "page": "issues--167-partial-selector-inside-code",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "sel": "next-",
+    "words": 1,
+    "text": "h2",
+    "recovered": true
+   }
+  ]
+ },
+ "seconds": 76
+}

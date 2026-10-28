@@ -1,0 +1,170 @@
+{
+ "policy": "none",
+ "fixtures": null,
+ "bugs": {
+  "issues": 18,
+  "fixed": 0,
+  "fixed_list": [],
+  "W_blocks": 42,
+  "W_recovered": 0,
+  "C_blocks": 69,
+  "C_leaked": 0,
+  "leaks": [],
+  "restored": 0,
+  "restored_list": [],
+  "per_issue": {
+   "134": {
+    "W": 2,
+    "recovered": 0,
+    "blocks": [
+     "134-path-cards:lost",
+     "134-whats-new-card:lost"
+    ]
+   },
+   "252": {
+    "W": 4,
+    "recovered": 0,
+    "blocks": [
+     "252s-link-1:lost",
+     "252s-link-2:lost",
+     "252-link-1:lost",
+     "252-link-2:lost"
+    ]
+   },
+   "257": {
+    "W": 1,
+    "recovered": 0,
+    "blocks": [
+     "257-tabs-container:lost"
+    ]
+   },
+   "279": {
+    "W": 1,
+    "recovered": 0,
+    "blocks": [
+     "279-hero:lost"
+    ]
+   },
+   "321": {
+    "W": 1,
+    "recovered": 0,
+    "blocks": [
+     "321-tags-section:lost"
+    ]
+   },
+   "346": {
+    "W": 1,
+    "recovered": 0,
+    "blocks": [
+     "346-steps:lost"
+    ]
+   },
+   "360": {
+    "W": 4,
+    "recovered": 0,
+    "blocks": [
+     "360-withad-1:lost",
+     "360-withad-2:lost",
+     "360-withad-3:lost",
+     "360-bq-1:lost"
+    ]
+   },
+   "365": {
+    "W": 3,
+    "recovered": 0,
+    "blocks": [
+     "365-code-1:lost",
+     "365-code-2:lost",
+     "365-code-3:lost"
+    ]
+   },
+   "372": {
+    "W": 2,
+    "recovered": 0,
+    "blocks": [
+     "372-span-offsite:lost",
+     "372-span-samesite:lost"
+    ]
+   },
+   "375": {
+    "W": 2,
+    "recovered": 0,
+    "blocks": [
+     "375-specs:lost",
+     "375-section-2:lost"
+    ]
+   },
+   "395": {
+    "W": 2,
+    "recovered": 0,
+    "blocks": [
+     "395-thead-row-1:lost",
+     "395-thead-row-2:lost"
+    ]
+   },
+   "408": {
+    "W": 2,
+    "recovered": 0,
+    "blocks": [
+     "408s-nested-list:lost",
+     "408-nested-list:lost"
+    ]
+   },
+   "428": {
+    "W": 6,
+    "recovered": 0,
+    "blocks": [
+     "428-algo-1:lost",
+     "428-algo-2:lost",
+     "428-heading:lost",
+     "428-init:lost",
+     "428-cash:lost",
+     "428-output:lost"
+    ]
+   },
+   "433": {
+    "W": 1,
+    "recovered": 0,
+    "blocks": [
+     "433-footnote:lost"
+    ]
+   },
+   "441": {
+    "W": 1,
+    "recovered": 0,
+    "blocks": [
+     "441-body:lost"
+    ]
+   },
+   "444": {
+    "W": 2,
+    "recovered": 0,
+    "blocks": [
+     "444s-term:lost",
+     "444-term:lost"
+    ]
+   },
+   "445": {
+    "W": 6,
+    "recovered": 0,
+    "blocks": [
+     "445s-comment-label:lost",
+     "445s-p1:lost",
+     "445s-p2:lost",
+     "445-comment-label:lost",
+     "445-p1:lost",
+     "445-p2:lost"
+    ]
+   },
+   "460": {
+    "W": 1,
+    "recovered": 0,
+    "blocks": [
+     "460-body:lost"
+    ]
+   }
+  }
+ },
+ "history": null,
+ "seconds": 143
+}

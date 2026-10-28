@@ -1,0 +1,2066 @@
+{
+ "issue_total": 244,
+ "issue_open": 61,
+ "issueByClass": {
+  "infra-cli-perf-security-feature": 50,
+  "formatting-markdown-code-math-footnotes": 46,
+  "site-extractor": 42,
+  "main-container-or-page-structure": 30,
+  "clutter-FP-attribute-rule": 21,
+  "clutter-FP-structural-rule": 15,
+  "clutter-FP-text-heuristic": 12,
+  "images-lazy-dedupe": 8,
+  "clutter-FN-structural": 7,
+  "metadata-fields": 6,
+  "clutter-FN-kept-clutter": 6,
+  "UNCLASSIFIED": 1
+ },
+ "issueByJudge": {
+  "struct": 60,
+  "infra": 50,
+  "fmt": 46,
+  "site": 42,
+  "attr": 21,
+  "text": 18,
+  "meta": 6,
+  "?": 1
+ },
+ "openByClass": {
+  "site-extractor": 16,
+  "infra-cli-perf-security-feature": 11,
+  "main-container-or-page-structure": 10,
+  "clutter-FP-attribute-rule": 7,
+  "clutter-FP-structural-rule": 6,
+  "clutter-FP-text-heuristic": 4,
+  "formatting-markdown-code-math-footnotes": 3,
+  "images-lazy-dedupe": 3,
+  "clutter-FN-structural": 1
+ },
+ "openByJudge": {
+  "struct": 20,
+  "site": 16,
+  "infra": 11,
+  "attr": 7,
+  "text": 4,
+  "fmt": 3
+ },
+ "unclassified": [
+  "66 Difficulty parsing anchors"
+ ],
+ "extraction_commits_considered": 277,
+ "commitByClass": {
+  "selector-list-addition": 115,
+  "content-pattern-text+structure": 52,
+  "main-container-retry": 33,
+  "other-extraction": 31,
+  "FP-repair-keep-content": 28,
+  "scoring": 9,
+  "security": 6,
+  "hidden": 3
+ },
+ "commitsByClassList": {
+  "selector-list-addition": [
+   "e4f5737 Removals",
+   "48142ce Fixes for variety.com",
+   "e0a0649 Removals: newrepublic.com",
+   "cd5c10c Removals: Bloomberg",
+   "51210ea Removals: Bloomberg",
+   "956d3d7 Removals",
+   "63d501a Removals: comments",
+   "6df8766 Removals: Economist",
+   "1a95608 Removals: Hackernoon",
+   "9d94ebe Removals: androidauthority.com",
+   "5feea5c Removals: Medium",
+   "9204bc0 Removals: Axios",
+   "771418a Removals: techdirt.com",
+   "b2a3e53 Removals: Google blog",
+   "9103db9 Medium: removals",
+   "0379ea4 Removals: pcgamer.com",
+   "4e3549f Removals: Trinity audio player",
+   "5311ec4 Removal",
+   "1bbd788 NYT removals",
+   "95a99c3 Wikipedia: Fix removals",
+   "52df298 Removals",
+   "6660a40 Removals: ieee.org",
+   "107fe3e Removals: FT.com",
+   "0c9f624 NYT: Removals",
+   "77462b4 Fixes for WordPress footnotes and #228",
+   "96b0249 Fixes for https://www.lrb.co.uk/",
+   "ffc0946 Removals",
+   "63ec160 Improvements for jamanetwork.com",
+   "ef4933c More removals",
+   "7e435d2 Removals for arm.com",
+   "83e2aa8 Footnotes: improvements for inline footnotes",
+   "4c664a7 Removal",
+   "5b8fddc Small removals",
+   "a5a2de7 Small removal",
+   "c053b9c Various fixes for math and embeds",
+   "5b0fdb6 removals",
+   "31d0374 removal",
+   "6509bcb improvements for image capture",
+   "5158acf less brittle selector",
+   "f271155 removals",
+   "4ee9c27 removal",
+   "9297315 removals",
+   "e8538ed removal",
+   "cf87f40 removals",
+   "df1cec9 removals",
+   "a9e431f removal",
+   "cd7b8bb removals",
+   "6d3f450 removals",
+   "0aa3c55 removals",
+   "2119ce2 removals",
+   "f7f9c03 removals",
+   "093be31 removals",
+   "1dc018f removals",
+   "c769ccd removals",
+   "9421cc3 more fixes for Node.js",
+   "0af0ec2 removals",
+   "5ef2961 removals",
+   "503f475 removals",
+   "675e4e4 removals",
+   "a9cffa4 removals",
+   "02bacf4 removals",
+   "d9f6028 removals",
+   "3c9b2bc removals",
+   "60e1b49 removal",
+   "1aa17a0 removals",
+   "5d02405 removals",
+   "ceb93f2 removals",
+   "874d5e3 better support for prism code blocks with toolbar improve support for wikipedia math",
+   "3da8e1f removals",
+   "1159855 nyt",
+   "23b1f3f removals",
+   "68e6c2f removals",
+   "433bc79 removal",
+   "3c04a1a removals",
+   "932b805 more removals and move test attributes",
+   "3ec2423 removals",
+   "47c4cee removals",
+   "6e397cc removal",
+   "03cc5fd better title removal",
+   "1e322cc removals",
+   "aca7567 removals",
+   "dd2cae6 removals",
+   "a02705d removals",
+   "20e6fcf nybooks.com",
+   "fe1808a more removals",
+   "d825637 fix for 9to5mac",
+   "87871cc removals",
+   "f95360d more removals",
+   "b9cea72 removal",
+   "21784d0 removals",
+   "145c242 removal",
+   "b76ffe5 removals",
+   "c0c1e35 small removals",
+   "7522f45 nyt",
+   "6afe4e9 removals",
+   "699f2d7 techcrunch",
+   "dfcfc33 menu removals",
+   "eb8e9d8 small removals",
+   "6bc5418 improvements for server-side use",
+   "0fba922 more removals",
+   "9d3acdd removals",
+   "a6b95ac removal",
+   "f0214f0 more removals",
+   "aaed8df nature.com",
+   "f778a7d More removals",
+   "de65fd5 more removals",
+   "76032f5 removals",
+   "dee0ed2 removals, and small fixes for audio controls",
+   "4e7aab5 combine selectors",
+   "16b7904 more removals",
+   "8338dbc more removals for Medium and others",
+   "653ed71 More removals",
+   "f946045 removal fixes for wikipedia",
+   "b774475 add SVG to small image removals",
+   "5d97ada more removals"
+  ],
+  "content-pattern-text+structure": [
+   "ec06322 Remove subhead #316",
+   "323c895 fix: author/date byline heuristic matches day-of-week as a date (#291)",
+   "e1d5137 fix: preserve trailing columns in ragged tables (#299)",
+   "34ee93a Lazy load pattern from pcgamer.com",
+   "2041227 Footnotes: anthropic.com pattern",
+   "b4bd0c7 Eyebrow removals and start of content boundary detection",
+   "2385dad Footnotes: more patterns",
+   "cc96c7f Footnotes: Pattern",
+   "5930c7f Removals: crumbs partial selector",
+   "f546ce7 Removals: checkboxes for sidebar/menus",
+   "c3b0a59 Removals: Content pattern for ToCs",
+   "30ca62b Tailwind: Author pattern",
+   "c80c74b Tailwind: Remove more date and reading time patterns e.g. Cloudflare blog",
+   "f91790f Substack: More removal patterns for Likes",
+   "36024ee Substack: Better handle Likes at end of post",
+   "06e0e18 Remove ticker",
+   "1eef240 Substack: Remove likes",
+   "a2f49a1 Better header detection",
+   "ada50b1 Reorder TOC",
+   "c00471c Medium: Remove sitemap link",
+   "1e894a1 Footnotes: Pattern from https://lalitm.com",
+   "bd57660 Related posts pattern",
+   "7eb20c0 Code: More syntax highlighting patterns",
+   "18a5394 Performance optimizations for math and content patterns (#212)",
+   "444946a Footnotes: Another pattern",
+   "25340c1 Newsletter pattern",
+   "7b45abf Content patterns for kk.org",
+   "dcbb9c3 Fix charset parsing for quoted and trailing-comma values",
+   "bdd3e17 Removal patterns",
+   "4695075 More related posts patterns",
+   "82f4ec4 Code blocks: more patterns",
+   "c930e11 Breadcrumb detection",
+   "4e6567f Trailing related posts",
+   "86ef734 Tailwind: More metadata removals",
+   "a4dd004 Tailwind: improve patterns for footnotes and metadata",
+   "3efcfd7 Remove empty spacers",
+   "65a01ca Breadcrumbs matching",
+   "a6aac15 Author date bylines in Tailwind",
+   "cfb8a55 Remove boundary patterns (#184)",
+   "c8bf21f Extract getClassName utility and hoist regex patterns",
+   "405ed6b Footnotes: More backref removal patterns",
+   "405a2f4 More removal patterns",
+   "b613996 Hide no JS messages",
+   "f85fe52 Fix for X articles, introduce extractAsync",
+   "5326971 Replace forEach+return with for...of+break in removeTrailingHeadings",
+   "bb572a9 Remove skip links across more sites (#62)",
+   "51520c3 Allow checkboxes (for converting markdown task lists)",
+   "de5d571 Trailing headings",
+   "5a12d41 deal with widont elements",
+   "89ec7a5 more patterns",
+   "8393033 many more patterns",
+   "4ae3bc8 Add patterns for The Verge and Substack"
+  ],
+  "main-container-retry": [
+   "556d74e fix: validate youtube inline player data fallback (#400)",
+   "0e206c0 Keep whole-body fallbacks from winning retries (#358)",
+   "747aaf7 Preserve declarative shadow DOM content",
+   "1cac0b0 Forward schemaOrgData and options in extractor constructors",
+   "47aaa83 Metadata: author fallback for The Guardian",
+   "c9ac0af H1 fallback",
+   "c2ce56a Metadata: use rel author in fallback",
+   "92691a0 Fix #258 TOC skip peripheral tables in table-based content detection",
+   "edd5cc0 Fix dismiss buttons surviving hidden-content retry (#234)",
+   "3cb89a8 YouTube: Another fallback",
+   "479d8cd YouTube: Improve fallback behaviors",
+   "0b8ce94 Fix #218 Preserve text in wrapper spans during footnote fallback matching (#219)",
+   "8109f79 Removals for sites using table layout",
+   "f604140 Fix X author fallback on status URLs, fix #208",
+   "fe6300f YouTube: Fallbacks",
+   "47e9dc5 Fix main content embedded into figure elements",
+   "33738d6 Consolidate fetch and bot UA retry logic into shared module",
+   "84d959c Fix content extraction for pages without semantic entry points (e.g. Oxygen Builder)",
+   "249951b Add post-body for Ghost sites",
+   "f74fdd0 Smarter retry for hidden content (#163)",
+   "b6fa176 Retry for index pages",
+   "7c19d57 Fix content selection for pages with multiple article elements",
+   "f3e5d84 Add shadow DOM flattening to extract content from web components",
+   "c734e58 Make retry only win if it produces more content, indicating partial selectors were genuinely too aggressive rather than just removing clutter from a short article",
+   "40376f8 Added typeof checks in _getSchemaText() to only return item.text and item.articleBody when they are actually strings",
+   "4c7942d Detect table layouts",
+   "ab56579 Add generic footnote detection fallback and backref cleanup",
+   "fa837d1 Don't remove content that's been selected as the primary",
+   "bd31303 target nested articles correctly",
+   "19a092f Fix broken regex for schema.org array index matching",
+   "56bc159 improve table layout detection",
+   "75dc5d1 fallback",
+   "c2f5a4c add author to fallbacks for site"
+  ],
+  "other-extraction": [
+   "f70d689 Remove duplicate extractor types and lint unused locals",
+   "02f99a1 Remove dead code and unused helpers",
+   "34d4f33 Merge branch 'fix-wikipedia-section-removal'",
+   "8d2ef38 Remove TTS iframes",
+   "f13d30c Remove preceding brs",
+   "f0c0fdb fix: remove empty video placeholders (#260)",
+   "cf886a0 Remove unnecessary <br> elements between <p>",
+   "0fc57fa Fix: remove tables with no text or media in any cell (#243)",
+   "ce2342f YouTube: remove androidTimedOut guard",
+   "3624116 Remove parentheses around authors",
+   "6f08bd0 Remove warnings",
+   "c1f7cb8 Remove urls in authors",
+   "3107fd8 Headings: Strip permalink anchors before title match",
+   "9908a6b Images: Remove small SVGs",
+   "bb8bb7d Footnotes: Clean up and remove unnecessary comments",
+   "b1d8286 Remove authors that are superstrings of a shorter entry already present",
+   "ae81d30 Reddit: Remove duplication",
+   "d666642 Standardize removing anchors",
+   "eb71785 Remove <wbr> tags to prevent unwanted spaces in markdown",
+   "de0f86a Better support for stripe docs pages",
+   "58a2ae5 Removed \\xA0 and \\s from the empty-node regex so only truly invisible/zero-width characters trigger node removal.",
+   "3e76039 add removeImages option (#67)",
+   "9677af2 Remove session identifier from youtube.ts (#49)",
+   "cb4291d remove URL input",
+   "f5cad00 remove child selector in :has selector (#37)",
+   "c918ff2 add options for removing partial and exact selectors",
+   "d214b80 remove extra BRs",
+   "2b0117a more aggressive removal of anchor links",
+   "0f22fe2 we can simplify to just removing the first h2 matching title since h1s are converted to h2",
+   "2d25ace remove first h2 if it matches title, reorganize code so metadata is usable",
+   "bdee879 make exact selectors case insensitive using i for better performance"
+  ],
+  "FP-repair-keep-content": [
+   "ededffd Keep screen-reader text as content (#390)",
+   "95febaf Keep performance fixture tests offline",
+   "f58ff85 Fix backticks escaped inside code blocks (#359)",
+   "a1e8a51 Don't treat mid-article image rows as related post cards",
+   "f84b8f6 Keep the iframe sandbox attribute",
+   "7c287cb Merge branch 'fix/303-pascalcase-anchor-ids'",
+   "0bfaca1 fix: don't strip sections with delimiter-less anchor ids",
+   "af24827 Don't remove headings based on data attributes",
+   "cdd1edd Fix legitimate link with anchor being removed in headings",
+   "947c66e Keep content grids with lots of content",
+   "6186920 Fix #256",
+   "060a0a5 Wikipedia: Keep phonetic",
+   "071eba0 Fix #241",
+   "0699bb0 Retain ULs, overly aggressive removal",
+   "cd82d6c Keep initial media in an article",
+   "5bb3f20 Fix #229",
+   "29872c0 Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+   "368cb3b Remove breadcrumb matching if p contains content",
+   "fff99bb Footnotes: Fix false positives",
+   "9db9b86 Fix #208",
+   "3fa5102 Fix #207",
+   "52f15a8 Protect footnotes in #footnotes",
+   "d3673b5 Fix #167 Added `el.closest('code, pre')` to the skip guard so child elements inside code blocks (like `<span id=\"f-next-next\">`) are not removed by partial selector matching.",
+   "ae6fc5c Fix #107 #77 over-aggressive stripping",
+   "4e00da2 Fix some accidental removals",
+   "107eaa3 Fix #137",
+   "f595e64 Keep significant attributes on <track> elements… (#111)",
+   "e7efb34 overly aggressive image standardization"
+  ],
+  "scoring": [
+   "876fa5d Tweak scoring",
+   "483ab7d Scoring patterns (#152)",
+   "5af52ae Fix #148 scoring for tables",
+   "aafc0dc Improve scoring related posts and bylines (#147)",
+   "9e6fa75 Fix scoring issues #112, scoreAndRemove was removing <div> blocks containing navigation indicator words (\"privacy\", \"social\", \"share\", \"popular\") that appeared naturally in conversation text",
+   "6d482d7 Add list items to content scoring",
+   "34e35d5 Improve scoring around code blocks",
+   "6aa4c15 Add scoring penalty for bios",
+   "113a0fb Split out scoring logic (#20)"
+  ],
+  "security": [
+   "27d818c Escape identifiers and keep generated selectors stable (#392)",
+   "ceae461 Sanitize raw schema.org fallback HTML",
+   "3dc4d7d Remove <style> for SVGs for security",
+   "7cd4a27 Fix XSS via attribute injection in _findContentBySchemaText image handling",
+   "f154cb7 Sanitize `this.doc` after `parseInternal` to prevent the `_findContentBySchemaText` fallback from returning unsanitized HTML containing scripts, event handlers, and other dangerous elements. Strips unsafe elements/attributes while preserving legitimate content like math scripts, media iframes, and video embeds. See #139",
+   "ea09d84 Fix #139: - Add _stripUnsafeElements() method that temoves <script>, <style>, <noscript> elements and on* event handler attributes from this.doc.body. This runs on the original document, not the clone. - Call _stripUnsafeElements() in parse() after both parseInternal() calls complete (so extractors and schema extraction still have access to script tags) but before _findContentBySchemaText() searches this.doc. This ensures the fallback path only returns sanitized HTML."
+  ],
+  "hidden": [
+   "7e5e6ac Add Tailwind hidden classes to hidden element detection",
+   "b48b134 Remove hidden elements",
+   "12704c0 more efficient processing of hidden elements and images"
+  ]
+ },
+ "issueRows": [
+  {
+   "number": 460,
+   "state": "OPEN",
+   "title": "Short page body removed when its wrapper has a \"Comments\" heading; hidden-content retry then returns a hidden link list",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 447,
+   "state": "OPEN",
+   "title": "Defuddle hangs on large GitHub gists",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 445,
+   "state": "OPEN",
+   "title": "A paragraph reading just “Comment” truncates the rest of the article",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 444,
+   "state": "OPEN",
+   "title": "Partial selector related removes defined terms on legislation.gov.uk (id=\"term-related-claim\")",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 441,
+   "state": "OPEN",
+   "title": "[data-date] removes the whole post body when the content wrapper carries data-date",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 439,
+   "state": "OPEN",
+   "title": "removeBySelector is 25×+ slower in Safari/WebKit: a lookbehind in PARTIAL_SELECTORS_REGEX disables JavaScriptCore's regex JIT",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 436,
+   "state": "OPEN",
+   "title": "Heading cleanup flattens inline MathML and removes canonical footnote links",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 433,
+   "state": "OPEN",
+   "title": "LaTeXML footnote cleanup discards the sole explanatory body",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 431,
+   "state": "CLOSED",
+   "title": "Extraction drops MathML operator form and largeop attributes",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 428,
+   "state": "OPEN",
+   "title": "Short algorithm instructions containing register are removed as navigation",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 427,
+   "state": "CLOSED",
+   "title": "MathML converter misreads NBSP entities and ASCII indentation",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 423,
+   "state": "CLOSED",
+   "title": "MathML annotation-xml loses its boundary and HTML integration-point encoding",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 422,
+   "state": "CLOSED",
+   "title": "Prose cleanup changes MathML token text and TeX annotation source",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 421,
+   "state": "CLOSED",
+   "title": "Page-chrome removal corrupts MathML fraction arguments",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 418,
+   "state": "CLOSED",
+   "title": "Native MathML normalization drops already-allowed root presentation attributes",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 417,
+   "state": "CLOSED",
+   "title": "Explicit native MathML inline display is overridden by block heuristics",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 415,
+   "state": "OPEN",
+   "title": "Empty-element cleanup removes structural MathML descendants",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 414,
+   "state": "OPEN",
+   "title": "extractorType is a minified class name in the browser bundles",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 410,
+   "state": "CLOSED",
+   "title": "YouTube: English auto-dub caption track picked for Japanese videos when InnerTube response has no defaultCaptionTrackIndex",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 408,
+   "state": "OPEN",
+   "title": "Nested list silently dropped when the list follows a paragraph ending in a colon",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 407,
+   "state": "OPEN",
+   "title": "BilibiliExtractor sets the forbidden User-Agent header on its fetches, which makes the transcript download fail in Firefox (CORS preflight -> 405 from the subtitle CDN)",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 406,
+   "state": "OPEN",
+   "title": "`<picture>` handling sets `img src` to the smallest srcset candidate in HTML output",
+   "cls": "images-lazy-dedupe",
+   "judge": "struct"
+  },
+  {
+   "number": 395,
+   "state": "OPEN",
+   "title": "Defuddle loses table headings and adjacent images on Quarto-generated pages",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 393,
+   "state": "OPEN",
+   "title": "Ship ESM package",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 386,
+   "state": "OPEN",
+   "title": "web clipping not working properly in any book in shamela.ws",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 385,
+   "state": "CLOSED",
+   "title": "math.full.js unconditionally requires mathml-to-latex (declared optionalDependency)",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 384,
+   "state": "CLOSED",
+   "title": "Issues with blog dmitry.gr",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 383,
+   "state": "OPEN",
+   "title": "Issues with OSM (Open Street Map) blog posts",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 382,
+   "state": "OPEN",
+   "title": "Link tag and its text missing from The Verge's article (weird URL)",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 381,
+   "state": "OPEN",
+   "title": "YouTube: include already-loaded comments and replies with includeReplies",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 380,
+   "state": "OPEN",
+   "title": "Reddit listing pages are parsed as a single post, silently dropping the rest of the feed",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 377,
+   "state": "CLOSED",
+   "title": "HTML wrapper cleanup breaks MathML on reparse",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 375,
+   "state": "OPEN",
+   "title": "Projectorjunkies missing data",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 374,
+   "state": "CLOSED",
+   "title": "broken wikipedia image links",
+   "cls": "images-lazy-dedupe",
+   "judge": "struct"
+  },
+  {
+   "number": 372,
+   "state": "OPEN",
+   "title": "Some links are incorrectly removed when their target path partially matches the page's path",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 371,
+   "state": "OPEN",
+   "title": "Defuddle strips div containers with custom card/callout classes",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 369,
+   "state": "OPEN",
+   "title": "figcaption is flattened to plain text: links and footnote refs inside captions are lost",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 368,
+   "state": "OPEN",
+   "title": "addons-linter flags the three innerHTML sites in utils/dom.ts (AMO review noise for bundling extensions) — linter-clean equivalents?",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 367,
+   "state": "CLOSED",
+   "title": "standardize injects a space around <sub>/<sup>, breaking chemical formulas (H<sub>2</sub>O → H <sub>2</sub> O)",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 366,
+   "state": "CLOSED",
+   "title": "Removing .sr-only deletes meaningful glyphs: MediaWiki fractions become wrong numbers (4/3 → 43)",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 365,
+   "state": "OPEN",
+   "title": "Freedium: missing data",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 361,
+   "state": "CLOSED",
+   "title": "getElementSelector() generates invalid selectors for class names containing CSS syntax",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 360,
+   "state": "OPEN",
+   "title": "Puck.News articles cut-off",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 353,
+   "state": "CLOSED",
+   "title": "JavaScript template literal delimiters are escaped when converting WeChat articles",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 352,
+   "state": "CLOSED",
+   "title": "getElementSelector() does not escape ids, so colon-bearing ids (React streaming SSR) make Defuddle throw at itself and silently fall back to the whole <body>",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 349,
+   "state": "CLOSED",
+   "title": "Feature request: Provide an easier way to integrate Defuddle as a Hermes Agent skill",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 348,
+   "state": "OPEN",
+   "title": "403 error on Accuweather",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 347,
+   "state": "CLOSED",
+   "title": "Several extractors drop the `options` constructor argument, silently disabling `includeReplies` and `options.fetch`",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 346,
+   "state": "OPEN",
+   "title": "Bug: Content inside `data-component-part` elements silently dropped when nested under `role=\"list\"`",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 344,
+   "state": "CLOSED",
+   "title": "[feat] PDF support?",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 343,
+   "state": "CLOSED",
+   "title": "Wikipedia extractor drops later article sections as content-pattern clutter",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 341,
+   "state": "OPEN",
+   "title": "ERR_INVALID_URL (\"undefined\") in MetadataExtractor.extract on Linux container — works fine on macOS, same version/deps",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 340,
+   "state": "CLOSED",
+   "title": "(withdrawn)",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 338,
+   "state": "OPEN",
+   "title": "Please add Perplexity (perplexity.ai) extractor",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 336,
+   "state": "OPEN",
+   "title": "Bug: Line breaks are missing/swallowed when clipping posts from x.com (Twitter)",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 335,
+   "state": "CLOSED",
+   "title": "published should reflect the source page date, not the scan date",
+   "cls": "metadata-fields",
+   "judge": "meta"
+  },
+  {
+   "number": 329,
+   "state": "OPEN",
+   "title": "YouTube Shorts video description is cropped when using web clipper",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 325,
+   "state": "CLOSED",
+   "title": "Links in new tabs issue",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 324,
+   "state": "OPEN",
+   "title": "Incompatibility with the taz.de website",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 323,
+   "state": "CLOSED",
+   "title": "Fetching Reddit Broke Today | Error: Failed to fetch old.reddit.com: 403",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 321,
+   "state": "OPEN",
+   "title": "Elements with `id=\"tags\"` are dropped from extracted output",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 320,
+   "state": "OPEN",
+   "title": "gmail parse support",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 314,
+   "state": "CLOSED",
+   "title": "X articles are not getting fetched",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 312,
+   "state": "CLOSED",
+   "title": "CLI: add a --frontmatter flag to emit YAML metadata (parity with defuddle.md)",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 310,
+   "state": "OPEN",
+   "title": "YouTube transcript fails on iOS Safari (m.youtube.com): User-Agent header on caption fetch breaks CORS preflight",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 309,
+   "state": "CLOSED",
+   "title": "YouTube transcript fails on iOS Safari (m.youtube.com): User-Agent header on caption fetch breaks CORS preflight",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 303,
+   "state": "CLOSED",
+   "title": "Main content sections omitted during extraction",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 300,
+   "state": "CLOSED",
+   "title": "nested table elements are messy",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 298,
+   "state": "CLOSED",
+   "title": "`_conversation` extractors crash on linkedom: `document.implementation.createHTMLDocument` is not polyfilled",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 297,
+   "state": "CLOSED",
+   "title": "Raw JavaScript using question",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 296,
+   "state": "CLOSED",
+   "title": "[bug]: `defuddle parse` appends duplicated / misplaced text at the end of generated Markdown",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 295,
+   "state": "CLOSED",
+   "title": "[bug] Defuddle grabs the wrong 'published' date on openai.com blog articles",
+   "cls": "metadata-fields",
+   "judge": "meta"
+  },
+  {
+   "number": 293,
+   "state": "CLOSED",
+   "title": "[Bug] YouTube description sometimes missing from contentHtml",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 288,
+   "state": "OPEN",
+   "title": "Issue with bold on https://eblog.fly.dev/ginbad.html",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 287,
+   "state": "OPEN",
+   "title": "Inline citation link text lost when converting ScienceDirect articles (nested .anchor-text-container > .anchor-text pattern)",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 286,
+   "state": "CLOSED",
+   "title": "Lazy-loaded article images with generic identical alt text are deduplicated away",
+   "cls": "clutter-FN-structural",
+   "judge": "struct"
+  },
+  {
+   "number": 285,
+   "state": "CLOSED",
+   "title": "Broken defuddling on moq.dev",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 284,
+   "state": "CLOSED",
+   "title": "issue in cppreference page",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 283,
+   "state": "OPEN",
+   "title": "Extraction fails for frontend-heavy Angular SPA HTML with large inline style/font blocks",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 282,
+   "state": "CLOSED",
+   "title": "Feature request: Screenshot-based OCR text extraction for Web Clipper",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 280,
+   "state": "CLOSED",
+   "title": "GNU Stow docs missing content with Obsidian Reader",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 279,
+   "state": "OPEN",
+   "title": "`hero[_\\-a-z]` partial selector strips article hero images and captions",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 277,
+   "state": "OPEN",
+   "title": "Add support for slashdot, similar to ycombinator",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 275,
+   "state": "CLOSED",
+   "title": "Markdown links with spaces are broken",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 274,
+   "state": "OPEN",
+   "title": "Clipper skips comments",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 273,
+   "state": "OPEN",
+   "title": "Add extractor for Xiaohongshu (rednote) pages",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 272,
+   "state": "CLOSED",
+   "title": "Twitter extractor: hardcoded English aria-label breaks reply extraction for non-English interfaces",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 268,
+   "state": "CLOSED",
+   "title": "Feature Request: Support for Bilibili (bilibili.com) URLs",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 266,
+   "state": "OPEN",
+   "title": "Obsidian Web Clipper no longer captures YouTube transcript (saves metadata + link only)",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 265,
+   "state": "OPEN",
+   "title": "Feature request: include text/markdown in Accept header to enable content negotiation",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 263,
+   "state": "CLOSED",
+   "title": "LeetCode interactive elements (buttons/spans) within <p> tags are stripped during clipping",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 262,
+   "state": "OPEN",
+   "title": "Add Homebrew formula",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 258,
+   "state": "CLOSED",
+   "title": "Defuddle only captures ToC in an article, ignore content",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 257,
+   "state": "OPEN",
+   "title": "Broken content capture on bioRxiv",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 256,
+   "state": "CLOSED",
+   "title": "I also can take data from head of this page",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 254,
+   "state": "CLOSED",
+   "title": "Empty `<video>` elements without src not removed",
+   "cls": "clutter-FN-structural",
+   "judge": "struct"
+  },
+  {
+   "number": 253,
+   "state": "CLOSED",
+   "title": "Breadcrumb class variant `crumbs` not matched by partial selectors",
+   "cls": "clutter-FN-structural",
+   "judge": "struct"
+  },
+  {
+   "number": 252,
+   "state": "OPEN",
+   "title": "`[href*=\"/author/\"]` selector strips content links, not just metadata",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 250,
+   "state": "CLOSED",
+   "title": "MathJax not correctly converted",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 249,
+   "state": "OPEN",
+   "title": "Default User-Agent silently blocked by CDN/WAF bot detection on many sites",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 245,
+   "state": "CLOSED",
+   "title": "Custom elements (web components) treated as inline, breaking markdown output",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 244,
+   "state": "CLOSED",
+   "title": "LaTeX formula images from rendering services output as broken images instead of math",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 242,
+   "state": "CLOSED",
+   "title": "Empty tables with no text content preserved in output",
+   "cls": "clutter-FN-structural",
+   "judge": "struct"
+  },
+  {
+   "number": 241,
+   "state": "CLOSED",
+   "title": "a16z.com: nav chrome and footer boilerplate in content",
+   "cls": "clutter-FN-kept-clutter",
+   "judge": "text"
+  },
+  {
+   "number": 240,
+   "state": "CLOSED",
+   "title": "Substack subtitle dropped from content",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 239,
+   "state": "CLOSED",
+   "title": "Math content stripped from Gemini chat: data-math attribute not extracted",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 237,
+   "state": "CLOSED",
+   "title": "Footnotes not handled correctly",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 235,
+   "state": "CLOSED",
+   "title": "Code blocks contain code type twice in Ecosia AI answers",
+   "cls": "clutter-FN-kept-clutter",
+   "judge": "text"
+  },
+  {
+   "number": 233,
+   "state": "CLOSED",
+   "title": "Author-date byline heuristic matches day-of-week abbreviations as names",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 232,
+   "state": "CLOSED",
+   "title": "Dismiss buttons survive hidden-content retry",
+   "cls": "clutter-FN-structural",
+   "judge": "struct"
+  },
+  {
+   "number": 231,
+   "state": "OPEN",
+   "title": "Support downloading linked images and rewriting Markdown image paths to local files",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 230,
+   "state": "CLOSED",
+   "title": "Issues with grokipedia site",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 229,
+   "state": "CLOSED",
+   "title": "Missing content (list items) from a GitHub readme",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 228,
+   "state": "CLOSED",
+   "title": "Linked text stripped in reader view (anchor content dropped)",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 227,
+   "state": "CLOSED",
+   "title": "Lazy-rendered images from __NEXT_DATA__ / JSON not extracted",
+   "cls": "images-lazy-dedupe",
+   "judge": "struct"
+  },
+  {
+   "number": 224,
+   "state": "CLOSED",
+   "title": "Raw LaTeX math delimiters mangled by markdown escaping",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 222,
+   "state": "CLOSED",
+   "title": "Pygments inline line numbers leak into code block text",
+   "cls": "clutter-FN-kept-clutter",
+   "judge": "text"
+  },
+  {
+   "number": 221,
+   "state": "CLOSED",
+   "title": "Image extracted as data:image/gif;base64,... placeholder instead of real URL",
+   "cls": "images-lazy-dedupe",
+   "judge": "struct"
+  },
+  {
+   "number": 220,
+   "state": "CLOSED",
+   "title": "Quirks with Simon Willison's website",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 218,
+   "state": "CLOSED",
+   "title": "Footnote fallback matching swallows adjacent text in wrapper spans",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 217,
+   "state": "CLOSED",
+   "title": "Jetbrains documentation looks wrong",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 214,
+   "state": "CLOSED",
+   "title": "OpenAI docs extraction drops hidden code tabs and final section headings",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 213,
+   "state": "CLOSED",
+   "title": "SVGs aren't loaded from this ngrok post",
+   "cls": "images-lazy-dedupe",
+   "judge": "struct"
+  },
+  {
+   "number": 210,
+   "state": "CLOSED",
+   "title": "Related links retained in content on Mythcreants.com",
+   "cls": "clutter-FN-kept-clutter",
+   "judge": "text"
+  },
+  {
+   "number": 209,
+   "state": "CLOSED",
+   "title": "The code block on the chatgpt web conversation page is not functioning",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 208,
+   "state": "CLOSED",
+   "title": "FxTwitter extractor: username regex rejects usernames starting with digits",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 207,
+   "state": "CLOSED",
+   "title": "BUG: --json output contains split UTF-16 surrogate pairs when emoji spans an HTML element boundary",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 203,
+   "state": "CLOSED",
+   "title": "Reddit extractor returns multiple authors when shreddit-comment elements haven't loaded",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 200,
+   "state": "CLOSED",
+   "title": "Does not work well with wiki.c2.com",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 199,
+   "state": "CLOSED",
+   "title": "Allow custom author extraction logic via options",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 197,
+   "state": "CLOSED",
+   "title": "BUG: failed to convert mathjax to latex (content missing)",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 196,
+   "state": "CLOSED",
+   "title": "og:title containing site name used as article title",
+   "cls": "metadata-fields",
+   "judge": "meta"
+  },
+  {
+   "number": 194,
+   "state": "CLOSED",
+   "title": "Proposal: Official Python SDK",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 188,
+   "state": "CLOSED",
+   "title": "H1 H2 Heading hierarchy flattened",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 183,
+   "state": "CLOSED",
+   "title": "Duplicate meta tags: first match wins instead of last",
+   "cls": "metadata-fields",
+   "judge": "meta"
+  },
+  {
+   "number": 182,
+   "state": "CLOSED",
+   "title": "Bootstrap Alert boxes are ignored",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 181,
+   "state": "CLOSED",
+   "title": "CLI: Add Accept-Language header option for locale-dependent sites",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 179,
+   "state": "CLOSED",
+   "title": "Relative URL resolution ignores <base href>",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 178,
+   "state": "CLOSED",
+   "title": "defuddle parse CLI returns empty content for JS-rendered pages that work fine via `curl https://defuddle.md/`",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 176,
+   "state": "OPEN",
+   "title": "[FR] Preserving YouTube transcript segments",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 175,
+   "state": "CLOSED",
+   "title": "Bug: reader mode return wrong content on substck",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 174,
+   "state": "CLOSED",
+   "title": "[Bug] YouTube metadata fetched from \"previous\" video",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 169,
+   "state": "CLOSED",
+   "title": "isBlockDisplay crashes on SVG elements (className is SVGAnimatedString)",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 168,
+   "state": "CLOSED",
+   "title": "Links inside inline code should be stripped to plain text",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 167,
+   "state": "CLOSED",
+   "title": "Partial selector removal strips tokens inside code blocks",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 165,
+   "state": "CLOSED",
+   "title": "CLI: defuddle parse <url> does not honor proxy settings",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 164,
+   "state": "CLOSED",
+   "title": "CLI --json output missing contentMarkdown (separateMarkdown not wired)",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 162,
+   "state": "CLOSED",
+   "title": "aria-hidden=\"true\" on main content wrapper strips entire article",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 160,
+   "state": "CLOSED",
+   "title": "Verso hover tooltips leak into content",
+   "cls": "clutter-FN-kept-clutter",
+   "judge": "text"
+  },
+  {
+   "number": 159,
+   "state": "CLOSED",
+   "title": "`<code class=\"hl\">` blocks not recognized as code blocks",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 156,
+   "state": "CLOSED",
+   "title": "[Bug] Unable to retrieve content from the i18n Obsidian official Publisher translation site.",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 155,
+   "state": "CLOSED",
+   "title": "error: invalid path 'tests/expected/codeblocks--rockthejvm.com:articles:kotlin-101-type-classes.md'",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 154,
+   "state": "CLOSED",
+   "title": "Defuddle CLI",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 148,
+   "state": "CLOSED",
+   "title": "Data tables inside wrapper divs removed as navigation",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 146,
+   "state": "CLOSED",
+   "title": "fix: preserve non-image content inside figure elements during markdown conversion",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 144,
+   "state": "CLOSED",
+   "title": "arXiv footnote marks: doubled superscripts and \"footnotemark:\" text leaking",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 143,
+   "state": "CLOSED",
+   "title": "arXiv cross-reference numbers lost",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 142,
+   "state": "CLOSED",
+   "title": "arXiv multi-citation groups lose all but the first reference",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 141,
+   "state": "CLOSED",
+   "title": "arXiv equation tables rendered as raw HTML instead of LaTeX",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 139,
+   "state": "CLOSED",
+   "title": "Security: Content sanitization bypass via schema.org text fallback",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 138,
+   "state": "CLOSED",
+   "title": "Use collected footnote IDs to match inline references",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 137,
+   "state": "CLOSED",
+   "title": "DOMParser is not defined when running via defuddle/node",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 136,
+   "state": "CLOSED",
+   "title": "content of `<time>` element is removed",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 135,
+   "state": "CLOSED",
+   "title": "Author of page is incorrectly created from testimonials",
+   "cls": "metadata-fields",
+   "judge": "meta"
+  },
+  {
+   "number": 134,
+   "state": "OPEN",
+   "title": "Content links are removed from main section",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 132,
+   "state": "CLOSED",
+   "title": "`.hero` exact selector removes primary content on documentation landing pages",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 131,
+   "state": "CLOSED",
+   "title": "`[href*=\"/category\"]` exact selector removes legitimate page content",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 129,
+   "state": "CLOSED",
+   "title": "X Article Extractor does not capture article banner/hero images",
+   "cls": "images-lazy-dedupe",
+   "judge": "struct"
+  },
+  {
+   "number": 128,
+   "state": "CLOSED",
+   "title": "[BUG] 'span.leading-tight,, img' is not a valid selector",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 127,
+   "state": "CLOSED",
+   "title": "Empty Content for X Article",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 126,
+   "state": "CLOSED",
+   "title": "YouTube shorts body is incorrect",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 125,
+   "state": "CLOSED",
+   "title": "Bug: Double newlines in code blocks when parsing `<span data-line=\"\">` elements",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 123,
+   "state": "CLOSED",
+   "title": "BUG: Issues/inconsistencies with X / Twitter Articles",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 122,
+   "state": "CLOSED",
+   "title": "Fix title for X Articles",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 120,
+   "state": "CLOSED",
+   "title": "[Bug] [Enhancement] Footnotes output consistency : universal/generic processing alone or tweaking user facility too ?",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 117,
+   "state": "OPEN",
+   "title": "Wrong formatting for youtube comment",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 116,
+   "state": "CLOSED",
+   "title": "Missing data from https://ngrok.com/blog/prompt-caching/",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 115,
+   "state": "CLOSED",
+   "title": "Main body located within form HTML tag not detected, but correctly rendered by Safari Reader Mode",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 114,
+   "state": "CLOSED",
+   "title": "[Bug] Page content cannot start with divider",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 113,
+   "state": "CLOSED",
+   "title": "New version release?",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 112,
+   "state": "CLOSED",
+   "title": "[BUG] Missing content when clipping Lex Fridman transcript page",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 110,
+   "state": "CLOSED",
+   "title": "Ob Webclipper of \"Import setting\" doesn't work in Chatgpt Atlas browser",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 108,
+   "state": "CLOSED",
+   "title": "Bug: YouTube video author resolves to author of a comment instead of channel name or username",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 107,
+   "state": "CLOSED",
+   "title": "Hyperlinked text in Associated Press news articles omitted from clipping",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 106,
+   "state": "CLOSED",
+   "title": "Bug: HTML Element with id=\"menu\" breaks defuddler",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 105,
+   "state": "CLOSED",
+   "title": "[FR] Allow to use markdown outside of the Node bundle",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 104,
+   "state": "CLOSED",
+   "title": "TimeExtension",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 101,
+   "state": "CLOSED",
+   "title": "[Meta] Add a label to help diagnose parsing problems",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 100,
+   "state": "OPEN",
+   "title": "[FR] Allow configurable sensitivity (without separate extractor)",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 99,
+   "state": "CLOSED",
+   "title": "[FR] Improve (debug) logging to analyze problems with scoring / missing elements",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 98,
+   "state": "CLOSED",
+   "title": "[BUG] Obsidian Publish pages (from Obsidian Team) fail to extract correctly",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 97,
+   "state": "CLOSED",
+   "title": "Bug: Substack 'Archive' page returns empty content",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 96,
+   "state": "CLOSED",
+   "title": "[BUG] Youtube embed extraction fails",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 94,
+   "state": "OPEN",
+   "title": "Pluggable extractors",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 93,
+   "state": "CLOSED",
+   "title": "How to use this lib in react native",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 92,
+   "state": "CLOSED",
+   "title": "[Enhancement] Make console.log messages configurable or remove hardcoded logging",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 91,
+   "state": "CLOSED",
+   "title": "Bundle for browser, e.g. bookmarklet",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 88,
+   "state": "CLOSED",
+   "title": "[Bug] Parsing fails to omit inline ` for html <code> tags in headings and omits all content in pre tags #507",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 87,
+   "state": "CLOSED",
+   "title": "[ChatGPT] When taking clippings, include hyperlinks. #600",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 86,
+   "state": "CLOSED",
+   "title": "[Bug] Code blocks are missing when clipping ChatGPT conversations",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 84,
+   "state": "CLOSED",
+   "title": "defuddle doesn't treat newlines in <p> tags the same as the browser",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 83,
+   "state": "CLOSED",
+   "title": "Claude.ai assistant messages not captured",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 80,
+   "state": "CLOSED",
+   "title": "Some elements (headings, code blocks and callouts) are missing on the MDN Web Docs",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 79,
+   "state": "CLOSED",
+   "title": "Content not getting picked up at NDTVProfit.",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 78,
+   "state": "CLOSED",
+   "title": "Content and other metadata not getting picked up correctly at curia.europa.eu",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 77,
+   "state": "CLOSED",
+   "title": "When using it to save a web page, the title is lost",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 74,
+   "state": "CLOSED",
+   "title": "Adding Tests",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 73,
+   "state": "CLOSED",
+   "title": "Relative src are kept relative",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 72,
+   "state": "OPEN",
+   "title": "Does not clip images from Khan Academy articles",
+   "cls": "images-lazy-dedupe",
+   "judge": "struct"
+  },
+  {
+   "number": 71,
+   "state": "CLOSED",
+   "title": "Parsing fails due to comments in querySelectorAll call",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 70,
+   "state": "CLOSED",
+   "title": "BUG: Some Source Formats Missing When Extracting ChatGPT Conversations",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 69,
+   "state": "CLOSED",
+   "title": "Reddit extractor fails with old reddit",
+   "cls": "site-extractor",
+   "judge": "site"
+  },
+  {
+   "number": 68,
+   "state": "CLOSED",
+   "title": "Content missing, menu included",
+   "cls": "clutter-FN-kept-clutter",
+   "judge": "text"
+  },
+  {
+   "number": 66,
+   "state": "CLOSED",
+   "title": "Difficulty parsing anchors",
+   "cls": "UNCLASSIFIED",
+   "judge": "?"
+  },
+  {
+   "number": 65,
+   "state": "CLOSED",
+   "title": "Content and other metadata not getting picked up correctly.",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 64,
+   "state": "CLOSED",
+   "title": "BUG: Main Post content is not getting picked up in Discourse's forum.",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 61,
+   "state": "CLOSED",
+   "title": "idea: defuddle-based fetch MCP server",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 60,
+   "state": "CLOSED",
+   "title": "Missing title from expandable element",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 59,
+   "state": "OPEN",
+   "title": "Double Images in New York Times articles",
+   "cls": "clutter-FN-structural",
+   "judge": "struct"
+  },
+  {
+   "number": 58,
+   "state": "CLOSED",
+   "title": "Bug: Missing links from documents when their HTML is too complex",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 57,
+   "state": "CLOSED",
+   "title": "Defuddle missed numbered lines",
+   "cls": "clutter-FP-structural-rule",
+   "judge": "struct"
+  },
+  {
+   "number": 56,
+   "state": "CLOSED",
+   "title": "Defuddle on Cloudflare Workers",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 53,
+   "state": "CLOSED",
+   "title": "Heading with anchor link is ignored",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 52,
+   "state": "CLOSED",
+   "title": "parsing fails: https://help.obsidian.md/*",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 50,
+   "state": "CLOSED",
+   "title": "Error in FindExtractor",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 48,
+   "state": "CLOSED",
+   "title": "ChatGPT python code blocks not extracted",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 46,
+   "state": "CLOSED",
+   "title": "Crunching new lines",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 45,
+   "state": "CLOSED",
+   "title": ".admonition blocks skipped in Defuddle content extraction",
+   "cls": "clutter-FP-text-heuristic",
+   "judge": "text"
+  },
+  {
+   "number": 44,
+   "state": "CLOSED",
+   "title": "Can't extract content from D&D Beyond",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 38,
+   "state": "CLOSED",
+   "title": "Error processing complex image element: ReferenceError: Node is not defined",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 35,
+   "state": "CLOSED",
+   "title": "Web Clipper Images Being Misplaced (Using Default Template)",
+   "cls": "clutter-FN-structural",
+   "judge": "struct"
+  },
+  {
+   "number": 34,
+   "state": "CLOSED",
+   "title": "Failed to save interpreter provider",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 31,
+   "state": "CLOSED",
+   "title": "Some URLs do not get any content text at all or only 1 line",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 30,
+   "state": "OPEN",
+   "title": "Missing images on figure tag",
+   "cls": "images-lazy-dedupe",
+   "judge": "struct"
+  },
+  {
+   "number": 29,
+   "state": "CLOSED",
+   "title": "Resolve relative links in Markdown",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 27,
+   "state": "CLOSED",
+   "title": "LaTeX equations sometimes duplicated",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 24,
+   "state": "CLOSED",
+   "title": "Slightly un-semantic code block on Confluence becomes inline",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 21,
+   "state": "CLOSED",
+   "title": "Puzzle: Given the same html string, playground and server side use output different metadata",
+   "cls": "metadata-fields",
+   "judge": "meta"
+  },
+  {
+   "number": 16,
+   "state": "CLOSED",
+   "title": "<h1> is turned into <h2>",
+   "cls": "formatting-markdown-code-math-footnotes",
+   "judge": "fmt"
+  },
+  {
+   "number": 15,
+   "state": "CLOSED",
+   "title": "code blocks wrapped in a <div class=\"code-toolbar\"> get swallowed",
+   "cls": "clutter-FP-attribute-rule",
+   "judge": "attr"
+  },
+  {
+   "number": 13,
+   "state": "OPEN",
+   "title": "Capture more than the first <article> element in certain cases",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 12,
+   "state": "CLOSED",
+   "title": "Uncaught SyntaxError: The requested module 'https://unpkg.com/defuddle' doesn't provide an export named: 'Defuddle'",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  },
+  {
+   "number": 11,
+   "state": "CLOSED",
+   "title": "Missing title and images in web slipped article",
+   "cls": "main-container-or-page-structure",
+   "judge": "struct"
+  },
+  {
+   "number": 4,
+   "state": "CLOSED",
+   "title": "Can't find variable: document",
+   "cls": "infra-cli-perf-security-feature",
+   "judge": "infra"
+  }
+ ]
+}

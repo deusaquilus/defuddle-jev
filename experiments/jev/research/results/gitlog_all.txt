@@ -1,0 +1,781 @@
+3e8bde9 Add maintainers file.
+97b20c7 0.19.6
+82fadae Markdown: Write xmp and plaintext as pre in raw HTML
+ec0a59d Markdown: Encode Markdown syntax in raw HTML
+3035cea Markdown: Sanitize raw HTML in direct conversion
+7acc4f1 Update deps
+556d74e fix: validate youtube inline player data fallback (#400)
+f6ca46d Fix YouTube caption selection for default audio language (#411)
+e87d416 0.19.5
+6ec17fc Test math transforms on cloned documents
+96bb527 Share math rule construction between core and full builds
+3bdcee9 Test core and full math rules directly
+f70d689 Remove duplicate extractor types and lint unused locals
+02f99a1 Remove dead code and unused helpers
+6a0f472 Use explicit attributes for lazy image sources (#388)
+0e206c0 Keep whole-body fallbacks from winning retries (#358)
+27d818c Escape identifiers and keep generated selectors stable (#392)
+ededffd Keep screen-reader text as content (#390)
+7d75992 Markdown output escaping (#396)
+49d14ec Update agents file
+d4c4bad Allow aggregate performance benchmark time on CI
+30a3193 Install website test dependencies in release workflow
+95febaf Keep performance fixture tests offline
+d23084c 0.19.4
+a212ac4 Fix metadata and content extraction consistency across DOMs
+f58ff85 Fix backticks escaped inside code blocks (#359)
+bce9c4b YouTube: prefer default caption language over first translation (#370)
+a0d2ada Fix graceful CLI exit after fetch failures
+72e9685 Math: preserve MathML when flattening arXiv equation tables (#376)
+78bdabc Fix: Don't add spaces around sub, sup, and code (#379)
+dda0e9f Fix: don't inject spaces around typographic quotes and dashes (#364)
+544b991 CI: install website deps so website tests can run
+147c7e5 Fix stale uppercase headings in small-images expected output
+bf7df13 Fix #385: require MathML converter
+96d6f80 Update test dependencies
+573d728 Escape C2 wiki source
+39d47d2 Harden unsafe content sanitization
+747aaf7 Preserve declarative shadow DOM content
+a0984a8 Fix mobile docs overflow and menu focus
+ba2df05 Docs: Copy tweaks
+9f143e0 Link to Knap, and some cleanup
+8cecc75 Align website with Knap's Flexoki design
+752ba5f Fix lowercase heading serialization with linkedom
+70b4b92 Bump deps
+197db78 Color tweaks
+83ce74f Release workflow
+0b33e2d Bump deps
+a332b4d Bump version to 0.19.3
+60e1311 Update vulnerable transitive dependencies
+ceae461 Sanitize raw schema.org fallback HTML
+d179048 Harden SVG sanitization against SMIL
+6de1634 Footnote fixes (#351)
+0fbcda2  Fall back to Reddit's Atom feed fix #403
+1cac0b0 Forward schemaOrgData and options in extractor constructors
+e4f5737 Removals
+5b07a76 Audit fix
+48142ce Fixes for variety.com
+5e781e6 Gmail (#350)
+5480c8c Prefer DOM tweets over async oEmbed path in reader views
+6152604 Audit fix and bump version
+34d4f33 Merge branch 'fix-wikipedia-section-removal'
+a1e8a51 Don't treat mid-article image rows as related post cards
+e8cef29 Merge branch 'sanitize-url-schemes'
+05026cb Merge branch 'fix-x-extractor'
+e0f9b30 Document the URL sanitization rule
+5f35a2c Fix X extractor for new DOM
+f84b8f6 Keep the iframe sandbox attribute
+2103900 Reject data: and blob: URLs in content
+6c39f09 chore: normalize package-lock peer metadata (Node 22 npm)
+75282bc Bump version
+6a3f5b1 chore: patch website dev deps (undici/ws) and pin Node 22
+baf2eae Sanitize extractor HTML (#326)
+19520ad Bump version
+c012fc7 Preserve ChatGPT citation footnotes (#311)
+853c240 Add Bilibili video subtitle/transcript extraction (#271)
+aa349b6 ci: fix matrix — drop Node 18 (toolchain needs 20+) and jsdom (fixtures are linkedom)
+a1132f9 Add CI
+96532f5 CLI: add --frontmatter flag for YAML metadata output (#313)
+a432eae fix: don't mutate the live document in parse()
+ec06322 Remove subhead #316
+ef4c85e fix: reconstruct MathML from MathJax CHTML render tree (#250)
+7c287cb Merge branch 'fix/303-pascalcase-anchor-ids'
+0bfaca1 fix: don't strip sections with delimiter-less anchor ids
+acf5ef1 Change port
+1562de0 audit fix
+a6b41b6 chore: upgrade temml to 0.13.3
+7ee4522 math: flatten tagged single-equation tables so they render horizontally
+cbb5139 test: make fixture extraction hermetic so X tests don't hit the network
+de47bd8 Batch fix issues (#319)
+d5b07cc Merge branch 'fix/dependabot-website'
+9839206 Merge branch 'fix/dependabot-root-devdeps'
+3846570 website: clear Dependabot alerts for esbuild and undici
+29203fc Update dev dependencies to clear Dependabot alerts
+51c181d fix: prefer async extraction in Node for X articles (#318)
+b750edd Merge branch 'deps/mathml-to-latex-1.8.0'
+48f6442 Merge branch 'fix/esbuild-0.28.1'
+80caa4c Upgrade mathml-to-latex to 1.8.0
+b6df089 Bump esbuild to 0.28.1 via override (Dependabot #40)
+9db7260 markdown: hoist MathML node-name sets to module scope
+b5d5792 Fix MathML markdown conversion for complex and aligned math (#301)
+c218565 CLI: add --user-agent flag for fetched URLs
+0e974a7 test: add regression test for YouTube videoData description selection (#211)
+323c895 fix: author/date byline heuristic matches day-of-week as a date (#291)
+507358b fix: TwitterExtractor hardcoded English aria-label breaks reply extraction for non-English UIs (#290)
+9f24be1 fix: fetch videoData from more reliable source (#211)
+3e7c392 CLI: support reading HTML from stdin (#192)
+498c440 Encapsulate links with spaces (#278)
+a55c32f fix: adjust FxTwitter facet indices for surrogate-pair emoji (#281)
+b375d2f Fix ChatGPT content after Thought sections (#302)
+4d3af92 test: make escaped-pipe table test actually exercise the bug
+e1d5137 fix: preserve trailing columns in ragged tables (#299)
+3dc4d7d Remove <style> for SVGs for security
+7702be3 Website readme
+e0a0649 Removals: newrepublic.com
+fff0b9d Metadata: More author extraction improvements, e.g. fingerprint.com
+47aaa83 Metadata: author fallback for The Guardian
+74f3106 Reddit: Improve for worker conversion
+dcbd4db Mastodon extractor
+12cce38 LWN support
+3a95b35 Leetcode fixes
+34ee93a Lazy load pattern from pcgamer.com
+884a48d Dedupe images
+cd5c10c Removals: Bloomberg
+51210ea Removals: Bloomberg
+7504b6c Bump version
+48e2029 Fix Wikipedia footnotes
+956d3d7 Removals
+af24827 Don't remove headings based on data attributes
+cdd1edd Fix legitimate link with anchor being removed in headings
+c11b9bb Bump version
+63d501a Removals: comments
+6df8766 Removals: Economist
+1a95608 Removals: Hackernoon
+9d94ebe Removals: androidauthority.com
+8d2ef38 Remove TTS iframes
+c9ac0af H1 fallback
+1a2c585 Cleanup
+5feea5c Removals: Medium
+9204bc0 Removals: Axios
+771418a Removals: techdirt.com
+99c34b0 Code blocks: Fix duplicate language name #235
+947c66e Keep content grids with lots of content
+2041227 Footnotes: anthropic.com pattern
+b2a3e53 Removals: Google blog
+c2ce56a Metadata: use rel author in fallback
+b4bd0c7 Eyebrow removals and start of content boundary detection
+6ce1599 Stale
+5e24214 Footnotes refactor (#261)
+739ba78 Footnotes: sidenotes
+c4c634f Normalize titles before comparison
+9103db9 Medium: removals
+2385dad Footnotes: more patterns
+0379ea4 Removals: pcgamer.com
+6186920 Fix #256
+f13d30c Remove preceding brs
+71f6ea1 Simplify tables only used for layout
+92691a0 Fix #258 TOC skip peripheral tables in table-based content detection
+32e505b Delete the server tests, too brittle
+4a7c5b1 Parity for audio and video sources
+f0c0fdb fix: remove empty video placeholders (#260)
+2d507ff Medium extractor
+36b9f00 Discourse extractor
+37caf1a Bluesky extractor, and other fixes
+c391e9d Threads extractor
+02b6dc1 LinkedIn extractor
+825a11e X: Refactor to use comments for replies
+2af8f28 Validate metadata
+3e629db Dedupe dates and cleanup bad author names
+4e3549f Removals: Trinity audio player
+3978ec0 Footnotes: streamline
+cc96c7f Footnotes: Pattern
+fd92139 Bump version
+5311ec4 Removal
+5930c7f Removals: crumbs partial selector
+f546ce7 Removals: checkboxes for sidebar/menus
+060a0a5 Wikipedia: Keep phonetic
+1bbd788 NYT removals
+b233cea Mintlify: convert spans to correct elements
+43cc4cb Wikipedia: Minimal extractor
+9d34396 Math: fix math in images, johndcook.com
+1f597b6 HN: Home page support
+95a99c3 Wikipedia: Fix removals
+52df298 Removals
+f6a27de Fix footnotes test failing
+c3b0a59 Removals: Content pattern for ToCs
+6660a40 Removals: ieee.org
+8317043 Footnotes: Fix duplicate backrefs
+071eba0 Fix #241
+cf886a0 Remove unnecessary <br> elements between <p>
+12dfa32 Axios: fixes
+0699bb0 Retain ULs, overly aggressive removal
+0ee3118 Footnotes: WordPress fixes #237
+1cf60a6 fix(chatgpt): update extractor for changed DOM structure (#236)
+cc3787b Extract LaTeX from data-math attribute in math elements (#238)
+41515e7 Math: Fix #244 extract latex from images
+edd5cc0 Fix dismiss buttons surviving hidden-content retry (#234)
+0fc57fa Fix: remove tables with no text or media in any cell (#243)
+123f9cf Replace custom elements with divs during standardization (#247)
+7deda13 Math: Detect math in Wikipedia tables
+48f168e NYT extractor
+3cb89a8 YouTube: Another fallback
+196dc61 Add binding
+c1c43d6 Configurable fetch option
+ce2342f YouTube: remove androidTimedOut guard
+76b6317 html
+4e7b3b8 YouTube: Go back to 4000ms timeout
+2c64601 YouTube: Improve CJK ranges for transcript grouping
+479d8cd YouTube: Improve fallback behaviors
+8921924 YouTube: Improve break points in transcripts
+66049af YouTube: Improve multi-speaker
+885999b Bump version
+3624116 Remove parentheses around authors
+6f08bd0 Remove warnings
+30ca62b Tailwind: Author pattern
+1fd842e X: Fix inline images in articles
+bb47d9f SVG: Improve conversion of SVGs to not rely on stylesheets
+d6a30d7 X: Get header image
+107fe3e Removals: FT.com
+c612d0e Callouts: Improve support for Obsidian callouts
+73f3b68 Secondary pass cleanup
+c1f7cb8 Remove urls in authors
+a80f542 NYT: Fix authors
+0c9f624 NYT: Removals
+cd82d6c Keep initial media in an article
+c80c74b Tailwind: Remove more date and reading time patterns e.g. Cloudflare blog
+f91790f Substack: More removal patterns for Likes
+67d478d Footnotes: Format from red.anthropic.com
+36024ee Substack: Better handle Likes at end of post
+110feb4 Update vite
+3df82c5 Tailwind: Convert block spans to paragraphs (Grokipedia)
+5bb3f20 Fix #229
+c5c5fa8 SVG: Try to preserve SVGs, colors (including Tailwind colors) partial fix for #213
+421f2ca Code blocks: Improve handling of indents Fix #217
+6438175 Small images: Check for height or width, not both
+06e0e18 Remove ticker
+a639663 Substack: Fix notes
+1eef240 Substack: Remove likes
+e6c8bba SVG: improve standardization, don't lose some attributes
+a2f49a1 Better header detection
+3107fd8 Headings: Strip permalink anchors before title match
+9908a6b Images: Remove small SVGs
+1b29fc2 Callouts: Hugo/Docsy
+a64ecdd Substack: Cleanup mid-page links
+92faa06 YouTube: Older video transcripts
+ada50b1 Reorder TOC
+c00471c Medium: Remove sitemap link
+f8283c9 Add fixture for WP footnotes
+77462b4 Fixes for WordPress footnotes and #228
+d877058 Fix lazy-loaded image extraction and deduplication (#227)
+bb8bb7d Footnotes: Clean up and remove unnecessary comments
+1e894a1 Footnotes: Pattern from https://lalitm.com
+811f14d Fix #221 base64 images
+56d66e4 Fixes Jetbrains documentation #217
+8d7e703 Cleanup for simonwillison.net
+627ef16 Detect raw math (#225)
+c8c0770 Fix: skip Pygments inline line numbers in code blocks (#223)
+96b0249 Fixes for https://www.lrb.co.uk/
+9aa50ec Footnotes: Simplify
+0b8ce94 Fix #218 Preserve text in wrapper spans during footnote fallback matching (#219)
+d0cd216 Footnotes: Improve collection for sup
+bd57660 Related posts pattern
+8109f79 Removals for sites using table layout
+29872c0 Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/
+368cb3b Remove breadcrumb matching if p contains content
+a9e8830 Audit fix
+b19bc0e Improve site name detection
+e29efd1 Bump version
+ffc0946 Removals
+799440b Imptove complex link structures
+26a9121 Reddit: Extraction methods depending on context
+36eef7b Substack app
+45b98e0 Fix buttons in code blocks
+9aacd09 Substack notes extractor (#216)
+45204b3 Add HTML fixture type
+63ec160 Improvements for jamanetwork.com
+d208ac6 Footnotes
+7eb20c0 Code: More syntax highlighting patterns
+18a5394 Performance optimizations for math and content patterns (#212)
+261ccc8 Profiler
+fff99bb Footnotes: Fix false positives
+444946a Footnotes: Another pattern
+ef4933c More removals
+ff57357 Throw out bad author strings, e.g. broken CMS templates like on newscientist
+3908b37 fix: adding youtube shorts handling (#206)
+f604140 Fix X author fallback on status URLs, fix #208
+9db9b86 Fix #208
+52623f0 CodeMirror code blocks fix #209
+7ac0cc3 Honor proxy settings, fix #165
+3fa5102 Fix #207
+e46b7a0 Preserve text if footnote reference is wrapped around reference
+4bb0476 Cleanup
+25340c1 Newsletter pattern
+7b45abf Content patterns for kk.org
+8a8784d Improve unique author filtering
+b57aba1 Improve fix for nature.com
+4fb1c45 Fix for nature.com
+dcbb9c3 Fix charset parsing for quoted and trailing-comma values
+961442b Extract authors and dates from cover
+876fa5d Tweak scoring
+bdd3e17 Removal patterns
+4695075 More related posts patterns
+82f4ec4 Code blocks: more patterns
+c930e11 Breadcrumb detection
+b1d8286 Remove authors that are superstrings of a shorter entry already present
+7e435d2 Removals for arm.com
+ae81d30 Reddit: Remove duplication
+4a48127 Fix Reddit author extraction when comments haven't loaded (#204)
+d845aff Footnotes: Alternate aside style
+671f423 Merge branch 'worktree-agent-ad0a60a8'
+5d90073 Fix og:title brand name used as article title (#196)
+3a7ebb7 YouTube: simplify language matching helpers
+aad3323 YouTube: respect preferred transcript language (#202)
+f55086b YouTube: Add timeouts
+688bff4 fix: updated defuddle.ts to use proper description (#198)
+d379e81 Fix C2 #200
+6d70428 Fix MathJax SVG / MathML-only math rendering (#201)
+4e6567f Trailing related posts
+52f15a8 Protect footnotes in #footnotes
+4019025 Chroma code blocks
+86ef734 Tailwind: More metadata removals
+d1d0285 Fix flex-row line gutters and invalid code>pre nesting in code blocks
+26011e0 YouTube: fix stale metadata after SPA navigation, close #174
+fe6300f YouTube: Fallbacks
+8a36244 Support HTML named anchor footnotes (Gutenberg)
+a4dd004 Tailwind: improve patterns for footnotes and metadata
+a6ec185 Find loose footnotes
+3efcfd7 Remove empty spacers
+47e9dc5 Fix main content embedded into figure elements
+83e2aa8 Footnotes: improvements for inline footnotes
+65a01ca Breadcrumbs matching
+a4e81f7 Support loose footnotes
+96e9c9f BBcode fixture
+068f433 Extract BBcode
+481de2b Refactor pipeline (#189)
+a6aac15 Author date bylines in Tailwind
+b1983b2 Callout standardization (#185)
+a33ec2a Bump version
+cfb8a55 Remove boundary patterns (#184)
+06a5717 Footer link
+13f8f7c Tweak
+6446618 Footer and update requests
+0f05a18 YouTube: Improve mobile extraction
+d666642 Standardize removing anchors
+7d7967c Language header
+1d7c649 add includeReplies option
+33738d6 Consolidate fetch and bot UA retry logic into shared module
+de214a7 Pass separateMarkdown in CLI when --markdown, --md, or --json is used #164
+3de4cea Use base href to resolve relative URLs, fixes #179
+50c6a1e Truncate descriptions to 300 words
+a1f50dc Use curl
+64fb793 Exit with error when no content is extracted from CLI
+eb71785 Remove <wbr> tags to prevent unwanted spaces in markdown
+c5adda3 Prefer highest resolution image
+84d959c Fix content extraction for pages without semantic entry points (e.g. Oxygen Builder)
+f803c09 Tweak
+e58ecf4 Meter API (#173)
+c8bf21f Extract getClassName utility and hoist regex patterns
+82b6ced Simplify redundant code
+e227182 Fix #169 Guarded el.className with a typeof check, falling back to getAttribute('class') for SVG elements where className is an SVGAnimatedString.
+983efc0 Fix #168 Added a standardization step that unwraps <a> tags inside <code> elements to plain text before markdown conversion
+d3673b5 Fix #167 Added `el.closest('code, pre')` to the skip guard so child elements inside code blocks (like `<span id="f-next-next">`) are not removed by partial selector matching.
+7a5c6d1 Rate limit
+8b00d99 0.13.0
+249951b Add post-body for Ghost sites
+b7fe9f3 YouTube: Improve diarization in cases with - instead of >
+74772bd Update README.md
+f0b9e78 Generic document support (#166)
+0c9857f YouTube: Cleanup
+7e68826 YouTube: More cross-environment improvements
+3eabc43 Youtube cleanup
+18d3b53 Youtube: Use transcript if it's available on the page
+f74fdd0 Smarter retry for hidden content (#163)
+239c98b Only cache successful responses
+21721a5 Revert "Cache"
+b93e65b Cache
+9026c8f YouTube improvements
+053b807 YouTube: Better grouping
+eab54d1 Fix YouTube transcript sentence merging across sparse caption gaps
+ab47c7e Verso: Fix newlines
+4ac445e Fix 159 syntax highlighting for Lean
+ae25541 Add a space between exclamation and image, so Yay!![IMG](url) becomes Yay! ![IMG](url)
+896b571 Fix #155 filenames on Windows
+04b5a70 CJK wordcount (#158)
+ca787bf Language test
+0f00e4d Update deps
+327c01f Bump version
+39f702e Timeout errors
+4c664a7 Removal
+405ed6b Footnotes: More backref removal patterns
+89156b1 Language variable
+88404a0 Add instructions to install globally
+9675e8f Standardize comment extraction and YouTube transcript diarization (#153)
+1a72bf6 Standardize comment blocks
+483ab7d Scoring patterns (#152)
+5b8fddc Small removals
+a5a2de7 Small removal
+41c5eb0 Speed up Node.js parsing (#150)
+35771e8 YouTube transcripts (#149)
+5af52ae Fix #148 scoring for tables
+a16c779 Bump version
+aafc0dc Improve scoring related posts and bylines (#147)
+7e5e6ac Add Tailwind hidden classes to hidden element detection
+b6fa176 Retry for index pages
+7c19d57 Fix content selection for pages with multiple article elements
+45c7b60 Anonymize
+024cf62 Document debugging tools
+6c92baf Clip individual HN comments
+405a2f4 More removal patterns
+f3e5d84 Add shadow DOM flattening to extract content from web components
+43ee268 Debugging tools (#145)
+b97c625 Unwrap single-column layout tables in HTML output and extract shared helper
+2066d01 bump
+2b4e06a Bump version to 0.10.0
+076d17e Fix arXiv LaTeXML rendering issues #141 #142 #143 #144
+c734e58 Make retry only win if it produces more content, indicating partial selectors were genuinely too aggressive rather than just removing clutter from a short article
+a987c23 Cache static pages
+ef0a769 &amp; → & decoding fixes the LaTeX alignment characters in complex HTML tables
+b613996 Hide no JS messages
+0337e31 Update math deps
+d48aa2c Skip the script cleanup when the element being processed is itself a script[type^="math/"]. It will be replaced by el.replaceWith(transformed) in the caller anyway, so no cleanup is needed.
+043d29d Attach named exports as static properties for UMD/CJS consumers
+c2693c2 Cache homepage
+40376f8 Added typeof checks in _getSchemaText() to only return item.text and item.articleBody when they are actually strings
+9e6fa75 Fix scoring issues #112, scoreAndRemove was removing <div> blocks containing navigation indicator words ("privacy", "social", "share", "popular") that appeared naturally in conversation text
+3ee160c Standalone markdown conversion
+ae6fc5c Fix #107 #77 over-aggressive stripping
+de4b73e Fix links in Quartz sites e.g. quartz.jzhao.xyz
+4c7942d Detect table layouts
+d4e5898 Collapse newlines to spaces and wrap preformatted code blocks, fix #84 #24
+77f80b7 Fix wrong authors being picked up, e.g. from comments and related articles, fix #135
+dd0f386 Hande sidenotes as footnotes
+4e00da2 Fix some accidental removals
+6d482d7 Add list items to content scoring
+d22698e Consolidate serialize HTML
+e79face Simplify transferContent to move nodes instead of cloning and deduplicate math helpers
+54e49d4 Eliminate innerHTML writes by centralizing in parseHTML/transferContent utilities
+440f9e8 Bump version
+ab56579 Add generic footnote detection fallback and backref cleanup
+7cd4a27 Fix XSS via attribute injection in _findContentBySchemaText image handling
+a3089cf Simplify
+05c450f Rename fixtures
+39aa7c8 MDN fixture
+4d9b4a1 Skip anchor links inside headings - the heading transform handles these, fixes MDN
+de0f86a Better support for stripe docs pages
+ad87033 Better preserve headings and code/pre
+c922a48 Get language from Shiki
+34e35d5 Improve scoring around code blocks
+f154cb7 Sanitize `this.doc` after `parseInternal` to prevent the `_findContentBySchemaText` fallback from returning unsanitized HTML containing scripts, event handlers, and other dangerous elements. Strips unsafe elements/attributes while preserving legitimate content like math scripts, media iframes, and video embeds. See #139
+eb51474 Improve Markdown detection for worker, and fix nested list indentation (both Obsidian Publish related)
+ea09d84 Fix #139: - Add _stripUnsafeElements() method that temoves <script>, <style>, <noscript> elements and on* event handler attributes from this.doc.body. This runs on the original document, not the clone. - Call _stripUnsafeElements() in parse() after both parseInternal() calls complete (so extractors and schema extraction still have access to script tags) but before _findContentBySchemaText() searches this.doc. This ensures the fallback path only returns sanitized HTML.
+fec38bc Unify findExtractor/findAsyncExtractor into shared findByPredicate, extract _collectMetaTags helper, consolidate Marker interface and applyMarkers in x-oembed. Fix parseInternal ignoring extractor site variable (extracted.variables.site was used in parseAsync but not parseInternal).
+107eaa3 Fix #137
+a987633 Math tests
+c053b9c Various fixes for math and embeds
+1270bb4 Tests
+6aa4c15 Add scoring penalty for bios
+6fcd2c1 Server test
+7b59b93 Fix async
+0620b4e Fixes 106, 128, 114, 132, 131, 136
+412ca58 Streamline tests
+26b9754 Update playground
+7b9c01b Support for Substack app
+2875898 Bookmarklet
+d114941 Fix for Substack
+ae6e1e9 Add links to Web Clipper and kepano
+80b84c3 Check for Markdown if it's returned
+7d31963 Better wikidot support
+f5a94ec Add fixture
+58a2ae5 Removed \xA0 and \s from the empty-node regex so only truly invisible/zero-width characters trigger node removal.
+c19c837 Link to license
+1124828 Don't zoom textarea
+f041972 Simpler button on phone
+9890968 Fix package
+80ea9f2 use old.reddit
+f8ce8a4 Add useAsync option
+f85fe52 Fix for X articles, introduce extractAsync
+9089f07 capitalize
+0c8824f Small tweaks
+8c53203 Button label
+f0f5542 Button label
+38761a2 "usage" -> "use"
+6c0d67b Fix button font
+0bab8b9 Improve description, fix border
+af4ebde New website (#133)
+c1ee09c Update deps
+162966b Fix timezone
+9c50ca7 Update README.md
+40947d0 CLI: Move into main repo (#130)
+fa837d1 Don't remove content that's been selected as the primary
+11d94c5 fix tests
+58bdd32 support callouts and fix output from lesswrong
+fbdc460 correct X.com article author
+665ccfc fix substack images
+5e212e1 get unstructured author and date
+bd31303 target nested articles correctly
+f683a4a use ownerDocument instead of global document in math parser
+a41ce7b Scope footnotes to function in markdown.ts to prevent cross-call leaks
+19a092f Fix broken regex for schema.org array index matching
+5326971 Replace forEach+return with for...of+break in removeTrailingHeadings
+18293bc Use ownerDocument/this.document instead of global document in extractors
+46b8dc9 Cache extractMessages() in ChatGPT extractor to preserve footnotes
+9a49b7a 0.7.0
+89d26d3 add data-lang attribute
+ecb9afd improvements to extraction for x.com and codeblocks
+de98b89 fix: return channel author in YouTube extractor (#109)
+167c415 Improve research author extraction (#118)
+fede6d8 Fix clipping for X/Twitter articles (longform) (#124)
+cef925f Fix Claude.ai parsing (#102)
+4f61265 Update README.md
+5d19e9b fix: preserve ZWNJ character for Farsi text support (#103)
+f595e64 Keep significant attributes on <track> elements… (#111)
+8c6edc8 Add markdown conversion to the full bundle
+b48b134 Remove hidden elements
+7bc1af0 Fix test being timezone dependant (#119)
+34e540e respect debug option
+526cfc6 bump version
+b1735fe add options detail
+2c7ba67 bump version
+3e76039 add removeImages option (#67)
+f5c136f fix youtube extractor empty videoId, twitter extractor document undefined (#51)
+f8901c5 bump node version for vitest
+451fe87 Add GitHub extractor for GitHub issues (#75)
+bb572a9 Remove skip links across more sites (#62)
+1b60e36 Add GitHub rules to avoid duplicated metadata (#63)
+9677af2 Remove session identifier from youtube.ts (#49)
+6c17079 Update README.md (#54)
+928c11a Fix readme typo (#55)
+cb4291d remove URL input
+9f3c0d4 Update README.md
+e164ec0 Meta tags (#47)
+0a1806f bump version
+81111e1 fix issue with Substack images
+7565042 consolidate node type
+93aac00 Use NODE_TYPES in image parsing (#42)
+62a42a5 Preserve admonitions
+5b0fdb6 removals
+fced0d2 rename includeMarkdown to separateMarkdown
+981ca98 Fix Node not defined (#40)
+31d0374 removal
+143d897 Update README.md (#43)
+fbe6d9e 0.6.2
+6509bcb improvements for image capture
+5158acf less brittle selector
+e6634b2 fix footnote issues
+27cb4dc revamp grok extractor
+653248e indentation
+200004b Add GrokExtractor for extracting conversations from grok.com (#18)
+cebdb2a fix references to DOM globals not present in node context (#36)
+f5cad00 remove child selector in :has selector (#37)
+f271155 removals
+c918ff2 add options for removing partial and exact selectors
+8f266d4 fixes
+4ee9c27 removal
+9297315 removals
+0302a98 re-add
+902cf73 re-add
+d1138e2 bump version
+e7efb34 overly aggressive image standardization
+a314dca fix imports
+e8538ed removal
+6bd4883 small fix
+0444eb3 bump version
+e8f7863 Standardization refactor (#33)
+cf87f40 removals
+df1cec9 removals
+7c36285 Image rules (#32)
+a9e431f removal
+cd7b8bb removals
+6b452fa 0.5.4
+6d3f450 removals
+0aa3c55 removals
+2119ce2 removals
+f7f9c03 removals
+20bab73 Split footnotes (#28)
+093be31 removals
+1dc018f removals
+c769ccd removals
+a79236d 0.5.3
+ff4fa12 Gemini extractor (#19)
+baec5c2 more Node.js fixes
+9421cc3 more fixes for Node.js
+65713b4 move numbered node types
+8df773e Prevent aggressive div flattening to preserve block structure (#23)
+1404479 0.5.2
+d9f8358 Minification (#26)
+0bed2e9 0.5.1 upgrade babel
+c56619f change order
+09b02f0 Node (#25)
+88f5da3 indent
+0af0ec2 removals
+56bc159 improve table layout detection
+5ef2961 removals
+7f9f563 fixes
+503f475 removals
+675e4e4 removals
+a9cffa4 removals
+20abbac fix
+02bacf4 removals
+d9f6028 removals
+3c9b2bc removals
+113a0fb Split out scoring logic (#20)
+60e1b49 removal
+3a3c60e 0.4.0
+185caf2 Extractors (#17)
+1aa17a0 removals
+5d02405 removals
+ceb93f2 removals
+874d5e3 better support for prism code blocks with toolbar improve support for wikipedia math
+69c0ab7 export as default
+088395a Update README.md
+6be7a0e max height
+c7b4fde 0.3.7
+1aef8da github pages
+a705cc6 fixes
+3c6a470 playground
+1dbe15c JSDOM compatibility (#14)
+901d3e6 0.3.6
+3da8e1f removals
+1159855 nyt
+23b1f3f removals
+d214b80 remove extra BRs
+db82b06 more clean up for code blocks
+8cc1d36 consolidate
+d166530 split out rules for code and headings
+c7cd889 use id="footnotes" instead of class or element name
+68e6c2f removals
+433bc79 removal
+c5dbed1 fixes
+7a77432 preserve backref class
+07503f5 0.3.4
+78b621a add prism divs
+8c3597d fix
+3c04a1a removals
+c4e0681 preserve necessary footnote and code block id/classes when debug mode is off
+e2b4106 fix headings where the entire heading is an anchor
+932b805 more removals and move test attributes
+3ec2423 removals
+47c4cee removals
+48fc516 cleanup
+04e3d01 fix
+4d913fa small tweaks
+6e397cc removal
+2f370f3 0.3.3
+6716974 standardize spaces
+1258f1c fix for missing spaces
+5caf005 0.3.2
+42db073 Update README.md
+dfcc1c0 Update README.md
+7bbc1b6 Update README.md
+ce9edee Split bundle (#10)
+c0f8b50 clean up
+c19ca61 more generic line numbers
+da67822 handle expressive code
+771dee7 0.3.1
+8a49fbe UTF-8 encoding
+c5232f0 fix
+85d7381 Update README.md
+e2ae728 Update README.md
+7148b19 Update README.md
+0eaab07 Update README.md
+65ad180 0.3.0
+03cc5fd better title removal
+1e322cc removals
+2b0117a more aggressive removal of anchor links
+aca7567 removals
+05ea32c Clean up empty lines
+dd2cae6 removals
+caee976 fix
+fb8d3df fixes
+3707f70 untrack
+fc8ef52 don't track
+a02705d removals
+9b42208 math (#8)
+20e6fcf nybooks.com
+fe1808a more removals
+c9f74b2 small fix
+24ffab1 tabs
+d825637 fix for 9to5mac
+87871cc removals
+f95360d more removals
+b9cea72 removal
+21784d0 removals
+145c242 removal
+6d4ecf5 split out constants
+b76ffe5 removals
+9ea40b7 Flatten divs (#5)
+c0c1e35 small removals
+7522f45 nyt
+6afe4e9 removals
+699f2d7 techcrunch
+75dc5d1 fallback
+c2f5a4c add author to fallbacks for site
+e61ca8d simpler method of title retrieval
+2f56e63 improve site name retrieval
+dfcfc33 menu removals
+eb8e9d8 small removals
+daa9e6d Obsidian Publish
+60708d0 0.2.4
+fef32d2 Add wordCount and parseTime
+9b1874e 0.2.3
+6bc5418 improvements for server-side use
+51520c3 Allow checkboxes (for converting markdown task lists)
+87edd9b Update README.md
+c4980b8 Update README.md
+8ea2d6a 0.2.2
+eabfa08 more robust standardization of code blocks with syntax highlighting
+ffcef35 0.2.1
+6541f93 get domain
+3b7bfa3 0.2.0
+7a91478 0.2.0
+0fba922 more removals
+c67d43b Code blocks (#3)
+2c3a152 change case matching
+9d3acdd removals
+64255e4 Perf (#2)
+7c0483d small fixes
+8cb7933 document
+1baba37 more footnote fixes
+e15f6e6 clean anchor headings
+3654408 more clean up of fake paras
+a6b95ac removal
+0f22fe2 we can simplify to just removing the first h2 matching title since h1s are converted to h2
+e63f743 only process each footnote list once
+3292d76 standardization rules
+de5d571 Trailing headings
+2d25ace remove first h2 if it matches title, reorganize code so metadata is usable
+dbaba14 Update README.md
+f700ce8 Update README.md
+ab017fe Update README.md
+f0214f0 more removals
+f141af5 simplify sequential references
+e473c9e better inline reference cleanup
+80c6a2e another footnote format
+cdfd690 rename for clarity
+aaed8df nature.com
+f778a7d More removals
+e1222b1 More cleanup for science.org footnotes
+044eaeb refactor footnotes
+45d912f fixes
+9c35a89 small naming tweaks
+bdee879 make exact selectors case insensitive using i for better performance
+a78712a add substack footnotes
+de65fd5 more removals
+76032f5 removals
+dee0ed2 removals, and small fixes for audio controls
+17f0168 standardize YouTube embeds
+25434cd handle lazy-loaded images
+aaf09c5 Footnotes (#1)
+4e7aab5 combine selectors
+12704c0 more efficient processing of hidden elements and images
+16b7904 more removals
+5a12d41 deal with widont elements
+c6d5931 more structure changes
+1559f84 more consistency in code structure
+89ec7a5 more patterns
+8338dbc more removals for Medium and others
+8393033 many more patterns
+653ed71 More removals
+4ae3bc8 Add patterns for The Verge and Substack
+f085060 Update README.md
+bf3e2b5 Update README.md
+da80ce7 Update README.md
+da790ae Update README.md
+ecd6fcb Update compiled version
+690c397 0.1.1
+fe43e63 add not-found
+f946045 removal fixes for wikipedia
+cf894e0 small tweaks
+a384951 small fixes
+de2791a better svg support
+b774475 add SVG to small image removals
+5d97ada more removals
+839228f Add dev mode
+07cc751 Small fix for npm
+3e1d1a7 prep for npm
+36913bf a few fixes
+7f45c25 improve drop-in support
+fd2deb1 module-level
+d3a9ef2 oops
+6658031 project structure
+1a8db95 First commit

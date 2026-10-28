@@ -1,0 +1,2792 @@
+{
+ "file": "pages/360a.html",
+ "url": "https://puck.news/is-disney-relying-too-much-on-ryan-murphy/",
+ "ms": 357,
+ "wordCount": 357,
+ "contentSelector": "html > body.wp-singular.post-template-default.single.single-post.postid-97284.single-format-standard.logged-in.wp-theme-puckresources.user-not-inner-circle.hide-gift-dot.app-data.index-data.singular-data.single-data.single-post-data.single-post-is-disney-relying-too-much-on-ryan-murphy-data.is-disney-relying-too-much-on-ryan-murphy.is-subscriber.category-hollywood > div.wrap > div.content > main.main > div.container > article.pt-4.post-97284.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-hollywood.tag-abc.tag-caa.tag-disney.tag-donald-trump.tag-espn.tag-netflix",
+ "title": "Is Disney Over-Relying on Ryan Murphy?",
+ "contentChars": 4808,
+ "presence": {
+  "Ryan Murphy has hardly become ratings poison": false
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "VIEW ALL"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:lg:hidden",
+   "text": "BACK TO TOP"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "USE EMAIL & PASSWORD\n\n    \n      \n      \n        \n        SHOW\n      \n\n      \n        Password strength:\n        \n      \n    \n\n    \n\n    CREATE AN ACCOUNT\n\n    "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "SHOW"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Verify your email!\n\n    \n      You should receive a link to log in at .\n    \n\n    \n      I DID NOT RECEIVE A LINK\n      \n        Didn't get an email? Check your"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Didn't get an email? Check your spam folder and confirm the spelling of your email, and try again. If you continue to have trouble, reach out to fritz@puck.news"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "SHOW"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "SHOW"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Verify your email!\n\n          \n            You should receive a link to log in at .\n          \n\n          \n            I DID NOT RECEIVE A LINK\n            \n   "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Didn't get an email? Check your spam folder and confirm the spelling of your email, and try again. If you continue to have trouble, reach out to fritz@puck.news"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!="
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.dataLayer = window.dataLayer || [];\ndataLayer.push({\n    \"post_category\": \"hollywood\",\n    \"user_id\": \"6a0464aed7a7065fc0e9ae468d1135e28370275e51a68d0bb5"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Article\",\"@id\":\"https:\\/\\/puck.news\\/is-disney-relying-too-much-on-ryan-murphy\\/#article\",\"isPartOf\":{\"@i"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ":root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "/*! This file is auto-generated */\n.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ":root { --wp-internal-comment: \"Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer.\" }\n/*# sourceURL=wp-block-"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ":root { --wp-internal-comment: \"Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer.\" }\n/*# sourceURL=wp-globa"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var _zxcvbnSettings = {\"src\":\"https://puck.news/wp-includes/js/zxcvbn.min.js\"};\n//# sourceURL=zxcvbn-async-js-extra"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"NewsArticle\",\n    \"headline\": \"Is Disney Over-Relying on Ryan Murphy?\",\n    \"datePublished\": \"2026-08-07T0"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.googletag = window.googletag || {cmd: []};\ngoogletag.cmd.push(function() {\n  googletag.pubads().setTargeting(\"category\", [\"hollywood\"]);\n  googletag.puba"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "(function pageScript() {\n        let hasDeprecationWarningDisplayed = false;\n        const eidPromises = {};\n        window.addEventListener(\"message\", function"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [970,250];\n        const mobileSize = [300,250];\n        // In-content slots may also serve a 3"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Washington\n              \n              \n            \n              \n              \n            \n            \n            \n            \n              \n         "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Latest Articles"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Dry Powder\n      \n        William D. Cohan\n        •\n        Wednesday and Sunday"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Latest Articles"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Latest Articles"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Latest Articles"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Latest Articles"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Wall Power\n      \n        Marion Maneker\n        •\n        Sunday, Tuesday, Wednesday, and Friday (Wednesday is an Inner Circle exclusive)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "// Immediate execution to avoid flicker for active menu items\n          (function() {\n            const categories = [\"washington\", \"wall-street\", \"ai\", \"hollyw"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Matthew Belloni"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Pause\n        Play"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "% buffered"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Unmute\n          Mute"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Rewind 15s"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "1.0x\n          Playback Speed"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Forward 15s"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Share this article"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [970,250];\n        const mobileSize = [300,250];\n        // In-content slots may also serve a 3"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [970,250];\n        const mobileSize = [300,250];\n        // In-content slots may also serve a 3"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [970,250];\n        const mobileSize = [300,250];\n        // In-content slots may also serve a 3"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [970,250];\n        const mobileSize = [300,250];\n        // In-content slots may also serve a 3"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [[300, 600]];\n        const mobileSize = [300,250];\n        // In-content slots may also serve "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [[300, 600]];\n        const mobileSize = [300,250];\n        // In-content slots may also serve "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [970,250];\n        const mobileSize = [300,250];\n        // In-content slots may also serve a 3"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [970,250];\n        const mobileSize = [300,250];\n        // In-content slots may also serve a 3"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [[300, 600]];\n        const mobileSize = [300,250];\n        // In-content slots may also serve "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.googletag && (true || false))  {\n        const size = [[300, 600]];\n        const mobileSize = [300,250];\n        // In-content slots may also serve "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "VIEW MY READING LIST"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Terms\nPrivacy\nContact\nFAQ\nCareers\n\n                  \n        © 2026 Heat Media All rights reserved.\n      \n      \n        \n        \n        \n\n\n\t\n\t\n\t\n\n\n        "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Terms\nPrivacy\nContact\nFAQ\nCareers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window._qevents = window._qevents || [];\n  (function() {\n  var elem = document.createElement('script');\n  elem.src = (document.location.protocol == \"https:\" ? \""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.addEventListener('load', function(){\n  jQuery('form:last button[type=submit]').on('click', function(){\n    var chk = setInterval(function(){\n      if(jQu"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Create an account\n\n      \n        Already a member? Log In\n      \n\n        \n                \n        \n          \n        \n        CREATE AN ACCOUNT with Google\n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Create an account\n\n      \n        Already a member? Log In\n      \n\n        \n                \n        \n          \n        \n        CREATE AN ACCOUNT with Google\n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "CREATE AN ACCOUNT with Google\n      \n           \n    OR YOUR EMAIL\n\n    \n      \n    \n\n    CREATE AN ACCOUNT\n\n    \n      \n      OR\n    \n\n    \n      \n        Use "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "CREATE AN ACCOUNT"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Become a member\n      All of the insider knowledge from our top tier authors, in your inbox.\n      \n        join to unlock newsletters"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Become a member\n      All of the insider knowledge from our top tier authors, in your inbox.\n      \n        join to unlock newsletters"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "join to unlock newsletters"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "join to unlock newsletters"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Create an account\n\n      \n  Already a member? Log In\n\n\n\n\n\n  \n    \n                      \n                      \n              \n                \n              \n "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Create an account\n\n      \n  Already a member? Log In\n\n\n\n\n\n  \n    \n                      \n                      \n              \n                \n              \n "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "CREATE AN ACCOUNT with Google\n            \n                      \n              \n                \n              \n              CREATE AN ACCOUNT with Apple\n    "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "CREATE AN ACCOUNT"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Send Me a Log-in Link Instead"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Log In\n\n      \n  Not a member yet? Sign up today\n\n\n\n  \n  \n                \n                  \n            \n              \n            \n            Log in with G"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Log In\n\n      \n  Not a member yet? Sign up today\n\n\n\n  \n  \n                \n                  \n            \n              \n            \n            Log in with G"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Log in with Google\n          \n                  \n            \n              \n            \n            Log in with Apple\n          \n              \n      \n\n  OR U"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "LOG IN"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Send Me a Log-in Link Instead"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Verify Account\n\n      \n\n      \n        \n          \n            YOUR EMAIL\n            \n            \n          \n\n          NEXT\n\n          \n            Use a dif"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Verify Account\n\n      \n\n      \n        \n          \n            YOUR EMAIL\n            \n            \n          \n\n          NEXT\n\n          \n            Use a dif"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "YOUR EMAIL\n            \n            \n          \n\n          NEXT\n\n          \n            Use a different sign in option instead"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "NEXT"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Member Exclusive\n          \n\n          \n             Get access to this story\n          \n\n          \n\n          \n            Create a free account to preview Pu"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Member Exclusive\n          \n\n          \n             Get access to this story\n          \n\n          \n\n          \n            Create a free account to preview Pu"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Unlock 1 Free Article"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Unlock 1 Free Article"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Free article unlocked!\n          \n\n          \n            You are logged into a free account as\n            \n              newsfortim@protonmail.com\n           "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Free article unlocked!\n          \n\n          \n            You are logged into a free account as\n            \n              newsfortim@protonmail.com\n           "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Continue to Article"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-let"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@medi"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "@charset \"UTF-8\";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:cente"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ":root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp-"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var _cio = _cio || [];\n(function() {\n    var a,b,c;a=function(f){return function(){_cio.push([f].\n    concat(Array.prototype.slice.call(arguments,0)))}};b=[\"loa"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var wpApiSettings = {\"root\":\"https://puck.news/wp-json/\",\"nonce\":\"cd8523d399\",\"versionString\":\"wp/v2/\"};\n//# sourceURL=wp-api-request-js-extra"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } );\n//# sourceURL=wp-i18n-js-after"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var pwsL10n = {\"unknown\":\"Password strength unknown\",\"short\":\"Very weak\",\"bad\":\"Weak\",\"good\":\"Medium\",\"strong\":\"Strong\",\"mismatch\":\"Mismatch\"};\n//# sourceURL=pa"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var scriptParams = {\"post_id\":\"97284\",\"author_key\":\"e5fa204466b6eca0bf290842ccac873f092aac138187863d6e85a9df11056341\",\"user_id\":\"730187\",\"current_user\":{\"ID\":73"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "My Account\n            \n              You are signed in  as newsfortim@protonmail.com\n              \n                \n                                      \n   "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hamburger",
+   "selector": "hamburger",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hamburger",
+   "selector": "hamburger",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hamburger",
+   "selector": "hamburger",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Washington\n              \n              \n            \n              \n              \n            \n            \n            \n            \n              \n         "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Washington\n              \n              \n            \n              \n              \n            \n            \n            \n            \n              \n         "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Washington"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Washington"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Johnson Crisis Comms & Trump’s $400M Silence\n        Marianna Sotomayor\n      \n\n\n  \n    \n  \n  \n    A Very MAGA Diplomatic Scandal\n        Julia Ioffe\n      \n\n\n "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Johnson Crisis Comms & Trump’s $400M Silence\n        Marianna Sotomayor\n      \n\n\n  \n    \n  \n  \n    A Very MAGA Diplomatic Scandal\n        Julia Ioffe\n      \n\n\n "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Johnson Crisis Comms & Trump’s $400M Silence\n        Marianna Sotomayor"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Johnson Crisis Comms & Trump’s $400M Silence\n        Marianna Sotomayor"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Johnson Crisis Comms & Trump’s $400M Silence"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Marianna Sotomayor"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "A Very MAGA Diplomatic Scandal\n        Julia Ioffe"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "A Very MAGA Diplomatic Scandal\n        Julia Ioffe"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "A Very MAGA Diplomatic Scandal"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Julia Ioffe"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Julia Ioffe\n    One of America’s foremost voices on Russia-U.S. relations, covering national security, foreign relations, and domestic politics from Washington "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Julia Ioffe\n    One of America’s foremost voices on Russia-U.S. relations, covering national security, foreign relations, and domestic politics from Washington "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Julia Ioffe"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "One of America’s foremost voices on Russia-U.S. relations, covering national security, foreign relations, and domestic politics from Washington and Europe."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Wall Street\n              \n              \n            \n              \n              \n            \n            \n            \n            \n              \n        "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Wall Street"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Wall Street"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Does Zaz Need a Plan B?\n        William D. Cohan\n      \n\n\n  \n    \n  \n  \n    Could Trump Actually Make I.P.O.s Great Again?\n        William D. Cohan\n      \n\n\n   "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Does Zaz Need a Plan B?\n        William D. Cohan\n      \n\n\n  \n    \n  \n  \n    Could Trump Actually Make I.P.O.s Great Again?\n        William D. Cohan\n      \n\n\n   "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Does Zaz Need a Plan B?\n        William D. Cohan"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Does Zaz Need a Plan B?\n        William D. Cohan"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Does Zaz Need a Plan B?"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "William D. Cohan"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Could Trump Actually Make I.P.O.s Great Again?\n        William D. Cohan"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Could Trump Actually Make I.P.O.s Great Again?\n        William D. Cohan"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Could Trump Actually Make I.P.O.s Great Again?"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "William D. Cohan"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Unique and privileged insight into the private conversations taking place inside boardrooms and corner offices up and down Wall Street, relayed by best-selling "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Dry Powder\n      \n        William D. Cohan\n        •\n        Wednesday and Sunday"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: byline",
+   "selector": "byline",
+   "text": "William D. Cohan\n        •\n        Wednesday and Sunday"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: author-name",
+   "selector": "author-name",
+   "text": "William D. Cohan"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "•"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Wednesday and Sunday"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Unique and privileged insight into the private conversations taking place inside boardrooms and corner offices up and down Wall Street, relayed by best-selling "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Read The Latest Newsletter"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "A.I.\n              \n              \n            \n              \n              \n            \n            \n            \n            \n              \n               "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "A.I."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "A.I."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Summer A.I. Turned Pretty\n        Ian Krietzberg\n      \n\n\n  \n    \n  \n  \n    Honey, I Shrunk the Workforce\n        Ian Krietzberg\n      \n\n\n                \n\n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Summer A.I. Turned Pretty\n        Ian Krietzberg\n      \n\n\n  \n    \n  \n  \n    Honey, I Shrunk the Workforce\n        Ian Krietzberg\n      \n\n\n                \n\n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Summer A.I. Turned Pretty\n        Ian Krietzberg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Summer A.I. Turned Pretty\n        Ian Krietzberg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Summer A.I. Turned Pretty"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Ian Krietzberg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Honey, I Shrunk the Workforce\n        Ian Krietzberg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Honey, I Shrunk the Workforce\n        Ian Krietzberg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Honey, I Shrunk the Workforce"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Ian Krietzberg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Ian Krietzberg\n    A visionary reporter at the forefront of his field, Ian Krietzberg covers the business of A.I. with the expert sourcing and candid insights o"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Ian Krietzberg\n    A visionary reporter at the forefront of his field, Ian Krietzberg covers the business of A.I. with the expert sourcing and candid insights o"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Ian Krietzberg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "A visionary reporter at the forefront of his field, Ian Krietzberg covers the business of A.I. with the expert sourcing and candid insights of a practitioner—ex"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Hollywood\n              \n              \n            \n              \n              \n            \n            \n            \n            \n              \n          "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Hollywood"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Hollywood"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Is Disney Over-Relying on Ryan Murphy?\n        Matthew Belloni\n      \n\n\n  \n    \n  \n  \n    The Real Reason YouTube Needs Peacock\n        Julia Alexander\n      \n\n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Is Disney Over-Relying on Ryan Murphy?\n        Matthew Belloni\n      \n\n\n  \n    \n  \n  \n    The Real Reason YouTube Needs Peacock\n        Julia Alexander\n      \n\n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Is Disney Over-Relying on Ryan Murphy?\n        Matthew Belloni"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Is Disney Over-Relying on Ryan Murphy?\n        Matthew Belloni"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Is Disney Over-Relying on Ryan Murphy?"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Matthew Belloni"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Real Reason YouTube Needs Peacock\n        Julia Alexander"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Real Reason YouTube Needs Peacock\n        Julia Alexander"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Real Reason YouTube Needs Peacock"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Julia Alexander"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "What I’m Hearing…\n      \n        ﻿Matthew Belloni, Eriq Gardner, Julia Alexander, Kim Masters & Scott Mendelson\n        •\n        Monday, Tuesday, and Thursday\n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "What I’m Hearing…\n      \n        ﻿Matthew Belloni, Eriq Gardner, Julia Alexander, Kim Masters & Scott Mendelson\n        •\n        Monday, Tuesday, and Thursday"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "What I’m Hearing…\n      \n        ﻿Matthew Belloni, Eriq Gardner, Julia Alexander, Kim Masters & Scott Mendelson\n        •\n        Monday, Tuesday, and Thursday"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: byline",
+   "selector": "byline",
+   "text": "Matthew Belloni, Eriq Gardner, Julia Alexander, Kim Masters & Scott Mendelson\n        •\n        Monday, Tuesday, and Thursday"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: author-name",
+   "selector": "author-name",
+   "text": "Matthew Belloni, Eriq Gardner, Julia Alexander, Kim Masters & Scott Mendelson"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "•"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Monday, Tuesday, and Thursday"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "An essential, insider-friendly Hollywood tip sheet from Matthew Belloni, who spent 14 years in the trenches at The Hollywood Reporter and five before that pract"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Read The Latest Newsletter"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Media\n              \n              \n            \n              \n              \n            \n            \n            \n            \n              \n              "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Media"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Media"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Ellison Doctrine\n        Dylan Byers\n      \n\n\n  \n    \n  \n  \n    Casting Douthat\n        Dylan Byers\n      \n\n\n                \n\n    \n    \n  \n    \n    Dylan B"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Ellison Doctrine\n        Dylan Byers\n      \n\n\n  \n    \n  \n  \n    Casting Douthat\n        Dylan Byers\n      \n\n\n                \n\n    \n    \n  \n    \n    Dylan B"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Ellison Doctrine\n        Dylan Byers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Ellison Doctrine\n        Dylan Byers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Ellison Doctrine"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Dylan Byers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Casting Douthat\n        Dylan Byers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Casting Douthat\n        Dylan Byers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Casting Douthat"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Dylan Byers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Dylan Byers\n    A veteran media reporter covering the business of entertainment, technology, and news media. Dylan previously worked at NBC News, CNN, and Polit"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Dylan Byers\n    A veteran media reporter covering the business of entertainment, technology, and news media. Dylan previously worked at NBC News, CNN, and Polit"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Dylan Byers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "A veteran media reporter covering the business of entertainment, technology, and news media. Dylan previously worked at NBC News, CNN, and Politico and is now a"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Fashion\n              \n              \n            \n              \n              \n            \n            \n            \n            \n              \n            "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Fashion"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Fashion"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Vintage Ghesquière Boom & Ralph’s World\n        Lauren Sherman\n      \n\n\n  \n    \n  \n  \n    Rowin’ in the Wind\n        Lauren Sherman\n      \n\n\n               "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Vintage Ghesquière Boom & Ralph’s World\n        Lauren Sherman\n      \n\n\n  \n    \n  \n  \n    Rowin’ in the Wind\n        Lauren Sherman\n      \n\n\n               "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Vintage Ghesquière Boom & Ralph’s World\n        Lauren Sherman"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Vintage Ghesquière Boom & Ralph’s World\n        Lauren Sherman"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Vintage Ghesquière Boom & Ralph’s World"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Lauren Sherman"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Rowin’ in the Wind\n        Lauren Sherman"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Rowin’ in the Wind\n        Lauren Sherman"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Rowin’ in the Wind"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Lauren Sherman"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Lauren Sherman\n    Lauren is the preeminent fashion journalist of her generation, offering incisive reportage on all aspects of the industry and its biggest pla"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Lauren Sherman\n    Lauren is the preeminent fashion journalist of her generation, offering incisive reportage on all aspects of the industry and its biggest pla"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Lauren Sherman"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Lauren is the preeminent fashion journalist of her generation, offering incisive reportage on all aspects of the industry and its biggest players. She was forme"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Sports\n              \n              \n            \n              \n              \n            \n            \n            \n            \n              \n             "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Sports"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Sports"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Shootout for the Future of MLS\n        John Ourand\n      \n\n\n  \n    \n  \n  \n    How to Survive a Sports Media Apocalypse\n        John Ourand\n      \n\n\n        "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Shootout for the Future of MLS\n        John Ourand\n      \n\n\n  \n    \n  \n  \n    How to Survive a Sports Media Apocalypse\n        John Ourand\n      \n\n\n        "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Shootout for the Future of MLS\n        John Ourand"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Shootout for the Future of MLS\n        John Ourand"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "The Shootout for the Future of MLS"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "John Ourand"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "How to Survive a Sports Media Apocalypse\n        John Ourand"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "How to Survive a Sports Media Apocalypse\n        John Ourand"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "How to Survive a Sports Media Apocalypse"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "John Ourand"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "John Ourand\n    A two-decade veteran of Sports Business Journal and the consummate industry insider, John covers the intersection of sports and business, from t"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "John Ourand\n    A two-decade veteran of Sports Business Journal and the consummate industry insider, John covers the intersection of sports and business, from t"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "John Ourand"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "A two-decade veteran of Sports Business Journal and the consummate industry insider, John covers the intersection of sports and business, from the leagues and t"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Art\n              \n              \n            \n              \n              \n            \n            \n            \n            \n              \n                "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Art"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Art"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Clause & Effect\n        Marion Maneker\n      \n\n\n  \n    \n  \n  \n    Near Eastbound and Down\n        Marion Maneker\n      \n\n\n                \n\n  \n  \n    Puck’s dai"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Clause & Effect\n        Marion Maneker\n      \n\n\n  \n    \n  \n  \n    Near Eastbound and Down\n        Marion Maneker\n      \n\n\n                \n\n  \n  \n    Puck’s dai"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Clause & Effect\n        Marion Maneker"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Clause & Effect\n        Marion Maneker"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Clause & Effect"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Marion Maneker"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Near Eastbound and Down\n        Marion Maneker"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Near Eastbound and Down\n        Marion Maneker"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Near Eastbound and Down"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Marion Maneker"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Puck’s daily art market email, anchored by industry expert Marion Maneker, offers unparalleled access to the mega-auctions and galleries, elite buyers and selle"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Wall Power\n      \n        Marion Maneker\n        •\n        Sunday, Tuesday, Wednesday, and Friday (Wednesday is an Inner Circle exclusive)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: byline",
+   "selector": "byline",
+   "text": "Marion Maneker\n        •\n        Sunday, Tuesday, Wednesday, and Friday (Wednesday is an Inner Circle exclusive)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: author-name",
+   "selector": "author-name",
+   "text": "Marion Maneker"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "•"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Sunday, Tuesday, Wednesday, and Friday (Wednesday is an Inner Circle exclusive)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Puck’s daily art market email, anchored by industry expert Marion Maneker, offers unparalleled access to the mega-auctions and galleries, elite buyers and selle"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Read The Latest Newsletter"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Newsletters\n          What is puck?\n          Authors\n          Podcasts\n                    Careers\n                      Events"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "My Account\n            \n              You are signed in  as newsfortim@protonmail.com\n              \n                \n                                      \n   "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "My Account\n            \n              You are signed in  as newsfortim@protonmail.com\n              \n                \n                                      \n   "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "You are signed in  as newsfortim@protonmail.com\n              \n                \n                                      \n                                    Profi"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "You are signed in  as newsfortim@protonmail.com"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Profile\n                \n                \n                  \n                  Billing\n                \n                \n                  \n                  My"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Profile"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Profile"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Billing"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Billing"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "My Newsletters"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "My Newsletters"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Reading List"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Reading List"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Gift Puck"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Gift Puck"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Gift Articles"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Gift Articles"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Log Out"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Log Out"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Gift Puck"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Gift Puck"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "What is puck?\n                Newsletters\n                Authors\n                Podcasts\n                                  Events\n                            "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hamburger",
+   "selector": "hamburger",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hamburger",
+   "selector": "hamburger",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hamburger",
+   "selector": "hamburger",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "What is puck?\n                Newsletters\n                Authors\n                Podcasts\n                                  Events\n                            "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "What is puck?\n                Newsletters\n                Authors\n                Podcasts\n                                  Events\n                            "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "What is puck?\n                Newsletters\n                Authors\n                Podcasts\n                                  Events\n                            "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: entry-title",
+   "selector": "entry-title",
+   "text": "Is Disney Over-Relying on Ryan Murphy?"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: byline",
+   "selector": "byline",
+   "text": "Dana Walden needs new TV hits, and happily welcomed the star showrunner back after his Netflix run. But while Murphy’s generated no shortage of buzz (Love Story"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: post-author",
+   "selector": "post-author",
+   "text": "August 7, 2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: disclaimer",
+   "selector": "disclaimer",
+   "text": "A.I. Disclaimer"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: bookmark-",
+   "selector": "bookmark-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: bookmark-",
+   "selector": "bookmark-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: bookmark-",
+   "selector": "bookmark-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -modal",
+   "selector": "-modal",
+   "text": "Share this article\n    You have 5 gift articles remaining to share this month."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Julia Alexander\n                  •\n                  August 5, 2026\n                \n                The Real Reason YouTube Needs Peacock\n                    "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Julia Alexander\n                  •\n                  August 5, 2026\n                \n                The Real Reason YouTube Needs Peacock"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Eriq Gardner\n                  •\n                  August 4, 2026\n                \n                Life in WarnerMount Purgatory"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Scott Mendelson\n                  •\n                  July 30, 2026\n                \n                Spider-Man: Brand New Day Is Set to Party Like It’s 2017"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: reading-list",
+   "selector": "reading-list",
+   "text": "Next on my reading list\n            \n          \n\n                    \n                          \n              \n                \n                  \n            "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: reading-list",
+   "selector": "reading-list",
+   "text": "Is Disney Over-Relying on Ryan Murphy?\n                    \n                  \n                  \n                    \n                      Leigh Ann Caldwell"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Terms\nPrivacy\nContact\nFAQ\nCareers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Terms\nPrivacy\nContact\nFAQ\nCareers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Terms"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Privacy"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Contact"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "FAQ"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": "Careers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -modal",
+   "selector": "-modal",
+   "text": "Create an account"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -modal",
+   "selector": "-modal",
+   "text": "Already a member? Log In"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -btn",
+   "selector": "-btn",
+   "text": "Log In"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -modal",
+   "selector": "-modal",
+   "text": "Password strength:"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -modal",
+   "selector": "-modal",
+   "text": "Log In"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -modal",
+   "selector": "-modal",
+   "text": "Not a member yet? Sign up today"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -btn",
+   "selector": "-btn",
+   "text": "Sign up today"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -modal",
+   "selector": "-modal",
+   "text": "Don't have a password or need to reset it?\n      \n\n    \n    \n\n    \n      \n      OR"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -modal",
+   "selector": "-modal",
+   "text": "Verify Account"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -modal",
+   "selector": "-modal",
+   "text": "Member Exclusive\n          \n\n          \n             Get access to this story\n          \n\n          \n\n          \n            Create a free account to preview Pu"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: button-wrapper",
+   "selector": "button-wrapper",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: button-wrapper",
+   "selector": "button-wrapper",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: button-wrapper",
+   "selector": "button-wrapper",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: button-wrapper",
+   "selector": "button-wrapper",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: button-wrapper",
+   "selector": "button-wrapper",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: button-wrapper",
+   "selector": "button-wrapper",
+   "text": ""
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -8",
+   "text": "Showrunner Ryan Murphy \n            Photo: JC Olivera / Variety via Getty Images"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "audio player widget",
+   "text": "00:00\n      \n        \n          \n          \n          00:00\n        \n      \n      00:00"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "author/share widget",
+   "text": "SHARE"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "author/share widget",
+   "text": "SHARE"
+  }
+ ],
+ "content": "<article class=\"pt-4 post-97284 post type-post status-publish format-standard has-post-thumbnail hentry category-hollywood tag-abc tag-caa tag-disney tag-donald-trump tag-espn tag-netflix\">\n    <header>\n      \n      \n      <div class=\"flex flex-col items-end my-6 lg:my-12\">\n        <div class=\"lg:max-w-article-featured-image\">\n                    <div class=\"color-overlay aspect-ratio-16x9 overflow-hidden\">\n            <img width=\"1088\" height=\"612\" src=\"https://puck.news/wp-content/uploads/2026/08/GettyImages-2154651618-scaled-e1786069587675-1088x612.jpg\" class=\"filter grayscale max-w-full xl:max-w-article-featured-image wp-post-image\" alt=\"Ryan Murphy\" srcset=\"https://puck.news/wp-content/uploads/2026/08/GettyImages-2154651618-scaled-e1786069587675-1088x612.jpg 1088w, https://puck.news/wp-content/uploads/2026/08/GettyImages-2154651618-scaled-e1786069587675-300x168.jpg 300w, https://puck.news/wp-content/uploads/2026/08/GettyImages-2154651618-scaled-e1786069587675-768x431.jpg 768w, https://puck.news/wp-content/uploads/2026/08/GettyImages-2154651618-scaled-e1786069587675-736x414.jpg 736w\">\n                      </div>\n          \n        </div>\n      </div>\n    </header>\n\n    \n\n    \n    <div class=\"relative text-article-body leading-article-body entry-content\">\n              \n            <div data-puck-paywall=\"article-content\" class=\"entry-content\">\n        \n\n        \n<p class=\"wp-block-paragraph\"><em>Did you know Ryan Murphy hasn’t had a show chart on Nielsen since he’s been back at Disney?</em> So declared a recent lunch companion, referring to the weekly top 10 streaming charts of the biggest hits with U.S. audiences. I had assumed that the prolific showrunner’s ripped-from-the-tabloids miniseries <em>Love Story: John F. Kennedy Jr. &amp; Carolyn Bessett</em> would have charted, given all the media hoopla. Or maybe <em>All’s Fair</em>, last fall’s <strong>Kim Kardashian</strong> spectacle of wigs and costume design that generated <a href=\"https://www.rottentomatoes.com/tv/alls_fair_2025\">historically bad reviews</a> but tons of social buzz. <em>The Shards</em>, a trashy <strong>Bret Easton Ellis</strong> collaboration featuring Murphy’s signature blend of porny-looking hot people and gruesome murder, will surely chart after its well-marketed debut last night, right?</p>\n\n\n\n<p class=\"wp-block-paragraph\">But my agent friend was correct. The Murphy oeuvre has made 35 total appearances all-time in the Nielsen streaming top 10, but the only series to chart since he returned to making new shows for Disney after five years at Netflix, in the summer of 2023, were installments of <em>Monster—</em>Murphy’s serial killer exploitation anthology… for Netflix. There are some caveats:<em> Love Story</em>, like many Murphy shows, also appeared on the FX linear channel and was thus considered an “acquired” title—meaning it needed to generate more viewing minutes than “originals” to appear on a chart dominated by shows with hundreds of episodes. (Nielsen counts viewing for all episodes of a show.) But HBO’s biggest series often make the cut, and Murphy has been considered among TV’s most reliable hitmakers for nearly two decades. He’s a <em>brand</em> unto himself, and is paid as such. He should be there.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Yet when Nielsen released its top 20 shows of the first half of 2026 this week, neither <em>Love Story </em>nor his other recent offerings, <em>All’s Fair</em> and the similarly pilloried <em>The Beauty</em>, made the list. <strong>Taylor Sheridan</strong> and <strong>Shonda Rhimes</strong>, the two writer-producers to whom Murphy is often compared, each had a show there. As did <strong>Dan Fogelman</strong>, another big TV producer signed to a comparable deal at Disney (though Murphy is far more likely to achieve the productivity bonuses that each has, per two sources).</p><p></p></div>\n\n            <div class=\"bottom-section\">\n        <div class=\"mt-20 mb-12\">\n          <hr>\n          <svg class=\"mx-auto -mt-12 w-48 bg-white\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 2186 477.4\" fill=\"#D40000\"><path d=\"M1186 163.4c138 64 266 124 389 124 128 0 191-63 191-137 0-68-61-118-177-118-114 0-256 62-403 131zm-692 87c0 47 50 86 148 86 108 0 231-45 357-100-90-54-210-85-320-85-123 0-185 47-185 99zm-140-144c98-71 212-95 315-95 183 0 349 73 502 145 152-72 299-138 418-138 126 0 191 58 191 132 0 81-68 151-205 151-129 0-261-65-404-131-48 23-97 46-146 68 68 47 116 108 126 179 7-5 13-9 24-16-6 29-12 48-25 76-14-31-18-39-35-66 8 2 14 3 24 7-9-70-58-129-127-174-130 58-258 106-370 106-109 0-161-47-161-102 0-59 68-111 198-111 117 0 241 34 333 93 48-22 96-45 144-67-148-69-308-139-486-139-101 0-212 25-309 94l-7-12z\" /></svg>        </div>\n\n        \n                \n              </div>\n          </div>\n  </article>",
+ "markdown": null
+}

@@ -1,0 +1,242 @@
+author-contact-block raw=3225 cleaned=3056 units=3 cands=3 retry=true sel=html > body > main#content
+author-share-widget raw=3961 cleaned=3280 units=1 cands=2 retry=false sel=html > body > div#__next > main
+callouts--obsidian-publish-callouts raw=8294 cleaned=7007 units=1 cands=1 retry=true sel=html > body.theme-light
+code-blocks--chroma-linenums raw=4394 cleaned=4202 units=8 cands=2 retry=true sel=html > body > article
+code-blocks--hexo-br raw=1774 cleaned=1630 units=8 cands=2 retry=true sel=html > body > article
+codeblocks--chatgpt-codemirror raw=3504 cleaned=3091 units=3 cands=2 retry=true sel=html > body > main
+codeblocks--chroma-inline-linenums raw=3734 cleaned=3634 units=3 cands=2 retry=true sel=html > body > article
+codeblocks--chroma-line-spans raw=1668 cleaned=1577 units=1 cands=2 retry=true sel=html > body > article
+codeblocks--code-pre-nesting raw=1091 cleaned=513 units=1 cands=2 retry=true sel=html > body > article
+codeblocks--flex-row-gutter raw=2340 cleaned=1694 units=3 cands=2 retry=true sel=html > body > article
+codeblocks--hljs-header raw=1076 cleaned=774 units=4 cands=2 retry=true sel=html > body > main
+codeblocks--mintlify raw=14512 cleaned=13293 units=3 cands=2 retry=false sel=html.dark > body > div.relative.mx-auto.flex.min-h-screen.w-full.flex-col.items-stretch > div#content
+codeblocks--pygments-lineno raw=1121 cleaned=1004 units=4 cands=2 retry=true sel=html > body > article
+codeblocks--react-syntax-highlighter-linenums raw=4547 cleaned=4434 units=2 cands=2 retry=true sel=html > body > article
+codeblocks--rehype-pretty-code raw=1828 cleaned=1619 units=1 cands=2 retry=true sel=html > body > article
+codeblocks--rehype-pretty-copy raw=2847 cleaned=2285 units=8 cands=2 retry=true sel=html > body > article
+codeblocks--rockthejvm.com-articles-kotlin-101-type-classes raw=5606 cleaned=4481 units=3 cands=3 retry=false sel=html > body > main > article
+codeblocks--rouge-linenums raw=2240 cleaned=2142 units=5 cands=2 retry=true sel=html > body > article
+codeblocks--stripe raw=8828 cleaned=6709 units=4 cands=3 retry=true sel=html > body > div#root > div.Content.Box-root > div.Content-container.Box-root > div.Content-article.MarkdocContentWrapper > article#content
+comments--mastodon.social-@user-12345678 raw=12670 cleaned=11185 units=13 cands=1 retry=true sel=
+comments--news.ycombinator.com-item-id=12345678 raw=3438 cleaned=3285 units=10 cands=1 retry=true sel=
+comments--old.reddit.com-r-test-comments-abc123-test_post raw=3166 cleaned=3023 units=9 cands=2 retry=true sel=
+content-patterns--card-grid-stripped-headings raw=3401 cleaned=3051 units=2 cands=6 retry=true sel=html > body > div#app > main
+content-patterns--code-block-boilerplate-and-trailing-section raw=6483 cleaned=6099 units=19 cands=2 retry=false sel=html > body > article
+content-patterns--content-list-with-internal-links raw=1526 cleaned=1083 units=2 cands=3 retry=true sel=html > body > main > article
+content-patterns--heading-introduced-list raw=1182 cleaned=1031 units=1 cands=3 retry=true sel=html > body > article.markdown-body
+content-patterns--iso-date-and-read-time raw=1834 cleaned=1378 units=1 cands=2 retry=true sel=html > body > article
+content-patterns--leading-breadcrumb raw=1880 cleaned=1620 units=1 cands=2 retry=false sel=html > body > main
+content-patterns--live-blog-metadata raw=1541 cleaned=1170 units=2 cands=4 retry=true sel=html > body > article
+content-patterns--multi-image-row-midarticle raw=3490 cleaned=3124 units=6 cands=2 retry=false sel=html > body > div#content
+content-patterns--non-semantic-hero-header raw=3609 cleaned=2936 units=11 cands=1 retry=true sel=html > body
+content-patterns--social-counter-link raw=1710 cleaned=1233 units=1 cands=2 retry=true sel=html > body > div.main > article
+content-patterns--social-engagement-counter raw=1210 cleaned=1053 units=1 cands=2 retry=true sel=html > body > article
+content-patterns--socket-dev-blog raw=4988 cleaned=3263 units=4 cands=3 retry=true sel=html > body
+content-patterns--table-of-contents raw=5306 cleaned=4659 units=46 cands=3 retry=false sel=html > body > main > article
+content-patterns--trailing-related-posts raw=1418 cleaned=1229 units=4 cands=2 retry=true sel=html > body > article
+content-patterns--trailing-subscribe-after-footnotes raw=4012 cleaned=3372 units=8 cands=2 retry=false sel=html > body > article
+custom-elements--swiper-carousel raw=615 cleaned=510 units=2 cands=3 retry=true sel=html > body > main > article
+elementor--archive-page raw=16566 cleaned=14092 units=8 cands=1 retry=false sel=html > body.archive.post-type-archive.wp-custom-logo.elementor-default.elementor-template-full-width
+elements--base64-placeholder-removal raw=1762 cleaned=1032 units=1 cands=2 retry=true sel=html > body > article
+elements--bootstrap-alerts raw=758 cleaned=556 units=7 cands=2 retry=true sel=html > body > article
+elements--br-between-blocks raw=1004 cleaned=560 units=1 cands=2 retry=true sel=html > body > article
+elements--complex-tables raw=2773 cleaned=1823 units=1 cands=2 retry=true sel=html > body > article
+elements--data-table raw=1360 cleaned=828 units=1 cands=2 retry=true sel=html > body > article
+elements--embedded-videos raw=1145 cleaned=933 units=5 cands=2 retry=true sel=html > body > article
+elements--empty-p-br raw=492 cleaned=187 units=4 cands=2 retry=true sel=html > body > article
+elements--empty-table raw=671 cleaned=534 units=1 cands=2 retry=true sel=html > body > article
+elements--farsi-zwnj raw=2127 cleaned=1463 units=1 cands=2 retry=true sel=html > body > article
+elements--figure-content-wrapper raw=1275 cleaned=633 units=1 cands=4 retry=true sel=html > body > article.post
+elements--hugo-admonitions raw=3039 cleaned=1788 units=1 cands=2 retry=true sel=html > body > article
+elements--image-dedup raw=1982 cleaned=1490 units=1 cands=2 retry=true sel=html > body > article
+elements--javascript-links raw=926 cleaned=745 units=1 cands=2 retry=true sel=html > body > article
+elements--lazy-image raw=20068 cleaned=7077 units=5 cands=2 retry=false sel=html > body > div#root > div.a.b.c > article
+elements--lightbox-image-dedup raw=2486 cleaned=1470 units=1 cands=2 retry=true sel=html > body > article
+elements--nbsp-handling raw=401 cleaned=282 units=1 cands=2 retry=true sel=html > body > article
+elements--srcset-normalization raw=1309 cleaned=1041 units=1 cands=2 retry=true sel=html > body > article
+elements--svg-placeholder-lazy-image raw=4208 cleaned=2965 units=2 cands=3 retry=true sel=html > body > main > article
+elements--whitespace-newlines raw=782 cleaned=651 units=1 cands=2 retry=true sel=html > body > article
+entry-point--js-article-content raw=7384 cleaned=6473 units=11 cands=3 retry=true sel=html > body > main > div.page-wrapper > div.content-area > div.js-article-content
+extractor--bbcode-data raw=1232 cleaned=458 units=0 cands=1 retry=true sel=
+extractor--chatgpt-citations raw=9847 cleaned=9690 units=36 cands=2 retry=false sel=
+extractor--chatgpt-post-thought-content raw=1038 cleaned=785 units=4 cands=2 retry=true sel=
+eyebrow--linked-category raw=2770 cleaned=2380 units=1 cands=4 retry=false sel=html > body > main > article.typography.newsletter-post.post
+eyebrow--paragraph-label raw=2201 cleaned=1846 units=1 cands=2 retry=false sel=html > body > main
+eyebrow--spans-category raw=2246 cleaned=1911 units=1 cands=3 retry=false sel=html > body > main > article
+eyebrow--wrapper-with-icon raw=2406 cleaned=2040 units=1 cands=2 retry=false sel=html > body > article
+footnotes--aside-ol-start raw=1293 cleaned=1164 units=5 cands=2 retry=true sel=html > body > article
+footnotes--bold-sup-trailing raw=1266 cleaned=824 units=6 cands=2 retry=true sel=html > body > article
+footnotes--br-separated-named-anchors raw=1510 cleaned=1442 units=5 cands=2 retry=true sel=html > body > article
+footnotes--child-anchor-id raw=1474 cleaned=1349 units=2 cands=2 retry=true sel=html > body > div.entry-content
+footnotes--easy-footnotes-wrapper raw=2519 cleaned=2386 units=1 cands=3 retry=true sel=html > body > article.entry-content
+footnotes--external-labeled-section raw=1096 cleaned=1037 units=2 cands=2 retry=true sel=html > body > article
+footnotes--google-docs-ftnt raw=1693 cleaned=1255 units=3 cands=2 retry=true sel=html > body > article
+footnotes--heading-notes raw=676 cleaned=348 units=6 cands=2 retry=true sel=html > body > article
+footnotes--hidden-aside-data-definition raw=1522 cleaned=1388 units=4 cands=3 retry=true sel=html > body > article.entry-content
+footnotes--hidden-section raw=897 cleaned=812 units=1 cands=2 retry=true sel=html > body > article
+footnotes--hr-continuation raw=1155 cleaned=640 units=6 cands=2 retry=true sel=html > body > article
+footnotes--hr-strong-numbered raw=854 cleaned=424 units=7 cands=2 retry=true sel=html > body > article
+footnotes--hr-sup-numbered raw=742 cleaned=404 units=4 cands=2 retry=true sel=html > body > article
+footnotes--inline-footnote-span raw=1329 cleaned=1200 units=1 cands=2 retry=true sel=html > body > div.entry-content
+footnotes--labeled-section-ol raw=1032 cleaned=976 units=2 cands=2 retry=true sel=html > body > article
+footnotes--maggieappleton.com-xanadu-patterns raw=129896 cleaned=64303 units=101 cands=4 retry=false sel=html > body > main > main.styled-main > article.prose-wrapper
+footnotes--named-anchor raw=1996 cleaned=1867 units=5 cands=2 retry=true sel=html > body > div#content
+footnotes--nested-prose raw=1005 cleaned=431 units=4 cands=2 retry=true sel=html > body > article
+footnotes--no-false-positive-equation-refs raw=1262 cleaned=793 units=1 cands=2 retry=true sel=html > body > article
+footnotes--numeric-anchor-id raw=1251 cleaned=1120 units=2 cands=3 retry=true sel=html > body > article.article-body
+footnotes--orgmode-css-sidenotes raw=1698 cleaned=1611 units=0 cands=2 retry=true sel=html > body > article
+footnotes--p-class-footnote raw=730 cleaned=669 units=3 cands=2 retry=true sel=html > body > article
+footnotes--pulldown-cmark-footnote-definition raw=1588 cleaned=959 units=5 cands=2 retry=true sel=html > body > article
+footnotes--sidenote-inline-with-list raw=1392 cleaned=1214 units=3 cands=3 retry=true sel=html > body > main > div.post-content.has-sidenotes
+footnotes--span-fnref-colon raw=1682 cleaned=1153 units=4 cands=2 retry=true sel=html > body > article
+footnotes--wikipedia-references raw=3881 cleaned=3401 units=5 cands=3 retry=true sel=html.client-js > body.skin-vector.mediawiki > div.mw-page-container > div.mw-page-container-inner > div.mw-content-container > main#content
+footnotes--word-ftn-ftnref raw=1152 cleaned=767 units=2 cands=2 retry=true sel=html > body > article
+footnotes--wp-block-footnotes raw=1939 cleaned=1801 units=3 cands=2 retry=true sel=html > body > article
+gated-content--cookie-consent raw=5058 cleaned=4706 units=6 cands=2 retry=false sel=html > body > div#app > div > div:nth-of-type(1) > main#main-content
+general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes raw=97605 cleaned=66540 units=54 cands=4 retry=false sel=html > body > div#entry > div#main > div:nth-of-type(2) > div.single-post-container > div.container > div.single-post > div.pencraft.pc-display-contents.pc-reset.pubTheme-yiXxQA > article.typography.newsletter-post.post
+general--apnews-link-enhancement raw=1090 cleaned=932 units=1 cands=2 retry=true sel=html > body > article
+general--appendix-heading raw=1083 cleaned=976 units=1 cands=4 retry=true sel=html > body > main > article
+general--back-nav-link raw=809 cleaned=626 units=5 cands=1 retry=true sel=html > body
+general--cp4space-jordan-algebra raw=14002 cleaned=12068 units=23 cands=5 retry=false sel=html > body.single.single-post.postid-6213.single-format-standard.logged-in > div#wrapper > div#main > div#container > div#content > div#post-6213 > div.entry-content
+general--daringfireball.net-2025-02-the_iphone_16e raw=24263 cleaned=17109 units=28 cands=1 retry=false sel=html > body
+general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array raw=3938 cleaned=3488 units=10 cands=2 retry=false sel=html > body > main
+general--github.com-issue-56 raw=104933 cleaned=83744 units=11 cands=16 retry=false sel=html.js-focus-visible > body.logged-out.env-production.page-responsive.vsc-initialized > div.logged-out.env-production.page-responsive > div.application-main > div > main#js-repo-pjax-container
+general--github.com-test-owner-test-repo-pull-42 raw=5962 cleaned=4470 units=8 cands=5 retry=true sel=
+general--inline-comments-and-link-lists raw=2248 cleaned=1992 units=13 cands=2 retry=true sel=html > body > article
+general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx raw=149598 cleaned=147622 units=213 cands=2 retry=false sel=html > body.whiteBackground > div[id="S:5"] > div:nth-of-type(1) > div.MultiToCLayout-root > div.MultiToCLayout-tableOfContents > div.MultiToCLayout-content:nth-of-type(3) > div#postBody > div.PostsPage-postContent.instapaper_body.ContentStyles-base.content.ContentStyles-postBody
+general--multi-article-portfolio raw=2996 cleaned=2430 units=3 cands=9 retry=false sel=html > body > main#main-content
+general--news.ycombinator.com-item-id=12345678 raw=2609 cleaned=2302 units=3 cands=1 retry=true sel=
+general--obsidian-publish-cjk raw=3232 cleaned=2496 units=4 cands=1 retry=true sel=html > body.theme-light
+general--obsidian.md-blog-verify-obsidian-sync-encryption raw=31902 cleaned=18786 units=25 cands=2 retry=false sel=html > body > div:nth-of-type(3) > div.container > div.mx-auto.max-w-2xl.py-24 > article.typeset.mt-16
+general--react-streaming-ssr raw=2873 cleaned=2029 units=2 cands=4 retry=false sel=html > body > div#root > main > article
+general--scp-wiki.wikidot.com-scp-9935 raw=4254 cleaned=3965 units=1 cands=1 retry=false sel=html > body#html-body
+general--stephango.com-buy-wisely raw=19430 cleaned=11480 units=43 cands=3 retry=false sel=html > body > main > article
+general--substack-app raw=68228 cleaned=44013 units=2 cands=2 retry=true sel=html > body.pc-root > div#entry > div.reader-nav-root.reader2-font-base > div.reader-nav-page > div.pencraft.pc-display-flex.pc-minWidth-0.pc-reset.flex-grow-rzmknG > div#reader-nav-page-scroll > div.pencraft.pc-display-flex.pc-minWidth-0.pc-paddingLeft-20.pc-mobile-paddingLeft-0.pc-paddingRight-20.pc-mobile-paddingRight-0.pc-reset.flex-grow-rzmknG > div.pencraft.pc-display-flex.pc-minWidth-0.pc-justifyContent-center.pc-reset.flex-grow-rzmknG > div.variables-fH4ag7 > div.pencraft.pc-display-flex.pc-flexDirection-column.pc-minWidth-0.pc-position-relative.pc-reset.flex-grow-rzmknG.color-primary-zABazT.font-text-qe4AeH.size-15-Psle70.page-aOaH_e > div.pencraft.pc-display-flex.pc-flexDirection-column.pc-reset:nth-of-type(2) > div.pencraft.pc-display-flex.pc-paddingTop-24.pc-justifyContent-center.pc-reset.flex-grow-rzmknG > div.pencraft.pc-display-flex.pc-flexDirection-column.pc-minWidth-0.pc-position-relative.pc-reset.flex-grow-rzmknG.sizing-border-box-DggLA4 > div.pencraft.pc-display-flex.pc-flexDirection-column.pc-gap-8.pc-reset.permalinkHeader-bQJTnJ > div.pencraft.pc-display-flex.pc-flexDirection-column.pc-gap-12.pc-reset.feedPermalinkUnit-JBJrHa > div.pencraft.pc-display-flex.pc-flexDirection-column.pc-reset.feedCommentBody-UWho7S
+general--substack-custom-domain raw=2912 cleaned=2037 units=7 cands=3 retry=true sel=html > body > div#main > div.post
+general--substack-note-permalink raw=3871 cleaned=2714 units=4 cands=1 retry=true sel=
+general--substack-note raw=2710 cleaned=1682 units=2 cands=1 retry=true sel=
+general--svg-content-preservation raw=4703 cleaned=3429 units=8 cands=3 retry=true sel=html > body > main > article
+general--svg-external-css-fallback raw=2770 cleaned=1720 units=3 cands=3 retry=true sel=html > body > main > article
+general--tailwind-hidden-blog-index raw=3733 cleaned=2800 units=15 cands=6 retry=true sel=html > body > main
+general--trailing-cta-newsletter raw=3065 cleaned=2590 units=2 cands=2 retry=false sel=html > body > main
+general--wikipedia-ipa-pronunciation raw=2552 cleaned=1826 units=1 cands=3 retry=false sel=html > body > div#content
+general--wikipedia raw=30183 cleaned=27638 units=37 cands=3 retry=false sel=html.client-nojs.vector-feature-language-in-header-enabled > body.mediawiki.ltr.sitedir-ltr.mw-hide-empty-elt.ns-0.ns-subject.page-Obsidian_software.rootpage-Obsidian_software.skin-vector.skin-vector-search-vue.action-view > div#content
+general--www.figma.com-blog-introducing-codex-to-figma raw=45359 cleaned=30694 units=28 cands=5 retry=false sel=html > body > div#app > div.blog-wrapper.fig-1nahfw7 > div.blog-body > main#main
+general--x.com-article-2026-02-13 raw=123151 cleaned=116772 units=43 cands=5 retry=false sel=
+general--x.com-article raw=1497 cleaned=1127 units=1 cands=1 retry=true sel=
+gmail--mail.google.com-mail-u-0-thread raw=8142 cleaned=6560 units=13 cands=2 retry=true sel=
+headings--fragment-url-not-permalink raw=1235 cleaned=1012 units=1 cands=2 retry=true sel=html > body > article
+headings--permalink-title-match raw=914 cleaned=720 units=4 cands=2 retry=true sel=html > body > article
+headings--testid-article-header raw=1570 cleaned=1274 units=1 cands=9 retry=true sel=html > body > article
+hidden--nodes raw=3369 cleaned=2903 units=4 cands=1 retry=true sel=html > body
+hidden--visibility raw=1431 cleaned=1172 units=3 cands=2 retry=true sel=html > body > article
+issues--106-menu-id raw=861 cleaned=677 units=2 cands=2 retry=true sel=html > body > main
+issues--114-leading-hr raw=834 cleaned=716 units=2 cands=3 retry=true sel=html > body > article.post
+issues--120-dhammatalks-footnotes raw=25951 cleaned=21687 units=46 cands=3 retry=false sel=html > body.d-flex.flex-column.min-vh-100 > div.container-xxl.container-with-sidebar.flex-grow-1 > main#content
+issues--131-category-links raw=465 cleaned=377 units=4 cands=2 retry=true sel=html > body > article
+issues--132-hero-class raw=319 cleaned=234 units=3 cands=2 retry=true sel=html > body > article
+issues--136-time-element raw=1471 cleaned=1382 units=1 cands=2 retry=true sel=html > body > article
+issues--141-arxiv-equation-tables raw=2360 cleaned=2243 units=1 cands=2 retry=true sel=html > body > article.ltx_document
+issues--142-arxiv-multi-citations raw=2877 cleaned=2760 units=4 cands=2 retry=true sel=html > body > article.ltx_document
+issues--143-arxiv-cross-references raw=983 cleaned=865 units=1 cands=2 retry=true sel=html > body > article.ltx_document
+issues--144-arxiv-footnote-marks raw=1495 cleaned=1379 units=2 cands=2 retry=true sel=html > body > article.ltx_document
+issues--159-lean-heading-permalink-emoji raw=943 cleaned=627 units=4 cands=3 retry=true sel=html > body > main > article
+issues--159-lean-verso-code-blocks raw=1546 cleaned=1196 units=1 cands=3 retry=true sel=html > body > main > article
+issues--159-lean-verso-empty-line-preserved raw=1306 cleaned=987 units=1 cands=3 retry=true sel=html > body > main > article
+issues--159-lean-verso-grouped-blocks raw=3057 cleaned=2689 units=10 cands=3 retry=true sel=html > body > main > article
+issues--159-lean-verso-missing-section-gap raw=1093 cleaned=789 units=1 cands=3 retry=true sel=html > body > main > article
+Defuddle Error in async extraction: Error: network disabled
+    at offlineFetch (file:///tmp/jev-research/results/measure-cost/measure.mjs:74:42)
+    at XOembedExtractor.extractOembed (/home/alexi/git/defuddle/dist/extractors/x-oembed.js:47:37)
+    at XOembedExtractor.extractAsync (/home/alexi/git/defuddle/dist/extractors/x-oembed.js:43:21)
+    at async Defuddle.tryAsyncExtractor (/home/alexi/git/defuddle/dist/defuddle.js:730:35)
+    at async Defuddle.parseAsync (/home/alexi/git/defuddle/dist/defuddle.js:683:33)
+    at async Defuddle (/home/alexi/git/defuddle/dist/node.js:71:20)
+    at async file:///tmp/jev-research/results/measure-cost/measure.mjs:120:15
+Defuddle Error in async extraction: Error: network disabled
+    at offlineFetch (file:///tmp/jev-research/results/measure-cost/measure.mjs:74:42)
+    at XOembedExtractor.extractOembed (/home/alexi/git/defuddle/dist/extractors/x-oembed.js:47:37)
+    at XOembedExtractor.extractAsync (/home/alexi/git/defuddle/dist/extractors/x-oembed.js:43:21)
+    at async Defuddle.tryAsyncExtractor (/home/alexi/git/defuddle/dist/defuddle.js:730:35)
+    at async Defuddle.parseAsync (/home/alexi/git/defuddle/dist/defuddle.js:683:33)
+    at async Defuddle (/home/alexi/git/defuddle/dist/node.js:71:20)
+    at async file:///tmp/jev-research/results/measure-cost/measure.mjs:135:14
+issues--161-x-status-url-author raw=982 cleaned=315 units=1 cands=1 retry=true sel=
+issues--162-aria-hidden-main-content raw=1204 cleaned=851 units=1 cands=2 retry=true sel=html > body > main > div.updates-overlay
+issues--167-partial-selector-inside-code raw=1442 cleaned=1109 units=1 cands=3 retry=true sel=html > body > main > article
+issues--168-links-inside-inline-code raw=1198 cleaned=886 units=1 cands=3 retry=true sel=html > body > main > article
+issues--169-svg-classname-crash raw=1272 cleaned=919 units=3 cands=3 retry=true sel=html > body > main > article
+issues--196-og-title-brand-name raw=1094 cleaned=556 units=4 cands=2 retry=true sel=html > body > main
+issues--217-writerside-docs raw=2213 cleaned=1773 units=1 cands=3 retry=true sel=html > body > main > article.article
+issues--218-footnote-wrapper-text-lost raw=1465 cleaned=1268 units=5 cands=2 retry=true sel=html > body > article
+issues--221-nextjs-noscript-images raw=1665 cleaned=952 units=3 cands=3 retry=true sel=html > body > main > article
+issues--227-noscript-lazy-images raw=5050 cleaned=3371 units=1 cands=2 retry=true sel=html > body > div#root > div > div.Layout-root > main#maincontent
+issues--232-dismiss-in-hidden-content raw=2274 cleaned=1533 units=2 cands=1 retry=true sel=html > body.skip-intro > div.page > div.updates-overlay.overlay--posts.overlay--post-detail
+issues--254-empty-video raw=759 cleaned=673 units=1 cands=2 retry=true sel=html > body > article
+issues--263-buttons-in-paragraphs raw=1713 cleaned=1458 units=2 cands=1 retry=true sel=html > body > div.page-container > div.problem-content > div.problem-description
+issues--272-x-localized-conversation-timeline raw=1224 cleaned=906 units=4 cands=4 retry=true sel=
+issues--280-texinfo-footnotes raw=4153 cleaned=3538 units=3 cands=1 retry=false sel=html > body
+issues--284-table-cell-header-scoring raw=1530 cleaned=1321 units=1 cands=2 retry=true sel=html > body > div#content
+issues--285-tag-like-title-escaping raw=1420 cleaned=1180 units=1 cands=5 retry=true sel=html > body > article.markdown
+issues--286-generic-alt-image-dedup raw=1640 cleaned=1442 units=1 cands=2 retry=true sel=html > body > article
+issues--296-oreilly-noteref-footnotes raw=2124 cleaned=1905 units=1 cands=1 retry=false sel=html > body
+issues--300-nested-layout-tables raw=1396 cleaned=1225 units=3 cands=1 retry=true sel=html > body
+issues--361-escaped-id raw=1443 cleaned=1324 units=2 cands=1 retry=true sel=html > body > div[id="S:5"]
+issues--361-shadow-selector-stability raw=1512 cleaned=1312 units=2 cands=1 retry=true sel=html > body > div.actual-story
+issues--361-special-class-selectors raw=1434 cleaned=1315 units=2 cands=1 retry=true sel=html > body > div[class~="@container/main"]:nth-of-type(2)
+issues--361-tailwind-ancestor raw=1418 cleaned=1299 units=2 cands=1 retry=true sel=html > body > div[id="post:"] > div[class~="pt-[131px]"][class~="bg-[#fff]"] > div.story:nth-of-type(2)
+issues--366-mixed-numbers raw=1876 cleaned=1759 units=1 cands=2 retry=false sel=html > body > article
+issues--366-screen-reader-links raw=1806 cleaned=1683 units=7 cands=2 retry=true sel=html > body > article
+issues--374-explicit-image-sources raw=806 cleaned=680 units=1 cands=2 retry=true sel=html > body > article
+issues--374-image-source raw=688 cleaned=572 units=1 cands=2 retry=true sel=html > body > article
+issues--374-invalid-lazy-source raw=934 cleaned=807 units=1 cands=2 retry=true sel=html > body > article
+issues--374-lazy-source-precedence raw=2471 cleaned=1305 units=1 cands=2 retry=true sel=html > body > article
+issues--374-lazy-srcset-placeholder raw=914 cleaned=650 units=1 cands=2 retry=true sel=html > body > article
+issues--374-unrelated-image-metadata raw=1048 cleaned=919 units=1 cands=2 retry=true sel=html > body > article
+issues--footnote-id-with-quote raw=1505 cleaned=1227 units=1 cands=2 retry=true sel=html > body > article
+issues--header-with-subtitle-p raw=2110 cleaned=1798 units=3 cands=3 retry=true sel=html > body > article
+issues--header-wraps-content raw=2647 cleaned=2297 units=1 cands=2 retry=false sel=html > body > div.page-wrapper > main.main-wrapper
+issues--pascalcase-section-id-partial-match raw=4218 cleaned=4110 units=8 cands=2 retry=false sel=html > body > main
+issues--preferred-async-empty raw=678 cleaned=535 units=2 cands=2 retry=true sel=html > body > article
+issues--react-streaming-ssr-colon-id raw=2478 cleaned=2017 units=3 cands=1 retry=true sel=html > body.__variable_1e4310.font-sans.antialiased > div[id="S:a"]
+issues--sidebar-toggle-checkbox raw=1306 cleaned=1093 units=1 cands=1 retry=true sel=html > body
+issues--span-with-block-children-and-schema raw=4495 cleaned=2645 units=4 cands=1 retry=true sel=html > body.single.single-post > section#section-content > div.ct-section-inner-wrap > div#article-block
+listing--news.ycombinator.com-news raw=5091 cleaned=4967 units=6 cands=1 retry=true sel=
+math--equation-table-mathml raw=1162 cleaned=1018 units=3 cands=2 retry=true sel=html > body > article
+math--katex-centraliser raw=53613 cleaned=52153 units=18 cands=1 retry=false sel=html > body
+math--katex-data-math raw=3145 cleaned=3016 units=1 cands=2 retry=true sel=html > body > main
+math--katex raw=8788 cleaned=8529 units=10 cands=2 retry=false sel=html > body > main
+math--latex-image-services raw=650 cleaned=465 units=1 cands=2 retry=true sel=html > body > article
+math--mathjax-chtml-no-assistive raw=6295 cleaned=6048 units=8 cands=2 retry=true sel=html > body > article
+math--mathjax-svg raw=2567 cleaned=2432 units=1 cands=2 retry=true sel=html > body > article
+math--mathjax-tagged-equation raw=1589 cleaned=1367 units=3 cands=2 retry=true sel=html > body > main
+math--mathjax-tex-scripts raw=1127 cleaned=376 units=2 cands=2 retry=true sel=html > body > article
+math--mathjax raw=201904 cleaned=55670 units=8 cands=1 retry=false sel=html > body
+math--raw-latex raw=1087 cleaned=773 units=8 cands=2 retry=true sel=html > body > article
+math--small-equation-image raw=855 cleaned=673 units=4 cands=2 retry=true sel=html > body > article
+math--temml raw=4206 cleaned=4091 units=1 cands=2 retry=true sel=html > body > main
+math--wikipedia-mathml raw=2390 cleaned=2265 units=2 cands=2 retry=true sel=html > body > div#content
+metadata--295-header-date-above-title raw=1808 cleaned=1135 units=6 cands=3 retry=true sel=html > body > main > article
+metadata--295-suggested-post-date raw=1525 cleaned=1039 units=6 cands=3 retry=true sel=html > body > main > article
+metadata--author-by-prefix-and-url raw=769 cleaned=508 units=1 cands=3 retry=true sel=html > body > main > article
+metadata--date-adjacent-category-link raw=1303 cleaned=1001 units=1 cands=2 retry=true sel=html > body > article
+metadata--email-style-header-block raw=1336 cleaned=841 units=1 cands=3 retry=true sel=html > body > main > article
+metadata--h1-sibling-byline raw=1585 cleaned=979 units=5 cands=2 retry=true sel=html > body > main
+metadata--multi-script-values raw=1447 cleaned=580 units=1 cands=3 retry=true sel=html > body > main > article
+metadata--placeholder-author-and-duplicate-published raw=1304 cleaned=628 units=1 cands=3 retry=true sel=html > body > main > article
+metadata--placeholder-values raw=1386 cleaned=505 units=1 cands=3 retry=true sel=html > body > main > article
+metadata--rel-author-in-bio-container raw=1755 cleaned=1521 units=2 cands=2 retry=true sel=html > body > main
+related--inline-related-stories-block raw=4187 cleaned=4011 units=9 cands=6 retry=false sel=html > body > main.page-main > section.with-sidebar > article.article-body
+scoring--related-posts-byline raw=3595 cleaned=3357 units=3 cands=12 retry=false sel=html > body > div > main
+scoring--table-with-links raw=3418 cleaned=2492 units=1 cands=2 retry=true sel=html > body > article
+security--markdown-image-escaping raw=423 cleaned=311 units=3 cands=2 retry=true sel=html > body > article
+security--math-literal-text raw=435 cleaned=321 units=3 cands=2 retry=true sel=html > body > article
+selectors--arm-newsroom raw=4811 cleaned=4030 units=9 cands=1 retry=true sel=html > body
+selectors--logo-substring-wrapper raw=3858 cleaned=3692 units=3 cands=4 retry=false sel=html > body > main.page-main > article.article-body
+small-images--svg-icon-viewbox raw=1426 cleaned=862 units=1 cands=2 retry=true sel=html > body > article
+standardize--span-data-as-paragraph raw=1201 cleaned=857 units=1 cands=3 retry=true sel=html > body > main > article
+table-layout--blogger-two-column raw=4952 cleaned=4597 units=5 cands=1 retry=false sel=html > body > table > tr > td:nth-of-type(1) > table > tr > td
+table-layout--paulgraham.com-makersschedule raw=16745 cleaned=12674 units=3 cands=1 retry=false sel=html > body > table > tr > td:nth-of-type(3) > table:nth-of-type(1) > tr > td
+table-layout--peripheral-tables raw=13601 cleaned=13146 units=27 cands=1 retry=false sel=html > body
+table-layout--single-column raw=659 cleaned=546 units=1 cands=1 retry=true sel=html > body
+thin-section-before-see-also raw=2327 cleaned=1975 units=2 cands=3 retry=true sel=html > body > main > article

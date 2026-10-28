@@ -1,0 +1,26 @@
+{
+ "model": "jev-1.14.0",
+ "items": 3,
+ "variants": [
+  "raw_r1",
+  "raw_r2",
+  "raw_r3",
+  "stripped",
+  "embedded",
+  "pipeline"
+ ],
+ "usage": {
+  "calls": 18,
+  "errors": 0,
+  "input_tokens": 25301,
+  "output_tokens": 5286,
+  "est_cost_usd": 0.001063,
+  "latency_ms": {
+   "p50": 78.58541200000002,
+   "p90": 119.48352899999998,
+   "p99": 164.76196099999999,
+   "max": 164.76196099999999,
+   "n": 18
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "file": "pages/408-synth.html",
+ "url": "https://example.org/news",
+ "ms": 46,
+ "wordCount": 56,
+ "contentSelector": "html > body > article",
+ "title": "T",
+ "contentChars": 465,
+ "presence": {
+  "x1": false,
+  "x2": false
+ },
+ "removals": [
+  {
+   "step": "removeByContentPattern",
+   "reason": "blog metadata list",
+   "text": "x1x2"
+  }
+ ],
+ "content": "<article><p>Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. Some intro sentence. </p><p>New stuff include:</p> <ul><li>for scrolling:</li><li>for master:<ul><li>b1</li></ul></li></ul><p>end paragraph here.</p></article>",
+ "markdown": null
+}

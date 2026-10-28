@@ -1,0 +1,12 @@
+import { readFileSync } from 'node:fs';
+import { loadApi, capture, replay, visibleText } from './harness.mjs';
+const REPO = '/home/alexi/git/defuddle', EXP = '/home/alexi/git/defuddle/experiments/jev/lab/exp-known-failures';
+const api = loadApi(REPO + '/dist'); const html = readFileSync(EXP + '/pages/441.html', 'utf8'); const url = 'https://example.org/441';
+const base = await capture(api, html, url);
+const target = base.removals.filter(r => r.exact.includes('[data-date]'));
+console.log('data-date removals:', target.map(r => `${r.fp} pass=${r.pass} final=${r.final} w=${r.words}`).join(' | '));
+const acq = new Set(target.map(r => r.fp));
+const cap2 = await capture(api, html, url, {}, fp => acq.has(fp));
+console.log('round2 acquitted:', cap2.removals.filter(r => r.acquitted).length, 'new removals of big blocks:', cap2.removals.filter(r => !acq.has(r.fp) && r.words > 300).map(r => `${r.step}/${r.reason.slice(0,30)}/${r.tag}/${r.words}w/final=${r.final}`).join(' | '));
+const rep = await replay(api, html, url, fp => acq.has(fp));
+console.log('replay acquitted', rep.acquitted.length, 'output words', visibleText(api.parse('<html><body>' + rep.result.content + '</body></html>').body).split(' ').length, 'base words', base.result.wordCount, 'debug contentSelector base:', base.result.debug.contentSelector, '| round2:', cap2.result.debug.contentSelector);

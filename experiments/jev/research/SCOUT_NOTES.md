@@ -1,0 +1,48 @@
+# Scouting notes on Defuddle (repo: /home/alexi/git/defuddle), written 2026-10-27
+
+Read this first. It is a factual map produced by reading the source; verify anything you build on.
+
+## What Defuddle is
+- `defuddle` 0.19.6, MIT, by kepano. "Extracts main content from web pages as clean HTML." Created for the Obsidian Web Clipper browser extension; also runs in Node (`defuddle/node`), a CLI (`src/cli.ts`), and a paid Cloudflare Worker service (`website/`, defuddle.md, $0.003-0.005 per request, Durable Objects + KV).
+- README: "Beware! Defuddle is very much a work in progress!" and "More forgiving, removes fewer uncertain elements" than Mozilla Readability.
+- website/src/privacy.ts promises: "The npm package and browser extension run entirely locally and make no network requests." The Worker caches converted content <= 24h and stores no content permanently.
+- Zero runtime deps for the core browser bundle (`mathml-to-latex` only in full). Bundle gzip budgets enforced in CI: dist/index.js <= 92 KB, dist/index.full.js <= 215 KB (scripts/check-bundle-size.mjs).
+- Browser API is SYNCHRONOUS: `new Defuddle(document).parse()`. `parseAsync()` exists only to let site extractors fetch third-party APIs (FxTwitter, YouTube InnerTube, Reddit Atom) when local HTML has no content; it can be disabled with `useAsync: false`.
+- Tests: Vitest, 226 HTML fixtures in tests/fixtures with exact expected Markdown in tests/expected (byte-equal after attribute normalization). Fixtures must be anonymized. CI runs under linkedom and JSDOM, Node 20/22/24. Fixture tests are hermetic (network disabled). A perf test parses every fixture and prints per-step timings.
+- Fixture HTML sizes (bytes): count=226, min=319, p25=1204, median=1755, p75=3595, p90=8788, max=201904. Most fixtures are small hand-made regression cases, not full real pages; a handful are full real pages (e.g. lesswrong, github issue, x.com article, maggieappleton).
+- 142 distinct GitHub issue numbers referenced in commit messages; the history is dominated by extraction regressions (over-aggressive stripping, wrong main container, scoring false positives on prose containing words like "privacy"/"share", footnotes, code blocks, math, lazy images, site-specific DOM changes) plus several security advisories (GHSA-jg4p-g6xj-4qmf XSS via extractor template interpolation; GHSA-6frv-jcwm-xqcj unsafe raw HTML in Markdown output; #139 unsanitized schema.org fallback; SVG SMIL hardening; template hardening).
+
+## Two different things people might call "sanitization" here
+### A. Security sanitization (deterministic, allowlist/denylist). Files:
+- `src/utils/dom.ts`: `isDangerousUrl()` (blocks javascript:, blob:, non-image data:; strips whitespace/control chars before matching), `stripUnsafeElements()` (removes script[not math], style, noscript, template, frame, frameset, object, embed, applet, base, SMIL animate/set/animateMotion/animateTransform/animateColor/discard; strips all `on*` attributes and `srcdoc`; checks href/src/action/formaction/xlink:href with isDangerousUrl; iframe src disallows data:image too; returns true if the ROOT itself is unsafe so callers emit '' instead of serializing), `parseHTML()` (template-based parsing, no script execution), `escapeHtml()`.
+- `src/defuddle.ts`: `_stripUnsafeElements` is called unconditionally on the final mainContent (line ~1087: "Runs unconditionally — the pipeline steps above are all optional, so this is the only guaranteed sanitization boundary on this path"), on the body fallback clone, on the schema.org clone, and on extractor output via `_sanitizeExtractorHtml`.
+- `src/constants.ts` `ALLOWED_ATTRIBUTES` allowlist applied in `src/standardize.ts` (class/id dropped unless debug; `style` not allowed; keeps href/src/srcset/data-src/sandbox/allow/etc).
+- `src/markdown.ts`: Markdown escaping (0.19.5/0.19.6 hardening), raw HTML kept in Markdown is sanitized.
+- Extractors must `escapeHtml()` every page-derived value (AGENTS.md rule); `tests/extractor-xss.test.ts`, `tests/url-scheme-sanitization.test.ts`, `tests/markdown-xss.test.ts`, `tests/svg-sanitization.test.ts`, `tests/template-sanitization.test.ts` cover this. CI has a lint forbidding direct innerHTML outside utils/dom.ts.
+- AGENTS.md: "Preserve sanitization regardless of pipeline options."
+
+### B. Content extraction / clutter removal (heuristic, "best effort"). Pipeline in `parseInternal()` (src/defuddle.ts ~811-1130), in order:
+1. Site-specific extractor if one matches URL/DOM (`src/extractors/*`: reddit, twitter, youtube, github, substack, medium, wikipedia, chatgpt, claude, gemini, ...). Extractor output is re-run through the pipeline with `contentSelector` or built from templates.
+2. Clone document, flatten shadow roots, resolve React streamed content, apply mobile media-query styles (uses a page's mobile styles to guess unnecessary elements, MOBILE_WIDTH=600).
+3. `findMainContent()` (line ~1242): candidates = every element matching `ENTRY_POINT_ELEMENTS` (ordered selector list: #post, .post-content, .post-body, .article-content, ..., article, [role=article], main, [role=main], .article-body, #content, body). Score = selector-priority*40 + `ContentScorer.scoreElement()` (word count, paragraphs*10, commas, image density penalty, date/author/footnote bonuses, class-name bonus for content/article/post, link-density multiplier). Picks the top; prefers a contained higher-priority child with >50 words unless there are multiple such children (listing page). Falls back to table-based detection and to body; if body, tries schema.org articleBody text to locate the element.
+4. `removeMetadataBlock` (date block adjacent to h1), adopt external footnotes, standardize footnotes & callouts (before removals because sidenotes use display:none and `.alert` matches clutter selectors).
+5. `removeSmallImages` (icons/pixels by measured or declared size).
+6. `removeHiddenElements` (inline style display:none/visibility:hidden/opacity:0, computed style in real browsers only, Tailwind `hidden`/`sm:hidden` tokens; skips math).
+7. `removeEyebrowLabel`.
+8. `removeBySelector` (`src/removals/selectors.ts`): EXACT_SELECTORS (~240 lines in constants.ts: scripts/styles/meta, ads, banners, cookie, nav, footer, share, comments widgets, etc.) and PARTIAL_SELECTORS (~600 lines of regex fragments matched against class/data-testid/etc and ids). Elements inside pre/code, footnote containers, heading anchors, extractor output are protected.
+9. `ContentScorer.scoreAndRemove` (`src/removals/scoring.ts`): for every div/section/article/main/aside/header/footer/nav block not protected by `isLikelyContent()` (role, content-indicator class names, contains pre/table/figure, >50 words & >1 blocks, >100 words, prose with punctuation and low link density, heading-wrapper rule, card-grid rule, social-profile-link rule), compute a score: +commas, -10 per navigation-indicator word ("advertisement", "cookie", "comments", "share", "subscribe", "privacy", "related", "trending", ... 35 words), -15 high link density, -15 link-text ratio, -10 list-of-links, -15 social links, -10 byline+date, -15 card grid, -8 per non-content class pattern. Remove if score < 0.
+10. `removeByContentPattern` (`src/removals/content-patterns.ts`, 1313 lines): read-time, bylines, boilerplate sentences ("This article originally appeared in"), newsletter CTAs, social counters, related-posts headings, trailing sections after footnotes, breadcrumbs, ToC, hero headers, card grids, etc. Uses `findContentStart()` (src/content-boundary.ts) to locate where prose begins.
+11. `standardizeContent` (headings, code blocks, footnotes, math, images, unwrap divs, strip attributes to ALLOWED_ATTRIBUTES).
+12. Resolve URLs, dedupe images, remove cover image, `_stripUnsafeElements`, serialize.
+- Retry cascade in `_parseWithRetries()` (line ~95-215), all driven by WORD COUNT thresholds: if wordCount < 200 retry without partial selectors (accept only if >2x words); if < 50 retry without hidden-element removal, then with the largest hidden subtree as contentSelector, then without scoring/partial/content-patterns (index page); finally if schema.org articleBody has >1.5x the words, re-extract from the schema-located element.
+- Debug mode returns `debug.removals` with step/selector/reason/text for every removed element, and `debug.contentSelector`.
+- Options let callers disable each removal step and pass `contentSelector`.
+
+## Runtime environments (from AGENTS.md)
+- Browser (`defuddle`, `defuddle/full`): native DOM, synchronous, inside a browser extension (Obsidian Web Clipper) — the extension runs on the user's page with the user's logged-in content (Gmail extractor exists!), privacy-sensitive.
+- Node.js (`defuddle/node`): async API accepting any DOM Document (linkedom, JSDOM, happy-dom).
+- CLI and Cloudflare Worker (website/src/convert.ts): linkedom; "the Worker is the most constrained environment". The Worker is deployed on Cloudflare (wrangler.toml) and could in principle bind Workers AI.
+
+## Known pain points visible in code/history
+- Scoring removes prose that merely contains navigation words (#112 fix), over-aggressive stripping (#107, #77), wrong main container on feed pages (schema.org retry added), hidden-content pages (retry added), index pages (retry added), table-layout sites, card grids, author bios, related posts, newsletter CTAs, cookie banners; each fixed by adding another rule and a fixture. The `PARTIAL_SELECTORS` list is a hand-maintained regex list; `navigationIndicators` is a hand-maintained word list.
+- No labeled corpus of "block is content / block is clutter" exists; the ground truth is the 226 expected outputs.

@@ -1,0 +1,1811 @@
+{
+ "file": "pages/134.html",
+ "url": "https://engine.needle.tools/docs",
+ "ms": 244,
+ "wordCount": 429,
+ "contentSelector": "html > body > div#app > div.vp-theme-container.no-sidebar.external-link-icon > main.vp-page",
+ "title": "Needle Engine Documentation",
+ "contentChars": 6205,
+ "presence": {
+  "Perfect for newcomers": false,
+  "Install the Needle Engine skill": true
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ":root {\n        --vp-c-bg: #fff;\n      }\n\n      [data-theme='dark'] {\n        --vp-c-bg: #1b1b1f;\n      }\n\n      html,\n      body {\n        background-color: va"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "const useChoice = localStorage.getItem('vuepress-color-scheme')\n      const systemStatus =\n        'matchMedia' in window\n          ? window.matchMedia('(prefer"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "docsGetting StartedTutorialsHow-To GuidesExplanationReferenceHelpsearchSearch"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "docs"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Getting StartedTutorialsHow-To GuidesExplanationReferenceHelp"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "searchSearch"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Getting StartedTutorialsHow-To GuidesExplanationReferenceHelp"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Getting StartedTutorialsHow-To GuidesExplanationReferenceHelp"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Mike BardeggiaFounder, Pedestrian-X"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Dario Sanchezwhy.de"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "StevenCTO, Virtually Sports"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Fran & NickCartoon Fun, UK"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Duncan MacintoshDirector, Gamola"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "TobyXR Developer, Live Studios. MIT Reality Hack Winner"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Martin F3D Generalist, Slovenia"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Steffen Aaland3D Artist"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Chris MahoneyFounder, Our Computer Company. Ex-Unity, Ex-Lamina1"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Rinesh ThomasGame Developer, Assassin's Creed VR"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Matthew PieriGame Developer"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "YuzuWeb Game Developer"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Next Getting Started & Installation"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Extras Ask Needle AI  Copy Markdown"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "NavigationGetting StartedTutorialsHow-To GuidesExplanationReferenceHelpExtras Ask Needle AI  Copy Markdown"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -search",
+   "selector": "-search",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -search",
+   "selector": "-search",
+   "text": "search"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -search",
+   "selector": "-search",
+   "text": "Search"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": "Needle Engine"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": "Needle Engine"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: card-media",
+   "selector": "card-media",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: card-content",
+   "selector": "card-content",
+   "text": "Introducing: Needle Mesh BakerTurn heavy 3D models into production-ready assets, in your browser. 880,000 triangles down to 6,000 in seconds — geometry reduced,"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: carousel-container",
+   "selector": "carousel-container",
+   "text": "I've tried Adobe Aero, 8th Wall, and Niantic Lightship — all either dropped or required app store downloads. Finally, I found Needle with AppClip tech. I feel l"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "©2026 Needle Tools GmbH–About–Privacy Policy–Sitemap"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hamburger",
+   "selector": "hamburger",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hamburger",
+   "selector": "hamburger",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hamburger",
+   "selector": "hamburger",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": "Extras Ask Needle AI  Copy Markdown"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": "NavigationGetting StartedTutorialsHow-To GuidesExplanationReferenceHelp"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": "Getting StartedTutorialsHow-To GuidesExplanationReferenceHelp"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": "Extras Ask Needle AI  Copy Markdown"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": ""
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -10",
+   "text": "🎓 LearningStart with step-by-step tutorialsPerfect for newcomers who want to learn the fundamentals.Getting StartedScripting WalkthroughTypeScript EssentialsFo"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -10",
+   "text": "🔧 Problem SolvingJump straight to practical guidesGet things done with focused how-to instructions.Create ComponentsDeploy to ProductionUse PhysicsAdd Multipla"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -10",
+   "text": "📚 UnderstandingExplore concepts and architectureDeepen your knowledge of how Needle Engine works.Features OverviewVision & PhilosophyTechnical ArchitectureProj"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -8",
+   "text": "📖 ReferenceLook up specific APIsQuick reference for components, methods, and configuration.Component ReferenceLifecycle MethodsTypeScript API DocsBrowse all Re"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "audio player widget",
+   "text": ""
+  }
+ ],
+ "content": "<main class=\"vp-page\"><div><div id=\"content\"><span></span><h2></h2><p><strong>Build 3D web experiences that work everywhere.</strong> From browser to VR headsets, mobile AR to iOS WebXR – create once, deploy anywhere. No app stores, no waiting, no limitations.</p><p>New here? <a href=\"https://engine.needle.tools/docs/why\">Why Needle Engine exists</a> covers the problem it solves, who it's for, and how it compares to three.js, React Three Fiber and Unity WebGL.</p><h2>Why Needle Engine?</h2><p><strong>🚀 Deploy Instantly to the Web</strong> Build on your machine, deploy anywhere. Share your 3D experiences with a simple URL or QR code. No app stores, no waiting for approval, no installation required.</p><p><strong>🌐 True Cross-Platform</strong> One codebase runs everywhere – desktop, mobile, VR headsets (Meta Quest, Apple Vision Pro), and mobile AR including native iOS WebXR support. When new XR devices launch, your apps work automatically.</p><p><strong>🎨 Work in Unity, Blender, or Pure Code</strong> Full-featured integrations for both <strong><a class=\"route-link\" href=\"https://engine.needle.tools/docs/unity/\">Unity</a></strong> and <strong><a class=\"route-link\" href=\"https://engine.needle.tools/docs/blender/\">Blender</a></strong> — modeling, materials, animations, lightmaps, and more. Or skip the editors entirely and <a class=\"route-link\" href=\"https://engine.needle.tools/docs/three/\">build from code</a> with three.js.</p><p><strong>🎯 Built-in Rapier Physics</strong> Full physics simulation with rigidbodies, colliders, raycasting, and character controllers – powered by <a href=\"https://rapier.rs/\">Rapier</a>, ready to use with zero setup.</p><p><strong>🤝 Multiplayer &amp; XR Built-In</strong> Collaboration and XR aren't afterthoughts – they're core features. Add multiplayer, voice chat, or immersive XR with a single component.</p><p><strong>⚡️ Optimized for Performance</strong> Powerful compression and optimization pipeline ensures your files are small and load fast. Built on the glTF standard for maximum compatibility.</p><h2>What's New</h2><p>Latest features, updates, and documentation changes</p><section class=\"whats-new\" data-v-dfed5601=\"\"><a href=\"https://engine.needle.tools/docs/products/needle-mesh-baker\" class=\"whats-new-card featured has-media\" data-v-dfed5601=\"\" data-v-029128e2=\"\"><span class=\"badge\" data-v-029128e2=\"\">NEW</span></a><a href=\"https://engine.needle.tools/docs/cloud/openusd\" class=\"whats-new-card compact\" data-v-dfed5601=\"\" data-v-029128e2=\"\"><img src=\"https://engine.needle.tools/docs/imgs/openusd-materialx.webp\" alt=\"OpenUSD and MaterialX, in the Browser\" class=\"compact-thumb\" data-v-029128e2=\"\"><div class=\"compact-content\" data-v-029128e2=\"\"><span class=\"compact-title\" data-v-029128e2=\"\">OpenUSD and MaterialX, in the Browser</span><span class=\"compact-badge\" data-v-029128e2=\"\">NEW</span><br data-v-029128e2=\"\"><span class=\"compact-description\" data-v-029128e2=\"\">Strongly improved OpenUSD 26.05 and MaterialX 1.39.5 support across Needle USD Viewer, Needle Cloud, and Needle Engine — host and share USD and MaterialX, with seamless three.js integration, lights, shadows and displacement, and a huge MaterialX performance boost.</span><br data-v-029128e2=\"\"><span class=\"card-meta\" data-v-029128e2=\"\"><span class=\"card-date\" data-v-029128e2=\"\">Jul 14, 2026</span><span class=\"card-version\" data-v-029128e2=\"\">vUSD 1.0</span></span></div></a><a href=\"https://engine.needle.tools/docs/blender/\" class=\"whats-new-card compact\" data-v-dfed5601=\"\" data-v-029128e2=\"\"><img src=\"https://engine.needle.tools/docs/imgs/blender-100.webp\" alt=\"Needle Engine for Blender 1.0.0\" class=\"compact-thumb\" data-v-029128e2=\"\"><div class=\"compact-content\" data-v-029128e2=\"\"><span class=\"compact-title\" data-v-029128e2=\"\">Needle Engine for Blender 1.0.0</span><span class=\"compact-badge\" data-v-029128e2=\"\">NEW</span><br data-v-029128e2=\"\"><span class=\"compact-description\" data-v-029128e2=\"\">A milestone release: completely redesigned UI, reflection probes, improved lightmapping, supercharged EventLists, 15+ new components, and support for Blender 4.2 LTS through 5.1.</span><br data-v-029128e2=\"\"><span class=\"card-meta\" data-v-029128e2=\"\"><span class=\"card-date\" data-v-029128e2=\"\">Apr 17, 2026</span><span class=\"card-version\" data-v-029128e2=\"\">vBlender 1.0.0</span></span></div></a><a href=\"https://engine.needle.tools/docs/how-to-guides/export/materialx\" class=\"whats-new-card compact\" data-v-dfed5601=\"\" data-v-029128e2=\"\"><img src=\"https://cloud.needle.tools/-/media/Xc99R6zbaD-kpoTw1cMRKA.gif\" alt=\"MaterialX: Displacement & Shadows\" class=\"compact-thumb\" data-v-029128e2=\"\"><div class=\"compact-content\" data-v-029128e2=\"\"><span class=\"compact-title\" data-v-029128e2=\"\">MaterialX: Displacement &amp; Shadows</span><span class=\"compact-badge\" data-v-029128e2=\"\">NEW</span><br data-v-029128e2=\"\"><span class=\"compact-description\" data-v-029128e2=\"\">MaterialX materials now support vertex displacement (procedural and texture-based), realtime shadows, displacement animation, and alpha mode detection — all built into Needle Engine 5.</span><br data-v-029128e2=\"\"><span class=\"card-meta\" data-v-029128e2=\"\"><span class=\"card-date\" data-v-029128e2=\"\">Mar 22, 2026</span><span class=\"card-version\" data-v-029128e2=\"\">v5.0.0</span></span></div></a></section><h2>Choose Your Path</h2><div class=\"path-cards\"></div><div class=\"hint-container tip\"><p class=\"hint-container-title\">Build with AI</p><p>Install the <strong><a class=\"route-link\" href=\"https://engine.needle.tools/docs/ai/\">Needle Engine skill</a></strong> to give your AI coding assistant built-in knowledge of the engine. Works with Claude Code, Cursor, GitHub Copilot, Codex, Gemini CLI, and many more. Auto-installs via the Vite plugin, or install manually:</p><pre><code class=\"language-bash\" data-lang=\"bash\">npx skills add needle-tools/ai</code></pre><p>You can also <strong><a href=\"https://engine.needle.tools/ai/needle-mcp-server\">connect AI to your live 3D scenes</a></strong> with the Needle MCP Server.</p></div><p></p><h2>What Our Users Say</h2><p><a href=\"https://engine.needle.tools/docs/help/testimonials\">See all testimonials →</a></p><p></p></div></div></main>",
+ "markdown": null
+}

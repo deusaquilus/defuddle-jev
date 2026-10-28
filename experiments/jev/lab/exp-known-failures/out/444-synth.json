@@ -1,0 +1,22 @@
+{
+ "file": "pages/444-synth.html",
+ "url": "https://example.org/related",
+ "ms": 74,
+ "wordCount": 102,
+ "contentSelector": "html > body > main > article",
+ "title": "Example Act, section 1",
+ "contentChars": 738,
+ "presence": {
+  "related claim": false
+ },
+ "removals": [
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "related claim"
+  }
+ ],
+ "content": "<article>\n<h2>Section 1: Dismissal of claims</h2>\n<p>(1) This section applies where, in proceedings on a claim for damages in respect of personal injury, the court finds that the claimant is entitled to damages in respect of the claim.</p>\n<p>(2) The court must dismiss the primary claim, unless it is satisfied that the claimant would suffer substantial injustice if the claim were dismissed.</p>\n<p>(3) In this section—</p>\n<ul>\n<li><p>“<span class=\"LegTerm\" id=\"term-personal-injury\">personal injury</span>” includes any disease and any other impairment of a person's physical or mental condition;</p></li>\n<li><p>“” means a claim for damages made by a person other than the person who made the primary claim.</p></li>\n</ul>\n</article>",
+ "markdown": null
+}

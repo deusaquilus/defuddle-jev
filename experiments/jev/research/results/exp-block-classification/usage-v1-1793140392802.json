@@ -1,0 +1,17 @@
+{
+  "variant": "v1",
+  "units_run": 3,
+  "errors": 0,
+  "wall_s": 0.235,
+  "calls": 3,
+  "input_tokens": 3132,
+  "output_tokens": 432,
+  "est_cost_usd": 0.000132,
+  "latency_ms": {
+    "p50": 194.37400300000002,
+    "p90": 230.778161,
+    "p99": 230.778161,
+    "max": 230.778161,
+    "n": 3
+  }
+}

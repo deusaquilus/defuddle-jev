@@ -1,0 +1,31 @@
+{
+ "file": "pages/460-synth.html",
+ "url": "https://example.org/p",
+ "ms": 80,
+ "wordCount": 71,
+ "contentSelector": "html > body > aside.hidden",
+ "title": "A short page about foxes",
+ "contentChars": 836,
+ "presence": {
+  "The quick brown fox jumps over the lazy dog": false
+ },
+ "removals": [
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -10",
+   "text": "Short pageThe quick brown fox jumps over the lazy dog near the river bank today. The quick brown fox jumps over the lazy dog near the river bank today. The quic"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -10",
+   "text": "Short pageThe quick brown fox jumps over the lazy dog near the river bank today. The quick brown fox jumps over the lazy dog near the river bank today. The quic"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -10",
+   "text": "CommentsNo comments yet."
+  }
+ ],
+ "content": "<aside class=\"hidden\"><h2>Contents</h2><ol><li><a href=\"https://example.org/c0\">Chapter 0 of the long book title</a></li><li><a href=\"https://example.org/c1\">Chapter 1 of the long book title</a></li><li><a href=\"https://example.org/c2\">Chapter 2 of the long book title</a></li><li><a href=\"https://example.org/c3\">Chapter 3 of the long book title</a></li><li><a href=\"https://example.org/c4\">Chapter 4 of the long book title</a></li><li><a href=\"https://example.org/c5\">Chapter 5 of the long book title</a></li><li><a href=\"https://example.org/c6\">Chapter 6 of the long book title</a></li><li><a href=\"https://example.org/c7\">Chapter 7 of the long book title</a></li><li><a href=\"https://example.org/c8\">Chapter 8 of the long book title</a></li><li><a href=\"https://example.org/c9\">Chapter 9 of the long book title</a></li></ol></aside>",
+ "markdown": null
+}

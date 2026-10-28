@@ -1,0 +1,2673 @@
+{
+ "file": "pages/382.html",
+ "url": "https://www.theverge.com/tech/994333/lg-responds-to-tv-spying-allegations",
+ "ms": 5765,
+ "wordCount": 338,
+ "contentSelector": "html > body._1se63890 > div#__next > div.duet--app._1044qiz1 > div.duet--page-layout--post._1044qiz0._1044qizc._1044qiz8._1044qiz9._1044qiza > main#content > div > article",
+ "title": "LG responds to TV spying allegations",
+ "contentChars": 2459,
+ "presence": {
+  "released a statement": false
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": "Navigation DrawerThe VergeThe Verge logo.Login / Sign UpcloseSearchLightSystemDarkTechAmazonAppleFacebookGoogleMicrosoftSamsungBusinessSee all techReviewsSmart "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": "Navigation DrawerThe VergeThe Verge logo.Login / Sign UpcloseSearchLightSystemDarkTechAmazonAppleFacebookGoogleMicrosoftSamsungBusinessSee all techReviewsSmart "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": "Comments DrawerCommentsLoading commentsGetting the conversation ready..."
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": "Comments DrawerCommentsLoading commentsGetting the conversation ready..."
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": "Comments"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "TechPosts from this topic will be added to your daily email digest and your homepage feed.FollowSee All Tech"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "GadgetsPosts from this topic will be added to your daily email digest and your homepage feed.FollowSee All Gadgets"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "NewsPosts from this topic will be added to your daily email digest and your homepage feed.FollowSee All News"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "Terrence O'BrienWeekend EditorPosts from this author will be added to your daily email digest and your homepage feed.FollowSee All by Terrence O'Brien"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "Terrence O'BrienPosts from this author will be added to your daily email digest and your homepage feed.FollowSee All by Terrence O'Brien"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "Terrence O'BrienWeekend EditorPosts from this author will be added to your daily email digest and your homepage feed.FollowSee All by Terrence O'Brien"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "GadgetsPosts from this topic will be added to your daily email digest and your homepage feed.FollowSee All Gadgets"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "LGPosts from this topic will be added to your daily email digest and your homepage feed.FollowSee All LG"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "NewsPosts from this topic will be added to your daily email digest and your homepage feed.FollowSee All News"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "PrivacyPosts from this topic will be added to your daily email digest and your homepage feed.FollowSee All Privacy"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "TechPosts from this topic will be added to your daily email digest and your homepage feed.FollowSee All Tech"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": "TVsPosts from this topic will be added to your daily email digest and your homepage feed.FollowSee All TVs"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Advertiser Content FromThis is the title for the native ad"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Advertiser Content FromThis is the title for the native ad"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": "Notifications DrawerThe VergeThe Verge logo.Sign in to see your notifications or create an account to join the conversation.Sign in"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": "Notifications DrawerThe VergeThe Verge logo.Sign in to see your notifications or create an account to join the conversation.Sign in"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"headline\":\"LG responds to TV spying allegations\",\"description\":\"LG claims that reports that its TVs are "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Tech\",\"item\":\"https://www.theverge.com/tec"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "function OptanonWrapper() {}"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "try {\n            if (typeof history.scrollRestoration !== 'undefined') {\n              const homepage = window.location.pathname === '/';\n              const s"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "(function(){var t={\"overtone\":\"nyun1q0\",\"vergeLight\":\"_1se63890\",\"vergeDark\":\"_1nfixzc0\"},k=\"verge-theme\",s={\"dark\":\"vergeDark\",\"light\":\"vergeLight\"},f=null,w=f"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ":root {\n            --font-fkroman: 'fkRomanStandard', 'fkRomanStandard Fallback', Georgia, serif;--font-manuka: 'manuka', 'manuka Fallback', Impact, Helvetica,"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "*, *::before, *::after {\n          transition: none!important;\n        }"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Skip to main content"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "The VergeThe Verge logo.TechReviewsScienceEntertainmentAIPolicy"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "The VergeThe Verge logo.LG responds to TV spying allegations"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "The Verge DailyA free daily digest of the news that matters most.Email (required)Sign UpBy providing your information, you agree to our Terms of Use and our Pri"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Email (required)Sign Up"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Email (required)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Sign Up"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "The VergeThe Verge logo.FacebookThreadsInstagramYoutubeContactTip UsCommunity GuidelinesArchivesAboutEthics StatementHow We Rate and Review ProductsCookie Setti"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Our SitesThe American PavilionARTnewsArt in AmericaArtforumArt Week NYCBeauty IncBillboardDeadlineDick Clark ProductionsThe DodoEaterFlow SpaceFNGold DerbyGolde"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "The American PavilionARTnewsArt in AmericaArtforumArt Week NYCBeauty IncBillboardDeadlineDick Clark ProductionsThe DodoEaterFlow SpaceFNGold DerbyGolden GlobesT"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"props\":{\"pageProps\":{\"resourceType\":\"post\",\"hydration\":{\"responses\":[{\"operationName\":\"PostLayoutQuery\",\"variables\":{\"nodeId\":\"dmcyOnBvc3Q6OTk0MzMz\"},\"data\":{"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: article--lede",
+   "selector": "article--lede",
+   "text": "TechGadgetsNewsLG responds to TV spying allegationsThe company claims reports about its capturing and uploading audio are misleading.The company claims reports "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -ledes-",
+   "selector": "-ledes-",
+   "text": "TechGadgetsNewsLG responds to TV spying allegationsThe company claims reports about its capturing and uploading audio are misleading.The company claims reports "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: breadcrumb",
+   "selector": "breadcrumb",
+   "text": "Tech"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: breadcrumb",
+   "selector": "breadcrumb",
+   "text": "Gadgets"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: breadcrumb",
+   "selector": "breadcrumb",
+   "text": "News"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: byline",
+   "selector": "byline",
+   "text": "by  Terrence O'Brien"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: byline",
+   "selector": "byline",
+   "text": "Terrence O'Brien"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "Sep 12, 2026, 3:19 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: article--share",
+   "selector": "article--share",
+   "text": "Link"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -ledes-",
+   "selector": "-ledes-",
+   "text": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Terrence O'Brien"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Gadgets"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "LG"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "News"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Privacy"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Tech"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "TVs"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: header-pattern",
+   "selector": "header-pattern",
+   "text": "Most PopularMost PopularOpenAI announces three big science discoveries and a new way to work with academicsApple updates the MacBook Pro with M6 chipsMicrosoft "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: page-header",
+   "selector": "page-header",
+   "text": "Most Popular"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -cta",
+   "selector": "-cta",
+   "text": "The Verge DailyA free daily digest of the news that matters most.By providing your information, you agree to our Terms of Use and our Privacy Policy. We use ven"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -cta",
+   "selector": "-cta",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: recirc",
+   "selector": "recirc",
+   "text": "More in TechThe Super Mouse puts a touchscreen macro pad under your handMeta’s $25 billion legal loss just put blood in the waterFirefox’s Smart Window adds AI "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: recirc",
+   "selector": "recirc",
+   "text": "More in TechThe Super Mouse puts a touchscreen macro pad under your handMeta’s $25 billion legal loss just put blood in the waterFirefox’s Smart Window adds AI "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: header-pattern",
+   "selector": "header-pattern",
+   "text": "More in TechThe Super Mouse puts a touchscreen macro pad under your handMeta’s $25 billion legal loss just put blood in the waterFirefox’s Smart Window adds AI "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: page-header",
+   "selector": "page-header",
+   "text": "More in Tech"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "The Super Mouse puts a touchscreen macro pad under your hand"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "Meta’s $25 billion legal loss just put blood in the water"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "Firefox’s Smart Window adds AI form filling and webpage monitoring"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "Major League Baseball is looking for a new kind of fan"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "My favorite robot vacuum just got quieter, and more expensive"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "Google’s next Genie AI model generates more realistic experiences"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "The Super Mouse puts a touchscreen macro pad under your handAndrew Liszewski5:00 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "5:00 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "Meta’s $25 billion legal loss just put blood in the waterLauren Feiner4:44 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "4:44 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "Firefox’s Smart Window adds AI form filling and webpage monitoringEmma Roth4:14 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "4:14 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "Major League Baseball is looking for a new kind of fanMia Sato4:02 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "4:02 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "My favorite robot vacuum just got quieter, and more expensiveJennifer Pattison Tuohy4:00 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "4:00 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "Google’s next Genie AI model generates more realistic experiencesJay Peters4:00 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "4:00 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: header-pattern",
+   "selector": "header-pattern",
+   "text": "Top Stories4:02 PM UTCMajor League Baseball is looking for a new kind of fanTwo hours agoResearchers are getting tired of OpenAI gatekeeping its breakthroughs54"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: page-header",
+   "selector": "page-header",
+   "text": "Top Stories"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "4:02 PM UTCMajor League Baseball is looking for a new kind of fan"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "4:02 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "Two hours agoResearchers are getting tired of OpenAI gatekeeping its breakthroughs"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "Two hours ago"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "54 minutes agoHere’s why the iPhone Duo’s hinge could be cracking the screen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "54 minutes ago"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "2:00 PM UTCWe’ve had touchscreen laptops for years. Can Apple make them better?"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "2:00 PM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: content-card",
+   "selector": "content-card",
+   "text": "10:00 AM UTCData center backlash is uniting America"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: timestamp",
+   "selector": "timestamp",
+   "text": "10:00 AM UTC"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -modal",
+   "selector": "-modal",
+   "text": ""
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -15",
+   "text": "The homepageThe VergeThe Verge logo.The homepageThe VergeThe Verge logo."
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -15",
+   "text": "The homepageThe VergeThe Verge logo.The homepageThe VergeThe Verge logo."
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "blog metadata list",
+   "text": ""
+  }
+ ],
+ "content": "Earlier this week, Gamers Nexus, Level1Techs, and independent security researchers detailed some [alarming findings](https://www.theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus) about how LG’s TVs are logging and uploading data on its users. Now the company is pushing back against those allegations, saying that “Some recent media coverage may have contributed to misconceptions about how LG smart TVs work.”\n\n[LG](https://www.lg.com/global/newsroom/news/statements/statement-understanding-privacy-on-lg-smart-tvs/):\n\n> LG smart TVs do not continuously record or transmit users’ conversations. Speech-to-text processing begins only if a user activates a voice interaction through a supported wake-word feature or by pressing the voice (or AI) button on the remote control. Audio used for wake-word detection is processed locally on the TV and, if no wake word is detected, audio is not converted to text, stored, or transmitted. Voice-recognition results and related technical logs may be generated as part of processing a voice command. These records are associated with specific voice interactions and do not indicate continuous recording of conversations occurring outside an active voice recognition session.\n\nIt claims that its “TVs do not continuously record or transmit users’ conversations,” and that wake-word detection is all processed locally. However, the word “continuously” is doing a lot of heavy lifting here as [Gamers Nexus demonstrated](https://www.youtube.com/watch?v=6IFVTcM28KA) an LG TV keeping extensive logs of ambient conversations long after one would assume its AI assistant had stopped listening.\n\nLG also said that its features like “Automatic Content Recognition (ACR), voice recognition, and interest-based advertising are optional,” and “not enabled by default.” The company says that:\n\n> ACR uses audio fingerprinting technology using the TV’s internal audio processor (not a speaker) to identify content and does not collect screenshots, screen recordings, video recordings, voice recordings, or other audio recordings from the TV.\n\nThe company did not address broader concerns about how much data it collects, who it shares it with, the potential for bad actors to exploit its features, or the misleading way in which its privacy options are presented.\n\n**Follow topics and authors** from this story to see more like this in your personalized homepage feed and to receive email updates.",
+ "markdown": "Earlier this week, Gamers Nexus, Level1Techs, and independent security researchers detailed some [alarming findings](https://www.theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus) about how LG’s TVs are logging and uploading data on its users. Now the company is pushing back against those allegations, saying that “Some recent media coverage may have contributed to misconceptions about how LG smart TVs work.”\n\n[LG](https://www.lg.com/global/newsroom/news/statements/statement-understanding-privacy-on-lg-smart-tvs/):\n\n> LG smart TVs do not continuously record or transmit users’ conversations. Speech-to-text processing begins only if a user activates a voice interaction through a supported wake-word feature or by pressing the voice (or AI) button on the remote control. Audio used for wake-word detection is processed locally on the TV and, if no wake word is detected, audio is not converted to text, stored, or transmitted. Voice-recognition results and related technical logs may be generated as part of processing a voice command. These records are associated with specific voice interactions and do not indicate continuous recording of conversations occurring outside an active voice recognition session.\n\nIt claims that its “TVs do not continuously record or transmit users’ conversations,” and that wake-word detection is all processed locally. However, the word “continuously” is doing a lot of heavy lifting here as [Gamers Nexus demonstrated](https://www.youtube.com/watch?v=6IFVTcM28KA) an LG TV keeping extensive logs of ambient conversations long after one would assume its AI assistant had stopped listening.\n\nLG also said that its features like “Automatic Content Recognition (ACR), voice recognition, and interest-based advertising are optional,” and “not enabled by default.” The company says that:\n\n> ACR uses audio fingerprinting technology using the TV’s internal audio processor (not a speaker) to identify content and does not collect screenshots, screen recordings, video recordings, voice recordings, or other audio recordings from the TV.\n\nThe company did not address broader concerns about how much data it collects, who it shares it with, the potential for bad actors to exploit its features, or the misleading way in which its privacy options are presented.\n\n**Follow topics and authors** from this story to see more like this in your personalized homepage feed and to receive email updates."
+}

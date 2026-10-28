@@ -1,0 +1,17 @@
+import { readFileSync } from 'node:fs';
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+const REPO = '/home/alexi/git/defuddle';
+const { Defuddle } = require(REPO + '/dist/node.js'); const { parseLinkedomHTML } = require(REPO + '/dist/utils/linkedom-compat.js');
+const name = 'general--stephango.com-buy-wisely'; const html = readFileSync(`${REPO}/tests/fixtures/${name}.html`, 'utf8');
+const doc = parseLinkedomHTML(html, 'https://stephango.com/buy-wisely');
+const probe = parseLinkedomHTML('<html><body><div></div></body></html>').querySelector('div');
+let owner = probe; while (owner && !Object.prototype.hasOwnProperty.call(owner, 'remove')) owner = Object.getPrototypeOf(owner);
+const origRemove = owner.remove; const origPush = Array.prototype.push; const arrIds = new Map(); const ev = [];
+let on = true;
+owner.remove = function () { if (on && this.nodeType === 1) ev.push(`R ${(this.textContent || '').trim().slice(0, 30)}`); return origRemove.call(this); };
+Array.prototype.push = function (...a) { if (on && a.length === 1 && a[0] && typeof a[0].step === 'string' && typeof a[0].text === 'string') { if (!arrIds.has(this)) arrIds.set(this, arrIds.size); on = false; ev.push(`P${arrIds.get(this)} ${a[0].step} ${a[0].text.slice(0, 30)}`); on = true; } return origPush.apply(this, a); };
+const r = await Defuddle(doc, 'https://stephango.com/buy-wisely', { debug: true, fetch: () => Promise.reject(new Error('x')) });
+on = false; Array.prototype.push = origPush;
+console.log('final array id:', arrIds.get(r.debug.removals), 'arrays:', arrIds.size);
+console.log(ev.slice(0, 30).join('\n'));

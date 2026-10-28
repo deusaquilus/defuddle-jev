@@ -1,0 +1,7 @@
+# Regenerable: ~190 compiled historical Defuddle builds (git archive of old commits + tsc), ~415 MB.
+# Rebuild with lab/acquittal/history.mjs and lab/acquittal/history-pre.mjs.
+lab/acquittal/hist/
+# Raw Claude Code subagent transcripts from the phase-1 workflow (~17 MB). Kept on disk, not meant for git.
+workflow/agent-transcripts/
+# Raw policy-run logs (mostly Defuddle debug output, ~30 MB). Results are in lab/acquittal/policy-*.json.
+lab/acquittal/run*.log

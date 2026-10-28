@@ -1,0 +1,29 @@
+{
+ "file": "pages/252-synth.html",
+ "url": "https://example.org/talk",
+ "ms": 60,
+ "wordCount": 192,
+ "contentSelector": "html > body > article",
+ "title": "Talk",
+ "contentChars": 1747,
+ "presence": {
+  "Grady Booch": false,
+  "Erik Meijer": false
+ },
+ "removals": [
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Grady Booch"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Erik Meijer"
+  }
+ ],
+ "content": "<article><h2>Simple Made Easy</h2>\n<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p>\n<h2>People mentioned</h2>\n<ul>\n    <li><a href=\"https://en.wikipedia.org/wiki/Alan_Perlis\">Alan Perlis</a></li>\n    <li><a href=\"https://en.wikipedia.org/wiki/Constantin_Br%C3%A2ncu%C8%99i\">Constantin Brancusi</a></li>\n    <li></li>\n    <li><a href=\"https://en.wikipedia.org/wiki/Edsger_W._Dijkstra\">Edsger W. Dijkstra</a></li>\n    <li></li>\n    <li><a href=\"https://en.wikipedia.org/wiki/Gerald_Jay_Sussman\">Gerald Jay Sussman</a></li>\n    <li><a href=\"https://en.wikipedia.org/wiki/Leonardo_da_Vinci\">Leonardo da Vinci</a></li>\n</ul>\n<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p><p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris.</p>\n</article>",
+ "markdown": null
+}

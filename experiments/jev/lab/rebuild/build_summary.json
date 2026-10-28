@@ -1,0 +1,35 @@
+{
+  "fixtures_total": 226,
+  "defuddle_errors": 0,
+  "skipped_extractor": 17,
+  "skipped_tiny_output": 0,
+  "skipped_lt2_candidates": 42,
+  "kept": 167,
+  "kept_real_pages_gt20KB": 9,
+  "kept_gt8KB": 15,
+  "kept_capped_at_12": 0,
+  "kept_truth_none_of_these": 5,
+  "kept_truth_by_strict_shingle": 123,
+  "kept_truth_by_nocode_or_words_only": 39,
+  "kept_truth_measure_hist": {
+    "shingle+shingle_nocode+words": 122,
+    "shingle_nocode+words": 6,
+    "shingle_nocode": 1,
+    "words": 32,
+    "none": 5,
+    "shingle+words": 1
+  },
+  "kept_defuddle_pick_equals_truth": 153,
+  "kept_defuddle_pick_not_in_candidates": 2,
+  "n_candidates_hist": {
+    "2": 126,
+    "3": 35,
+    "4": 4,
+    "6": 1,
+    "10": 1
+  },
+  "variant_c_eligible": 165,
+  "variant_c_too_large": 2,
+  "variant_c_total_est_tokens": 174649,
+  "variant_a_total_est_state_tokens": 56191
+}

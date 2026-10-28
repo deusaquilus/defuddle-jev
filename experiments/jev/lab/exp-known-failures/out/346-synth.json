@@ -1,0 +1,16 @@
+{
+ "file": "pages/346-synth.html",
+ "url": "https://example.org/steps",
+ "ms": 62,
+ "wordCount": 2,
+ "contentSelector": "html > body",
+ "title": "",
+ "contentChars": 74,
+ "presence": {
+  "Title": false,
+  "Content": false
+ },
+ "removals": [],
+ "content": "<body>\n    <p>Before.</p>\n    <ul><li></li></ul>\n    <p>After.</p>\n</body>",
+ "markdown": null
+}

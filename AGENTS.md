@@ -39,3 +39,7 @@ Changes must work across these environments:
 
 - UMD bundles use webpack `export: 'default'`; expose named exports as static properties on the default class (see `src/index.full.ts`).
 - `getElementsByTagName` returns live HTMLCollections. Use `Array.from()` before mutating the DOM.
+
+## Experiments
+
+- The Jev decision-model evaluation (October 2026) lives in `experiments/jev/`. Start with `experiments/jev/README.md`; reproduction steps are in `experiments/jev/docs/09-reproduce.md`. Never print `JEV_API_KEY`.

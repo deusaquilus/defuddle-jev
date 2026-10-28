@@ -1,0 +1,1 @@
+{"model":"jev-1.14.0","answers":{"is_article_body":{"type":"noul","noul":0.02},"kind":{"type":"choice","choice":"navigation","confidence":0.99,"probabilities":{"article_body":0.0,"navigation":0.99,"promo":0.01,"metadata":0.0,"other":0.0}}},"usage":{"input_tokens":453,"output_tokens":71}}

@@ -1,0 +1,11 @@
+label,per_decision_acc,P(page all-correct) N=10,P(page all-correct) N=20,P(page all-correct) N=50,P(page all-correct) N=100,expected errors/page N=50,errors per 10k decisions
+"Banking77 overall (independent, OpenRouter)",0.81,0.12158,0.01478,3e-05,0.0,9.5,1900.0
+"AG News zero-shot (jgrep, community)",0.866,0.23724,0.05628,0.00075,0.0,6.7,1340.0
+"SMS spam F1 (jgrep, community)",0.91,0.38942,0.15164,0.00896,8e-05,4.5,900.0
+"Noul soft accuracy (Porcedda, independent)",0.918,0.42504,0.18066,0.01387,0.00019,4.1,820.0
+"p=1.0 band, 1819 decisions/102 errors (Du et al.)",0.94393,0.56153,0.31532,0.05583,0.00312,2.8,560.7
+confidence>=0.99 band on Banking77 (independent),0.963,0.6859,0.47046,0.15181,0.02305,1.85,370.0
+option-wise Nouls at 0.90 threshold (Du et al.),0.97,0.73742,0.54379,0.21807,0.04755,1.5,300.0
+pi-warden '<1%' error above 0.8 (self-reported production),0.99,0.90438,0.81791,0.60501,0.36603,0.5,100.0
+hypothetical 99.9%,0.999,0.99004,0.98019,0.95121,0.90479,0.05,10.0
+target 99.99%,0.9999,0.999,0.998,0.99501,0.99005,0.0,1.0

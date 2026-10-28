@@ -1,0 +1,11 @@
+import { execFileSync } from 'node:child_process';
+import { loadApi, captureNoDebug, fixtureUrl } from './harness.mjs';
+const REPO = '/home/alexi/git/defuddle', DIR = '/home/alexi/git/defuddle/experiments/jev/lab/acquittal';
+const git = (...a) => execFileSync('git', a, { cwd: REPO, encoding: 'utf8', maxBuffer: 1 << 28 });
+const C = '9e6fa75', P = git('rev-parse', '--short', C + '^').trim();
+const X = git('diff', '--name-only', P, C, '--', 'tests/expected/').trim().split('\n')[0].replace(/^tests\/expected\//, '').replace(/\.md$/, '');
+const html = git('show', `${C}:tests/fixtures/${X}.html`);
+const api = loadApi(`${DIR}/hist/b-${P}/dist`);
+console.log('fixture', X, 'Defuddle type', typeof api.Defuddle, 'node.js exports:', Object.keys(await import(`${DIR}/hist/b-${P}/dist/node.js`)).join(','));
+const cap = await captureNoDebug(api, html, fixtureUrl(X, html));
+console.log('error:', (cap.error || '').slice(0, 600)); console.log('removals', cap.removals.length, 'content length', cap.result?.content?.length);

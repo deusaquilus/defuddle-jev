@@ -1,0 +1,1519 @@
+{
+ "file": "pages/252.html",
+ "url": "https://www.infoq.com/presentations/Simple-Made-Easy/",
+ "ms": 377,
+ "wordCount": 2068,
+ "contentSelector": "html > body > div#infoq > main > div:nth-of-type(1) > section.container.section.white > div.container__inner > article.article.grid.transcript.rightbar",
+ "title": "Simple Made Easy",
+ "contentChars": 22441,
+ "presence": {
+  "Grady Booch": false,
+  "Erik Meijer": false
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "InfoQ Software Architects' Newsletter\n                    A monthly overview of things you need to know as an architect or aspiring architect.\r\n\r\nView an exampl"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Select your country\n                        \n                            Select a country\n                        \n                        \n                    "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "I consent to InfoQ.com handling my data as explained in this Privacy Notice."
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "QCon AI Boston (July 8-9, 2027): Agents. Context. Evals. Security. See how other teams make decisions.\n                        \n                            Regi"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Select your country\n\t\t\t\t\t\n\t\t\t\t\t\tSelect a country\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tI consent to InfoQ.com handling my data as explained in this Privacy Notice."
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "I consent to InfoQ.com handling my data as explained in this Privacy Notice."
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".async-hide { opacity: 0 !important}"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".promo{background:#222528;position:fixed;z-index:1001!important;left:0;top:0;right:0;max-height:48px;min-height:48px;padding-top:0!important;padding-bottom:0!im"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;\n            h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};\n        "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var loggedIn = false;\n            if (loggedIn) {\n                var userCountryId = '';\n            }"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n\n  //CookieControl tool recomendation\n  // Call the default command bef"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var gtmProfile=\"GTM-W9GJ5DL\";\n(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var device='desktop';\n            var InfoQConstants = {};\n            InfoQConstants.language = 'en';\n            InfoQConstants.countryCode = '';\n            "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var JSi18n = JSi18n || {}; // define only if not already defined\n                JSi18n.error='Error';\n                JSi18n.login_unverifiedAccount='Unverifie"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "const config = {\r\n        apiKey: '8910ea974a96ffb6f927952b4ae9b9b0cc3e5973',\r\n        product: 'PRO_MULTISITE',\r\n\r\n        // general settings\r\n        consent"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.infoq.com/presentations/S"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "InfoQConstants.pageType = 'PRESENTATION_PAGE';"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var slides = new Array('https://imgopt.infoq.com/fit-in/1288x0/filters:quality(80)/presentations/Simple-Made-Easy/en/slides/sl1.jpg','https://imgopt.infoq.com/f"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "$(document).ready(function() {\n                    init();\n                 });"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "P.s = 'https://videoh.infoq.com/presentations/11-sep-simplemadeeasy.mp4';"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var communityIds = \"2498\";\n            var topicIds = \"2577,35,2106,216,876,5937\";\n            VCR.loadAllVcrs(communityIds, topicIds);"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "document.addEventListener('DOMContentLoaded', function() {\n               if (!window || !window.infoq) return\n               infoq.init()\n           })"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var allCountries = [{\"id\":3,\"name\":\"Afghanistan\"},{\"id\":244,\"name\":\"Åland\"},{\"id\":6,\"name\":\"Albania\"},{\"id\":61,\"name\":\"Algeria\"},{\"id\":13,\"name\":\"American Samoa"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var dataCollectNewsletter = new Newsletter('Enter your e-mail address',\n                'email-dataCollectnewsletter-infoq', 'dataCollectNewsletterType','dataCo"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Toggle Navigation \n    \n        \n            \n                \n                    \n                        Facilitating the Spread of Knowledge and Innovation "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Toggle Navigation"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "English edition"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Search"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Search"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Development\n            \n                \n                    Java\n                    Kotlin\n                    .Net\n                    C#\n                  "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Oct26,2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Nov12,2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Nov13,2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Nov17,2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Jan22,2027"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Nov16-20,2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Dec15-16,2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Apr13-16,2027"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Jul8-9,2027"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Like"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if(loggedIn){\n                $('#showBookmarks').css('display', 'flex');\n        }\n        \n        function performBookmark() {\n                Bookmarks.togg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "View Presentation"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Speed:"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "SlideSynchronizer.setTimes(TIMES);\n                                    SlideSynchronizer.playerId=\"video\";"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Download"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "October 29th, 2026, 1 PM EDT"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "SPONSORED BY HARNESS"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "November 19th, 2026, 12 PM EST"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "SPONSORED BY DATADOG"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Grady Booch"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Erik Meijer"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "$(function() {\r\n\r\n  jQuery(function() {\r\n\r\n      jQuery.scrollDepth();\r\n\r\n  });\r\n\r\n});"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Recorded at:\n                            \n                                \n                            \n                        \n                        Oct 20,"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Recorded at:"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Oct 20, 2011"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "by"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Rich Hickey"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var uriMapping = \"presentations\";\n\tvar showVcr = \"false\";\n\tvar fillWithVcr = \"true\";\n\tvar sponsorshipsJson = \"{&quot;links&quot;:[{&quot;styleName&quot;:&quot;p"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.finishedRightbarVcr = false;\n\n    var whitepaperVcrsJson = null;\n    var topicSponsorshipJson = \"{&quot;iconLink&quot;:&quot;/url/f/435e8826-b9fc-463a-9f"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "$(document).ready(function() {\n        $.ajax({\n            url: \"/api/recommendationlinks.action\",\n            contentType: \"application/x-www-form-urlencoded;"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "// global vars that can be used for this page, use this section to add more.\n            var contentTitle = \"Simple Made Easy\",\n                contentPath = \"/"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "// needed for starting download after IDP login, processing starts after frontend modules are loaded\n            infoq.event.on(\"loaded\", function(){\n          "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Development\n            \n            \n                \n                    \n                        \n                            \n                            De"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Enter your e-mail address"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Enter your e-mail address"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "We protect your privacy."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var footerNewsletter = new Newsletter('Enter your e-mail address',\n\t\t\t\t'email-newsletter-infoq', 'footerNewsletterType','footerNewsletterMessage', 'fnt', 'input"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Log In"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "October 26, 2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "November 12, 2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "November 13, 2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "November 17, 2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "November 16-20, 2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "December 15-16, 2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "January 9, 2027"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "January 22, 2027"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "April 13-16, 2027"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "July 8-9, 2027"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "$.when(humanDetectionAsync()).then(\r\n      function(status) {\r\n          $.getScript(\"/scripts/__hd.ifq?hdt=RnPEzwLUtYttW3yw&ha=\" + status);\r\n      }\r\n  );"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var pageFullyLoaded = false;\r\n    // this event is fired by frontend once all the necessary things have been done(mobile display, moving vcr boxes around when n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if(window.location.hash){\n        var hash = window.location.hash.substring(1);\n        if(hash == 'subscribe'){\n            $('html,body').animate({scrollTop: "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var newsletterSubscriptionURL ='/newsletter/subscribe.action';\n\tDynamicLinks.updateRssLinks('XnLuCjIf6z9BHCGZ6Nd4R76O32258ENr');\n\n\tContentSummary.setSelectedTab"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var $buoop = {vs:{i:6,f:1,o:10.1,s:1}} \n$buoop.ol = window.onload; \n$(document).ready(function() {\n\t try {if ($buoop.ol) $buoop.ol();}catch (e) {} \n\t var e = do"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "!function(f,b,e,v,n,t,s)\n                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n                        n.callMethod.apply(n,arguments):n.queue.push("
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "try {\n                    mixpanel.track('page viewed', {\n                        'page name' : document.title,\n                        'url' : window.location."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "English edition\n\t\t\tChinese edition\n\t\t\tJapanese edition\n\t\t\tFrench edition"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "English edition\n\t\t\tChinese edition\n\t\t\tJapanese edition\n\t\t\tFrench edition"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "English edition\n\t\t\tChinese edition\n\t\t\tJapanese edition\n\t\t\tFrench edition"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "English edition\n\t\t\tChinese edition\n\t\t\tJapanese edition\n\t\t\tFrench edition"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: newsletter_",
+   "selector": "newsletter_",
+   "text": "Stay updated on topics and peers that matter to youReceive instant alerts on the latest insights and trends.\n\t\t\t\tQuickly access free resources for continuous le"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": "Logo - Back to homepage"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": "Logo - Back to homepage"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Development"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Java\n                    Kotlin\n                    .Net\n                    C#\n                    Swift\n                    Go\n                    Rust\n      "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Java\n                    Kotlin\n                    .Net\n                    C#\n                    Swift\n                    Go\n                    Rust\n      "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Featured in  Development\n    \n\n\n    \n        \n            \n                \n\r\n\r\n\r\n\r\n\r\n\n\n\n\n                \n                    Accelerating Performance by Incre"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Architecture & Design"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Architecture\n                    \n                    Enterprise Architecture\n                    Scalability/Performance\n                    Design\n           "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Architecture\n                    \n                    Enterprise Architecture\n                    Scalability/Performance\n                    Design\n           "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Featured in  Architecture & Design\n    \n\n\n    \n        \n            \n                \n\r\n\r\n\r\n\r\n\r\n\n\n\n\n                \n                    The Evolution of Agenti"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "AI Infrastructure"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Big Data\n                    Machine Learning\n                    NoSQL\n                    Database\n                    Data Analytics\n                    Stre"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Big Data\n                    Machine Learning\n                    NoSQL\n                    Database\n                    Data Analytics\n                    Stre"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Featured in  AI, ML & Data Engineering\n    \n\n\n    \n        \n            \n                \n\r\n\r\n\r\n\r\n\r\n\n\n\n\n                \n                    Serving LLMs at Sca"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Culture & Methods"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Agile\n                    Diversity\n                    Leadership\n                    Lean/Kanban\n                    Personal Growth\n                    Scrum"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Agile\n                    Diversity\n                    Leadership\n                    Lean/Kanban\n                    Personal Growth\n                    Scrum"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Featured in  Culture & Methods\n    \n\n\n    \n        \n            \n                \n\r\n\r\n\r\n\r\n\r\n\n\n\n\n                \n                    AI is an Amplifier: Scale H"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "DevOps"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Infrastructure\n                    Continuous Delivery\n                    Automation\n                    Containers\n                    Cloud\n                 "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _categories",
+   "selector": "_categories",
+   "text": "Infrastructure\n                    Continuous Delivery\n                    Automation\n                    Containers\n                    Cloud\n                 "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Featured in  DevOps\n    \n\n\n    \n        \n            \n                \n\r\n\r\n\r\n\r\n\r\n\n\n\n\n                \n                    Exploding GPUs and the AI Infrastructu"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "Events"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: crumbs",
+   "selector": "crumbs",
+   "text": "InfoQ Homepage\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t\r\n                Presentations\r\n            \r\n\t\t\r\n\t\tSimple Made Easy"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Reading list"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Reading list"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Reading list"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: dropdown",
+   "selector": "dropdown",
+   "text": "Reading list"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Related Sponsors\n\t\n\n\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tAI's Physical Constraints: How AI Rewired the Data Center\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\n\t\n\t\t\n\t\t\tRelated"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Related Sponsor\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\tPostgreSQL Built for Time-Series Scale\r\nHandle massive time-series data with PostgreSQL, without sacrificing per"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "This content is in the Architecture topic"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "This content is in the Architecture topic"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Related Topics:"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Architecture & Design\n                \n            \n        \n        \n            \n                \n                    \n                \n                \n     "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Architecture & Design"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Strange Loop 2011"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Methodologies"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Strange Loop"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Simplicity"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Architecture"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Show Notes"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Related Editorial\n            \n        \n    \n    \n        \n            \n                Popular across InfoQ\n                \n                    \n             "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Related Editorial"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "Popular across InfoQ\n                \n                    \n                    \n                        \n                            \n                          "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Development"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Architecture & Design"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Culture & Methods"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "AI, ML & Data Engineering"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "DevOps"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: newsletter_",
+   "selector": "newsletter_",
+   "text": "Get a quick overview of content published on a variety of innovator and early adopter technologies\n\t\tLearn what you don’t know that you don’t know\n\t\tStay up to "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: newsletter_",
+   "selector": "newsletter_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: newsletter_",
+   "selector": "newsletter_",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -slider",
+   "selector": "-slider",
+   "text": "Building AI systems for production?\n            \n                Test your approach against the decisions and trade-offs of senior practitioners running agents,"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: cta_",
+   "selector": "cta_",
+   "text": "REGISTER NOW"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Home\n\n\n    Create account\n    \n\n\nQCon Conferences\nEvents\n\n    Write for InfoQ\n    InfoQ Editors\n    About InfoQ\n    About C4Media\n    \n        \n            Medi"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Home\n\n\n    Create account\n    \n\n\nQCon Conferences\nEvents\n\n    Write for InfoQ\n    InfoQ Editors\n    About InfoQ\n    About C4Media\n    \n        \n            Medi"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Home\n\n\n    Create account\n    \n\n\nQCon Conferences\nEvents\n\n    Write for InfoQ\n    InfoQ Editors\n    About InfoQ\n    About C4Media\n    \n        \n            Medi"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Events"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Follow us on \n\t\t\t\t\n                            \n                                \n                                        Youtube232K Followers\n                 "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Follow us on"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: follower",
+   "selector": "follower",
+   "text": "232K Followers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: follower",
+   "selector": "follower",
+   "text": "26K Followers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: follower",
+   "selector": "follower",
+   "text": "New"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _rss",
+   "selector": "_rss",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: follower",
+   "selector": "follower",
+   "text": "19K Readers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: follower",
+   "selector": "follower",
+   "text": "57.1k Followers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: follower",
+   "selector": "follower",
+   "text": "21K Likes"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: follower",
+   "selector": "follower",
+   "text": "New"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Stay in the know\n                \n                    The InfoQ Podcast\n                    Engineering Culture Podcast\n                    The Software Archite"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Stay in the know"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "General Feedback\n\t\t\t\t\t\t\tfeedback@infoq.com\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tAdvertising\n\t\t\t\t\t\t\tsales@infoq.com\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tEditorial\n\t\t\t\t\t\t\teditors@infoq.com\n\t\t\t\t\t"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "General Feedback\n\t\t\t\t\t\t\tfeedback@infoq.com\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tAdvertising\n\t\t\t\t\t\t\tsales@infoq.com\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tEditorial\n\t\t\t\t\t\t\teditors@infoq.com\n\t\t\t\t\t"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "InfoQ.com and all content copyright © 2006-2026 C4Media Inc.\n\t\t\t\t\t\n\t\t\t\t\t\tPrivacy Notice, Terms And Conditions, Cookie Policy,\n\t\t\t\t\t\n\t\t\t\t\t\n                    Co"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -9",
+   "text": "INFOQ EVENTS\n        \n            \r\n\t \r\n\tFrom Tokens to Features: Architecting Cost Attribution for AI-Assisted Engineering\r\n\r\n\tPresented by: Martin Reynolds - "
+  }
+ ],
+ "content": "<article data-type=\"presentation\" class=\"article grid transcript rightbar\">\n                    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n                    \r\n\r\n\r\n\r\n\r\n\n\n\n    <div class=\"article__category architecture-design\">\n        \n        <a href=\"https://www.infoq.com/architecture-design/\" class=\"article__tag box--info\" title=\"Architecture & Design\">\n\n            Architecture &amp; Design\n        </a>\n\n    </div>\n\n                    \r\n\r\n\r\n\r\n\r\n\n\n\n\n\n\n\t<div data-nosnippet=\"\" class=\"notice\">\n\t\t<div class=\"box--warning\">\n\t\t\t<a href=\"https://qconsf.com/?utm_source=infoq&utm_medium=referral&utm_campaign=infoqyellowbox_qsf26\">QCon San Francisco (Nov 16-20): Deep technical sessions. Peer conversations that change how you think. </a>\n\t\t</div>\n\t</div>\n\n                    \n\n                    <div class=\"article__actions\">\n                        \n\r\n\r\n\r\n\r\n\r\n\n    <div class=\"actions__left actions__sidebar article__actions\">\n        \n        \n        \r\n\r\n\r\n\r\n\r\n\n\n   \n   <div class=\"bookmarkReading\">\n        \n      \n      \n      \n      <div id=\"toastContainer\" class=\"toast-none toast-hide\">\n          <div class=\"toast\"><span></span></div>\n      </div>\n   </div>\n   \n\n\n\n    </div>\n                    </div>\n\n                    \n\n                    \n                    \n\n                    <div class=\"presentation__switch\">\n                        \n                        <ul class=\"no-style\">\n                            <li>Vertical</li>\n                            <li>Horizontal</li>\n                            <li>Full</li>\n                        </ul>\n                    </div>\n                    <div class=\"speed\">\n                        \n                        <ul id=\"presentation_speed\" class=\"no-style presentation_speed\">\n                            <li>1x</li>\n                            <li>1.25x</li>\n                            <li>1.5x</li>\n                            <li>2x</li>\n                        </ul>\n                    </div>\n\n                    <div class=\"player\">\n                        <div id=\"player\">\n                            \n                                \n                                \n                            \n                        </div>\n                        <div class=\"actions player__actions\">\n                            <div class=\"actions__left\">\n                                \n                                    \n                                    <ul class=\"no-style download\">\n                                        \n                                            \n                                            \n                                            <li data-ref=\"downloadPresentationMp3\">\n                                                MP3\n                                            </li>\n                                            \n                                        \n                                        \n                                    </ul>\n                                \n                            </div>\n                            <div class=\"actions__right\"><span>01:01:26</span></div>\n                        </div>\n                    </div>\n\n                    <div id=\"slideContainer\" class=\"intro slides\">\n                        <div id=\"slide\"></div>\n                    </div>\n\n\n                    <div class=\"summary\">\n                        <h2>Summary</h2>\n                        <p>Rich Hickey emphasizes simplicity’s virtues over easiness’, showing that while many choose easiness they may end up with complexity, and the better way is to choose easiness along the simplicity path.</p>\n                    </div>\n\n                    <div data-nosnippet=\"\" class=\"bio\">\n                        <h2>Bio</h2>\n                        <p>Rich Hickey, the author of Clojure, is an independent software designer, consultant and application architect with over 20 years of experience in all facets of software development. Rich has worked on scheduling systems, broadcast automation, audio analysis and fingerprinting, database design, yield management, exit poll systems, and machine listening.</p>\n                    </div>\n                    <div data-nosnippet=\"\" class=\"about-conference\">\n                        <h2>About the conference</h2>\n                        <p>Strange Loop is a multi-disciplinary conference that aims to bring together the developers and thinkers building tomorrow's technology in fields such as emerging languages, alternative databases, concurrency, distributed systems, mobile development, and the web.  </p>\n                    </div>\n                    \n                        \n                            \r\n\r\n\r\n\r\n\r\n\n\n\n\n\n    \n\n                        \n                    \n\n                    <div class=\"article__content\">\n                        <div class=\"article__data\">\n                            \n                                <div id=\"presentationNotes\">\n                                    <h2>Key Takeaways</h2>\r\n\r\n<ul>\r\n\t<li>We should aim for simplicity because simplicity is a prerequisite for reliability.</li>\r\n\t<li>Simple is often erroneously mistaken for easy. \"Easy\" means \"to be at hand\", \"to be approachable\". \"Simple\" is the opposite of \"complex\" which means \"being intertwined\", \"being tied together\". Simple != easy.</li>\r\n\t<li>What matters in software is: does the software do what is supposed to do? Is it of high quality? Can we rely on it? Can problems be fixed along the way? Can requirements change over time? The answers to these questions is what matters in writing software not the look and feel of the experience writing the code or the cultural implications of it.</li>\r\n\t<li>The benefits of simplicity are: ease of understanding, ease of change, ease of debugging, flexibility.</li>\r\n\t<li>Complex constructs: State, Object, Methods, Syntax, Inheritance, Switch/matching, Vars, Imperative loops, Actors, ORM, Conditionals.</li>\r\n\t<li>Simple constructs: Values, Functions, Namespaces, Data, Polymorphism, Managed refs, Set functions, Queues, Declarative data manipulation, Rules, Consistency.</li>\r\n\t<li>Build simple systems by: \r\n\t<ul>\r\n\t\t<li>Abstracting - design by answering questions related to what, who, when, where, why, and how.</li>\r\n\t\t<li>Choosing constructs that generate simple artifacts.</li>\r\n\t\t<li>Simplify by encapsulation.</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<h2>Show notes</h2>\r\n\r\n<p><strong>Simple vs. easy</strong></p>\r\n\r\n<ul>\r\n\t<li><a>1:09</a> \"Simplicity is a prerequisite for reliability\". - Edsger W. Dijkstra</li>\r\n\t<li><a>1:23</a> We need to build simple systems if we want to build good systems.</li>\r\n\t<li><a>1:27</a> There is not enough focus on building simple systems.</li>\r\n\t<li><a>2:02</a> The roots of \"simple\" are \"sim\" and \"plex\", and means \"one twist\". The opposite, which would be complex, is \"multiple twists\" or \"braided together\".</li>\r\n\t<li><a>2:30</a> The central point of the talk is seeing software as being folded together or not.</li>\r\n\t<li><a>2:37</a> People usually interchange \"simple\" with \"easy\".</li>\r\n\t<li><a>2:54</a> The latin origin of \"easy\" is the root of \"adjacent\", which means \"to lie near\" and \"to be nearby\".</li>\r\n\t<li><a>3:28</a> Addressing multiple dimensions is important in software design.</li>\r\n\t<li><a>3:34</a> Simple things are those which have one role. They fulfill one task, they have one objective, they cover one concept.</li>\r\n\t<li><a>3:56</a> Simple things may be one dimension of a multi-dimensional problem they attempt to solve.</li>\r\n\t<li><a>4:02</a> Simple things are focused, they do not address multiple issues.</li>\r\n\t<li><a>4:12</a> Simple does not mean one of a kind. An interface does not have to have only one method to be simple. Cardinality does not matter here. What is important is not to have interleaving of issues.</li>\r\n\t<li><a>4:49</a> Simplicity is objective, it can be probed.</li>\r\n\t<li><a>5:16</a> The origin of \"easy\" implies \"nearness\". Something that is near can be easily touched or grabbed.</li>\r\n</ul>\r\n\r\n<p><strong>Simplicity vs. easiness in software development</strong></p>\r\n\r\n<ul>\r\n\t<li><a>5:58</a> In software development, easy means being near to our understanding, being in our skillset, being familiar.</li>\r\n\t<li><a>6:20</a> Easy is overrated in the software industry. \"Can I get this running in 5 seconds?\" It does not matter if the result is a large ball of mud. All it matters is to be done quickly.</li>\r\n\t<li><a>7:03</a> All that is new is somewhat unfamiliar. Do not avoid it even if it is harder to grasp or do at first. </li>\r\n\t<li><a>7:14</a> People usually feel uncomfortably to say about something that it is beyond their capabilities.</li>\r\n\t<li><a>8:17</a> Easy is a relative term. Something may be easy for someone and difficult for someone else.</li>\r\n\t<li><a>8:44</a> Many times, developers say about some that is simple, but they mean easy, because they mean it is something they are familiar with.</li>\r\n\t<li><a>9:05</a> The distinction between simple and easy is relevant when dealing with software constructs and artifacts.</li>\r\n\t<li><a>9:36</a> The attributes of an artifact are how it runs, what's the performance, how it can be changed over time. These attributes are not the original construct (code).</li>\r\n\t<li><a>10:06</a> People focus too much on the construct, on how easily they can write something or how easily is to replace one developer with another, considering just the familiarity of the tools used, not the simplicity or complexity of the code the new developer needs to deal with.</li>\r\n</ul>\r\n\r\n<p><strong>Why simplicity matters in software development</strong></p>\r\n\r\n<ul>\r\n\t<li><a>11:36</a> We should ask ourselves these questions: does the software do what is supposed to do? Is it of high quality? Can we rely on it? Can problems be fixed along the way? Can requirements change over time? The answers to these questions is what matters in writing software not the look and feel of the experience writing the code or the cultural implications of it.</li>\r\n\t<li><a>12:34</a> \"We can only hope to make reliable those things we understand\". And there is usually a tradeoff. When evolving a system, making it more extensible and dynamic, it may become harder to understand and decide if it is correct.</li>\r\n\t<li><a>13:24</a> People can juggle only a few things at a time, a small number. The same with the number of things one can think of at one time. That becomes even harder when things are intertwined, because one cannot reason about them in isolation.</li>\r\n\t<li><a>13:45</a> Intertwining raises complexity combinatorially.</li>\r\n\t<li><a>14:35</a> To be able to change existing software one needs to understand it and decide how and where to apply changes. If one cannot reason about a program, he can make those decisions.</li>\r\n\t<li><a>15:45</a> Q: What happened to every bug out there? A: it passed the type checker, and it passed all tests. </li>\r\n\t<li><a>16:08</a> Having tests should not encourage someone to change code without being careful.</li>\r\n\t<li><a>17:35</a> Only people running very short races can use their maximum speed from the beginning of the race. Some attempt to cheat life by firing the starting gun every 100 yards and call it a new sprint.</li>\r\n\t<li><a>18:08</a> Ignored complexity will slow people down over time. </li>\r\n\t<li><a>18:50</a> If one chooses easiness, things move fast but accumulated complexity will kill the project over time. If simplicity is chosen, the project starts slower because one has to think things over.</li>\r\n\t<li><a>19:35</a> Easy things can be complex. There can be complex constructs that are succinctly described, familiar, available and easy to use. That is incidental complexity.</li>\r\n\t<li><a>21:31</a> The benefits of simplicity are: ease of understanding, ease of change, ease of debugging, flexibility.</li>\r\n\t<li><a>22:35</a> We can make things easier by bringing them at hand, by becoming familiar through learning.</li>\r\n\t<li><a>23:19</a> We can’t suddenly change our brain to grasp something complex. We need to simplify complexity so we can handle it.</li>\r\n\t<li><a>24:24</a> Because we are limited in how many balls we can juggle in the same time, we need to decide how much incidental complexity vs. problem complexity we want.</li>\r\n\t<li><a>27:35</a> \"LISP programmers know the value of everything and the cost of nothing.\"</li>\r\n\t<li><a>28:08</a> Programmers like to emphasize only the benefits of a new new tool or method, but they rarely mention the downsides or the tradeoffs.</li>\r\n\t<li><a>28:50</a> Complex: state, objects, methods, vars, inheritance, switch, matching, syntax, imperative loops, actors, ORM, conditionals, inconsistency. Simpler: values, functions, namespaces, managed refs, polymorphism, data, set functions, queues, declarative data manipulation, rules, consistency.</li>\r\n\t<li><a>31:36</a> \"Complect\" means to interleave, to entwine, to braid. Complect results in bad software.</li>\r\n\t<li><a>33:08</a> Complect means to braid together. Compose means to place together. Composing modular components is not simple if the modules are highly interconnected.</li>\r\n\t<li><a>34:30</a> Simplicity enables partitioning (horizontal separation between components) and stratification (vertical separation). </li>\r\n\t<li><a>35:40</a> State is easy but introduces complexity because it intertwines value and time. State intertwines everything it touches directly or indirectly, and it is not mitigated by modules and encapsulation.</li>\r\n\t<li><a>38:00</a> vars or refs do not make state simpler.</li>\r\n</ul>\r\n\r\n<p><strong>Constructs that generate complex artifacts</strong></p>\r\n\r\n<ul>\r\n\t<li><a>39:27</a> The following constructs are complex because they intertwine ...:\r\n\r\n\t<ul>\r\n\t\t<li>State - everything it touches</li>\r\n\t\t<li>Object - state, identity, value</li>\r\n\t\t<li>Methods - function and state, namespaces</li>\r\n\t\t<li>Syntax - meaning, order</li>\r\n\t\t<li>Inheritance - types</li>\r\n\t\t<li>Switch/matching - multiple who/what pairs</li>\r\n\t\t<li>Vars - value, time</li>\r\n\t\t<li>Imperative loops - what/who</li>\r\n\t\t<li>Actors - what/who</li>\r\n\t\t<li>ORM - OMG</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<p><strong>Conditionals - the rest of the program</strong></p>\r\n\r\n<ul>\r\n\t<li><a>42:58</a> One can better write sophisticated systems with simpler tools that let one focus on the system rather the constructs of the language or tool.</li>\r\n</ul>\r\n\r\n<p><strong>Constructs that generate simpler artifacts</strong></p>\r\n\r\n<ul>\r\n\t<li><a>43:50</a> The following constructs are simpler:\r\n\r\n\t<ul>\r\n\t\t<li>Values - use final, persistent collections</li>\r\n\t\t<li>Functions - use stateless methods</li>\r\n\t\t<li>Namespaces - use a language with good support for namespaces</li>\r\n\t\t<li>Data - use maps, arrays, sets, XML, JSON, etc.</li>\r\n\t\t<li>Polymorphism - through protocols, type classes</li>\r\n\t\t<li>Managed refs - Clojure, Haskell</li>\r\n\t\t<li>Set functions - via libraries</li>\r\n\t\t<li>Queues - via libraries</li>\r\n\t\t<li>Declarative data manipulation - via SQL, LINQ, Datalog</li>\r\n\t\t<li>Rules - via libraries or natively in Prolog</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<p><strong>Consistency - through transactions or values</strong></p>\r\n\r\n<ul>\r\n\t<li><a>47:22</a> One needs to learn to live with environmental complexity: CPU, memory, inherent complexity related to implementation (GC, for example), etc.</li>\r\n\t<li><a>49:05</a> Programming is not about typing on a computer keyboard, it is about thinking.</li>\r\n</ul>\r\n\r\n<p><strong>How to build simple systems</strong></p>\r\n\r\n<ul>\r\n\t<li><a>49:17</a> Build simple systems by: \r\n\r\n\t<ul>\r\n\t\t<li>Choosing constructs that generate simple artifacts</li>\r\n\t\t<li>Abstracting - design by answering questions related to what, who, when, where, why, and how</li>\r\n\t\t<li>\"I don't know; I don't want to know.\" - simplify by encapsulation.</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a>50:38</a> Answering What \r\n\t<ul>\r\n\t\t<li>What do we want to accomplish? </li>\r\n\t\t<li>Use the constructs available - interfaces, protocols, type classes - to create sets of functions, and make them abstractions. </li>\r\n\t\t<li>Give them names. </li>\r\n\t\t<li>They are specifications, not implementations. </li>\r\n\t\t<li>Make them small. </li>\r\n\t\t<li>Use polymorphism to keep them small. </li>\r\n\t\t<li>Create interfaces at this point not implementations, to avoid introducing complexity.</li>\r\n\t\t<li>Let how is to be done to be solved later by yourself or someone else.</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a>52:40</a> Answering Who \r\n\t<ul>\r\n\t\t<li>Define the data or entities your abstractions are going to use.</li>\r\n\t\t<li>When building larger components, pass the subcomponents as arguments. Do not hardwire them into their parents.</li>\r\n\t\t<li>Build with more components rather than fewer.</li>\r\n\t\t<li>Do not complicate a component by getting into the details of a subcomponent.</li>\r\n\t\t<li>Do not complicate an entity with the details of another entity.</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a>53:46</a> Answering How\r\n\t<ul>\r\n\t\t<li>This is where implementation details are fleshed out.</li>\r\n\t\t<li>Use the polymorphism defined earlier as much as possible.</li>\r\n\t\t<li>Isolate an implementation as much as possible to avoid tying it up with others.</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a>54:40</a> Answering When, Where\r\n\t<ul>\r\n\t\t<li>Avoid introducing complexity by tying things together.</li>\r\n\t\t<li>Avoid connecting objects directly by using queues.</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a>55:32</a> Answering Why\r\n\t<ul>\r\n\t\t<li>Avoid introducing complexity when implementing policies and rules.</li>\r\n\t\t<li>Rules tend to increase complexity through constructs such as conditionals, flow control, etc.</li>\r\n\t\t<li>Try using a declarative or a rule system to keep things simple.</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a>56:06</a> Information is simple. Keep it simple. Don’t use an object to handle information. That’s not what objects were meant for. We need to create generic constructs that manipulate information. You build them once and reuse them. Objects raise complexity in that area.</li>\r\n\t<li><a>57:00</a> If you have a map, use a map construct. Don’t create an object for it. Leave data as data. Do not tie data logic to its representation. Avoid ORM.</li>\r\n\t<li><a>57:20</a> Choose simple tools. Write simple stuff. Simplify other people’s work by disentangle it.</li>\r\n\t<li><a>58:10</a> Simplicity is a choice. We have a culture of complexity. Avoid tools (languages, constructs, etc.) that generate complex outputs. Simple != easy. Look for complexity and avoid it. Reliability tools - testing, refactoring, type systems - are good but secondary. They do not enforce simplicity. They are just a safety net.</li>\r\n\t<li><a>59:53</a> Make simplicity easy by:\r\n\t<ul>\r\n\t\t<li>Using constructs that generate simple artifacts.</li>\r\n\t\t<li>What matters are the artifacts not the authoring tools.</li>\r\n\t\t<li>Simplify the problem space before starting.</li>\r\n\t\t<li>Use abstractions aiming to simplification. Design a bit upfront.</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a>1:01:15</a> \"Simplicity is the ultimate sophistication.\" - Leonardo da Vinci.</li>\r\n</ul>\r\n\r\n<h2>Languages, tools and projects mentioned</h2>\r\n\r\n<ul>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/C%2B%2B\">C++</a></li>\r\n\t<li><a href=\"https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx\">C#</a></li>\r\n\t<li><a href=\"https://clojure.org/\">Clojure</a></li>\r\n\t<li><a href=\"https://www.haskell.org/\">Haskell</a></li>\r\n\t<li><a href=\"https://www.java.com/\">Java</a></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Lisp_(programming_language)\">LISP</a></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Scheme_(programming_language)\">Scheme</a></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/State_%28computer_science%29\">State</a></li>\r\n</ul>\r\n\r\n<h2>People mentioned</h2>\r\n\r\n<ul>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Alan_Perlis\">Alan Perlis</a></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Constantin_Br%C3%A2ncu%C8%99i\">Constantin Brancusi</a></li>\r\n\t<li></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Edsger_W._Dijkstra\">Edsger W. Dijkstra</a></li>\r\n\t<li></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Gerald_Jay_Sussman\">Gerald Jay Sussman</a></li>\r\n\t<li><a href=\"https://en.wikipedia.org/wiki/Leonardo_da_Vinci\">Leonardo da Vinci</a></li>\r\n</ul>\r\n\r\n<h2>See more presentations with show notes</h2>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><img alt=\"\" src=\"https://res.infoq.com/presentations/ddd-microservices-2016/en/smallimage/Er.JPG\"><a href=\"https://www.infoq.com/presentations/ddd-microservices-2016\">DDD and Microservices: At Last, Some Boundaries!</a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><img alt=\"\" src=\"https://res.infoq.com/presentations/category-theory-propositions-principle/en/smallimage/Phi.JPG\"> <a href=\"https://www.infoq.com/presentations/category-theory-propositions-principle\">Category Theory for the Working Hacker</a></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p><img alt=\"\" src=\"https://res.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/en/smallimage/tonyhoare.jpg\"><a href=\"https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare\">Null References: The Billion Dollar Mistake</a></p>\r\n\t\t\t</td>\r\n\t\t\t<td>\r\n\t\t\t<p><img alt=\"\" src=\"https://res.infoq.com/presentations/rust/en/smallimage/Fe.JPG\"><a href=\"https://www.infoq.com/presentations/rust\">Rust: Systems Programming for Everyone</a></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\n                                </div>\n                            \n                        </div>\n                        \n                        \n                        \n                        \n                            \n                                \n                                \n                                \n                                \n                                    \n                                    \n                                \n                                \n                                    \n                                \n                            \n                        \n                        \n                    </div>\n\n                    \n\n                    \n                    \n                    \r\n\r\n\r\n\r\n\r\n\n\n<div class=\"widget article__fromTopic topics\">\n    \n        \n    \n    \n    \n</div>\n\n\n                    \n\n                    \n                    \n                    \n                    \n                    \n                        \r\n\r\n\r\n\r\n\r\n\n\n\n\n\n\n\n\n\n\n\n                    \n                  </article>",
+ "markdown": null
+}

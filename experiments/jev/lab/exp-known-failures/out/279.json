@@ -1,0 +1,450 @@
+{
+ "file": "pages/279.html",
+ "url": "https://www.crosslabs.org/blog/artificial-life",
+ "ms": 175,
+ "wordCount": 1301,
+ "contentSelector": "html > body",
+ "title": "Cross Labs Historical Research Archive",
+ "contentChars": 9722,
+ "presence": {
+  "A depiction of artificial cybernetic entity": false
+ },
+ "removals": [
+  {
+   "step": "removeEyebrowLabel",
+   "reason": "eyebrow label",
+   "text": "Essay"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "WebFont.load({  google: {    families: [\"Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic\",\"Barlow:300,400,500,600,700\",\"Courier "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "!function(o,c){var n=c.documentElement,t=\" w-mod-\";n.className+=t+\"js\",(\"ontouchstart\"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+\"touch"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push.apply(w[g],Array.isArray(i)?i:[i]);})(window,['UA-144596252-1'],'google_tags_first_part"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('set', 'developer_id.dZGVlNj', true);gtag('set', 'developer_id.dYWYxNW"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.MathJax = {\n  tex: {\n    inlineMath: [['\\\\(', '\\\\)'], ['\\\\[', '\\\\]']]\n  }\n};"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "ABOUTRESEARCHTEAMBLOGJOURNAL\n.nooma-transition-notice { box-sizing: border-box; width: 100%; padding: 16px 24px; border-top: 1px solid #e6d8c9; border-bottom: 1"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "ABOUTRESEARCHTEAMBLOGJOURNAL"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".nooma-transition-notice { box-sizing: border-box; width: 100%; padding: 16px 24px; border-top: 1px solid #e6d8c9; border-bottom: 1px solid #e6d8c9; background:"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Historical archive: Cross Labs, Cross Compass’s former Kyoto research institute, closed on August 31, 2026. This site preserves its research history.    \nThe re"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ".anchor {margin-top: 10px;padding-top: 0px;width: 0px;height:0px; }"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window.addEventListener(\"load\", function () {\n  if (window.MathJax) {\n    MathJax.typesetClear();\n    MathJax.typesetPromise();\n  }\n});"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hero[_\\-a-z]",
+   "selector": "hero[_\\-a-z]",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hero[_\\-a-z]",
+   "selector": "hero[_\\-a-z]",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": "ABOUT"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": "RESEARCH"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": "TEAM"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": "BLOG"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": "JOURNAL"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: menu-",
+   "selector": "menu-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -menu",
+   "selector": "-menu",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hero[_\\-a-z]",
+   "selector": "hero[_\\-a-z]",
+   "text": "A depiction of artificial cybernetic entity encompassing diverse layers and forms of life. Image Credit: Generated by Olaf Witkowski using DALL-E version 2, Aug"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hero[_\\-a-z]",
+   "selector": "hero[_\\-a-z]",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: hero[_\\-a-z]",
+   "selector": "hero[_\\-a-z]",
+   "text": "A depiction of artificial cybernetic entity encompassing diverse layers and forms of life. Image Credit: Generated by Olaf Witkowski using DALL-E version 2, Aug"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: invisible",
+   "selector": "invisible",
+   "text": "READ THE PAPER"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -cta",
+   "selector": "-cta",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: link-box",
+   "selector": "link-box",
+   "text": "BLOG"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Cross Labs — Historical Research ArchiveEXPLOREABOUTRESEARCHTEAMBLOGPODCASTjournalCONNECTESTABLISHED & SUPPORTED BY CROSS COMPASS · 2019–2026\n© 2019–2026 CROSS "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Cross Labs — Historical Research Archive"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Cross Labs — Historical Research Archive"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: contact-",
+   "selector": "contact-",
+   "text": "EXPLOREABOUTRESEARCHTEAMBLOGPODCASTjournalCONNECT"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "EXPLORE"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "ABOUTRESEARCHTEAMBLOGPODCASTjournal"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "ABOUTRESEARCHTEAMBLOG"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "ABOUT"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "RESEARCH"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "TEAM"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "BLOG"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "PODCASTjournal"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "PODCAST"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "journal"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "CONNECT"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "selector": "(?:(?<![\\w-])logo|logo(?![\\w-]))",
+   "text": "ESTABLISHED & SUPPORTED BY CROSS COMPASS · 2019–2026"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "related content section",
+   "text": "About the AuthorOlaf Witkowski is a Leader of Technological Change and an Ambassador for Compassionate AI and Artificial Life, based in Kyoto, Japan. He is the "
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "trailing non-content",
+   "text": ""
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "boilerplate text",
+   "text": "About the AuthorOlaf Witkowski is a Leader of Technological Change and an Ambassador for Compassionate AI and Artificial Life, based in Kyoto, Japan. He is the "
+  }
+ ],
+ "content": "<body><div class=\"cmssectionwrap\"><div class=\"my-contain\"><div class=\"blog-post-wrap\"><h2>Artificial Life</h2><div class=\"blog-subhead\">At a point in time when technology and biology appear to converge, can we decode the mysteries of life grounded in either realm, through the lens of science and philosophy?</div><a href=\"#\" class=\"readpaperlink nounderline w-inline-block\"></a><div class=\"rich-text-element w-richtext\"><p>Bridging between natural and artificial seems to challenge conventional wisdom and propel us into a wild landscape of new possibilities. Yet, the inquiry into the nature of life, regardless of its medium and the specific laws of the substrate from which it emerges, may give us an opportunity to redefine the contours of our own identity as human beings, transcending the physics, chemistry, biology, culture, and technology that are made by and constitute us.</p><p>Artificial Life, commonly referred to as ALife, is an interdisciplinary field that studies the nature and principles of living systems [1]. Similarly to its elder sibling, Artificial Intelligence (AI), ALife’s ambition is to construct intelligent systems from the ground up. However, its scope is broader. It concentrates not only on mimicking human intelligence, but instead aims at modeling and understanding the whole realm of living systems. Parallel to biology’s focus of modeling known living systems, it ventures further, exploring the concept of “Life as It Could Be”, which encompasses undiscovered or unexisting forms of life, on Earth or elsewhere. As such, it truly pushes the boundaries of our current scientific, technological, and philosophical understanding of the nature of the living state.</p><p>The study of artificial life concentrates on three main questions: (a) the emergence of life on Earth or any system, (b) its open-ended evolution and seemingly unbound increase in complexity through time, and (c) its ability of becoming aware of its own existence and of the physical laws of the universe in which it is embedded, thus closing the loop. In brief, how life emerges, grows, and becomes aware. One could also subtitle these parts as the origin, intelligence, and consciousness of the living state.</p><p>The first point, about the emergence of life, may be thought of as follows. If one were to fill a cup with innate matter – perhaps some water and other chemical elements – and leave it untouched for an extended period of time, it might end up swarming with highly complex life. This seemingly mundane observation serves as a very concrete metaphor for the vast and complex range of potentialities that reside in possible timelines of the physical world. The contents of the cup may eventually foster many forms of life, from minimal cells to the most complex, highly cognitive assemblages. Artificial life thus explores the emergence and properties of complex living systems from basic, non-living substrates. This analogy points out ALife’s first foundational question: How can life arise from the non-living? By delving into the mechanisms that enable the spontaneous emergence of life-like properties and behaviors, ALife researchers strive to understand the mechanisms of self-organization (appearance of order from local interactions), autopoiesis (or the capacity of an entity to produce itself), robustness (resilience to change), adaptation (ability to adjust in response to environmental change), and morphogenesis (developing and shifting shape), all key processes that appear to animate the inanimate.</p><p>This, in turn, paves the way for our understanding of the open-ended evolution of  living systems,  which tend to acquire increasing amounts of complexity through time. This begs the second foundational question: How does life indefinitely invent novel solutions to its own survival and striving? Or, in its more practical declension: How can we design an algorithm that captures the essence of open-ended evolution, enabling the continuous, autonomous generation of novel and increasingly complex forms of life and intelligence in any environment? Unlocking the mechanism behind this open-endedness is crucial because it embodies the ultimate creative process setting us on the path of infinite innovation [2]. It represents the potential to harness the generative power of nature itself, enabling the discovery and creation of unforeseen solutions, technologies, and forms of intelligence that could address some of humanity’s most enduring challenges. At its core, it also connects with the very ability of living systems to learn, which brings us to our third and final point.</p><figure><img alt=\"A colorful, abstract child's painting\" src=\"https://cdn.prod.website-files.com/5e338abdcf951ffb0e1fadb1/676938c38c9d6c110eb6a0fb_image.jpeg\"><figcaption>The world as we see it is a reflection of life’s ability to represent it. Here, an illustration painted by a form of life—my two-year-old daughter, Alys.</figcaption></figure><p>Not only do some of systems learn, but they also appear to acquire – assuming they didn’t possess this faculty at some earlier stage, or at least not to the same extent – a knack for rich, high-definition, vivid sensing, perception, experience, understanding, and interaction with their own reality with goals. How do these increasingly complex pieces and patterns forming on the Universe’s chess board become aware of their own, and other beings’ existence? The third foundational question of ALife delves into the consciousness and self-awareness of living systems: How do complex living systems become aware of their existence and the fundamental laws of the universe they inhabit? This question explores the transition from mere biological complexity to the emergence of cognitive processes that allow life to reflect upon itself and its surroundings. ALife investigates the principles underlying this awareness feature of life, and aims to replicate such phenomena within artificial systems. This inquiry not only broadens our understanding of consciousness but also challenges us to recreate systems that are not only alive and intelligent, but are also aware of their own aliveness and intelligence, closing the loop of life’s emergence, evolution, and self-awareness.</p><p>All three questions are investigated through Feynman’s synthetic, engineering angle: What I cannot create, I do not understand. By aiming at not only explaining, but also effectively creating and recreating life-like characteristics in computational, chemical, mechanical, or other physical systems, the research endeavor instantiates itself as a universal synthetic biology field of philosophy, science and technology. This includes the development of software simulations that exhibit behaviors associated with life—such as reproduction, metabolism, adaptation, and evolution—and the creation of robotic or chemical systems that mimic life’s physical and chemical processes. Through these components, ALife seeks to understand the essential properties that define life by creating systems that exhibit these properties in controlled settings, thus providing insights into the mechanisms underlying biological complexity and the potential for life in environments vastly different from those encountered so far on Earth, and also exploring the condition of possibility of other  creatures combining known and unknown patterns of life in any substrate. This in turn, should allow us to better understand the uniqueness and awesome nature of life, human or other, on the map of all possible life, and perhaps will also inform our ethics for all beings [3].</p><p>Originally posted <a href=\"https://olafwitkowski.com/2024/08/21/artificial-life/\">August 21, 2024</a></p></div><div class=\"footnotes-anchor-link w-embed\"><div id=\"footnotes-anchor\" class=\"anchor\"></div>\n</div><div class=\"rich-text-element footnotes w-richtext\"><h5>References</h5><p>[1] Bedau, M. A., &amp; Cleland, C. E. (Eds.). (2018). The Nature of Life. Cambridge University Press.</p><p>[2] Stanley, K. O. (2019). Why open-endedness matters. Artificial life, 25(3), 232-235.</p><p>[3] Witkowski, O., and Schwitzgebel, E. (2022). Ethics of Artificial Life: The Moral Status of Life as It Could Be. ALIFE 2022: The 2022 Conference on Artificial Life. MIT Press.</p><p>‍</p><h5>Further Reading</h5><p>Scharf, C. et al. (2015). A strategy for origins of life research.</p><p>Baltieri, M., Iizuka, H., Witkowski, O., Sinapayen, L., &amp; Suzuki, K. (2023). Hybrid Life: Integrating biological, artificial, and cognitive systems. Wiley Interdisciplinary Reviews: Cognitive Science, 14(6), e1662.</p><p>Witkowski, O., Doctor, T., Solomonova, E., Duane, B., &amp; Levin, M. (2023). Toward an ethics of autopoietic technology: Stress, care, and intelligence. Biosystems, 231, 104964.</p><p>Dorin, A., &amp; Stepney, S. (2024). What Is Artificial Life Today, and Where Should It Go?. <em>Artificial Life</em>, <em>30</em>(1), 1-15.</p><p>‍</p><h5>Related Links</h5><p>Center for the Study of Apparent Selves: <a href=\"https://apparentselves.org/\">https://apparentselves.org/</a></p><p>ALife Japan: <a href=\"https://www.alife-japan.org/\">https://www.alife-japan.org/</a></p><p>International Society for Artificial life: Artificial Life <a href=\"https://alife.org/\">https://alife.org/</a></p><p><em>This piece is cross-posted </em><a href=\"https://insights.apparentselves.org/essay/artificial-life/\"><em>here</em></a><em>, as a part of a </em><a href=\"https://insights.apparentselves.org/\"><em>compendium of short essays</em></a><em> edited by the Center for Study of Apparent Selves after a workshop at Tufts University in Boston in 2023.</em></p></div><div class=\"blogctawrap\"></div></div></div></div></body>",
+ "markdown": null
+}

@@ -1,0 +1,28 @@
+{
+  "fixtures": 226,
+  "fixtures_with_error": 0,
+  "units": 1475,
+  "kept": 1108,
+  "removed": 367,
+  "units_from_extractor_fixtures": 159,
+  "units_title_hint": 52,
+  "units_byline_or_date_hint": 59,
+  "total_html_chars": 799140,
+  "est_input_tokens_html_state": 228326,
+  "words_distribution": {
+    "min": 3,
+    "p25": 6,
+    "p50": 19,
+    "p75": 51,
+    "p90": 96,
+    "max": 298
+  },
+  "removed_by_step": {
+    "removeBySelector": 129,
+    "unmatched": 202,
+    "scoreAndRemove": 12,
+    "removeByContentPattern": 15,
+    "removeHiddenElements": 8,
+    "removeEyebrowLabel": 1
+  }
+}

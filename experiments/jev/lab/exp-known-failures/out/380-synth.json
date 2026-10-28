@@ -1,0 +1,16 @@
+{
+ "file": "pages/380-synth.html",
+ "url": "https://www.reddit.com/",
+ "ms": 17,
+ "wordCount": 4,
+ "extractorType": "reddit",
+ "title": "Reddit feed",
+ "contentChars": 174,
+ "presence": {
+  "SECOND_POST_SENTINEL": false,
+  "FIRST_POST_SENTINEL": true
+ },
+ "removals": [],
+ "content": "<article data-defuddle=\"\">\n\t\t\t<div class=\"reddit post\">\n\t\t\t\t<div class=\"post-content\">\n\t\t\t\t\t<p>FIRST_POST_SENTINEL: First post body.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t</article>",
+ "markdown": null
+}

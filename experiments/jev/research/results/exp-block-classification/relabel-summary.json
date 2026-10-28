@@ -1,0 +1,26 @@
+{
+  "fixtures": 224,
+  "units": 1475,
+  "flips": {
+    "removed_to_kept": 72,
+    "kept_to_removed": 0,
+    "to_mixed": 20,
+    "unchanged": 1383
+  },
+  "policy": 113,
+  "mixed": 20,
+  "by_orig_label": {
+    "removed -> removed": 279,
+    "kept -> kept": 1104,
+    "kept -> mixed": 4,
+    "removed -> kept": 72,
+    "removed -> mixed": 16
+  },
+  "corrected_counts": {
+    "kept": 1176,
+    "removed": 279,
+    "mixed": 20
+  },
+  "corrected_removed_policy": 79,
+  "corrected_kept_policy": 34
+}

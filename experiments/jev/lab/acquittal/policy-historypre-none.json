@@ -1,0 +1,248 @@
+{
+ "policy": "none",
+ "fixtures": null,
+ "bugs": null,
+ "history": null,
+ "historypre": {
+  "wrongful": 21,
+  "recovered": 0,
+  "controls": 402,
+  "controls_leaked": 0,
+  "restored": 0,
+  "restored_list": [],
+  "wrong_list": [
+   {
+    "commit": "076d17e",
+    "subject": "Fix arXiv LaTeXML rendering issues #141 #142 #143 #144",
+    "page": "issues--143-arxiv-cross-references",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]",
+    "words": 1,
+    "text": "1",
+    "recovered": false
+   },
+   {
+    "commit": "076d17e",
+    "subject": "Fix arXiv LaTeXML rendering issues #141 #142 #143 #144",
+    "page": "issues--143-arxiv-cross-references",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]",
+    "words": 1,
+    "text": "3.2",
+    "recovered": false
+   },
+   {
+    "commit": "9e6fa75",
+    "subject": "Fix scoring issues #112, scoreAndRemove was removing <div> blocks containing navigation indicator words (\"privacy\", \"social\", \"share\", \"popular\") that appeared naturally in conversation text",
+    "page": "general--www.figma.com:blog:introducing-codex-to-figma",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 18,
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "recovered": false
+   },
+   {
+    "commit": "ae6fc5c",
+    "subject": "Fix #107 #77 over-aggressive stripping",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "sel": "appendix",
+    "words": 2,
+    "text": "Appendix: Quasi-simulators",
+    "recovered": false
+   },
+   {
+    "commit": "4e00da2",
+    "subject": "Fix some accidental removals",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/topics\"]",
+    "words": 1,
+    "text": "TAI",
+    "recovered": false
+   },
+   {
+    "commit": "de0f86a",
+    "subject": "Better support for stripe docs pages",
+    "page": "stripe",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 27,
+    "text": "Test your endpoint Make a request to your server without an existing payment header, and you receive a 402 response with",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-106-menu-id",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "#menu",
+    "words": 40,
+    "text": "Appetizers Spring rolls with sweet chili sauce — a perfect way to start your meal. Main Course Grilled salmon with roast",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-131-category-links",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/category\"]",
+    "words": 2,
+    "text": "Web Development",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-131-category-links",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/categories\"]",
+    "words": 1,
+    "text": "JavaScript",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-131-category-links",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/category\"]",
+    "words": 1,
+    "text": "Tutorials",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-132-hero-class",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": ".hero",
+    "words": 14,
+    "text": "This is the hero section with important introductory content that should not be removed.",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-136-time-element",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "time",
+    "words": 3,
+    "text": "January 15, 2025",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-136-time-element",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "time",
+    "words": 2,
+    "text": "10:00 AM",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-136-time-element",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "relative-time",
+    "words": 3,
+    "text": "3 months ago",
+    "recovered": false
+   },
+   {
+    "commit": "7d31963",
+    "subject": "Better wikidot support",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 42,
+    "text": "Footnotes 1. No relation to the Washington Nationals team of the modern day. 2. The fact that both teams folded was not ",
+    "recovered": false
+   },
+   {
+    "commit": "7d31963",
+    "subject": "Better wikidot support",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 12,
+    "text": "1. No relation to the Washington Nationals team of the modern day.",
+    "recovered": false
+   },
+   {
+    "commit": "7d31963",
+    "subject": "Better wikidot support",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 21,
+    "text": "2. The fact that both teams folded was not unusual, as both had been mired in multiple seasons of poor performance.",
+    "recovered": false
+   },
+   {
+    "commit": "58bdd32",
+    "subject": "support callouts and fix output from lesswrong",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[hidden]",
+    "words": 12967,
+    "text": "Simulators Simulators by janus 2nd Sep 2022 AI Alignment ForumLinkpost from generative.ink 49 min read 169 690 Ω 142 Tha",
+    "recovered": false
+   },
+   {
+    "commit": "58bdd32",
+    "subject": "support callouts and fix output from lesswrong",
+    "page": "rockthejvm.com:articles:kotlin-101-type-classes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "aside",
+    "words": 47,
+    "text": "Tip Type classes are tough. If you need to become proficient in Kotlin quickly and with thousands of lines of code and a",
+    "recovered": false
+   },
+   {
+    "commit": "451fe87",
+    "subject": "Add GitHub extractor for GitHub issues (#75)",
+    "page": "github.com-issue-56",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 5,
+    "text": "defuddle/src/defuddle.ts Line 213 in cb4291d",
+    "recovered": false
+   },
+   {
+    "commit": "451fe87",
+    "subject": "Add GitHub extractor for GitHub issues (#75)",
+    "page": "github.com-issue-56",
+    "step": "removeBySelector",
+    "reason": "partial match: comments",
+    "sel": "comments",
+    "words": 203,
+    "text": "Activity For my use-case, I'm already running a headless browser rendering worker to load the page anyway. Instead of do",
+    "recovered": false
+   }
+  ]
+ },
+ "seconds": 162
+}

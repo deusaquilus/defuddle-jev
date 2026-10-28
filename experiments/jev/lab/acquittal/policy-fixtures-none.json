@@ -1,0 +1,12 @@
+{
+ "policy": "none",
+ "fixtures": {
+  "changed": 0,
+  "changed_list": [],
+  "restored": 0,
+  "restored_list": []
+ },
+ "bugs": null,
+ "history": null,
+ "seconds": 38
+}

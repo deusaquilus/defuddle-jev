@@ -1,0 +1,842 @@
+     1	import './polyfill';
+     2	import Stripe from 'stripe';
+     3	import { getLandingPage } from './landing';
+     4	import { getPlaygroundPage } from './playground';
+     5	import { getDocsPage } from './docs';
+     6	import { getTermsPage } from './terms';
+     7	import { getPrivacyPage } from './privacy';
+     8	import { getPricingPage } from './pricing';
+     9	import { getSuccessPage } from './success';
+    10	import { getPageMarkdown, markdownPaths } from './page-markdown';
+    11	import { convertToHtml, convertToMarkdown, formatResponse, parseHtml } from './convert';
+    12	
+    13	const PRIMARY_HOST = 'defuddle.md';
+    14	const BLOCKED_HOSTS = [PRIMARY_HOST, 'defuddle.dev', 'localhost'];
+    15	
+    16	const STATIC_PAGES = new Set(['/', '', '/playground', '/docs', '/terms', '/privacy', '/pricing', '/favicon.ico', ...markdownPaths]);
+    17	const CACHE_TTL = 300; // 5 minutes
+    18	const MONTHLY_RATE_LIMIT = 1000;
+    19	
+    20	const BLOCKS: Record<string, { requests: number; price: number; name: string }> = {
+    21		'1000': { requests: 1000, price: 500, name: '1,000 requests' },
+    22		'10000': { requests: 10000, price: 4000, name: '10,000 requests' },
+    23		'100000': { requests: 100000, price: 30000, name: '100,000 requests' },
+    24	};
+    25	
+    26	type Env = {
+    27		RATE_LIMIT?: KVNamespace;
+    28		STRIPE_SECRET_KEY?: string;
+    29		STRIPE_WEBHOOK_SECRET?: string;
+    30		API_KEY_BALANCES: DurableObjectNamespace;
+    31		CHECKOUT_FULFILLMENTS: DurableObjectNamespace;
+    32	};
+    33	
+    34	type SessionRecord = {
+    35		status: 'pending' | 'completed';
+    36		api_key: string;
+    37		block: string;
+    38		stripe_session_id: string;
+    39	};
+    40	
+    41	type ApiKeyMutationResult = {
+    42		ok: boolean;
+    43		exists: boolean;
+    44		remaining: number;
+    45	};
+    46	
+    47	type ApiKeyAuthResult =
+    48		| { ok: true; apiKey: string }
+    49		| { ok: false; response: Response };
+    50	
+    51	function isLocal(url: URL): boolean {
+    52		return url.hostname === 'localhost' || url.hostname === '127.0.0.1';
+    53	}
+    54	
+    55	export default {
+    56		async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+    57			try {
+    58				const url = new URL(request.url);
+    59				const path = url.pathname;
+    60				const useCache = !isLocal(url);
+    61	
+    62				// Redirect defuddle.dev to defuddle.md
+    63				if (url.hostname.includes('defuddle.dev')) {
+    64					const redirectUrl = new URL(request.url);
+    65					redirectUrl.hostname = PRIMARY_HOST;
+    66					return Response.redirect(redirectUrl.toString(), 301);
+    67				}
+    68	
+    69				// Cache static pages at the edge
+    70				if (useCache && request.method === 'GET' && STATIC_PAGES.has(path)) {
+    71					const cache = caches.default;
+    72					const cacheKey = new Request(url.toString(), request);
+    73					const cachedResponse = await cache.match(cacheKey);
+    74					if (cachedResponse) {
+    75						return cachedResponse;
+    76					}
+    77	
+    78					const response = await handleRequest(request, url, path, env, ctx, useCache);
+    79					if (response.ok && response.status !== 204 && response.status !== 205) {
+    80						ctx.waitUntil(cache.put(cacheKey, response.clone()));
+    81					}
+    82					return response;
+    83				}
+    84	
+    85				return await handleRequest(request, url, path, env, ctx, useCache);
+    86			} catch (err) {
+    87				const message = err instanceof Error ? err.message : 'An unexpected error occurred';
+    88				return errorResponse(message, 500);
+    89			}
+    90		},
+    91	} satisfies ExportedHandler<Env>;
+    92	
+    93	// --- Shared helpers ---
+    94	
+    95	function toHex(bytes: Uint8Array): string {
+    96		return Array.from(bytes).map(b => b.toString(16).padStart(2, '0')).join('');
+    97	}
+    98	
+    99	function getClientIp(request: Request): string {
+   100		return request.headers.get('cf-connecting-ip') || request.headers.get('x-forwarded-for') || 'unknown';
+   101	}
+   102	
+   103	function htmlResponse(body: string): Response {
+   104		return new Response(body, {
+   105			headers: {
+   106				'Content-Type': 'text/html; charset=utf-8',
+   107				'Cache-Control': 'public, max-age=3600',
+   108			},
+   109		});
+   110	}
+   111	
+   112	function jsonResponse(data: unknown, status = 200): Response {
+   113		return new Response(JSON.stringify(data), {
+   114			status,
+   115			headers: {
+   116				'Content-Type': 'application/json; charset=utf-8',
+   117				'Access-Control-Allow-Origin': '*',
+   118			},
+   119		});
+   120	}
+   121	
+   122	function errorResponse(message: string, status: number): Response {
+   123		return new Response(JSON.stringify({ error: message }), {
+   124			status,
+   125			headers: {
+   126				'Content-Type': 'application/json; charset=utf-8',
+   127				'Access-Control-Allow-Origin': '*',
+   128			},
+   129		});
+   130	}
+   131	
+   132	// --- Rate limiting ---
+   133	
+   134	function getRateLimitKey(ip: string): string {
+   135		const now = new Date();
+   136		const month = `${now.getUTCFullYear()}-${String(now.getUTCMonth() + 1).padStart(2, '0')}`;
+   137		return `rate:${ip}:${month}`;
+   138	}
+   139	
+   140	function secondsUntilMonthEnd(): number {
+   141		const now = new Date();
+   142		const nextMonth = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1));
+   143		return Math.ceil((nextMonth.getTime() - now.getTime()) / 1000);
+   144	}
+   145	
+   146	async function checkRateLimit(kv: KVNamespace, ip: string): Promise<{ allowed: boolean; count: number }> {
+   147		const key = getRateLimitKey(ip);
+   148		const value = await kv.get(key);
+   149		const count = value ? parseInt(value, 10) : 0;
+   150		return { allowed: count < MONTHLY_RATE_LIMIT, count };
+   151	}
+   152	
+   153	async function incrementRateLimit(kv: KVNamespace, ip: string): Promise<void> {
+   154		const key = getRateLimitKey(ip);
+   155		const value = await kv.get(key);
+   156		const count = value ? parseInt(value, 10) : 0;
+   157		await kv.put(key, String(count + 1), { expirationTtl: secondsUntilMonthEnd() });
+   158	}
+   159	
+   160	// --- API key helpers ---
+   161	
+   162	const API_KEY_PATTERN = /^df_[0-9a-f]{48}$/;
+   163	
+   164	function generateApiKey(): string {
+   165		const bytes = new Uint8Array(24);
+   166		crypto.getRandomValues(bytes);
+   167		return 'df_' + toHex(bytes);
+   168	}
+   169	
+   170	function generateSessionToken(): string {
+   171		const bytes = new Uint8Array(32);
+   172		crypto.getRandomValues(bytes);
+   173		return toHex(bytes);
+   174	}
+   175	
+   176	function isValidApiKey(key: string): boolean {
+   177		return API_KEY_PATTERN.test(key);
+   178	}
+   179	
+   180	async function hashForMetadata(value: string): Promise<string> {
+   181		const hash = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(value));
+   182		return toHex(new Uint8Array(hash)).slice(0, 16);
+   183	}
+   184	
+   185	function getStripe(env: Env): Stripe {
+   186		return new Stripe(env.STRIPE_SECRET_KEY!, { apiVersion: '2025-04-30.basil' as Stripe.LatestApiVersion });
+   187	}
+   188	
+   189	function getApiKeyBalanceStub(env: Env, apiKey: string): DurableObjectStub {
+   190		return env.API_KEY_BALANCES.get(env.API_KEY_BALANCES.idFromName(apiKey));
+   191	}
+   192	
+   193	function getCheckoutFulfillmentStub(env: Env, stripeSessionId: string): DurableObjectStub {
+   194		return env.CHECKOUT_FULFILLMENTS.get(env.CHECKOUT_FULFILLMENTS.idFromName(stripeSessionId));
+   195	}
+   196	
+   197	async function doApiKeyFetch(
+   198		env: Env,
+   199		apiKey: string,
+   200		action: 'status' | 'credit' | 'consume',
+   201		extra?: Record<string, unknown>,
+   202	): Promise<ApiKeyMutationResult> {
+   203		const response = await getApiKeyBalanceStub(env, apiKey).fetch(`https://internal/${action}`, {
+   204			method: 'POST',
+   205			headers: { 'Content-Type': 'application/json' },
+   206			body: JSON.stringify({ apiKey, ...extra }),
+   207		});
+   208		return response.json() as Promise<ApiKeyMutationResult>;
+   209	}
+   210	
+   211	function getApiKeyStatus(env: Env, apiKey: string) {
+   212		return doApiKeyFetch(env, apiKey, 'status');
+   213	}
+   214	
+   215	function creditApiKey(env: Env, apiKey: string, delta: number) {
+   216		return doApiKeyFetch(env, apiKey, 'credit', { delta });
+   217	}
+   218	
+   219	function consumeApiKeyRequest(env: Env, apiKey: string) {
+   220		return doApiKeyFetch(env, apiKey, 'consume');
+   221	}
+   222	
+   223	function getBearerApiKey(request: Request): ApiKeyAuthResult {
+   224		const authHeader = request.headers.get('authorization');
+   225		if (!authHeader?.startsWith('Bearer ')) {
+   226			return { ok: false, response: errorResponse('Missing Authorization: Bearer API key.', 401) };
+   227		}
+   228	
+   229		const apiKey = authHeader.slice(7);
+   230		if (!isValidApiKey(apiKey)) {
+   231			return { ok: false, response: errorResponse('Invalid API key format.', 401) };
+   232		}
+   233	
+   234		return { ok: true, apiKey };
+   235	}
+   236	
+   237	function constantTimeEquals(a: string, b: string): boolean {
+   238		if (a.length !== b.length) return false;
+   239		let mismatch = 0;
+   240		for (let i = 0; i < a.length; i++) {
+   241			mismatch |= a.charCodeAt(i) ^ b.charCodeAt(i);
+   242		}
+   243		return mismatch === 0;
+   244	}
+   245	
+   246	// --- Stripe helpers ---
+   247	
+   248	async function verifyStripeWebhook(payload: string, signature: string, secret: string): Promise<boolean> {
+   249		let timestamp: string | null = null;
+   250		const v1Values: string[] = [];
+   251		for (const part of signature.split(',')) {
+   252			const [k, v] = part.split('=');
+   253			if (!k || !v) continue;
+   254			if (k === 't') timestamp = v;
+   255			if (k === 'v1') v1Values.push(v);
+   256		}
+   257	
+   258		if (!timestamp || v1Values.length === 0) return false;
+   259	
+   260		const parsedTimestamp = parseInt(timestamp, 10);
+   261		if (!Number.isFinite(parsedTimestamp)) return false;
+   262	
+   263		// Reject signatures outside the 5 minute tolerance window.
+   264		const age = Math.floor(Date.now() / 1000) - parsedTimestamp;
+   265		if (Math.abs(age) > 300) return false;
+   266	
+   267		const signedPayload = `${parsedTimestamp}.${payload}`;
+   268		const key = await crypto.subtle.importKey(
+   269			'raw',
+   270			new TextEncoder().encode(secret),
+   271			{ name: 'HMAC', hash: 'SHA-256' },
+   272			false,
+   273			['sign'],
+   274		);
+   275		const sig = await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(signedPayload));
+   276		const expected = toHex(new Uint8Array(sig));
+   277	
+   278		return v1Values.some(v1 => constantTimeEquals(expected, v1));
+   279	}
+   280	
+   281	async function createCheckoutFlow(
+   282		env: Env,
+   283		url: URL,
+   284		apiKey: string,
+   285		blockId: string,
+   286		isTopup: boolean,
+   287	): Promise<Response> {
+   288		const block = BLOCKS[blockId];
+   289		if (!block) {
+   290			return errorResponse(`Invalid block. Options: ${Object.keys(BLOCKS).join(', ')}`, 400);
+   291		}
+   292	
+   293		const sessionToken = generateSessionToken();
+   294		const keyHash = await hashForMetadata(apiKey);
+   295		const stripe = getStripe(env);
+   296		const baseUrl = `${url.protocol}//${url.host}`;
+   297	
+   298		const session = await stripe.checkout.sessions.create({
+   299			mode: 'payment',
+   300			line_items: [{
+   301				price_data: {
+   302					currency: 'usd',
+   303					unit_amount: block.price,
+   304					product_data: { name: `Defuddle API — ${block.name}${isTopup ? ' (top-up)' : ''}` },
+   305				},
+   306				quantity: 1,
+   307			}],
+   308			metadata: { key_hash: keyHash, block: blockId, ...(isTopup && { topup: 'true' }) },
+   309			success_url: `${baseUrl}/success?session=${sessionToken}`,
+   310			cancel_url: `${baseUrl}/pricing`,
+   311		});
+   312	
+   313		await Promise.all([
+   314			env.RATE_LIMIT!.put(`session:${sessionToken}`, JSON.stringify({
+   315				status: 'pending',
+   316				api_key: apiKey,
+   317				block: blockId,
+   318				stripe_session_id: session.id,
+   319			} satisfies SessionRecord), { expirationTtl: 86400 }),
+   320			env.RATE_LIMIT!.put(`stripe_session:${session.id}`, sessionToken, {
+   321				expirationTtl: 86400,
+   322			}),
+   323		]);
+   324	
+   325		return jsonResponse({
+   326			checkout_url: session.url,
+   327			session_id: sessionToken,
+   328		});
+   329	}
+   330	
+   331	// --- Request handler ---
+   332	
+   333	async function handleRequest(request: Request, url: URL, path: string, env: Env, ctx: ExecutionContext, useCache: boolean): Promise<Response> {
+   334		// Landing page
+   335		if (path === '/' || path === '') {
+   336			return htmlResponse(getLandingPage());
+   337		}
+   338	
+   339		// Handle CORS preflight
+   340		if (request.method === 'OPTIONS') {
+   341			return new Response(null, {
+   342				headers: {
+   343					'Access-Control-Allow-Origin': '*',
+   344					'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+   345					'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+   346				},
+   347			});
+   348		}
+   349	
+   350		// favicon
+   351		if (path === '/favicon.ico') {
+   352			return new Response(null, { status: 204 });
+   353		}
+   354	
+   355		// Playground
+   356		if (path === '/playground') {
+   357			let prefillHtml = '';
+   358			if (request.method === 'POST') {
+   359				try {
+   360					const formData = await request.formData();
+   361					prefillHtml = formData.get('html')?.toString() || '';
+   362				} catch {}
+   363			}
+   364			return htmlResponse(getPlaygroundPage(prefillHtml));
+   365		}
+   366	
+   367		// API: parse HTML to markdown
+   368		if (path === '/api/parse' && request.method === 'POST') {
+   369			try {
+   370				const body = await request.json() as { html: string; url?: string };
+   371				if (!body.html) {
+   372					return errorResponse('Missing "html" field in request body.', 400);
+   373				}
+   374				const result = parseHtml(body.html, body.url || '');
+   375				return jsonResponse(result);
+   376			} catch (err) {
+   377				const message = err instanceof Error ? err.message : 'An unexpected error occurred';
+   378				return errorResponse(message, 500);
+   379			}
+   380		}
+   381	
+   382		// Static pages
+   383		const markdown = getPageMarkdown(path);
+   384		if (markdown !== undefined) return new Response(markdown, {
+   385			headers: { 'Content-Type': 'text/markdown; charset=utf-8', 'X-Content-Type-Options': 'nosniff' },
+   386		});
+   387		if (path === '/docs') return htmlResponse(getDocsPage());
+   388		if (path === '/terms') return htmlResponse(getTermsPage());
+   389		if (path === '/privacy') return htmlResponse(getPrivacyPage());
+   390		if (path === '/pricing') return htmlResponse(getPricingPage());
+   391		if (path === '/success') return htmlResponse(getSuccessPage(url.searchParams.get('session') || ''));
+   392	
+   393		// --- API key routes ---
+   394	
+   395		// List available blocks
+   396		if ((path === '/api/keys' || path === '/api/keys/blocks') && request.method === 'GET') {
+   397			const blocks = Object.entries(BLOCKS).map(([id, b]) => ({
+   398				id,
+   399				requests: b.requests,
+   400				price: `$${(b.price / 100).toFixed(2)}`,
+   401			}));
+   402			return jsonResponse({
+   403				blocks,
+   404				usage: 'POST /api/keys with {"block":"1000"} to purchase.',
+   405			});
+   406		}
+   407	
+   408		// Create new API key (buy a block)
+   409		if (path === '/api/keys' && request.method === 'POST') {
+   410			if (!env.STRIPE_SECRET_KEY || !env.RATE_LIMIT) {
+   411				return errorResponse('Payments not configured.', 503);
+   412			}
+   413	
+   414			const body = await request.json() as { block?: string };
+   415			const apiKey = generateApiKey();
+   416			return createCheckoutFlow(env, url, apiKey, body.block || '1000', false);
+   417		}
+   418	
+   419		// Poll for key after checkout
+   420		const sessionMatch = path.match(/^\/api\/keys\/sessions\/(.+)$/);
+   421		if (sessionMatch && request.method === 'GET') {
+   422			if (!env.RATE_LIMIT) return errorResponse('Not configured.', 503);
+   423	
+   424			const sessionId = sessionMatch[1];
+   425			const data = await env.RATE_LIMIT.get(`session:${sessionId}`);
+   426			if (!data) {
+   427				return errorResponse('Session not found.', 404);
+   428			}
+   429	
+   430			const session = JSON.parse(data) as SessionRecord;
+   431			if (session.status === 'pending') {
+   432				return jsonResponse({ status: 'pending' }, 202);
+   433			}
+   434	
+   435			const remaining = (await getApiKeyStatus(env, session.api_key)).remaining;
+   436			return jsonResponse({
+   437				status: 'completed',
+   438				api_key: session.api_key,
+   439				remaining,
+   440			});
+   441		}
+   442	
+   443		// Top up existing key
+   444		if (path === '/api/keys/topup' && request.method === 'POST') {
+   445			if (!env.STRIPE_SECRET_KEY || !env.RATE_LIMIT) {
+   446				return errorResponse('Payments not configured.', 503);
+   447			}
+   448	
+   449			const auth = getBearerApiKey(request);
+   450			if (!auth.ok) return auth.response;
+   451	
+   452			const keyStatus = await getApiKeyStatus(env, auth.apiKey);
+   453			if (!keyStatus.exists) {
+   454				return errorResponse('API key not found.', 404);
+   455			}
+   456	
+   457			const body = await request.json() as { block?: string };
+   458			return createCheckoutFlow(env, url, auth.apiKey, body.block || '1000', true);
+   459		}
+   460	
+   461		// Check usage
+   462		if (path === '/api/keys/usage' && request.method === 'GET') {
+   463			if (!env.RATE_LIMIT) return errorResponse('Not configured.', 503);
+   464	
+   465			const auth = getBearerApiKey(request);
+   466			if (!auth.ok) return auth.response;
+   467	
+   468			const keyStatus = await getApiKeyStatus(env, auth.apiKey);
+   469			if (!keyStatus.exists) {
+   470				return errorResponse('API key not found.', 404);
+   471			}
+   472			return jsonResponse({ remaining: keyStatus.remaining });
+   473		}
+   474	
+   475		// Stripe webhook
+   476		if (path === '/api/webhooks/stripe' && request.method === 'POST') {
+   477			if (!env.STRIPE_WEBHOOK_SECRET || !env.RATE_LIMIT) {
+   478				return errorResponse('Webhook not configured.', 503);
+   479			}
+   480	
+   481			const body = await request.text();
+   482			const signature = request.headers.get('stripe-signature');
+   483			if (!signature) {
+   484				return errorResponse('Missing signature.', 400);
+   485			}
+   486	
+   487			const valid = await verifyStripeWebhook(body, signature, env.STRIPE_WEBHOOK_SECRET);
+   488			if (!valid) {
+   489				return errorResponse('Invalid signature.', 401);
+   490			}
+   491	
+   492			const event = JSON.parse(body) as Stripe.Event;
+   493	
+   494			if (event.type === 'checkout.session.completed') {
+   495				const stripeSession = event.data.object as Stripe.Checkout.Session;
+   496				const blockId = stripeSession.metadata?.block;
+   497	
+   498				// Look up our session token from the Stripe session ID
+   499				const sessionToken = await env.RATE_LIMIT.get(`stripe_session:${stripeSession.id}`);
+   500				if (sessionToken && blockId && BLOCKS[blockId]) {
+   501					const fulfillmentResponse = await getCheckoutFulfillmentStub(env, stripeSession.id).fetch('https://internal/process', {
+   502						method: 'POST',
+   503						headers: { 'Content-Type': 'application/json' },
+   504						body: JSON.stringify({ sessionToken, blockId }),
+   505					});
+   506					if (!fulfillmentResponse.ok) {
+   507						const message = await fulfillmentResponse.text();
+   508						return errorResponse(message || 'Webhook fulfillment failed.', 500);
+   509					}
+   510				}
+   511			}
+   512	
+   513			return jsonResponse({ received: true });
+   514		}
+   515	
+   516		// --- URL conversion route (catch-all) ---
+   517	
+   518		// Unknown API routes should 404, not fall through to URL conversion
+   519		if (path.startsWith('/api/')) {
+   520			return errorResponse('Not found.', 404);
+   521		}
+   522	
+   523		// Check for /html/ prefix — returns clean HTML instead of markdown
+   524		const htmlMode = path.startsWith('/html/');
+   525		const urlPath = htmlMode ? path.slice(5) : path;
+   526	
+   527		// Parse target URL from path
+   528		let targetUrl = urlPath.replace(/^\/+/, '');
+   529		targetUrl = decodeURIComponent(targetUrl);
+   530	
+   531		if (url.search) {
+   532			targetUrl += url.search;
+   533		}
+   534	
+   535		if (!targetUrl.match(/^https?:\/\//)) {
+   536			targetUrl = 'https://' + targetUrl;
+   537		}
+   538	
+   539		// Validate URL
+   540		let parsedTarget: URL;
+   541		try {
+   542			parsedTarget = new URL(targetUrl);
+   543		} catch {
+   544			return errorResponse('Invalid URL. Please provide a valid web address.', 400);
+   545		}
+   546	
+   547		// Block self-referential requests
+   548		if (BLOCKED_HOSTS.some(host => parsedTarget.hostname.includes(host))) {
+   549			return errorResponse('Cannot convert this URL.', 400);
+   550		}
+   551	
+   552		// Extract preferred language from Accept-Language header (first tag, strip q-value)
+   553		const language = request.headers.get('Accept-Language')?.split(',')[0]?.split(';')[0]?.trim() || undefined;
+   554	
+   555		// Build cache key before auth so we can check cache before consuming API key credits
+   556		// Include language so different locales don't share cached results
+   557		const cacheUrl = new URL(targetUrl, 'https://defuddle.md');
+   558		if (htmlMode) cacheUrl.searchParams.set('_fmt', 'html');
+   559		if (language) cacheUrl.searchParams.set('_lang', language);
+   560		const cacheKey = useCache ? new Request(cacheUrl.toString()) : null;
+   561	
+   562		// Auth: check for API key (header or query param) or fall back to IP rate limit
+   563		const authHeader = request.headers.get('authorization');
+   564		let apiKey: string | null = null;
+   565	
+   566		if (authHeader?.startsWith('Bearer ')) {
+   567			apiKey = authHeader.slice(7);
+   568		} else if (url.searchParams.has('key')) {
+   569			apiKey = url.searchParams.get('key')!;
+   570		}
+   571	
+   572		if (apiKey) {
+   573			if (!isValidApiKey(apiKey)) {
+   574				return errorResponse('Invalid API key format.', 401);
+   575			}
+   576	
+   577			// Check cache before consuming a credit
+   578			if (cacheKey) {
+   579				const cachedResponse = await caches.default.match(cacheKey);
+   580				if (cachedResponse) return cachedResponse;
+   581			}
+   582	
+   583			// Atomically decrement balance before doing work
+   584			const consumeResult = await consumeApiKeyRequest(env, apiKey);
+   585			if (!consumeResult.ok) {
+   586				if (!consumeResult.exists) {
+   587					return errorResponse('API key not found.', 404);
+   588				}
+   589				return errorResponse('API key has no remaining requests. Purchase more at /api/keys or top up at /api/keys/topup with Authorization: Bearer YOUR_KEY.', 402);
+   590			}
+   591		} else {
+   592			// IP-based rate limiting for unauthenticated requests
+   593			const ip = getClientIp(request);
+   594			if (env.RATE_LIMIT) {
+   595				const { allowed } = await checkRateLimit(env.RATE_LIMIT, ip);
+   596				if (!allowed) {
+   597					return new Response('Error: Monthly rate limit exceeded (1,000 requests/month). Purchase API keys at /api/keys for higher limits.', {
+   598						status: 429,
+   599						headers: {
+   600							'Access-Control-Allow-Origin': '*',
+   601							'Retry-After': String(secondsUntilMonthEnd()),
+   602							'X-RateLimit-Limit': String(MONTHLY_RATE_LIMIT),
+   603							'X-RateLimit-Remaining': '0',
+   604						},
+   605					});
+   606				}
+   607			}
+   608	
+   609			// Check cache for unauthenticated requests (after rate limit check)
+   610			if (cacheKey) {
+   611				const cachedResponse = await caches.default.match(cacheKey);
+   612				if (cachedResponse) {
+   613					if (env.RATE_LIMIT) {
+   614						ctx.waitUntil(incrementRateLimit(env.RATE_LIMIT, ip));
+   615					}
+   616					return cachedResponse;
+   617				}
+   618			}
+   619		}
+   620	
+   621		try {
+   622			const result = htmlMode
+   623				? await convertToHtml(targetUrl, language)
+   624				: await convertToMarkdown(targetUrl, language);
+   625			const body = htmlMode ? result.content : formatResponse(result, targetUrl);
+   626			const contentType = htmlMode ? 'text/html; charset=utf-8' : 'text/markdown; charset=utf-8';
+   627	
+   628			// Cache if there's meaningful text content, or if an extractor ran and got metadata
+   629			// (e.g. YouTube without transcript — avoids hammering InnerTube on every request)
+   630			const shouldCache = result.wordCount > 0 || !!result.extractorType;
+   631	
+   632			const response = new Response(body, {
+   633				headers: {
+   634					'Content-Type': contentType,
+   635					'Access-Control-Allow-Origin': '*',
+   636					...(cacheKey && shouldCache && {
+   637						'Cache-Control': `s-maxage=${CACHE_TTL}`,
+   638					}),
+   639				},
+   640			});
+   641	
+   642			if (cacheKey && shouldCache) {
+   643				ctx.waitUntil(caches.default.put(cacheKey, response.clone()));
+   644			}
+   645	
+   646			// Only count IP rate limit for unauthenticated requests
+   647			if (!apiKey && env.RATE_LIMIT) {
+   648				ctx.waitUntil(incrementRateLimit(env.RATE_LIMIT, getClientIp(request)));
+   649			}
+   650	
+   651			return response;
+   652		} catch (err) {
+   653			const message = err instanceof Error ? err.message : 'An unexpected error occurred';
+   654			return errorResponse(message, 502);
+   655		}
+   656	}
+   657	
+   658	export class ApiKeyBalanceDO implements DurableObject {
+   659		private readonly ctx: DurableObjectState;
+   660		private readonly env: Env;
+   661		private initialized = false;
+   662	
+   663		constructor(ctx: DurableObjectState, env: Env) {
+   664			this.ctx = ctx;
+   665			this.env = env;
+   666		}
+   667	
+   668		private async ensureInitialized(apiKey: string): Promise<void> {
+   669			if (this.initialized) return;
+   670	
+   671			const stored = await this.ctx.storage.get<boolean>('initialized');
+   672			if (stored) {
+   673				this.initialized = true;
+   674				return;
+   675			}
+   676	
+   677			let balance = 0;
+   678			let exists = false;
+   679			if (this.env.RATE_LIMIT) {
+   680				const kvValue = await this.env.RATE_LIMIT.get(`key:${apiKey}`);
+   681				if (kvValue !== null) {
+   682					balance = parseInt(kvValue, 10) || 0;
+   683					exists = true;
+   684				}
+   685			}
+   686	
+   687			await this.ctx.storage.put({
+   688				initialized: true,
+   689				exists,
+   690				balance,
+   691			});
+   692			this.initialized = true;
+   693		}
+   694	
+   695		private async mirrorToKv(apiKey: string, balance: number): Promise<void> {
+   696			if (!this.env.RATE_LIMIT) return;
+   697			await this.env.RATE_LIMIT.put(`key:${apiKey}`, String(balance));
+   698		}
+   699	
+   700		private async status(apiKey: string): Promise<ApiKeyMutationResult> {
+   701			return await this.ctx.blockConcurrencyWhile(async () => {
+   702				await this.ensureInitialized(apiKey);
+   703				const [exists, balance] = await Promise.all([
+   704					this.ctx.storage.get<boolean>('exists'),
+   705					this.ctx.storage.get<number>('balance'),
+   706				]);
+   707				return {
+   708					ok: true,
+   709					exists: Boolean(exists),
+   710					remaining: balance ?? 0,
+   711				};
+   712			});
+   713		}
+   714	
+   715		private async credit(apiKey: string, delta: number): Promise<ApiKeyMutationResult> {
+   716			return await this.ctx.blockConcurrencyWhile(async () => {
+   717				await this.ensureInitialized(apiKey);
+   718				const current = (await this.ctx.storage.get<number>('balance')) ?? 0;
+   719				const updated = Math.max(0, current + delta);
+   720				await this.ctx.storage.put({
+   721					exists: true,
+   722					balance: updated,
+   723				});
+   724				await this.mirrorToKv(apiKey, updated);
+   725				return {
+   726					ok: true,
+   727					exists: true,
+   728					remaining: updated,
+   729				};
+   730			});
+   731		}
+   732	
+   733		private async consume(apiKey: string): Promise<ApiKeyMutationResult> {
+   734			return await this.ctx.blockConcurrencyWhile(async () => {
+   735				await this.ensureInitialized(apiKey);
+   736				const exists = (await this.ctx.storage.get<boolean>('exists')) ?? false;
+   737				const current = (await this.ctx.storage.get<number>('balance')) ?? 0;
+   738				if (!exists) {
+   739					return {
+   740						ok: false,
+   741						exists: false,
+   742						remaining: 0,
+   743					};
+   744				}
+   745				if (current <= 0) {
+   746					return {
+   747						ok: false,
+   748						exists: true,
+   749						remaining: 0,
+   750					};
+   751				}
+   752	
+   753				const updated = current - 1;
+   754				await this.ctx.storage.put('balance', updated);
+   755				await this.mirrorToKv(apiKey, updated);
+   756				return {
+   757					ok: true,
+   758					exists: true,
+   759					remaining: updated,
+   760				};
+   761			});
+   762		}
+   763	
+   764		async fetch(request: Request): Promise<Response> {
+   765			const { pathname } = new URL(request.url);
+   766			const body = await request.json() as { apiKey?: string; delta?: number };
+   767			const apiKey = body.apiKey;
+   768			if (!apiKey || !isValidApiKey(apiKey)) {
+   769				return jsonResponse({ ok: false, exists: false, remaining: 0 }, 400);
+   770			}
+   771	
+   772			if (pathname === '/status') {
+   773				return jsonResponse(await this.status(apiKey));
+   774			}
+   775			if (pathname === '/credit') {
+   776				return jsonResponse(await this.credit(apiKey, body.delta ?? 0));
+   777			}
+   778			if (pathname === '/consume') {
+   779				return jsonResponse(await this.consume(apiKey));
+   780			}
+   781			return errorResponse('Not found.', 404);
+   782		}
+   783	}
+   784	
+   785	export class CheckoutFulfillmentDO implements DurableObject {
+   786		private readonly ctx: DurableObjectState;
+   787		private readonly env: Env;
+   788	
+   789		constructor(ctx: DurableObjectState, env: Env) {
+   790			this.ctx = ctx;
+   791			this.env = env;
+   792		}
+   793	
+   794		async fetch(request: Request): Promise<Response> {
+   795			const { pathname } = new URL(request.url);
+   796			if (pathname !== '/process' || request.method !== 'POST') {
+   797				return errorResponse('Not found.', 404);
+   798			}
+   799	
+   800			const body = await request.json() as { sessionToken?: string; blockId?: string };
+   801			const requestedBlockId = body.blockId;
+   802			if (!body.sessionToken || !requestedBlockId || !BLOCKS[requestedBlockId] || !this.env.RATE_LIMIT) {
+   803				return errorResponse('Invalid request.', 400);
+   804			}
+   805	
+   806			return await this.ctx.blockConcurrencyWhile(async () => {
+   807				const processed = await this.ctx.storage.get<boolean>('processed');
+   808				if (processed) {
+   809					return jsonResponse({ processed: true, duplicate: true });
+   810				}
+   811	
+   812				const sessionData = await this.env.RATE_LIMIT!.get(`session:${body.sessionToken}`);
+   813				if (!sessionData) {
+   814					return errorResponse('Session not found.', 404);
+   815				}
+   816	
+   817				const session = JSON.parse(sessionData) as SessionRecord;
+   818				const blockId = session.block || requestedBlockId;
+   819				if (!BLOCKS[blockId]) {
+   820					return errorResponse('Invalid block.', 400);
+   821				}
+   822				if (session.block && session.block !== requestedBlockId) {
+   823					return errorResponse('Block mismatch.', 409);
+   824				}
+   825	
+   826				await creditApiKey(this.env, session.api_key, BLOCKS[blockId].requests);
+   827	
+   828				session.status = 'completed';
+   829				await this.env.RATE_LIMIT!.put(`session:${body.sessionToken}`, JSON.stringify(session), {
+   830					expirationTtl: 86400,
+   831				});
+   832				await this.ctx.storage.put({
+   833					processed: true,
+   834					sessionToken: body.sessionToken,
+   835					apiKey: session.api_key,
+   836					blockId,
+   837				});
+   838	
+   839				return jsonResponse({ processed: true, duplicate: false });
+   840			});
+   841		}
+   842	}

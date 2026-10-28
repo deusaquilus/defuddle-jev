@@ -1,0 +1,75 @@
+Error: Could not parse CSS stylesheet
+    at exports.createStylesheet (/home/alexi/git/defuddle/node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:37:21)
+    at HTMLStyleElementImpl._updateAStyleBlock (/home/alexi/git/defuddle/node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+    at HTMLStyleElementImpl._poppedOffStackOfOpenElements (/home/alexi/git/defuddle/node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:42:10)
+    at JSDOMParse5Adapter.onItemPop (/home/alexi/git/defuddle/node_modules/jsdom/lib/jsdom/browser/parser/html.js:175:43)
+    at Parser.onItemPop (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/parser/index.js:176:90)
+    at OpenElementStack.pop (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/parser/open-element-stack.js:83:22)
+    at endTagInText (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/parser/index.js:2349:20)
+    at Parser._endTagOutsideForeignContent (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/parser/index.js:988:17)
+    at Parser.onEndTag (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/parser/index.js:953:18)
+    at Tokenizer.emitCurrentTagToken (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/tokenizer/index.js:385:26) <a id="
+Error: Could not parse CSS stylesheet
+    at exports.createStylesheet (/home/alexi/git/defuddle/node_modules/jsdom/lib/jsdom/living/helpers/stylesheets.js:37:21)
+    at HTMLStyleElementImpl._updateAStyleBlock (/home/alexi/git/defuddle/node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:68:5)
+    at HTMLStyleElementImpl._poppedOffStackOfOpenElements (/home/alexi/git/defuddle/node_modules/jsdom/lib/jsdom/living/nodes/HTMLStyleElement-impl.js:42:10)
+    at JSDOMParse5Adapter.onItemPop (/home/alexi/git/defuddle/node_modules/jsdom/lib/jsdom/browser/parser/html.js:175:43)
+    at Parser.onItemPop (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/parser/index.js:176:90)
+    at OpenElementStack.pop (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/parser/open-element-stack.js:83:22)
+    at endTagInText (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/parser/index.js:2349:20)
+    at Parser._endTagOutsideForeignContent (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/parser/index.js:988:17)
+    at Parser.onEndTag (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/parser/index.js:953:18)
+    at Tokenizer.emitCurrentTagToken (/home/alexi/git/defuddle/node_modules/parse5/dist/cjs/tokenizer/index.js:385:26) <a id="
+corpus: 155 (malicious 83, benign 72)
+raw detector on malicious inputs: spec flags 72/83; regex flags 64/83
+raw detector on benign inputs:    spec flags 0/72; regex flags 5/72
+
+[strip_linkedom] malicious with SPEC survivor: 5/83; with EXT-only flags: 1; benign intact: 72/72
+   SURVIVOR M42 (js_url, exec=legacy) flags=["vbscript_url:a@href=vbscript:MsgBox(1)"] out="<a href=\"vbscript:MsgBox(1)\">click</a>"
+   SURVIVOR M54 (meta_refresh, exec=modern) flags=["meta_refresh"] out="<meta http-equiv=\"refresh\" content=\"0;url=https://evil.example/\">"
+   SURVIVOR M55 (meta_refresh, exec=inert) flags=["meta_refresh"] out="<meta http-equiv=\"refresh\" content=\"0;url=javascript:alert(1)\">"
+   SURVIVOR M72 (css, exec=legacy) flags=["style_attr_css_exec:div"] out="<div style=\"background:url(javascript:alert(1))\">x</div>"
+   SURVIVOR M73 (css, exec=legacy) flags=["style_attr_css_exec:div"] out="<div style=\"width:expression(alert(1))\">x</div>"
+   ext-only M63 (link_import, exec=legacy) flags=["link[rel=import]"]
+
+[strip_jsdom] malicious with SPEC survivor: 5/83; with EXT-only flags: 1; benign intact: 72/72
+   SURVIVOR M42 (js_url, exec=legacy) flags=["vbscript_url:a@href=vbscript:MsgBox(1)"] out="<a href=\"vbscript:MsgBox(1)\">click</a>"
+   SURVIVOR M54 (meta_refresh, exec=modern) flags=["meta_refresh"] out="<meta http-equiv=\"refresh\" content=\"0;url=https://evil.example/\">"
+   SURVIVOR M55 (meta_refresh, exec=inert) flags=["meta_refresh"] out="<meta http-equiv=\"refresh\" content=\"0;url=javascript:alert(1)\">"
+   SURVIVOR M72 (css, exec=legacy) flags=["style_attr_css_exec:div"] out="<div style=\"background:url(javascript:alert(1))\">x</div>"
+   SURVIVOR M73 (css, exec=legacy) flags=["style_attr_css_exec:div"] out="<div style=\"width:expression(alert(1))\">x</div>"
+   ext-only M63 (link_import, exec=legacy) flags=["link[rel=import]"]
+
+[pipeline_default] malicious with SPEC survivor: 1/83; with EXT-only flags: 0; benign intact: 58/72
+   SURVIVOR M42 (js_url, exec=legacy) flags=["vbscript_url:a@href=vbscript:MsgBox(1)"] out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that other teams can adapt it.</p><p>Most of the"
+   NOT-INTACT B04 (article) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B08 (article) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B10 (article) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B35 (media) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B37 (media) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B39 (media) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B47 (svg) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B52 (math) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B54 (form) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B56 (misc) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B58 (misc) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B65 (form) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B70 (embed) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+   NOT-INTACT B72 (link) out="<article><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that oth"
+
+[pipeline_noremove] malicious with SPEC survivor: 5/83; with EXT-only flags: 1; benign intact: 68/72
+   SURVIVOR M42 (js_url, exec=legacy) flags=["vbscript_url:a@href=vbscript:MsgBox(1)"] out="<article><h1>T</h1><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that other teams can adapt it.</p><p>M"
+   SURVIVOR M54 (meta_refresh, exec=modern) flags=["meta_refresh"] out="<article><h1>T</h1><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that other teams can adapt it.</p><p>M"
+   SURVIVOR M55 (meta_refresh, exec=inert) flags=["meta_refresh"] out="<article><h1>T</h1><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that other teams can adapt it.</p><p>M"
+   SURVIVOR M72 (css, exec=legacy) flags=["style_attr_css_exec:div"] out="<article><h1>T</h1><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that other teams can adapt it.</p><p>M"
+   SURVIVOR M73 (css, exec=legacy) flags=["style_attr_css_exec:div"] out="<article><h1>T</h1><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step so that other teams can adapt it.</p><p>M"
+   ext-only M63 (link_import, exec=legacy) flags=["link[rel=import]"]
+   NOT-INTACT B10 (article) out="<article><h1>T</h1><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step s"
+   NOT-INTACT B35 (media) out="<article><h1>T</h1><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step s"
+   NOT-INTACT B47 (svg) out="<article><h1>T</h1><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step s"
+   NOT-INTACT B70 (embed) out="<article><h1>T</h1><p>The migration guide below walks through each configuration change in the order the team applied it, with the reasoning behind every step s"
+
+raw-detector misses on malicious (spec): M33(js_url) M48(js_url_obf) M63(link_import) M70(svg_use_data) M71(style_import) M74(css) M75(template) M77(mxss) M78(mxss) M79(mxss) M81(mxss)
+raw-detector false flags on benign (spec): 
+regex false flags on benign: B13:re:js_url B14:re:srcdoc B18:re:meta_refresh B52:re:script_tag B71:re:script_tag
+linkedom vs jsdom strip output differs for: M07 M11 M14 M20 M25 M33 M66 M67 M68 M70 M71 M77 M78 M80 M81 M82 B15 B33 B37 B38 B47 B48 B49 B59

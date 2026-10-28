@@ -1,0 +1,9 @@
+flip_rate_label,decisions_per_fixture,P(fixture identical on rerun),expected failing fixtures of 226,P(all 226 fixtures identical)
+Yang et al. 12% chosen-option change,10,0.2785,163.06,3.395e-126
+Yang et al. 12% chosen-option change,50,0.00168,225.62,0.000e+00
+optimistic: 1% cross-threshold flips,10,0.90438,21.61,1.366e-10
+optimistic: 1% cross-threshold flips,50,0.60501,89.27,4.761e-50
+very optimistic: 0.1% cross-threshold flips,10,0.99004,2.25,1.042e-01
+very optimistic: 0.1% cross-threshold flips,50,0.95121,11.03,1.230e-05
+0.01% flips,10,0.999,0.23,7.977e-01
+0.01% flips,50,0.99501,1.13,3.230e-01

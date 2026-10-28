@@ -1,0 +1,1144 @@
+{
+ "n": 226,
+ "p50": 148.7651339999993,
+ "p90": 608.3812289999914,
+ "p99": 4337.104888000002,
+ "max": {
+  "f": "general--substack-app.html",
+  "ms": 7978.600590999995,
+  "bytes": 68208
+ },
+ "total": 73630.9287119999,
+ "times": [
+  {
+   "f": "general--back-nav-link.html",
+   "ms": 9.489800000003015,
+   "bytes": 806
+  },
+  {
+   "f": "extractor--bbcode-data.html",
+   "ms": 10.440142000003107,
+   "bytes": 1232
+  },
+  {
+   "f": "issues--header-wraps-content.html",
+   "ms": 14.162148999996134,
+   "bytes": 2643
+  },
+  {
+   "f": "general--apnews-link-enhancement.html",
+   "ms": 16.075301999997464,
+   "bytes": 1088
+  },
+  {
+   "f": "issues--136-time-element.html",
+   "ms": 16.0956789999982,
+   "bytes": 1471
+  },
+  {
+   "f": "issues--114-leading-hr.html",
+   "ms": 16.13171699999657,
+   "bytes": 832
+  },
+  {
+   "f": "issues--sidebar-toggle-checkbox.html",
+   "ms": 16.1446869999927,
+   "bytes": 1306
+  },
+  {
+   "f": "elements--srcset-normalization.html",
+   "ms": 17.58130799999708,
+   "bytes": 1309
+  },
+  {
+   "f": "footnotes--google-docs-ftnt.html",
+   "ms": 20.68492399999741,
+   "bytes": 1693
+  },
+  {
+   "f": "codeblocks--rehype-pretty-code.html",
+   "ms": 21.28029400000014,
+   "bytes": 1810
+  },
+  {
+   "f": "headings--fragment-url-not-permalink.html",
+   "ms": 22.774554000003263,
+   "bytes": 1235
+  },
+  {
+   "f": "elements--image-dedup.html",
+   "ms": 23.36673200000223,
+   "bytes": 1982
+  },
+  {
+   "f": "footnotes--hr-continuation.html",
+   "ms": 23.64473800000269,
+   "bytes": 1153
+  },
+  {
+   "f": "footnotes--hidden-aside-data-definition.html",
+   "ms": 24.29011299999911,
+   "bytes": 1522
+  },
+  {
+   "f": "elements--whitespace-newlines.html",
+   "ms": 24.33441699999821,
+   "bytes": 782
+  },
+  {
+   "f": "footnotes--external-labeled-section.html",
+   "ms": 24.82985899999767,
+   "bytes": 1096
+  },
+  {
+   "f": "general--inline-comments-and-link-lists.html",
+   "ms": 26.82111299999815,
+   "bytes": 2248
+  },
+  {
+   "f": "elements--javascript-links.html",
+   "ms": 26.86992100000134,
+   "bytes": 926
+  },
+  {
+   "f": "general--appendix-heading.html",
+   "ms": 26.89806099999987,
+   "bytes": 1083
+  },
+  {
+   "f": "issues--366-screen-reader-links.html",
+   "ms": 30.599614999999176,
+   "bytes": 1804
+  },
+  {
+   "f": "footnotes--br-separated-named-anchors.html",
+   "ms": 30.885228999999526,
+   "bytes": 1502
+  },
+  {
+   "f": "selectors--logo-substring-wrapper.html",
+   "ms": 31.597790999992867,
+   "bytes": 3858
+  },
+  {
+   "f": "issues--span-with-block-children-and-schema.html",
+   "ms": 32.17678399999568,
+   "bytes": 4495
+  },
+  {
+   "f": "general--substack-custom-domain.html",
+   "ms": 32.54636299999402,
+   "bytes": 2912
+  },
+  {
+   "f": "elements--nbsp-handling.html",
+   "ms": 32.639609000001656,
+   "bytes": 401
+  },
+  {
+   "f": "footnotes--easy-footnotes-wrapper.html",
+   "ms": 32.71942500000296,
+   "bytes": 2517
+  },
+  {
+   "f": "general--x.com-article.html",
+   "ms": 33.59399400000257,
+   "bytes": 1497
+  },
+  {
+   "f": "hidden--visibility.html",
+   "ms": 33.990123999996285,
+   "bytes": 1431
+  },
+  {
+   "f": "issues--106-menu-id.html",
+   "ms": 35.64879799999471,
+   "bytes": 857
+  },
+  {
+   "f": "metadata--author-by-prefix-and-url.html",
+   "ms": 36.10259200001019,
+   "bytes": 769
+  },
+  {
+   "f": "issues--361-tailwind-ancestor.html",
+   "ms": 36.44661699999415,
+   "bytes": 1418
+  },
+  {
+   "f": "general--react-streaming-ssr.html",
+   "ms": 36.56662399999914,
+   "bytes": 2871
+  },
+  {
+   "f": "issues--366-mixed-numbers.html",
+   "ms": 36.640595000004396,
+   "bytes": 1876
+  },
+  {
+   "f": "elements--lightbox-image-dedup.html",
+   "ms": 36.6594929999992,
+   "bytes": 2486
+  },
+  {
+   "f": "codeblocks--hljs-header.html",
+   "ms": 36.75982599999952,
+   "bytes": 1076
+  },
+  {
+   "f": "footnotes--child-anchor-id.html",
+   "ms": 37.27427799999714,
+   "bytes": 1464
+  },
+  {
+   "f": "general--wikipedia-ipa-pronunciation.html",
+   "ms": 37.816135999994,
+   "bytes": 2547
+  },
+  {
+   "f": "general--multi-article-portfolio.html",
+   "ms": 39.48311999999714,
+   "bytes": 2996
+  },
+  {
+   "f": "headings--permalink-title-match.html",
+   "ms": 40.40959699999803,
+   "bytes": 911
+  },
+  {
+   "f": "small-images--svg-icon-viewbox.html",
+   "ms": 41.17878000000201,
+   "bytes": 1426
+  },
+  {
+   "f": "codeblocks--rockthejvm.com-articles-kotlin-101-type-classes.html",
+   "ms": 42.31914799999868,
+   "bytes": 5606
+  },
+  {
+   "f": "metadata--date-adjacent-category-link.html",
+   "ms": 43.01917400000093,
+   "bytes": 1299
+  },
+  {
+   "f": "general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array.html",
+   "ms": 44.05535399999644,
+   "bytes": 3936
+  },
+  {
+   "f": "standardize--span-data-as-paragraph.html",
+   "ms": 45.39216599999054,
+   "bytes": 1201
+  },
+  {
+   "f": "general--trailing-cta-newsletter.html",
+   "ms": 45.632110999998986,
+   "bytes": 3065
+  },
+  {
+   "f": "issues--header-with-subtitle-p.html",
+   "ms": 46.21120000000519,
+   "bytes": 2108
+  },
+  {
+   "f": "footnotes--heading-notes.html",
+   "ms": 46.557018999999855,
+   "bytes": 676
+  },
+  {
+   "f": "hidden--nodes.html",
+   "ms": 48.35090399999899,
+   "bytes": 3369
+  },
+  {
+   "f": "gated-content--cookie-consent.html",
+   "ms": 49.629297999999835,
+   "bytes": 5056
+  },
+  {
+   "f": "footnotes--p-class-footnote.html",
+   "ms": 50.45363599999837,
+   "bytes": 730
+  },
+  {
+   "f": "footnotes--hidden-section.html",
+   "ms": 50.457948999999644,
+   "bytes": 895
+  },
+  {
+   "f": "issues--132-hero-class.html",
+   "ms": 50.89539900000091,
+   "bytes": 319
+  },
+  {
+   "f": "content-patterns--trailing-related-posts.html",
+   "ms": 51.27923799999917,
+   "bytes": 1415
+  },
+  {
+   "f": "security--markdown-image-escaping.html",
+   "ms": 52.219186999995145,
+   "bytes": 423
+  },
+  {
+   "f": "codeblocks--code-pre-nesting.html",
+   "ms": 52.44995399999971,
+   "bytes": 1091
+  },
+  {
+   "f": "table-layout--blogger-two-column.html",
+   "ms": 53.8975369999971,
+   "bytes": 4952
+  },
+  {
+   "f": "issues--131-category-links.html",
+   "ms": 56.957150999995065,
+   "bytes": 465
+  },
+  {
+   "f": "elements--svg-placeholder-lazy-image.html",
+   "ms": 57.76631199999974,
+   "bytes": 4208
+  },
+  {
+   "f": "issues--pascalcase-section-id-partial-match.html",
+   "ms": 58.82647100000759,
+   "bytes": 4218
+  },
+  {
+   "f": "issues--296-oreilly-noteref-footnotes.html",
+   "ms": 60.63629799999762,
+   "bytes": 2124
+  },
+  {
+   "f": "content-patterns--trailing-subscribe-after-footnotes.html",
+   "ms": 61.13408200000049,
+   "bytes": 4012
+  },
+  {
+   "f": "metadata--295-suggested-post-date.html",
+   "ms": 62.32945999999356,
+   "bytes": 1525
+  },
+  {
+   "f": "issues--374-invalid-lazy-source.html",
+   "ms": 63.37961399999767,
+   "bytes": 934
+  },
+  {
+   "f": "metadata--h1-sibling-byline.html",
+   "ms": 63.89475899998797,
+   "bytes": 1583
+  },
+  {
+   "f": "eyebrow--linked-category.html",
+   "ms": 64.64349399999992,
+   "bytes": 2770
+  },
+  {
+   "f": "content-patterns--social-engagement-counter.html",
+   "ms": 67.94912599999952,
+   "bytes": 1210
+  },
+  {
+   "f": "metadata--295-header-date-above-title.html",
+   "ms": 69.48415700001351,
+   "bytes": 1808
+  },
+  {
+   "f": "footnotes--pulldown-cmark-footnote-definition.html",
+   "ms": 70.32902900000045,
+   "bytes": 1586
+  },
+  {
+   "f": "content-patterns--social-counter-link.html",
+   "ms": 70.54462600000079,
+   "bytes": 1710
+  },
+  {
+   "f": "issues--374-explicit-image-sources.html",
+   "ms": 71.0837179999944,
+   "bytes": 806
+  },
+  {
+   "f": "elements--data-table.html",
+   "ms": 72.75075199999992,
+   "bytes": 1360
+  },
+  {
+   "f": "eyebrow--spans-category.html",
+   "ms": 74.83963099999892,
+   "bytes": 2246
+  },
+  {
+   "f": "listing--news.ycombinator.com-news.html",
+   "ms": 76.78944000000774,
+   "bytes": 5091
+  },
+  {
+   "f": "issues--286-generic-alt-image-dedup.html",
+   "ms": 77.11039899999741,
+   "bytes": 1640
+  },
+  {
+   "f": "metadata--multi-script-values.html",
+   "ms": 79.58448999999382,
+   "bytes": 1043
+  },
+  {
+   "f": "eyebrow--paragraph-label.html",
+   "ms": 82.78073799999765,
+   "bytes": 2201
+  },
+  {
+   "f": "issues--285-tag-like-title-escaping.html",
+   "ms": 82.95358500000293,
+   "bytes": 1420
+  },
+  {
+   "f": "math--equation-table-mathml.html",
+   "ms": 86.35549899999751,
+   "bytes": 1162
+  },
+  {
+   "f": "security--math-literal-text.html",
+   "ms": 86.49739600000612,
+   "bytes": 435
+  },
+  {
+   "f": "related--inline-related-stories-block.html",
+   "ms": 87.01294799998868,
+   "bytes": 4187
+  },
+  {
+   "f": "table-layout--single-column.html",
+   "ms": 88.1891570000007,
+   "bytes": 659
+  },
+  {
+   "f": "codeblocks--rehype-pretty-copy.html",
+   "ms": 88.35026600000128,
+   "bytes": 2847
+  },
+  {
+   "f": "thin-section-before-see-also.html",
+   "ms": 88.7407860000094,
+   "bytes": 2327
+  },
+  {
+   "f": "content-patterns--card-grid-stripped-headings.html",
+   "ms": 91.37466099999983,
+   "bytes": 3401
+  },
+  {
+   "f": "codeblocks--rouge-linenums.html",
+   "ms": 91.39434599999913,
+   "bytes": 2240
+  },
+  {
+   "f": "table-layout--peripheral-tables.html",
+   "ms": 91.85551799999666,
+   "bytes": 13601
+  },
+  {
+   "f": "headings--testid-article-header.html",
+   "ms": 92.72833199999877,
+   "bytes": 1570
+  },
+  {
+   "f": "general--github.com-test-owner-test-repo-pull-42.html",
+   "ms": 93.39697700000397,
+   "bytes": 5960
+  },
+  {
+   "f": "elements--empty-p-br.html",
+   "ms": 97.14099200000055,
+   "bytes": 492
+  },
+  {
+   "f": "codeblocks--react-syntax-highlighter-linenums.html",
+   "ms": 97.63992300000064,
+   "bytes": 4547
+  },
+  {
+   "f": "general--news.ycombinator.com-item-id=12345678.html",
+   "ms": 99.79299799999717,
+   "bytes": 2609
+  },
+  {
+   "f": "elements--embedded-videos.html",
+   "ms": 102.24226500000077,
+   "bytes": 1145
+  },
+  {
+   "f": "content-patterns--leading-breadcrumb.html",
+   "ms": 104.27008900000146,
+   "bytes": 1878
+  },
+  {
+   "f": "gmail--mail.google.com-mail-u-0-thread.html",
+   "ms": 105.90865599999961,
+   "bytes": 8128
+  },
+  {
+   "f": "issues--preferred-async-empty.html",
+   "ms": 106.04489000000467,
+   "bytes": 678
+  },
+  {
+   "f": "math--raw-latex.html",
+   "ms": 111.3493460000027,
+   "bytes": 1087
+  },
+  {
+   "f": "issues--react-streaming-ssr-colon-id.html",
+   "ms": 111.89927999999782,
+   "bytes": 2478
+  },
+  {
+   "f": "issues--142-arxiv-multi-citations.html",
+   "ms": 113.98826399999962,
+   "bytes": 2877
+  },
+  {
+   "f": "issues--167-partial-selector-inside-code.html",
+   "ms": 114.96091399999568,
+   "bytes": 1442
+  },
+  {
+   "f": "issues--218-footnote-wrapper-text-lost.html",
+   "ms": 115.018713999998,
+   "bytes": 1465
+  },
+  {
+   "f": "issues--120-dhammatalks-footnotes.html",
+   "ms": 115.33457099999941,
+   "bytes": 25578
+  },
+  {
+   "f": "issues--361-special-class-selectors.html",
+   "ms": 117.133931999997,
+   "bytes": 1434
+  },
+  {
+   "f": "issues--162-aria-hidden-main-content.html",
+   "ms": 118.31915399999707,
+   "bytes": 1204
+  },
+  {
+   "f": "footnotes--bold-sup-trailing.html",
+   "ms": 119.32324900000094,
+   "bytes": 1264
+  },
+  {
+   "f": "metadata--email-style-header-block.html",
+   "ms": 129.2888559999992,
+   "bytes": 1336
+  },
+  {
+   "f": "footnotes--sidenote-inline-with-list.html",
+   "ms": 129.42884599999888,
+   "bytes": 1392
+  },
+  {
+   "f": "general--obsidian-publish-cjk.html",
+   "ms": 129.6080260000017,
+   "bytes": 2980
+  },
+  {
+   "f": "issues--254-empty-video.html",
+   "ms": 130.44847900000605,
+   "bytes": 759
+  },
+  {
+   "f": "eyebrow--wrapper-with-icon.html",
+   "ms": 135.22578300000168,
+   "bytes": 2406
+  },
+  {
+   "f": "scoring--table-with-links.html",
+   "ms": 135.71042499999749,
+   "bytes": 3418
+  },
+  {
+   "f": "math--katex-data-math.html",
+   "ms": 146.34713799999736,
+   "bytes": 3134
+  },
+  {
+   "f": "issues--374-image-source.html",
+   "ms": 147.97203199999785,
+   "bytes": 688
+  },
+  {
+   "f": "issues--141-arxiv-equation-tables.html",
+   "ms": 148.28189500000008,
+   "bytes": 2360
+  },
+  {
+   "f": "content-patterns--table-of-contents.html",
+   "ms": 148.7651339999993,
+   "bytes": 5306
+  },
+  {
+   "f": "codeblocks--flex-row-gutter.html",
+   "ms": 149.5581659999998,
+   "bytes": 2312
+  },
+  {
+   "f": "selectors--arm-newsroom.html",
+   "ms": 151.90671999999904,
+   "bytes": 4811
+  },
+  {
+   "f": "issues--361-escaped-id.html",
+   "ms": 154.18670399999974,
+   "bytes": 1443
+  },
+  {
+   "f": "issues--221-nextjs-noscript-images.html",
+   "ms": 157.7247239999997,
+   "bytes": 1665
+  },
+  {
+   "f": "math--small-equation-image.html",
+   "ms": 162.34387199999765,
+   "bytes": 855
+  },
+  {
+   "f": "issues--374-lazy-source-precedence.html",
+   "ms": 163.21131900000182,
+   "bytes": 2471
+  },
+  {
+   "f": "footnotes--span-fnref-colon.html",
+   "ms": 163.47188499999902,
+   "bytes": 1680
+  },
+  {
+   "f": "codeblocks--pygments-lineno.html",
+   "ms": 164.90425600000162,
+   "bytes": 1121
+  },
+  {
+   "f": "entry-point--js-article-content.html",
+   "ms": 166.736071000003,
+   "bytes": 7384
+  },
+  {
+   "f": "table-layout--paulgraham.com-makersschedule.html",
+   "ms": 170.3681760000036,
+   "bytes": 16743
+  },
+  {
+   "f": "metadata--rel-author-in-bio-container.html",
+   "ms": 175.2893439999898,
+   "bytes": 1755
+  },
+  {
+   "f": "general--substack-note-permalink.html",
+   "ms": 175.76428300000407,
+   "bytes": 3871
+  },
+  {
+   "f": "content-patterns--socket-dev-blog.html",
+   "ms": 178.8713029999999,
+   "bytes": 4988
+  },
+  {
+   "f": "footnotes--inline-footnote-span.html",
+   "ms": 179.2074509999984,
+   "bytes": 1329
+  },
+  {
+   "f": "elements--lazy-image.html",
+   "ms": 183.51768699999957,
+   "bytes": 20065
+  },
+  {
+   "f": "math--latex-image-services.html",
+   "ms": 185.6659340000042,
+   "bytes": 650
+  },
+  {
+   "f": "content-patterns--non-semantic-hero-header.html",
+   "ms": 193.36085699999967,
+   "bytes": 3609
+  },
+  {
+   "f": "codeblocks--stripe.html",
+   "ms": 195.21981099999903,
+   "bytes": 8828
+  },
+  {
+   "f": "metadata--placeholder-author-and-duplicate-published.html",
+   "ms": 196.9173359999986,
+   "bytes": 1304
+  },
+  {
+   "f": "issues--159-lean-verso-code-blocks.html",
+   "ms": 198.87801700000273,
+   "bytes": 1546
+  },
+  {
+   "f": "issues--361-shadow-selector-stability.html",
+   "ms": 199.43310100000235,
+   "bytes": 1512
+  },
+  {
+   "f": "content-patterns--heading-introduced-list.html",
+   "ms": 200.39140299999963,
+   "bytes": 1182
+  },
+  {
+   "f": "elements--empty-table.html",
+   "ms": 204.27487699999983,
+   "bytes": 671
+  },
+  {
+   "f": "issues--143-arxiv-cross-references.html",
+   "ms": 204.43654000000242,
+   "bytes": 977
+  },
+  {
+   "f": "footnotes--no-false-positive-equation-refs.html",
+   "ms": 205.3308909999978,
+   "bytes": 1260
+  },
+  {
+   "f": "issues--footnote-id-with-quote.html",
+   "ms": 205.3695369999914,
+   "bytes": 1505
+  },
+  {
+   "f": "content-patterns--live-blog-metadata.html",
+   "ms": 206.41197199999988,
+   "bytes": 1541
+  },
+  {
+   "f": "content-patterns--content-list-with-internal-links.html",
+   "ms": 207.27103499999976,
+   "bytes": 1526
+  },
+  {
+   "f": "metadata--placeholder-values.html",
+   "ms": 208.20201700000325,
+   "bytes": 1386
+  },
+  {
+   "f": "issues--159-lean-heading-permalink-emoji.html",
+   "ms": 209.1367520000058,
+   "bytes": 941
+  },
+  {
+   "f": "extractor--chatgpt-citations.html",
+   "ms": 211.87007799999992,
+   "bytes": 9810
+  },
+  {
+   "f": "codeblocks--mintlify.html",
+   "ms": 212.77636299999904,
+   "bytes": 14505
+  },
+  {
+   "f": "general--cp4space-jordan-algebra.html",
+   "ms": 213.45463500000187,
+   "bytes": 14002
+  },
+  {
+   "f": "code-blocks--chroma-linenums.html",
+   "ms": 221.94061499999953,
+   "bytes": 4394
+  },
+  {
+   "f": "scoring--related-posts-byline.html",
+   "ms": 222.34423699999752,
+   "bytes": 3593
+  },
+  {
+   "f": "issues--300-nested-layout-tables.html",
+   "ms": 223.19095399999787,
+   "bytes": 1396
+  },
+  {
+   "f": "general--svg-content-preservation.html",
+   "ms": 225.94247900000482,
+   "bytes": 4699
+  },
+  {
+   "f": "issues--227-noscript-lazy-images.html",
+   "ms": 233.83948900000541,
+   "bytes": 5050
+  },
+  {
+   "f": "math--mathjax-tex-scripts.html",
+   "ms": 237.27804900000046,
+   "bytes": 1127
+  },
+  {
+   "f": "elements--br-between-blocks.html",
+   "ms": 241.05714499999885,
+   "bytes": 1004
+  },
+  {
+   "f": "footnotes--aside-ol-start.html",
+   "ms": 242.10643499999787,
+   "bytes": 1293
+  },
+  {
+   "f": "footnotes--labeled-section-ol.html",
+   "ms": 244.58378599999924,
+   "bytes": 1032
+  },
+  {
+   "f": "footnotes--wp-block-footnotes.html",
+   "ms": 253.9334770000023,
+   "bytes": 1927
+  },
+  {
+   "f": "general--tailwind-hidden-blog-index.html",
+   "ms": 255.8464840000015,
+   "bytes": 3733
+  },
+  {
+   "f": "issues--374-lazy-srcset-placeholder.html",
+   "ms": 256.05487799999537,
+   "bytes": 914
+  },
+  {
+   "f": "general--obsidian.md-blog-verify-obsidian-sync-encryption.html",
+   "ms": 260.4670679999981,
+   "bytes": 31891
+  },
+  {
+   "f": "issues--280-texinfo-footnotes.html",
+   "ms": 269.4807589999982,
+   "bytes": 4153
+  },
+  {
+   "f": "code-blocks--hexo-br.html",
+   "ms": 271.1977799999995,
+   "bytes": 1774
+  },
+  {
+   "f": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes.html",
+   "ms": 272.27401499999905,
+   "bytes": 97507
+  },
+  {
+   "f": "content-patterns--multi-image-row-midarticle.html",
+   "ms": 274.13579299999947,
+   "bytes": 3490
+  },
+  {
+   "f": "general--stephango.com-buy-wisely.html",
+   "ms": 278.2697459999981,
+   "bytes": 19387
+  },
+  {
+   "f": "footnotes--numeric-anchor-id.html",
+   "ms": 279.0688799999989,
+   "bytes": 1251
+  },
+  {
+   "f": "general--svg-external-css-fallback.html",
+   "ms": 279.3868829999992,
+   "bytes": 2770
+  },
+  {
+   "f": "issues--232-dismiss-in-hidden-content.html",
+   "ms": 287.8467690000034,
+   "bytes": 2272
+  },
+  {
+   "f": "math--wikipedia-mathml.html",
+   "ms": 310.05829800000356,
+   "bytes": 2390
+  },
+  {
+   "f": "issues--196-og-title-brand-name.html",
+   "ms": 311.5455539999966,
+   "bytes": 1089
+  },
+  {
+   "f": "author-share-widget.html",
+   "ms": 311.79367900000034,
+   "bytes": 3961
+  },
+  {
+   "f": "extractor--chatgpt-post-thought-content.html",
+   "ms": 313.7489029999997,
+   "bytes": 1038
+  },
+  {
+   "f": "general--substack-note.html",
+   "ms": 313.79741300000023,
+   "bytes": 2710
+  },
+  {
+   "f": "issues--144-arxiv-footnote-marks.html",
+   "ms": 315.70132999999623,
+   "bytes": 1495
+  },
+  {
+   "f": "issues--263-buttons-in-paragraphs.html",
+   "ms": 316.0464869999996,
+   "bytes": 1713
+  },
+  {
+   "f": "elements--base64-placeholder-removal.html",
+   "ms": 329.4966859999986,
+   "bytes": 1754
+  },
+  {
+   "f": "issues--374-unrelated-image-metadata.html",
+   "ms": 338.421359999993,
+   "bytes": 1048
+  },
+  {
+   "f": "general--scp-wiki.wikidot.com-scp-9935.html",
+   "ms": 342.01628899999923,
+   "bytes": 4254
+  },
+  {
+   "f": "footnotes--orgmode-css-sidenotes.html",
+   "ms": 351.55622700000094,
+   "bytes": 1698
+  },
+  {
+   "f": "issues--169-svg-classname-crash.html",
+   "ms": 353.06543399999646,
+   "bytes": 1272
+  },
+  {
+   "f": "general--daringfireball.net-2025-02-the_iphone_16e.html",
+   "ms": 355.6749259999997,
+   "bytes": 23999
+  },
+  {
+   "f": "footnotes--hr-strong-numbered.html",
+   "ms": 371.0068739999988,
+   "bytes": 852
+  },
+  {
+   "f": "footnotes--hr-sup-numbered.html",
+   "ms": 375.0942380000015,
+   "bytes": 740
+  },
+  {
+   "f": "issues--168-links-inside-inline-code.html",
+   "ms": 383.01777700000093,
+   "bytes": 1198
+  },
+  {
+   "f": "issues--284-table-cell-header-scoring.html",
+   "ms": 386.66508299999987,
+   "bytes": 1530
+  },
+  {
+   "f": "content-patterns--iso-date-and-read-time.html",
+   "ms": 391.63990100000046,
+   "bytes": 1834
+  },
+  {
+   "f": "elements--farsi-zwnj.html",
+   "ms": 396.6488950000021,
+   "bytes": 1605
+  },
+  {
+   "f": "codeblocks--chroma-line-spans.html",
+   "ms": 398.3295360000002,
+   "bytes": 1668
+  },
+  {
+   "f": "elements--complex-tables.html",
+   "ms": 411.01665499999945,
+   "bytes": 2773
+  },
+  {
+   "f": "footnotes--nested-prose.html",
+   "ms": 411.96727199999805,
+   "bytes": 1005
+  },
+  {
+   "f": "math--mathjax-chtml-no-assistive.html",
+   "ms": 434.9203700000071,
+   "bytes": 6257
+  },
+  {
+   "f": "codeblocks--chatgpt-codemirror.html",
+   "ms": 438.9881719999994,
+   "bytes": 3475
+  },
+  {
+   "f": "custom-elements--swiper-carousel.html",
+   "ms": 448.4205000000002,
+   "bytes": 615
+  },
+  {
+   "f": "content-patterns--code-block-boilerplate-and-trailing-section.html",
+   "ms": 451.76608900000065,
+   "bytes": 6483
+  },
+  {
+   "f": "comments--news.ycombinator.com-item-id=12345678.html",
+   "ms": 456.4346829999995,
+   "bytes": 3438
+  },
+  {
+   "f": "issues--272-x-localized-conversation-timeline.html",
+   "ms": 466.9670940000069,
+   "bytes": 1212
+  },
+  {
+   "f": "footnotes--named-anchor.html",
+   "ms": 475.60702299999684,
+   "bytes": 1996
+  },
+  {
+   "f": "codeblocks--chroma-inline-linenums.html",
+   "ms": 495.5926820000004,
+   "bytes": 3734
+  },
+  {
+   "f": "callouts--obsidian-publish-callouts.html",
+   "ms": 529.9469289999997,
+   "bytes": 8294
+  },
+  {
+   "f": "issues--161-x-status-url-author.html",
+   "ms": 569.0627789999999,
+   "bytes": 932
+  },
+  {
+   "f": "issues--217-writerside-docs.html",
+   "ms": 575.3918760000015,
+   "bytes": 2213
+  },
+  {
+   "f": "math--temml.html",
+   "ms": 599.5999549999979,
+   "bytes": 4184
+  },
+  {
+   "f": "elements--hugo-admonitions.html",
+   "ms": 605.7253430000019,
+   "bytes": 3039
+  },
+  {
+   "f": "math--mathjax-tagged-equation.html",
+   "ms": 608.3812289999914,
+   "bytes": 1587
+  },
+  {
+   "f": "general--github.com-issue-56.html",
+   "ms": 617.0337249999939,
+   "bytes": 104920
+  },
+  {
+   "f": "math--katex.html",
+   "ms": 660.0277510000014,
+   "bytes": 8737
+  },
+  {
+   "f": "elements--figure-content-wrapper.html",
+   "ms": 683.6255950000013,
+   "bytes": 1275
+  },
+  {
+   "f": "issues--159-lean-verso-empty-line-preserved.html",
+   "ms": 745.3280440000017,
+   "bytes": 1306
+  },
+  {
+   "f": "math--katex-centraliser.html",
+   "ms": 750.5601940000051,
+   "bytes": 53290
+  },
+  {
+   "f": "general--wikipedia.html",
+   "ms": 753.580829999999,
+   "bytes": 30183
+  },
+  {
+   "f": "issues--159-lean-verso-missing-section-gap.html",
+   "ms": 756.8067930000034,
+   "bytes": 1093
+  },
+  {
+   "f": "footnotes--word-ftn-ftnref.html",
+   "ms": 764.7899980000002,
+   "bytes": 1152
+  },
+  {
+   "f": "math--mathjax-svg.html",
+   "ms": 766.4745919999987,
+   "bytes": 2561
+  },
+  {
+   "f": "general--www.figma.com-blog-introducing-codex-to-figma.html",
+   "ms": 768.6230639999994,
+   "bytes": 45315
+  },
+  {
+   "f": "comments--old.reddit.com-r-test-comments-abc123-test_post.html",
+   "ms": 849.6725199999983,
+   "bytes": 3166
+  },
+  {
+   "f": "issues--159-lean-verso-grouped-blocks.html",
+   "ms": 863.0616880000016,
+   "bytes": 3051
+  },
+  {
+   "f": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx.html",
+   "ms": 921.1839000000036,
+   "bytes": 148684
+  },
+  {
+   "f": "elements--bootstrap-alerts.html",
+   "ms": 940.3837950000016,
+   "bytes": 758
+  },
+  {
+   "f": "footnotes--wikipedia-references.html",
+   "ms": 1127.4837130000014,
+   "bytes": 3881
+  },
+  {
+   "f": "elementor--archive-page.html",
+   "ms": 1607.982711999999,
+   "bytes": 16556
+  },
+  {
+   "f": "comments--mastodon.social-@user-12345678.html",
+   "ms": 1690.1000249999997,
+   "bytes": 12666
+  },
+  {
+   "f": "author-contact-block.html",
+   "ms": 2373.9416820000006,
+   "bytes": 3225
+  },
+  {
+   "f": "footnotes--maggieappleton.com-xanadu-patterns.html",
+   "ms": 3118.9430379999976,
+   "bytes": 129728
+  },
+  {
+   "f": "math--mathjax.html",
+   "ms": 4337.104888000002,
+   "bytes": 201774
+  },
+  {
+   "f": "general--x.com-article-2026-02-13.html",
+   "ms": 6665.2199519999995,
+   "bytes": 122988
+  },
+  {
+   "f": "general--substack-app.html",
+   "ms": 7978.600590999995,
+   "bytes": 68208
+  }
+ ]
+}

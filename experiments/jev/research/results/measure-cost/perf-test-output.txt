@@ -1,0 +1,302 @@
+
+ RUN  v5.0.5 /home/alexi/git/defuddle
+
+stdout | tests/perf.test.ts > Performance > parse time per fixture (total including DOM parsing)
+
+=== Performance Breakdown (ms) ===
+  Total    DOM  Parse  Size    Fixture
+  -----  -----  -----  -----   -------
+    369     14    355    145KB  general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx
+    349      5    344     67KB  general--substack-app
+    264     18    246    197KB  math--mathjax
+    209     13    195    102KB  general--github.com-issue-56
+    188      7    182     52KB  math--katex-centraliser
+    180      4    176     12KB  comments--mastodon.social-@user-12345678
+    166     19    148    127KB  footnotes--maggieappleton.com-xanadu-patterns
+    136      6    130     95KB  general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes
+    121      6    114      3KB  author-contact-block
+     98      4     94     29KB  general--wikipedia
+     97      8     89      8KB  callouts--obsidian-publish-callouts
+     83      1     81      3KB  codeblocks--chatgpt-codemirror
+     75      1     74     14KB  general--cp4space-jordan-algebra
+     74      4     71     44KB  general--www.figma.com-blog-introducing-codex-to-figma
+     72      2     71      9KB  codeblocks--stripe
+     72      0     71      1KB  issues--374-lazy-srcset-placeholder
+     68      1     67      9KB  math--katex
+     66      3     63     16KB  elementor--archive-page
+     65      1     64      6KB  math--mathjax-chtml-no-assistive
+     60      1     60      3KB  math--katex-data-math
+     57      2     55      4KB  code-blocks--chroma-linenums
+     57      4     53     23KB  general--daringfireball.net-2025-02-the_iphone_16e
+     56      8     47     14KB  codeblocks--mintlify
+     56      1     54     10KB  extractor--chatgpt-citations
+     54      1     53      4KB  codeblocks--chroma-inline-linenums
+     51      1     51      2KB  code-blocks--hexo-br
+     49      1     48      4KB  math--temml
+     48      4     44     20KB  elements--lazy-image
+     46      1     45      2KB  codeblocks--chroma-line-spans
+     46      0     46      1KB  footnotes--nested-prose
+     46      1     45      6KB  general--github.com-test-owner-test-repo-pull-42
+     46      2     44     25KB  issues--120-dhammatalks-footnotes
+     44      1     43      2KB  codeblocks--rouge-linenums
+     44      3     41     31KB  general--obsidian.md-blog-verify-obsidian-sync-encryption
+     43      0     43      4KB  general--substack-note-permalink
+     42      2     41      4KB  codeblocks--react-syntax-highlighter-linenums
+     41      1     40      2KB  thin-section-before-see-also
+     39      0     39      1KB  codeblocks--pygments-lineno
+     38      1     38      3KB  issues--142-arxiv-multi-citations
+     37      0     37      3KB  elements--hugo-admonitions
+     37      1     36      5KB  issues--227-noscript-lazy-images
+     36      0     36      1KB  elements--bootstrap-alerts
+     36     12     23    120KB  general--x.com-article-2026-02-13
+     35      1     34      2KB  codeblocks--flex-row-gutter
+     35      0     34      2KB  issues--217-writerside-docs
+     34      1     33      4KB  footnotes--wikipedia-references
+     34      1     33      3KB  general--obsidian-publish-cjk
+     34      0     34      3KB  general--substack-note
+     34      0     33      2KB  math--wikipedia-mathml
+     33      0     32      2KB  issues--141-arxiv-equation-tables
+     33      0     33      2KB  issues--232-dismiss-in-hidden-content
+     31      1     30      4KB  content-patterns--non-semantic-hero-header
+     31      1     30      5KB  content-patterns--socket-dev-blog
+     31      0     30      2KB  footnotes--span-fnref-colon
+     31      1     31      3KB  general--svg-external-css-fallback
+     30      2     28     19KB  general--stephango.com-buy-wisely
+     30      0     30      1KB  issues--144-arxiv-footnote-marks
+     29      1     28      7KB  entry-point--js-article-content
+     29      0     29      1KB  footnotes--numeric-anchor-id
+     28      0     28      1KB  custom-elements--swiper-carousel
+     28      1     27     13KB  table-layout--peripheral-tables
+     27      3     24      4KB  author-share-widget
+     27      0     26      3KB  general--substack-custom-domain
+     27      1     26      3KB  issues--159-lean-verso-grouped-blocks
+     27      0     27      1KB  table-layout--single-column
+     26      0     25      4KB  general--tailwind-hidden-blog-index
+     26      1     25      3KB  scoring--table-with-links
+     25      1     24      5KB  general--svg-content-preservation
+     25      0     25      1KB  issues--159-lean-verso-empty-line-preserved
+     25      0     25      1KB  math--latex-image-services
+     25      0     24      3KB  math--mathjax-svg
+     24      0     24      3KB  elements--complex-tables
+     24      0     23      1KB  extractor--chatgpt-post-thought-content
+     24      0     23      1KB  issues--300-nested-layout-tables
+     24      0     24      1KB  math--small-equation-image
+     23      1     22      5KB  content-patterns--table-of-contents
+     23      1     22      4KB  elements--svg-placeholder-lazy-image
+     22      1     22      1KB  codeblocks--code-pre-nesting
+     22      0     22      1KB  math--equation-table-mathml
+     22      1     21      5KB  selectors--arm-newsroom
+     22      1     21     16KB  table-layout--paulgraham.com-makersschedule
+     21      1     20      5KB  codeblocks--rockthejvm.com-articles-kotlin-101-type-classes
+     21      1     20      6KB  content-patterns--code-block-boilerplate-and-trailing-section
+     21      0     20      1KB  elements--figure-content-wrapper
+     21      0     21      1KB  footnotes--aside-ol-start
+     21      0     21      1KB  footnotes--heading-notes
+     21      0     21      1KB  footnotes--hr-strong-numbered
+     21      0     21      1KB  footnotes--word-ftn-ftnref
+     21      0     21      2KB  issues--221-nextjs-noscript-images
+     21      0     21      1KB  issues--272-x-localized-conversation-timeline
+     21      0     21      1KB  math--mathjax-tex-scripts
+     20      0     20      1KB  codeblocks--hljs-header
+     20      2     17      3KB  content-patterns--card-grid-stripped-headings
+     20      0     19      1KB  footnotes--hidden-section
+     20      0     19      1KB  footnotes--hr-sup-numbered
+     20      0     19      2KB  headings--testid-article-header
+     20      0     20      1KB  issues--143-arxiv-cross-references
+     20      0     20      2KB  math--mathjax-tagged-equation
+     19      0     18      1KB  footnotes--child-anchor-id
+     19      1     19      2KB  footnotes--easy-footnotes-wrapper
+     19      0     19      2KB  footnotes--orgmode-css-sidenotes
+     19      1     18      4KB  general--scp-wiki.wikidot.com-scp-9935
+     18      0     18      1KB  footnotes--hidden-aside-data-definition
+     18      0     18      1KB  issues--159-lean-verso-missing-section-gap
+     18      0     18      1KB  issues--285-tag-like-title-escaping
+     18      0     17      4KB  issues--span-with-block-children-and-schema
+     17      0     16      2KB  elements--image-dedup
+     17      0     17      2KB  issues--react-streaming-ssr-colon-id
+     17      0     16      4KB  scoring--related-posts-byline
+     16      0     16      0KB  elements--empty-p-br
+     16      0     16      1KB  footnotes--br-separated-named-anchors
+     16      1     16      4KB  general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array
+     16      0     16      1KB  issues--161-x-status-url-author
+     16      0     16      2KB  issues--263-buttons-in-paragraphs
+     15      0     15      2KB  content-patterns--live-blog-metadata
+     15      1     14      3KB  content-patterns--multi-image-row-midarticle
+     15      1     14      1KB  elements--data-table
+     15      0     15      1KB  elements--embedded-videos
+     15      0     15      1KB  footnotes--external-labeled-section
+     15      0     15      1KB  footnotes--inline-footnote-span
+     15      0     14      1KB  footnotes--labeled-section-ol
+     15      0     14      2KB  footnotes--named-anchor
+     15      0     15      1KB  footnotes--no-false-positive-equation-refs
+     15      0     15      1KB  issues--361-shadow-selector-stability
+     15      0     15      2KB  issues--374-lazy-source-precedence
+     14      0     13      3KB  codeblocks--rehype-pretty-copy
+     14      0     13      2KB  content-patterns--iso-date-and-read-time
+     14      0     13      2KB  elements--base64-placeholder-removal
+     14      0     14      1KB  footnotes--bold-sup-trailing
+     14      1     13      5KB  gated-content--cookie-consent
+     14      0     13      1KB  issues--159-lean-heading-permalink-emoji
+     14      0     14      1KB  issues--162-aria-hidden-main-content
+     13      0     13      1KB  content-patterns--heading-introduced-list
+     13      0     12      1KB  elements--empty-table
+     13      0     13      2KB  elements--farsi-zwnj
+     13      0     13      2KB  elements--lightbox-image-dedup
+     13      0     13      2KB  footnotes--google-docs-ftnt
+     13      0     13      2KB  footnotes--wp-block-footnotes
+     13      0     13      2KB  general--inline-comments-and-link-lists
+     13      0     13      1KB  issues--284-table-cell-header-scoring
+     13      0     13      1KB  issues--361-escaped-id
+     13      0     12      1KB  issues--361-special-class-selectors
+     13      0     12      1KB  issues--footnote-id-with-quote
+     12      1     12      2KB  codeblocks--rehype-pretty-code
+     12      0     12      1KB  elements--br-between-blocks
+     12      0     12      1KB  footnotes--p-class-footnote
+     12      0     12      2KB  footnotes--pulldown-cmark-footnote-definition
+     12      0     11      1KB  footnotes--sidenote-inline-with-list
+     12      0     12      3KB  general--multi-article-portfolio
+     12      1     11      8KB  gmail--mail.google.com-mail-u-0-thread
+     12      0     12      0KB  issues--131-category-links
+     12      0     11      2KB  issues--159-lean-verso-code-blocks
+     12      0     11      1KB  issues--218-footnote-wrapper-text-lost
+     12      1     11      4KB  issues--280-texinfo-footnotes
+     12      0     11      1KB  issues--361-tailwind-ancestor
+     12      0     12      1KB  issues--374-invalid-lazy-source
+     12      0     12      1KB  math--raw-latex
+     12      0     11      2KB  metadata--rel-author-in-bio-container
+     12      0     11      4KB  related--inline-related-stories-block
+     11      0     11      1KB  content-patterns--content-list-with-internal-links
+     11      0     11      1KB  content-patterns--social-engagement-counter
+     11      0     10      1KB  content-patterns--trailing-related-posts
+     11      0     11      0KB  elements--nbsp-handling
+     11      0     11      1KB  footnotes--hr-continuation
+     11      0     10      1KB  issues--106-menu-id
+     11      0     11      1KB  issues--167-partial-selector-inside-code
+     11      0     11      1KB  issues--168-links-inside-inline-code
+     11      0     11      1KB  issues--169-svg-classname-crash
+     11      0     11      1KB  issues--374-explicit-image-sources
+     11      0     10      1KB  issues--374-image-source
+     11      0     11      1KB  issues--374-unrelated-image-metadata
+     11      0     10      0KB  security--math-literal-text
+     11      1     10      5KB  table-layout--blogger-two-column
+     10      1      9      3KB  comments--news.ycombinator.com-item-id=12345678
+     10      0     10      2KB  content-patterns--social-counter-link
+     10      0      9      4KB  content-patterns--trailing-subscribe-after-footnotes
+     10      0     10      0KB  issues--132-hero-class
+     10      0     10      2KB  issues--header-with-subtitle-p
+     10      0      9      2KB  metadata--295-header-date-above-title
+     10      0     10      1KB  metadata--email-style-header-block
+      9      0      8      1KB  elements--javascript-links
+      9      0      9      1KB  general--appendix-heading
+      9      0      8      2KB  issues--366-screen-reader-links
+      9      0      9      3KB  issues--header-wraps-content
+      9      0      9      1KB  issues--sidebar-toggle-checkbox
+      9      0      8      1KB  metadata--multi-script-values
+      9      0      9      1KB  metadata--placeholder-author-and-duplicate-published
+      9      0      9      0KB  security--markdown-image-escaping
+      8      1      8      3KB  comments--old.reddit.com-r-test-comments-abc123-test_post
+      8      0      8      1KB  general--apnews-link-enhancement
+      8      1      7      3KB  general--news.ycombinator.com-item-id=12345678
+      8      0      7      3KB  general--trailing-cta-newsletter
+      8      0      8      1KB  headings--fragment-url-not-permalink
+      8      0      8      1KB  issues--114-leading-hr
+      8      0      8      1KB  issues--136-time-element
+      8      0      8      2KB  issues--286-generic-alt-image-dedup
+      8      0      8      1KB  metadata--295-suggested-post-date
+      8      0      7      1KB  metadata--date-adjacent-category-link
+      8      0      7      1KB  metadata--placeholder-values
+      8      0      7      1KB  standardize--span-data-as-paragraph
+      7      0      7      1KB  elements--srcset-normalization
+      7      0      7      1KB  elements--whitespace-newlines
+      7      0      6      3KB  general--react-streaming-ssr
+      7      0      7      1KB  headings--permalink-title-match
+      7      0      7      1KB  hidden--visibility
+      7      0      7      1KB  issues--196-og-title-brand-name
+      7      0      7      2KB  issues--296-oreilly-noteref-footnotes
+      7      0      7      4KB  selectors--logo-substring-wrapper
+      7      0      7      1KB  small-images--svg-icon-viewbox
+      6      0      6      3KB  eyebrow--linked-category
+      6      0      6      2KB  eyebrow--spans-category
+      6      0      6      2KB  eyebrow--wrapper-with-icon
+      6      0      5      1KB  general--back-nav-link
+      6      0      5      2KB  general--wikipedia-ipa-pronunciation
+      6      0      6      3KB  hidden--nodes
+      6      0      5      2KB  issues--366-mixed-numbers
+      6      0      5      4KB  issues--pascalcase-section-id-partial-match
+      6      0      6      1KB  issues--preferred-async-empty
+      6      1      5      5KB  listing--news.ycombinator.com-news
+      6      0      6      2KB  metadata--h1-sibling-byline
+      5      0      5      2KB  content-patterns--leading-breadcrumb
+      5      0      5      2KB  eyebrow--paragraph-label
+      5      0      5      1KB  issues--254-empty-video
+      5      0      5      1KB  metadata--author-by-prefix-and-url
+      4      0      4      1KB  extractor--bbcode-data
+      3      0      3      1KB  general--x.com-article
+
+  Total:  6696ms (DOM: 204ms, Parse: 6448ms)  Count: 226
+  DOM is 3% of total time
+
+=== Per-Step Totals (across all fixtures) ===
+    ms    %   Step
+  ----  ---   ----
+  1053   23%  removeBySelector
+   892   19%  standardizeContent
+   448   10%  findMainContent
+   428    9%  standardizeElements
+   386    8%  removeByContentPattern
+   363    8%  standardizeFootnotesCallouts
+   211    5%  removeHiddenElements
+   178    4%  se:img.latex[src*="latex.php"],sp
+   165    4%  removeLowScoring
+    89    2%  se:pre, div[class*="prismjs"], .s
+    85    2%  removeEmptyLines
+    53    1%  flattenWrapperElements[1]
+    49    1%  cloneDocument
+    44    1%  se:convertLatexImages
+    28    1%  standardizeSpaces
+    27    1%  stripUnwantedAttributes
+    18    0%  flattenWrapperElements[2]
+     9    0%  flattenShadowRoots
+     7    0%  se:figure, p:has([class*="caption
+     7    0%  resolveRelativeUrls
+     6    0%  removeEmptyElements
+     5    0%  removeSmallImages
+     5    0%  se:wrapRawLatexDelimiters
+     4    0%  removePermalinkAnchors
+     3    0%  adoptExternalFootnotes
+     3    0%  se:h1, h2, h3, h4, h5, h6
+     3    0%  unwrapSpecialLinks
+     2    0%  se:picture
+     2    0%  resolveSvgColors
+     1    0%  resolveStreamedContent
+     1    0%  removeMetadataBlock
+     1    0%  removeEyebrowLabel
+     1    0%  standardizeHeadings
+     1    0%  se:img[data-src], img[data-origin
+     1    0%  se:span:has(img)
+     1    0%  replaceCustomElements
+     1    0%  convertBlockSpans
+     1    0%  unwrapBareSpans
+     1    0%  removeObsoleteElements
+     1    0%  removeTrailingHeadings
+     0    0%  applyMobileStyles
+     0    0%  standardizeDropCaps
+     0    0%  removeHtmlComments
+     0    0%  wrapPreformattedCode
+     0    0%  se:uni-image-full-width
+     0    0%  se:div[data-testid^="paragraph"],
+     0    0%  se:div[role="list"]
+     0    0%  se:div[role="listitem"]
+     0    0%  convertDataAsSpans
+     0    0%  unwrapLayoutTables
+     0    0%  removeOrphanedDividers[1]
+     0    0%  removeOrphanedDividers[2]
+     0    0%  stripExtraBrElements
+  4584       total
+
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  20:00:52
+   Duration  7.21s (tests 95%, import 3%, transform 1%)
+

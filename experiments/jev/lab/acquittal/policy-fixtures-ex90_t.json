@@ -1,0 +1,375 @@
+{
+ "policy": "ex90_t",
+ "fixtures": {
+  "changed": 7,
+  "changed_list": [
+   "content-patterns--non-semantic-hero-header",
+   "eyebrow--wrapper-with-icon",
+   "footnotes--maggieappleton.com-xanadu-patterns",
+   "footnotes--wikipedia-references",
+   "general--scp-wiki.wikidot.com-scp-9935",
+   "general--wikipedia",
+   "issues--227-noscript-lazy-images"
+  ],
+  "restored": 18,
+  "restored_list": [
+   {
+    "page": "callouts--obsidian-publish-callouts",
+    "fp": "removeEyebrowLabel|div|76e7a3a3f9c2|f73d0f8b",
+    "step": "removeEyebrowLabel",
+    "reason": "eyebrow label",
+    "selector": "",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 2,
+    "tag": "div",
+    "text": "Getting started",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 0
+    }
+   },
+   {
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|b05a83d90694|b16a2b45",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 6,
+    "tag": "h2",
+    "text": "New Ion Thruster Breaks Efficiency Record",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.92,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|3db5c0551587|0f6c456b",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 7,
+    "tag": "h2",
+    "text": "Mars Sample Return Mission Gets Green Light",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.91,
+     "po": 0.95,
+     "role": 1
+    }
+   },
+   {
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|b21cd744541a|1b21f808",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 7,
+    "tag": "h2",
+    "text": "Commercial Space Station Module Passes Critical Review",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.88,
+     "po": 0.93,
+     "role": 1
+    }
+   },
+   {
+    "page": "content-patterns--non-semantic-hero-header",
+    "fp": "removeBySelector|div|7a81ea7d0675|80f82a59",
+    "step": "removeBySelector",
+    "reason": "partial match: more-",
+    "selector": "more-",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 3,
+    "tag": "div",
+    "text": "ABOUT THE AUTHOR",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.92,
+     "po": 0.92,
+     "role": 0.125
+    }
+   },
+   {
+    "page": "elements--figure-content-wrapper",
+    "fp": "removeBySelector|div|6930502d2fd4|369d0984",
+    "step": "removeBySelector",
+    "reason": "partial match: article-header",
+    "selector": "article-header",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 3,
+    "tag": "div",
+    "text": "Example Article Title",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.88,
+     "po": 0.92,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "eyebrow--wrapper-with-icon",
+    "fp": "removeEyebrowLabel|div|75051c30f6d2|8d0ec624",
+    "step": "removeEyebrowLabel",
+    "reason": "eyebrow label",
+    "selector": "",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "Off-nominal",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 0.325
+    }
+   },
+   {
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|div|35b0723d6dbb|efe448ce",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "A Pattern Language Christopher Alexander The book outlined a number of solutions for architecture and urban planning design, but the theory has since (appropriately) taken on a life of its own.",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.375
+    }
+   },
+   {
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|p|f01107f4b428|6e145bd3",
+    "step": "removeByContentPattern",
+    "reason": "thin CTA section",
+    "selector": "",
+    "exact": [],
+    "fam": "promo",
+    "inline": false,
+    "words": 16,
+    "tag": "p",
+    "text": "In particular, the framework has proven useful for modeling complex systems where traditional approaches are insufficient.4",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|div|a8511a4128ef|43e93db9",
+    "step": "removeBySelector",
+    "reason": "partial match: -menu",
+    "selector": "-menu",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "12 Grams of Carbon",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.9,
+     "po": 0.9,
+     "role": 0
+    }
+   },
+   {
+    "page": "general--scp-wiki.wikidot.com-scp-9935",
+    "fp": "removeBySelector|div|36cf2f7cc305|59c21771",
+    "step": "removeBySelector",
+    "reason": "partial match: page-title",
+    "selector": "page-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "SCP-9935",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.94,
+     "role": 0.985
+    }
+   },
+   {
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|table|38ae86aa4e0b|63387a4c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "table.infobox"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 38,
+    "tag": "table",
+    "text": "Obsidian Developer(s) Dynalist Inc. Initial release March 2020 (2020-03) Stable release 1.5.81 / January 15, 2024 Written in TypeScript, JavaScript Operating system Windows, macOS, Linux, Android, iOS, iPadOS Type Note-taking, personal knowledge management License Proprietary freemium Website obsidi",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "issues--227-noscript-lazy-images",
+    "fp": "removeBySelector|div|b4ae812e436a|0838f9cc",
+    "step": "removeBySelector",
+    "reason": "partial match: article-header",
+    "selector": "article-header",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 13,
+    "tag": "div",
+    "text": "Hero image caption. Photo Credit / Agency Test article with multiple lazy-loaded images",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.86,
+     "po": 0.9,
+     "role": 1
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|c663095a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|2ac70aa7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|f24efd34",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|6260e147c63d|1d00436d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "span",
+    "text": "x=2a−b±b2−4ac",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|2d2a242b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.83,
+     "po": 0.31,
+     "role": 0.785
+    }
+   }
+  ]
+ },
+ "bugs": null,
+ "history": null,
+ "seconds": 96
+}

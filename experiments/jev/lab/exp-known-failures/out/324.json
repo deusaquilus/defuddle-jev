@@ -1,0 +1,1635 @@
+{
+ "file": "pages/324.html",
+ "url": "https://taz.de/Neues-Schulfach-in-Spanien/!6185360/",
+ "ms": 414,
+ "wordCount": 1367,
+ "contentSelector": "html > body#body > div.container.is-max-desktop.has-background-white > main#hauptinhalt",
+ "title": "Neues Schulfach in Spanien: Mathe, Sport, Klimakrise",
+ "contentChars": 10204,
+ "presence": {
+  "Alcanar": true
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:invisible",
+   "text": "Hautnavigation anspringen"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:invisible",
+   "text": "Hauptinhalt anspringen"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:invisible",
+   "text": "Footer anspringen"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": "Abschicken\n\n\n\nAbbrechen\n\n\n\n\n\n\nBitte halten Sie sich an unsere Netiquette.\nHaben Sie Probleme beim Kommentieren oder Registrieren? Dann mailen Sie uns bitte an  "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": "Bitte halten Sie sich an unsere Netiquette.\nHaben Sie Probleme beim Kommentieren oder Registrieren? Dann mailen Sie uns bitte an  kommune@taz.de."
+  },
+  {
+   "step": "removeEyebrowLabel",
+   "reason": "eyebrow label",
+   "text": "8526908\n6185360"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"@context\":\"https://schema.org/\",\"@type\":\"WebPage\",\"url\":\"https://taz.de/\",\"publisher\":{\"@type\":\"NewsMediaOrganization\",\"name\":\"TAZ Verlags- und Vertriebs GmbH"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (typeof queueMicrotask === \"undefined\") {\nwindow.queueMicrotask = function(callback) {\nPromise.resolve().then(callback).catch(e => setTimeout(() => { throw e"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "/* <![CDATA[ */\n\"use strict\";function _typeof(t){return(_typeof=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(t){return typeof t}:functio"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "window._sp_queue = [];\nwindow._sp_ = {\nconfig: {\naccountId: 375,\nbaseEndpoint: 'https://cdn.privacy-mgmt.com',\npropertyId: 37937,\ngdpr: { },\nevents: {\nonMessage"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "import Alpine from '/lib/taz-verlag-node/js/alpinejs/dist/module.esm.js'\nwindow.Alpine = Alpine;\nAlpine.start();\nwindow.Alpine;"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "// scoping\nif (!window.marOtaz_de) window.marOtaz_de = new Object;\nmarOtaz_de.isMobile = ()=> {\nif (/Mobi|Android/i.test(navigator.userAgent) && screen.width < "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "// IVW pageview ;)\nif (typeof globalThis.IOMm === 'function') {\nglobalThis.IOMm('pageview', {\ncp: 'Redaktion/Politik/Europa,Artikel'\n});\n} else {\nconsole.warn('"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (typeof globalThis.IOMm === 'function') {\nglobalThis.IOMm('3p', 'qds', st);\n} else {\nconsole.warn('IOMm ist nicht verfügbar – 3p-Aufruf wurde nicht ausgeführ"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];\n(function(){\nif( false == 'true' ) return;\nconst adArea =  'Politik';\nconst subposition = "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "marOtaz_de.tziLayerOldFrontend = async (setting) => {\nif ($('.tziFgContainer2021').length) return;\nconst isCMPtoDecideBeforeShowLayer = false; // todo: remove\nc"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "// === global members\nlet p;\nlet globalTrackingParam = '';\nif ( location.hash.indexOf('#!formfill:') ==0 ) globalTrackingParam = '&'+ location.hash.split(':')[1"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "\ntaz zahl ich \n\ntaz zahl ich\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nthemen\n\n\n\n\n\n\n\n\n\n\n\n\n\ngen z regelt\n\n\n\n\n\n\n\n\nisrael\n\n\n\n\n\n\n\n\nfrontex\n\n\n\n\n\n\n\n\nserbien\n\n\n\n\n\n\n\n\nendlagersuche\n\n\n\n\n\n\n\n\nsozi"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "document.addEventListener('DOMContentLoaded', () => {\nconst nav = document.querySelector('.header-nav-wing-inner[role=\"dialog\"]');\nif (!nav) return;\nnav.addEven"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "@media screen and (max-width: 768px){\n* {\ntransition: none !important;\n}\n}\n.taz-header {\ntransition: none !important;\n}\n.portal-and-second-level-wrapper * {\ntra"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "@media screen and (max-width: 768px){\n* {\ntransition: none !important;\n}\n}\n.taz-header {\ntransition: none !important;\n}\n.portal-and-second-level-wrapper * {\ntra"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "\ntaz zahl ich \n\ntaz zahl ich\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nverlag\n\n\n\n\n\n\n\n\n\n\nveranstaltungen\n\n\n\n\n\n\n\n\n\n\nshop\n\n\n\n\n\n\n\n\n\n\nfragen & hilfe\n\n\n\n\n\n\n\n\n\n\n\n\nabo\n\n\n\n\n\n\n\n\n\n\ng"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Gen Z regelt\n\n\n\n\n\nIsrael\n\n\n\n\n\nFrontex\n\n\n\n\n\nSerbien\n\n\n\n\n\nEndlagersuche\n\n\n\n\n\nSozialproteste\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfunction navbarScroll() {\nreturn {\nisOverflowing: false,"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Gen Z regelt\n\n\n\n\n\nIsrael\n\n\n\n\n\nFrontex\n\n\n\n\n\nSerbien\n\n\n\n\n\nEndlagersuche\n\n\n\n\n\nSozialproteste\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfunction navbarScroll() {\nreturn {\nisOverflowing: false,"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Gen Z regelt\n\n\n\n\n\nIsrael\n\n\n\n\n\nFrontex\n\n\n\n\n\nSerbien\n\n\n\n\n\nEndlagersuche\n\n\n\n\n\nSozialproteste"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "function navbarScroll() {\nreturn {\nisOverflowing: false,\nshowLeftButton: false,\nshowRightButton: true,\nupdateScrollButtons() {\nconst navbar = this.$refs.navbarS"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Startseite\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolitik\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEuropa\n\n\n\n\n\n\n\n\n\n\n\n\nKlimawandel\n\n\n\n\n\n\n\n\n\n\n\nNeues Schulfach in Spanien:\nMathe, Sport, Klimakrise"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Startseite\",\"item\":\"https://taz.de/\"},{\"@t"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Neues Schulfach in Spanien"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Mathe, Sport, Klimakrise"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Diesen Artikel teilen\n\n\n@scope {\n.shariff-button.mail{\norder: 1;\n}\n.shariff-button.mastodon{\norder: 2;\n}\n.shariff-button.bluesky{\norder: 3;\n}\n.shariff-button.fa"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "@scope {\n.shariff-button.mail{\norder: 1;\n}\n.shariff-button.mastodon{\norder: 2;\n}\n.shariff-button.bluesky{\norder: 3;\n}\n.shariff-button.facebook{\norder: 4;\n}\n.sha"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Eine aufgeklärte Bevölkerung rettet im Ernstfall Leben"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Die Kinder lernen mit psychischen Belastungen umzugehen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Politische Klimabildung kommt oft zu kurz"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Damals wusste niemand, was zu tun war"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Gemeinsam für freie Presse\n\nDie taz gehört zu 100 Prozent ihren Leser:innen und ist damit nicht nur konzernfrei, sondern auch kostenfrei zugänglich. Alle Artike"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Gemeinsam für freie Presse"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Inhaltlichen Fehler melden\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSollten Ihnen Fehler aufgefallen sein, schicken Sie uns gerne eine E-Mail an\nfehlerhinweis@taz.de!\n\n\nInhaltliche Rückm"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Inhaltlichen Fehler melden"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "@scope {\n.shariff-button.mail{\norder: 1;\n}\n.shariff-button.mastodon{\norder: 2;\n}\n.shariff-button.bluesky{\norder: 3;\n}\n.shariff-button.facebook{\norder: 4;\n}\n.sha"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Mehr zum Thema"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "klimawandel"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "10 Ausgaben für 10 Euro"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Die Wochenzeitung mit taz-Blick"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"articleBody\":\"\\n      \\n      An normalen Tagen spielen Kinder auf dem Schulhof der Joan-Baptista-Serra-"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "0 Kommentare"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "#noPicAvatar {\nposition: relative;\n}\n#noPicAvatar::before {\ncontent: \"\";\nposition: absolute;\nwidth: 55px;\nheight: 55px;\nbackground-size: 55px 55px;\nborder-radiu"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Die Kommentarfunktion unter diesem Artikel ist geschlossen.\nWir öffnen die Kommentarspalte bei ausgewählten Artikeln für etwa drei Tage\n–  hier sind sie zu find"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Login Kommune\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimport { TazUser } from '/lib/taz-verlag-node/js/user_auth.js'\nif (typeof window.TazUser === 'undefined') {\nwindow.TazUser = TazUs"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Login Kommune"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "import { TazUser } from '/lib/taz-verlag-node/js/user_auth.js'\nif (typeof window.TazUser === 'undefined') {\nwindow.TazUser = TazUser\n}"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Sie können nur als eingeloggter taz-User kommentieren. Sie haben noch keinen taz-Account? Registrieren Sie sich hier.\n\n\n\n\n\n\n\n\nE-Mail\n\n\n\n\n\n\n\n\n\n\n\n\n\nPasswort\n\n\n\n\n\n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "E-Mail"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Passwort"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Einloggen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Sie sind eingeloggt.\n\n\n\nAusloggen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Ausloggen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Kommentar melden\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformationen zu allgemeinen Moderationskriterien sind in unserer Netiquette zusammengefasst.\n\n\n\n\n\n\n\n\nMeldegrund\n\n\n\n\n von  Zeic"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Kommentar melden"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Informationen zu allgemeinen Moderationskriterien sind in unserer Netiquette zusammengefasst.\n\n\n\n\n\n\n\n\nMeldegrund\n\n\n\n\n von  Zeichen\n\n\n\n\n\n\nKommentar melden"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Meldegrund"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Kommentar melden"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "function sortCommentsByDateTime(order = 'asc') {\nconst commentsList = document.querySelector(' .comments-container ');\n// sort first level only\nconst comments ="
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "meistkommentiert"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "taz\n\nFolgen Sie uns\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Ressorts\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolitik\n\n\n\n\n\n\nÖko\n\n\n\n\n\n\nGesellschaft\n\n\n\n\n\n\nKultur\n\n\n\n\n\n\nSport\n\n\n\n\n\n\nBerlin\n\n\n\n\n\n\nNord\n\n\n\n\n\n\nWah"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav-",
+   "selector": "nav-",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: nav_",
+   "selector": "nav_",
+   "text": "\ntaz zahl ich \n\ntaz zahl ich"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -menu",
+   "selector": "-menu",
+   "text": "verlag\n\n\n\n\n\n\n\n\n\n\nveranstaltungen\n\n\n\n\n\n\n\n\n\n\nshop\n\n\n\n\n\n\n\n\n\n\nfragen & hilfe\n\n\n\n\n\n\n\n\n\n\n\n\nabo\n\n\n\n\n\n\n\n\n\n\ngenossenschaft\n\n\n\n\n\n\n\n\n\n\nepaper login"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -menu",
+   "selector": "-menu",
+   "text": "verlag\n\n\n\n\n\n\n\n\n\n\nveranstaltungen\n\n\n\n\n\n\n\n\n\n\nshop\n\n\n\n\n\n\n\n\n\n\nfragen & hilfe"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -menu",
+   "selector": "-menu",
+   "text": "abo\n\n\n\n\n\n\n\n\n\n\ngenossenschaft\n\n\n\n\n\n\n\n\n\n\nepaper login"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: breadcrumb",
+   "selector": "breadcrumb",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: breadcrumb",
+   "selector": "breadcrumb",
+   "text": "Startseite\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolitik\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEuropa\n\n\n\n\n\n\n\n\n\n\n\n\nKlimawandel\n\n\n\n\n\n\n\n\n\n\n\nNeues Schulfach in Spanien:\nMathe, Sport, Klimakrise"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: complementary",
+   "selector": "complementary",
+   "text": ": \n\n\nIn Spanien üben Kinder im Unterricht, wie sie sich bei Waldbränden oder Überflutungen am besten verhalten. Braucht es das auch in Deutschland?\n\n\n\n\n\n\n19.6.2"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: shariff-",
+   "selector": "shariff-",
+   "text": "Diesen Artikel teilen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: author-name",
+   "selector": "author-name",
+   "text": "Aus Alcanar\n\n\n\n\n\n\nKathrin Boehme"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: error-",
+   "selector": "error-",
+   "text": "Feedback\n\n\nKommentieren\n\n\nFehlerhinweis"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: shariff-",
+   "selector": "shariff-",
+   "text": "Diesen Artikel teilen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: avatar",
+   "selector": "avatar",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comment-form",
+   "selector": "comment-form",
+   "text": "Die Kommentarfunktion unter diesem Artikel ist geschlossen.\nWir öffnen die Kommentarspalte bei ausgewählten Artikeln für etwa drei Tage\n–  hier sind sie zu find"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: -menu",
+   "selector": "-menu",
+   "text": "Einloggen\n\n\n\nRegistrieren\n\n\nPasswort vergessen?\n\n\n\n\n\nProfil anzeigen\n\n\n\nProfil bearbeiten \n\n\nLogout"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: _modal",
+   "selector": "_modal",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: comments",
+   "selector": "comments",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "taz\n\nFolgen Sie uns"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Ressorts\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolitik\n\n\n\n\n\n\nÖko\n\n\n\n\n\n\nGesellschaft\n\n\n\n\n\n\nKultur\n\n\n\n\n\n\nSport\n\n\n\n\n\n\nBerlin\n\n\n\n\n\n\nNord\n\n\n\n\n\n\nWahrheit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Themen\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Ressorts"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Politik"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Öko"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Gesellschaft"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Kultur"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Sport"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Berlin"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Nord"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Wahrheit"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Themen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Gen Z regelt"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Israel"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Frontex"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Serbien"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Endlagersuche"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Sozialproteste"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Verlag"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Aktuelles"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Hausblog"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Die Seitenwende"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Stellen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Presse"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Unterstützen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "abo"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "genossenschaft"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "taz zahl ich"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "recherchefonds ausland"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "panterstiftung"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "panterpreis 2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "genoversammlung 2026"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Podcast"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "bundestalk"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "fernverbindung"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "klima update°"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Mauerecho"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Freie Rede"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "reingehen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Newsletter"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "team zukunft"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "taz frisch"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "taz zahl ich"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "taz lab Infobrief"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Veranstaltungen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Demnächst"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Vor Ort"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Live im Stream"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Vergangene"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "taz lab 2027"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Mehr taz Lesestoff"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "taz Blogs"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "taz FUTURZWEI"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Le Monde diplomatique"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "taz Archiv"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Mehr taz Angebote"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Reisen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Kantine"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Shop"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Anzeigen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Fragen & Hilfe"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Feedback"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Aboservice"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "ePaper Login"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Downloads für Abonnierende"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "lizenzen@taz.de"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Feedback"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Seitenwende"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Redaktionsstatut"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Kommune-Richtlinien"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "KI-Leitlinie"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Informant"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Datenschutz"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Impressum"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "AGB"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Vertrag kündigen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Vertrag widerrufen"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Einwilligungen widerrufen (Ads)"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -25",
+   "text": "Themen\n\n\n\n#Zukunft\n\n\n\n\n#wochentaz\n\n\n\n\n#Klimawandel\n\n\n\n\n#Überflutung\n\n\n\n\n#Hitze"
+  }
+ ],
+ "content": "\n      \n      An normalen Tagen spielen Kinder auf dem Schulhof der Joan-Baptista-Serra-Grundschule in Alcanar. Heute fahren Blaulichtfahrzeuge mit Sirenen auf den Hof. Der Katastrophenschutz ist zu Besuch.\n      Denn statt Mathe oder Englisch steht ein neues Fach auf dem Stundenplan: der Klimaunterricht. Er soll seit diesem Schuljahr an allen Schulen Spaniens verpflichtend Kinder und Jugendliche auf die Auswirkungen der Klimakrise vorbereiten, praktisch und lebensnah. In kaum einem anderen Land ist die Anpassung an die Erderwärmung so schnell im Lehrplan angekommen.\n      \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n      Auslöser dafür war eine der größten Naturkatastrophen in Spaniens Geschichte, gerade mal rund 150 Kilometer südwestlich der Serra-Grundschule. Im Oktober 2024 starben in der Region Valencia mehr als 220 Menschen durch eine Flut. Das Unglück traf die Region völlig unvorbereitet, die Regierung sah sich heftiger Kritik ausgesetzt.\n      Währenddessen schreitet die Erderhitzung kaum gebremst voran, mit jedem Zehntelgrad wird die Anzahl von Waldbränden, Überschwemmungen oder Dürren in den nächsten Jahren weltweit zunehmen. Die Katastrophe von Valencia hat Spanien zum Handeln gebracht. Einen Monat nach der Überflutung verabschiedete die Regierung ein Gesetz, das Klimabildung verpflichtend macht.\n      Eine aufgeklärte Bevölkerung rettet im Ernstfall Leben\n      Während in Deutschland bei der Katastrophenprävention meist über teure Infrastruktur, neue Deiche oder Sirenen diskutiert wird, zeigt der spanische Vorstoß eine andere Dimension: Eine aufgeklärte Bevölkerung kostet den Staat kaum Geld, rettet im Ernstfall aber Leben. Entwickelt Spanien damit ein Bildungsmodell für die Zukunft?\n      In Alcanar üben die Grund­schü­le­r:in­nen als Erstes, wie sie sich im Falle eines Feuers zu verhalten hätten. Die Feuerwehr betritt das Gebäude, ausgestattet mit Schutzausrüstung, Schläuchen und Rauchmasken. Aus den oberen Klassenzimmern winken ihnen die Schü­le­r:in­nen zu – sie wissen, dass es sich nur um eine Simulation handelt. Vom Schulhof aus beobachtet Mario González Jorge, Direktor der regionalen Bildungsbehörde, das Geschehen. „Wir merken schon lange, dass der Klimawandel im vollen Gange ist und die Extremwetterereignisse zunehmen“, sagt er.\n      Deswegen unterstützt er den neuen Lehrplan. Die Schulkinder sollen lernen, wie sie Gefahrensituationen erkennen und sich schützen können. „Und das nicht nur in der Schule, sondern auch außerhalb.“ Wann ist es sicherer, in einem Gebäude zu bleiben, wann besser, schnell zu evakuieren? Dafür sollen die Grundschulkinder ein Gefühl entwickeln.\n      Schon ab dem Vorschulalter finden mindestens zwei Unterrichtsstunden im Jahr statt. Das schreibt der Ausbildungsplan vor, den das Bildungs- und das Innenministerium gemeinsam erarbeitet haben. „Es geht darum, den Schü­le­r:in­nen angemessene Kenntnisse und Werte zu vermitteln, um Notfallsituationen effektiv und sicher zu bewältigen“, heißt es im Papier der Regierung.\n      Spielerisch sollen Kinder dabei lernen, wie sie einen Alarm und erste Gefahrenzeichen erkennen. In der dritten und vierten Klasse besteht der Klimaunterricht aus vier Stunden im Jahr: drei Theorieeinheiten und eine praktische Übung. Ab dem kommenden Schuljahr soll der Lehrplan auch in den weiterführenden Schulen umgesetzt und möglicherweise um mehr Stunden erweitert werden.\n      \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n      Der genaue Inhalt des Unterrichts wird an die geografische Lage der Schulen angepasst. In einem Dorf am Waldrand sollen die Schulkinder andere Schutzmaßnahmen lernen, als in einer Stadt am Meer. Wie in Deutschland ist das Thema Bildung in Spanien hauptsächlich Ländersache, allerdings darf die Zentralregierung in Madrid verbindliche Basislehrpläne für das ganze Land vorgeben. Die autonomen Regionen sind dafür zuständig, den Klimaunterricht nun konkret in ihre Lehrpläne einzubauen und ihre Leh­re­r:in­nen fortzubilden.\n      Dass der praktische Unterricht in Alcanar – einer Stadt nahe des Mittelmeers, die selbst schon Überflutungen erlebt hat – ausgerechnet mit einer Feuerschutzübung beginnt, wirkt etwas paradox. Die Gründe dafür sind dann auch eher pragmatischer Natur. Feuerschutzübungen fanden hier wie auch in anderen Schulen schon vor der Einführung des neuen Unterrichts statt. Daher war das Brandszenario am einfachsten umzusetzen, während aufwendigere Simulationen erst noch vorbereitet werden müssen.\n      Die Kinder lernen mit psychischen Belastungen umzugehen\n      Zugleich erreicht die Zahl der Waldbrände in Spanien jährlich neue Rekord, gerade in den trockenen Regionen des Landes und bedingt durch die Klimakrise. Deshalb gehört der Brandschutz nun ganz offiziell zum Lehrplan. Auch die Vorbereitung auf Erdbeben, Flutwellen, Überflutungen oder Chemie- und Nuklearunfälle steht auf dem Programm.\n      Neben konkreten Verhaltensweisen sollen die Schü­le­r:in­nen in Alcanar auch lernen, in Notfallsituationen Desinformationen zu erkennen und Krisen emotional zu bewältigen. Als die Feuerwehrleute nach einiger Zeit den fiktiven Brand gelöscht haben, warten die Schü­le­r:in­nen weiterhin in den oberen Stockwerken des Gebäudes ab. Gleichzeitig verlassen zwei Lehrerinnen die Schule und spielen eine Panikattacke vor. Ein Rettungssanitäter sorgt für emotionale Unterstützung.\n      In weiteren Einheiten sollen auch die Schulkinder selbst lernen, wie sie mit den psychischen Belastungen einer Krise umgehen können. Ziel des neuen Lehrplans ist es, „die Schü­le­r:in­nen für die Bedeutung des emotionalen Wohlbefindens zu sensibilisieren“.\n      Auch in Deutschland wurde längst beschlossen, dass Schulkinder mehr über die Klimakrise lernen sollen. Die Schul­mi­nis­te­r:in­nen aller Bundesländer haben 2017 dem Nationalen Aktionsplan Bildung für nachhaltige Entwicklung zugestimmt, wonach Nachhaltigkeit in „allen Bildungsbereichen strukturell verankert werden“ soll. Der Klimawandel wird in verschiedenen Fächern thematisiert, ein praktischer Unterricht wie in Spanien ist aber nicht offiziell vorgesehen.\n      Politische Klimabildung kommt oft zu kurz\n      Das liege auch daran, dass die Folgen der Klimakrise in Deutschland oft noch verdrängt werden, sagt Inga Feuser, zweite Bundesvorsitzende der Teachers for Future. Zwar häufen sich auch hierzulande die Extremwetterereignisse, aber so direkt wie südlichere Länder ist Deutschland noch nicht von extremen Dürren, Waldbränden und Hitzesommern betroffen.\n      „Natürlich wird die Erderwärmung in den Schulen besprochen“, sagt Feuser, die selbst Deutsch, Geschichte und Religion an einem Gymnasium in Nordrhein-Westfalen unterrichtet, „aber wir wünschen uns einen größeren themenorientierten Fokus.“ Es sei für sie richtig, dass die Klimakrise aus unterschiedlichen Perspektiven statt in einem einzigen Fach beleuchtet werde. „Aber wenn wir in der siebten Klasse in Erdkunde darüber sprechen und in der achten in Physik, fehlen oft die Zusammenhänge.“\n      Der Hamburger Schülerin Nuria Neubauer ist das nicht genug. In einem Gastbeitrag in der Zeit stellt das Fridays-for-Future-Mitglied fest, dass Schulbehörden zwar langsam endlich Bildung für nachhaltige Entwicklung in die Lehrpläne inkludieren – aber vor allem mit dem Fokus, wie das eigene Handeln andere Menschen und Generationen beeinflusst und welche globalen Mechanismen zu Krieg führen können. „Ein Fach zur Vorbereitung auf Krisenmanagement und extreme Dürre, Hitze, Wasserknappheit, Starkregenfälle, Fluten und Waldbrände ist das also nicht.“\n      Laut einer Auswertung der Unesco haben etwa 70 Prozent aller jungen Menschen das Gefühl, nicht über genügend Wissen zu verfügen, um den Klimawandel zu verstehen. Umgekehrt fühlt sich auch nur ein Drittel aller Lehrkräfte weltweit überhaupt in der Lage, die lokalen Auswirkungen des Klimawandels im Unterricht angemessen zu erklären.\n      \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n      Das soll sich in Deutschland ändern, indem „die Bedeutung von Bildung für nachhaltige Entwicklung verstärkt wird“. Das Bundeskabinett hat einen Indikator beschlossen, der Schulen nach ihrem Engagement misst. Im Schuljahr 2023/2024 hatte bundesweit etwa jede zehnte Schule das Thema Bildung für nachhaltige Entwicklung ausreichend im Unterricht und der Schule selbst etabliert. Udo Michallik, Generalsekretär der Kultusministerkonferenz, blickt optimistisch in die Zukunft: „Ich bin zuversichtlich, dass der Indikator noch weitere Schulen motiviert, Bildung für nachhaltige Entwicklung als orientierendes Konzept für Schulentwicklung zu verankern.“\n      Für Lehrerin Feuser reicht das noch nicht aus. Es sei zentral, die politische Bildung in Schulen zu verstärken. „Wir müssen Schü­le­r:in­nen bewusst machen, dass sie das Menschenrecht auf einen intakten Planeten haben und sie ermächtigen, dieses Recht einzufordern. Wie zynisch ist es, nur zu lehren: Wir verbrennen eure Welt, aber so könnt ihr damit umgehen.“ Unterricht zur emotionalen Bewältigung der Krise fehle in Deutschland ebenso wie zum sozialen Umgang miteinander in den kommenden Katastrophen.\n      Damals wusste niemand, was zu tun war\n      Auch beim Lehrpersonal in Alcanar herrscht Gewissheit, dass sich Extremwetterereignisse häufen werden. Die Schule liegt nicht weit vom Meer, sodass der steigende Wasserspiegel schon jetzt Sorgen bereitet. Nachdem Feuerwehr und Rettungswagen abgezogen sind und der gewohnte Unterricht weitergeht, fasst Mario González Jorge zusammen: „Wir wollen in der Schule für das Leben lernen. Und dazu gehört auch die Vorbereitung auf den Klimawandel.“\n      Vor fünf Jahren stand die Joan-Baptista-Serra-Schule nach Starkregenfällen bereits einmal unter Wasser. Die Flut war so heftig, dass Tische und Stühle aus der Stadt bis zum Meer gerissen wurden. Personen waren nicht direkt betroffen, aber die Leh­re­r:in­nen in Alcanar erinnern sich noch gut an das Chaos und den Schock in der Schule.\n      „Damals wusste niemand, was zu tun war“, sagt die Lehrerin, die zuvor den Panikanfall simuliert hatte. Die Brandschutzübung sei für sie erst der Anfang. Für den Ernstfall will sie, dass alle wissen, wie sich die Schule schnell evakuieren ließe. Jetzt zumindest ein wenig besser vorbereitet zu sein, fühle sich beruhigend an.\n    ",
+ "markdown": null
+}

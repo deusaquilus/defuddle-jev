@@ -1,0 +1,447 @@
+{
+  "fixtures": 226,
+  "extractor_fixtures": 17,
+  "errors": 0,
+  "parseInternal_calls_total": 544,
+  "fixtures_with_retry": 179,
+  "firstpass_wordcount_lt200": 163,
+  "firstpass_wordcount_lt50": 54,
+  "retry_changed_result": 11,
+  "retry_kinds": {
+    "initial": 231,
+    "removePartialSelectors": 182,
+    "removeHiddenElements": 64,
+    "removeContentPatterns+removeLowScoring+removePartialSelectors": 57,
+    "contentSelector": 1,
+    "contentSelector+removeHiddenElements+removePartialSelectors": 7
+  },
+  "findMain": {
+    "measured": 211,
+    "chosenIsTop": 205,
+    "chosenNotTop": 6,
+    "bodyOnly": 26,
+    "chosenIsBody": 25,
+    "margin_lt10": 2,
+    "margin_lt40": 4,
+    "margin_lt80": 14,
+    "secondInsideTop": 23,
+    "nCandidates_dist": {
+      "1": 26,
+      "2": 123,
+      "3": 44,
+      "4": 8,
+      "5": 3,
+      "6+": 7
+    }
+  },
+  "scoring": {
+    "blocks_scored": 502,
+    "removed_lt0": 52,
+    "kept_ge0": 450,
+    "exactly0": 408,
+    "band_m5_to_5_nonzero": 41,
+    "band_m10_to_10_nonzero": 62,
+    "band_le_m20": 14,
+    "isLikelyContent_calls": 1160,
+    "isLikelyContent_true": 658
+  },
+  "removals_by_step_total": {
+    "removeBySelector": 1778,
+    "removeByContentPattern": 50,
+    "removeEyebrowLabel": 10,
+    "scoreAndRemove": 52,
+    "removeHiddenElements": 48
+  },
+  "examples_nearzero_nonzero": [
+    {
+      "fixture": "callouts--obsidian-publish-callouts",
+      "score": 1,
+      "words": 9,
+      "tag": "div",
+      "text": "Is this foldable?Yes, the content is hidden when collapsed."
+    },
+    {
+      "fixture": "callouts--obsidian-publish-callouts",
+      "score": 1,
+      "words": 9,
+      "tag": "div",
+      "text": "Is this foldable?Yes, the content is hidden when collapsed."
+    },
+    {
+      "fixture": "callouts--obsidian-publish-callouts",
+      "score": 1,
+      "words": 3,
+      "tag": "div",
+      "text": "Aliases: summary, tldr"
+    },
+    {
+      "fixture": "callouts--obsidian-publish-callouts",
+      "score": 1,
+      "words": 3,
+      "tag": "div",
+      "text": "Aliases: hint, important"
+    },
+    {
+      "fixture": "content-patterns--card-grid-stripped-headings",
+      "score": 1,
+      "words": 19,
+      "tag": "section",
+      "text": "After years of delays, the joint mission to retrieve cached Martian samples has received f"
+    },
+    {
+      "fixture": "content-patterns--non-semantic-hero-header",
+      "score": 1,
+      "words": 12,
+      "tag": "div",
+      "text": "Posted by Jane Reporter on April 20, 2026 @ 8:39 am CT"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 9,
+      "tag": "div",
+      "text": "Now Selling Riverside Heights 123 River Road, District 1"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 9,
+      "tag": "div",
+      "text": "Now Selling Riverside Heights 123 River Road, District 1"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 9,
+      "tag": "div",
+      "text": "Now Selling Riverside Heights 123 River Road, District 1"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 9,
+      "tag": "div",
+      "text": "Now Selling Riverside Heights 123 River Road, District 1"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 9,
+      "tag": "div",
+      "text": "Now Selling Riverside Heights 123 River Road, District 1"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 8,
+      "tag": "div",
+      "text": "Ocean View Tower 456 Beach Avenue, District 3"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 8,
+      "tag": "div",
+      "text": "Ocean View Tower 456 Beach Avenue, District 3"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 8,
+      "tag": "div",
+      "text": "Ocean View Tower 456 Beach Avenue, District 3"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 8,
+      "tag": "div",
+      "text": "Ocean View Tower 456 Beach Avenue, District 3"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 8,
+      "tag": "div",
+      "text": "Ocean View Tower 456 Beach Avenue, District 3"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 8,
+      "tag": "div",
+      "text": "Central Plaza Residence 789 Main Street, District 5"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 8,
+      "tag": "div",
+      "text": "Central Plaza Residence 789 Main Street, District 5"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 8,
+      "tag": "div",
+      "text": "Central Plaza Residence 789 Main Street, District 5"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 8,
+      "tag": "div",
+      "text": "Central Plaza Residence 789 Main Street, District 5"
+    },
+    {
+      "fixture": "elementor--archive-page",
+      "score": 1,
+      "words": 8,
+      "tag": "div",
+      "text": "Central Plaza Residence 789 Main Street, District 5"
+    },
+    {
+      "fixture": "elements--lazy-image",
+      "score": 1,
+      "words": 19,
+      "tag": "div",
+      "text": "Node.js and CPU profiling on production (in real-time without downtime) Vincent Vallet Oct"
+    },
+    {
+      "fixture": "elements--lazy-image",
+      "score": 1,
+      "words": 9,
+      "tag": "div",
+      "text": "Vincent Vallet Oct 18, 2019 · 8 min read"
+    },
+    {
+      "fixture": "elements--lazy-image",
+      "score": 1,
+      "words": 9,
+      "tag": "div",
+      "text": "Vincent Vallet Oct 18, 2019 · 8 min read"
+    },
+    {
+      "fixture": "elements--lazy-image",
+      "score": 1,
+      "words": 9,
+      "tag": "div",
+      "text": "Vincent Vallet Oct 18, 2019 · 8 min read"
+    }
+  ],
+  "examples_chosenNotTop": [
+    {
+      "fixture": "entry-point--js-article-content",
+      "top": {
+        "tag": "main",
+        "selector": "main",
+        "score": 912.1,
+        "words": 609
+      },
+      "chosen": ".js-article-content",
+      "margin": 143.7
+    },
+    {
+      "fixture": "footnotes--maggieappleton.com-xanadu-patterns",
+      "top": {
+        "tag": "main",
+        "selector": "main",
+        "score": 3721,
+        "words": 2877
+      },
+      "chosen": "article",
+      "margin": 39.8
+    },
+    {
+      "fixture": "gated-content--cookie-consent",
+      "top": {
+        "tag": "body",
+        "selector": "body",
+        "score": 600.1,
+        "words": 488
+      },
+      "chosen": "main",
+      "margin": 44.1
+    },
+    {
+      "fixture": "general--substack-app",
+      "top": {
+        "tag": "body",
+        "selector": "body",
+        "score": 993.8,
+        "words": 721
+      },
+      "chosen": "[role=\"article\"]",
+      "margin": 719.3
+    },
+    {
+      "fixture": "table-layout--blogger-two-column",
+      "top": {
+        "tag": "body",
+        "selector": "body",
+        "score": 527.4,
+        "words": 479
+      },
+      "chosen": "(table/scoring fallback)",
+      "margin": null
+    },
+    {
+      "fixture": "table-layout--paulgraham.com-makersschedule",
+      "top": {
+        "tag": "body",
+        "selector": "body",
+        "score": 1198.9,
+        "words": 1141
+      },
+      "chosen": "(table/scoring fallback)",
+      "margin": null
+    }
+  ],
+  "examples_small_margin": [
+    {
+      "fixture": "codeblocks--mintlify",
+      "top": {
+        "tag": "div",
+        "selector": "#content",
+        "score": 363.9,
+        "words": 279
+      },
+      "second": {
+        "tag": "body",
+        "selector": "body",
+        "score": 334.8,
+        "words": 301
+      },
+      "margin": 29.1,
+      "chosenIsTop": true
+    },
+    {
+      "fixture": "footnotes--maggieappleton.com-xanadu-patterns",
+      "top": {
+        "tag": "main",
+        "selector": "main",
+        "score": 3721,
+        "words": 2877
+      },
+      "second": {
+        "tag": "body",
+        "selector": "body",
+        "score": 3681.2,
+        "words": 3008
+      },
+      "margin": 39.8,
+      "chosenIsTop": false
+    }
+  ],
+  "examples_retry_changed": [
+    {
+      "fixture": "author-contact-block",
+      "calls": [
+        "initial=0",
+        "removePartialSelectors=236"
+      ],
+      "final": 236
+    },
+    {
+      "fixture": "elements--figure-content-wrapper",
+      "calls": [
+        "initial=24",
+        "removePartialSelectors=33",
+        "removeHiddenElements=24",
+        "removeContentPatterns+removeLowScoring+removePartialSelectors=33"
+      ],
+      "final": 33
+    },
+    {
+      "fixture": "general--substack-app",
+      "calls": [
+        "initial=0",
+        "removePartialSelectors=44",
+        "removeHiddenElements=0",
+        "removeContentPatterns+removeLowScoring+removePartialSelectors=47",
+        "contentSelector=234"
+      ],
+      "final": 234
+    },
+    {
+      "fixture": "issues--131-category-links",
+      "calls": [
+        "initial=19",
+        "removePartialSelectors=19",
+        "removeHiddenElements=19",
+        "removeContentPatterns+removeLowScoring+removePartialSelectors=31"
+      ],
+      "final": 31
+    },
+    {
+      "fixture": "issues--162-aria-hidden-main-content",
+      "calls": [
+        "initial=2",
+        "removePartialSelectors=4",
+        "removeHiddenElements=86",
+        "contentSelector+removeHiddenElements+removePartialSelectors=84"
+      ],
+      "final": 84
+    },
+    {
+      "fixture": "issues--232-dismiss-in-hidden-content",
+      "calls": [
+        "initial=0",
+        "removePartialSelectors=2",
+        "removeHiddenElements=77",
+        "contentSelector+removeHiddenElements+removePartialSelectors=79"
+      ],
+      "final": 79
+    },
+    {
+      "fixture": "issues--361-escaped-id",
+      "calls": [
+        "initial=5",
+        "removePartialSelectors=5",
+        "removeHiddenElements=175",
+        "contentSelector+removeHiddenElements+removePartialSelectors=170"
+      ],
+      "final": 170
+    },
+    {
+      "fixture": "issues--361-shadow-selector-stability",
+      "calls": [
+        "initial=9",
+        "removePartialSelectors=9",
+        "removeHiddenElements=179",
+        "contentSelector+removeHiddenElements+removePartialSelectors=170"
+      ],
+      "final": 170
+    },
+    {
+      "fixture": "issues--361-special-class-selectors",
+      "calls": [
+        "initial=5",
+        "removePartialSelectors=5",
+        "removeHiddenElements=175",
+        "contentSelector+removeHiddenElements+removePartialSelectors=170"
+      ],
+      "final": 170
+    },
+    {
+      "fixture": "issues--361-tailwind-ancestor",
+      "calls": [
+        "initial=5",
+        "removePartialSelectors=5",
+        "removeHiddenElements=175",
+        "contentSelector+removeHiddenElements+removePartialSelectors=170"
+      ],
+      "final": 170
+    },
+    {
+      "fixture": "issues--react-streaming-ssr-colon-id",
+      "calls": [
+        "initial=0",
+        "removePartialSelectors=0",
+        "removeHiddenElements=234",
+        "contentSelector+removeHiddenElements+removePartialSelectors=234"
+      ],
+      "final": 234
+    }
+  ]
+}

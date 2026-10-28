@@ -1,0 +1,14 @@
+import { loadJsonl, rowsFrom, report, HEADER, withTitleRule } from './metrics.mjs';
+const v1 = loadJsonl('/home/alexi/git/defuddle/experiments/jev/research/results/exp-block-classification/raw-v1.jsonl');
+const CONTENT = ['article_body','heading','media_or_figure','code_or_table','footnotes_or_references'];
+const noul = rowsFrom(v1, r => r.p_keep);
+const kindSum = rowsFrom(v1, r => CONTENT.reduce((s,k)=>s+(r.kind_probabilities?.[k]||0),0));
+const kindArgmax = rowsFrom(v1, r => CONTENT.includes(r.kind) ? 1 : 0);
+const avg = rowsFrom(v1, r => (r.p_keep + CONTENT.reduce((s,k)=>s+(r.kind_probabilities?.[k]||0),0))/2);
+console.log(HEADER);
+console.log(report('A. bundled keep yes/no', noul));
+console.log(report('B. 12-way kind, argmax', kindArgmax));
+console.log(report('C. 12-way kind, P(content) sum', kindSum));
+console.log(report('D. mean of A and C', avg));
+console.log(report('A + code title rule', withTitleRule(noul)));
+console.log(report('C + code title rule', withTitleRule(kindSum)));

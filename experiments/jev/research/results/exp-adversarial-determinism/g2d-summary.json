@@ -1,0 +1,57 @@
+{
+  "d": {
+    "group": "clutter",
+    "n": 20,
+    "errors": 0,
+    "baseline_reproduced": 20,
+    "flipped_to_target": 5,
+    "flipped_to_mixed": 1,
+    "unchanged": 14,
+    "main_container_changed": 6,
+    "output_words_delta_mean": -49.1
+  },
+  "d2": {
+    "group": "clutter",
+    "n": 20,
+    "errors": 0,
+    "baseline_reproduced": 20,
+    "flipped_to_target": 7,
+    "flipped_to_mixed": 1,
+    "unchanged": 12,
+    "main_container_changed": 6,
+    "output_words_delta_mean": -45.3
+  },
+  "f": {
+    "group": "prose",
+    "n": 20,
+    "errors": 0,
+    "baseline_reproduced": 20,
+    "flipped_to_target": 19,
+    "flipped_to_mixed": 0,
+    "unchanged": 1,
+    "main_container_changed": 1,
+    "output_words_delta_mean": -65.9
+  },
+  "f2": {
+    "group": "prose",
+    "n": 20,
+    "errors": 0,
+    "baseline_reproduced": 20,
+    "flipped_to_target": 19,
+    "flipped_to_mixed": 0,
+    "unchanged": 1,
+    "main_container_changed": 1,
+    "output_words_delta_mean": -65.9
+  },
+  "f3": {
+    "group": "prose",
+    "n": 20,
+    "errors": 0,
+    "baseline_reproduced": 20,
+    "flipped_to_target": 19,
+    "flipped_to_mixed": 0,
+    "unchanged": 1,
+    "main_container_changed": 1,
+    "output_words_delta_mean": -65.9
+  }
+}

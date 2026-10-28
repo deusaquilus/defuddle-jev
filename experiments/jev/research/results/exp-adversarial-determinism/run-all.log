@@ -1,0 +1,85 @@
+=== 2026-10-27T19:59:29-04:00 START g1.mjs A
+bash: cannot set terminal process group (295862): Inappropriate ioctl for device
+bash: no job control in this shell
+[g1 pass A] units=150 todo=150 calls=1,2 model=jev-1.14.0
+[g1 A] 50/150 errors=0 1s
+[g1 A] 100/150 errors=0 3s
+[g1 A] 150/150 errors=0 4s
+[g1 A] done n=150 errors=0 wall=3.7s {"calls":300,"errors":0,"input_tokens":188514,"output_tokens":6000,"est_cost_usd":0.007918,"latency_ms":{"p50":64.28062,"p90":99.41943200000003,"p99":186.111332,"max":445.88164400000005,"n":300}}
+=== 2026-10-27T19:59:34-04:00 END g1.mjs A
+=== 2026-10-27T19:59:34-04:00 START g2.mjs
+bash: cannot set terminal process group (295862): Inappropriate ioctl for device
+bash: no job control in this shell
+[g2] jobs=900 todo=900 model=jev-1.14.0
+[g2] 100/900 errors=0 1s
+[g2] 200/900 errors=0 3s
+[g2] 300/900 errors=0 4s
+[g2] 400/900 errors=0 5s
+[g2] 500/900 errors=0 6s
+[g2] 600/900 errors=0 7s
+[g2] 700/900 errors=0 8s
+[g2] 800/900 errors=0 9s
+[g2] 900/900 errors=0 11s
+[g2] done n=900 errors=0 wall=10.7s {"calls":900,"errors":0,"input_tokens":674442,"output_tokens":18000,"est_cost_usd":0.028327,"latency_ms":{"p50":62.952126999999905,"p90":95.7178700000004,"p99":159.11451499999976,"max":364.34778499999993,"n":900}}
+=== 2026-10-27T19:59:45-04:00 END g2.mjs
+=== 2026-10-27T19:59:45-04:00 START g1.mjs B
+bash: cannot set terminal process group (295862): Inappropriate ioctl for device
+bash: no job control in this shell
+[g1 pass B] units=150 todo=150 calls=3 model=jev-1.14.0
+[g1 B] 50/150 errors=0 1s
+[g1 B] 100/150 errors=0 1s
+[g1 B] 150/150 errors=0 2s
+[g1 B] done n=150 errors=0 wall=2.0s {"calls":150,"errors":0,"input_tokens":94257,"output_tokens":3000,"est_cost_usd":0.003959,"latency_ms":{"p50":67.84472800000003,"p90":99.16238300000009,"p99":192.01256300000003,"max":194.509092,"n":150}}
+=== 2026-10-27T19:59:47-04:00 END g1.mjs B
+=== 2026-10-27T19:59:47-04:00 START g3.mjs
+bash: cannot set terminal process group (295862): Inappropriate ioctl for device
+bash: no job control in this shell
+[g3] jobs=750 todo=750 model=jev-1.14.0
+[g3] 100/750 errors=0 1s
+[g3] 200/750 errors=0 3s
+[g3] 300/750 errors=0 4s
+[g3] 400/750 errors=0 5s
+[g3] 500/750 errors=0 6s
+[g3] 600/750 errors=0 7s
+[g3] 700/750 errors=0 8s
+[g3] done n=750 errors=0 wall=9.0s {"calls":750,"errors":0,"input_tokens":509685,"output_tokens":29250,"est_cost_usd":0.021407,"latency_ms":{"p50":63.055025,"p90":102.44693199999983,"p99":153.7366579999998,"max":228.96852200000103,"n":750}}
+=== 2026-10-27T19:59:56-04:00 END g3.mjs
+=== 2026-10-27T19:59:56-04:00 START g1.mjs C
+bash: cannot set terminal process group (295862): Inappropriate ioctl for device
+bash: no job control in this shell
+[g1 pass C] units=150 todo=150 calls=4 model=jev-1.14.0
+[g1 C] 50/150 errors=0 1s
+[g1 C] 100/150 errors=0 1s
+[g1 C] 150/150 errors=0 2s
+[g1 C] done n=150 errors=0 wall=1.9s {"calls":150,"errors":0,"input_tokens":94257,"output_tokens":3000,"est_cost_usd":0.003959,"latency_ms":{"p50":64.252164,"p90":104.07215700000006,"p99":158.906157,"max":172.896257,"n":150}}
+=== 2026-10-27T19:59:59-04:00 END g1.mjs C
+=== 2026-10-27T19:59:59-04:00 START g4.mjs
+bash: cannot set terminal process group (295862): Inappropriate ioctl for device
+bash: no job control in this shell
+[g4] states built: 500 {
+  alone_plain: { n: 100, est_tokens_mean: 133, max: 980 },
+  alone_marked: { n: 100, est_tokens_mean: 137, max: 984 },
+  parent: { n: 100, est_tokens_mean: 3529, max: 8014 },
+  grandparent: { n: 100, est_tokens_mean: 3863, max: 8014 },
+  body: { n: 100, est_tokens_mean: 4325, max: 8014 }
+}
+[g4] truncated: 100 parent==body: 0 grandparent==body: 0
+[g4] est total tokens: 1198767
+[g4] todo=500 model=jev-1.14.0
+[g4] 100/500 errors=0 2s
+[g4] 200/500 errors=0 3s
+[g4] 300/500 errors=0 5s
+[g4] 400/500 errors=0 6s
+[g4] 500/500 errors=0 7s
+[g4] done n=500 errors=0 wall=7.3s {"calls":500,"errors":0,"input_tokens":1507328,"output_tokens":10000,"est_cost_usd":0.063308,"latency_ms":{"p50":80.06025,"p90":125.2122789999994,"p99":193.0606600000001,"max":238.06528800000024,"n":500}}
+=== 2026-10-27T20:00:08-04:00 END g4.mjs
+=== 2026-10-27T20:00:08-04:00 START g1.mjs D
+bash: cannot set terminal process group (295862): Inappropriate ioctl for device
+bash: no job control in this shell
+[g1 pass D] units=150 todo=150 calls=5 model=jev-1.14.0
+[g1 D] 50/150 errors=0 1s
+[g1 D] 100/150 errors=0 1s
+[g1 D] 150/150 errors=0 2s
+[g1 D] done n=150 errors=0 wall=2.0s {"calls":150,"errors":0,"input_tokens":94257,"output_tokens":3000,"est_cost_usd":0.003959,"latency_ms":{"p50":67.12856600000009,"p90":108.46354400000018,"p99":166.62506700000003,"max":197.40765799999986,"n":150}}
+=== 2026-10-27T20:00:10-04:00 END g1.mjs D
+=== ALL DONE 2026-10-27T20:00:10-04:00

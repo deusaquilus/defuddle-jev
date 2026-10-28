@@ -1,0 +1,492 @@
+{
+ "policy": "phraseonly90",
+ "fixtures": {
+  "changed": 8,
+  "changed_list": [
+   "content-patterns--non-semantic-hero-header",
+   "eyebrow--wrapper-with-icon",
+   "footnotes--maggieappleton.com-xanadu-patterns",
+   "footnotes--wikipedia-references",
+   "general--scp-wiki.wikidot.com-scp-9935",
+   "general--wikipedia",
+   "issues--227-noscript-lazy-images",
+   "issues--header-with-subtitle-p"
+  ],
+  "restored": 24,
+  "restored_list": [
+   {
+    "page": "callouts--obsidian-publish-callouts",
+    "fp": "removeEyebrowLabel|div|76e7a3a3f9c2|f73d0f8b",
+    "step": "removeEyebrowLabel",
+    "reason": "eyebrow label",
+    "selector": "",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 2,
+    "tag": "div",
+    "text": "Getting started",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 0
+    }
+   },
+   {
+    "page": "callouts--obsidian-publish-callouts",
+    "fp": "removeBySelector|h1|bdb81e7cc6d3|b8c269d3",
+    "step": "removeBySelector",
+    "reason": "partial match: page-header",
+    "selector": "page-header",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 1,
+    "tag": "h1",
+    "text": "Callouts",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.92,
+     "po": 0.94,
+     "role": 0.985
+    }
+   },
+   {
+    "page": "codeblocks--mintlify",
+    "fp": "removeBySelector|header|87a6547f0a23|1b918e5b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "header:not(:has(p + p)):not(:has(img))"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 18,
+    "tag": "header",
+    "text": "Cover vs Contain Modes Learn the difference between cover and contain modes and when to use each one",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.995
+    }
+   },
+   {
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h1|7fb2c0867ec1|40ba159a",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 4,
+    "tag": "h1",
+    "text": "How Spacecraft Plumbing Works",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|b05a83d90694|b16a2b45",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 6,
+    "tag": "h2",
+    "text": "New Ion Thruster Breaks Efficiency Record",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.92,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|3db5c0551587|0f6c456b",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 7,
+    "tag": "h2",
+    "text": "Mars Sample Return Mission Gets Green Light",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.91,
+     "po": 0.95,
+     "role": 1
+    }
+   },
+   {
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|b21cd744541a|1b21f808",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 7,
+    "tag": "h2",
+    "text": "Commercial Space Station Module Passes Critical Review",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.88,
+     "po": 0.93,
+     "role": 1
+    }
+   },
+   {
+    "page": "content-patterns--non-semantic-hero-header",
+    "fp": "removeBySelector|div|7a81ea7d0675|80f82a59",
+    "step": "removeBySelector",
+    "reason": "partial match: more-",
+    "selector": "more-",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 3,
+    "tag": "div",
+    "text": "ABOUT THE AUTHOR",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.92,
+     "po": 0.92,
+     "role": 0.125
+    }
+   },
+   {
+    "page": "elements--figure-content-wrapper",
+    "fp": "removeBySelector|div|6930502d2fd4|369d0984",
+    "step": "removeBySelector",
+    "reason": "partial match: article-header",
+    "selector": "article-header",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 3,
+    "tag": "div",
+    "text": "Example Article Title",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.88,
+     "po": 0.92,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "eyebrow--linked-category",
+    "fp": "removeBySelector|h1|c9113c304a98|c8ae9aae",
+    "step": "removeBySelector",
+    "reason": "partial match: post-title",
+    "selector": "post-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 7,
+    "tag": "h1",
+    "text": "Notes on Distributed Training Methods This Week",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.92,
+     "po": 0.95,
+     "role": 0.995
+    }
+   },
+   {
+    "page": "eyebrow--wrapper-with-icon",
+    "fp": "removeEyebrowLabel|div|75051c30f6d2|8d0ec624",
+    "step": "removeEyebrowLabel",
+    "reason": "eyebrow label",
+    "selector": "",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "Off-nominal",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 0.325
+    }
+   },
+   {
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|div|35b0723d6dbb|efe448ce",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "A Pattern Language Christopher Alexander The book outlined a number of solutions for architecture and urban planning design, but the theory has since (appropriately) taken on a life of its own.",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.375
+    }
+   },
+   {
+    "page": "footnotes--orgmode-css-sidenotes",
+    "fp": "removeBySelector|header|f5a5238eeda3|2dc99d83",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "header:not(:has(p + p)):not(:has(img))"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 2,
+    "tag": "header",
+    "text": "Example Article",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.84,
+     "po": 0.91,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeBySelector|header|e54386e253e2|e8081b5a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "header:not(:has(p + p)):not(:has(img))"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 2,
+    "tag": "header",
+    "text": "Placeholder topic",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.85,
+     "po": 0.92,
+     "role": 0.985
+    }
+   },
+   {
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|p|f01107f4b428|6e145bd3",
+    "step": "removeByContentPattern",
+    "reason": "thin CTA section",
+    "selector": "",
+    "exact": [],
+    "fam": "promo",
+    "inline": false,
+    "words": 16,
+    "tag": "p",
+    "text": "In particular, the framework has proven useful for modeling complex systems where traditional approaches are insufficient.4",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|div|a8511a4128ef|43e93db9",
+    "step": "removeBySelector",
+    "reason": "partial match: -menu",
+    "selector": "-menu",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "12 Grams of Carbon",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.9,
+     "po": 0.9,
+     "role": 0
+    }
+   },
+   {
+    "page": "general--cp4space-jordan-algebra",
+    "fp": "removeBySelector|h1|2f94992f17af|f8d107e6",
+    "step": "removeBySelector",
+    "reason": "partial match: entry-title",
+    "selector": "entry-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 4,
+    "tag": "h1",
+    "text": "The exceptional Jordan algebra",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.95,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "general--scp-wiki.wikidot.com-scp-9935",
+    "fp": "removeBySelector|div|36cf2f7cc305|59c21771",
+    "step": "removeBySelector",
+    "reason": "partial match: page-title",
+    "selector": "page-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "SCP-9935",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.94,
+     "role": 0.985
+    }
+   },
+   {
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|table|38ae86aa4e0b|63387a4c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "table.infobox"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 38,
+    "tag": "table",
+    "text": "Obsidian Developer(s) Dynalist Inc. Initial release March 2020 (2020-03) Stable release 1.5.81 / January 15, 2024 Written in TypeScript, JavaScript Operating system Windows, macOS, Linux, Android, iOS, iPadOS Type Note-taking, personal knowledge management License Proprietary freemium Website obsidi",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "issues--227-noscript-lazy-images",
+    "fp": "removeBySelector|div|b4ae812e436a|0838f9cc",
+    "step": "removeBySelector",
+    "reason": "partial match: article-header",
+    "selector": "article-header",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 13,
+    "tag": "div",
+    "text": "Hero image caption. Photo Credit / Agency Test article with multiple lazy-loaded images",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.86,
+     "po": 0.9,
+     "role": 1
+    }
+   },
+   {
+    "page": "issues--header-with-subtitle-p",
+    "fp": "removeBySelector|header|d0dd9739678e|438e94a6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "header:not(:has(p + p)):not(:has(img))"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 23,
+    "tag": "header",
+    "text": "Playing a Classic FPS with One Hand in 2026 Over three decades later, this historical curiosity has more than a few rough edges",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.91,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "page": "issues--header-wraps-content",
+    "fp": "removeBySelector|div|a9d0a352f480|73860be3",
+    "step": "removeBySelector",
+    "reason": "partial match: post-title",
+    "selector": "post-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 6,
+    "tag": "div",
+    "text": "We Rewrote Example Tool with AI",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.93,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "page": "issues--span-with-block-children-and-schema",
+    "fp": "removeBySelector|h1|eeef3a78231f|a7974f8c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "#headline"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 3,
+    "tag": "h1",
+    "text": "Post About Systems",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.9,
+     "po": 0.93,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|6260e147c63d|1d00436d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "span",
+    "text": "x=2a−b±b2−4ac",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 0.97
+    }
+   }
+  ]
+ },
+ "bugs": null,
+ "history": null,
+ "seconds": 41
+}

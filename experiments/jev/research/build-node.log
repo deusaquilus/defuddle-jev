@@ -1,0 +1,5 @@
+
+> defuddle@0.19.6 build:node
+> tsc --project tsconfig.node.json
+
+exit=0

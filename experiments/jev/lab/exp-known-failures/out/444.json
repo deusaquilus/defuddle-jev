@@ -1,0 +1,791 @@
+{
+ "file": "pages/444.html",
+ "url": "https://www.legislation.gov.uk/ukpga/2015/2/section/57",
+ "ms": 235,
+ "wordCount": 552,
+ "contentSelector": "html > body#leg > div#layout1 > div#layout2 > div#content",
+ "title": "Criminal Justice and Courts Act 2015",
+ "contentChars": 8227,
+ "presence": {
+  "“” means a claim for damages": true
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "visibility:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "display:none",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "/* Legislation stylesheets - load depending on content type */\n@import \"/styles/legislation.css\";\n@import \"/styles/primarylegislation.css\";\n@import \"/styles/leg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "function addGtm(w, d, s, l, i) {\n\t\t\t\t// Legislation.gov.uk: Check cookie preferences before running the Google analytics code.\n\t\t\t\tif (window.legGlobals.cookieP"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "$(\"body\").addClass(\"js\");"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "legislation.gov.ukhttps://www.nationalarchives.gov.ukCymraeg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Search LegislationTitle: (or keywords in the title)Year:Number:Type:All UK Legislation (excluding originating from the EU)--------------------------------------"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Title: (or keywords in the title)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Year:"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Number:"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Type:"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "All UK Legislation (excluding originating from the EU)--------------------------------------------All  Legislation (including originating from EU)--------------"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "All UK Legislation (excluding originating from the EU)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "--------------------------------------------"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "All  Legislation (including originating from EU)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "--------------------------------------------"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "All Legislation originating from the EU that is amended by the UK"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "--------------------------------------------"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "All Primary Legislation"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "UK Public General Acts"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "UK Local Acts"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "UK Private and Personal Acts"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Acts of the Scottish Parliament"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Acts of Senedd Cymru"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Acts of the National Assembly for Wales"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Measures of the National Assembly for Wales"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Church Measures"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Acts of the Northern Ireland Assembly"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Acts of the Old Scottish Parliament"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Acts of the English Parliament"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Acts of the Old Irish Parliament"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Acts of the Parliament of Great Britain"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Local Acts of the Parliament of Great Britain"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Private and Personal Acts of the Parliament of Great Britain"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Northern Ireland Orders in Council"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Measures of the Northern Ireland Assembly"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Acts of the Northern Ireland Parliament"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "--------------------------------------------"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "All Secondary Legislation"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "UK Statutory Instruments"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Welsh Statutory Instruments"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Scottish Statutory Instruments"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Northern Ireland Statutory Rules"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Church Instruments"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "UK Ministerial Directions"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "UK Ministerial Orders"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "UK Statutory Rules and Orders"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Northern Ireland Statutory Rules and Orders"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "--------------------------------------------"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "All Legislation originating from the EU"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Regulations originating from the EU"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Regulations originating from the EU that are amended by the UK"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Decisions originating from the EU"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Decisions originating from the EU that are amended by the UK"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Directives originating from the EU"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "European Union Treaties"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "--------------------------------------------"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "All Draft Legislation"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "UK Draft Statutory Instruments"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Scottish Draft Statutory Instruments"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Northern Ireland Draft Statutory Rules"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "--------------------------------------------"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "All Impact Assessments"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "UK Impact Assessments"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Search"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Back to top"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "© Crown and database right"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "if (window.legGlobals.cookiePolicy.userSet &amp;&amp; window.legGlobals.cookiePolicy.analytics) {\n\t\t\t\t\tvar toRemove = document.getElementById('google-tag-manage"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "$(\"#statusWarningSubSections\").css(\"display\", \"none\");\n\t\t\t\t\t$(\".help\").css(\"display\", \"none\");\n\t\t\t\t\t$(\"#searchChanges\", \"#existingSearch\").css({\"display\": \"none"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: breadcrumb",
+   "selector": "breadcrumb",
+   "text": "You are here:UK Public General Acts2015 c. 2\n          PART 3\n        Civil proceedings relating to...Section 57"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: prevnext",
+   "selector": "prevnext",
+   "text": "Previous:\n\t\t\t\t\t\t\t\t\t\tProvisionNext:\n\t\t\t\t\t\t\t\t\t\tProvision"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: (?<!h[1-6]-)related",
+   "selector": "(?<!h[1-6]-)related",
+   "text": "related claim"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Previous:\n\t\t\t\t\t\t\t\t\t\tProvisionNext:\n\t\t\t\t\t\t\t\t\t\tProvision"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: prevnext",
+   "selector": "prevnext",
+   "text": "Previous:\n\t\t\t\t\t\t\t\t\t\tProvisionNext:\n\t\t\t\t\t\t\t\t\t\tProvision"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "All content is available under the Open Government Licence v3.0 except where otherwise stated. This site additionally contains content derived from EUR-Lex, reu"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -48",
+   "text": "HomeExplore our collectionsResearch toolsHelp and guidanceWhat's newAbout usSearch Legislation"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -48",
+   "text": "HomeExplore our collectionsResearch toolsHelp and guidanceWhat's newAbout usSearch Legislation"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -30",
+   "text": "Plain ViewPrint Options"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -13",
+   "text": "What VersionLatest available (Revised)Original (As enacted)Advanced FeaturesShow Geographical Extent(e.g. England, Wales, Scotland and Northern Ireland)Show Tim"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -10",
+   "text": "Opening OptionsOpen whole ActOpen Act without SchedulesOpen Schedules only"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -15",
+   "text": "More ResourcesOriginal: King's Printer VersionCorrection Slip - 23/09/2015View more"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -25",
+   "text": "The data on this page is available in the alternative data formats listed:HTML5 alternative versionHTML snippet alternative versionPDF alternative versionXML al"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -25",
+   "text": "The data on this page is available in the alternative data formats listed:HTML5 alternative versionHTML snippet alternative versionPDF alternative versionXML al"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -56",
+   "text": "New site designHelpAbout usSite mapAccessibilityContact usPrivacy noticeCookiesFair use policy"
+  }
+ ],
+ "content": "<div id=\"content\"><div id=\"changesOverTime\"><h2>Changes over time for:  Section 57</h2><div class=\"timelineHelp\"><a href=\"#timelineHelp\" class=\"helpItem helpItemToMidLeft\"><img src=\"https://www.legislation.gov.uk/images/chrome/helpIcon.gif\" alt=\" Help about opening options\"></a></div><div id=\"timeline\"><div id=\"timelineData\"><h3>Alternative versions:</h3><ul><li class=\"currentVersion\"><a href=\"https://www.legislation.gov.uk/ukpga/2015/2/section/57/2015-04-13\"><span class=\"pointer\"></span><span>13/04/2015<em class=\"accessibleText\">- Amendment</em></span></a><span class=\"end\"></span></li></ul></div></div></div><div id=\"statusWarning\" class=\"uptoDate\"><div class=\"title\"><h2>Changes to legislation:</h2><p class=\"intro\">There are currently no known outstanding effects for the Criminal Justice and Courts Act 2015, Section 57.<a href=\"#Scenario1Help\" class=\"helpItem helpItemToBot\"><img src=\"https://www.legislation.gov.uk/images/chrome/helpIcon.gif\" alt=\" Help about Changes to Legislation\"></a></p><div class=\"help\" id=\"Scenario1Help\"><span class=\"icon\"></span><div class=\"content\"><a href=\"#\" class=\"close\"><img alt=\"Close\" src=\"https://www.legislation.gov.uk/images/chrome/closeIcon.gif\"></a><h3>Changes to Legislation</h3><p>Revised legislation carried on this site may not be fully up to date. At the current time any known changes or effects made by subsequent legislation have been applied to the text of the legislation you are viewing by the editorial team. Please see ‘Frequently Asked Questions’ for details regarding the timescales for which new effects are identified and recorded on this site.</p></div></div></div></div><div id=\"viewLegContents\"><div class=\"LegSnippet\" id=\"viewLegSnippet\"><a class=\"LegAnchorID\" id=\"section-57\"></a><h4>57Personal injury claims: cases of fundamental dishonestyE+W</h4><div class=\"eniw\"><span class=\"enNote\">This section has no associated Explanatory Notes</span></div><p class=\"LegClearFix LegP2Container\"><span class=\"LegDS LegLHS LegP2No\" id=\"section-57-1\">(1)</span><span class=\"LegDS LegRHS LegP2Text\">This section applies where, in proceedings on a claim for damages in respect of personal injury (“the primary claim”)—</span>\r</p><p class=\"LegClearFix LegP3Container\"><span class=\"LegDS LegLHS LegP3No\" id=\"section-57-1-a\">(a)</span><span class=\"LegDS LegRHS LegP3Text\">the court finds that the claimant is entitled to damages in respect of the claim, but</span>\r</p><p class=\"LegClearFix LegP3Container\"><span class=\"LegDS LegLHS LegP3No\" id=\"section-57-1-b\">(b)</span><span class=\"LegDS LegRHS LegP3Text\">on an application by the defendant for the dismissal of the claim under this section, the court is satisfied on the balance of probabilities that the claimant has been fundamentally dishonest in relation to the primary claim or a related claim.</span>\r</p><p class=\"LegClearFix LegP2Container\"><span class=\"LegDS LegLHS LegP2No\" id=\"section-57-2\">(2)</span><span class=\"LegDS LegRHS LegP2Text\">The court must dismiss the primary claim, unless it is satisfied that the claimant would suffer substantial injustice if the claim were dismissed.</span>\r</p><p class=\"LegClearFix LegP2Container\"><span class=\"LegDS LegLHS LegP2No\" id=\"section-57-3\">(3)</span><span class=\"LegDS LegRHS LegP2Text\">The duty under subsection (2) includes the dismissal of any element of the primary claim in respect of which the claimant has not been dishonest.</span>\r</p><p class=\"LegClearFix LegP2Container\"><span class=\"LegDS LegLHS LegP2No\" id=\"section-57-4\">(4)</span><span class=\"LegDS LegRHS LegP2Text\">The court's order dismissing the claim must record the amount of damages that the court would have awarded to the claimant in respect of the primary claim but for the dismissal of the claim.</span>\r</p><p class=\"LegClearFix LegP2Container\"><span class=\"LegDS LegLHS LegP2No\" id=\"section-57-5\">(5)</span><span class=\"LegDS LegRHS LegP2Text\">When assessing costs in the proceedings, a court which dismisses a claim under this section must deduct the amount recorded in accordance with subsection (4) from the amount which it would otherwise order the claimant to pay in respect of costs incurred by the defendant.</span>\r</p><p class=\"LegClearFix LegP2Container\"><span class=\"LegDS LegLHS LegP2No\" id=\"section-57-6\">(6)</span><span class=\"LegDS LegRHS LegP2Text\">If a claim is dismissed under this section, subsection (7) applies to—</span>\r</p><p class=\"LegClearFix LegP3Container\"><span class=\"LegDS LegLHS LegP3No\" id=\"section-57-6-a\">(a)</span><span class=\"LegDS LegRHS LegP3Text\">any subsequent criminal proceedings against the claimant in respect of the fundamental dishonesty mentioned in subsection (1)(b), and</span>\r</p><p class=\"LegClearFix LegP3Container\"><span class=\"LegDS LegLHS LegP3No\" id=\"section-57-6-b\">(b)</span><span class=\"LegDS LegRHS LegP3Text\">any subsequent proceedings for contempt of court against the claimant in respect of that dishonesty.</span>\r</p><p class=\"LegClearFix LegP2Container\"><span class=\"LegDS LegLHS LegP2No\" id=\"section-57-7\">(7)</span><span class=\"LegDS LegRHS LegP2Text\">If the court in those proceedings finds the claimant guilty of an offence or of contempt of court, it must have regard to the dismissal of the primary claim under this section when sentencing the claimant or otherwise disposing of the proceedings.</span>\r</p><p class=\"LegClearFix LegP2Container\"><span class=\"LegDS LegLHS LegP2No\" id=\"section-57-8\">(8)</span><span class=\"LegDS LegRHS LegP2Text\">In this section—</span>\r</p><ul class=\"LegTabbedDef LegUnorderedList\"><li><p class=\"LegListTextStandard LegLevel3\">“<span class=\"LegTerm\" id=\"term-claim\">claim</span>” includes a counter-claim and, accordingly, “<span class=\"LegTerm\" id=\"term-claimant\">claimant</span>” includes a counter-claimant and “<span class=\"LegTerm\" id=\"term-defendant\">defendant</span>” includes a defendant to a counter-claim;\r</p></li><li><p class=\"LegListTextStandard LegLevel3\">“<span class=\"LegTerm\" id=\"term-personal-injury\">personal injury</span>” includes any disease and any other impairment of a person's physical or mental condition;\r</p></li><li><p class=\"LegListTextStandard LegLevel3\">“” means a claim for damages in respect of personal injury which is made—\r</p><div><div class=\"LegAlphaList\"><div class=\"LegListItem\"><div class=\"LegLevel4No LegListItemNo\">(a)</div><p class=\"LegListTextStandard LegLevel4\">in connection with the same incident or series of incidents in connection with which the primary claim is made, and\r</p></div><div class=\"LegListItem\"><div class=\"LegLevel4No LegListItemNo\">(b)</div><p class=\"LegListTextStandard LegLevel4\">by a person other than the person who made the primary claim.\r</p></div></div></div></li></ul><p class=\"LegClearFix LegP2Container\"><span class=\"LegDS LegLHS LegP2No\" id=\"section-57-9\">(9)</span><span class=\"LegDS LegRHS LegP2Text\">This section does not apply to proceedings started by the issue of a claim form before the day on which this section comes into force.</span>\r</p><div class=\"LegAnnotations\"><p class=\"LegAnnotationsGroupHeading\">Commencement Information</p><div class=\"LegCommentaryItem\" id=\"commentary-key-b77a0eda0e8407357648cd484b49a95b\"><p class=\"LegCommentaryPara\"><span class=\"LegCommentaryType\">I1</span><span class=\"LegCommentaryText\"><a class=\"LegCitation\" href=\"https://www.legislation.gov.uk/id/ukpga/2015/2/section/57\" title=\"Go to S. 57\">S. 57</a> in force at 13.4.2015 by <a class=\"LegCitation\" title=\"The Criminal Justice and Courts Act 2015 (Commencement No. 1, Saving and Transitional Provisions) Order 2015\" href=\"https://www.legislation.gov.uk/id/uksi/2015/778\">S.I. 2015/778</a>, <a class=\"LegCitation\" href=\"https://www.legislation.gov.uk/id/uksi/2015/778/article/3\" title=\"Go to The Criminal Justice and Courts Act 2015 (Commencement No. 1, Saving and Transitional Provisions) Order 2015 art. 3\">art. 3</a>, <a class=\"LegCitation\" href=\"https://www.legislation.gov.uk/id/uksi/2015/778/schedule/1/paragraph/47\" title=\"Go to The Criminal Justice and Courts Act 2015 (Commencement No. 1, Saving and Transitional Provisions) Order 2015 Sch. 1 para. 47\"><strong>Sch. 1 para. 47</strong></a></span></p></div></div><span class=\"LegClearFix\"></span></div></div><p class=\"backToTop\"></p></div>",
+ "markdown": null
+}

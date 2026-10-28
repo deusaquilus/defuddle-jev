@@ -1,0 +1,20 @@
+{
+  "variant": "D",
+  "fixtures": 167,
+  "model": "jev-1.14.0",
+  "usage": {
+    "calls": 167,
+    "errors": 0,
+    "input_tokens": 163583,
+    "output_tokens": 22917,
+    "est_cost_usd": 0.00687,
+    "latency_ms": {
+      "p50": 70.45438000000013,
+      "p90": 105.63073099999997,
+      "p99": 222.604258,
+      "max": 226.110838,
+      "n": 167
+    }
+  },
+  "wall_s": 2
+}

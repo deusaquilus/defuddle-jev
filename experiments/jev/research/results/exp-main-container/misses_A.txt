@@ -1,0 +1,113 @@
+### codeblocks--rockthejvm.com-articles-kotlin-101-type-classes  [A] htmlBytes=5606 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c1@conf0.24 probs={"c1":0.43,"c2":0.09,"c3":0.4,"none_of_these":0.08} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Kotlin 101: Type Classes Quickly Explained | url: https://rockthejvm.com/articles/kotlin-101-type-classes | contentSelector: html > body > main > article
+  c1: <body> words=286 p=7 linkratio=0.02 contains=[c2,c3] cov=0.935/1 nouls: contains_all=0.54 non_article=0.67
+      start: rock the jvmarticles kotlin 101: type classes quickly explained in this article, we explore the concept of type classes in kotlin, a powerful tool that allows developers to abstract logic for differen
+      end:    dedicated function using type classes, which is a common pattern in functional programming. copyright 2024 rock the jvm
+  c2: <main> words=278 p=6 linkratio=0.01 contains=[c3] cov=0.935/1 nouls: contains_all=0.44 non_article=0.13
+      start: kotlin 101: type classes quickly explained in this article, we explore the concept of type classes in kotlin, a powerful tool that allows developers to abstract logic for different data types. we'll t
+      end:    the validation process in a dedicated function using type classes, which is a common pattern in functional programming.
+  c3: <article> words=278 p=6 linkratio=0.01 contains=[] cov=0.935/1 nouls: contains_all=0.47 non_article=0.07
+      start: kotlin 101: type classes quickly explained in this article, we explore the concept of type classes in kotlin, a powerful tool that allows developers to abstract logic for different data types. we'll t
+      end:    the validation process in a dedicated function using type classes, which is a common pattern in functional programming.
+
+### content-patterns--card-grid-stripped-headings  [A] htmlBytes=3401 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.2 probs={"c1":0.1,"c2":0.39999999999999997,"c3":0.31,"none_of_these":0.19} defuddle=c2 relation=ancestor_of_truth(over-inclusive)
+  title: How Spacecraft Plumbing Works | url: https://content-patterns--card-grid-stripped-headings | contentSelector: html > body > div#app > main
+  c1: <body> words=264 p=12 linkratio=0.07 contains=[c2,c3] cov=1/1 nouls: contains_all=0.71 non_article=0.39
+      start: how spacecraft plumbing works spacecraft plumbing systems must function in microgravity, which presents unique engineering challenges. fluid dynamics behave differently without the constant pull of gr
+      end:    inflatable habitat module exceeded pressure and micrometeorite resistance requirements during ground testing chris park
+  c2: <main> words=264 p=12 linkratio=0.07 contains=[c3] cov=1/1 nouls: contains_all=0.71 non_article=0.27
+      start: how spacecraft plumbing works spacecraft plumbing systems must function in microgravity, which presents unique engineering challenges. fluid dynamics behave differently without the constant pull of gr
+      end:    inflatable habitat module exceeded pressure and micrometeorite resistance requirements during ground testing chris park
+  c3: <article> words=193 p=6 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.11 non_article=0.06
+      start: how spacecraft plumbing works spacecraft plumbing systems must function in microgravity, which presents unique engineering challenges. fluid dynamics behave differently without the constant pull of gr
+      end:   lead engineer dr. park. "the crew comfort improvements on upcoming missions represent decades of iterative design work."
+
+### entry-point--js-article-content  [A] htmlBytes=7384 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.45 probs={"c1":0.05,"c2":0.59,"c3":0.19,"none_of_these":0.17} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Test Article Title | url: https://example.com/blog/test-article/ | contentSelector: html > body > main > div.page-wrapper > div.content-area > div.js-article-content
+  c1: <body> words=626 p=16 linkratio=0.1 contains=[c2,c3] cov=1/1 nouls: contains_all=0.65 non_article=0.95
+      start: home blog about podcasts videos newsletter careers table of contents section one section two section three share twitter facebook linkedin reddit email section one this is the first section of the art
+      end:   the sec website: http://www.adviserinfo.sec.gov. copyright 2025 example corp. all rights reserved. terms privacy contact
+  c2: <main> words=609 p=15 linkratio=0.09 contains=[c3] cov=1/1 nouls: contains_all=0.43 non_article=0.83
+      start: table of contents section one section two section three share twitter facebook linkedin reddit email section one this is the first section of the article. it introduces the main topic and sets the sta
+      end:    visit our terms page. additional important information is available at the sec website: http://www.adviserinfo.sec.gov.
+  c3: <div class="js-article-content"> words=57 p=4 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.11 non_article=0.05
+      start: section one this is the first section of the article. it introduces the main topic and sets the stage for further discussion. section two this is the second section. it builds on the ideas introduced 
+      end:   ion wraps up the discussion with concluding thoughts.
+
+### footnotes--inline-footnote-span  [A] htmlBytes=1329 n=2 truth=none_of_these (none) jev=c2@conf0.92 probs={"c1":0.04,"c2":0.95,"none_of_these":0.01} defuddle=c2 relation=picked_when_label_none
+  title: Article with Inline Footnotes | url: https://inline-footnote-span | contentSelector: html > body > div.entry-content
+  c1: <body> words=59 p=3 linkratio=0.11 contains=[c2] cov=0.5/0.855 nouls: contains_all=0.69 non_article=0.06
+      start: the field has drifted far from its roots.1you can pick any recent paper and have no idea what is going on. philosophy is often viewed as a science, which leads to misalignment.2the most common areas w
+      end:   alues are orthogonal.3orthogonal means they run independent of one another.
+  c2: <div class="entry-content"> words=59 p=3 linkratio=0.11 contains=[] cov=0.5/0.855 nouls: contains_all=0.82 non_article=0.04
+      start: the field has drifted far from its roots.1you can pick any recent paper and have no idea what is going on. philosophy is often viewed as a science, which leads to misalignment.2the most common areas w
+      end:   alues are orthogonal.3orthogonal means they run independent of one another.
+
+### footnotes--orgmode-css-sidenotes  [A] htmlBytes=1698 n=2 truth=none_of_these (none) jev=c2@conf0.92 probs={"c1":0.03,"c2":0.95,"none_of_these":0.02} defuddle=c2 relation=picked_when_label_none
+  title: Example Article | url: https://orgmode-css-sidenotes | contentSelector: html > body > article
+  c1: <body> words=87 p=6 linkratio=0.01 contains=[c2] cov=0.409/0.875 nouls: contains_all=0.84 non_article=0.07
+      start: example article first paragraph with a sidenote reference. 1 1 this is the first footnote content. more text continues here. second paragraph with another reference. 2 2 this is the second footnote wi
+      end:   he second footnote with more detail about the topic. 3 a reader suggested an alternative approach, which has some merit.
+  c2: <article> words=87 p=6 linkratio=0.01 contains=[] cov=0.409/0.875 nouls: contains_all=0.88 non_article=0.05
+      start: example article first paragraph with a sidenote reference. 1 1 this is the first footnote content. more text continues here. second paragraph with another reference. 2 2 this is the second footnote wi
+      end:   he second footnote with more detail about the topic. 3 a reader suggested an alternative approach, which has some merit.
+
+### footnotes--word-ftn-ftnref  [A] htmlBytes=1152 n=2 truth=none_of_these (none) jev=c2@conf0.92 probs={"c1":0.03,"c2":0.95,"none_of_these":0.02} defuddle=c2 relation=picked_when_label_none
+  title: Word HTML footnotes: _ftn/_ftnref pattern | url: https://word-ftn-ftnref | contentSelector: html > body > article
+  c1: <body> words=37 p=4 linkratio=0.16 contains=[c2] cov=0.538/0.867 nouls: contains_all=0.81 non_article=0.09
+      start: word html footnotes: _ftn/_ftnref pattern the initiative is aligned with the action plan [1], a community-led alternative to traditional publishing. the consortium includes members from multiple count
+      end:   
+  c2: <article> words=37 p=4 linkratio=0.16 contains=[] cov=0.538/0.867 nouls: contains_all=0.84 non_article=0.06
+      start: word html footnotes: _ftn/_ftnref pattern the initiative is aligned with the action plan [1], a community-led alternative to traditional publishing. the consortium includes members from multiple count
+      end:   
+
+### general--tailwind-hidden-blog-index  [A] htmlBytes=3733 n=6 truth=c2 (words) jev=c3@conf0.25 probs={"c1":0.04,"c2":0.11,"c3":0.36,"c4":0.05,"c5":0.01,"c6":0.14,"none_of_these":0.29} defuddle=c2 relation=descendant_of_truth(under-inclusive)
+  title: Blog - Acme Corp | url: https://tailwind-hidden-blog-index | contentSelector: html > body > main
+  c1: <body> words=165 p=6 linkratio=0.78 contains=[c2,c3,c4,c5,c6] cov=0.767/0.953 nouls: contains_all=0.32 non_article=0.8
+      start: home blog about engineering blog technical insights from the acme corp engineering team on infrastructure, machine learning, and design systems. featured ### [scaling distributed systems at acme] (htt
+      end:   ng breaking changes safely to thousands of integration partners. api design 7 min read january 10, 2026 © 2026 acme corp
+  c2: <main> words=158 p=5 linkratio=0.79 contains=[c3,c4,c5,c6] cov=0.767/0.947 nouls: contains_all=0.32 non_article=0.36
+      start: engineering blog technical insights from the acme corp engineering team on infrastructure, machine learning, and design systems. featured ### [scaling distributed systems at acme] (https://example.com
+      end:   ints while shipping breaking changes safely to thousands of integration partners. api design 7 min read january 10, 2026
+  c3: <article> words=37 p=1 linkratio=0.91 contains=[] cov=0.178/0.22 nouls: contains_all=0.44 non_article=0.04
+      start: ### [scaling distributed systems at acme] (https://example.com/blog/scaling-distributed-systems) how we redesigned our message queue infrastructure to handle ten times the throughput while reducing la
+      end:   
+  c4: <article> words=34 p=1 linkratio=0.89 contains=[] cov=0.164/0.2 nouls: contains_all=0.13 non_article=0.05
+      start: ### [optimizing our ml pipeline] (https://example.com/blog/ml-pipeline-optimization) reducing model training time from hours to minutes with smart batching and caching strategies across our distribute
+      end:   
+  c5: <article> words=33 p=1 linkratio=0.89 contains=[] cov=0.151/0.193 nouls: contains_all=0.14 non_article=0.04
+      start: ### [introducing our design system v2] (https://example.com/blog/design-system-v2) a ground-up rebuild of our component library with accessibility-first principles and comprehensive dark mode support 
+      end:   
+  c6: <article> words=34 p=1 linkratio=0.89 contains=[] cov=0.164/0.2 nouls: contains_all=0.24 non_article=0.07
+      start: ### [our api versioning strategy] (https://example.com/blog/api-versioning-strategy) how we manage backward compatibility across hundreds of api endpoints while shipping breaking changes safely to tho
+      end:   
+
+### issues--header-with-subtitle-p  [A] htmlBytes=2110 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.6 probs={"c1":0.13,"c2":0.7,"c3":0.1,"none_of_these":0.07} defuddle=c2 relation=ancestor_of_truth(over-inclusive)
+  title: Playing a Classic FPS with One Hand in 2026 | url: https://header-with-subtitle-p | contentSelector: html > body > article
+  c1: <body> words=235 p=8 linkratio=0.01 contains=[c2,c3] cov=1/1 nouls: contains_all=0.66 non_article=0.59
+      start: gaming playing a classic fps with one hand in 2026 over three decades later, this historical curiosity has more than a few rough edges alex johnson – mar 27, 2026 3:09 pm when the original first-perso
+      end:   oller support. going back to the early days of the genre puts that progress in sharp relief. copyright 2026 example tech
+  c2: <article> words=231 p=7 linkratio=0.01 contains=[c3] cov=1/1 nouls: contains_all=0.33 non_article=0.08
+      start: gaming playing a classic fps with one hand in 2026 over three decades later, this historical curiosity has more than a few rough edges alex johnson – mar 27, 2026 3:09 pm when the original first-perso
+      end:    presets, and adaptive controller support. going back to the early days of the genre puts that progress in sharp relief.
+  c3: <div class="article-body"> words=199 p=6 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.18 non_article=0.05
+      start: when the original first-person shooter was released in 1992, it changed gaming forever. the fast-paced action, the maze-like levels, and the visceral combat were unlike anything players had experience
+      end:    presets, and adaptive controller support. going back to the early days of the genre puts that progress in sharp relief.
+
+### math--raw-latex  [A] htmlBytes=1087 n=2 truth=none_of_these (none) jev=c2@conf0.97 probs={"c1":0.01,"c2":0.98,"none_of_these":0.01} defuddle=c2 relation=picked_when_label_none
+  title: Raw LaTeX Math Delimiters | url: https://raw-latex | contentSelector: html > body > article
+  c1: <body> words=99 p=8 linkratio=0 contains=[c2] cov=0.44/0.874 nouls: contains_all=0.86 non_article=0.07
+      start: raw latex math delimiters the attention mechanism computes $$h_{i}^{\ell+1} = \text{attention} \left( q^{\ell} h_{i}^{\ell}, k^{\ell} h_{j}^{\ell}, v^{\ell} h_{j}^{\ell} \right)$$ for each node in the
+      end:   ackslash delimiters work too: \(e = mc^2\) is inline and \[f = ma\] this $\alpha$ should not be touched inside pre tags.
+  c2: <article> words=99 p=8 linkratio=0 contains=[] cov=0.44/0.874 nouls: contains_all=0.88 non_article=0.04
+      start: raw latex math delimiters the attention mechanism computes $$h_{i}^{\ell+1} = \text{attention} \left( q^{\ell} h_{i}^{\ell}, k^{\ell} h_{j}^{\ell}, v^{\ell} h_{j}^{\ell} \right)$$ for each node in the
+      end:   ackslash delimiters work too: \(e = mc^2\) is inline and \[f = ma\] this $\alpha$ should not be touched inside pre tags.
+
+### math--mathjax-tex-scripts  [A] htmlBytes=1127 n=2 truth=none_of_these (none) jev=c2@conf0.97 probs={"c1":0.01,"c2":0.98,"none_of_these":0.01} defuddle=c2 relation=picked_when_label_none
+  title: MathJax math/tex Script Elements | url: https://mathjax-tex-scripts | contentSelector: html > body > article
+  c1: <body> words=52 p=4 linkratio=0 contains=[c2] cov=0.269/0.821 nouls: contains_all=0.72 non_article=0.14
+      start: mathjax math/tex script elements we call these energy differences and (subscripts refer to "upper" and "lower"), or in units of frequency, and (where ). as a special case, when is aligned with the nv 
+      end:   io.
+  c2: <article> words=52 p=4 linkratio=0 contains=[] cov=0.269/0.821 nouls: contains_all=0.75 non_article=0.05
+      start: mathjax math/tex script elements we call these energy differences and (subscripts refer to "upper" and "lower"), or in units of frequency, and (where ). as a special case, when is aligned with the nv 
+      end:   io.

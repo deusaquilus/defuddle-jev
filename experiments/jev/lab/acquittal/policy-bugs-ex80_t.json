@@ -1,0 +1,5367 @@
+{
+ "policy": "ex80_t",
+ "fixtures": null,
+ "bugs": {
+  "issues": 18,
+  "fixed": 11,
+  "fixed_list": [
+   252,
+   257,
+   279,
+   321,
+   360,
+   365,
+   375,
+   395,
+   408,
+   441,
+   444
+  ],
+  "W_blocks": 42,
+  "W_recovered": 26,
+  "C_blocks": 69,
+  "C_leaked": 1,
+  "leaks": [
+   "279.html:279-authorbio"
+  ],
+  "restored": 255,
+  "restored_list": [
+   {
+    "page": "444-synth.html",
+    "issue": 444,
+    "fp": "removeBySelector|span|1c25bf7801d7|6a92e4f6",
+    "step": "removeBySelector",
+    "reason": "partial match: (?<!h[1-6]-)related",
+    "selector": "(?<!h[1-6]-)related",
+    "exact": [],
+    "fam": "related",
+    "inline": true,
+    "words": 2,
+    "tag": "span",
+    "text": "related claim",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.85,
+     "po": 0.28,
+     "role": 0.345
+    }
+   },
+   {
+    "page": "444.html",
+    "issue": 444,
+    "fp": "removeBySelector|span|1c25bf7801d7|6163d370",
+    "step": "removeBySelector",
+    "reason": "partial match: (?<!h[1-6]-)related",
+    "selector": "(?<!h[1-6]-)related",
+    "exact": [],
+    "fam": "related",
+    "inline": true,
+    "words": 2,
+    "tag": "span",
+    "text": "related claim",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.28,
+     "role": 0.345
+    }
+   },
+   {
+    "page": "441.html",
+    "issue": 441,
+    "fp": "removeBySelector|div|7a5e6e65b1ab|22ba5c33",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[data-date]"
+    ],
+    "fam": "meta",
+    "inline": false,
+    "words": 2161,
+    "tag": "div",
+    "text": "I work on Claude. It's an interesting experience: Every day I learn about yet another feat accomplished with or by Claude that I hadn't considered, didn't think possible, or simply lacked the curiosity and time to try. This month, it may have helped discover a new planet, I've seen the first AI musi",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.9,
+     "po": 0.93,
+     "role": 1
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|8822d0d7425e|b185e4da",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 6,
+    "tag": "div",
+    "text": "Apply DD and output register AA.",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.96,
+     "po": 0.98,
+     "role": 0.93
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|06dd7ef9fdbf|36e9ed4b",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 8,
+    "tag": "div",
+    "text": "Apply U†P†U^\\dagger P^\\dagger to the received register BB.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|45e66b2e0796|f583ee4e",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 3,
+    "tag": "div",
+    "text": "Quantum register operations",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.82,
+     "po": 0.82,
+     "role": 0.995
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|0d03ff361ebc|0a3744c2",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Initialize the register before decoding.",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.88,
+     "po": 0.93,
+     "role": 0.945
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|bd3fdc5d6b86|8dba760d",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "Use the register keyword.",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.82,
+     "po": 0.86,
+     "role": 0.845
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|794ef340b6f2|624290f1",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "See the register keyword.",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.78,
+     "po": 0.82,
+     "role": 0.895
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|1bd2adff397c|5779abd3",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Use the cash register carefully.",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.82,
+     "po": 0.82,
+     "role": 0.855
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|83de1f4ff08c|353788c9",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "The register now contains output.",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.86,
+     "po": 0.85,
+     "role": 0.535
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|cee6a1390f4b|502aca61",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Inspect register state before returning.",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.82,
+     "po": 0.82,
+     "role": 0.755
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|0d03ff361ebc|e5f79b1d",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Initialize the register before decoding.",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.83,
+     "po": 0.86,
+     "role": 0.945
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|83de1f4ff08c|9bcd399a",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "The register now contains output.",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.9,
+     "po": 0.9,
+     "role": 0.535
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|cee6a1390f4b|23ec101a",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Inspect register state before returning.",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.79,
+     "po": 0.83,
+     "role": 0.755
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|83de1f4ff08c|8950b6c0",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "The register now contains output.",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.85,
+     "po": 0.85,
+     "role": 0.535
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|cee6a1390f4b|6c99d142",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Inspect register state before returning.",
+    "ans": {
+     "ex": 0.81,
+     "plain": 0.78,
+     "po": 0.81,
+     "role": 0.755
+    }
+   },
+   {
+    "page": "428.html",
+    "issue": 428,
+    "fp": "scoreAndRemove|div|cee6a1390f4b|c5538fe9",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Inspect register state before returning.",
+    "ans": {
+     "ex": 0.84,
+     "plain": 0.82,
+     "po": 0.84,
+     "role": 0.755
+    }
+   },
+   {
+    "page": "321.html",
+    "issue": 321,
+    "fp": "removeBySelector|section|f981c652555d|20beab45",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "#tags"
+    ],
+    "fam": "meta",
+    "inline": false,
+    "words": 4,
+    "tag": "section",
+    "text": "Content heading Content paragraph.",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.96,
+     "po": 0.99,
+     "role": 0.375
+    }
+   },
+   {
+    "page": "408-synth.html",
+    "issue": 408,
+    "fp": "removeByContentPattern|ul|424bf2fc172e|4e19e6ff",
+    "step": "removeByContentPattern",
+    "reason": "blog metadata list",
+    "selector": "",
+    "exact": [],
+    "fam": "metalist",
+    "inline": false,
+    "words": 2,
+    "tag": "ul",
+    "text": "x1 x2",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.93,
+     "po": 0.9,
+     "role": 0.365
+    }
+   },
+   {
+    "page": "408.html",
+    "issue": 408,
+    "fp": "removeByContentPattern|ul|4ce8ebbcc523|85c61037",
+    "step": "removeByContentPattern",
+    "reason": "blog metadata list",
+    "selector": "",
+    "exact": [],
+    "fam": "metalist",
+    "inline": false,
+    "words": 4,
+    "tag": "ul",
+    "text": "fit_into_view fit expand inhibit_scroll",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 0.685
+    }
+   },
+   {
+    "page": "252-synth.html",
+    "issue": 252,
+    "fp": "removeBySelector|a|03f05b9a13b5|04ca8fcf",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/author/\"]"
+    ],
+    "fam": "author",
+    "inline": false,
+    "words": 2,
+    "tag": "a",
+    "text": "Grady Booch",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.89,
+     "po": 0.87,
+     "role": 0.005
+    }
+   },
+   {
+    "page": "252-synth.html",
+    "issue": 252,
+    "fp": "removeBySelector|a|7bfbcc077fa8|17705afe",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/author/\"]"
+    ],
+    "fam": "author",
+    "inline": false,
+    "words": 2,
+    "tag": "a",
+    "text": "Erik Meijer",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.89,
+     "po": 0.88,
+     "role": 0
+    }
+   },
+   {
+    "page": "252.html",
+    "issue": 252,
+    "fp": "removeBySelector|a|03f05b9a13b5|04ca8fcf",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/author/\"]"
+    ],
+    "fam": "author",
+    "inline": false,
+    "words": 2,
+    "tag": "a",
+    "text": "Grady Booch",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.89,
+     "po": 0.87,
+     "role": 0.005
+    }
+   },
+   {
+    "page": "252.html",
+    "issue": 252,
+    "fp": "removeBySelector|a|7bfbcc077fa8|17705afe",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/author/\"]"
+    ],
+    "fam": "author",
+    "inline": false,
+    "words": 2,
+    "tag": "a",
+    "text": "Erik Meijer",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.89,
+     "po": 0.88,
+     "role": 0
+    }
+   },
+   {
+    "page": "279.html",
+    "issue": 279,
+    "fp": "removeEyebrowLabel|div|5c096dd7c1eb|de80ad8e",
+    "step": "removeEyebrowLabel",
+    "reason": "eyebrow label",
+    "selector": "",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "Essay",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.81,
+     "po": 0.86,
+     "role": 0.005
+    }
+   },
+   {
+    "page": "279.html",
+    "issue": 279,
+    "fp": "removeBySelector|div|daea22b80f25|8107c88e",
+    "step": "removeBySelector",
+    "reason": "partial match: hero[_\\-a-z]",
+    "selector": "hero[_\\-a-z]",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 26,
+    "tag": "div",
+    "text": "A depiction of artificial cybernetic entity encompassing diverse layers and forms of life. Image Credit: Generated by Olaf Witkowski using DALL-E version 2, August 21, 2024.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.93,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "page": "279.html",
+    "issue": 279,
+    "fp": "removeByContentPattern|div|72ec91a6af2f|caf28efd",
+    "step": "removeByContentPattern",
+    "reason": "related content section",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 180,
+    "tag": "div",
+    "text": "About the Author Olaf Witkowski is a Leader of Technological Change and an Ambassador for Compassionate AI and Artificial Life, based in Kyoto, Japan. He is the Founding Director of Cross Labs, an AI research institute in Kyoto focused on fundamental research in Diverse Intelligences and Empathic AI",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.9,
+     "po": 0.9,
+     "role": 0
+    }
+   },
+   {
+    "page": "279.html",
+    "issue": 279,
+    "fp": "removeBySelector|div|daea22b80f25|ca22de4c",
+    "step": "removeBySelector",
+    "reason": "partial match: hero[_\\-a-z]",
+    "selector": "hero[_\\-a-z]",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 26,
+    "tag": "div",
+    "text": "A depiction of artificial cybernetic entity encompassing diverse layers and forms of life. Image Credit: Generated by Olaf Witkowski using DALL-E version 2, August 21, 2024.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "279.html",
+    "issue": 279,
+    "fp": "removeByContentPattern|div|72ec91a6af2f|327b444d",
+    "step": "removeByContentPattern",
+    "reason": "related content section",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 180,
+    "tag": "div",
+    "text": "About the Author Olaf Witkowski is a Leader of Technological Change and an Ambassador for Compassionate AI and Artificial Life, based in Kyoto, Japan. He is the Founding Director of Cross Labs, an AI research institute in Kyoto focused on fundamental research in Diverse Intelligences and Empathic AI",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.9,
+     "po": 0.9,
+     "role": 0
+    }
+   },
+   {
+    "page": "279.html",
+    "issue": 279,
+    "fp": "removeBySelector|div|daea22b80f25|668a6083",
+    "step": "removeBySelector",
+    "reason": "partial match: hero[_\\-a-z]",
+    "selector": "hero[_\\-a-z]",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 26,
+    "tag": "div",
+    "text": "A depiction of artificial cybernetic entity encompassing diverse layers and forms of life. Image Credit: Generated by Olaf Witkowski using DALL-E version 2, August 21, 2024.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.92,
+     "po": 0.95,
+     "role": 1
+    }
+   },
+   {
+    "page": "279.html",
+    "issue": 279,
+    "fp": "removeByContentPattern|div|72ec91a6af2f|538b7f22",
+    "step": "removeByContentPattern",
+    "reason": "related content section",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 180,
+    "tag": "div",
+    "text": "About the Author Olaf Witkowski is a Leader of Technological Change and an Ambassador for Compassionate AI and Artificial Life, based in Kyoto, Japan. He is the Founding Director of Cross Labs, an AI research institute in Kyoto focused on fundamental research in Diverse Intelligences and Empathic AI",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.9,
+     "po": 0.9,
+     "role": 0
+    }
+   },
+   {
+    "page": "360a.html",
+    "issue": 360,
+    "fp": "removeBySelector|div|79a1f163e28a|e01b264a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[class$=\"-ad\" i]"
+    ],
+    "fam": "promo",
+    "inline": false,
+    "words": 373,
+    "tag": "div",
+    "text": "So what’s up? Ryan Murphy has hardly become ratings poison, of course. And despite his outsize profile (more on that below), Murphy’s brand of provocative and often R-rated mayhem and smack-talking has always been hit-and-miss with general audiences. I asked Nielsen for total viewership numbers for ",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.83,
+     "po": 0.9,
+     "role": 1
+    }
+   },
+   {
+    "page": "360a.html",
+    "issue": 360,
+    "fp": "removeBySelector|div|9321b003d08d|e01b264a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[class$=\"-ad\" i]"
+    ],
+    "fam": "promo",
+    "inline": false,
+    "words": 528,
+    "tag": "div",
+    "text": "In fact, as my colleague Julia Alexander noted yesterday, Disney+/Hulu still leans more than any other streamer on old, library series with hundreds of episodes, like Grey’s Anatomy and Family Guy, as well as the kids’ stuff like Bluey. The newer offerings? Not so much. Despite a regular slate of or",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.84,
+     "po": 0.91,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "360a.html",
+    "issue": 360,
+    "fp": "removeBySelector|div|df3063ade781|e01b264a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[class$=\"-ad\" i]"
+    ],
+    "fam": "promo",
+    "inline": false,
+    "words": 649,
+    "tag": "div",
+    "text": "Which Brings Us Back to Murphy… Despite the cuts to its overall content output, Disney has continued to invest freely in the Murphy conveyor belt of shows, even renewing All’s Fair for a second season despite U.S. numbers on par with The Beauty, which was canceled. (Maybe Kardashian’s Hulu reality s",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.79,
+     "po": 0.85,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "360a.html",
+    "issue": 360,
+    "fp": "removeBySelector|p|f9387ef587e2|8f642621",
+    "step": "removeBySelector",
+    "reason": "partial match: byline",
+    "selector": "byline",
+    "exact": [],
+    "fam": "author",
+    "inline": false,
+    "words": 41,
+    "tag": "p",
+    "text": "Dana Walden needs new TV hits, and happily welcomed the star showrunner back after his Netflix run. But while Murphy’s generated no shortage of buzz (Love Story, All’s Fair, and his latest, The Shards), it translates less often to Nielsen magic.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.93,
+     "po": 0.96,
+     "role": 0.82
+    }
+   },
+   {
+    "page": "360a.html",
+    "issue": 360,
+    "fp": "scoreAndRemove|div|e2717223147c|7a6275f4",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 11,
+    "tag": "div",
+    "text": "Showrunner Ryan Murphy Photo: JC Olivera / Variety via Getty Images",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.86,
+     "po": 0.85,
+     "role": 0.75
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|81976d4f15d4|93b9508b",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 41,
+    "tag": "div",
+    "text": "void RunTerminal(TInstant endTs) { while (Now() < endTs) { auto type = PickTransaction(); auto input = MakeInput(type); // Simulate the user entering the request. Sleep(KeyingTime(type)); auto result = RunTx(input); // Simulate the user reading the response. Sleep(ThinkTime(type)); Stats.Record(type",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|81976d4f15d4|a6de08b1",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 41,
+    "tag": "div",
+    "text": "void RunTerminal(TInstant endTs) { while (Now() < endTs) { auto type = PickTransaction(); auto input = MakeInput(type); // Simulate the user entering the request. Sleep(KeyingTime(type)); auto result = RunTx(input); // Simulate the user reading the response. Sleep(ThinkTime(type)); Stats.Record(type",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|e9c6e612c10a|0cf1b472",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 38,
+    "tag": "div",
+    "text": "TxResult RunTx(Input input) { auto tx = Db.BeginTransaction(); auto r1 = tx.Query(sql1).GetValueSync(); // Process r1 and prepare sql2. auto r2 = tx.Query(sql2).GetValueSync(); // Process r2. // Queries 3-9. auto r10 = tx.Query(sql10).GetValueSync(); // Process r10. return tx.Commit().GetValueSync()",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|e9c6e612c10a|3bc2d2e8",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 38,
+    "tag": "div",
+    "text": "TxResult RunTx(Input input) { auto tx = Db.BeginTransaction(); auto r1 = tx.Query(sql1).GetValueSync(); // Process r1 and prepare sql2. auto r2 = tx.Query(sql2).GetValueSync(); // Process r2. // Queries 3-9. auto r10 = tx.Query(sql10).GetValueSync(); // Process r10. return tx.Commit().GetValueSync()",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|ee77dd32eaa4|cca83466",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 13,
+    "tag": "div",
+    "text": "auto future = tx.Query(sql1) .Apply([&](auto r1) { // Process r1. return tx.Query(sql2); });",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.93,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|ee77dd32eaa4|c53b03b8",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 13,
+    "tag": "div",
+    "text": "auto future = tx.Query(sql1) .Apply([&](auto r1) { // Process r1. return tx.Query(sql2); });",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|8e63612f3f18|2475de9f",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 59,
+    "tag": "div",
+    "text": "Future<TxResult> RunTx(Input input) { auto tx = db.BeginTransaction(); // Executed in the caller's thread. return tx.Query(sql1) .Apply([&](auto r1) { // Executed by the thread that fulfilled // the previous promise — typically an SDK thread. // Process r1. return tx.Query(sql2); }) // r3-r9, simila",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.98,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|8e63612f3f18|d0ed2d6a",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 59,
+    "tag": "div",
+    "text": "Future<TxResult> RunTx(Input input) { auto tx = db.BeginTransaction(); // Executed in the caller's thread. return tx.Query(sql1) .Apply([&](auto r1) { // Executed by the thread that fulfilled // the previous promise — typically an SDK thread. // Process r1. return tx.Query(sql2); }) // r3-r9, simila",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|735b18a00775|5184c075",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 37,
+    "tag": "div",
+    "text": "while (Now() < EndTs) { auto type = PickTransaction(); auto input = MakeInput(type); // Simulate user typing / preparing the request. Sleep(KeyingTime(type)); auto future = RunTx(input); // Simulate user thinking after the response. Sleep(ThinkTime(type)); Stats.Record(type, result); }",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.95,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|735b18a00775|ce0cc688",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 37,
+    "tag": "div",
+    "text": "while (Now() < EndTs) { auto type = PickTransaction(); auto input = MakeInput(type); // Simulate user typing / preparing the request. Sleep(KeyingTime(type)); auto future = RunTx(input); // Simulate user thinking after the response. Sleep(ThinkTime(type)); Stats.Record(type, result); }",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|8695435e3852|d54bfaea",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 14,
+    "tag": "div",
+    "text": "auto future1 = pool.After(KeyingTime(type)); auto future2 = pool.ContinueWith(future1, [&](auto) { return RunTx(input, pool); });",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.94,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|8695435e3852|85097723",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 14,
+    "tag": "div",
+    "text": "auto future1 = pool.After(KeyingTime(type)); auto future2 = pool.ContinueWith(future1, [&](auto) { return RunTx(input, pool); });",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|61f34609cd1e|9bc78ad6",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 54,
+    "tag": "div",
+    "text": "Future<TxResult> RunTx(Input input, IPool& pool) { auto tx = db.BeginTransaction(); auto f1 = tx.Query(sql1); auto f2 = pool.ContinueWith(f1, [&](auto r1) { // Process r1. return tx.Query(sql2); }); // r3-r9 auto f10 = pool.ContinueWith(f9, [&](auto r9) { // Process r9. return tx.Query(sql10); }); r",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|61f34609cd1e|cefe9efe",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 54,
+    "tag": "div",
+    "text": "Future<TxResult> RunTx(Input input, IPool& pool) { auto tx = db.BeginTransaction(); auto f1 = tx.Query(sql1); auto f2 = pool.ContinueWith(f1, [&](auto r1) { // Process r1. return tx.Query(sql2); }); // r3-r9 auto f10 = pool.ContinueWith(f9, [&](auto r9) { // Process r9. return tx.Query(sql10); }); r",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|89e1faf19ee3|592b9a0c",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 112,
+    "tag": "div",
+    "text": "struct TTerminalState { Promise<void> Done; TInstant EndTs; TransactionType Type; Input Input; }; Future<void> RunTerminal(TInstant endTs, IPool& pool) { auto state = std::make_unique<TTerminalState>(); state->EndTs = endTs; auto future = state->Done.GetFuture(); pool.Schedule([state = std::move(sta",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|89e1faf19ee3|13a264a6",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 112,
+    "tag": "div",
+    "text": "struct TTerminalState { Promise<void> Done; TInstant EndTs; TransactionType Type; Input Input; }; Future<void> RunTerminal(TInstant endTs, IPool& pool) { auto state = std::make_unique<TTerminalState>(); state->EndTs = endTs; auto future = state->Done.GetFuture(); pool.Schedule([state = std::move(sta",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|7346410045ff|101b36e1",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 39,
+    "tag": "div",
+    "text": "TFuture<TxResult> RunTx(Input input) { auto tx = Db.BeginTransaction(); auto r1 = co_await tx.Query(sql1); // Process r1. auto r2 = co_await tx.Query(sql2); // Process r2. // Queries 3-9. auto r10 = co_await tx.Query(sql10); // Process r10. co_return co_await tx.Commit(); }",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|7346410045ff|fdda2306",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 39,
+    "tag": "div",
+    "text": "TFuture<TxResult> RunTx(Input input) { auto tx = Db.BeginTransaction(); auto r1 = co_await tx.Query(sql1); // Process r1. auto r2 = co_await tx.Query(sql2); // Process r2. // Queries 3-9. auto r10 = co_await tx.Query(sql10); // Process r10. co_return co_await tx.Commit(); }",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|7b4872958f22|f0ea48ab",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 30,
+    "tag": "div",
+    "text": "TFuture<void> RunTerminal(TInstant endTs) { while (Now() < endTs) { auto type = PickTransaction(); auto input = MakeInput(type); co_await Sleep(KeyingTime(type)); auto result = co_await RunTx(input); Stats.Record(type, result); co_await Sleep(ThinkTime(type)); } }",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|7b4872958f22|24beab31",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 30,
+    "tag": "div",
+    "text": "TFuture<void> RunTerminal(TInstant endTs) { while (Now() < endTs) { auto type = PickTransaction(); auto input = MakeInput(type); co_await Sleep(KeyingTime(type)); auto result = co_await RunTx(input); Stats.Record(type, result); co_await Sleep(ThinkTime(type)); } }",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|63ec005286c9|f2449ba6",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "void RunTerminal(TInstant endTs) { while (Now() < endTs) { auto type = PickTransaction(); auto input = MakeInput(type); Sleep(KeyingTime(type)); auto result = RunTx(input); Stats.Record(type, result); Sleep(ThinkTime(type)); } }",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.95,
+     "po": 0.95,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|63ec005286c9|a6de08b1",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "void RunTerminal(TInstant endTs) { while (Now() < endTs) { auto type = PickTransaction(); auto input = MakeInput(type); Sleep(KeyingTime(type)); auto result = RunTx(input); Stats.Record(type, result); Sleep(ThinkTime(type)); } }",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|96269f93fc0d|0b804c63",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 9,
+    "tag": "div",
+    "text": "enum class EState { Sleep, RunTx, ProcessResult, Terminate, };",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.94,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|96269f93fc0d|67f4f3dc",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 9,
+    "tag": "div",
+    "text": "enum class EState { Sleep, RunTx, ProcessResult, Terminate, };",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|1bb5d6635054|0709b98c",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 25,
+    "tag": "div",
+    "text": "struct TStatefulTask { EState State = EState::Sleep; TFuture<void> StateDone; IPool* Pool; TInstant EndTs; TransactionType Type; Input Input; std::optional<TxResult> Result; void Resume(); bool Done() const; };",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|1bb5d6635054|a35fd727",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 25,
+    "tag": "div",
+    "text": "struct TStatefulTask { EState State = EState::Sleep; TFuture<void> StateDone; IPool* Pool; TInstant EndTs; TransactionType Type; Input Input; std::optional<TxResult> Result; void Resume(); bool Done() const; };",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|75d6f7db434e|07bf7e86",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 47,
+    "tag": "div",
+    "text": "void RunTerminal(TStatefulTask* state) { if (Now() >= state->EndTs) { state->State = EState::Terminate; return; } auto& pool = *state->Pool; switch (state->State) { case EState::Sleep: { state->Type = PickTransaction(); state->Input = MakeInput(state->Type); state->Result.reset(); auto sleepTime = K",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|75d6f7db434e|bd7f3f96",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 47,
+    "tag": "div",
+    "text": "void RunTerminal(TStatefulTask* state) { if (Now() >= state->EndTs) { state->State = EState::Terminate; return; } auto& pool = *state->Pool; switch (state->State) { case EState::Sleep: { state->Type = PickTransaction(); state->Input = MakeInput(state->Type); state->Result.reset(); auto sleepTime = K",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|075b2bf65cac|f1070e2a",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "case EState::RunTx: { state->StateDone = RunTx(state->Input, pool) .Apply([state](auto result) { state->Result = std::move(result); }); state->State = EState::ProcessResult; return; }",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|075b2bf65cac|30e04ea6",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "case EState::RunTx: { state->StateDone = RunTx(state->Input, pool) .Apply([state](auto result) { state->Result = std::move(result); }); state->State = EState::ProcessResult; return; }",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|1f439e2ac005|71b2dc60",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 13,
+    "tag": "div",
+    "text": "case EState::ProcessResult: { Stats.Record(state->Type, *state->Result); state->StateDone = pool.After(ThinkTime(state->Type)); state->State = EState::Sleep; return; }",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.93,
+     "po": 0.95,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|1f439e2ac005|6fde906a",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 13,
+    "tag": "div",
+    "text": "case EState::ProcessResult: { Stats.Record(state->Type, *state->Result); state->StateDone = pool.After(ThinkTime(state->Type)); state->State = EState::Sleep; return; }",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|07a12ae302e4|6e28a141",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "Sleep(...); auto result = RunTx(...); Stats.Record(...); Sleep(...);",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|07a12ae302e4|e83f9311",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "Sleep(...); auto result = RunTx(...); Stats.Record(...); Sleep(...);",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|883d61ec97b0|0040dff0",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "struct TStatefulTask { EState State = EState::Sleep; // ... void Resume() { RunTerminal(this); } bool Done() const { return State == EState::Terminate; } };",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.95,
+     "po": 0.95,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|883d61ec97b0|859678cc",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "struct TStatefulTask { EState State = EState::Sleep; // ... void Resume() { RunTerminal(this); } bool Done() const { return State == EState::Terminate; } };",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|d23d727c3464|820cef21",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "TStatefulTask CreateTerminal(TInstant endTs, IPool& pool) { return TStatefulTask{ .State = EState::Sleep, .Pool = &pool, .EndTs = endTs, }; }",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.94,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|d23d727c3464|2751d177",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "TStatefulTask CreateTerminal(TInstant endTs, IPool& pool) { return TStatefulTask{ .State = EState::Sleep, .Pool = &pool, .EndTs = endTs, }; }",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|37880caf219f|c06e49cc",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 26,
+    "tag": "div",
+    "text": "auto state = std::make_shared<TStatefulTask>(CreateTerminal(endTs, pool)); std::function<void()> driver; driver = [state, &driver] { if (state->Done()) { return; } state->Resume(); state->Pool->ContinueWith( state->StateDone, [&driver](auto) { driver(); }); }; driver();",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|37880caf219f|8af61a3a",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 26,
+    "tag": "div",
+    "text": "auto state = std::make_shared<TStatefulTask>(CreateTerminal(endTs, pool)); std::function<void()> driver; driver = [state, &driver] { if (state->Done()) { return; } state->Resume(); state->Pool->ContinueWith( state->StateDone, [&driver](auto) { driver(); }); }; driver();",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|0cf975de9e18|fdc0156b",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "auto task = RunTerminal(endTs);",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.92,
+     "po": 0.93,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|0cf975de9e18|c79e80d7",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "auto task = RunTerminal(endTs);",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|30c30b7ee6a4|8fbed64c",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "auto* promise = new promise_type; auto task = promise->get_return_object(); auto h = MakeCoroutineHandle(promise); if (promise->initial_suspend() == suspend_never) { h.resume(); }",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.92,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|30c30b7ee6a4|b9eeb75f",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "auto* promise = new promise_type; auto task = promise->get_return_object(); auto h = MakeCoroutineHandle(promise); if (promise->initial_suspend() == suspend_never) { h.resume(); }",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|365d162f00a7|feefb770",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 36,
+    "tag": "div",
+    "text": "struct promise_type { TPromise<void> Promise; TFuture<void> get_return_object() { return Promise.GetFuture(); } std::suspend_never initial_suspend() noexcept { return {}; } std::suspend_never final_suspend() noexcept { return {}; } void return_void() { Promise.SetValue(); } void unhandled_exception(",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|365d162f00a7|1191c189",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 36,
+    "tag": "div",
+    "text": "struct promise_type { TPromise<void> Promise; TFuture<void> get_return_object() { return Promise.GetFuture(); } std::suspend_never initial_suspend() noexcept { return {}; } std::suspend_never final_suspend() noexcept { return {}; } void return_void() { Promise.SetValue(); } void unhandled_exception(",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|8225ca3fd9f6|67f5f88f",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "bool await_ready(); void await_suspend(std::coroutine_handle<> handle); T await_resume();",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|8225ca3fd9f6|87a9dbe9",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "bool await_ready(); void await_suspend(std::coroutine_handle<> handle); T await_resume();",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|56c52c44618d|6d271040",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "template <typename T> struct TFutureAwaiter { TFuture<T> Future; bool await_ready() const { return Future.IsReady(); } void await_suspend(std::coroutine_handle<> handle) { Future.Subscribe([handle] { handle.resume(); }); } T await_resume() { return Future.Get(); } };",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|56c52c44618d|e8e08506",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "template <typename T> struct TFutureAwaiter { TFuture<T> Future; bool await_ready() const { return Future.IsReady(); } void await_suspend(std::coroutine_handle<> handle) { Future.Subscribe([handle] { handle.resume(); }); } T await_resume() { return Future.Get(); } };",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|139e5a0bdd13|b4aae593",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 90,
+    "tag": "div",
+    "text": "struct promise_type { std::suspend_never initial_suspend() noexcept; }; // coroutine TFuture<void> RunTerminal(TInstant endTs) { // this is executed by the calling thread while (Now() < endTs) { auto type = PickTransaction(); auto input = MakeInput(type); co_await Sleep(KeyingTime(type)); // from th",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|139e5a0bdd13|d6814f85",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 90,
+    "tag": "div",
+    "text": "struct promise_type { std::suspend_never initial_suspend() noexcept; }; // coroutine TFuture<void> RunTerminal(TInstant endTs) { // this is executed by the calling thread while (Now() < endTs) { auto type = PickTransaction(); auto input = MakeInput(type); co_await Sleep(KeyingTime(type)); // from th",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|715e5b5cea12|362e0de5",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "const auto threadHint = terminalId % pool.Size();",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.93,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|715e5b5cea12|08ac1956",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "const auto threadHint = terminalId % pool.Size();",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|8409385d9127|0def63db",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 35,
+    "tag": "div",
+    "text": "struct TScheduleOnPool { IThreadPool& Pool; size_t ThreadHint; bool await_ready() const { return Pool.IsInThisThread(ThreadHint); } bool await_suspend(std::coroutine_handle<> handle) { if (Pool.IsInThisThread(ThreadHint)) { return false; } Pool.Schedule(handle, ThreadHint); return true; } void await",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|8409385d9127|ea9d37de",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 35,
+    "tag": "div",
+    "text": "struct TScheduleOnPool { IThreadPool& Pool; size_t ThreadHint; bool await_ready() const { return Pool.IsInThisThread(ThreadHint); } bool await_suspend(std::coroutine_handle<> handle) { if (Pool.IsInThisThread(ThreadHint)) { return false; } Pool.Schedule(handle, ThreadHint); return true; } void await",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|65f50c18c0ab|deddadf5",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "TFuture<void> RunTerminal( TInstant endTs, IThreadPool& pool, ui64 terminalId) { const auto threadHint = terminalId % pool.Size(); co_await TScheduleOnPool{pool, threadHint}; // Terminal loop follows. }",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|65f50c18c0ab|1496ff99",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "TFuture<void> RunTerminal( TInstant endTs, IThreadPool& pool, ui64 terminalId) { const auto threadHint = terminalId % pool.Size(); co_await TScheduleOnPool{pool, threadHint}; // Terminal loop follows. }",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|31886cb93004|91e8c1ff",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 37,
+    "tag": "div",
+    "text": "template <typename T> struct TAwaitFutureOnPool { TFuture<T> Future; IThreadPool& Pool; size_t ThreadHint; bool await_ready() const { return Future.IsReady(); } void await_suspend(std::coroutine_handle<> handle) { Future.Subscribe([this, handle] { Pool.Schedule(handle, ThreadHint); }); } T await_res",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|31886cb93004|ffdcecfb",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 37,
+    "tag": "div",
+    "text": "template <typename T> struct TAwaitFutureOnPool { TFuture<T> Future; IThreadPool& Pool; size_t ThreadHint; bool await_ready() const { return Future.IsReady(); } void await_suspend(std::coroutine_handle<> handle) { Future.Subscribe([this, handle] { Pool.Schedule(handle, ThreadHint); }); } T await_res",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|415d9b39d60a|511db46c",
+    "step": "removeHiddenElements",
+    "reason": "class:dark:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 66,
+    "tag": "div",
+    "text": "TFuture<void> RunTerminal( TInstant endTs, IThreadPool& pool, ui64 terminalId) { const auto threadHint = terminalId % pool.Size(); co_await TScheduleOnPool{pool, threadHint}; while (Now() < endTs) { auto type = PickTransaction(); auto input = MakeInput(type); auto keying = Sleep(KeyingTime(type)); c",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|415d9b39d60a|1496ff99",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 66,
+    "tag": "div",
+    "text": "TFuture<void> RunTerminal( TInstant endTs, IThreadPool& pool, ui64 terminalId) { const auto threadHint = terminalId % pool.Size(); co_await TScheduleOnPool{pool, threadHint}; while (Now() < endTs) { auto type = PickTransaction(); auto input = MakeInput(type); auto keying = Sleep(KeyingTime(type)); c",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|07a12ae302e4|f8541ec9",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "Sleep(...); auto result = RunTx(...); Stats.Record(...); Sleep(...);",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.94,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|0cf975de9e18|0e699eac",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "auto task = RunTerminal(endTs);",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.9,
+     "po": 0.91,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|8225ca3fd9f6|df416398",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "bool await_ready(); void await_suspend(std::coroutine_handle<> handle); T await_resume();",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.92,
+     "po": 0.93,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeHiddenElements|div|715e5b5cea12|62a114ca",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "const auto threadHint = terminalId % pool.Size();",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.91,
+     "po": 0.92,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeBySelector|div|07a12ae302e4|f8541ec9",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     ".hidden"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "Sleep(...); auto result = RunTx(...); Stats.Record(...); Sleep(...);",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeBySelector|div|0cf975de9e18|0e699eac",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     ".hidden"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "auto task = RunTerminal(endTs);",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.87,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeBySelector|div|8225ca3fd9f6|df416398",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     ".hidden"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "bool await_ready(); void await_suspend(std::coroutine_handle<> handle); T await_resume();",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "page": "365.html",
+    "issue": 365,
+    "fp": "removeBySelector|div|715e5b5cea12|62a114ca",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     ".hidden"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "const auto threadHint = terminalId % pool.Size();",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.86,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|39d448f51685|b3ba90b0",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1173,
+    "tag": "div",
+    "text": "XGIMI Titan Noir Max Specs The XGIMI Titan Noir Max is clearly built as a no-compromise, high-end RGB laser DLP projector, combining next-gen hardware with a strong focus on contrast, brightness, and installation flexibility. At its core, the projector uses a 0.47-inch SST DMD from Texas Instruments",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|d6bc79032f41|938487ab",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 270,
+    "tag": "div",
+    "text": "The Lens, a High-End State of the Art This is where things get really interesting… because XGIMI didn’t just throw a decent lens on the Titan Noir Max and call it a day. They actually went all in. The projector uses the X-Master Red Ring Lens Pro, an improved version of the already excellent lens we",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.94,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|077a290a9d5a|a86d8622",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 47,
+    "tag": "div",
+    "text": "I honestly do not understand why XGIMI chose this rather inconvenient navigation system for the Titan Noir Max menus, because there does not seem to be any real benefit to it, and it simply makes it harder for the user to read and select what they want.",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 0.51
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|d0c8410c378a|2f2116e4",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 42,
+    "tag": "div",
+    "text": "I precisely measured these laser pulses on the Titan Noir Max using an oscilloscope, and in order to better understand the performance of XGIMI’s RBE Reduction system, I directly compared it with the corresponding implementation from AWOL Vision on the Aetherion MAX.",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|1240626bba65|d0ce28cb",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 50,
+    "tag": "div",
+    "text": "This is the measurement that captures the laser pulses of the Titan Noir Max in Standard Picture Mode, with the Standard White Balance selected. The RBE Reduction function is disabled. On the right, you can also see how these laser pulses appear on the screen, captured directly with my camera.",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|ff904335576f|262b5a2d",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 179,
+    "tag": "div",
+    "text": "The shape of the pulses, the number of pulses, their intensity, and even the duty cycle naturally change depending on the brightness level and the color content of the frame being displayed. For example, the measurements you are looking at here were taken while the projector was displaying a 100 IRE",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|6f82517dc2db|b0624192",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 140,
+    "tag": "div",
+    "text": "But how can we evaluate whether an RBE Reduction system works well, and determine how refined it really is? There are several ways to do this, but I chose the most scientific one: measuring two projectors equipped with RBE Reduction systems using an oscilloscope, and then directly comparing those me",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|e8c185c33315|5b934a2b",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 105,
+    "tag": "div",
+    "text": "As for the dynamic iris, personally, I was not particularly impressed. In its attempt to avoid the typical “pumping” effect, where the iris constantly opens and closes during scene transitions and becomes distracting, and honestly, XGIMI was right to avoid that, the company made the dynamic iris beh",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|1e8ae4558b82|44c10d75",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 36,
+    "tag": "div",
+    "text": "Actually, I would go even further and place it right behind the latest JVC D-ILA projectors across all projector categories in terms of contrast performance, and honestly, I think that says everything. HDR – Dolby Vision",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|9980f5675ab9|cb42ecce",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 59,
+    "tag": "div",
+    "text": "The tuning that Harman Kardon has done on this sound system is sick. Totally sick. The Titan Noir Max features a complete built-in audio system consisting of two full-range drivers rated at 2x12W. First of all, the sound dispersion inside the room. How does it even do this? You hear the sound and th",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 0.74
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|h3|737bc96abf36|0fe205ce",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "h3",
+    "text": "Measurements",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|dcced1f1c295|5fcf3dac",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 29,
+    "tag": "p",
+    "text": "If we use the maximum throw ratio of 2.0, brightness drops by only 10%, down to 3617 ANSI lumens, but native contrast increases disproportionately by almost 50%, reaching 2787:1!!",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|h4|4ecef8d2e84e|7ee647c4",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 4,
+    "tag": "h4",
+    "text": "White balance & Colors",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 0.985
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|7df85a6fade6|7859dad5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 29,
+    "tag": "p",
+    "text": "And here with the D65 white balance selected. A very strange behavior, with a heavily green-tinted image. This is one white balance setting that I would not recommend using.",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|f0a7c362eb7f|95a80404",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 27,
+    "tag": "p",
+    "text": "It is also interesting to see how the use of the iris affects the white balance. Let’s take a look at the measurements across all iris positions.",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|b8d34e593ca9|6a153aec",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/3.0",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.83,
+     "po": 0.85,
+     "role": 0.55
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|8eb4de54d37f|106ccf60",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/4.0",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.88,
+     "po": 0.89,
+     "role": 0.625
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|df3d13605416|4429c4ac",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/5.5",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.8,
+     "po": 0.82,
+     "role": 0.69
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|div|be123451d9bf|e4966394",
+    "step": "removeBySelector",
+    "reason": "partial match: hero[_\\-a-z]",
+    "selector": "hero[_\\-a-z]",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "XGIMI Titan Noir MaxIn‑depth Review",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.88,
+     "po": 0.92,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeHiddenElements|div|2bec8ce4204e|49efc279",
+    "step": "removeHiddenElements",
+    "reason": "class:empty:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 113,
+    "tag": "div",
+    "text": "What is going on with this new SST platform? The XGIMI Titan Noir uses the latest SST DMD chip. SST stands for Single Springtip Torsional Pixel, and it’s not just another revision or a typical controller update. This is a completely new DMD platform, marking a new micromirror architecture from Texas",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|h3|737bc96abf36|9352414d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "h3",
+    "text": "Measurements",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|h4|4ecef8d2e84e|e652eef6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 4,
+    "tag": "h4",
+    "text": "White balance & Colors",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 0.985
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|f0a7c362eb7f|9be9da0b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 27,
+    "tag": "p",
+    "text": "It is also interesting to see how the use of the iris affects the white balance. Let’s take a look at the measurements across all iris positions.",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|b8d34e593ca9|fdc31485",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/3.0",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.83,
+     "po": 0.85,
+     "role": 0.55
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|8eb4de54d37f|765dd268",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/4.0",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.88,
+     "po": 0.89,
+     "role": 0.625
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|df3d13605416|9aa5ab37",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/5.5",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.8,
+     "po": 0.82,
+     "role": 0.69
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|span|c40dc8745c2b|b9b4a3eb",
+    "step": "removeBySelector",
+    "reason": "partial match: hero[_\\-a-z]",
+    "selector": "hero[_\\-a-z]",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 4,
+    "tag": "span",
+    "text": "XGIMI Titan Noir Max",
+    "ans": {
+     "ex": 0.8,
+     "plain": 0.71,
+     "po": 0.8,
+     "role": 0.875
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|b8d34e593ca9|2ffd495e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/3.0",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.9,
+     "po": 0.91,
+     "role": 0.55
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|8eb4de54d37f|fa114d2a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/4.0",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.625
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|df3d13605416|5b083201",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/5.5",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.87,
+     "po": 0.9,
+     "role": 0.69
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|53d274f74a1d|915d31de",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/7.0",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.89,
+     "po": 0.9,
+     "role": 0.58
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|8eb4de54d37f|2180a6f1",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/4.0",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.94,
+     "po": 0.95,
+     "role": 0.625
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|df3d13605416|3d7d7aa8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/5.5",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.94,
+     "po": 0.94,
+     "role": 0.69
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|53d274f74a1d|956127db",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/7.0",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.87,
+     "po": 0.91,
+     "role": 0.58
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|df3d13605416|8d243246",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/5.5",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.96,
+     "role": 0.69
+    }
+   },
+   {
+    "page": "375.html",
+    "issue": 375,
+    "fp": "removeBySelector|p|53d274f74a1d|7bc89d91",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "p",
+    "text": "F/7.0",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.87,
+     "po": 0.93,
+     "role": 0.58
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|f9479d0cbec0|c5e27c8e",
+    "step": "removeBySelector",
+    "reason": "partial match: footer",
+    "selector": "footer",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 13796,
+    "tag": "div",
+    "text": "Advanced Search Enabling the prediction of phage receptor specificity from genome data View ORCID ProfileLucas Moriniere, View ORCID ProfileAvery J. C. Noonan, View ORCID ProfileAlexey Kazakov, Melina Pena, View ORCID ProfileMadeline Svab, View ORCID ProfileEdwin O. Rivera-Lopez, View ORCID ProfileF",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.88,
+     "po": 0.88,
+     "role": 0.39
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|c66a21ef5c36|d69c2114",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Chen, R. et al. Pattern recognition receptors: function, regulation and therapeutic potential. Sig Transduct Target Ther 10, 216 (2025).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.91,
+     "po": 0.91,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|3ddc941d7479|de6a13c5",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Snoeck, S., Johanndrees, O., Nürnberger, T. & Zipfel, C. Plant pattern recognition receptors: from evolutionary insight to engineering. Nat Rev Genet 26, 268–278 (2025).",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.9,
+     "po": 0.87,
+     "role": 0.945
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|aa23c1abfd09|03915163",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Su, J. et al. Cell–cell communication: new insights and clinical implications. Sig Transduct Target Ther 9, 196 (2024).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.92,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|d9414b036ddd|c41686ba",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Greenblatt, J. F., Alberts, B. M. & Krogan, N. J. Discovery and significance of protein-protein interactions in health and disease. Cell 187, 6501–6517 (2024).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.9,
+     "po": 0.89,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|ba272040cb13|f04fe51f",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Barber, M. F. & Fitzgerald, J. R. Mechanisms of host adaptation by bacterial pathogens. FEMS Microbiol Rev 48, fuae019 (2024).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.88,
+     "po": 0.89,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|9e452bff43b4|861a4ca4",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 17,
+    "tag": "div",
+    "text": "Abramson, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493–500 (2024).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.92,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|677abb607da0|0763eaea",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 15,
+    "tag": "div",
+    "text": "Zhang, J. et al. Predicting protein-protein interactions in the human proteome. Science 390, eadt1630 (2025).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.91,
+     "po": 0.91,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|b7fed937fe85|4edb9a84",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "Gordillo Altamirano, F. L. & Barr, J. J. Unlocking the next generation of phage therapy: the key is in the receptors. Curr Opin Biotechnol 68, 115–123 (2021).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.9,
+     "po": 0.92,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|91adbd8eb85d|0af378b1",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 39,
+    "tag": "div",
+    "text": "Hendrix, R. W., Smith, M. C. M., Burns, R. N., Ford, M. E. & Hatfull, G. F. Evolutionary relationships among diverse bacteriophages and prophages: All the world’s a phage. Proc Natl Acad Sci U S A 96, 2192–2197 (1999).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.88,
+     "po": 0.9,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|41b942bc0c96|c6ae4b95",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 23,
+    "tag": "div",
+    "text": "Gaborieau, B. et al. Prediction of strain level phage–host interactions across the Escherichia genus using only genomic information. Nat Microbiol 9, 2847–2861 (2024).",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.85,
+     "po": 0.83,
+     "role": 0.95
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|33d5d8a77d98|cbbfef19",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "Dunne, M., Prokhorov, N. S., Loessner, M. J. & Leiman, P. G. Reprogramming bacteriophage host range: design principles and strategies for engineering receptor binding proteins. Curr Opin Biotechnol 68, 272–281 (2021).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.88,
+     "po": 0.9,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|af2b52469e0d|0b091517",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Yehl, K. et al. Engineering phage host-range and suppressing bacterial resistance through phage tail fiber mutagenesis. Cell 179, 459–469.e9 (2019).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.86,
+     "po": 0.89,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|6f1d187719c4|d9c91cf8",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 21,
+    "tag": "div",
+    "text": "Latka, A. et al. Engineering the modular receptor-binding proteins of Klebsiella phages switches their capsule serotype specificity. mBio 12, doi:10.1128/mbio.00455-21 (2021).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.88,
+     "po": 0.91,
+     "role": 0.955
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|cc477120eb7e|4c468540",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 25,
+    "tag": "div",
+    "text": "Ando, H., Lemire, S., Pires, D. P. & Lu, T. K. Engineering modular viral scaffolds for targeted bacterial population editing. Cell Syst 1, 187–196 (2015).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.87,
+     "po": 0.92,
+     "role": 0.94
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|2b92ad97b78c|b74b788b",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "Chevallereau, A., Pons, B. J., van Houte, S. & Westra, E. R. Interactions between bacterial and phage communities in natural environments. Nat Rev Microbiol 20, 49–62 (2022).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.89,
+     "po": 0.91,
+     "role": 0.95
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|1e99c0f4d9a0|11b251ca",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 25,
+    "tag": "div",
+    "text": "Koskella, B. & Brockhurst, M. A. Bacteria–phage coevolution as a driver of ecological and evolutionary processes in microbial communities. FEMS Microbiol Rev 38, 916–931 (2014).",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.88,
+     "po": 0.93,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|d3f4f44163f4|28f90142",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 25,
+    "tag": "div",
+    "text": "Strathdee, S. A., Hatfull, G. F., Mutalik, V. K. & Schooley, R. T. Phage therapy: From biological mechanisms to future directions. Cell 186, 17–31 (2023).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.85,
+     "po": 0.89,
+     "role": 0.955
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|5eb2d576c4ca|68975638",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 21,
+    "tag": "div",
+    "text": "Maffei, E. et al. Systematic exploration of Escherichia coli phage–host interactions with the BASEL phage collection. PLoS Biol 19, e3001424 (2021).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.89,
+     "po": 0.9,
+     "role": 0.955
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|2595bdc6a2a5|5078d332",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Humolli, D. et al. Completing the BASEL phage collection to unlock hidden diversity for systematic exploration of phage–host interactions. PLoS Biol 23, e3003063 (2025).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.88,
+     "po": 0.92,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|8f412dbd48ce|a58ae8dc",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Lutz, V. T. et al. Gp38 adhesins of Straboviridae phages recognize specific extracellular loops of outer membrane protein receptors. npj Viruses 3, 1–14 (2025).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.87,
+     "po": 0.89,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|fead46ca6e83|1e37b177",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 16,
+    "tag": "div",
+    "text": "Nobrega, F. L. et al. Targeting mechanisms of tailed bacteriophages. Nat Rev Microbiol 16, 760–773 (2018).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.88,
+     "po": 0.91,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|89a1cc73b0d0|52557a1a",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 22,
+    "tag": "div",
+    "text": "Wetmore, K. M. et al. Rapid quantification of mutant fitness in diverse bacteria by sequencing randomly bar-coded transposons. mBio 6, doi:10.1128/mbio.00306-15 (2015).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.9,
+     "po": 0.91,
+     "role": 0.945
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|b5bb70847f1f|98d7680d",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 23,
+    "tag": "div",
+    "text": "Mutalik, V. K. et al. Dual-barcoded shotgun expression library sequencing for high-throughput characterization of functional traits in bacteria. Nat Commun 10, 308 (2019).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.92,
+     "role": 0.93
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|554e87b1acbd|7ccf7d74",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Mutalik, V. K. et al. High-throughput mapping of the phage resistance landscape in E. coli. PLoS Biol 18, e3000877 (2020).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.9,
+     "po": 0.92,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|7701e1fbadbd|1255b3a4",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "Kortright, K. E., Chan, B. K. & Turner, P. E. High-throughput discovery of phage receptors using transposon insertion sequencing of bacteria. Proc Natl Acad Sci U S A 117, 18670–18679 (2020).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.8,
+     "po": 0.89,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|4cdeb12b6273|4d33169c",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Adler, B. A. et al. The genetic basis of phage susceptibility, cross-resistance and host-range in Salmonella. Microbiology 167, 001126 (2021).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.86,
+     "po": 0.9,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|21104602f41a|8b3760c1",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 25,
+    "tag": "div",
+    "text": "Walker, P. J. et al. Recent changes to virus taxonomy ratified by the International Committee on Taxonomy of Viruses (2022). Arch Virol 167, 2429–2440 (2022).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.89,
+     "po": 0.91,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|8f98dd36ea08|94591572",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 22,
+    "tag": "div",
+    "text": "Bin Jang, H., et al. Taxonomic assignment of uncultivated prokaryotic virus genomes is enabled by gene-sharing networks. Nat Biotechnol 37, 632–639 (2019).",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.89,
+     "po": 0.93,
+     "role": 0.955
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|eb4d15d368f7|0d8a1bcf",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Gauthier, C. H. & Hatfull, G. F. PhamClust: a phage genome clustering tool using proteomic equivalence. mSystems 8, e00443–23 (2023).",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.84,
+     "po": 0.87,
+     "role": 0.935
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|ab2d7ccd264d|e57305b5",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 22,
+    "tag": "div",
+    "text": "Baba, T., et al. Construction of Escherichia coli K-12 in-frame, single-gene knockout mutants: the Keio collection. Mol Syst Bio 2, 2006.0008 (2006).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.91,
+     "po": 0.92,
+     "role": 0.955
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|6a8fa8d3ee7b|747e46eb",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 34,
+    "tag": "div",
+    "text": "Kitagawa, M. et al. Complete set of ORF clones of Escherichia coli ASKA library (A Complete Set of E. coli K -12 ORF Archive): Unique resources for biological research. DNA Res 12, 291–299 (2005).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.81,
+     "po": 0.9,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|bf2e4728e107|54a142f0",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Sørensen, A. N. & Brøndsted, L. Renewed insights into Ackermannviridae phage biology and applications. npj Viruses 2, 37 (2024).",
+    "ans": {
+     "ex": 0.84,
+     "plain": 0.84,
+     "po": 0.84,
+     "role": 0.945
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|4e69366b6734|d070ba07",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Hantke, K. Compilation of Escherichia coli K-12 outer membrane phage receptors – their function and some historical remarks. FEMS Microbiol Lett 367, fnaa013 (2020).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.9,
+     "po": 0.92,
+     "role": 0.955
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|f478a6dc971b|4b80315f",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 35,
+    "tag": "div",
+    "text": "Smug, B. J., Szczepaniak, K., Rocha, E. P. C., Dunin-Horkawicz, S. & Mostowy, R. J. Ongoing shuffling of protein fragments diversifies core viral functions linked to interactions with bacterial hosts. Nat Commun 14, 1–16 (2023).",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.86,
+     "po": 0.87,
+     "role": 0.945
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|bf328f8ed3c6|7cc2e1a6",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 36,
+    "tag": "div",
+    "text": "Trojet, S. N., Caumont-Sarcos, A., Perrody, E., Comeau, A. M. & Krisch, H. M. The gp38 adhesins of the T4 superfamily: a complex modular determinant of the phage’s host specificity. Genome Biol Evol 3, 674–686 (2011).",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.89,
+     "po": 0.87,
+     "role": 0.945
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|b47c513fe461|16a710de",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "Leiman, P. G., Kanamaru, S., Mesyanzhinov, V. V., Arisaka, F. & Rossmann, M. G. Structure and morphogenesis of bacteriophage T4. Cell. Mol. Life Sci. 60, 2356–2370 (2003).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.85,
+     "po": 0.9,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|2da3202cd781|97723bce",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 25,
+    "tag": "div",
+    "text": "Degroux, S., Effantin, G., Linares, R., Schoehn, G. & Breyton, C. Deciphering bacteriophage T5 host recognition mechanism and infection trigger. J Virol 97, e01584–22 (2023).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.87,
+     "po": 0.89,
+     "role": 0.94
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|507300881a79|33170f9d",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 25,
+    "tag": "div",
+    "text": "Sellner, B. et al. A new sugar for an old phage: a c-di-GMP-dependent polysaccharide pathway sensitizes Escherichia coli for bacteriophage infection. mBio 12, e03246–21 (2021).",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.8,
+     "po": 0.85,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|e9f4534bbfc5|ec062bc9",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 23,
+    "tag": "div",
+    "text": "McPartland, J. & Rothman-Denes, L. B. The tail sheath of bacteriophage n4 interacts with the Escherichia coli receptor. J Bacteriol 191, 525–532 (2009).",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.8,
+     "po": 0.85,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|40fbc9b94adf|5ed9a81a",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "Schwarzer, D. et al. A multivalent adsorption apparatus explains the broad host range of phage phi92: a comprehensive genomic and structural analysis. J Virol 86, 10384–10398 (2012).",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.79,
+     "po": 0.86,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|e514bf7241a8|cca9b03a",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Noonan, A. J. C. et al. Phylogeny-agnostic strain-level prediction of phage-host interactions from genomes. 2025.11.15.688630 Preprint at doi:10.1101/2025.11.15.688630 (2025).",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.76,
+     "po": 0.82,
+     "role": 0.885
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|8c9c822adbb6|1ac53ae1",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 25,
+    "tag": "div",
+    "text": "Bartual, S. G. et al. Structure of the bacteriophage T4 long tail fiber receptor-binding tip. Proc Natl Acad Sci U S A 107, 20287–20292 (2010).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.79,
+     "po": 0.88,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|7d6da03831cd|228b8ecb",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 23,
+    "tag": "div",
+    "text": "Islam, M. Z. et al. Molecular anatomy of the receptor binding module of a bacteriophage long tail fiber. PLoS Pathog 15, e1008193 (2019).",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.82,
+     "po": 0.87,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|3436a16bddb5|8b16a9c8",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 22,
+    "tag": "div",
+    "text": "Rousset, F. et al. Genome-wide CRISPR-dCas9 screens in E. coli identify essential genes and phage host factors. PLoS Genet 14, e1007749 (2018).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.88,
+     "po": 0.92,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|b558acf6bc7f|b9fe3b40",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Molloy, M. P. et al. Proteomic analysis of the Escherichia coli outer membrane. Eur J Biochem 267, 2871–2881 (2000).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.88,
+     "po": 0.89,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|f79c2059b0cd|bd884947",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 23,
+    "tag": "div",
+    "text": "Cao, X. et al. Genome-wide investigation of outer membrane protein families under mosaic evolution in Escherichia coli. Appl Environ Microbiol 91, e00557–25 (2025).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.88,
+     "po": 0.89,
+     "role": 0.935
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|2636496064a5|4c605df1",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Zhang, Z. et al. Phage protein receptors have multiple interaction partners and high expressions. Bioinformatics 36, 2975–2979 (2020).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.88,
+     "po": 0.89,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|2fcbfc602368|36ece76b",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "Zhang, Z. et al. Cell membrane proteins with high N-glycosylation, high expression and multiple interaction partners are preferred by mammalian viruses as receptors. Bioinformatics 35, 723–728 (2019).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.9,
+     "po": 0.91,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|943866d4cccc|4bc90e2c",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Hampton, H. G., Watson, B. N. J. & Fineran, P. C. The arms race between bacteria and their phage foes. Nature 577, 327–336 (2020).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.88,
+     "po": 0.88,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|278b6f745653|101cdb8b",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Pyenson, N. C. et al. Diverse phage communities are maintained stably on a clonal bacterial host. Science 386, 1294–1300 (2024).",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.8,
+     "po": 0.83,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|6c28dbb485b9|3bc7a096",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Dion, M. B., Oechslin, F. & Moineau, S. Phage diversity, genomics and phylogeny. Nat Rev Microbiol 18, 125–138 (2020).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.89,
+     "po": 0.88,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|2148daf1f955|95a38644",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Peng, H. & Chen, I. A. Phage engineering and the evolutionary arms race. Curr Opin Biotechnol 68, 23–29 (2021).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.86,
+     "po": 0.89,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|14ac47cd50cc|f0d6bd8d",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "Sarkar, S., Ulett, G. C., Totsika, M., Phan, M.-D. & Schembri, M. A. Role of capsule and O antigen in the virulence of uropathogenic Escherichia coli. PLoS ONE 9, e94786 (2014).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.86,
+     "po": 0.88,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|4a46547b215e|f02848a5",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Letarov, A. V. Bacterial virus forcing of bacterial O-Antigen shields: lessons from coliphages. Int J Mol Sci 24, 17390 (2023).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.83,
+     "po": 0.88,
+     "role": 0.95
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|481f2aa8e628|4e71901c",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 17,
+    "tag": "div",
+    "text": "Beamud, B. et al. Genetic determinants of host tropism in Klebsiella phages. Cell Rep 42, 112048 (2023).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.87,
+     "po": 0.89,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|98161999aa82|2bcf7549",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 23,
+    "tag": "div",
+    "text": "Tran, V. N. & Burrows, L. L. Steering the course: targeting and exploiting surface receptors in phage therapy. J Bacteriol 208, e00375–25 (2025).",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.85,
+     "po": 0.85,
+     "role": 0.955
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|bc3a1056d4ad|876dcc8f",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 32,
+    "tag": "div",
+    "text": "Bai, J., Raustad, N., Denoncourt, J., Opijnen, T. van & Geisinger, E. Genome-wide phage susceptibility analysis in Acinetobacter baumannii reveals capsule modulation strategies that determine phage infectivity. PLoS Pathog 19, e1010928 (2023).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.87,
+     "po": 0.9,
+     "role": 0.94
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|9a073fe20eec|136a97a7",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Liu, B. et al. Structure and genetics of Escherichia coli O antigens. FEMS Microbiol Rev 44, 655–683 (2020).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.87,
+     "po": 0.89,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|d160468497fc|0ede96dc",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 36,
+    "tag": "div",
+    "text": "Lam, M. M. C., Wick, R. R., Judd, L. M., Holt, K. E. & Wyres, K. L. Kaptive 2.0: updated capsule and lipopolysaccharide locus typing for the Klebsiella pneumoniae species complex. Microb Genom 8, 000800 (2022).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.87,
+     "po": 0.9,
+     "role": 0.95
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|0920532729fa|681fe37f",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 42,
+    "tag": "div",
+    "text": "Cahill, S. M., Hall, R. M. & Kenyon, J. J. An update to the database for Acinetobacter baumannii capsular polysaccharide locus typing extends the extensive and diverse repertoire of genes found at and outside the K locus. Microb Genom 8, 000878 (2022).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.87,
+     "po": 0.88,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|2996638704c5|d8dc9db2",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Wang, C. et al. Data-driven engineering of phages with tunable capsule tropism for Klebsiella pneumoniae. Adv Sci 11, 2309972 (2024).",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.8,
+     "po": 0.82,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|67fdabbe87e0|677048d1",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "McCalla, A. J., et al. Acinetobacter phages use distinct strategies to breach the capsule barrier. PLoS Pathog 21, e1013536 (2025).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.87,
+     "po": 0.91,
+     "role": 0.95
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|dc81b7f9dd4a|68be2bfa",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 29,
+    "tag": "div",
+    "text": "Lenneman, B. R., Fernbach, J., Loessner, M. J., Lu, T. K. & Kilcher, S. Enhancing phage therapy through synthetic biology and genome engineering. Curr Opin Biotechnol 68, 151–159 (2021).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.86,
+     "po": 0.88,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|63160d343a47|837bbcd9",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 22,
+    "tag": "div",
+    "text": "Cowley, L. A. et al. Analysis of whole genome sequencing for the Escherichia coli O157:H7 typing phages. BMC Genom 16, 271 (2015).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.85,
+     "po": 0.88,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|5f2420f713b8|aa0910c2",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Kaczorowska, J. et al. A quest of great importance-developing a broad spectrum Escherichia coli phage collection. Viruses 11, 899 (2019).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.85,
+     "po": 0.89,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|7a2c07e95afc|c04ce909",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Mathieu, A. et al. Virulent coliphages in 1-year-old children fecal samples are fewer, but more infectious than temperate coliphages. Nat Commun 11, 378 (2020).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.85,
+     "po": 0.88,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|eed8b3647272|0607e486",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 21,
+    "tag": "div",
+    "text": "Hancock, R. E. & Reeves, P. Bacteriophage resistance in Escherichia coli K-12: general pattern of resistance. J Bacteriol 121, 983–993 (1975).",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.86,
+     "po": 0.87,
+     "role": 0.985
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|dcc3b45186c1|1a0c69ef",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 33,
+    "tag": "div",
+    "text": "Raya, R. R. et al. Isolation and characterization of a New T-even bacteriophage, CEV1, and determination of its potential to reduce Escherichia coli O157:H7 levels in sheep. Appl Environ Microbiol 72, 6405–6410 (2006).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.83,
+     "po": 0.89,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|b6708bf20736|7bbca55e",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 23,
+    "tag": "div",
+    "text": "Raya, R. R. et al. Naturally resident and exogenously applied T4-like and T5-like bacteriophages can reduce Escherichia coli O157. Bacteriophage 1, 15–24 (2011).",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.88,
+     "po": 0.93,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|55b891818d3f|870b2428",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Kutter, E. M. et al. Characterization of a ViI-like phage specific to Escherichia coli O157:H7. Virol J 8, 430 (2011).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.87,
+     "po": 0.91,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|464c87db4813|6afa389e",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 26,
+    "tag": "div",
+    "text": "Fletcher, J. et al. The Citizen Phage Library: rapid isolation of phages for the treatment of antibiotic resistant infections in the UK. Microorganisms 12, 253 (2024).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.87,
+     "po": 0.89,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|4e6f9a72aecc|ed32b05f",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 23,
+    "tag": "div",
+    "text": "Korf, I. H. E. et al. Still something to discover: novel insights into Escherichia coli phage diversity and taxonomy. Viruses 11, 454 (2019).",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.82,
+     "po": 0.86,
+     "role": 0.945
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|5fbd2fd8ac31|78528cc1",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 13,
+    "tag": "div",
+    "text": "Kutter, E. et al. Evolution of T4-related phages. Virus Genes 11, 285–297 (1995).",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.84,
+     "po": 0.87,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|4086cd03f993|b31c73fe",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 13,
+    "tag": "div",
+    "text": "Krueger, F., et al. FelixKrueger/TrimGalore: v0.6.10 - add default decompression path. doi:10.5281/zenodo.7598955 (2023).",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.83,
+     "po": 0.85,
+     "role": 0.935
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|92a0db26fd6b|e1262270",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 10,
+    "tag": "div",
+    "text": "Bushnell, B. BBMap: A fast, accurate, splice-aware aligner. https://sourceforge.net/projects/bbmap/ (2014).",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.78,
+     "po": 0.85,
+     "role": 0.985
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|77afe6e3a23e|7f0e8a73",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 22,
+    "tag": "div",
+    "text": "Prjibelski, A., Antipov, D., Meleshko, D., Lapidus, A. & Korobeynikov, A. Using SPAdes de novo assembler. Curr Protoc Bioinform 70, e102 (2020).",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.85,
+     "po": 0.91,
+     "role": 0.945
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|e807efddeb6a|8dd772be",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 17,
+    "tag": "div",
+    "text": "Camargo, A. P. et al. Identification of mobile genetic elements with geNomad. Nat Biotechnol 42, 1303–1312 (2024).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.84,
+     "po": 0.88,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|0c18506fd3d0|1503390b",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Nayfach, S. et al. CheckV assesses the quality and completeness of metagenome-assembled viral genomes. Nat Biotechnol 39, 578–585 (2021).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.86,
+     "po": 0.92,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|837c0d279002|2b9adf6b",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 15,
+    "tag": "div",
+    "text": "Bouras, G. et al. Pharokka: a fast scalable bacteriophage annotation tool. Bioinformatics 39, btac776 (2023).",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.83,
+     "po": 0.86,
+     "role": 0.955
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|cbd42932e3ee|db8b07c2",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "McNair, K., Zhou, C., Dinsdale, E. A., Souza, B. & Edwards, R. A. PHANOTATE: a novel approach to gene identification in phage genomes. Bioinformatics 35, 4537–4542 (2019).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.89,
+     "po": 0.88,
+     "role": 0.95
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|b9032cd02a4b|7cd3fe51",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 30,
+    "tag": "div",
+    "text": "Chan, P. P., Lin, B. Y., Mak, A. J. & Lowe, T. M. tRNAscan-SE 2.0: improved detection and functional classification of transfer RNA genes. Nucleic Acids Res 49, 9077–9096 (2021).",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.9,
+     "po": 0.93,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|15f98af935e2|ac672307",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Laslett, D. & Canback, B. ARAGORN, a program to detect tRNA genes and tmRNA genes in nucleotide sequences. Nucleic Acids Res 32, 11–16 (2004).",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.83,
+     "po": 0.85,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|29616b22662c|284ceaf1",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Bland, C. et al. CRISPR Recognition Tool (CRT): a tool for automatic detection of clustered regularly interspaced palindromic repeats. BMC Bioinform 8, 209 (2007).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.87,
+     "po": 0.89,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|c1f020669552|37254808",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Terzian, P., et al. PHROG: families of prokaryotic virus proteins clustered using remote homology. NAR Genom Bioinform 3, lqab067 (2021).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.86,
+     "po": 0.9,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|3eb45f9f9ae6|512bc9a3",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Chen, L. et al. VFDB: a reference database for bacterial virulence factors. Nucleic Acids Res 33, D325–D328 (2005).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.83,
+     "po": 0.9,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|5801222cc25f|e1573d61",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 22,
+    "tag": "div",
+    "text": "Alcock, B. P. et al. CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database. Nucleic Acids Res 48, D517–D525 (2020).",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.89,
+     "po": 0.93,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|acf60ba271c4|23faf4c6",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 23,
+    "tag": "div",
+    "text": "Steinegger, M. & Söding, J. MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nat Biotechnol 35, 1026–1028 (2017).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.88,
+     "po": 0.89,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|9ada941eaa60|071f70e1",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Larralde, M. Pyrodigal: Python bindings and interface to Prodigal, an efficient method for gene prediction in prokaryotes. J Open Source Softw 7, 4296 (2022).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.85,
+     "po": 0.88,
+     "role": 0.935
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|61c7d5c3c825|1880ab31",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 26,
+    "tag": "div",
+    "text": "Cook, R. et al. INfrastructure for a PHAge REference Database: identification of large-scale biases in the current collection of cultured phage genomes. Phage 2, 214–223 (2021).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.88,
+     "po": 0.9,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|6759a18b472d|a4872f8b",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Ondov, B. D. et al. Mash: fast genome and metagenome distance estimation using MinHash. Genome Biol 17, 132 (2016).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.87,
+     "po": 0.89,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|32824202bff3|796bb5b4",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 17,
+    "tag": "div",
+    "text": "Bouras, G. et al. Protein structure-informed bacteriophage genome annotation with Phold. Nucleic Acids Res 54, gkaf1448 (2026).",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.8,
+     "po": 0.85,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|7ec8b3b7a321|1893c42f",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 20,
+    "tag": "div",
+    "text": "Shannon, P. et al. Cytoscape: A software environment for integrated models of biomolecular interaction networks. Genome Res. 13, 2498–2504 (2003).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.83,
+     "po": 0.88,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|0075dae21e9c|fca41989",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Price, M. N. et al. Mutant phenotypes for thousands of bacterial genes of unknown function. Nature 557, 503–509 (2018).",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.88,
+     "po": 0.89,
+     "role": 0.975
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|081f1d74c789|1deb3f31",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 12,
+    "tag": "div",
+    "text": "Wickham, H. Ggplot2: Elegant Graphics for Data Analysis. (Springer-Verlag, New York, 2016).",
+    "ans": {
+     "ex": 0.8,
+     "plain": 0.75,
+     "po": 0.8,
+     "role": 0.985
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|30a9210d805b|11151477",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 37,
+    "tag": "div",
+    "text": "Yu, G., Smith, D. K., Zhu, H., Guan, Y. & Lam, T. T.-Y. ggtree: an r package for visualization and annotation of phylogenetic trees with their covariates and other associated data. Methods Ecol Evol 8, 28–36 (2017).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.89,
+     "po": 0.9,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|64378a55541d|edcb1416",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 36,
+    "tag": "div",
+    "text": "Chung, C. T., Niemela, S. L. & Miller, R. H. One-step preparation of competent Escherichia coli: transformation and storage of bacterial cells in the same solution. Proc Natl Acad Sci U S A 86, 2172–2175 (1989).",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.81,
+     "po": 0.87,
+     "role": 0.98
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|16224e2bb65f|fd42ef42",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Price, M. N. & Arkin, A. P. PaperBLAST: Text mining papers for information about homologs. mSystems 2, doi:10.1128/msystems.00039-17 (2017).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.87,
+     "po": 0.9,
+     "role": 0.94
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|ef92cd25449f|538920f9",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 13,
+    "tag": "div",
+    "text": "Camacho, C. et al. BLAST+: architecture and applications. BMC Bioinform 10, 421 (2009).",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.87,
+     "po": 0.87,
+     "role": 0.96
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|a787eb008d03|76d94d9e",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 24,
+    "tag": "div",
+    "text": "Hackl, T., Ankenbrand, M., Adrichem, B. van, Wilkins, D. & Haslinger, K. gggenomes: effective and versatile visualizations for comparative genomics. Preprint at doi:10.48550/arXiv.2411.13556 (2024).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.85,
+     "po": 0.88,
+     "role": 0.945
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|aa83d4f3cda1|b475140e",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 32,
+    "tag": "div",
+    "text": "Gouy, M., Tannier, E., Comte, N. & Parsons, D. P. Seaview version 5: a multiplatform software for multiple sequence alignment, molecular phylogenetic analyses, and tree reconciliation. Methods Mol Biol 2231, 241–260 (2021).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.87,
+     "po": 0.9,
+     "role": 0.95
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|dd28c7f2cbb3|f2f8b9f5",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 22,
+    "tag": "div",
+    "text": "Sievers, F. et al. Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Mol Syst Biol 7, 539 (2011).",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.86,
+     "po": 0.9,
+     "role": 0.955
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|35139734e305|3e566a57",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 21,
+    "tag": "div",
+    "text": "Zhou, L. et al. ggmsa: a visual exploration tool for multiple sequence alignment and associated data. Brief Bioinform 23, bbac222 (2022).",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.85,
+     "po": 0.88,
+     "role": 0.965
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|8168192d6dae|bb2e5233",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 19,
+    "tag": "div",
+    "text": "Goddard, T. D. et al. UCSF ChimeraX: Meeting modern challenges in visualization and analysis. Protein Sci 27, 14–25 (2018).",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.87,
+     "po": 0.92,
+     "role": 0.97
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeByContentPattern|div|9f98e49fa7df|434e319f",
+    "step": "removeByContentPattern",
+    "reason": "category badge",
+    "selector": "",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 6,
+    "tag": "div",
+    "text": "Download figure Open in new tab",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.94,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|div|996b91b95f42|e1d25e8e",
+    "step": "removeBySelector",
+    "reason": "partial match: tabs-",
+    "selector": "tabs-",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 13558,
+    "tag": "div",
+    "text": "Abstract Predicting which receptor a phage binds to from genome sequence alone has remained an intractable challenge, principally because the experimental phenotypic data required to train and validate predictive models have not been available at sufficient scale. Here we address this by conducting ",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.92,
+     "po": 0.97,
+     "role": 0.99
+    }
+   },
+   {
+    "page": "257.html",
+    "issue": 257,
+    "fp": "removeBySelector|ol|d3a48ca8f69d|9e8392f2",
+    "step": "removeBySelector",
+    "reason": "partial match: -labels",
+    "selector": "-labels",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2714,
+    "tag": "ol",
+    "text": "1. Chen, R. et al. Pattern recognition receptors: function, regulation and therapeutic potential. Sig Transduct Target Ther 10, 216 (2025). OpenUrl 2. Snoeck, S., Johanndrees, O., Nürnberger, T. & Zipfel, C. Plant pattern recognition receptors: from evolutionary insight to engineering. Nat Rev Genet",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.92,
+     "po": 0.92,
+     "role": 1
+    }
+   },
+   {
+    "page": "395.html",
+    "issue": 395,
+    "fp": "removeBySelector|tr|1d3b1a1edf95|05b6f33d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     ".header:not(.banner)"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 7,
+    "tag": "tr",
+    "text": "the observation its symbol the observed value",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 0.995
+    }
+   },
+   {
+    "page": "395.html",
+    "issue": 395,
+    "fp": "removeBySelector|tr|6469bbb230b3|97f011e9",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     ".header:not(.banner)"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 16,
+    "tag": "tr",
+    "text": "which game value deviation from mean (\\(X_i - \\bar{X}\\)) absolute deviation (\\(\\lvert X_i - \\bar{X} \\rvert\\))",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "395.html",
+    "issue": 395,
+    "fp": "removeBySelector|tr|da717be29df9|691ca4ae",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     ".header:not(.banner)"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 14,
+    "tag": "tr",
+    "text": "which game value deviation from mean (\\(X_i - \\bar{X}\\)) squared deviation (\\((X_i - \\bar{X})^2\\))",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "page": "395.html",
+    "issue": 395,
+    "fp": "removeBySelector|tr|4fdc85f28d1f|9a9abf80",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     ".header:not(.banner)"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 6,
+    "tag": "tr",
+    "text": "informal term technical name kurtosis value",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "page": "395.html",
+    "issue": 395,
+    "fp": "removeBySelector|tr|20cd503f4ddb|82fe07f8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     ".header:not(.banner)"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 3,
+    "tag": "tr",
+    "text": "Correlation Strength Direction",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   }
+  ],
+  "per_issue": {
+   "134": {
+    "W": 2,
+    "recovered": 0,
+    "blocks": [
+     "134-path-cards:lost",
+     "134-whats-new-card:lost"
+    ]
+   },
+   "252": {
+    "W": 4,
+    "recovered": 4,
+    "blocks": [
+     "252s-link-1:recovered",
+     "252s-link-2:recovered",
+     "252-link-1:recovered",
+     "252-link-2:recovered"
+    ]
+   },
+   "257": {
+    "W": 1,
+    "recovered": 1,
+    "blocks": [
+     "257-tabs-container:recovered"
+    ]
+   },
+   "279": {
+    "W": 1,
+    "recovered": 1,
+    "blocks": [
+     "279-hero:recovered"
+    ]
+   },
+   "321": {
+    "W": 1,
+    "recovered": 1,
+    "blocks": [
+     "321-tags-section:recovered"
+    ]
+   },
+   "346": {
+    "W": 1,
+    "recovered": 0,
+    "blocks": [
+     "346-steps:lost"
+    ]
+   },
+   "360": {
+    "W": 4,
+    "recovered": 4,
+    "blocks": [
+     "360-withad-1:recovered",
+     "360-withad-2:recovered",
+     "360-withad-3:recovered",
+     "360-bq-1:recovered"
+    ]
+   },
+   "365": {
+    "W": 3,
+    "recovered": 3,
+    "blocks": [
+     "365-code-1:recovered",
+     "365-code-2:recovered",
+     "365-code-3:recovered"
+    ]
+   },
+   "372": {
+    "W": 2,
+    "recovered": 0,
+    "blocks": [
+     "372-span-offsite:lost",
+     "372-span-samesite:lost"
+    ]
+   },
+   "375": {
+    "W": 2,
+    "recovered": 2,
+    "blocks": [
+     "375-specs:recovered",
+     "375-section-2:recovered"
+    ]
+   },
+   "395": {
+    "W": 2,
+    "recovered": 2,
+    "blocks": [
+     "395-thead-row-1:recovered",
+     "395-thead-row-2:recovered"
+    ]
+   },
+   "408": {
+    "W": 2,
+    "recovered": 2,
+    "blocks": [
+     "408s-nested-list:recovered",
+     "408-nested-list:recovered"
+    ]
+   },
+   "428": {
+    "W": 6,
+    "recovered": 3,
+    "blocks": [
+     "428-algo-1:lost",
+     "428-algo-2:recovered",
+     "428-heading:lost",
+     "428-init:recovered",
+     "428-cash:lost",
+     "428-output:recovered"
+    ]
+   },
+   "433": {
+    "W": 1,
+    "recovered": 0,
+    "blocks": [
+     "433-footnote:lost"
+    ]
+   },
+   "441": {
+    "W": 1,
+    "recovered": 1,
+    "blocks": [
+     "441-body:recovered"
+    ]
+   },
+   "444": {
+    "W": 2,
+    "recovered": 2,
+    "blocks": [
+     "444s-term:recovered",
+     "444-term:recovered"
+    ]
+   },
+   "445": {
+    "W": 6,
+    "recovered": 0,
+    "blocks": [
+     "445s-comment-label:lost",
+     "445s-p1:lost",
+     "445s-p2:lost",
+     "445-comment-label:lost",
+     "445-p1:lost",
+     "445-p2:lost"
+    ]
+   },
+   "460": {
+    "W": 1,
+    "recovered": 0,
+    "blocks": [
+     "460-body:lost"
+    ]
+   }
+  }
+ },
+ "history": null,
+ "seconds": 186
+}

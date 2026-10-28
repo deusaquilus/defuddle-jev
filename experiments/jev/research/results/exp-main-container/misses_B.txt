@@ -1,0 +1,281 @@
+### content-patterns--card-grid-stripped-headings  [B] htmlBytes=3401 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.25 probs={"c3":0.18,"c2":0.44,"c1":0.28,"none_of_these":0.1} defuddle=c2 relation=ancestor_of_truth(over-inclusive)
+  title: How Spacecraft Plumbing Works | url: https://content-patterns--card-grid-stripped-headings | contentSelector: html > body > div#app > main
+  c1: <body> words=264 p=12 linkratio=0.07 contains=[c2,c3] cov=1/1 nouls: contains_all=0.82 non_article=0.17
+      start: how spacecraft plumbing works spacecraft plumbing systems must function in microgravity, which presents unique engineering challenges. fluid dynamics behave differently without the constant pull of gr
+      end:    inflatable habitat module exceeded pressure and micrometeorite resistance requirements during ground testing chris park
+  c2: <main> words=264 p=12 linkratio=0.07 contains=[c3] cov=1/1 nouls: contains_all=0.64 non_article=0.19
+      start: how spacecraft plumbing works spacecraft plumbing systems must function in microgravity, which presents unique engineering challenges. fluid dynamics behave differently without the constant pull of gr
+      end:    inflatable habitat module exceeded pressure and micrometeorite resistance requirements during ground testing chris park
+  c3: <article> words=193 p=6 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.08 non_article=0.05
+      start: how spacecraft plumbing works spacecraft plumbing systems must function in microgravity, which presents unique engineering challenges. fluid dynamics behave differently without the constant pull of gr
+      end:   lead engineer dr. park. "the crew comfort improvements on upcoming missions represent decades of iterative design work."
+
+### codeblocks--rockthejvm.com-articles-kotlin-101-type-classes  [B] htmlBytes=5606 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.37 probs={"c3":0.17,"c2":0.53,"c1":0.26,"none_of_these":0.04} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Kotlin 101: Type Classes Quickly Explained | url: https://rockthejvm.com/articles/kotlin-101-type-classes | contentSelector: html > body > main > article
+  c1: <body> words=286 p=7 linkratio=0.02 contains=[c2,c3] cov=0.935/1 nouls: contains_all=0.64 non_article=0.54
+      start: rock the jvmarticles kotlin 101: type classes quickly explained in this article, we explore the concept of type classes in kotlin, a powerful tool that allows developers to abstract logic for differen
+      end:    dedicated function using type classes, which is a common pattern in functional programming. copyright 2024 rock the jvm
+  c2: <main> words=278 p=6 linkratio=0.01 contains=[c3] cov=0.935/1 nouls: contains_all=0.46 non_article=0.06
+      start: kotlin 101: type classes quickly explained in this article, we explore the concept of type classes in kotlin, a powerful tool that allows developers to abstract logic for different data types. we'll t
+      end:    the validation process in a dedicated function using type classes, which is a common pattern in functional programming.
+  c3: <article> words=278 p=6 linkratio=0.01 contains=[] cov=0.935/1 nouls: contains_all=0.31 non_article=0.05
+      start: kotlin 101: type classes quickly explained in this article, we explore the concept of type classes in kotlin, a powerful tool that allows developers to abstract logic for different data types. we'll t
+      end:    the validation process in a dedicated function using type classes, which is a common pattern in functional programming.
+
+### entry-point--js-article-content  [B] htmlBytes=7384 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.57 probs={"c3":0.13,"c2":0.68,"c1":0.06,"none_of_these":0.13} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Test Article Title | url: https://example.com/blog/test-article/ | contentSelector: html > body > main > div.page-wrapper > div.content-area > div.js-article-content
+  c1: <body> words=626 p=16 linkratio=0.1 contains=[c2,c3] cov=1/1 nouls: contains_all=0.73 non_article=0.94
+      start: home blog about podcasts videos newsletter careers table of contents section one section two section three share twitter facebook linkedin reddit email section one this is the first section of the art
+      end:   the sec website: http://www.adviserinfo.sec.gov. copyright 2025 example corp. all rights reserved. terms privacy contact
+  c2: <main> words=609 p=15 linkratio=0.09 contains=[c3] cov=1/1 nouls: contains_all=0.66 non_article=0.81
+      start: table of contents section one section two section three share twitter facebook linkedin reddit email section one this is the first section of the article. it introduces the main topic and sets the sta
+      end:    visit our terms page. additional important information is available at the sec website: http://www.adviserinfo.sec.gov.
+  c3: <div class="js-article-content"> words=57 p=4 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.11 non_article=0.04
+      start: section one this is the first section of the article. it introduces the main topic and sets the stage for further discussion. section two this is the second section. it builds on the ideas introduced 
+      end:   ion wraps up the discussion with concluding thoughts.
+
+### footnotes--inline-footnote-span  [B] htmlBytes=1329 n=2 truth=none_of_these (none) jev=c2@conf0.79 probs={"c2":0.86,"c1":0.12,"none_of_these":0.02} defuddle=c2 relation=picked_when_label_none
+  title: Article with Inline Footnotes | url: https://inline-footnote-span | contentSelector: html > body > div.entry-content
+  c1: <body> words=59 p=3 linkratio=0.11 contains=[c2] cov=0.5/0.855 nouls: contains_all=0.76 non_article=0.09
+      start: the field has drifted far from its roots.1you can pick any recent paper and have no idea what is going on. philosophy is often viewed as a science, which leads to misalignment.2the most common areas w
+      end:   alues are orthogonal.3orthogonal means they run independent of one another.
+  c2: <div class="entry-content"> words=59 p=3 linkratio=0.11 contains=[] cov=0.5/0.855 nouls: contains_all=0.54 non_article=0.05
+      start: the field has drifted far from its roots.1you can pick any recent paper and have no idea what is going on. philosophy is often viewed as a science, which leads to misalignment.2the most common areas w
+      end:   alues are orthogonal.3orthogonal means they run independent of one another.
+
+### footnotes--orgmode-css-sidenotes  [B] htmlBytes=1698 n=2 truth=none_of_these (none) jev=c2@conf0.85 probs={"c2":0.9,"c1":0.08,"none_of_these":0.02} defuddle=c2 relation=picked_when_label_none
+  title: Example Article | url: https://orgmode-css-sidenotes | contentSelector: html > body > article
+  c1: <body> words=87 p=6 linkratio=0.01 contains=[c2] cov=0.409/0.875 nouls: contains_all=0.84 non_article=0.05
+      start: example article first paragraph with a sidenote reference. 1 1 this is the first footnote content. more text continues here. second paragraph with another reference. 2 2 this is the second footnote wi
+      end:   he second footnote with more detail about the topic. 3 a reader suggested an alternative approach, which has some merit.
+  c2: <article> words=87 p=6 linkratio=0.01 contains=[] cov=0.409/0.875 nouls: contains_all=0.73 non_article=0.05
+      start: example article first paragraph with a sidenote reference. 1 1 this is the first footnote content. more text continues here. second paragraph with another reference. 2 2 this is the second footnote wi
+      end:   he second footnote with more detail about the topic. 3 a reader suggested an alternative approach, which has some merit.
+
+### footnotes--word-ftn-ftnref  [B] htmlBytes=1152 n=2 truth=none_of_these (none) jev=c2@conf0.8 probs={"c2":0.87,"c1":0.1,"none_of_these":0.03} defuddle=c2 relation=picked_when_label_none
+  title: Word HTML footnotes: _ftn/_ftnref pattern | url: https://word-ftn-ftnref | contentSelector: html > body > article
+  c1: <body> words=37 p=4 linkratio=0.16 contains=[c2] cov=0.538/0.867 nouls: contains_all=0.83 non_article=0.09
+      start: word html footnotes: _ftn/_ftnref pattern the initiative is aligned with the action plan [1], a community-led alternative to traditional publishing. the consortium includes members from multiple count
+      end:   
+  c2: <article> words=37 p=4 linkratio=0.16 contains=[] cov=0.538/0.867 nouls: contains_all=0.63 non_article=0.07
+      start: word html footnotes: _ftn/_ftnref pattern the initiative is aligned with the action plan [1], a community-led alternative to traditional publishing. the consortium includes members from multiple count
+      end:   
+
+### general--appendix-heading  [B] htmlBytes=1083 n=4 truth=c4 (shingle+shingle_nocode+words) jev=c3@conf0.39 probs={"c4":0.46,"c3":0.51,"c2":0.02,"c1":0,"none_of_these":0.01} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Article with Appendix | url: https://appendix-heading | contentSelector: html > body > main > article
+  c1: <body> words=116 p=6 linkratio=0 contains=[c2,c3,c4] cov=1/1 nouls: contains_all=0.89 non_article=0.15
+      start: article with appendix section this is the main article content discussing an important topic. it contains multiple paragraphs of text that establish it as the primary content of the page. introduction
+      end:   egular intervals throughout the experiment. acknowledgements thanks to all contributors who made this research possible.
+  c2: <main> words=116 p=6 linkratio=0 contains=[c3,c4] cov=1/1 nouls: contains_all=0.88 non_article=0.05
+      start: article with appendix section this is the main article content discussing an important topic. it contains multiple paragraphs of text that establish it as the primary content of the page. introduction
+      end:   egular intervals throughout the experiment. acknowledgements thanks to all contributors who made this research possible.
+  c3: <article> words=116 p=6 linkratio=0 contains=[c4] cov=1/1 nouls: contains_all=0.88 non_article=0.04
+      start: article with appendix section this is the main article content discussing an important topic. it contains multiple paragraphs of text that establish it as the primary content of the page. introduction
+      end:   egular intervals throughout the experiment. acknowledgements thanks to all contributors who made this research possible.
+  c4: <div class="article-body"> words=116 p=6 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.8 non_article=0.04
+      start: article with appendix section this is the main article content discussing an important topic. it contains multiple paragraphs of text that establish it as the primary content of the page. introduction
+      end:   egular intervals throughout the experiment. acknowledgements thanks to all contributors who made this research possible.
+
+### general--cp4space-jordan-algebra  [B] htmlBytes=14002 n=4 truth=c4 (words) jev=c3@conf0.39 probs={"c4":0.28,"c3":0.51,"c2":0.14,"c1":0.03,"none_of_these":0.04} defuddle=c4 relation=ancestor_of_truth(over-inclusive)
+  title: The exceptional Jordan algebra | url: https://cp4space-jordan-algebra | contentSelector: html > body.single.single-post.postid-6213.single-format-standard.logged-in > div#wrapper > div#main > div#container > d
+  c1: <body class="single single-post postid-6213 single-format-standard logged-in"> words=775 p=13 linkratio=0.04 contains=[c2,c3,c4] cov=0.871/0.973 nouls: contains_all=0.67 non_article=0.73
+      start: complex projective 4-space a blog. mostly maths. the exceptional jordan algebra posted on october 28, 2020 by apgoucher in the early 1930s, pascual jordan attempted to formalise the algebraic properti
+      end:   . bookmark the permalink. recent posts the alternating group a5 complex projective 4-space proudly powered by wordpress.
+  c2: <div id=content> words=755 p=13 linkratio=0.02 contains=[c3,c4] cov=0.871/0.973 nouls: contains_all=0.71 non_article=0.23
+      start: the exceptional jordan algebra posted on october 28, 2020 by apgoucher in the early 1930s, pascual jordan attempted to formalise the algebraic properties of hermitian matrices. in particular: hermitia
+      end:   y that it’s equivalent to the elkies-gross construction. this entry was posted in uncategorized. bookmark the permalink.
+  c3: <div id=post-6213 class="post-6213 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized"> words=755 p=13 linkratio=0.02 contains=[c4] cov=0.871/0.973 nouls: contains_all=0.69 non_article=0.28
+      start: the exceptional jordan algebra posted on october 28, 2020 by apgoucher in the early 1930s, pascual jordan attempted to formalise the algebraic properties of hermitian matrices. in particular: hermitia
+      end:   y that it’s equivalent to the elkies-gross construction. this entry was posted in uncategorized. bookmark the permalink.
+  c4: <div class="entry-content"> words=735 p=13 linkratio=0.01 contains=[] cov=0.871/0.973 nouls: contains_all=0.52 non_article=0.03
+      start: in the early 1930s, pascual jordan attempted to formalise the algebraic properties of hermitian matrices. in particular: hermitian matrices form a real vector space: we can add and subtract hermitian 
+      end:   also involves , so it may be possible to show reasonably directly that it’s equivalent to the elkies-gross construction.
+
+### general--developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array  [B] htmlBytes=3938 n=2 truth=c2 (shingle+shingle_nocode+words) jev=c1@conf0.19 probs={"c2":0.41,"c1":0.45999999999999996,"none_of_these":0.13} defuddle=c2 relation=ancestor_of_truth(over-inclusive)
+  title: Array - JavaScript | url: https://developer.mozilla.org-en-US-docs-Web-JavaScript-Reference-Global_Objects-Array | contentSelector: html > body > main
+  c1: <body> words=342 p=5 linkratio=0.04 contains=[c2] cov=1/1 nouls: contains_all=0.47 non_article=0.33
+      start: mdn array the array object enables storing a collection of multiple items under a single variable name, and has members for performing common array operations. description in javascript, arrays aren't
+      end:   pe.reduce() executes a user-supplied "reducer" callback function on each element of the array. last modified: 2025-01-15
+  c2: <main> words=338 p=4 linkratio=0.04 contains=[] cov=1/1 nouls: contains_all=0.13 non_article=0.07
+      start: array the array object enables storing a collection of multiple items under a single variable name, and has members for performing common array operations. description in javascript, arrays aren't pri
+      end:   f the array. array.prototype.reduce() executes a user-supplied "reducer" callback function on each element of the array.
+
+### general--github.com-issue-56  [B] htmlBytes=104933 n=10 truth=c4 (shingle+shingle_nocode+words) jev=c2@conf0.45 probs={"c10":0.01,"c9":0,"c8":0,"c7":0,"c6":0,"c5":0,"c4":0.04,"c3":0.22,"c2":0.5,"c1":0.01,"none_of_these":0.22} defuddle=c2 relation=ancestor_of_truth(over-inclusive)
+  title: Defuddle on Cloudflare Workers · Issue #56 | url: https://github.com-issue-56 | contentSelector: html.js-focus-visible > body.logged-out.env-production.page-responsive.vsc-initialized > div.logged-out.env-production.p
+  c1: <body class="logged-out env-production page-responsive vsc-initialized"> words=734 p=22 linkratio=0.17 contains=[c2,c3,c4,c5,c6,c7,c8,c9,c10] cov=0.971/1 nouls: contains_all=0.54 non_article=0.92
+      start: constants loaded at 2025-07-20t17:50:08.734z skip to content you signed in with another tab or window. reload to refresh your session. you signed out in another tab or window. reload to refresh your s
+      end:   s issue actions you can’t perform that action at this time. defuddle on cloudflare workers · issue #56 · kepano/defuddle
+  c2: <main id=js-repo-pjax-container> words=669 p=22 linkratio=0.17 contains=[c3,c4,c5,c6,c7,c8,c9,c10] cov=0.971/1 nouls: contains_all=0.51 non_article=0.94
+      start: kepano / defuddle public notifications you must be signed in to change notification settings fork 73 star 2.6k code issues 26 pull requests 6 actions projects 0 security uh oh! there was an error whil
+      end:   none yet development code with agent mode select code repository no branches or pull requests participants issue actions
+  c3: <div class="markdown-body"> words=246 p=12 linkratio=0.06 contains=[c4] cov=0.971/0.988 nouls: contains_all=0.48 non_article=0.19
+      start: example repo here: https://github.com/jmorrell/defuddle-cloudflare-example i was looking forward to ditching my tenuous readbilityjs fork in my workers project. defuddle ultimately does run to complet
+      end:   you feel like there's nothing to do, or supporting workers is out-of-scope for the project, feel free to close the issue
+  c4: <div class="Box-sc-g0xbh4-0 markdown-body NewMarkdownViewer-module__safe-html-box--cRsz0"> words=246 p=12 linkratio=0.06 contains=[] cov=0.971/0.988 nouls: contains_all=0.35 non_article=0.12
+      start: example repo here: https://github.com/jmorrell/defuddle-cloudflare-example i was looking forward to ditching my tenuous readbilityjs fork in my workers project. defuddle ultimately does run to complet
+      end:   you feel like there's nothing to do, or supporting workers is out-of-scope for the project, feel free to close the issue
+  c5: <div class="markdown-body"> words=79 p=2 linkratio=0.17 contains=[c6] cov=0/0.164 nouls: contains_all=0.04 non_article=0.08
+      start: for my use-case, i'm already running a headless browser rendering worker to load the page anyway. instead of downloading the html content from the browser and then trying to process it in the worker, 
+      end:   oing down the same path i've created a minimal example here: https://github.com/jmorrell/defuddle-browser-worker-example
+  c6: <div class="Box-sc-g0xbh4-0 markdown-body NewMarkdownViewer-module__safe-html-box--cRsz0"> words=79 p=2 linkratio=0.17 contains=[] cov=0/0.164 nouls: contains_all=0.03 non_article=0.07
+      start: for my use-case, i'm already running a headless browser rendering worker to load the page anyway. instead of downloading the html content from the browser and then trying to process it in the worker, 
+      end:   oing down the same path i've created a minimal example here: https://github.com/jmorrell/defuddle-browser-worker-example
+  c7: <div class="markdown-body"> words=40 p=1 linkratio=0.17 contains=[c8] cov=0/0.07 nouls: contains_all=0.03 non_article=0.06
+      start: it would be great to replace the dom calls to cheerio. i've done something similar porting readability to cheerio here: https://jsr.io/@paoramen/cheer-reader. @kepano would you be interested on mergin
+      end:   
+  c8: <div class="Box-sc-g0xbh4-0 markdown-body NewMarkdownViewer-module__safe-html-box--cRsz0"> words=40 p=1 linkratio=0.17 contains=[] cov=0/0.07 nouls: contains_all=0.03 non_article=0.06
+      start: it would be great to replace the dom calls to cheerio. i've done something similar porting readability to cheerio here: https://jsr.io/@paoramen/cheer-reader. @kepano would you be interested on mergin
+      end:   
+  c9: <div class="markdown-body"> words=48 p=1 linkratio=0.05 contains=[c10] cov=0/0.094 nouls: contains_all=0.04 non_article=0.06
+      start: i actually decided to see if i could use a coding agent to implement doc.stylesheets and getcomputedstyle. i used opencode with claude 4 sonnet to do so and, at least in a small test in bun (not on wo
+      end:   
+  c10: <div class="Box-sc-g0xbh4-0 markdown-body NewMarkdownViewer-module__safe-html-box--cRsz0"> words=48 p=1 linkratio=0.05 contains=[] cov=0/0.094 nouls: contains_all=0.03 non_article=0.06
+      start: i actually decided to see if i could use a coding agent to implement doc.stylesheets and getcomputedstyle. i used opencode with claude 4 sonnet to do so and, at least in a small test in bun (not on wo
+      end:   
+
+### general--stephango.com-buy-wisely  [B] htmlBytes=19430 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.31 probs={"c3":0.31,"c2":0.48,"c1":0.12,"none_of_these":0.09} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Buy wisely | url: https://stephango.com-buy-wisely | contentSelector: html > body > main > article
+  c1: <body> words=1280 p=31 linkratio=0.07 contains=[c2,c3] cov=1/1 nouls: contains_all=0.77 non_article=0.76
+      start: steph ango / writing about now buy wisely september 30, 2023 · 5 minute read whenever i buy things i try to prioritize cost per use. sometimes i consider other priorities such as cost per smile, cost 
+      end:   nderstanding caloric energy is precious receive my updates follow me via email, rss, twitter, and other options mastodon
+  c2: <main> words=1261 p=29 linkratio=0.06 contains=[c3] cov=1/1 nouls: contains_all=0.46 non_article=0.52
+      start: buy wisely september 30, 2023 · 5 minute read whenever i buy things i try to prioritize cost per use. sometimes i consider other priorities such as cost per smile, cost per thrill, cost per externalit
+      end:   s your hard‐earned cash concise explanations accelerate progress don't delegate understanding caloric energy is precious
+  c3: <article> words=1183 p=28 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.41 non_article=0.05
+      start: whenever i buy things i try to prioritize cost per use. sometimes i consider other priorities such as cost per smile, cost per thrill, cost per externality, and cost per lesson. cost per use consideri
+      end:   an early adopter of a product often has a poor cost per use, but its value is in the learning and experience per dollar.
+
+### general--substack-app  [B] htmlBytes=68228 n=2 truth=c1 (shingle+shingle_nocode+words) jev=c2@conf0.09 probs={"c2":0.39,"c1":0.37,"none_of_these":0.24} defuddle=not_a_candidate(inside c1) relation=descendant_of_truth(under-inclusive)
+  title: Rich Holmes (@richholmes) | url: https://substack-app | contentSelector: html > body.pc-root > div#entry > div.reader-nav-root.reader2-font-base > div.reader-nav-page > div.pencraft.pc-display-
+  c1: <body class="pc-root"> words=565 p=21 linkratio=0.07 contains=[c2] cov=1/1 nouls: contains_all=0.49 non_article=0.88
+      start: the app for independent voices get started learn more for you jameela jamil 3h wrote a piece about how we raise women to be wives but don’t raise men to be husbands. and how that imbalance is fucking 
+      end:    and hands-on tools: departmentofproduct.sub... 160 14 25 160 likes ∙ 14 replies ∙ 25 restacks jan 20 at 2:25 am get app
+  c2: <div class="pencraft pc-display-flex pc-flexDirection-column pc-position-relative pc-reset feedItem-ONDKv3"> words=63 p=1 linkratio=0.51 contains=[] cov=0/0.081 nouls: contains_all=0.06 non_article=0.13
+      start: jameela jamil 3h wrote a piece about how we raise women to be wives but don’t raise men to be husbands. and how that imbalance is fucking us all the way up. nobody gets to feel like a fun whore in the
+      end:   31 2 4
+
+### general--svg-external-css-fallback  [B] htmlBytes=2770 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.28 probs={"c3":0.29,"c2":0.46,"c1":0.22,"none_of_these":0.03} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Oil Prices Rise After New Trade Agreement | url: https://example.com/article/oil-prices | contentSelector: html > body > main > article
+  c1: <body> words=56 p=2 linkratio=0.01 contains=[c2,c3] cov=1/1 nouls: contains_all=0.71 non_article=0.6
+      start: home oil prices rise after new trade agreement crude oil prices have been steadily climbing since the start of the year, driven by new trade agreements and supply constraints. jan. feb. march $0 $50 $
+      end:   outpace production increases. copyright 2026
+  c2: <main> words=53 p=2 linkratio=0 contains=[c3] cov=1/1 nouls: contains_all=0.64 non_article=0.06
+      start: oil prices rise after new trade agreement crude oil prices have been steadily climbing since the start of the year, driven by new trade agreements and supply constraints. jan. feb. march $0 $50 $100 a
+      end:   ce production increases.
+  c3: <article> words=53 p=2 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.67 non_article=0.05
+      start: oil prices rise after new trade agreement crude oil prices have been steadily climbing since the start of the year, driven by new trade agreements and supply constraints. jan. feb. march $0 $50 $100 a
+      end:   ce production increases.
+
+### general--svg-content-preservation  [B] htmlBytes=4703 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.29 probs={"c3":0.35,"c2":0.47000000000000003,"c1":0.15,"none_of_these":0.03} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Understanding Neural Networks | url: https://example.com/blog/neural-networks | contentSelector: html > body > main > article
+  c1: <body> words=100 p=6 linkratio=0.01 contains=[c2,c3] cov=0.971/1 nouls: contains_all=0.69 non_article=0.65
+      start: home blog understanding neural networks neural networks are the fundamental building block of modern ai. let's start with the simplest example: 1 input, 1 parameter, 1 output. 2.0 1.0 2.0 1.0 the netw
+      end:   ters. further reading for more on neural networks, see the references section at the end of this article. copyright 2026
+  c2: <main> words=96 p=5 linkratio=0 contains=[c3] cov=0.971/1 nouls: contains_all=0.66 non_article=0.07
+      start: understanding neural networks neural networks are the fundamental building block of modern ai. let's start with the simplest example: 1 input, 1 parameter, 1 output. 2.0 1.0 2.0 1.0 the network multip
+      end:   yers and parameters. further reading for more on neural networks, see the references section at the end of this article.
+  c3: <article> words=96 p=5 linkratio=0 contains=[] cov=0.971/1 nouls: contains_all=0.63 non_article=0.05
+      start: understanding neural networks neural networks are the fundamental building block of modern ai. let's start with the simplest example: 1 input, 1 parameter, 1 output. 2.0 1.0 2.0 1.0 the network multip
+      end:   yers and parameters. further reading for more on neural networks, see the references section at the end of this article.
+
+### issues--159-lean-verso-code-blocks  [B] htmlBytes=1546 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.35 probs={"c3":0.31,"c2":0.51,"c1":0.15,"none_of_these":0.03} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Dependent Type Theory | url: https://lean-lang.org/theorem_proving_in_lean4/dependent_type_theory.html | contentSelector: html > body > main > article
+  c1: <body> words=118 p=2 linkratio=0 contains=[c2,c3] cov=1/1 nouls: contains_all=0.78 non_article=0.1
+      start: dependent type theory this fixture simulates a documentation page where highlighted code is rendered as a standalone code.hl.block element instead of a pre wrapper. defuddle should preserve this as a 
+      end:   text. this also helps ensure the markdown output remains readable and that the issue does not regress in future updates.
+  c2: <main> words=118 p=2 linkratio=0 contains=[c3] cov=1/1 nouls: contains_all=0.63 non_article=0.09
+      start: dependent type theory this fixture simulates a documentation page where highlighted code is rendered as a standalone code.hl.block element instead of a pre wrapper. defuddle should preserve this as a 
+      end:   text. this also helps ensure the markdown output remains readable and that the issue does not regress in future updates.
+  c3: <article> words=118 p=2 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.43 non_article=0.07
+      start: dependent type theory this fixture simulates a documentation page where highlighted code is rendered as a standalone code.hl.block element instead of a pre wrapper. defuddle should preserve this as a 
+      end:   text. this also helps ensure the markdown output remains readable and that the issue does not regress in future updates.
+
+### issues--159-lean-heading-permalink-emoji  [B] htmlBytes=943 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.12 probs={"c3":0.29,"c2":0.33999999999999997,"c1":0.29,"none_of_these":0.08} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Dependent Type Theory | url: https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/ | contentSelector: html > body > main > article
+  c1: <body> words=52 p=2 linkratio=0.01 contains=[c2,c3] cov=0.909/1 nouls: contains_all=0.5 non_article=0.1
+      start: dependent type theory this fixture verifies that heading permalink widgets are removed from heading text while preserving the heading title itself. the extra prose ensures stable content selection. 2.
+      end:   con should be excluded from the extracted markdown heading.
+  c2: <main> words=52 p=2 linkratio=0.01 contains=[c3] cov=0.909/1 nouls: contains_all=0.32 non_article=0.09
+      start: dependent type theory this fixture verifies that heading permalink widgets are removed from heading text while preserving the heading title itself. the extra prose ensures stable content selection. 2.
+      end:   con should be excluded from the extracted markdown heading.
+  c3: <article> words=52 p=2 linkratio=0.01 contains=[] cov=0.909/1 nouls: contains_all=0.24 non_article=0.08
+      start: dependent type theory this fixture verifies that heading permalink widgets are removed from heading text while preserving the heading title itself. the extra prose ensures stable content selection. 2.
+      end:   con should be excluded from the extracted markdown heading.
+
+### issues--159-lean-verso-grouped-blocks  [B] htmlBytes=3057 n=3 truth=c3 (shingle_nocode+words) jev=c2@conf0.25 probs={"c3":0.21,"c2":0.44,"c1":0.28,"none_of_these":0.07} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Dependent Type Theory | url: https://lean-lang.org/theorem_proving_in_lean4/dependent_type_theory.html | contentSelector: html > body > main > article
+  c1: <body> words=96 p=2 linkratio=0.03 contains=[c2,c3] cov=0.815/0.965 nouls: contains_all=0.47 non_article=0.09
+      start: dependent type theory this fixture verifies that verso-style lean command and output fragments are merged into a single fenced code block. it also checks that hidden hover metadata does not leak into 
+      end:   after the example ensures that downstream markdown rendering keeps non-code prose separate from the merged block output.
+  c2: <main> words=96 p=2 linkratio=0.03 contains=[c3] cov=0.815/0.965 nouls: contains_all=0.29 non_article=0.09
+      start: dependent type theory this fixture verifies that verso-style lean command and output fragments are merged into a single fenced code block. it also checks that hidden hover metadata does not leak into 
+      end:   after the example ensures that downstream markdown rendering keeps non-code prose separate from the merged block output.
+  c3: <article> words=96 p=2 linkratio=0.03 contains=[] cov=0.815/0.965 nouls: contains_all=0.27 non_article=0.07
+      start: dependent type theory this fixture verifies that verso-style lean command and output fragments are merged into a single fenced code block. it also checks that hidden hover metadata does not leak into 
+      end:   after the example ensures that downstream markdown rendering keeps non-code prose separate from the merged block output.
+
+### issues--159-lean-verso-missing-section-gap  [B] htmlBytes=1093 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.33 probs={"c3":0.14,"c2":0.5,"c1":0.3,"none_of_these":0.06} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Dependent Type Theory | url: https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/ | contentSelector: html > body > main > article
+  c1: <body> words=52 p=2 linkratio=0 contains=[c2,c3] cov=1/1 nouls: contains_all=0.44 non_article=0.11
+      start: dependent type theory this fixture verifies we preserve an intentional blank line between adjacent verso code fragments when one fragment ends with an extra newline before the next section header. def
+      end:   inues normally.
+  c2: <main> words=52 p=2 linkratio=0 contains=[c3] cov=1/1 nouls: contains_all=0.28 non_article=0.11
+      start: dependent type theory this fixture verifies we preserve an intentional blank line between adjacent verso code fragments when one fragment ends with an extra newline before the next section header. def
+      end:   inues normally.
+  c3: <article> words=52 p=2 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.25 non_article=0.11
+      start: dependent type theory this fixture verifies we preserve an intentional blank line between adjacent verso code fragments when one fragment ends with an extra newline before the next section header. def
+      end:   inues normally.
+
+### issues--159-lean-verso-empty-line-preserved  [B] htmlBytes=1306 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.35 probs={"c3":0.09,"c2":0.51,"c1":0.35,"none_of_these":0.05} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Dependent Type Theory | url: https://lean-lang.org/theorem_proving_in_lean4/Dependent-Type-Theory/ | contentSelector: html > body > main > article
+  c1: <body> words=43 p=2 linkratio=0 contains=[c2,c3] cov=1/1 nouls: contains_all=0.4 non_article=0.11
+      start: dependent type theory this fixture ensures empty verso code blocks are preserved as blank lines when adjacent lean command and output fragments are merged. #check true bool.true : bool /- evaluate -/ 
+      end:   
+  c2: <main> words=43 p=2 linkratio=0 contains=[c3] cov=1/1 nouls: contains_all=0.33 non_article=0.11
+      start: dependent type theory this fixture ensures empty verso code blocks are preserved as blank lines when adjacent lean command and output fragments are merged. #check true bool.true : bool /- evaluate -/ 
+      end:   
+  c3: <article> words=43 p=2 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.32 non_article=0.14
+      start: dependent type theory this fixture ensures empty verso code blocks are preserved as blank lines when adjacent lean command and output fragments are merged. #check true bool.true : bool /- evaluate -/ 
+      end:   
+
+### issues--header-with-subtitle-p  [B] htmlBytes=2110 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.72 probs={"c3":0.1,"c2":0.79,"c1":0.08,"none_of_these":0.03} defuddle=c2 relation=ancestor_of_truth(over-inclusive)
+  title: Playing a Classic FPS with One Hand in 2026 | url: https://header-with-subtitle-p | contentSelector: html > body > article
+  c1: <body> words=235 p=8 linkratio=0.01 contains=[c2,c3] cov=1/1 nouls: contains_all=0.72 non_article=0.5
+      start: gaming playing a classic fps with one hand in 2026 over three decades later, this historical curiosity has more than a few rough edges alex johnson – mar 27, 2026 3:09 pm when the original first-perso
+      end:   oller support. going back to the early days of the genre puts that progress in sharp relief. copyright 2026 example tech
+  c2: <article> words=231 p=7 linkratio=0.01 contains=[c3] cov=1/1 nouls: contains_all=0.57 non_article=0.09
+      start: gaming playing a classic fps with one hand in 2026 over three decades later, this historical curiosity has more than a few rough edges alex johnson – mar 27, 2026 3:09 pm when the original first-perso
+      end:    presets, and adaptive controller support. going back to the early days of the genre puts that progress in sharp relief.
+  c3: <div class="article-body"> words=199 p=6 linkratio=0 contains=[] cov=1/1 nouls: contains_all=0.47 non_article=0.03
+      start: when the original first-person shooter was released in 1992, it changed gaming forever. the fast-paced action, the maze-like levels, and the visceral combat were unlike anything players had experience
+      end:    presets, and adaptive controller support. going back to the early days of the genre puts that progress in sharp relief.
+
+### math--raw-latex  [B] htmlBytes=1087 n=2 truth=none_of_these (none) jev=c2@conf0.88 probs={"c2":0.92,"c1":0.07,"none_of_these":0.01} defuddle=c2 relation=picked_when_label_none
+  title: Raw LaTeX Math Delimiters | url: https://raw-latex | contentSelector: html > body > article
+  c1: <body> words=99 p=8 linkratio=0 contains=[c2] cov=0.44/0.874 nouls: contains_all=0.81 non_article=0.07
+      start: raw latex math delimiters the attention mechanism computes $$h_{i}^{\ell+1} = \text{attention} \left( q^{\ell} h_{i}^{\ell}, k^{\ell} h_{j}^{\ell}, v^{\ell} h_{j}^{\ell} \right)$$ for each node in the
+      end:   ackslash delimiters work too: \(e = mc^2\) is inline and \[f = ma\] this $\alpha$ should not be touched inside pre tags.
+  c2: <article> words=99 p=8 linkratio=0 contains=[] cov=0.44/0.874 nouls: contains_all=0.66 non_article=0.05
+      start: raw latex math delimiters the attention mechanism computes $$h_{i}^{\ell+1} = \text{attention} \left( q^{\ell} h_{i}^{\ell}, k^{\ell} h_{j}^{\ell}, v^{\ell} h_{j}^{\ell} \right)$$ for each node in the
+      end:   ackslash delimiters work too: \(e = mc^2\) is inline and \[f = ma\] this $\alpha$ should not be touched inside pre tags.
+
+### math--mathjax-tex-scripts  [B] htmlBytes=1127 n=2 truth=none_of_these (none) jev=c2@conf0.92 probs={"c2":0.95,"c1":0.04,"none_of_these":0.01} defuddle=c2 relation=picked_when_label_none
+  title: MathJax math/tex Script Elements | url: https://mathjax-tex-scripts | contentSelector: html > body > article
+  c1: <body> words=52 p=4 linkratio=0 contains=[c2] cov=0.269/0.821 nouls: contains_all=0.76 non_article=0.12
+      start: mathjax math/tex script elements we call these energy differences and (subscripts refer to "upper" and "lower"), or in units of frequency, and (where ). as a special case, when is aligned with the nv 
+      end:   io.
+  c2: <article> words=52 p=4 linkratio=0 contains=[] cov=0.269/0.821 nouls: contains_all=0.4 non_article=0.05
+      start: mathjax math/tex script elements we call these energy differences and (subscripts refer to "upper" and "lower"), or in units of frequency, and (where ). as a special case, when is aligned with the nv 
+      end:   io.
+
+### thin-section-before-see-also  [B] htmlBytes=2327 n=3 truth=c3 (shingle+shingle_nocode+words) jev=c2@conf0.37 probs={"c3":0.29,"c2":0.53,"c1":0.13,"none_of_these":0.05} defuddle=c3 relation=ancestor_of_truth(over-inclusive)
+  title: Example Concept | url: https://thin-section-before-see-also | contentSelector: html > body > main > article
+  c1: <body> words=165 p=6 linkratio=0.07 contains=[c2,c3] cov=0.958/0.986 nouls: contains_all=0.71 non_article=0.76
+      start: home topics example concept the concept of global stewardship was first articulated by several thinkers in the early twentieth century. it emphasizes collective responsibility for the well-being of sh
+      end:    "governance and constraint." journal of policy studies. 15(3): 42-58. content available under creative commons license.
+  c2: <main> words=157 p=5 linkratio=0.06 contains=[c3] cov=0.958/0.986 nouls: contains_all=0.6 non_article=0.23
+      start: example concept the concept of global stewardship was first articulated by several thinkers in the early twentieth century. it emphasizes collective responsibility for the well-being of shared resourc
+      end:   ustainability commons references doe, jane (2024). "governance and constraint." journal of policy studies. 15(3): 42-58.
+  c3: <article> words=157 p=5 linkratio=0.06 contains=[] cov=0.958/0.986 nouls: contains_all=0.44 non_article=0.26
+      start: example concept the concept of global stewardship was first articulated by several thinkers in the early twentieth century. it emphasizes collective responsibility for the well-being of shared resourc
+      end:   ustainability commons references doe, jane (2024). "governance and constraint." journal of policy studies. 15(3): 42-58.

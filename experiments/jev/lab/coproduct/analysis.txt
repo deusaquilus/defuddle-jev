@@ -1,0 +1,92 @@
+| scorer | subset | blocks | acc@0.5 | acc tuned (cross-fit by page) | AUROC | pages fully agreeing @0.5 |
+|---|---|---|---|---|---|---|
+| old: bundled keep yes/no | all | 1455 | 87.6% | 90.9% | 0.891 | 125/223 (56.1%) |
+| old: bundled keep yes/no | no title/byline/date | 1342 | 91.4% | 94.3% | 0.946 | 160/223 (71.7%) |
+| old: bundled keep yes/no | also no extractor pages | 1206 | 92.9% | 95.4% | 0.948 | 156/207 (75.4%) |
+| old: bundled keep yes/no | also 16+ words | 755 | 96.0% | 98.1% | 0.973 | 151/179 (84.4%) |
+| old: bundled keep yes/no + title rule | all | 1455 | 90.3% | 93.7% | 0.951 | 156/223 (70.0%) |
+| old: bundled keep yes/no + title rule | no title/byline/date | 1342 | 91.4% | 94.3% | 0.946 | 160/223 (71.7%) |
+| old: bundled keep yes/no + title rule | also no extractor pages | 1206 | 92.9% | 95.4% | 0.948 | 156/207 (75.4%) |
+| old: bundled keep yes/no + title rule | also 16+ words | 755 | 96.0% | 98.1% | 0.973 | 151/179 (84.4%) |
+| old: 12-way kind, P(content) | all | 1455 | 88.7% | 88.0% | 0.84 | 126/223 (56.5%) |
+| old: 12-way kind, P(content) | no title/byline/date | 1342 | 92.2% | 92.2% | 0.929 | 165/223 (74.0%) |
+| old: 12-way kind, P(content) | also no extractor pages | 1206 | 93.7% | 94.7% | 0.927 | 161/207 (77.8%) |
+| old: 12-way kind, P(content) | also 16+ words | 755 | 97.6% | 98.5% | 0.964 | 161/179 (89.9%) |
+| old: 12-way kind, P(content) + title rule | all | 1455 | 91.5% | 90.9% | 0.939 | 158/223 (70.9%) |
+| old: 12-way kind, P(content) + title rule | no title/byline/date | 1342 | 92.2% | 92.2% | 0.929 | 165/223 (74.0%) |
+| old: 12-way kind, P(content) + title rule | also no extractor pages | 1206 | 93.7% | 94.7% | 0.927 | 161/207 (77.8%) |
+| old: 12-way kind, P(content) + title rule | also 16+ words | 755 | 97.6% | 98.5% | 0.964 | 161/179 (89.9%) |
+| A: R1 role P(article_content) | all | 1455 | 89.7% | 89.6% | 0.883 | 136/223 (61.0%) |
+| A: R1 role P(article_content) | no title/byline/date | 1342 | 93.1% | 93.4% | 0.942 | 174/223 (78.0%) |
+| A: R1 role P(article_content) | also no extractor pages | 1206 | 94.7% | 94.7% | 0.939 | 170/207 (82.1%) |
+| A: R1 role P(article_content) | also 16+ words | 755 | 97.7% | 98.1% | 0.972 | 163/179 (91.1%) |
+| A: R1 role P(article_content) + title rule | all | 1455 | 92.4% | 92.4% | 0.949 | 168/223 (75.3%) |
+| A: R1 role P(article_content) + title rule | no title/byline/date | 1342 | 93.1% | 93.4% | 0.942 | 174/223 (78.0%) |
+| A: R1 role P(article_content) + title rule | also no extractor pages | 1206 | 94.7% | 94.7% | 0.939 | 170/207 (82.1%) |
+| A: R1 role P(article_content) + title rule | also 16+ words | 755 | 97.7% | 98.1% | 0.972 | 163/179 (91.1%) |
+| A: R2 cues only | all | 1455 | 75.6% | 85.5% | 0.712 | 108/223 (48.4%) |
+| A: R2 cues only | no title/byline/date | 1342 | 79.1% | 89.5% | 0.769 | 138/223 (61.9%) |
+| A: R2 cues only | also no extractor pages | 1206 | 79.5% | 90.0% | 0.754 | 135/207 (65.2%) |
+| A: R2 cues only | also 16+ words | 755 | 81.1% | 94.6% | 0.786 | 143/179 (79.9%) |
+| A: R2 cues only + title rule | all | 1455 | 78.2% | 88.4% | 0.813 | 131/223 (58.7%) |
+| A: R2 cues only + title rule | no title/byline/date | 1342 | 79.1% | 89.5% | 0.769 | 138/223 (61.9%) |
+| A: R2 cues only + title rule | also no extractor pages | 1206 | 79.5% | 90.0% | 0.754 | 135/207 (65.2%) |
+| A: R2 cues only + title rule | also 16+ words | 755 | 81.1% | 94.6% | 0.786 | 143/179 (79.9%) |
+| A: R3 mean of R1 and R2 | all | 1455 | 89.6% | 89.2% | 0.832 | 134/223 (60.1%) |
+| A: R3 mean of R1 and R2 | no title/byline/date | 1342 | 93.1% | 92.8% | 0.924 | 174/223 (78.0%) |
+| A: R3 mean of R1 and R2 | also no extractor pages | 1206 | 94.7% | 94.8% | 0.923 | 171/207 (82.6%) |
+| A: R3 mean of R1 and R2 | also 16+ words | 755 | 97.6% | 97.6% | 0.947 | 163/179 (91.1%) |
+| A: R3 mean of R1 and R2 + title rule | all | 1455 | 92.4% | 92.0% | 0.933 | 167/223 (74.9%) |
+| A: R3 mean of R1 and R2 + title rule | no title/byline/date | 1342 | 93.1% | 92.8% | 0.924 | 174/223 (78.0%) |
+| A: R3 mean of R1 and R2 + title rule | also no extractor pages | 1206 | 94.7% | 94.8% | 0.923 | 171/207 (82.6%) |
+| A: R3 mean of R1 and R2 + title rule | also 16+ words | 755 | 97.6% | 97.6% | 0.947 | 163/179 (91.1%) |
+| A: R4 cross-fit regression | all | 1455 | 89.6% | 89.2% | 0.928 | 142/223 (63.7%) |
+| A: R4 cross-fit regression | no title/byline/date | 1342 | 93.4% | 93.0% | 0.957 | 177/223 (79.4%) |
+| A: R4 cross-fit regression | also no extractor pages | 1206 | 93.8% | 93.9% | 0.96 | 168/207 (81.2%) |
+| A: R4 cross-fit regression | also 16+ words | 755 | 96.7% | 97.6% | 0.981 | 163/179 (91.1%) |
+| A: R4 cross-fit regression + title rule | all | 1455 | 92.4% | 92.0% | 0.957 | 170/223 (76.2%) |
+| A: R4 cross-fit regression + title rule | no title/byline/date | 1342 | 93.4% | 93.0% | 0.957 | 177/223 (79.4%) |
+| A: R4 cross-fit regression + title rule | also no extractor pages | 1206 | 93.8% | 93.9% | 0.96 | 168/207 (81.2%) |
+| A: R4 cross-fit regression + title rule | also 16+ words | 755 | 96.7% | 97.6% | 0.981 | 163/179 (91.1%) |
+
+[A] role argmax differs between option orders: 29/1475 (2.0%); mean |dP(article_content)| 0.013, max 0.29
+
+| scorer | subset | blocks | acc@0.5 | acc tuned (cross-fit by page) | AUROC | pages fully agreeing @0.5 |
+|---|---|---|---|---|---|---|
+| B: R1 role P(article_content) | all | 1455 | 89.3% | 89.2% | 0.858 | 135/223 (60.5%) |
+| B: R1 role P(article_content) | no title/byline/date | 1342 | 93.2% | 93.5% | 0.951 | 171/223 (76.7%) |
+| B: R1 role P(article_content) | also no extractor pages | 1206 | 93.7% | 94.2% | 0.951 | 163/207 (78.7%) |
+| B: R1 role P(article_content) | also 16+ words | 755 | 97.0% | 97.0% | 0.969 | 160/179 (89.4%) |
+| B: R1 role P(article_content) + title rule | all | 1455 | 92.2% | 92.0% | 0.955 | 163/223 (73.1%) |
+| B: R1 role P(article_content) + title rule | no title/byline/date | 1342 | 93.2% | 93.5% | 0.951 | 171/223 (76.7%) |
+| B: R1 role P(article_content) + title rule | also no extractor pages | 1206 | 93.7% | 94.2% | 0.951 | 163/207 (78.7%) |
+| B: R1 role P(article_content) + title rule | also 16+ words | 755 | 97.0% | 97.0% | 0.969 | 160/179 (89.4%) |
+| B: R2 cues only | all | 1455 | 79.5% | 84.0% | 0.733 | 116/223 (52.0%) |
+| B: R2 cues only | no title/byline/date | 1342 | 83.5% | 88.7% | 0.809 | 150/223 (67.3%) |
+| B: R2 cues only | also no extractor pages | 1206 | 84.2% | 89.6% | 0.796 | 145/207 (70.0%) |
+| B: R2 cues only | also 16+ words | 755 | 85.8% | 92.6% | 0.8 | 143/179 (79.9%) |
+| B: R2 cues only + title rule | all | 1455 | 82.2% | 86.9% | 0.84 | 143/223 (64.1%) |
+| B: R2 cues only + title rule | no title/byline/date | 1342 | 83.5% | 88.7% | 0.809 | 150/223 (67.3%) |
+| B: R2 cues only + title rule | also no extractor pages | 1206 | 84.2% | 89.6% | 0.796 | 145/207 (70.0%) |
+| B: R2 cues only + title rule | also 16+ words | 755 | 85.8% | 92.6% | 0.8 | 143/179 (79.9%) |
+| B: R3 mean of R1 and R2 | all | 1455 | 89.0% | 88.6% | 0.824 | 129/223 (57.8%) |
+| B: R3 mean of R1 and R2 | no title/byline/date | 1342 | 92.7% | 92.3% | 0.931 | 168/223 (75.3%) |
+| B: R3 mean of R1 and R2 | also no extractor pages | 1206 | 93.5% | 93.4% | 0.929 | 163/207 (78.7%) |
+| B: R3 mean of R1 and R2 | also 16+ words | 755 | 96.3% | 96.0% | 0.959 | 158/179 (88.3%) |
+| B: R3 mean of R1 and R2 + title rule | all | 1455 | 91.9% | 91.5% | 0.935 | 159/223 (71.3%) |
+| B: R3 mean of R1 and R2 + title rule | no title/byline/date | 1342 | 92.7% | 92.3% | 0.931 | 168/223 (75.3%) |
+| B: R3 mean of R1 and R2 + title rule | also no extractor pages | 1206 | 93.5% | 93.4% | 0.929 | 163/207 (78.7%) |
+| B: R3 mean of R1 and R2 + title rule | also 16+ words | 755 | 96.3% | 96.0% | 0.959 | 158/179 (88.3%) |
+| B: R4 cross-fit regression | all | 1455 | 89.5% | 88.7% | 0.915 | 136/223 (61.0%) |
+| B: R4 cross-fit regression | no title/byline/date | 1342 | 93.4% | 91.6% | 0.944 | 173/223 (77.6%) |
+| B: R4 cross-fit regression | also no extractor pages | 1206 | 93.9% | 93.8% | 0.948 | 163/207 (78.7%) |
+| B: R4 cross-fit regression | also 16+ words | 755 | 96.4% | 96.6% | 0.968 | 158/179 (88.3%) |
+| B: R4 cross-fit regression + title rule | all | 1455 | 92.3% | 91.5% | 0.946 | 165/223 (74.0%) |
+| B: R4 cross-fit regression + title rule | no title/byline/date | 1342 | 93.4% | 91.6% | 0.944 | 173/223 (77.6%) |
+| B: R4 cross-fit regression + title rule | also no extractor pages | 1206 | 93.9% | 93.8% | 0.948 | 163/207 (78.7%) |
+| B: R4 cross-fit regression + title rule | also 16+ words | 755 | 96.4% | 96.6% | 0.968 | 158/179 (88.3%) |
+
+[B] role argmax differs between option orders: 28/1475 (1.9%); mean |dP(article_content)| 0.015, max 0.29
+
+| scorer | subset | blocks | acc@0.5 | acc tuned (cross-fit by page) | AUROC | pages fully agreeing @0.5 |
+|---|---|---|---|---|---|---|

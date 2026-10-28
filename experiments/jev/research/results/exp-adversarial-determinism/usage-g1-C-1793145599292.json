@@ -1,0 +1,18 @@
+{
+  "exp": "g1",
+  "pass": "C",
+  "units_run": 150,
+  "errors": 0,
+  "wall_s": 1.882,
+  "calls": 150,
+  "input_tokens": 94257,
+  "output_tokens": 3000,
+  "est_cost_usd": 0.003959,
+  "latency_ms": {
+    "p50": 64.252164,
+    "p90": 104.07215700000006,
+    "p99": 158.906157,
+    "max": 172.896257,
+    "n": 150
+  }
+}

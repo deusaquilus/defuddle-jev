@@ -1,0 +1,1240 @@
+{
+ "policy": "ex90",
+ "fixtures": null,
+ "bugs": null,
+ "history": null,
+ "historypre": {
+  "wrongful": 21,
+  "recovered": 10,
+  "controls": 402,
+  "controls_leaked": 9,
+  "restored": 45,
+  "restored_list": [
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|356a192b7913|3280bb64",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "1",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.94,
+     "po": 0.2,
+     "role": 0.99,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|47ffd93865bc|e1221a04",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "3.2",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.91,
+     "po": 0.29,
+     "role": 0.875,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|356a192b7913|29ee15f5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "1",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.86,
+     "po": 0.2,
+     "role": 0.98,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|47ffd93865bc|f78143ed",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "3.2",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.91,
+     "po": 0.29,
+     "role": 0.875,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|356a192b7913|59594345",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "1",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.92,
+     "po": 0.2,
+     "role": 0.98,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|356a192b7913|5660d2e6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "1",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.9,
+     "po": 0.2,
+     "role": 0.98,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "9e6fa75",
+    "page": "general--www.figma.com:blog:introducing-codex-to-figma",
+    "fp": "scoreAndRemove|div|2cf08b4262b3|af14d827",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 0.99,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "9e6fa75",
+    "page": "general--www.figma.com:blog:introducing-codex-to-figma",
+    "fp": "scoreAndRemove|div|2cf08b4262b3|cd51999f",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 0.99,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|h1|701a1f192aa2|867f28ba",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "selector": "appendix",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h1",
+    "text": "Appendix: Quasi-simulators",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|div|35b0723d6dbb|efe448ce",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "A Pattern Language Christopher Alexander The book outlined a number of solutions for architecture and urban planning design, but the theory has since (appropriately) taken on a life of its own.",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.36,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "4e00da2",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|463924bb1d80|a0356a95",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/topics\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "TAI",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.28,
+     "role": 0.21,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "4e00da2",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "4e00da2",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|h1|701a1f192aa2|867f28ba",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "selector": "appendix",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h1",
+    "text": "Appendix: Quasi-simulators",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "de0f86a",
+    "page": "stripe",
+    "fp": "scoreAndRemove|div|5243ba343805|f5f5168c",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 192,
+    "tag": "div",
+    "text": "Payments Billing x402 payments Use x402 for machine-to-machine payments. Ask about this page Copy for LLM x402 is a protocol for internet payments. When a client requests a paid resource, your server returns a 402 Payment Required response with payment details. The client completes the payment and r",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.94,
+     "po": 0.97,
+     "role": 0.975,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "de0f86a",
+    "page": "stripe",
+    "fp": "scoreAndRemove|div|3f8cc4d04244|57484846",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "Test your endpoint Make a request to your server without an existing payment header, and you receive a 402 response with payment requirements. Command Line curl http://localhost:3000/paid",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 0.99,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "de0f86a",
+    "page": "stripe",
+    "fp": "scoreAndRemove|div|59b075434401|0d76072e",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 2,
+    "tag": "div",
+    "text": "Command Line",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.96,
+     "v2": 0.89
+    }
+   },
+   {
+    "commit": "de0f86a",
+    "page": "stripe",
+    "fp": "removeBySelector|div|89f417aacfca|6f3c51d5",
+    "step": "removeBySelector",
+    "reason": "partial match: dropdown",
+    "selector": "dropdown",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 2,
+    "tag": "div",
+    "text": "curl http://localhost:3000/paid",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "de0f86a",
+    "page": "stripe",
+    "fp": "removeBySelector|div|02916bb1d1e5|b9113dc6",
+    "step": "removeBySelector",
+    "reason": "partial match: dropdown",
+    "selector": "dropdown",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "Command Line curl http://localhost:3000/paid",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "ad87033",
+    "page": "mintlify",
+    "fp": "removeBySelector|header|87a6547f0a23|d64d35d9",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "header"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 18,
+    "tag": "header",
+    "text": "Cover vs Contain Modes Learn the difference between cover and contain modes and when to use each one",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.995,
+     "v2": 0.61
+    }
+   },
+   {
+    "commit": "ad87033",
+    "page": "mintlify",
+    "fp": "removeBySelector|h3|675516cc7eea|855c91db",
+    "step": "removeBySelector",
+    "reason": "partial match: cover-",
+    "selector": "cover-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h3",
+    "text": "Cover Mode",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.735,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "scoreAndRemove|div|5f2da735418d|1a3d66de",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 17,
+    "tag": "div",
+    "text": "<SanityImage id={image._id} baseUrl=\"https://cdn.sanity.io/images/abcd1234/production/\" width={500} height={300} mode=\"contain\" // or omit, as this is the default alt=\"Product image\" />",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "scoreAndRemove|div|d86df4a21ddb|1a3d66de",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 9,
+    "tag": "div",
+    "text": "<SanityImage id={image._id} baseUrl=\"https://cdn.sanity.io/images/abcd1234/production/\" width={500} height={300} mode=\"cover\" alt=\"Product image\" />",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.92,
+     "po": 0.95,
+     "role": 1,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|header|87a6547f0a23|e0fc5a31",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "header"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 18,
+    "tag": "header",
+    "text": "Cover vs Contain Modes Learn the difference between cover and contain modes and when to use each one",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.995,
+     "v2": 0.61
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|h3|675516cc7eea|eb608990",
+    "step": "removeBySelector",
+    "reason": "partial match: cover-",
+    "selector": "cover-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h3",
+    "text": "Cover Mode",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 0.735,
+     "v2": 0.99
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|header|87a6547f0a23|1b918e5b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "header"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 18,
+    "tag": "header",
+    "text": "Cover vs Contain Modes Learn the difference between cover and contain modes and when to use each one",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.995,
+     "v2": 0.63
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|h3|675516cc7eea|ed6ddbda",
+    "step": "removeBySelector",
+    "reason": "partial match: cover-",
+    "selector": "cover-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h3",
+    "text": "Cover Mode",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.735,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "eb51474",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|463924bb1d80|a0356a95",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/topics\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "TAI",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.28,
+     "role": 0.21,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "eb51474",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "eb51474",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|h1|701a1f192aa2|867f28ba",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "selector": "appendix",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h1",
+    "text": "Appendix: Quasi-simulators",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "1270bb4",
+    "page": "cp4space-jordan-algebra",
+    "fp": "removeBySelector|h1|2f94992f17af|f8d107e6",
+    "step": "removeBySelector",
+    "reason": "partial match: entry-title",
+    "selector": "entry-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 4,
+    "tag": "h1",
+    "text": "The exceptional Jordan algebra",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.95,
+     "po": 0.98,
+     "role": 1,
+     "v2": 0.35
+    }
+   },
+   {
+    "commit": "1270bb4",
+    "page": "wikipedia",
+    "fp": "removeBySelector|table|317062944805|73c01c55",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "table.infobox"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 38,
+    "tag": "table",
+    "text": "Obsidian Developer(s) Dynalist Inc. Initial release March 2020 (2020-03) Stable release 1.5.8[1] / January 15, 2024 Written in TypeScript, JavaScript Operating system Windows, macOS, Linux, Android, iOS, iPadOS Type Note-taking, personal knowledge management License Proprietary freemium Website obsi",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.99,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "6aa4c15",
+    "page": "www.figma.com:blog:introducing-codex-to-figma",
+    "fp": "scoreAndRemove|div|2cf08b4262b3|af14d827",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 0.99,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "6aa4c15",
+    "page": "www.figma.com:blog:introducing-codex-to-figma",
+    "fp": "scoreAndRemove|div|2cf08b4262b3|cd51999f",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 0.99,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-106-menu-id",
+    "fp": "removeBySelector|div|506c9f0ec95c|af99bf9c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "#menu"
+    ],
+    "fam": "nav",
+    "inline": false,
+    "words": 40,
+    "tag": "div",
+    "text": "Appetizers Spring rolls with sweet chili sauce — a perfect way to start your meal. Main Course Grilled salmon with roasted vegetables, served with a lemon butter sauce. Desserts Chocolate lava cake with vanilla ice cream — our signature dessert.",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.94,
+     "po": 0.93,
+     "role": 0.525,
+     "v2": 0.85
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-136-time-element",
+    "fp": "removeBySelector|time|360d584b4087|088063e9",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "time"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "time",
+    "text": "January 15, 2025",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.89,
+     "po": 0.26,
+     "role": 0.015,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-136-time-element",
+    "fp": "removeBySelector|time|84c6cc90236c|9d2fc979",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "time"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 2,
+    "tag": "time",
+    "text": "10:00 AM",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.24,
+     "role": 0.03,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-136-time-element",
+    "fp": "removeBySelector|time|39a09492964a|3b4548d7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "time"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 2,
+    "tag": "time",
+    "text": "2:00 PM",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.29,
+     "role": 0.03,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-136-time-element",
+    "fp": "removeBySelector|relative-time|e47c72479b6d|d53faab7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "relative-time"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "relative-time",
+    "text": "3 months ago",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.32,
+     "role": 0.015,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-136-time-element",
+    "fp": "removeBySelector|time|39a09492964a|772ff910",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "time"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 2,
+    "tag": "time",
+    "text": "2:00 PM",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.29,
+     "role": 0.03,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "removeBySelector|div|36cf2f7cc305|59c21771",
+    "step": "removeBySelector",
+    "reason": "partial match: page-title",
+    "selector": "page-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "SCP-9935",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.94,
+     "role": 0.985,
+     "v2": 0.55
+    }
+   },
+   {
+    "commit": "58a2ae5",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|463924bb1d80|a0356a95",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/topics\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "TAI",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.28,
+     "role": 0.21,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "58a2ae5",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "58a2ae5",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|h1|701a1f192aa2|867f28ba",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "selector": "appendix",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h1",
+    "text": "Appendix: Quasi-simulators",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "af4ebde",
+    "page": "12gramsofcarbon.com:p:ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|h1|85603e8b2547|f2ca873c",
+    "step": "removeBySelector",
+    "reason": "partial match: post-title",
+    "selector": "post-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 5,
+    "tag": "h1",
+    "text": "Ilya's Papers to Carmack: VLAEs",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.92,
+     "role": 0.995,
+     "v2": 0.24
+    }
+   }
+  ],
+  "wrong_list": [
+   {
+    "commit": "076d17e",
+    "subject": "Fix arXiv LaTeXML rendering issues #141 #142 #143 #144",
+    "page": "issues--143-arxiv-cross-references",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]",
+    "words": 1,
+    "text": "1",
+    "recovered": true
+   },
+   {
+    "commit": "076d17e",
+    "subject": "Fix arXiv LaTeXML rendering issues #141 #142 #143 #144",
+    "page": "issues--143-arxiv-cross-references",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]",
+    "words": 1,
+    "text": "3.2",
+    "recovered": true
+   },
+   {
+    "commit": "9e6fa75",
+    "subject": "Fix scoring issues #112, scoreAndRemove was removing <div> blocks containing navigation indicator words (\"privacy\", \"social\", \"share\", \"popular\") that appeared naturally in conversation text",
+    "page": "general--www.figma.com:blog:introducing-codex-to-figma",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 18,
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "recovered": true
+   },
+   {
+    "commit": "ae6fc5c",
+    "subject": "Fix #107 #77 over-aggressive stripping",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "sel": "appendix",
+    "words": 2,
+    "text": "Appendix: Quasi-simulators",
+    "recovered": true
+   },
+   {
+    "commit": "4e00da2",
+    "subject": "Fix some accidental removals",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/topics\"]",
+    "words": 1,
+    "text": "TAI",
+    "recovered": true
+   },
+   {
+    "commit": "de0f86a",
+    "subject": "Better support for stripe docs pages",
+    "page": "stripe",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 27,
+    "text": "Test your endpoint Make a request to your server without an existing payment header, and you receive a 402 response with",
+    "recovered": true
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-106-menu-id",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "#menu",
+    "words": 40,
+    "text": "Appetizers Spring rolls with sweet chili sauce — a perfect way to start your meal. Main Course Grilled salmon with roast",
+    "recovered": true
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-131-category-links",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/category\"]",
+    "words": 2,
+    "text": "Web Development",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-131-category-links",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/categories\"]",
+    "words": 1,
+    "text": "JavaScript",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-131-category-links",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/category\"]",
+    "words": 1,
+    "text": "Tutorials",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-132-hero-class",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": ".hero",
+    "words": 14,
+    "text": "This is the hero section with important introductory content that should not be removed.",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-136-time-element",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "time",
+    "words": 3,
+    "text": "January 15, 2025",
+    "recovered": true
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-136-time-element",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "time",
+    "words": 2,
+    "text": "10:00 AM",
+    "recovered": true
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-136-time-element",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "relative-time",
+    "words": 3,
+    "text": "3 months ago",
+    "recovered": true
+   },
+   {
+    "commit": "7d31963",
+    "subject": "Better wikidot support",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 42,
+    "text": "Footnotes 1. No relation to the Washington Nationals team of the modern day. 2. The fact that both teams folded was not ",
+    "recovered": false
+   },
+   {
+    "commit": "7d31963",
+    "subject": "Better wikidot support",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 12,
+    "text": "1. No relation to the Washington Nationals team of the modern day.",
+    "recovered": false
+   },
+   {
+    "commit": "7d31963",
+    "subject": "Better wikidot support",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 21,
+    "text": "2. The fact that both teams folded was not unusual, as both had been mired in multiple seasons of poor performance.",
+    "recovered": false
+   },
+   {
+    "commit": "58bdd32",
+    "subject": "support callouts and fix output from lesswrong",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[hidden]",
+    "words": 12967,
+    "text": "Simulators Simulators by janus 2nd Sep 2022 AI Alignment ForumLinkpost from generative.ink 49 min read 169 690 Ω 142 Tha",
+    "recovered": false
+   },
+   {
+    "commit": "58bdd32",
+    "subject": "support callouts and fix output from lesswrong",
+    "page": "rockthejvm.com:articles:kotlin-101-type-classes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "aside",
+    "words": 47,
+    "text": "Tip Type classes are tough. If you need to become proficient in Kotlin quickly and with thousands of lines of code and a",
+    "recovered": false
+   },
+   {
+    "commit": "451fe87",
+    "subject": "Add GitHub extractor for GitHub issues (#75)",
+    "page": "github.com-issue-56",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 5,
+    "text": "defuddle/src/defuddle.ts Line 213 in cb4291d",
+    "recovered": false
+   },
+   {
+    "commit": "451fe87",
+    "subject": "Add GitHub extractor for GitHub issues (#75)",
+    "page": "github.com-issue-56",
+    "step": "removeBySelector",
+    "reason": "partial match: comments",
+    "sel": "comments",
+    "words": 203,
+    "text": "Activity For my use-case, I'm already running a headless browser rendering worker to load the page anyway. Instead of do",
+    "recovered": false
+   }
+  ]
+ },
+ "seconds": 136
+}

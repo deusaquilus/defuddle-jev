@@ -1,0 +1,666 @@
+=====build_summary=====
+{
+  "fixtures_total": 226,
+  "defuddle_errors": 0,
+  "skipped_extractor": 17,
+  "skipped_tiny_output": 0,
+  "skipped_lt2_candidates": 42,
+  "kept": 167,
+  "kept_real_pages_gt20KB": 9,
+  "kept_gt8KB": 15,
+  "kept_capped_at_12": 0,
+  "kept_truth_none_of_these": 5,
+  "kept_truth_by_strict_shingle": 123,
+  "kept_truth_by_nocode_or_words_only": 39,
+  "kept_truth_measure_hist": {
+    "shingle+shingle_nocode+words": 122,
+    "shingle_nocode+words": 6,
+    "shingle_nocode": 1,
+    "words": 32,
+    "none": 5,
+    "shingle+words": 1
+  },
+  "kept_defuddle_pick_equals_truth": 153,
+  "kept_defuddle_pick_not_in_candidates": 2,
+  "n_candidates_hist": {
+    "2": 126,
+    "3": 35,
+    "4": 4,
+    "6": 1,
+    "10": 1
+  },
+  "variant_c_eligible": 165,
+  "variant_c_too_large": 2,
+  "variant_c_total_est_tokens": 174649,
+  "variant_a_total_est_state_tokens": 56191
+}
+=====usage=====
+--usage_A2.json
+{
+  "variant": "A2",
+  "fixtures": 167,
+  "model": "jev-1.14.0",
+  "usage": {
+    "calls": 167,
+    "errors": 0,
+    "input_tokens": 172593,
+    "output_tokens": 22909,
+    "est_cost_usd": 0.007249,
+    "latency_ms": {
+      "p50": 67.3115170000001,
+      "p90": 115.38085999999976,
+      "p99": 169.992131,
+      "max": 175.630544,
+      "n": 167
+    }
+  },
+  "wall_s": 2
+}
+--usage_A.json
+{
+  "variant": "A",
+  "fixtures": 167,
+  "model": "jev-1.14.0",
+  "usage": {
+    "calls": 167,
+    "errors": 0,
+    "input_tokens": 172593,
+    "output_tokens": 22907,
+    "est_cost_usd": 0.007249,
+    "latency_ms": {
+      "p50": 200.8165310000004,
+      "p90": 207.02367500000014,
+      "p99": 398.63713099999995,
+      "max": 400.656009,
+      "n": 167
+    }
+  },
+  "wall_s": 5
+}
+--usage_B.json
+{
+  "variant": "B",
+  "fixtures": 167,
+  "model": "jev-1.14.0",
+  "usage": {
+    "calls": 167,
+    "errors": 0,
+    "input_tokens": 172593,
+    "output_tokens": 22907,
+    "est_cost_usd": 0.007249,
+    "latency_ms": {
+      "p50": 75.02245300000004,
+      "p90": 198.938823,
+      "p99": 202.35880800000007,
+      "max": 203.977755,
+      "n": 167
+    }
+  },
+  "wall_s": 3
+}
+--usage_C.json
+{
+  "variant": "C",
+  "fixtures": 165,
+  "model": "jev-1.14.0",
+  "usage": {
+    "calls": 165,
+    "errors": 0,
+    "input_tokens": 260761,
+    "output_tokens": 7813,
+    "est_cost_usd": 0.010952,
+    "latency_ms": {
+      "p50": 68.25511800000004,
+      "p90": 113.13944100000003,
+      "p99": 207.43836499999998,
+      "max": 255.55245100000002,
+      "n": 165
+    }
+  },
+  "wall_s": 2
+}
+=====build-candidates.mjs=====
+// Phase 1 (offline, no API): build candidate container lists + ground truth for every fixture.
+// Run: node /tmp/jev-research/results/exp-main-container/build-candidates.mjs
+import { createRequire } from 'node:module';
+import { readFileSync, readdirSync, writeFileSync, statSync } from 'node:fs';
+import { join, basename } from 'node:path';
+
+const require = createRequire(import.meta.url);
+const REPO = '/home/alexi/git/defuddle';
+const { Defuddle } = require(join(REPO, 'dist/node.js'));
+const { parseLinkedomHTML } = require(join(REPO, 'dist/utils/linkedom-compat.js'));
+const { ENTRY_POINT_ELEMENTS } = require(join(REPO, 'dist/constants.js'));
+const { ContentScorer } = require(join(REPO, 'dist/removals/scoring.js'));
+const OUT = '/tmp/jev-research/results/exp-main-container';
+
+const MIN_WORDS = 30;
+const MAX_CANDS = 12;
+const TRUTH_COVERAGE = 0.9;
+const VARIANT_C_MAX_TOKENS = 25000;
+
+function normalize(text) {
+	return (text || '').normalize('NFKC').replace(/[​‌‍﻿]/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
+}
+function words(text) { return normalize(text).split(' ').filter(Boolean); }
+function shingles(ws, n = 5) {
+	const out = [];
+	for (let i = 0; i + n <= ws.length; i++) out.push(ws.slice(i, i + n).join(' '));
+	return out;
+}
+function className(el) {
+	const c = typeof el.className === 'string' ? el.className : (el.getAttribute && el.getAttribute('class')) || '';
+	return c.split(/[\t\n\f\r ]+/).filter(Boolean);
+}
+// Text of an element: skips script/style/noscript/template subtrees, inserts whitespace at block
+// boundaries and <br> (linkedom textContent neither skips scripts nor separates blocks).
+const BLOCK_TAGS = new Set([...require(join(REPO, 'dist/constants.js')).BLOCK_LEVEL_ELEMENTS, 'br', 'tr', 'td', 'th', 'li', 'option', 'img', 'hr', 'caption', 'label', 'button']);
+const SKIP_TAGS = new Set(['script', 'style', 'noscript', 'template']);
+function visibleText(el, opts = {}) {
+	const parts = [];
+	(function walk(node) {
+		if (node.nodeType === 3) { parts.push(node.data); return; }
+		if (node.nodeType !== 1) return;
+		const tag = node.tagName.toLowerCase();
+		if (SKIP_TAGS.has(tag)) return;
+		if (opts.skipCode && (tag === 'pre' || tag === 'code')) { parts.push(' '); return; }
+		const block = BLOCK_TAGS.has(tag);
+		if (block) parts.push(' ');
+		for (const child of node.childNodes) walk(child);
+		if (block) parts.push(' ');
+	})(el);
+	return parts.join('');
+}
+function cleanPageHtml(html) {
+	return html
+		.replace(/<(script|style|noscript|template)\b[\s\S]*?<\/\1>/gi, '')
+		.replace(/<svg\b[\s\S]*?<\/svg>/gi, '<svg></svg>')
+		.replace(/<!--[\s\S]*?-->/g, '')
+		.replace(/\s(src|href|srcset|data-src|data-srcset|poster|content)="data:[^"]{40,}"/gi, ' $1="data:..."')
+		.replace(/="([^"]{150})[^"]*"/g, '="$1..."')
+		.replace(/\s+/g, ' ')
+		.replace(/> </g, '><');
+}
+// Order-insensitive containment: fraction of output words (multiset) present in the candidate's words.
+function multisetCoverage(outWs, candWs) {
+	const counts = new Map();
+	for (const w of candWs) counts.set(w, (counts.get(w) || 0) + 1);
+	let hit = 0;
+	for (const w of outWs) { const c = counts.get(w) || 0; if (c > 0) { hit++; counts.set(w, c - 1); } }
+	return outWs.length ? hit / outWs.length : 0;
+}
+const estimateTokens = (text, isHtml = false) => Math.ceil(text.length / (isHtml ? 3.5 : 4));
+
+const fixturesDir = join(REPO, 'tests/fixtures');
+const files = readdirSync(fixturesDir).filter(f => f.endsWith('.html')).sort();
+const offlineFetch = () => Promise.reject(new Error('network disabled in experiment'));
+
+const kept = [];
+const log = [];
+for (const file of files) {
+	const name = basename(file, '.html');
+	const html = readFileSync(join(fixturesDir, file), 'utf-8');
+	const htmlBytes = statSync(join(fixturesDir, file)).size;
+	const fm = html.match(/<!--\s*(\{"url":.*?\})\s*-->/);
+	const frontmatter = fm ? JSON.parse(fm[1]) : {};
+	const url = frontmatter.url || `https://${name.replace(/^[a-z]+--/, '')}`;
+	const entry = { name, url, htmlBytes, status: 'kept' };
+
+	let result;
+	try {
+		result = await Defuddle(parseLinkedomHTML(html, url), url, { debug: true, fetch: offlineFetch });
+	} catch (e) {
+		entry.status = 'defuddle_error'; entry.error = String(e.message || e); log.push(entry); continue;
+	}
+	entry.extractorType = result.extractorType || null;
+	entry.contentSelector = result.debug?.contentSelector || '';
+	entry.title = result.title || '';
+	if (result.extractorType) { entry.status = 'skipped_extractor'; log.push(entry); continue; }
+
+	// Output text (what defuddle kept) -> shingles
+	const outDoc = parseLinkedomHTML(`<html><body>${result.content}</body></html>`);
+	const outWords = words(visibleText(outDoc.body));
+	const outShingles = shingles(outWords);
+	entry.outputWords = outWords.length;
+	if (outShingles.length === 0) { entry.status = 'skipped_tiny_output'; log.push(entry); continue; }
+	const outShingleSet = new Set(outShingles);
+	const outWordsNoCode = words(visibleText(outDoc.body, { skipCode: true }));
+	const outShinglesNoCode = shingles(outWordsNoCode);
+
+	// Fresh parse: candidate containers
+	const doc = parseLinkedomHTML(html, url);
+	const allEls = Array.from(doc.querySelectorAll('*'));
+	const docIndex = new Map(allEls.map((el, i) => [el, i]));
+	const seen = new Map(); // el -> selectorIndex (first/highest-priority match)
+	ENTRY_POINT_ELEMENTS.forEach((selector, index) => {
+		let matches = [];
+		try { matches = Array.from(doc.querySelectorAll(selector)); } catch { /* ignore */ }
+		for (const el of matches) if (!seen.has(el)) seen.set(el, index);
+	});
+	let cands = [];
+	for (const [el, selectorIndex] of seen) {
+		const text = visibleText(el);
+		const ws = words(text);
+		if (ws.length < MIN_WORDS) continue;
+		let defuddleScore = (ENTRY_POINT_ELEMENTS.length - selectorIndex) * 40;
+		try { defuddleScore += ContentScorer.scoreElement(el); } catch { /* ignore */ }
+		cands.push({ el, selectorIndex, selector: ENTRY_POINT_ELEMENTS[selectorIndex], text, ws, defuddleScore, docIndex: docIndex.get(el) ?? 1e9 });
+	}
+	entry.candidatesBeforeCap = cands.length;
+	if (cands.length > MAX_CANDS) {
+		cands.sort((a, b) => b.defuddleScore - a.defuddleScore);
+		cands = cands.slice(0, MAX_CANDS);
+		entry.capped = true;
+	}
+	cands.sort((a, b) => a.docIndex - b.docIndex); // present in document order
+	if (cands.length < 2) { entry.status = 'skipped_lt2_candidates'; entry.candidates = cands.length; log.push(entry); continue; }
+
+	// Ground truth: smallest candidate covering >= 90% of output shingles
+	cands.forEach((c, i) => {
+		c.id = `c${i + 1}`;
+		const sset = new Set(shingles(c.ws));
+		let hit = 0;
+		const missing = [];
+		for (const s of outShingles) { if (sset.has(s)) hit++; else if (missing.length < 5) missing.push(s); }
+		c.coverage = hit / outShingles.length;
+		c.missing = missing;
+		c.coverageWords = multisetCoverage(outWords, c.ws);
+		if (outShinglesNoCode.length >= 5) {
+			const sset2 = new Set(shingles(words(visibleText(c.el, { skipCode: true }))));
+			let hit2 = 0;
+			for (const s of outShinglesNoCode) if (sset2.has(s)) hit2++;
+			c.coverageNoCode = hit2 / outShinglesNoCode.length;
+		} else c.coverageNoCode = null;
+	});
+	cands.forEach(c => {
+		c.measures = [];
+		if (c.coverage >= TRUTH_COVERAGE) c.measures.push('shingle');
+		if (c.coverageNoCode !== null && c.coverageNoCode >= TRUTH_COVERAGE) c.measures.push('shingle_nocode');
+		if (c.coverageWords >= TRUTH_COVERAGE) c.measures.push('words');
+	});
+	const covering = cands.filter(c => c.measures.length > 0).sort((a, b) => (a.ws.length - b.ws.length) || (a.el.outerHTML.length - b.el.outerHTML.length));
+	const truth = covering.length ? covering[0].id : 'none_of_these';
+	const truthMeasures = covering.length ? covering[0].measures : [];
+	const truthStrictShingle = covering.length ? covering[0].measures.includes('shingle') : false;
+
+	// Defuddle's pick mapped onto the candidate list
+	let defuddleEl = null, defuddlePick = 'selector_not_found';
+	try { defuddleEl = entry.contentSelector ? doc.querySelector(entry.contentSelector) : null; } catch { defuddleEl = null; }
+	if (defuddleEl) {
+		const match = cands.find(c => c.el === defuddleEl);
+		if (match) defuddlePick = match.id;
+		else {
+			const containing = cands.filter(c => c.el.contains(defuddleEl)).sort((a, b) => (a.ws.length - b.ws.length) || (a.el.outerHTML.length - b.el.outerHTML.length));
+			defuddlePick = containing.length ? `not_a_candidate(inside ${containing[0].id})` : 'not_a_candidate';
+		}
+	}
+
+	// Candidate descriptions for the Jev state
+	const described = cands.map(c => {
+		const el = c.el;
+		const text = normalize(c.text);
+		let linkChars = 0;
+		for (const a of Array.from(el.querySelectorAll('a'))) linkChars += normalize(visibleText(a)).length;
+		const contains = cands.filter(o => o !== c && el.contains(o.el)).map(o => o.id);
+		return {
+			id: c.id,
+			tag: el.tagName.toLowerCase(),
+			id_attr: el.id || '',
+			classes: className(el).slice(0, 8).join(' '),
+			word_count: c.ws.length,
+			paragraph_count: el.querySelectorAll('p').length,
+			link_text_ratio: +(linkChars / Math.max(1, text.length)).toFixed(2),
+			contains_candidates: contains,
+			text_start: text.slice(0, 300),
+			text_end: text.length > 450 ? text.slice(-150) : text.slice(300),
+			// bookkeeping (not sent to Jev)
+			_meta: { selector: c.selector, selectorIndex: c.selectorIndex, defuddleScore: Math.round(c.defuddleScore), coverage: +c.coverage.toFixed(3), coverageNoCode: c.coverageNoCode === null ? null : +c.coverageNoCode.toFixed(3), coverageWords: +c.coverageWords.toFixed(3), measures: c.measures, missing: c.missing, docIndex: c.docIndex }
+		};
+	});
+
+	// Variant C: whole-page cleaned HTML with data-cand annotations
+	cands.forEach(c => c.el.setAttribute('data-cand', c.id));
+	const pageHtml = cleanPageHtml(doc.documentElement.outerHTML);
+	const pageTokens = estimateTokens(pageHtml, true);
+
+	kept.push({
+		name, url, htmlBytes, title: entry.title, contentSelector: entry.contentSelector,
+		outputWords: outWords.length, n_candidates: cands.length, candidatesBeforeCap: entry.candidatesBeforeCap, capped: !!entry.capped,
+		truth, truthMeasures, truthStrictShingle, defuddlePick, candidates: described,
+		pageHtml, pageTokens, pageEligibleC: pageTokens <= VARIANT_C_MAX_TOKENS,
+	});
+	entry.n_candidates = cands.length; entry.truth = truth; entry.truthMeasures = truthMeasures; entry.defuddlePick = defuddlePick; entry.pageTokens = pageTokens;
+	log.push(entry);
+}
+
+writeFileSync(join(OUT, 'candidates.jsonl'), kept.map(k => JSON.stringify(k)).join('\n') + '\n');
+writeFileSync(join(OUT, 'fixture_log.json'), JSON.stringify(log, null, 2));
+const count = (arr, f) => arr.filter(f).length;
+const summary = {
+	fixtures_total: files.length,
+	defuddle_errors: count(log, e => e.status === 'defuddle_error'),
+	skipped_extractor: count(log, e => e.status === 'skipped_extractor'),
+	skipped_tiny_output: count(log, e => e.status === 'skipped_tiny_output'),
+	skipped_lt2_candidates: count(log, e => e.status === 'skipped_lt2_candidates'),
+	kept: kept.length,
+	kept_real_pages_gt20KB: count(kept, k => k.htmlBytes > 20480),
+	kept_gt8KB: count(kept, k => k.htmlBytes > 8192),
+	kept_capped_at_12: count(kept, k => k.capped),
+	kept_truth_none_of_these: count(kept, k => k.truth === 'none_of_these'),
+	kept_truth_by_strict_shingle: count(kept, k => k.truthStrictShingle),
+	kept_truth_by_nocode_or_words_only: count(kept, k => k.truth !== 'none_of_these' && !k.truthStrictShingle),
+	kept_truth_measure_hist: kept.reduce((m, k) => { const key = k.truthMeasures.join('+') || 'none'; m[key] = (m[key] || 0) + 1; return m; }, {}),
+	kept_defuddle_pick_equals_truth: count(kept, k => k.defuddlePick === k.truth),
+	kept_defuddle_pick_not_in_candidates: count(kept, k => !/^c\d+$/.test(k.defuddlePick)),
+	n_candidates_hist: kept.reduce((m, k) => { m[k.n_candidates] = (m[k.n_candidates] || 0) + 1; return m; }, {}),
+	variant_c_eligible: count(kept, k => k.pageEligibleC),
+	variant_c_too_large: count(kept, k => !k.pageEligibleC),
+	variant_c_total_est_tokens: kept.filter(k => k.pageEligibleC).reduce((s, k) => s + k.pageTokens, 0),
+	variant_a_total_est_state_tokens: kept.reduce((s, k) => s + estimateTokens(JSON.stringify(k.candidates.map(({ _meta, ...c }) => c))), 0),
+};
+writeFileSync(join(OUT, 'build_summary.json'), JSON.stringify(summary, null, 2));
+console.log(JSON.stringify(summary, null, 2));
+=====run-jev.mjs=====
+// Phase 2 (live): ask Jev to pick the main article container. Variants:
+//   A  = JSON candidate list (document order) + Choice + per-candidate Nouls
+//   B  = same as A with candidate order reversed (state array and option order)
+//   A2 = exact repeat of A (non-determinism baseline)
+//   C  = whole-page cleaned HTML with data-cand annotations, Choice only
+// Run: bash -ic 'node /tmp/jev-research/results/exp-main-container/run-jev.mjs --variant A [--limit N] [--names a,b] [--concurrency 6]'
+import { readFileSync, writeFileSync, appendFileSync, existsSync, unlinkSync } from 'node:fs';
+import { systemOne, mapConcurrent, usageTotals, estimateTokens } from '/tmp/jev-research/jev.mjs';
+
+const OUT = '/tmp/jev-research/results/exp-main-container';
+const MODEL = 'jev-1.14.0';
+const args = Object.fromEntries(process.argv.slice(2).map((a, i, arr) => a.startsWith('--') ? [a.slice(2), arr[i + 1] && !arr[i + 1].startsWith('--') ? arr[i + 1] : true] : []).filter(Boolean));
+const VARIANT = String(args.variant || 'A');
+const LIMIT = args.limit ? Number(args.limit) : Infinity;
+const NAMES = args.names ? new Set(String(args.names).split(',')) : null;
+const CONC = args.concurrency ? Number(args.concurrency) : 6;
+const VERBOSE = !!args.verbose;
+
+const QUESTION = 'Which candidate is the main article container, meaning the smallest element that contains the whole article body (all paragraphs, headings, figures, code and footnotes of the single main article) and as little non-article material as possible?';
+
+let fixtures = readFileSync(`${OUT}/candidates.jsonl`, 'utf8').trim().split('\n').map(JSON.parse);
+if (NAMES) fixtures = fixtures.filter(f => NAMES.has(f.name));
+if (VARIANT === 'C') fixtures = fixtures.filter(f => f.pageEligibleC);
+fixtures = fixtures.slice(0, LIMIT);
+
+function publicCandidate(c) { const { _meta, ...rest } = c; return rest; }
+function optionLabel(c) {
+	let label = c.tag + (c.id_attr ? `#${c.id_attr}` : '') + (c.classes ? '.' + c.classes.split(' ').slice(0, 3).join('.') : '');
+	label += `, ${c.word_count} words`;
+	if (c.contains_candidates.length) label += `, contains ${c.contains_candidates.join(', ')}`;
+	return label;
+}
+function buildListRequest(fx, reversed) {
+	const cands = reversed ? [...fx.candidates].reverse() : fx.candidates;
+	const state = { page_title: fx.title, url: fx.url, candidates: cands.map(publicCandidate) };
+	const criteria = {};
+	for (const c of cands) criteria[c.id] = optionLabel(c);
+	criteria.none_of_these = 'No listed candidate is the smallest element containing the whole main article body';
+	const questions = {
+		main_container: {
+			type: 'choice',
+			instructions: `${QUESTION} The candidates are the entries of state.candidates; option names are their ids. Choose none_of_these if no candidate fits.`,
+			criteria,
+		},
+	};
+	for (const c of cands) {
+		questions[`contains_all_${c.id}`] = { type: 'noul', instructions: `Does candidate ${c.id} contain the whole main article body (every paragraph, heading, figure, code block and footnote of the single main article)?` };
+		questions[`non_article_${c.id}`] = { type: 'noul', instructions: `Does candidate ${c.id} contain substantial non-article material (navigation, sidebars, related links, comments, footers)?` };
+	}
+	return { state, questions };
+}
+function buildPageRequest(fx) {
+	const criteria = {};
+	for (const c of fx.candidates) criteria[c.id] = `the element whose opening tag carries data-cand="${c.id}" (<${c.tag}${c.id_attr ? ' id="' + c.id_attr + '"' : ''}>, ${c.word_count} words)`;
+	criteria.none_of_these = 'No annotated element is the smallest element containing the whole main article body';
+	return {
+		state: fx.pageHtml,
+		questions: {
+			main_container: {
+				type: 'choice',
+				instructions: `${QUESTION} The state is the page HTML; the candidates are the elements annotated with a data-cand attribute. Choose none_of_these if no candidate fits.`,
+				criteria,
+			},
+		},
+	};
+}
+
+async function ask(req) {
+	try {
+		return { res: await systemOne({ model: MODEL, ...req }) };
+	} catch (e) {
+		return { error: { status: e.status ?? null, message: String(e.message || e).slice(0, 300) } };
+	}
+}
+
+const outFile = `${OUT}/jev_${VARIANT}${LIMIT !== Infinity || NAMES ? '_smoke' : ''}.jsonl`;
+if (existsSync(outFile)) unlinkSync(outFile);
+let done = 0;
+const t0 = Date.now();
+await mapConcurrent(fixtures, async (fx) => {
+	const req = VARIANT === 'C' ? buildPageRequest(fx) : buildListRequest(fx, VARIANT === 'B');
+	const record = { name: fx.name, variant: VARIANT, model: null, n_candidates: fx.n_candidates, truth: fx.truth, defuddlePick: fx.defuddlePick, htmlBytes: fx.htmlBytes,
+		est_state_tokens: VARIANT === 'C' ? fx.pageTokens : estimateTokens(JSON.stringify(req.state)), n_questions: Object.keys(req.questions).length };
+	let { res, error } = await ask(req);
+	if (error && error.status === 400 && /max_tokens_exceeded/.test(error.message) && VARIANT !== 'C') {
+		// Split: Choice alone, then the Nouls (two requests, same state)
+		record.split_on_400 = true;
+		const q1 = { main_container: req.questions.main_container };
+		const q2 = Object.fromEntries(Object.entries(req.questions).filter(([k]) => k !== 'main_container'));
+		const r1 = await ask({ state: req.state, questions: q1 });
+		const r2 = await ask({ state: req.state, questions: q2 });
+		if (r1.res && r2.res) {
+			res = { model: r1.res.model, answers: { ...r1.res.answers, ...r2.res.answers }, usage: { input_tokens: r1.res.usage.input_tokens + r2.res.usage.input_tokens, output_tokens: (r1.res.usage.output_tokens || 0) + (r2.res.usage.output_tokens || 0) }, latency_ms: r1.res.latency_ms + r2.res.latency_ms };
+			error = null;
+		} else error = r1.error || r2.error;
+	}
+	if (error) { record.error = error; }
+	else {
+		record.model = res.model;
+		record.usage = res.usage;
+		record.latency_ms = res.latency_ms;
+		const mc = res.answers.main_container;
+		record.choice = mc?.choice ?? null;
+		record.confidence = mc?.confidence ?? null;
+		record.probabilities = mc?.probabilities ?? null;
+		if (VARIANT !== 'C') {
+			record.nouls = {};
+			for (const c of fx.candidates) record.nouls[c.id] = { contains_all: res.answers[`contains_all_${c.id}`]?.noul ?? null, non_article: res.answers[`non_article_${c.id}`]?.noul ?? null };
+		}
+		if (VERBOSE) console.log(JSON.stringify(res, null, 1).slice(0, 3000));
+	}
+	appendFileSync(outFile, JSON.stringify(record) + '\n');
+	done++;
+	if (done % 25 === 0) console.error(`[${VARIANT}] ${done}/${fixtures.length} done, ${Math.round((Date.now() - t0) / 1000)}s`);
+}, CONC);
+
+const totals = usageTotals();
+console.log(JSON.stringify({ variant: VARIANT, fixtures: fixtures.length, model: MODEL, outFile, usage: totals }, null, 2));
+if (LIMIT === Infinity && !NAMES) writeFileSync(`${OUT}/usage_${VARIANT}.json`, JSON.stringify({ variant: VARIANT, fixtures: fixtures.length, model: MODEL, usage: totals, wall_s: Math.round((Date.now() - t0) / 1000) }, null, 2));
+=====analyze.mjs=====
+// Phase 3: analysis of Jev picks vs ground truth. Run: node /tmp/jev-research/results/exp-main-container/analyze.mjs
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+const OUT = '/tmp/jev-research/results/exp-main-container';
+const load = f => existsSync(`${OUT}/${f}`) ? readFileSync(`${OUT}/${f}`, 'utf8').trim().split('\n').filter(Boolean).map(JSON.parse) : [];
+const fixtures = Object.fromEntries(load('candidates.jsonl').map(f => [f.name, f]));
+const runs = { A: load('jev_A.jsonl'), B: load('jev_B.jsonl'), A2: load('jev_A2.jsonl'), C: load('jev_C.jsonl') };
+const byName = v => Object.fromEntries(runs[v].map(r => [r.name, r]));
+const R = { A: byName('A'), B: byName('B'), A2: byName('A2'), C: byName('C') };
+
+const band = c => c == null ? 'n/a' : c >= 0.9 ? '>=0.9' : c >= 0.7 ? '0.7-0.9' : c >= 0.5 ? '0.5-0.7' : '<0.5';
+const pct = (a, b) => b ? +(100 * a / b).toFixed(1) : null;
+const q = (arr, p) => { const s = [...arr].sort((a, b) => a - b); return s.length ? s[Math.min(s.length - 1, Math.floor(p * s.length))] : null; };
+function relation(fx, pick, truth) {
+	if (pick === truth) return 'correct';
+	if (pick === 'none_of_these') return 'none_of_these';
+	if (truth === 'none_of_these') return 'picked_when_label_none';
+	const c = fx.candidates.find(x => x.id === pick);
+	const t = fx.candidates.find(x => x.id === truth);
+	if (!c || !t) return 'invalid';
+	if (c.contains_candidates.includes(truth)) return 'ancestor_of_truth(over-inclusive)';
+	if (t.contains_candidates.includes(pick)) return 'descendant_of_truth(under-inclusive)';
+	return 'unrelated_branch';
+}
+function evalVariant(v, filter = () => true) {
+	const recs = runs[v].filter(r => fixtures[r.name] && filter(fixtures[r.name], r));
+	const ok = recs.filter(r => !r.error);
+	const correct = ok.filter(r => r.choice === r.truth);
+	const bands = {};
+	for (const r of ok) { const b = band(r.confidence); bands[b] = bands[b] || { n: 0, correct: 0 }; bands[b].n++; if (r.choice === r.truth) bands[b].correct++; }
+	for (const b of Object.keys(bands)) bands[b].accuracy_pct = pct(bands[b].correct, bands[b].n);
+	const byN = {};
+	for (const r of ok) { const k = r.n_candidates >= 4 ? '4+' : String(r.n_candidates); byN[k] = byN[k] || { n: 0, correct: 0 }; byN[k].n++; if (r.choice === r.truth) byN[k].correct++; }
+	for (const k of Object.keys(byN)) byN[k].accuracy_pct = pct(byN[k].correct, byN[k].n);
+	const rel = {};
+	for (const r of ok) { const k = relation(fixtures[r.name], r.choice, r.truth); rel[k] = (rel[k] || 0) + 1; }
+	const picks = {};
+	for (const r of ok) { const fx = fixtures[r.name]; const c = fx.candidates.find(x => x.id === r.choice); const k = r.choice === 'none_of_these' ? 'none_of_these' : (c?.tag === 'body' ? 'body' : c?.tag || 'other'); picks[k] = (picks[k] || 0) + 1; }
+	const lat = ok.map(r => r.latency_ms);
+	return {
+		n_fixtures: recs.length, n_errors: recs.length - ok.length, errors: recs.filter(r => r.error).map(r => ({ name: r.name, ...r.error })),
+		correct: correct.length, accuracy_pct: pct(correct.length, ok.length),
+		mean_confidence: ok.length ? +(ok.reduce((s, r) => s + (r.confidence ?? 0), 0) / ok.length).toFixed(3) : null,
+		by_confidence_band: bands, by_n_candidates: byN, miss_relation: rel, picked_tag: picks,
+		input_tokens: ok.reduce((s, r) => s + (r.usage?.input_tokens || 0), 0),
+		latency_ms: { p50: q(lat, 0.5), p90: q(lat, 0.9), max: Math.max(...lat, 0), n: lat.length },
+	};
+}
+
+const labeled = (fx) => fx.truth !== 'none_of_these';
+const real = (fx) => fx.htmlBytes > 20480;
+const analysis = { model: [...new Set(Object.values(runs).flat().map(r => r.model).filter(Boolean))], n_kept_fixtures: Object.keys(fixtures).length };
+for (const v of ['A', 'B', 'A2', 'C']) {
+	if (!runs[v].length) continue;
+	analysis[`variant_${v}`] = { all_167_spec_labels: evalVariant(v), labeled_only: evalVariant(v, labeled), real_pages_gt20KB: evalVariant(v, real), pages_gt8KB: evalVariant(v, fx => fx.htmlBytes > 8192) };
+}
+
+// Defuddle agreement
+const fxs = Object.values(fixtures);
+analysis.defuddle_vs_truth = {
+	pick_equals_truth: fxs.filter(f => f.defuddlePick === f.truth).length,
+	pick_is_ancestor_of_truth: fxs.filter(f => f.defuddlePick !== f.truth && /^c\d+$/.test(f.defuddlePick) && f.candidates.find(c => c.id === f.defuddlePick)?.contains_candidates.includes(f.truth)).length,
+	pick_not_a_candidate: fxs.filter(f => !/^c\d+$/.test(f.defuddlePick)).length,
+	truth_none_of_these: fxs.filter(f => f.truth === 'none_of_these').length,
+	truth_by_strict_shingle: fxs.filter(f => f.truthStrictShingle).length,
+	truth_by_fallback_measure: fxs.filter(f => f.truth !== 'none_of_these' && !f.truthStrictShingle).length,
+	n_candidates_hist: fxs.reduce((m, f) => { m[f.n_candidates] = (m[f.n_candidates] || 0) + 1; return m; }, {}),
+	real_pages_gt20KB: fxs.filter(real).length, pages_gt8KB: fxs.filter(f => f.htmlBytes > 8192).length,
+};
+// Jev vs defuddle agreement (A)
+if (runs.A.length) {
+	const ok = runs.A.filter(r => !r.error);
+	analysis.jev_A_vs_defuddle = {
+		agree_with_defuddle_pick: ok.filter(r => r.choice === r.defuddlePick).length,
+		jev_correct_defuddle_wrong: ok.filter(r => r.choice === r.truth && r.defuddlePick !== r.truth).map(r => r.name),
+		defuddle_correct_jev_wrong: ok.filter(r => r.choice !== r.truth && r.defuddlePick === r.truth).length,
+		both_wrong: ok.filter(r => r.choice !== r.truth && r.defuddlePick !== r.truth).map(r => r.name),
+	};
+}
+
+// Order sensitivity and repeat stability
+function compare(v1, v2) {
+	const pairs = runs[v1].filter(r => !r.error && R[v2][r.name] && !R[v2][r.name].error).map(r => [r, R[v2][r.name]]);
+	const flips = pairs.filter(([a, b]) => a.choice !== b.choice);
+	const dp = pairs.map(([a, b]) => Math.abs((a.probabilities?.[a.choice] ?? 0) - (b.probabilities?.[a.choice] ?? 0)));
+	const dpAll = pairs.flatMap(([a, b]) => Object.keys(a.probabilities || {}).map(k => Math.abs((a.probabilities[k] ?? 0) - (b.probabilities?.[k] ?? 0))));
+	return {
+		n_pairs: pairs.length, choice_flips: flips.length, flip_rate_pct: pct(flips.length, pairs.length),
+		flips: flips.map(([a, b]) => ({ name: a.name, truth: a.truth, [v1]: `${a.choice}@${a.confidence}`, [v2]: `${b.choice}@${b.confidence}` })),
+		both_correct: pairs.filter(([a, b]) => a.choice === a.truth && b.choice === b.truth).length,
+		either_correct: pairs.filter(([a, b]) => a.choice === a.truth || b.choice === b.truth).length,
+		mean_abs_dp_chosen: +(dp.reduce((s, x) => s + x, 0) / Math.max(1, dp.length)).toFixed(3),
+		max_abs_dp_any_option: +Math.max(...dpAll, 0).toFixed(2),
+		mean_abs_dp_any_option: +(dpAll.reduce((s, x) => s + x, 0) / Math.max(1, dpAll.length)).toFixed(3),
+	};
+}
+if (runs.B.length) analysis.order_sensitivity_A_vs_B = compare('A', 'B');
+if (runs.A2.length) analysis.repeat_stability_A_vs_A2 = compare('A', 'A2');
+if (runs.C.length) analysis.list_vs_page_A_vs_C = compare('A', 'C');
+
+// Noul-derived pick
+function noulPick(fx, nouls, thrContains, thrNon, useNon = true) {
+	const ok = fx.candidates.filter(c => nouls[c.id] && nouls[c.id].contains_all != null && nouls[c.id].contains_all >= thrContains && (!useNon || nouls[c.id].non_article <= thrNon));
+	if (!ok.length) return 'none_of_these';
+	ok.sort((a, b) => (a.word_count - b.word_count) || (a.contains_candidates.length - b.contains_candidates.length));
+	return ok[0].id;
+}
+function evalNoul(v, thrContains, thrNon, useNon) {
+	const ok = runs[v].filter(r => !r.error && r.nouls);
+	let correct = 0, agreeChoice = 0, none = 0, lab = 0, correctLab = 0;
+	for (const r of ok) {
+		const fx = fixtures[r.name];
+		const p = noulPick(fx, r.nouls, thrContains, thrNon, useNon);
+		if (p === r.truth) correct++;
+		if (p === r.choice) agreeChoice++;
+		if (p === 'none_of_these') none++;
+		if (fx.truth !== 'none_of_these') { lab++; if (p === r.truth) correctLab++; }
+	}
+	return { n: ok.length, correct, accuracy_pct: pct(correct, ok.length), labeled_n: lab, labeled_correct: correctLab, labeled_accuracy_pct: pct(correctLab, lab), agrees_with_choice: agreeChoice, agree_pct: pct(agreeChoice, ok.length), picked_none: none };
+}
+if (runs.A.length) {
+	analysis.noul_derived_pick_A = {
+		'contains>=0.5 & non_article<=0.5 (spec)': evalNoul('A', 0.5, 0.5, true),
+		'contains>=0.7 & non_article<=0.3': evalNoul('A', 0.7, 0.3, true),
+		'contains>=0.5 only': evalNoul('A', 0.5, 1, false),
+		'contains>=0.3 & non_article<=0.5': evalNoul('A', 0.3, 0.5, true),
+	};
+	// Noul diagnostics: contains_all for truth vs ancestors vs descendants/others; AUROC of contains_all for "contains the whole article" (truth or ancestor of truth)
+	const rows = [];
+	for (const r of runs.A.filter(r => !r.error && r.nouls)) {
+		const fx = fixtures[r.name]; if (fx.truth === 'none_of_these') continue;
+		const t = fx.candidates.find(c => c.id === fx.truth);
+		for (const c of fx.candidates) {
+			const role = c.id === fx.truth ? 'truth' : c.contains_candidates.includes(fx.truth) ? 'ancestor' : t.contains_candidates.includes(c.id) ? 'descendant' : 'other';
+			rows.push({ role, contains_all: r.nouls[c.id].contains_all, non_article: r.nouls[c.id].non_article, body: c.tag === 'body' });
+		}
+	}
+	const stats = (arr) => arr.length ? { n: arr.length, mean: +(arr.reduce((s, x) => s + x, 0) / arr.length).toFixed(3), p25: q(arr, 0.25), p50: q(arr, 0.5), p75: q(arr, 0.75), frac_ge_0_5: pct(arr.filter(x => x >= 0.5).length, arr.length) } : null;
+	const byRole = {};
+	for (const role of ['truth', 'ancestor', 'descendant', 'other']) {
+		const rs = rows.filter(x => x.role === role);
+		byRole[role] = { contains_all: stats(rs.map(x => x.contains_all)), non_article: stats(rs.map(x => x.non_article)) };
+	}
+	// AUROC
+	const pos = rows.filter(x => x.role === 'truth' || x.role === 'ancestor').map(x => x.contains_all);
+	const neg = rows.filter(x => x.role === 'descendant' || x.role === 'other').map(x => x.contains_all);
+	let wins = 0; for (const p of pos) for (const n of neg) wins += p > n ? 1 : p === n ? 0.5 : 0;
+	const posN = rows.filter(x => x.role === 'ancestor').map(x => x.non_article);
+	const negN = rows.filter(x => x.role === 'truth').map(x => x.non_article);
+	let winsN = 0; for (const p of posN) for (const n of negN) winsN += p > n ? 1 : p === n ? 0.5 : 0;
+	analysis.noul_diagnostics_A = { by_role: byRole, auroc_contains_all_for_contains_whole_article: pos.length && neg.length ? +(wins / (pos.length * neg.length)).toFixed(3) : null, auroc_non_article_ancestor_vs_truth: posN.length && negN.length ? +(winsN / (posN.length * negN.length)).toFixed(3) : null };
+}
+
+// Cost summary
+analysis.cost = {};
+for (const v of ['A', 'B', 'A2', 'C']) {
+	if (!existsSync(`${OUT}/usage_${v}.json`)) continue;
+	const u = JSON.parse(readFileSync(`${OUT}/usage_${v}.json`, 'utf8'));
+	analysis.cost[v] = { calls: u.usage.calls, errors: u.usage.errors, input_tokens: u.usage.input_tokens, est_cost_usd: u.usage.est_cost_usd, usd_per_fixture: +(u.usage.est_cost_usd / Math.max(1, u.fixtures)).toFixed(7), latency_ms: { p50: Math.round(u.usage.latency_ms.p50), p90: Math.round(u.usage.latency_ms.p90), p99: Math.round(u.usage.latency_ms.p99), max: Math.round(u.usage.latency_ms.max) }, wall_s: u.wall_s };
+}
+analysis.variant_C_too_large = fxs.filter(f => !f.pageEligibleC).map(f => ({ name: f.name, pageTokens: f.pageTokens }));
+
+writeFileSync(`${OUT}/analysis.json`, JSON.stringify(analysis, null, 2));
+
+// Miss lists
+function missReport(v) {
+	const lines = [];
+	for (const r of runs[v].filter(r => !r.error && r.choice !== r.truth)) {
+		const fx = fixtures[r.name];
+		lines.push(`### ${r.name}  [${v}] htmlBytes=${fx.htmlBytes} n=${fx.n_candidates} truth=${r.truth} (${fx.truthMeasures.join('+') || 'none'}) jev=${r.choice}@conf${r.confidence} probs=${JSON.stringify(r.probabilities)} defuddle=${r.defuddlePick} relation=${relation(fx, r.choice, r.truth)}`);
+		lines.push(`  title: ${fx.title} | url: ${fx.url} | contentSelector: ${fx.contentSelector.slice(0, 120)}`);
+		for (const c of fx.candidates) {
+			const n = r.nouls?.[c.id];
+			lines.push(`  ${c.id}: <${c.tag}${c.id_attr ? ' id=' + c.id_attr : ''}${c.classes ? ' class="' + c.classes + '"' : ''}> words=${c.word_count} p=${c.paragraph_count} linkratio=${c.link_text_ratio} contains=[${c.contains_candidates}] cov=${c._meta.coverage}/${c._meta.coverageWords}${n ? ` nouls: contains_all=${n.contains_all} non_article=${n.non_article}` : ''}`);
+			lines.push(`      start: ${c.text_start.slice(0, 200)}`);
+			lines.push(`      end:   ${c.text_end.slice(-120)}`);
+		}
+		lines.push('');
+	}
+	writeFileSync(`${OUT}/misses_${v}.txt`, lines.join('\n'));
+	return lines.length;
+}
+for (const v of ['A', 'B', 'C']) if (runs[v].length) missReport(v);
+console.log(JSON.stringify(analysis, null, 2));

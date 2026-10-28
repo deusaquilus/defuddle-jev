@@ -1,0 +1,415 @@
+==================== 360 Puck.News articles cut-off
+Every article on https://puck.news/ is cut-off in the middle by an image
+
+HTML to check out: [Untitled.html](https://github.com/user-attachments/files/30827415/Untitled.html)
+
+The source: https://puck.news/is-disney-relying-too-much-on-ryan-murphy/
+==================== 383 Issues with OSM (Open Street Map) blog posts
+Link: https://blog.openstreetmap.org/2026/09/13/whats-in-a-name-naming-things-in-openstreetmap/
+
+- image description is missing links
+
+<img width="2113" height="1073" alt="Image" src="https://github.com/user-attachments/assets/a94ed215-df9f-49d7-b1ff-f409cccb8553" />
+
+- heading is missing link
+
+<img width="2134" height="235" alt="Image" src="https://github.com/user-attachments/assets/f691a43d-905d-4e80-a9eb-894e4adb90bc" />
+
+<img width="1837" height="225" alt="Image" src="https://github.com/user-attachments/assets/d5297dba-faa3-499b-9fcd-6a98e0acfbf5" />
+==================== 365 Freedium: missing data
+Site: https://freedium-mirror.cfd/https://blog.ydb.tech/making-coroutines-routine-building-a-scalable-tpc-c-client-in-c-b14f55a09471?gi=e63bc334a2aa&source=rss-f827dc64efe4------2
+
+1. <img width="2548" height="1266" alt="Image" src="https://github.com/user-attachments/assets/a8b10b27-c5c1-4884-abb8-9bcc447a2c10" />
+
+2. <img width="2560" height="1358" alt="Image" src="https://github.com/user-attachments/assets/ba8c265d-9462-4183-bcba-a99702a6984b" />
+
+3. should the heading also have code? In my notes i do that so i am inclined to say yes:
+
+<img width="2551" height="1314" alt="Image" src="https://github.com/user-attachments/assets/d0b8b5ca-e261-425e-ac86-25bea4348e86" />
+==================== 375 Projectorjunkies missing data
+Defuddle: https://defuddle.md/https://www.projectorjunkies.com/xgimi-titan-noir-max-in-depth-review/
+Site: https://www.projectorjunkies.com/xgimi-titan-noir-max-in-depth-review/
+
+Defuddle is missing a big chunk of text and images. see the following recording:
+
+https://github.com/user-attachments/assets/1c688453-1ea3-4a4c-aff3-57a83868e938
+==================== 386 web clipping not working properly in any book in shamela.ws
+For example, you can use book page in this link
+https://shamela.ws/book/251/202
+
+![Screenshot_20260918_021740_Firefox.jpg](https://github.com/user-attachments/assets/9848ab62-a062-4b3f-a43b-e015ae18f218)
+1st pic - the website page
+
+![Screenshot_20260918_021804_Firefox.jpg](https://github.com/user-attachments/assets/7812bc58-3e92-4aa8-a9fa-4cc698f25013)
+2nd pic - the obsidian web clipper
+
+![Screenshot_20260918_021831_Firefox.jpg](https://github.com/user-attachments/assets/c220a619-3887-4ecc-8e94-13e8414bad3f)
+3rd pic - reader mode in firefox mobile
+
+As you can see, the firefox reader mode did a really good job at choosing what to capture, meanwhile the obsidian web clipper let go of the most important thing in the site
+
+
+
+
+
+==================== 380 Reddit listing pages are parsed as a single post, silently dropping the rest of the feed
+## Problem
+
+On a Reddit listing page such as https://www.reddit.com/, the synchronous extractor returns the body of the first post and silently omits the other loaded posts. This makes feed summaries incomplete even when the content is already present in the DOM.
+
+Tested with Defuddle **0.19.3**, using both browser DOM extraction in Chrome and the standalone reproduction below. No authentication, network requests, shadow DOM, or extension-specific preprocessing are needed for the minimal reproduction.
+
+## Minimal reproduction
+
+Install `defuddle@0.19.3` and `jsdom@27.0.1`, then run this as an ES module with Node.js 22.12+:
+
+```js
+import { JSDOM } from 'jsdom';
+import { Defuddle } from 'defuddle/node';
+
+const url = 'https://www.reddit.com/';
+const dom = new JSDOM(`<!doctype html>
+<title>Reddit feed</title>
+<main>
+  <shreddit-post post-title="First post" author="example_a">
+    <div slot="text-body"><p>FIRST_POST_SENTINEL: First post body.</p></div>
+  </shreddit-post>
+  <shreddit-post post-title="Second post" author="example_b">
+    <div slot="text-body"><p>SECOND_POST_SENTINEL: Second post body.</p></div>
+  </shreddit-post>
+</main>`, { url });
+
+try {
+  const result = await Defuddle(dom.window.document, url, {
+    markdown: true,
+    useAsync: false,
+  });
+  console.log(result.content);
+  const text = result.content.replace(/\\/g, '');
+  console.log({
+    firstPost: text.includes('FIRST_POST_SENTINEL'),
+    secondPost: text.includes('SECOND_POST_SENTINEL'),
+  });
+} finally {
+  dom.window.close();
+}
+```
+
+Actual result:
+
+```js
+{ firstPost: true, secondPost: false }
+```
+
+Expected: both post bodies are retained when extracting the listing, or the single-post extractor declines this page so the generic pipeline can handle it.
+
+## Likely cause
+
+In [RedditExtractor](https://github.com/kepano/defuddle/blob/main/src/extractors/reddit.ts), the constructor selects the first `shreddit-post`, and `canExtract()` accepts any page containing such an element (or an old-Reddit listing item). It does not distinguish a listing from an individual post page. The extraction then uses that first post's body.
+
+The same applicability check is present in the current main branch at the time of filing. The existing comments-page check is used for async extraction, but does not guard synchronous `canExtract()`.
+
+Setting `contentSelector: 'main'` or relaxing the general cleanup options does not resolve this, because the site-specific extractor is selected before the generic content-selection pipeline.
+
+## Browser cross-check
+
+On a loaded Reddit homepage, an experimental local bypass of the site-specific extractor allowed the generic pipeline, with less aggressive cleanup, to retain all 28 checked post links and titles. This is supporting evidence that the immediate problem is extractor selection, rather than unavailable page content; it is not a claim that the generic default settings preserve every feed detail.
+
+Would it make sense to restrict the single-post extractor to individual post pages and let listing pages fall through to the generic pipeline? A regression test with multiple posts on a listing, alongside existing single-post/comment tests, could protect this behavior.
+
+==================== 321 Elements with `id="tags"` are dropped from extracted output
+I’m seeing elements with `id="tags"` get dropped from the extracted output. This reproduces with Defuddle CLI v0.19.0 and in Obsidian Web Clipper.
+
+Reproduction page:
+
+```text
+https://mpcjazz.github.io/
+```
+
+Minimal reproduction HTML:
+
+```html
+<h2>Intro heading</h2>
+<p>Intro paragraph.</p>
+
+<section id="tags">
+  <h2>Content heading</h2>
+  <p>Content paragraph.</p>
+</section>
+```
+
+CLI reproduction:
+
+```bash
+npx --yes defuddle@0.19.0 parse https://mpcjazz.github.io/ --markdown
+```
+
+Actual Markdown:
+
+```markdown
+## Intro heading
+
+Intro paragraph.
+```
+
+Expected Markdown:
+
+```markdown
+## Intro heading
+
+Intro paragraph.
+
+## Content heading
+
+Content paragraph.
+```
+
+Environment:
+
+- Defuddle CLI v0.19.0
+- Obsidian Web Clipper
+
+==================== 279 `hero[_\-a-z]` partial selector strips article hero images and captions
+# `hero[_\-a-z]` partial selector strips article hero images and captions
+
+The partial selector `hero[_\-a-z]` removes any element whose class contains `hero-…` or `hero_…`, including legitimate article hero images and their captions.
+
+## Example
+
+https://www.crosslabs.org/blog/artificial-life
+
+```html
+<div class="blog-post-wrap">
+  <h1 class="h1">Artificial Life</h1>
+  …
+  <div class="blog-hero-image-wrap">
+    <img class="blog-hero-image" alt="…" src="…artificial_life.jpg" …/>
+    <div class="blogherocaption">
+      <div class="blog-image-caption">A depiction of artificial cybernetic entity… Image Credit: Generated by Olaf Witkowski using DALL-E version 2, August 21, 2024.</div>
+    </div>
+  </div>
+  <div class="rich-text-element w-richtext">… article body …</div>
+</div>
+```
+
+**Expected:** hero image + caption present in output.
+
+**Actual:** both removed. `_removeCoverImage` doesn't apply — `og:image` points to a different asset.
+
+Debug trace:
+```
+{ reason: "partial match: hero[_\\-a-z]", text: "" }   // <img class="blog-hero-image">
+{ reason: "partial match: hero[_\\-a-z]", text: "" }   // <div class="blog-hero-image-wrap">
+{ reason: "partial match: hero[_\\-a-z]", text: "A depiction of artificial cybernetic entity…" }
+```
+
+Affects any site whose content image wrapper class contains `hero-` (common Webflow pattern).
+
+## Fix direction
+
+Skip the match when the element is or contains a `<figure>` with `<figcaption>`, or restrict `hero[_\-a-z]` to elements above the content boundary.
+
+==================== 252 `[href*="/author/"]` selector strips content links, not just metadata
+
+Same class of bug as #228 — an href-based exact selector removes legitimate content links inside article body text.
+
+## Example
+
+https://www.infoq.com/presentations/Simple-Made-Easy/
+
+The "People mentioned" section lists people referenced in the presentation:
+
+```html
+<h2>People mentioned</h2>
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/Alan_Perlis">Alan Perlis</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Constantin_Brâncuși">Constantin Brancusi</a></li>
+    <li><a href="https://www.infoq.com/author/Grady-Booch">Grady Booch</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Edsger_W._Dijkstra">Edsger W. Dijkstra</a></li>
+    <li><a href="https://www.infoq.com/author/Erik-Meijer">Erik Meijer</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Gerald_Jay_Sussman">Gerald Jay Sussman</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Leonardo_da_Vinci">Leonardo da Vinci</a></li>
+</ul>
+```
+
+**Expected:** All 7 people in the list
+
+**Actual:** Grady Booch and Erik Meijer are silently dropped — their `<a>` elements match `[href*="/author/"]`, leaving empty `<li>` elements that vanish in markdown conversion.
+
+## Root cause
+
+`[href*="/author/"]` in `EXACT_SELECTORS` matches any `<a>` whose href contains `/author/`, including content links to author profile pages within article text.
+
+## Note
+
+Unlike #228 (`/tag/`), simply commenting out the selectors isn't a clean fix — the `content-patterns--iso-date-and-read-time` fixture has `<ul class="author-list"><li><a href="/author/jane/">...</a></li></ul>` where the href selector is the only thing catching it (the bare `author` partial selector is commented out due to Gwern false positives). So there's a trade-off between content preservation and author metadata removal.
+==================== 134 Content links are removed from main section
+**Page**: https://defuddle.md/https://engine.needle.tools/docs / https://engine.needle.tools/docs
+
+**Issue**: Content and links are removed from main section of page
+
+<img width="1886" height="1490" alt="Image" src="https://github.com/user-attachments/assets/be2338eb-b1d7-49ae-8478-2b27a919887c" />
+
+
+**Expected**: Content visible in the screenshot is kept because it's the main links for navigating on the page
+
+
+==================== 408 Nested list silently dropped when the list follows a paragraph ending in a colon
+A nested list is silently dropped when its parent list directly follows a paragraph that ends in a colon. The parent item is kept, but its sub-list disappears, so the output reads as if the item had no children.
+
+Seen on https://hypr.land/news/update56/: under "New scrolling and master stuff include:", the sub-items `fit_into_view`, `fit expand` and `inhibit_scroll` are missing. The content is already gone in the HTML output, so this happens during extraction, not during the Markdown conversion.
+
+**Minimal repro** (defuddle 0.19.4, CLI, Node 26):
+
+```bash
+printf '<html><body><article><h1>T</h1><p>%s</p><p>New stuff include:</p> <ul><li>for scrolling:<ul><li>x1</li><li>x2</li></ul></li><li>for master:<ul><li>b1</li></ul></li></ul><p>end paragraph here.</p></article></body></html>' \
+  "$(printf 'Some intro sentence. %.0s' {1..15})" | npx defuddle parse - --md
+```
+
+Output (intro paragraph omitted):
+
+```md
+New stuff include:
+
+- for scrolling:
+- for master:
+	- b1
+
+end paragraph here.
+```
+
+Expected: `x1` and `x2` under "for scrolling:".
+
+If `<p>New stuff include:</p>` is removed, the same list comes out complete, so the preceding paragraph seems to be the trigger. Only the first nested list goes missing; the second (`b1`) survives.
+
+(Separate from #357. That one is about indentation. Here the content is lost.)
+
+==================== 382 Link tag and its text missing from The Verge's article (weird URL)
+Tested with this URL: https://www.theverge.com/tech/994333/lg-responds-to-tv-spying-allegations
+
+Expected output:
+```md
+LG [released a statement](https://www.anrdoezrs.net/links/8836598/type/dlg/sid/__vg0914awD__994333____n______________/https://www.lg.com/global/newsroom/news/statements/statement-understanding-privacy-on-lg-smart-tvs/) in which it claims that its “TVs do not continuously record or transmit users’ conversations,” and that wake-word detection is all processed locally. However, the word “continuously” is doing a lot of heavy lifting here as Gamers Nexus demonstrated an LG TV keeping extensive logs of ambient conversations long after one would assume its AI assistant had stopped listening.
+```
+
+Actual output:
+```md
+LG in which it claims that its “TVs do not continuously record or transmit users’ conversations,” and that wake-word detection is all processed locally. However, the word “continuously” is doing a lot of heavy lifting here as Gamers Nexus demonstrated an LG TV keeping extensive logs of ambient conversations long after one would assume its AI assistant had stopped listening.
+```
+
+Interestingly, Obsidian Web Clipper parses this correctly.
+==================== 257 Broken content capture on bioRxiv
+A test link to see that most content is missing in the reader mode/when capturing with Obsidian Web Clipper from bioRxiv: https://www.biorxiv.org/content/10.64898/2026.04.02.716166v1.full
+==================== 13 Capture more than the first <article> element in certain cases
+Issue was originally logged here https://github.com/obsidianmd/obsidian-clipper/issues/417#issuecomment-2751837300
+
+Version (please complete the following information):
+
+OS: [e.g. Windows] Windws
+Browser [e.g. Chrome, Firefox] Edge
+Web Clipper version: [e.g. 0.9.5]0.11.2
+Obsidian version: [e.g. 1.7.5] 1.8.9
+Describe the bug
+
+Clipping from this site only captures the first post https://community.grafana.com/t/change-grafana-ini-in-docker-install/27605
+
+Expected behavior
+
+Captures all posts loaded
+
+URLs where the bug occurs
+
+Any specific web pages where the bug can be replicated.
+https://community.grafana.com/t/change-grafana-ini-in-docker-install/27605
+
+To reproduce
+
+Steps to reproduce the behavior:
+
+Go to '...'
+Click on '....'
+Scroll down to '....'
+See error
+Your template file
+
+If you are using a custom template (i.e. not the Default template). Go to Web Clipper settings and click More → Copy as JSON. Paste the JSON code below.
+==================== 72 Does not clip images from Khan Academy articles
+Here's one of the articles I had trouble with. 
+
+https://www.khanacademy.org/science/ms-biology/x0c5bb03129646fd6:cells-and-organisms/x0c5bb03129646fd6:cells-organisms/a/cells-and-organisms
+
+The photo of the plant cells didn't show up in the web clipper. 
+==================== 30 Missing images on figure tag
+Lost images in the main text:
+
+example url:
+
+https://zhuanlan.zhihu.com/p/1891834264254932686
+https://zhuanlan.zhihu.com/p/647108274
+
+lost image html:
+```html
+<figure data-size="normal">
+   <div><img src="https://pica.zhimg.com/v2-00ed257f3d687d8784f2a22964adb9b8_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="1080" data-rawheight="1032" data-original-token="v2-00ed257f3d687d8784f2a22964adb9b8" class="origin_image zh-lightbox-thumb" width="1080" data-original="https://pica.zhimg.com/v2-00ed257f3d687d8784f2a22964adb9b8_r.jpg"></div>
+</figure>
+```
+
+full div code:
+
+```
+<div class="RichText ztext Post-RichText css-ob6uua" options="[object Object]">
+   <blockquote data-first-child="" data-pid="IvTqR581">金磊 发自 凹非寺<br>量子位 | 公众号 QbitAI</blockquote>
+   <p data-pid="Ecowpa2A">有点意思。</p>
+   <p data-pid="RM_nlOpr">
+      这不
+      <b>
+         <span>
+            <a class="RichContent-EntityWord css-b7erz1" data-za-not-track-link="true" data-paste-text="true" href="https://zhida.zhihu.com/search?content_id=256017430&amp;content_type=Article&amp;match_order=1&amp;q=DeepSeek&amp;zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NDQxNjMzNzAsInEiOiJEZWVwU2VlayIsInpoaWRhX3NvdXJjZSI6ImVudGl0eSIsImNvbnRlbnRfaWQiOjI1NjAxNzQzMCwiY29udGVudF90eXBlIjoiQXJ0aWNsZSIsIm1hdGNoX29yZGVyIjoxLCJ6ZF90b2tlbiI6bnVsbH0.jaWZTFN7_GD3DvPbBlWOsn_q4MHX6W815YfyuB256U0&amp;zhida_source=entity" target="_blank">
+               DeepSeek
+               <svg width="10px" height="10px" viewBox="0 0 16 16" class="ZDI ZDI--FourPointedStar16 css-1dvsrp" fill="currentColor">
+                  <path d="m5.068 9.267-3.08-.77a.512.512 0 0 1 0-.994l3.08-.77a2.289 2.289 0 0 0 1.665-1.665l.77-3.08a.512.512 0 0 1 .994 0l.77 3.08c.205.82.845 1.46 1.665 1.665l3.08.77a.512.512 0 0 1 0 .994l-3.08.77a2.29 2.29 0 0 0-1.665 1.665l-.77 3.08a.512.512 0 0 1-.994 0l-.77-3.08a2.289 2.289 0 0 0-1.665-1.665Z"></path>
+               </svg>
+            </a>
+         </span>
+      </b>
+      前脚刚刚上新了一篇关于推理时Scaling Law的论文嘛，引得大家纷纷联想<b>是不是R2马上要来了</b>。
+   </p>
+   <p data-pid="X0_AY36R">然鹅……奥特曼这边却发了一条“变卦”的消息：</p>
+   <blockquote data-pid="VTHa0acF">计划改变：我们可能在几周之后先发布o3和o4-mini。</blockquote>
+   <p class="ztext-empty-paragraph"><br></p>
+   <figure data-size="normal">
+      <div><img src="https://pica.zhimg.com/v2-00ed257f3d687d8784f2a22964adb9b8_1440w.jpg" data-caption="" data-size="normal" data-rawwidth="1080" data-rawheight="1032" data-original-token="v2-00ed257f3d687d8784f2a22964adb9b8" class="origin_image zh-lightbox-thumb" width="1080" data-original="https://pica.zhimg.com/v2-00ed257f3d687d8784f2a22964adb9b8_r.jpg"></div>
+   </figure>
+   <p class="ztext-empty-paragraph"><br></p>
+   <p data-pid="EQiUz6g7">
+      至于大家翘首以盼的
+      <b>
+         <span>
+            <a class="RichContent-EntityWord css-b7erz1" data-za-not-track-link="true" data-paste-text="true" href="https://zhida.zhihu.com/search?content_id=256017430&amp;content_type=Article&amp;match_order=1&amp;q=GPT-5&amp;zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3NDQxNjMzNzAsInEiOiJHUFQtNSIsInpoaWRhX3NvdXJjZSI6ImVudGl0eSIsImNvbnRlbnRfaWQiOjI1NjAxNzQzMCwiY29udGVudF90eXBlIjoiQXJ0aWNsZSIsIm1hdGNoX29yZGVyIjoxLCJ6ZF90b2tlbiI6bnVsbH0.gpxz4ZZ5d2E4QVPPHrVqxnmtHUqQpAKBBpQCRdGuZDU&amp;zhida_source=entity" target="_blank">
+               GPT-5
+               <svg width="10px" height="10px" viewBox="0 0 16 16" class="ZDI ZDI--FourPointedStar16 css-1dvsrp" fill="currentColor">
+                  
+==================== 288 Issue with bold on https://eblog.fly.dev/ginbad.html
+https://eblog.fly.dev/ginbad.html
+
+There is some weird space in the text.    I'm not sure this one can be fixed because the issue is `**H** ttp` (the space after bold).
+<img width="2215" height="597" alt="Image" src="https://github.com/user-attachments/assets/5fcf7b93-704b-4b09-ba00-671c62cebb93" />
+==================== 287 Inline citation link text lost when converting ScienceDirect articles (nested .anchor-text-container > .anchor-text pattern)
+**Describe the bug**
+When clipping articles from ScienceDirect (https://www.sciencedirect.com/), all inline citation references in the article body are rendered as empty brackets or empty parentheses in the output Markdown. The citation text (e.g. Abascal et al., 2022) is completely lost.
+
+**Root cause**
+ScienceDirect wraps all anchor link text in a two-level nested span structure:
+```
+<a class="anchor anchor-primary" href="#bib1">
+  <span class="anchor-text-container">
+    <span class="anchor-text">Abascal et al., 2022</span>
+  </span>
+</a>
+```
+The Web Clipper's HTML→Markdown converter appears to read only the direct child text nodes of `<a>` elements, and does not recursively extract text from nested` <span> `children. As a result, the link text is empty and the citation collapses to` () `or` [] `in the output.
+This pattern is used consistently and site-wide on ScienceDirect — not just for citations, but for all interactive anchor elements. Running the following in DevTools confirms 440 instances on a single article page:
+```
+document.querySelectorAll('.anchor.anchor-primary .anchor-text')
+// NodeList(440) [span.anchor-text, span.anchor-text, ...]
+```

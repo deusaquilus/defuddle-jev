@@ -1,0 +1,2551 @@
+{
+ "policy": "ex90_t",
+ "fixtures": null,
+ "bugs": null,
+ "history": {
+  "wrongful": 60,
+  "recovered": 31,
+  "controls": 537,
+  "controls_leaked": 6,
+  "restored": 91,
+  "restored_list": [
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|a979ef10cc6f|43077ab8",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "+",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.22,
+     "role": 0.02
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|42099b4af021|d82d8f74",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "/",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.17,
+     "role": 0.015
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|a979ef10cc6f|6d22eb27",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "+",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.22,
+     "role": 0.02
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|4c277e4de9aa|41d9a5a5",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 4,
+    "tag": "span",
+    "text": "5 out of 10",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.24,
+     "role": 0.245
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|42099b4af021|7246d343",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "/",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.17,
+     "role": 0.015
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|a979ef10cc6f|8036b867",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "+",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.22,
+     "role": 0.02
+    }
+   },
+   {
+    "commit": "ededffd",
+    "page": "issues--366-mixed-numbers",
+    "fp": "removeBySelector|span|a979ef10cc6f|c7b167e6",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "selector": "sr-only",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "+",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.22,
+     "role": 0.02
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|div|35b0723d6dbb|efe448ce",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "A Pattern Language Christopher Alexander The book outlined a number of solutions for architecture and urban planning design, but the theory has since (appropriately) taken on a life of its own.",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.375
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|c663095a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|2ac70aa7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|f24efd34",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|6260e147c63d|1d00436d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "span",
+    "text": "x=2a−b±b2−4ac",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 0.97
+    }
+   },
+   {
+    "commit": "a212ac4",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|2d2a242b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.83,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|c663095a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|2ac70aa7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|f24efd34",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|6260e147c63d|1d00436d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "span",
+    "text": "x=2a−b±b2−4ac",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 0.97
+    }
+   },
+   {
+    "commit": "cc3787b",
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|2d2a242b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.83,
+     "po": 0.31,
+     "role": 0.785
+    }
+   },
+   {
+    "commit": "78bdabc",
+    "page": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|div|a8511a4128ef|43e93db9",
+    "step": "removeBySelector",
+    "reason": "partial match: -menu",
+    "selector": "-menu",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "12 Grams of Carbon",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.9,
+     "po": 0.9,
+     "role": 0
+    }
+   },
+   {
+    "commit": "6de1634",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|table|38ae86aa4e0b|63387a4c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "table.infobox"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 38,
+    "tag": "table",
+    "text": "Obsidian Developer(s) Dynalist Inc. Initial release March 2020 (2020-03) Stable release 1.5.81 / January 15, 2024 Written in TypeScript, JavaScript Operating system Windows, macOS, Linux, Android, iOS, iPadOS Type Note-taking, personal knowledge management License Proprietary freemium Website obsidi",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.99
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|f519c1c4a760|55207ed0",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 52,
+    "tag": "p",
+    "text": "\"I had hoped that the director's affinity with these themes might push him to new creative heights, and enable him to conjure more believable characters. But the film features his usual combination of grandiosity and superficiality, and its vision is too confused to deliver what it half-promises,\" t",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 0.995
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|e67d16ef5de8|d0970f03",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 56,
+    "tag": "p",
+    "text": "She adds that the adaptation lacks many of the elements that make the poem great. It has nothing convincing to say about time, memory, history or war, or about the relationship between one warrior's glorious return and the lives of his family, adversaries, comrades and neighbors. The narrative struc",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 0.985
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|72fa926764e7|54c189a0",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 52,
+    "tag": "p",
+    "text": "The director praised the translation during his press tour, telling a film magazine that he used its opening line as a guide for bringing his protagonist to life on the big screen. But the translator concluded of the film that she would be ashamed to have written any part of the script.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|dd22e96d6052|6cafe17d",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "p",
+    "text": "Audiences don't appear to be sharing the translator's dissatisfaction. The movie received top marks in exit polling during its opening weekend and has turned into one of the year's biggest blockbusters at the box office, earning a reported ninety million dollars in its second weekend domestically.",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.94,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|e67d16ef5de8|05b6277d",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 56,
+    "tag": "p",
+    "text": "She adds that the adaptation lacks many of the elements that make the poem great. It has nothing convincing to say about time, memory, history or war, or about the relationship between one warrior's glorious return and the lives of his family, adversaries, comrades and neighbors. The narrative struc",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.96,
+     "role": 0.985
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|72fa926764e7|c7330daa",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 52,
+    "tag": "p",
+    "text": "The director praised the translation during his press tour, telling a film magazine that he used its opening line as a guide for bringing his protagonist to life on the big screen. But the translator concluded of the film that she would be ashamed to have written any part of the script.",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|dd22e96d6052|f34b2d9d",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "p",
+    "text": "Audiences don't appear to be sharing the translator's dissatisfaction. The movie received top marks in exit polling during its opening weekend and has turned into one of the year's biggest blockbusters at the box office, earning a reported ninety million dollars in its second weekend domestically.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.94,
+     "po": 0.95,
+     "role": 1
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|72fa926764e7|55afb947",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 52,
+    "tag": "p",
+    "text": "The director praised the translation during his press tour, telling a film magazine that he used its opening line as a guide for bringing his protagonist to life on the big screen. But the translator concluded of the film that she would be ashamed to have written any part of the script.",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|dd22e96d6052|0a0a42c7",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "p",
+    "text": "Audiences don't appear to be sharing the translator's dissatisfaction. The movie received top marks in exit polling during its opening weekend and has turned into one of the year's biggest blockbusters at the box office, earning a reported ninety million dollars in its second weekend domestically.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|dd22e96d6052|ee149f0f",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 46,
+    "tag": "p",
+    "text": "Audiences don't appear to be sharing the translator's dissatisfaction. The movie received top marks in exit polling during its opening weekend and has turned into one of the year's biggest blockbusters at the box office, earning a reported ninety million dollars in its second weekend domestically.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "related--inline-related-stories-block",
+    "fp": "removeByContentPattern|p|9ecbe017b98d|276eb558",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 8,
+    "tag": "p",
+    "text": "The film is now playing in theaters nationwide.",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.63
+    }
+   },
+   {
+    "commit": "48142ce",
+    "page": "selectors--logo-substring-wrapper",
+    "fp": "removeBySelector|div|324ae17916d4|58ef1dab",
+    "step": "removeBySelector",
+    "reason": "partial match: logo",
+    "selector": "logo",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 292,
+    "tag": "div",
+    "text": "The vote clears the way for construction to begin next spring on lines that will connect the eastern suburbs to the downtown core for the first time since the original system opened, when the eastern edge of the built-up area stopped several miles short of where it stands today. Officials estimate t",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.99,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|568b56d8cb15|421a0502",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 63,
+    "tag": "section",
+    "text": "Results The consolidated dataset shows a consistent seasonal pattern that had been suspected but never demonstrated across more than one site at a time. The effect is strongest in the spring and weakest in late autumn. Secondary analyses have identified a smaller regional variation layered on top of",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|b6973846b270|3e37774e",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 29,
+    "tag": "section",
+    "text": "Reception Reviews of the consolidated dataset have been broadly positive, though several commentators have noted that the sampling schedule was designed around institutional convenience rather than the underlying phenomenon.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|60f3ec03099b|0156a5df",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 31,
+    "tag": "section",
+    "text": "Legacy The protocol has since been adopted by adjacent fields, and the vocabulary it introduced is now standard in textbooks. Later work has largely extended rather than overturned the original findings.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|c489295be281|07f4da50",
+    "step": "removeByContentPattern",
+    "reason": "related post cards",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 89,
+    "tag": "section",
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely on a standard protocol agreed at a working conference. Samples are collected on a fixed schedule, catalogued at the point of collection, and cross-checked by a second team before an",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 1
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|b6973846b270|e78e79ca",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 29,
+    "tag": "section",
+    "text": "Reception Reviews of the consolidated dataset have been broadly positive, though several commentators have noted that the sampling schedule was designed around institutional convenience rather than the underlying phenomenon.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.94,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|60f3ec03099b|2bff1d62",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 31,
+    "tag": "section",
+    "text": "Legacy The protocol has since been adopted by adjacent fields, and the vocabulary it introduced is now standard in textbooks. Later work has largely extended rather than overturned the original findings.",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.85,
+     "po": 0.92,
+     "role": 1
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|c489295be281|2c79589f",
+    "step": "removeByContentPattern",
+    "reason": "related post cards",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 89,
+    "tag": "section",
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely on a standard protocol agreed at a working conference. Samples are collected on a fixed schedule, catalogued at the point of collection, and cross-checked by a second team before an",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.94,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|60f3ec03099b|c600cbb3",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 31,
+    "tag": "section",
+    "text": "Legacy The protocol has since been adopted by adjacent fields, and the vocabulary it introduced is now standard in textbooks. Later work has largely extended rather than overturned the original findings.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|c489295be281|82badc53",
+    "step": "removeByContentPattern",
+    "reason": "related post cards",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 89,
+    "tag": "section",
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely on a standard protocol agreed at a working conference. Samples are collected on a fixed schedule, catalogued at the point of collection, and cross-checked by a second team before an",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.94,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "a1e8a51",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "fp": "removeByContentPattern|section|c489295be281|399988a4",
+    "step": "removeByContentPattern",
+    "reason": "related post cards",
+    "selector": "",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 89,
+    "tag": "section",
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely on a standard protocol agreed at a working conference. Samples are collected on a fixed schedule, catalogued at the point of collection, and cross-checked by a second team before an",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.94,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "0bfaca1",
+    "page": "issues--pascalcase-section-id-partial-match",
+    "fp": "removeBySelector|section|65021efe923c|d0e4408d",
+    "step": "removeBySelector",
+    "reason": "partial match: hero[_\\-a-z]",
+    "selector": "hero[_\\-a-z]",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 66,
+    "tag": "section",
+    "text": "The role of things This section must survive extraction. Its lowercased identifier reads as theroleofthings, and that run of letters contains the fragment that the hero banner pattern looks for, sitting in the interior of the word rather than at any real boundary. Under the previous behaviour the wh",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 0.99
+    }
+   },
+   {
+    "commit": "0bfaca1",
+    "page": "issues--pascalcase-section-id-partial-match",
+    "fp": "removeBySelector|section|2a7e45f6c4e7|d0e4408d",
+    "step": "removeBySelector",
+    "reason": "partial match: feedback",
+    "selector": "feedback",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 64,
+    "tag": "section",
+    "text": "Loops and feedback This section must also survive extraction. Its lowercased identifier reads as loopsandfeedback, and that run of letters ends with the fragment that the feedback widget pattern looks for, even though the section is simply a paragraph of writing about control loops and has nothing t",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "commit": "de47bd8",
+    "page": "issues--284-table-cell-header-scoring",
+    "fp": "scoreAndRemove|div|6acf6b12dddb|4d675281",
+    "step": "scoreAndRemove",
+    "reason": "score: -10",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "Defined in header <cstdlib>",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.88,
+     "po": 0.91,
+     "role": 0.975
+    }
+   },
+   {
+    "commit": "3a95b35",
+    "page": "issues--263-buttons-in-paragraphs",
+    "fp": "removeBySelector|button|ba36b97a41e7|6ec82326",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "button"
+    ],
+    "fam": "ui",
+    "inline": true,
+    "words": 1,
+    "tag": "button",
+    "text": "special",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.59,
+     "role": 0.08
+    }
+   },
+   {
+    "commit": "3a95b35",
+    "page": "issues--263-buttons-in-paragraphs",
+    "fp": "removeBySelector|button|c93781f80d29|fa231bf4",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "button"
+    ],
+    "fam": "ui",
+    "inline": true,
+    "words": 1,
+    "tag": "button",
+    "text": "subsequence",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.7,
+     "role": 0.355
+    }
+   },
+   {
+    "commit": "3a95b35",
+    "page": "issues--263-buttons-in-paragraphs",
+    "fp": "removeBySelector|button|c93781f80d29|1310ed16",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "button"
+    ],
+    "fam": "ui",
+    "inline": true,
+    "words": 1,
+    "tag": "button",
+    "text": "subsequence",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.7,
+     "role": 0.355
+    }
+   },
+   {
+    "commit": "48e2029",
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|p|f01107f4b428|6e145bd3",
+    "step": "removeByContentPattern",
+    "reason": "thin CTA section",
+    "selector": "",
+    "exact": [],
+    "fam": "promo",
+    "inline": false,
+    "words": 16,
+    "tag": "p",
+    "text": "In particular, the framework has proven useful for modeling complex systems where traditional approaches are insufficient.4",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1
+    }
+   },
+   {
+    "commit": "956d3d7",
+    "page": "content-patterns--non-semantic-hero-header",
+    "fp": "removeBySelector|div|7a81ea7d0675|80f82a59",
+    "step": "removeBySelector",
+    "reason": "partial match: more-",
+    "selector": "more-",
+    "exact": [],
+    "fam": "related",
+    "inline": false,
+    "words": 3,
+    "tag": "div",
+    "text": "ABOUT THE AUTHOR",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.92,
+     "po": 0.92,
+     "role": 0.125
+    }
+   },
+   {
+    "commit": "956d3d7",
+    "page": "content-patterns--non-semantic-hero-header",
+    "fp": "removeByContentPattern|div|b15add6a12d4|95833d2f",
+    "step": "removeByContentPattern",
+    "reason": "trailing tag link block",
+    "selector": "",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "Company Unveils New Expansion",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.88,
+     "po": 0.9,
+     "role": 0.34
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|1355613facf4|b4869589",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Premium Apartment Market Overview Q1/2026",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|e64a1e2831f6|23399dca",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 6,
+    "tag": "div",
+    "text": "Premium Apartment Projects Currently For Sale",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.92,
+     "po": 0.93,
+     "role": 0.98
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|eeabbfce2fdc|79e8e815",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "Should you choose riverside or beachfront apartments?",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.93,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|1355613facf4|da267d66",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 5,
+    "tag": "div",
+    "text": "Premium Apartment Market Overview Q1/2026",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|e64a1e2831f6|6b685317",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 6,
+    "tag": "div",
+    "text": "Premium Apartment Projects Currently For Sale",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.92,
+     "po": 0.93,
+     "role": 0.975
+    }
+   },
+   {
+    "commit": "6186920",
+    "page": "elementor--archive-page",
+    "fp": "scoreAndRemove|div|eeabbfce2fdc|65c1169a",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 7,
+    "tag": "div",
+    "text": "Should you choose riverside or beachfront apartments?",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.92,
+     "po": 0.93,
+     "role": 1
+    }
+   },
+   {
+    "commit": "95a99c3",
+    "page": "thin-section-before-see-also",
+    "fp": "removeByContentPattern|p|fcb437bfa64e|3063705e",
+    "step": "removeByContentPattern",
+    "reason": "thin CTA section",
+    "selector": "",
+    "exact": [],
+    "fam": "promo",
+    "inline": false,
+    "words": 21,
+    "tag": "p",
+    "text": "Scholar Jane Doe has argued that, if implemented, the concept would represent a significant constraint on individual liberty and local governance.1",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1
+    }
+   },
+   {
+    "commit": "c3b0a59",
+    "page": "content-patterns--table-of-contents",
+    "fp": "removeByContentPattern|ul|d751e67bfeac|431afe26",
+    "step": "removeByContentPattern",
+    "reason": "blog metadata list",
+    "selector": "",
+    "exact": [],
+    "fam": "metalist",
+    "inline": false,
+    "words": 13,
+    "tag": "ul",
+    "text": "Set the font Set the keyboard Verify boot mode Connect to the internet",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.95,
+     "po": 0.95,
+     "role": 0.06
+    }
+   },
+   {
+    "commit": "c3b0a59",
+    "page": "content-patterns--table-of-contents",
+    "fp": "removeByContentPattern|ul|25dc3a1e02f0|872e2a66",
+    "step": "removeByContentPattern",
+    "reason": "blog metadata list",
+    "selector": "",
+    "exact": [],
+    "fam": "metalist",
+    "inline": false,
+    "words": 6,
+    "tag": "ul",
+    "text": "Define variables Wipe disk Partition disk",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.92,
+     "po": 0.9,
+     "role": 0.035
+    }
+   },
+   {
+    "commit": "cf886a0",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|div|35b0723d6dbb|efe448ce",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "A Pattern Language Christopher Alexander The book outlined a number of solutions for architecture and urban planning design, but the theory has since (appropriately) taken on a life of its own.",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.375
+    }
+   },
+   {
+    "commit": "12dfa32",
+    "page": "gated-content--cookie-consent",
+    "fp": "removeHiddenElements|div|85d1b20d8750|8d44d719",
+    "step": "removeHiddenElements",
+    "reason": "class:[&_.newsletter-fallback-image]:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 282,
+    "tag": "div",
+    "text": "The company on Thursday began removing advertisements from attorneys seeking clients that claim to have been harmed by their product. Why it matters: This comes just two weeks after the company was found negligent in a landmark case about product liability. Lawyers across the country are now seeking",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "0699bb0",
+    "page": "content-patterns--content-list-with-internal-links",
+    "fp": "removeByContentPattern|ul|8ef8968a7f16|8d8180ee",
+    "step": "removeByContentPattern",
+    "reason": "breadcrumb navigation list",
+    "selector": "",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 58,
+    "tag": "ul",
+    "text": "I wear monochromatic clothing without logos I use a specific date format everywhere I pluralize tag and folder names (e.g. groups not group) I use plain text files for all my writing I ask myself reflection questions every year I meal prep lunches every week, and exercise twice a week I write short ",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 0.875
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|03cc43e2cd3f|72d42934",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 29,
+    "tag": "aside",
+    "text": "By my count: 1) Alice and Bob. 2) Bob's backstory. 3) Charlie and the team. 4) Drama at headquarters. 5) Diana and the organization. 6) Eve and her scheming.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 0.95
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|38b985ff7f73|596ec854",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 16,
+    "tag": "aside",
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.97,
+     "po": 0.97,
+     "role": 1
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|e7f5b364db61|bdb72a2c",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 18,
+    "tag": "aside",
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.96,
+     "role": 0.965
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|38b985ff7f73|63506418",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 16,
+    "tag": "aside",
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.95,
+     "po": 0.95,
+     "role": 1
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|e7f5b364db61|6b1062a7",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 18,
+    "tag": "aside",
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.94,
+     "po": 0.96,
+     "role": 0.965
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|03cc43e2cd3f|f85ce4dd",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 29,
+    "tag": "aside",
+    "text": "By my count: 1) Alice and Bob. 2) Bob's backstory. 3) Charlie and the team. 4) Drama at headquarters. 5) Diana and the organization. 6) Eve and her scheming.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.95
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeHiddenElements|aside|e7f5b364db61|7452528b",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 18,
+    "tag": "aside",
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.95,
+     "po": 0.96,
+     "role": 0.965
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|03cc43e2cd3f|949baf23",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 29,
+    "tag": "aside",
+    "text": "By my count: 1) Alice and Bob. 2) Bob's backstory. 3) Charlie and the team. 4) Drama at headquarters. 5) Diana and the organization. 6) Eve and her scheming.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.93,
+     "po": 0.96,
+     "role": 0.95
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|38b985ff7f73|f7021e68",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 16,
+    "tag": "aside",
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.92,
+     "role": 1
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|03cc43e2cd3f|72d42934",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 29,
+    "tag": "aside",
+    "text": "By my count: 1) Alice and Bob. 2) Bob's backstory. 3) Charlie and the team. 4) Drama at headquarters. 5) Diana and the organization. 6) Eve and her scheming.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.93,
+     "po": 0.95,
+     "role": 0.95
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|38b985ff7f73|596ec854",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 16,
+    "tag": "aside",
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|e7f5b364db61|bdb72a2c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 18,
+    "tag": "aside",
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.91,
+     "po": 0.95,
+     "role": 0.965
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|38b985ff7f73|63506418",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 16,
+    "tag": "aside",
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.87,
+     "po": 0.92,
+     "role": 1
+    }
+   },
+   {
+    "commit": "0ee3118",
+    "page": "footnotes--hidden-aside-data-definition",
+    "fp": "removeBySelector|aside|e7f5b364db61|6b1062a7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 18,
+    "tag": "aside",
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.91,
+     "po": 0.95,
+     "role": 0.965
+    }
+   },
+   {
+    "commit": "5bb3f20",
+    "page": "content-patterns--heading-introduced-list",
+    "fp": "removeByContentPattern|ul|3950bedd49f1|28baf263",
+    "step": "removeByContentPattern",
+    "reason": "blog metadata list",
+    "selector": "",
+    "exact": [],
+    "fam": "metalist",
+    "inline": false,
+    "words": 14,
+    "tag": "ul",
+    "text": "Written in Lua Asynchronous execution Buffer locking Opt-in default configurations Conditional formatting Before/after hooks",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.94,
+     "po": 0.95,
+     "role": 0.875
+    }
+   },
+   {
+    "commit": "77462b4",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76
+    }
+   },
+   {
+    "commit": "bd57660",
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|b05a83d90694|b16a2b45",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 6,
+    "tag": "h2",
+    "text": "New Ion Thruster Breaks Efficiency Record",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.92,
+     "po": 0.94,
+     "role": 1
+    }
+   },
+   {
+    "commit": "bd57660",
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|3db5c0551587|0f6c456b",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 7,
+    "tag": "h2",
+    "text": "Mars Sample Return Mission Gets Green Light",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.91,
+     "po": 0.95,
+     "role": 1
+    }
+   },
+   {
+    "commit": "bd57660",
+    "page": "content-patterns--card-grid-stripped-headings",
+    "fp": "removeBySelector|h2|b21cd744541a|1b21f808",
+    "step": "removeBySelector",
+    "reason": "partial match: articletitle",
+    "selector": "articletitle",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 7,
+    "tag": "h2",
+    "text": "Commercial Space Station Module Passes Critical Review",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.88,
+     "po": 0.93,
+     "role": 1
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeBySelector|h2|658fcb944ada|bda6f288",
+    "step": "removeBySelector",
+    "reason": "partial match: -error",
+    "selector": "-error",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 5,
+    "tag": "h2",
+    "text": "Ignore the Error and Retry",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.93,
+     "po": 0.95,
+     "role": 0.995
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeByContentPattern|p|e36afa9883f5|5e13be65",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 13,
+    "tag": "p",
+    "text": "The patterns we described here have served us well across many different APIs.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.83,
+     "po": 0.95,
+     "role": 0.995
+    }
+   },
+   {
+    "commit": "29872c0",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "fp": "removeByContentPattern|p|e36afa9883f5|779e7bea",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "selector": "",
+    "exact": [],
+    "fam": "trailing",
+    "inline": false,
+    "words": 13,
+    "tag": "p",
+    "text": "The patterns we described here have served us well across many different APIs.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.83,
+     "po": 0.95,
+     "role": 0.995
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--obsidian-publish-cjk",
+    "fp": "scoreAndRemove|div|3e1274e4fe4b|6fb8ed5a",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "开发者",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.93,
+     "po": 0.95,
+     "role": 0.82
+    }
+   },
+   {
+    "commit": "b19bc0e",
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|table|38ae86aa4e0b|63387a4c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "table.infobox"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 38,
+    "tag": "table",
+    "text": "Obsidian Developer(s) Dynalist Inc. Initial release March 2020 (2020-03) Stable release 1.5.81 / January 15, 2024 Written in TypeScript, JavaScript Operating system Windows, macOS, Linux, Android, iOS, iPadOS Type Note-taking, personal knowledge management License Proprietary freemium Website obsidi",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.99
+    }
+   },
+   {
+    "commit": "d845aff",
+    "page": "footnotes--aside-ol-start",
+    "fp": "removeBySelector|aside|b94be9606efd|eb041661",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 13,
+    "tag": "aside",
+    "text": "There are other benefits too, but these are the ones you notice first.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.89,
+     "po": 0.95,
+     "role": 0.97
+    }
+   },
+   {
+    "commit": "d845aff",
+    "page": "footnotes--aside-ol-start",
+    "fp": "removeBySelector|aside|464e2528b67b|2dc92d1a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "aside:not([class*=\"callout\"])"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 14,
+    "tag": "aside",
+    "text": "Shrinking finds the smallest input that triggers the bug. See this post for details.",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.91
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--12gramsofcarbon.com-p-ilyas-30-papers-to-carmack-vlaes",
+    "fp": "removeBySelector|div|a8511a4128ef|43e93db9",
+    "step": "removeBySelector",
+    "reason": "partial match: -menu",
+    "selector": "-menu",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "12 Grams of Carbon",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.93,
+     "role": 0
+    }
+   },
+   {
+    "commit": "c5adda3",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76
+    }
+   }
+  ],
+  "wrong_list": [
+   {
+    "commit": "ededffd",
+    "subject": "Keep screen-reader text as content (#390)",
+    "page": "issues--366-mixed-numbers",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "10",
+    "recovered": true
+   },
+   {
+    "commit": "ededffd",
+    "subject": "Keep screen-reader text as content (#390)",
+    "page": "issues--366-mixed-numbers",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "sel": "sr-only",
+    "words": 4,
+    "text": "5 out of 10",
+    "recovered": true
+   },
+   {
+    "commit": "ededffd",
+    "subject": "Keep screen-reader text as content (#390)",
+    "page": "issues--366-screen-reader-links",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "sel": "sr-only",
+    "words": 3,
+    "text": "Share this article",
+    "recovered": false
+   },
+   {
+    "commit": "ededffd",
+    "subject": "Keep screen-reader text as content (#390)",
+    "page": "issues--366-screen-reader-links",
+    "step": "removeBySelector",
+    "reason": "partial match: sr-only",
+    "sel": "sr-only",
+    "words": 2,
+    "text": "Next article",
+    "recovered": false
+   },
+   {
+    "commit": "a212ac4",
+    "subject": "Fix metadata and content extraction consistency across DOMs",
+    "page": "math--katex-centraliser",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "g",
+    "recovered": false
+   },
+   {
+    "commit": "a212ac4",
+    "subject": "Fix metadata and content extraction consistency across DOMs",
+    "page": "math--katex-centraliser",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "G",
+    "recovered": false
+   },
+   {
+    "commit": "a212ac4",
+    "subject": "Fix metadata and content extraction consistency across DOMs",
+    "page": "math--katex-centraliser",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "a",
+    "recovered": false
+   },
+   {
+    "commit": "a212ac4",
+    "subject": "Fix metadata and content extraction consistency across DOMs",
+    "page": "math--katex-centraliser",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "b",
+    "recovered": false
+   },
+   {
+    "commit": "a212ac4",
+    "subject": "Fix metadata and content extraction consistency across DOMs",
+    "page": "math--katex-centraliser",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])",
+    "words": 1,
+    "text": "l",
+    "recovered": false
+   },
+   {
+    "commit": "cc3787b",
+    "subject": "Extract LaTeX from data-math attribute in math elements (#238)",
+    "page": "math--katex-data-math",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg)",
+    "words": 1,
+    "text": "x",
+    "recovered": false
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "related--inline-related-stories-block",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 52,
+    "text": "\"I had hoped that the director's affinity with these themes might push him to new creative heights, and enable him to co",
+    "recovered": true
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "related--inline-related-stories-block",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 56,
+    "text": "She adds that the adaptation lacks many of the elements that make the poem great. It has nothing convincing to say about",
+    "recovered": true
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "related--inline-related-stories-block",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 52,
+    "text": "The director praised the translation during his press tour, telling a film magazine that he used its opening line as a g",
+    "recovered": true
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "related--inline-related-stories-block",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 46,
+    "text": "Audiences don't appear to be sharing the translator's dissatisfaction. The movie received top marks in exit polling duri",
+    "recovered": true
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "related--inline-related-stories-block",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 8,
+    "text": "The film is now playing in theaters nationwide.",
+    "recovered": true
+   },
+   {
+    "commit": "48142ce",
+    "subject": "Fixes for variety.com",
+    "page": "selectors--logo-substring-wrapper",
+    "step": "removeBySelector",
+    "reason": "partial match: logo",
+    "sel": "logo",
+    "words": 292,
+    "text": "The vote clears the way for construction to begin next spring on lines that will connect the eastern suburbs to the down",
+    "recovered": true
+   },
+   {
+    "commit": "5e781e6",
+    "subject": "Gmail (#350)",
+    "page": "gmail--mail.google.com-mail-u-0-thread",
+    "step": "removeByContentPattern",
+    "reason": "article metadata header block",
+    "sel": "",
+    "words": 7,
+    "text": "Alex Rivera May 15, 2026, 11:30 AM",
+    "recovered": false
+   },
+   {
+    "commit": "5e781e6",
+    "subject": "Gmail (#350)",
+    "page": "gmail--mail.google.com-mail-u-0-thread",
+    "step": "removeByContentPattern",
+    "reason": "article metadata header block",
+    "sel": "",
+    "words": 7,
+    "text": "Jane Doe May 15, 2026, 12:00 PM",
+    "recovered": false
+   },
+   {
+    "commit": "a1e8a51",
+    "subject": "Don't treat mid-article image rows as related post cards",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 63,
+    "text": "Results The consolidated dataset shows a consistent seasonal pattern that had been suspected but never demonstrated acro",
+    "recovered": true
+   },
+   {
+    "commit": "a1e8a51",
+    "subject": "Don't treat mid-article image rows as related post cards",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 29,
+    "text": "Reception Reviews of the consolidated dataset have been broadly positive, though several commentators have noted that th",
+    "recovered": true
+   },
+   {
+    "commit": "a1e8a51",
+    "subject": "Don't treat mid-article image rows as related post cards",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 31,
+    "text": "Legacy The protocol has since been adopted by adjacent fields, and the vocabulary it introduced is now standard in textb",
+    "recovered": true
+   },
+   {
+    "commit": "a1e8a51",
+    "subject": "Don't treat mid-article image rows as related post cards",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "step": "removeByContentPattern",
+    "reason": "related post cards",
+    "sel": "",
+    "words": 89,
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely o",
+    "recovered": true
+   },
+   {
+    "commit": "a1e8a51",
+    "subject": "Don't treat mid-article image rows as related post cards",
+    "page": "content-patterns--multi-image-row-midarticle",
+    "step": "removeByContentPattern",
+    "reason": "boilerplate text",
+    "sel": "",
+    "words": 89,
+    "text": "Methods Early apparatus used in the first surveys A typical field site Instruments and sites Contemporary studies rely o",
+    "recovered": true
+   },
+   {
+    "commit": "0bfaca1",
+    "subject": "fix: don't strip sections with delimiter-less anchor ids",
+    "page": "issues--pascalcase-section-id-partial-match",
+    "step": "removeBySelector",
+    "reason": "partial match: hero[_\\-a-z]",
+    "sel": "hero[_\\-a-z]",
+    "words": 66,
+    "text": "The role of things This section must survive extraction. Its lowercased identifier reads as theroleofthings, and that ru",
+    "recovered": true
+   },
+   {
+    "commit": "0bfaca1",
+    "subject": "fix: don't strip sections with delimiter-less anchor ids",
+    "page": "issues--pascalcase-section-id-partial-match",
+    "step": "removeBySelector",
+    "reason": "partial match: feedback",
+    "sel": "feedback",
+    "words": 64,
+    "text": "Loops and feedback This section must also survive extraction. Its lowercased identifier reads as loopsandfeedback, and t",
+    "recovered": true
+   },
+   {
+    "commit": "3a95b35",
+    "subject": "Leetcode fixes",
+    "page": "issues--263-buttons-in-paragraphs",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "button",
+    "words": 1,
+    "text": "special",
+    "recovered": true
+   },
+   {
+    "commit": "3a95b35",
+    "subject": "Leetcode fixes",
+    "page": "issues--263-buttons-in-paragraphs",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "button",
+    "words": 1,
+    "text": "subsequence",
+    "recovered": true
+   },
+   {
+    "commit": "48e2029",
+    "subject": "Fix Wikipedia footnotes",
+    "page": "footnotes--wikipedia-references",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 46,
+    "text": "Author, A. (2005). \"Introduction to placeholder topics.\" Journal of Examples. 10(2): 100-110.↩ Author, B. (2010). \"Appli",
+    "recovered": false
+   },
+   {
+    "commit": "48e2029",
+    "subject": "Fix Wikipedia footnotes",
+    "page": "thin-section-before-see-also",
+    "step": "removeByContentPattern",
+    "reason": "trailing non-content",
+    "sel": "",
+    "words": 12,
+    "text": "Doe, Jane (2024). \"Governance and Constraint.\" Journal of Policy Studies. 15(3): 42-58.↩",
+    "recovered": false
+   },
+   {
+    "commit": "739ba78",
+    "subject": "Footnotes: sidenotes",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "label",
+    "words": 1,
+    "text": "1",
+    "recovered": false
+   },
+   {
+    "commit": "739ba78",
+    "subject": "Footnotes: sidenotes",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "label",
+    "words": 1,
+    "text": "2",
+    "recovered": false
+   },
+   {
+    "commit": "739ba78",
+    "subject": "Footnotes: sidenotes",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "label",
+    "words": 1,
+    "text": "3",
+    "recovered": false
+   },
+   {
+    "commit": "739ba78",
+    "subject": "Footnotes: sidenotes",
+    "page": "footnotes--orgmode-css-sidenotes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "footer",
+    "words": 31,
+    "text": "Sidenotes 1 This is the first footnote content. 2 This is the second footnote with more detail about the topic. 3 A read",
+    "recovered": false
+   },
+   {
+    "commit": "2385dad",
+    "subject": "Footnotes: more patterns",
+    "page": "footnotes--span-fnref-colon",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref):not(.footnote-backref)",
+    "words": 1,
+    "text": "1",
+    "recovered": false
+   },
+   {
+    "commit": "2385dad",
+    "subject": "Footnotes: more patterns",
+    "page": "footnotes--span-fnref-colon",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref):not(.footnote-backref)",
+    "words": 1,
+    "text": "2",
+    "recovered": false
+   },
+   {
+    "commit": "2385dad",
+    "subject": "Footnotes: more patterns",
+    "page": "footnotes--span-fnref-colon",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]:not(.ltx_ref):not(.footnote-backref)",
+    "words": 1,
+    "text": "3",
+    "recovered": false
+   },
+   {
+    "commit": "6186920",
+    "subject": "Fix #256",
+    "page": "elementor--archive-page",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "sel": "",
+    "words": 5,
+    "text": "Premium Apartment Market Overview Q1/2026",
+    "recovered": true
+   },
+   {
+    "commit": "6186920",
+    "subject": "Fix #256",
+    "page": "elementor--archive-page",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "sel": "",
+    "words": 6,
+    "text": "Premium Apartment Projects Currently For Sale",
+    "recovered": true
+   },
+   {
+    "commit": "6186920",
+    "subject": "Fix #256",
+    "page": "elementor--archive-page",
+    "step": "scoreAndRemove",
+    "reason": "score: -8",
+    "sel": "",
+    "words": 7,
+    "text": "Should you choose riverside or beachfront apartments?",
+    "recovered": true
+   },
+   {
+    "commit": "060a0a5",
+    "subject": "Wikipedia: Keep phonetic",
+    "page": "general--wikipedia-ipa-pronunciation",
+    "step": "removeBySelector",
+    "reason": "partial match: -comment",
+    "sel": "-comment",
+    "words": 1,
+    "text": "/ɪɡˈzæmpəl/",
+    "recovered": false
+   },
+   {
+    "commit": "95a99c3",
+    "subject": "Wikipedia: Fix removals",
+    "page": "thin-section-before-see-also",
+    "step": "removeByContentPattern",
+    "reason": "thin CTA section",
+    "sel": "",
+    "words": 21,
+    "text": "Scholar Jane Doe has argued that, if implemented, the concept would represent a significant constraint on individual lib",
+    "recovered": true
+   },
+   {
+    "commit": "12dfa32",
+    "subject": "Axios: fixes",
+    "page": "gated-content--cookie-consent",
+    "step": "removeBySelector",
+    "reason": "partial match: gated-",
+    "sel": "gated-",
+    "words": 262,
+    "text": "Why it matters: This comes just two weeks after the company was found negligent in a landmark case about product liabili",
+    "recovered": true
+   },
+   {
+    "commit": "0699bb0",
+    "subject": "Retain ULs, overly aggressive removal",
+    "page": "content-patterns--content-list-with-internal-links",
+    "step": "removeByContentPattern",
+    "reason": "breadcrumb navigation list",
+    "sel": "",
+    "words": 58,
+    "text": "I wear monochromatic clothing without logos I use a specific date format everywhere I pluralize tag and folder names (e.",
+    "recovered": true
+   },
+   {
+    "commit": "0ee3118",
+    "subject": "Footnotes: WordPress fixes #237",
+    "page": "footnotes--hidden-aside-data-definition",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "sel": "",
+    "words": 29,
+    "text": "By my count: 1) Alice and Bob. 2) Bob's backstory. 3) Charlie and the team. 4) Drama at headquarters. 5) Diana and the o",
+    "recovered": true
+   },
+   {
+    "commit": "0ee3118",
+    "subject": "Footnotes: WordPress fixes #237",
+    "page": "footnotes--hidden-aside-data-definition",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "sel": "",
+    "words": 16,
+    "text": "It took me a while to understand that by \"the district,\" they meant the Leader's chapter.",
+    "recovered": true
+   },
+   {
+    "commit": "0ee3118",
+    "subject": "Footnotes: WordPress fixes #237",
+    "page": "footnotes--hidden-aside-data-definition",
+    "step": "removeHiddenElements",
+    "reason": "display:none",
+    "sel": "",
+    "words": 18,
+    "text": "I'm glad to see the old guard back, but I'm skeptical they've been camped out this whole time.",
+    "recovered": false
+   },
+   {
+    "commit": "f91790f",
+    "subject": "Substack: More removal patterns for Likes",
+    "page": "content-patterns--trailing-subscribe-after-footnotes",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "sel": "",
+    "words": 20,
+    "text": "This is the first footnote with additional context about the preceding claim.↩ This is the second footnote referencing e",
+    "recovered": false
+   },
+   {
+    "commit": "5bb3f20",
+    "subject": "Fix #229",
+    "page": "content-patterns--heading-introduced-list",
+    "step": "removeByContentPattern",
+    "reason": "blog metadata list",
+    "sel": "",
+    "words": 14,
+    "text": "Written in Lua Asynchronous execution Buffer locking Opt-in default configurations Conditional formatting Before/after h",
+    "recovered": true
+   },
+   {
+    "commit": "77462b4",
+    "subject": "Fixes for WordPress footnotes and #228",
+    "page": "general--lesswrong.com-s-N7nDePaNabJdnbXeE-p-vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/tag/\"]",
+    "words": 3,
+    "text": "in subsequent usage",
+    "recovered": true
+   },
+   {
+    "commit": "29872c0",
+    "subject": "Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "step": "removeBySelector",
+    "reason": "partial match: -error",
+    "sel": "-error",
+    "words": 5,
+    "text": "Ignore the Error and Retry",
+    "recovered": true
+   },
+   {
+    "commit": "29872c0",
+    "subject": "Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "sel": "",
+    "words": 12,
+    "text": "We hope these lessons save you time on your own integration projects.",
+    "recovered": false
+   },
+   {
+    "commit": "29872c0",
+    "subject": "Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "sel": "",
+    "words": 13,
+    "text": "The patterns we described here have served us well across many different APIs.",
+    "recovered": true
+   },
+   {
+    "commit": "29872c0",
+    "subject": "Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "sel": "",
+    "words": 9,
+    "text": "Building reliable API integrations requires patience and careful observation.",
+    "recovered": false
+   },
+   {
+    "commit": "29872c0",
+    "subject": "Fix overly aggressive removals https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+    "page": "content-patterns--code-block-boilerplate-and-trailing-section",
+    "step": "removeByContentPattern",
+    "reason": "trailing thin section",
+    "sel": "",
+    "words": 1,
+    "text": "Conclusion",
+    "recovered": false
+   },
+   {
+    "commit": "ef4933c",
+    "subject": "More removals",
+    "page": "issues--header-wraps-content",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "header",
+    "words": 262,
+    "text": "We Rewrote Example Tool with AI Jane Smith March 25, 2026 A few weeks ago, a major cloud provider published a post about",
+    "recovered": false
+   },
+   {
+    "commit": "d845aff",
+    "subject": "Footnotes: Alternate aside style",
+    "page": "footnotes--aside-ol-start",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "aside:not([class*=\"callout\"])",
+    "words": 13,
+    "text": "There are other benefits too, but these are the ones you notice first.",
+    "recovered": true
+   },
+   {
+    "commit": "d845aff",
+    "subject": "Footnotes: Alternate aside style",
+    "page": "footnotes--aside-ol-start",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "aside:not([class*=\"callout\"])",
+    "words": 14,
+    "text": "Shrinking finds the smallest input that triggers the bug. See this post for details.",
+    "recovered": true
+   },
+   {
+    "commit": "b1983b2",
+    "subject": "Callout standardization (#185)",
+    "page": "elements--bootstrap-alerts",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": ".alert",
+    "words": 3,
+    "text": "Operation completed successfully.",
+    "recovered": false
+   },
+   {
+    "commit": "d3673b5",
+    "subject": "Fix #167 Added `el.closest('code, pre')` to the skip guard so child elements inside code blocks (like `<span id=\"f-next-next\">`) are not removed by partial selector matching.",
+    "page": "issues--167-partial-selector-inside-code",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "sel": "next-",
+    "words": 1,
+    "text": "h1",
+    "recovered": false
+   },
+   {
+    "commit": "d3673b5",
+    "subject": "Fix #167 Added `el.closest('code, pre')` to the skip guard so child elements inside code blocks (like `<span id=\"f-next-next\">`) are not removed by partial selector matching.",
+    "page": "issues--167-partial-selector-inside-code",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "sel": "next-",
+    "words": 1,
+    "text": "h2",
+    "recovered": false
+   }
+  ]
+ },
+ "seconds": 115
+}

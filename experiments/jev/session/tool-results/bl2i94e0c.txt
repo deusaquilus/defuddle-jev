@@ -1,0 +1,437 @@
+     1	# JEV_AGENT_BRIEF.md
+     2	
+     3	Operational brief for an AI agent that needs to understand and use Jev, TypeSafe AI's "System One" decision model. Facts current as of **October 27, 2026**. Every section links its source. Where a number is a vendor claim rather than an independent measurement, it is marked.
+     4	
+     5	---
+     6	
+     7	## 0. TL;DR (read this even if you read nothing else)
+     8	
+     9	- **What it is.** A hosted, closed-weights model that reads text (and, in preview, images) plus a set of *typed questions*, and returns **probabilities over options you define**. It never generates text, code, or explanations. [TypeSafe launch post](https://typesafe.ai/blog/introducing-system-one-models-and-jev) · [Docs](https://docs.typesafe.ai/)
+    10	- **Four question types.** `noul` (yes/no probability), `choice` (pick one of 1-255 options), `score` (ordered rubric, 1-10 levels), `box` (bounding box in an image; Jev 1.14 only). [API reference](https://docs.typesafe.ai/api/system-one.md)
+    11	- **One endpoint.** `POST https://api.typesafe.ai/v1/systemone`. All questions in a request are answered in parallel against the same `state` in one pass, so batching questions is nearly free.
+    12	- **Price and speed.** $0.042 per million input tokens, output free. Typical p50 latency 100-500 ms direct (175 ms measured on a 77-class task; 500-800 ms through gateways). [OpenRouter Banking77 test](https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification/)
+    13	- **Accuracy.** 3-6 points below frontier LLMs on text-readable classification; collapses on arithmetic, dates, counting, multi-step reasoning, and anything not literally present in the state. [Jaggedness page](https://docs.typesafe.ai/model-jaggedness/jev-1.13.md)
+    14	- **Rule of thumb.** Use Jev where you would otherwise call an LLM and immediately parse a label, a yes/no, or a 1-5 rating out of its text. Keep thresholds, arithmetic, control flow, and side effects in your own code. Treat the `state` as untrusted input.
+    15	- **Interchangeable.** The `noul/choice/score` request shape is now an industry standard; open-weight models (Clef, pplx-decider, Kev, H2O-Lightning, Super Decider) and local servers (Ollaya, vllm-jev) speak the same `/v1/systemone` wire, so code written against Jev is portable by changing the base URL. [Decision models overview](https://www.eesel.ai/blog/decision-models)
+    16	
+    17	---
+    18	
+    19	## 1. When to call Jev (and when not to)
+    20	
+    21	**Call Jev when all of these are true:**
+    22	
+    23	1. The answer is one of a finite set you can enumerate before the call (a label, a route, a yes/no, a severity level).
+    24	2. The evidence for the answer is *literally present* in the text you send. Jev evaluates; it does not simulate, predict, or compute.
+    25	3. You will act on a probability in code (threshold, cascade, ranking), not display prose to a human.
+    26	4. Volume, latency, or cost matter (thousands of decisions, sub-second loops, per-step agent control).
+    27	
+    28	**Do not call Jev for:**
+    29	
+    30	- Anything that needs generated text, code, summaries, or explanations. It returns numbers only.
+    31	- Counting, arithmetic, date math, comparing numbers, hex/RGB/binary values. Compute these in code and put the *result* in the state. [Jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13.md)
+    32	- Multi-hop reasoning, double negatives, "what would happen if", planning. Measured: chess wins 2 of 44 games; multi-symptom medical diagnosis 22 points below LLMs; game-theory tasks at chance. [typesafe-chess FINDINGS](https://github.com/Dimesio/typesafe-chess/blob/main/FINDINGS.md) · [Yang et al.](https://arxiv.org/html/2610.01834v2)
+    33	- Being the *sole* security gate against adversarial input. Prompt injection in the state flips 93-100% of routing decisions on the official API. [Wang et al.](https://arxiv.org/html/2610.04985) · [HiddenLayer](https://www.hiddenlayer.com/research/system-one-model-security)
+    34	- Anything a regex, a SQL predicate, or a deterministic rule can decide exactly. TypeSafe's own guidance.
+    35	
+    36	**The typical division of labor in working systems:** LLM generates candidates or text, code computes facts, Jev judges, code decides. [Patterns docs](https://docs.typesafe.ai/patterns/fan-out)
+    37	
+    38	---
+    39	
+    40	## 2. The API contract
+    41	
+    42	### Endpoint and auth
+    43	
+    44	```
+    45	POST https://api.typesafe.ai/v1/systemone
+    46	Authorization: Bearer $TYPESAFE_API_KEY
+    47	Content-Type: application/json          # or multipart/form-data for image uploads
+    48	```
+    49	
+    50	Optional opt-in headers ("danger zone" features, preview quality):
+    51	
+    52	```
+    53	TypeSafe-Danger-Zone-Images: true         # required for any image asset or box question
+    54	TypeSafe-Danger-Zone-Long-Context: true   # raises limits to 262k tokens; slower and less accurate, same price
+    55	```
+    56	
+    57	`GET /v1/models` lists models. OpenAPI spec: `https://api.typesafe.ai/openapi.json`. Keys from [console.typesafe.ai](https://console.typesafe.ai/). Note: direct signups were paused Sept 22 due to demand; gateways (Section 4) need no TypeSafe key. [API reference](https://docs.typesafe.ai/api/system-one.md) · [Models page](https://docs.typesafe.ai/models.md)
+    58	
+    59	### Request body
+    60	
+    61	```json
+    62	{
+    63	  "model": "jev-latest",
+    64	  "state": "<string, object, or array: the thing to be judged>",
+    65	  "questions": {
+    66	    "<your_key>": { "type": "noul|choice|score|box", "instructions": "...", "criteria": ... }
+    67	  },
+    68	  "assets": { "<placeholder>": "<image asset>" }
+    69	}
+    70	```
+    71	
+    72	- `model`: `jev-latest` (currently 1.14.0), `jev-preview`, or pinned `jev-1.13.0` / `jev-1.14.0`. **Pin a version in anything that must be reproducible**; `jev-latest` changes and outputs drift between releases.
+    73	- `state`: text or JSON. Keep it small and relevant; accuracy drops as irrelevant content grows.
+    74	- `questions`: a map; every key comes back under the same key. No documented maximum; 13-64 questions per call is common practice.
+    75	- `instructions`: string, object, array, or null. Image placeholders from `assets` can appear in `state`, `instructions`, or `criteria`.
+    76	
+    77	### Response envelope
+    78	
+    79	```json
+    80	{
+    81	  "model": "jev-1.14.0",
+    82	  "answers": { "<your_key>": { ... } },
+    83	  "usage": { "input_tokens": 120, "output_tokens": 12 }
+    84	}
+    85	```
+    86	
+    87	Output tokens are "currently free of charge." Some gateways add `usage.cost`.
+    88	
+    89	### The four primitives, exact shapes
+    90	
+    91	**noul** (Bernoulli; P(true) in [0,1]; no confidence or probabilities field):
+    92	
+    93	```json
+    94	// request
+    95	{"type": "noul", "instructions": "Is this message about billing?",
+    96	 "criteria": {"true": "optional description", "false": "optional description"}}
+    97	// response
+    98	{"type": "noul", "noul": 0.98}
+    99	```
+   100	
+   101	**choice** (1-255 named options; `criteria` required; names matter more than definitions, see Section 6):
+   102	
+   103	```json
+   104	// request
+   105	{"type": "choice", "instructions": "What is the tone of this message?",
+   106	 "criteria": {"angry": "An upset or hostile message",
+   107	              "calm": "A neutral or polite message",
+   108	              "excited": "An enthusiastic or eager message",
+   109	              "other": "None of the above or not enough information"}}
+   110	// response
+   111	{"type": "choice", "choice": "calm", "confidence": 0.7,
+   112	 "probabilities": {"angry": 0.15, "calm": 0.8, "excited": 0.05, "other": 0.0}}
+   113	```
+   114	
+   115	**score** (ordered rubric; `criteria` is an **array**, position = level starting at 0; API allows 1-10 levels, use 2-10):
+   116	
+   117	```json
+   118	// request
+   119	{"type": "score", "instructions": "How urgent is this message?",
+   120	 "criteria": ["Can wait", "Needs attention this week", "Needs attention today"]}
+   121	// response
+   122	{"type": "score", "score": 1.7, "confidence": 0.55,
+   123	 "legend": {"0": "Can wait", "1": "Needs attention this week", "2": "Needs attention today"},
+   124	 "probabilities": {"0": 0.1, "1": 0.1, "2": 0.8}}
+   125	```
+   126	
+   127	`score` is the probability-weighted mean of levels and can be fractional. Threshold on it; do not read it as a magnitude.
+   128	
+   129	**box** (Jev 1.14 only; requires the images header; no `criteria`; always returns a box even if the object is absent, so pair it with a `noul` presence check):
+   130	
+   131	```json
+   132	// request
+   133	{"type": "box", "instructions": "Locate the red rectangle."}
+   134	// response
+   135	{"type": "box", "box": {"top": 0.2, "bottom": 0.66, "left": 0.19, "right": 0.68}, "confidence": null}
+   136	```
+   137	
+   138	Coordinates are 0-1 fractions from the top-left. [Box page](https://docs.typesafe.ai/primitives/box.md) · [Images page](https://docs.typesafe.ai/images.md)
+   139	
+   140	### Limits and errors
+   141	
+   142	| Item | Value | Source |
+   143	|---|---|---|
+   144	| Context | **32k tokens per question** (state + that question), **64k per request**; 262k with the long-context header | [Models page](https://docs.typesafe.ai/models.md) |
+   145	| Body | ≤ 32 MiB; UTF-8 JSON, no BOM; ≤ 64 nesting levels; finite numbers only; gzip or zstd (one layer) | [Request rules](https://docs.typesafe.ai/api/errors.md) |
+   146	| Images | PNG/JPEG only; ≤ 16 MiB each; each side 280-1568 px; out-of-range images are rejected, not resized, and one bad image fails the request; billed as input tokens; "not production-ready" | [Images page](https://docs.typesafe.ai/images.md) |
+   147	| Rate limits | Per organization, shown in console; community cites 250,000 tokens/s and 1,200 requests/min | [awesome-jev-use-cases](https://github.com/walidboulanouar/awesome-jev-use-cases) |
+   148	| Status codes | 400 (incl. `max_tokens_exceeded`), 401, 413, 415, 422 (names the bad field), 429, 529 Overloaded. Official SDKs retry 429/529 with backoff | [Request rules](https://docs.typesafe.ai/api/errors.md) |
+   149	| Price | $0.042 / 1M input tokens, output free, same for 1.13 and 1.14. A 3-question, 447-token ticket ≈ $0.000019 | [OpenRouter "What Is Jev?"](https://openrouter.ai/blog/insights/what-is-jev/) |
+   150	| Determinism | None. Probabilities move ~0.04 on repeat; the chosen option changes in ~12% of repeats | [Yang et al.](https://arxiv.org/html/2610.01834v2) |
+   151	| Data policy | No training on user data; ZDR for enterprise via sales; US-hosted; an Oct 24 incident exposed customers' noul outputs | [Legal](https://docs.typesafe.ai/legal.md) · [Startup Fortune](https://startupfortune.com/typesafe-ai-admits-a-leak-exposed-every-customers-jev-model-output/) |
+   152	
+   153	### Versions
+   154	
+   155	| | jev-1.13.0 | jev-1.14.0 |
+   156	|---|---|---|
+   157	| Released | Sept 15, 2026 | Oct 14, 2026; `jev-latest` points here as of Oct 27 |
+   158	| Box | 400 error | Supported |
+   159	| Images | Behind header | Behind header |
+   160	| Quality | Baseline; most independent measurements | "Small, subtle improvements," best gain multilingual [vendor]; mixed on independent boards |
+   161	| Deprecation notice | 60 days promised | 30 days promised |
+   162	
+   163	[Jev 1.14 post](https://typesafe.ai/blog/jev-1-14) · [Models page](https://docs.typesafe.ai/models.md)
+   164	
+   165	---
+   166	
+   167	## 3. Reading the output: probabilities, confidence, thresholds
+   168	
+   169	**`confidence` is a deterministic transform of the probability distribution, not a learned estimate of correctness.** [Confidence page](https://docs.typesafe.ai/confidence.md)
+   170	
+   171	- Choice: `confidence = (p_max - 1/n) / (1 - 1/n)` where n = number of options. Only the top probability counts.
+   172	- Score: 1 minus the probability-weighted mean distance from the most likely level, normalized by an even spread, floored at 0.
+   173	- Noul: no confidence field. Docs suggest `|2p - 1|` for uniform gating; starting thresholds 0.7 for "yes" and 0.3 for "no".
+   174	
+   175	**Rules that follow from measured behavior:**
+   176	
+   177	1. **Tune thresholds on your own labeled data.** The 0.5 default is wrong per task: median F1-optimal Noul threshold was 0.35 across 31 benchmarks; tuning on just 10 labeled items lifted F1 from 0.71 to 0.79. [Guo et al.](https://arxiv.org/html/2609.29429v1) · [Deußer et al.](https://arxiv.org/abs/2609.37647)
+   178	2. **Do not carry a threshold from a Noul to a Choice (or between frameworks).** A Noul and a yes/no Choice about the same thing return different numbers. Pydantic AI's "confidence" is a margin from the threshold; TanStack omits it on booleans. [awesome-jev-use-cases](https://github.com/walidboulanouar/awesome-jev-use-cases) · [Pydantic AI](https://pydantic.dev/docs/ai/models/decision/)
+   179	3. **High confidence is reliable; mid-range is not.** On Banking77, confidence ≥ 0.99 covered 58% of inputs at 96.3% accuracy; < 0.50 was 29.6% accurate. In 15,346 production coding-agent judgments, the model was wrong 15% of the time below 0.8 and under 1% above. [OpenRouter](https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification/) · [pi-warden](https://github.com/DevMortimer/pi-warden)
+   180	4. **Calibration is good pooled, bad per task.** Pooled ECE 0.047 but median per-benchmark ECE 0.168; per-dataset ECE ranges 0.003 (sentiment, MMLU) to 0.28 (emotion, legal clauses). Audit calibration on *your* distribution. [Guo et al.](https://arxiv.org/html/2609.29429v1)
+   181	5. **Choice hides an "I don't know" mass.** Noul is the best-calibrated primitive (soft accuracy 0.918), Score next (0.886), Choice worst (0.764). Always add an escape option to every Choice. [Porcedda, Sys1Cal-v1](https://arxiv.org/html/2609.35342)
+   182	6. **Per-option probabilities are not coherent.** P(X) + P(not X) misses 1 by ~0.06; three exclusive labels can sum to 1.14. Renormalize in code if you decompose. [Li, He, Li](https://arxiv.org/abs/2609.33209)
+   183	7. **Use three bands.** Act automatically / proceed cautiously / route to a human or an LLM. TypeSafe's worked examples use ≥ 0.9 for high-stakes auto-actions and a 0.5 floor for human routing. [System One concept page](https://docs.typesafe.ai/concepts/system-one.md)
+   184	
+   185	---
+   186	
+   187	## 4. Getting started: code
+   188	
+   189	Official SDKs exist only for Python and JavaScript; everything else calls HTTP. [SDK docs](https://docs.typesafe.ai/sdk) · [Quickstart](https://docs.typesafe.ai/introduction/quickstart.md)
+   190	
+   191	### curl
+   192	
+   193	```bash
+   194	curl -sS https://api.typesafe.ai/v1/systemone \
+   195	  -H "Authorization: Bearer $TYPESAFE_API_KEY" \
+   196	  -H "Content-Type: application/json" \
+   197	  -d '{
+   198	    "model": "jev-1.14.0",
+   199	    "state": "Customer: My invoice was charged twice this month and support has not replied in 3 days.",
+   200	    "questions": {
+   201	      "department": {"type": "choice", "instructions": "Which team should own this ticket?",
+   202	        "criteria": {"billing": "Charges, refunds, invoices", "technical": "Bugs, outages, integrations",
+   203	                     "sales": "Pricing, upgrades, new purchases", "other": "Does not fit the above"}},
+   204	      "is_urgent": {"type": "noul", "instructions": "Does this ticket need a reply today?"},
+   205	      "frustration": {"type": "score", "instructions": "How frustrated is the customer?",
+   206	        "criteria": ["Calm", "Annoyed but civil", "Angry or threatening to leave"]}
+   207	    }
+   208	  }'
+   209	```
+   210	
+   211	### Python (`pip install typesafe-sdk`, Python 3.10+)
+   212	
+   213	```python
+   214	from typesafe_sdk import Choice, Noul, Score, TypeSafeClient  # reads TYPESAFE_API_KEY
+   215	
+   216	with TypeSafeClient(model="jev-1.14.0") as client:
+   217	    response = client.system_one(
+   218	        state=ticket_text,
+   219	        questions={
+   220	            "department": Choice(
+   221	                instructions="Which team should own this ticket?",
+   222	                criteria={"billing": "Charges, refunds, invoices",
+   223	                          "technical": "Bugs, outages, integrations",
+   224	                          "sales": "Pricing, upgrades, new purchases",
+   225	                          "other": "Does not fit the above"},
+   226	            ),
+   227	            "is_urgent": Noul(instructions="Does this ticket need a reply today?"),
+   228	            "frustration": Score(
+   229	                instructions="How frustrated is the customer?",
+   230	                criteria=["Calm", "Annoyed but civil", "Angry or threatening to leave"],
+   231	            ),
+   232	        },
+   233	    )
+   234	
+   235	dept = response.choices["department"]          # .choice, .confidence, .probabilities
+   236	urgent = response.nouls["is_urgent"].noul       # float P(true)
+   237	frustration = response.scores["frustration"]    # .score, .probabilities, .legend
+   238	
+   239	# Code owns the policy:
+   240	if dept.choice == "billing" and dept.confidence >= 0.9 and urgent >= 0.7:
+   241	    route("billing-priority")
+   242	elif dept.confidence < 0.6 or dept.choice == "other":
+   243	    escalate_to_llm_or_human(ticket_text, response)
+   244	```
+   245	
+   246	Accessor names follow the official quickstart (`response.choices[...]`, `.nouls[...]`, `.scores[...]`); check [the quickstart](https://docs.typesafe.ai/introduction/quickstart.md) for your SDK version. SDK ≥ 0.7.0 is pydantic-based and `system_one(..., response_model=YourModel)` parses answers into your own model; ≥ 0.7.5 adds `Image`, `Box`, `attach_assets`, zstd by default. [Python SDK changelog](https://docs.typesafe.ai/sdk/python/changelog.md)
+   247	
+   248	### TypeScript (`npm install @typesafe-ai/sdk`, Node 20+)
+   249	
+   250	```ts
+   251	import { choice, noul, score, TypeSafeClient } from "@typesafe-ai/sdk";
+   252	
+   253	const client = new TypeSafeClient({ defaultModel: "jev-1.14.0" }); // reads TYPESAFE_API_KEY
+   254	
+   255	const response = await client.systemOne({
+   256	  state: ticketText,
+   257	  questions: {
+   258	    department: choice({
+   259	      instructions: "Which team should own this ticket?",
+   260	      criteria: { billing: "Charges, refunds, invoices", technical: "Bugs, outages, integrations",
+   261	                  sales: "Pricing, upgrades, new purchases", other: "Does not fit the above" },
+   262	    }),
+   263	    is_urgent: noul({ instructions: "Does this ticket need a reply today?" }),
+   264	    frustration: score({
+   265	      instructions: "How frustrated is the customer?",
+   266	      criteria: ["Calm", "Annoyed but civil", "Angry or threatening to leave"],
+   267	    }),
+   268	  },
+   269	});
+   270	
+   271	const dept = response.answers.department;      // .choice, .confidence, .probabilities
+   272	const urgent = response.answers.is_urgent.noul; // number
+   273	```
+   274	
+   275	JS SDK surface also includes `BoxQuestion`, `Image`, `withAssets`, `RetryPolicy`. [typesafe-sdk-js](https://github.com/typesafe-ai/typesafe-sdk-js)
+   276	
+   277	### Vercel AI SDK (no TypeSafe key needed via AI Gateway)
+   278	
+   279	```ts
+   280	import { experimental_decide as decide } from "ai";          // ai >= 7.0.128
+   281	import { typeSafeAi } from "@ai-sdk/typesafe-ai";
+   282	
+   283	const { answers, providerMetadata } = await decide({
+   284	  model: typeSafeAi.decisionModel("jev-latest"),   // or the gateway id "typesafe-ai/jev"
+   285	  state: ticketText,
+   286	  questions: {
+   287	    refunded: { type: "boolean", instructions: "Was a refund issued?" },      // boolean => noul
+   288	    team:     { type: "choice",  instructions: "Owning team?", options: { billing: "...", technical: "..." } },
+   289	    urgency:  { type: "score",   instructions: "Urgency?", levels: ["low", "medium", "high"] },
+   290	  },
+   291	});
+   292	// answers.refunded.probability (P(true)), answers.team.choice, answers.urgency.score
+   293	// providerMetadata.typesafe.confidence[questionId] for choice and score only
+   294	```
+   295	
+   296	Mapping: `boolean` → noul, `choice` → choice, `score` → score, `box` → box. `experimental_evaluate` was the pre-Sept-21 name. Gateway supports per-request zero-data-retention and no-training flags and "decision fallbacks." [ai-sdk.dev TypeSafe provider](https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai) · [Vercel Decision docs](https://vercel.com/docs/ai-gateway/modalities/decision)
+   297	
+   298	### Other routes
+   299	
+   300	| Route | How | Notes |
+   301	|---|---|---|
+   302	| **OpenRouter** | `POST https://openrouter.ai/api/alpha/decisions`, model `typesafe/jev-1.14` or `~typesafe/jev-latest` | Not the chat-completions endpoint; auto-enables long context over ~32k bytes; 21 decision models from 13 makers behind one API. [OpenRouter model page](https://openrouter.ai/typesafe/jev-1.14) |
+   303	| **Cloudflare Workers AI** | `env.AI.run('typesafe/jev', { state, questions })` | $0.042 in / $0 out; ZDR yes; shows 32k context (per-question). [Model page](https://developers.cloudflare.com/ai/models/typesafe/jev/) |
+   304	| **Netlify AI Gateway** | `@typesafe-ai/sdk` from Netlify Functions, no key | `jev-latest`, `jev-1.14.0`. [Netlify changelog](https://www.netlify.com/changelog/typesafe-jev-ai-gateway/) |
+   305	| **LiteLLM** | `litellm.systemone(model="typesafe/jev-latest", state=..., questions=...)` or proxy `POST /v1/systemone` and `POST /v1/decisions` | Translates between TypeSafe and OpenAI Decisions formats; guardrail hook; auto-router (`classifier_type: jev`). [LiteLLM decisions docs](https://docs.litellm.ai/docs/decisions) |
+   306	| **Pydantic AI** | `Agent('typesafe:jev-latest', output_type=MyModel)`; each field becomes a question (`bool` → noul, `Enum`/`Literal` → choice, `IntEnum` with descriptions → score) | Compose `FallbackModel('typesafe:jev-latest', 'anthropic:claude-opus-5-5', fallback_on=DecisionHandOff)` so unsure/unfillable routes go to the LLM while outages fail loudly. [Pydantic AI decision models](https://pydantic.dev/docs/ai/models/decision/) |
+   307	| **LangChain** | `langchain-typesafe`: `TypeSafeClassifier`, `ModelRouterMiddleware`, `AutoModeMiddleware(tools=["bash"])` | [LangChain blog](https://www.langchain.com/blog/building-a-harness-with-jev) |
+   308	| **TanStack AI** | `decide({ adapter: typesafeDecider('jev-latest'), state, questions })` | No built-in retry/fallback. [TanStack docs](https://tanstack.com/ai/latest/docs/evaluate/evaluate) |
+   309	| **Effect** | `@effect/ai-typesafe` `DecisionModel` with `classify` / `rate` / `probability` | [Effect PR #8287](https://github.com/Effect-TS/effect/pull/8287) |
+   310	| **BAML** | `client: "typesafeai/jev-latest"`; `bool` → noul, enum → choice, class → batch | [BoundaryML blog](https://boundaryml.com/blog/typesafe-ai-jev) |
+   311	| **Laravel** | `Classification::of($text)->questions([...])->classify()`; `Str::of($msg)->decide('Is this spam?')` | [Laravel AI SDK](https://laravel.com/blog/introducing-laravel-ai-sdk-v1) |
+   312	| **Kotlin / JVM** | `com.pambrose.jev4k:jev4k:0.4.0` (Maven Central, KMP): declare a `JevQuery` with `noul`, `choice<Enum>`, `score`; `JevClient().use { jev -> jev.ask(Triage, state = text) }`; `result[Triage.team].choice` | Only published JVM artifact; no official JVM SDK. Spring AI module is an unreleased SNAPSHOT. Otherwise call HTTP directly. [jev4k](https://github.com/pambrose/jev4k) · [spring-ai-typesafe](https://github.com/spring-ai-community/spring-ai-typesafe) |
+   313	| **Go / Rust / Elixir / PHP / Scala** | Community clients: [typesafe-ai-go](https://github.com/Gaurav-Gosain/jev-go), [typesafe-ai-rs](https://github.com/gilljon/typesafe-ai-rs), [zio-typesafe-ai](https://github.com/jamesward/zio-typesafe-ai) | Unofficial; the HTTP API is a single POST, so a hand-written client is ~50 lines |
+   314	
+   315	---
+   316	
+   317	## 5. Writing good questions (the prompting rules for Jev)
+   318	
+   319	Jev reads questions **literally** and reads **option names** more than option definitions. Write accordingly. Sources: [Jaggedness page](https://docs.typesafe.ai/model-jaggedness/jev-1.13.md), [Sun et al.](https://arxiv.org/abs/2609.26758), [Gao et al.](https://arxiv.org/html/2609.38827v2)
+   320	
+   321	1. **One judgment per question.** Do not hide several judgments in one. Split an interpretive question into two or more literal ones and combine in code.
+   322	2. **State exact conditions and boundary cases** in `instructions`. "Needs a reply today" beats "urgent."
+   323	3. **Name options with the words a careful human would use for that category.** When name and definition disagree, the name wins (AUC fell from 93.8% to 23.2% when mappings were swapped). Do not use `true:` to mean "no." Avoid negations inside criteria.
+   324	4. **Add an escape option to every Choice**: `other`, `none_of_these`, `not_stated`, `not_enough_information`. Without it the model assigns up to 96% to one option on empty input. [medRxiv evaluation](https://www.medrxiv.org/content/10.64898/2026.10.09.26365153v1)
+   325	5. **Prefer several Nouls over one Score for detection.** One severity Score caught 4 of 7 critical log events; four Nouls caught 7 of 7. Score compresses toward the middle on ordinal scales (37.7% macro accuracy ordinal vs 84.4% nominal). Use Score as a soft signal and threshold it; never interpolate magnitudes from it. [nexibeo/jev-cookbook](https://github.com/nexibeo/jev-cookbook)
+   326	6. **Prefer per-option Nouls over one high-cardinality Choice when precision matters.** At a 0.90 threshold, option-wise Nouls retained 97.0% accuracy vs Choice's 79.4%. [Du et al.](https://arxiv.org/html/2610.18529v1)
+   327	7. **Dates, numbers, counts: compute in code, put the result in the state.** If you must extract a date, use a Choice over enumerated parts with a "not stated" option and do the math yourself. [Date extraction cookbook](https://docs.typesafe.ai/cookbooks/date_extraction_cookbook.md)
+   328	8. **Keep the state minimal.** Strip irrelevant content first (in code, or with a relevance Noul). Batch *questions*, not *items*: many questions per call is nearly free; many items per state costs accuracy.
+   329	9. **Reorder options and compare** when stakes are high. The argmax is fairly stable (1.8% flips on reversal) but probabilities shift by up to 34 points; in a chess harness 39-43% of picks changed with option order. Averaging over rotations is a known fix. [Imperatrice et al.](https://arxiv.org/html/2610.19619) · [AnyJev](https://github.com/nokia-applied-research/AnyJev)
+   330	10. **Jev cannot generate, so get candidates elsewhere.** Extract candidates with regex or an LLM and let Jev select (invoice extraction went 40/40 this way). "Chaining Choices" to synthesize output is slow and weak.
+   331	11. **English works best.** Test other languages on your own content. 1.14's largest claimed gain is multilingual [vendor].
+   332	12. **Pin the model version** and **cache decisions** keyed on (model, state, questions); reruns are then exact and free.
+   333	
+   334	---
+   335	
+   336	## 6. Patterns that work (with measured results)
+   337	
+   338	| Pattern | What it is | Evidence |
+   339	|---|---|---|
+   340	| **Code owns thresholds and side effects** | Jev returns probabilities; your code holds the policy, tuned per consequence ("a wrong FAQ route and a wrong payment route should not share a threshold") | Every shipped guard/router; [Wavect review](https://wavect.io/blog/jev-ai-decision-model-review/) |
+   341	| **Confidence-gated cascade** | Jev answers the easy majority; below a threshold, hand off to an LLM or a human | Banking77: cascade at 0.90 handled 75.9% on Jev, 84.0% overall (Opus alone 84.4%) at ~28% of Opus cost. [OpenRouter](https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification/). Caveat: flash-tier LLM judges repeat >85% of Jev's confident errors, so cascade to a reasoning model or a human for independent signal. [Rao & Callison-Burch](https://arxiv.org/abs/2609.29769) |
+   342	| **LLM for text, Jev for decisions** | Generator produces text or candidates; Jev picks or scores; Jev never writes | jev-ultrafast (browser agent: Jev picks CLICK/TYPE/SCROLL + target, LLM only for typed text) [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast); typesafe-computer-use at ~$0.0002/decision [awlevin](https://github.com/awlevin/typesafe-computer-use) |
+   343	| **Predict-then-decide (two calls)** | Ask Jev to predict the missing fact, write the prediction into the state, then ask the decision | Game-theory decisions 33% → 94%; ALFWorld 31% → 87% with code-supplied lookahead. [Yang et al.](https://arxiv.org/html/2610.01834v2) |
+   344	| **Batch many questions per call** | 1-64 questions per request at flat latency | 13 questions in one call: 12.2x cheaper, 10x faster, same answers. [Parallel questions cookbook](https://docs.typesafe.ai/cookbooks/parallel_questions) · [jgrep](https://github.com/keltokhy/jgrep) |
+   345	| **Option-wise Nouls, renormalized** | One Noul per option, combine in code | Phishing detection 62.6% → 95.0% by decomposing into five questions plus logistic regression [greennode](https://greennode.ai/blog/what-is-jev) |
+   346	| **Compute facts, then ask judgment** | Put computed values (dates, totals, diffs) into the state | Chess blunders 35% → 5-9% with "assisted facts"; dedupe errors 1 → 0 with code-checked phone numbers [nexibeo](https://github.com/nexibeo/jev-cookbook) |
+   347	| **Shadow mode first** | Run Jev alongside the existing decision, log disagreements, then switch | pi-jev, stuntdouble, Wavect all recommend it |
+   348	| **Fail-open vs fail-closed, chosen by consequence** | Guards hold or ask on low confidence or API failure; routers fall back to the default model | [Pydantic AI](https://pydantic.dev/docs/ai/models/decision/) (hand-offs go to LLM, outages fail loudly); [jev-router](https://github.com/fatwang2/awesome-jev) ("Jev failure never blocks the CLI") |
+   349	| **Log inputs, link verdicts to quotes** | Jev gives no reasons; the audit trail is the input | Required by every guard author; [Willison's black-box objection](https://simonwillison.net/2026/Sep/21/jev/) |
+   350	
+   351	**Reference implementations worth reading:** [nexibeo/jev-cookbook](https://github.com/nexibeo/jev-cookbook) (15 tested recipes: triage, tagging, dedupe, PII, reranking, extraction), [keltokhy/jgrep](https://github.com/keltokhy/jgrep) (semantic line filter, ~$13 per million lines), [DevMortimer/pi-warden](https://github.com/DevMortimer/pi-warden) (coding-agent tool-call guard, 18k replayed calls), [realZachi/pg-jev](https://github.com/realZachi/pg-jev) (Postgres `jev(row, condition, threshold)` predicate), [TypeSafe cookbooks](https://docs.typesafe.ai/cookbooks/parallel_questions), [TypeSafe patterns](https://docs.typesafe.ai/patterns/fan-out).
+   352	
+   353	---
+   354	
+   355	## 7. Known failure modes (so you can route around them)
+   356	
+   357	TypeSafe's own list ([Jev 1.13 jaggedness](https://docs.typesafe.ai/model-jaggedness/jev-1.13.md)), each confirmed in the field:
+   358	
+   359	| Failure | Measured effect | Workaround |
+   360	|---|---|---|
+   361	| Literal reading | Answers the question as written, not as meant | Spell out conditions; split questions |
+   362	| Counting / arithmetic / numeric encodings | MathQA 17.7 pts below every LLM tested; packet-feature classification 28% vs random forest 70% [Li X.](https://arxiv.org/abs/2610.11978) · [2610.00376](https://arxiv.org/html/2610.00376) | Compute in code |
+   363	| Dates and times | Treated as text; ordering/durations unreliable | Enumerate parts, compute in code |
+   364	| Indirection, double negatives, multi-hop | Two-step word problems 32% correct [Hume](https://archerhume.com/posts/jevs-architecture-unmasked/) | Predict-then-decide; precompute |
+   365	| Irrelevant state | Accuracy drops with unrelated content | Filter first |
+   366	| Adversarial content | Routing 100% → 0-6% under injection; one appended "opinion" flips 12.1% of decisions [Wang et al.](https://arxiv.org/html/2610.04985) · [JevAdvBench](https://arxiv.org/abs/2609.31142) | Sanitize; deterministic validators; separate injection-detection Noul |
+   367	| Contradictory criteria | `true` meaning "no" degrades accuracy | Align names with meaning |
+   368	| Option order | First-option bias (vendor) / end-of-list bias (chess test); probabilities shift up to 34 pts | Rotate and average; escape option |
+   369	| No generation | Chained Choices "slow and weak" | LLM or regex for candidates |
+   370	| Choice miscalibration | Hides P(unknown); confident nonsense on empty input | Escape option; per-option Nouls |
+   371	| Ordinal compression | Score bunches in the middle | Nouls per level; threshold only |
+   372	| Abstention | -11 to -12 pts when the right answer is "none of the above"; picks "I don't know" when it should answer 10.5% of the time [Du et al.](https://arxiv.org/html/2610.18529v1) · [Madrid-García](https://arxiv.org/html/2609.34024v1) | Escape option prevents confident nonsense; it does not raise accuracy |
+   373	| Non-determinism and drift | ~12% chosen-option change on repeat; `jev-latest` changes | Pin version; cache |
+   374	| Rubric judging | Weakest category (GoEmotions macro-F1 0.24; legal clause F1 0.20) [Deußer et al.](https://arxiv.org/html/2609.37647v1) | Decompose into literal checks |
+   375	| Vision | Preview only; "all models perform worse on multimodal input"; Box always returns a box | Pair Box with a presence Noul; prefer DOM/OCR/accessibility text where available |
+   376	
+   377	---
+   378	
+   379	## 8. Security rules (non-negotiable for agents)
+   380	
+   381	1. **Treat `state` as untrusted, argued input.** There is no privileged instruction channel; text inside the state can steer the answer. [JevAdvBench](https://arxiv.org/abs/2609.31142)
+   382	2. **Jev is never the only gate** for destructive or financial actions. Keep a deterministic validator over typed-parsed fields that the model cannot override; one such rule reached 100% where typed-model guardrails failed open 93-100% under a misleading option label. [Azizi et al.](https://arxiv.org/abs/2610.12292)
+   383	3. **Confidence is not authorization.** Attacked decisions were as confident as the originals, so confidence-based escalation does not catch attacks.
+   384	4. **Ask for injection detection explicitly if you need it.** Jev detects injection well when asked (40/40 in one screen; 0.99 on a planted RAG injection) and is steered by it when asked something else. [OpenRouter tutorial](https://openrouter.ai/blog/tutorials/jev-vs-llm-when-to-use-each/) · [RAG cookbook](https://docs.typesafe.ai/cookbooks/classifying_rag_passages)
+   385	5. **Do not put secrets or sensitive attributes in the state.** Outputs leak: hidden attributes (gender, age, health, ethnicity) were inferred with 100% accuracy from labels alone; an Oct 24 incident exposed customers' noul outputs. [Wang et al.](https://arxiv.org/pdf/2610.04985v1) · [Startup Fortune](https://startupfortune.com/typesafe-ai-admits-a-leak-exposed-every-customers-jev-model-output/)
+   386	6. **Guards should fail closed or ask; routers may fail open.** Decide by consequence and expose the choice as a parameter.
+   387	7. **For EU residency or on-prem**, Jev is US-hosted with ZDR only via enterprise sales; use an open model behind the same wire protocol (Section 9).
+   388	
+   389	---
+   390	
+   391	## 9. Drop-in alternatives (same wire protocol)
+   392	
+   393	Code written against `/v1/systemone` with `noul/choice/score` runs against these by changing the base URL (and sometimes the model name). As of Oct 26, open 27B-31B models **outrank Jev on both independent leaderboards** ([JevBench v1.7](https://benchmarkheaven.com/jev-models/all): Jev 1.13 rank 26, 1.14 rank 31; [Decision Index 0.4.1](https://huggingface.co/datasets/multimodalart/decision-index-leaderboard): Jev 1.14 rank 43). Jev still leads on OpenRouter volume (~1.36B requests/week) and on [Artificial Analysis'](https://artificialanalysis.ai/articles/artificial-analysis-decision-index) knowledge-weighted index.
+   394	
+   395	| Option | What | License | Why pick it | Link |
+   396	|---|---|---|---|---|
+   397	| **Ollaya** (local server) | "Ollama for decision models"; `/v1/systemone` + `/v1/decisions`; ~25 model families; author-calibrated probabilities (ECE 0.022 vs raw softmax 0.115) | Apache-2.0 | Local dev, offline, EU residency; default `winnow:e4b` | [ollaya](https://github.com/ollaya-dev/ollaya) |
+   398	| **mode-io/vllm-jev** | vLLM serving for Jev-style checkpoints (Kev, Clef, Open-Jev, Laya, vision models) | Apache-2.0 | GPU self-hosting at scale | [vllm-jev](https://github.com/mode-io/vllm-jev) |
+   399	| **Cloudflare Clef / Clef-flash** | Qwen3.8-27B LoRA (9B flash); "fully Jev-API compatible"; on Workers AI and HF | Apache-2.0 | Edge, images, RL fine-tuning service; $0.24/M (flash cheaper) | [Cloudflare blog](https://blog.cloudflare.com/clef-decision-models) |
+   400	| **Perplexity pplx-decider v1.2 (27B) / flash (4B)** | Qwen3.8-27B fine-tune with decision head; multimodal | Apache-2.0 | $0.02/M hosted; rank 5 on Decision Index; best calibration among hosted | [Perplexity docs](https://docs.perplexity.ai/docs/decisions/quickstart) |
+   401	| **OpenAI Decisions API (gpt-6-luna)** | Existing Luna weights behind `/v1/decisions` (`input` + ordered `questions`, `predicate` instead of `noul`); GA Oct 22 | Hosted | If you are already on OpenAI; LiteLLM translates formats; ranks below Jev on boards | [TechCrunch](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/) |
+   402	| **H2O-Lightning-4B** | Qwen3.5-4B + adapter; 29 ms/decision; beats Jev 1.13 on JevBench | Apache-2.0 | Best quality per GB on a 16-24 GB GPU (the 31B sibling is non-commercial) | [h2o.ai](https://h2o.ai/blog/2026/h2o-lightning-jevbench) |
+   403	| **Super Decider** | DiffusionGemma 26B-A4B; #2-3 overall on JevBench at $0.016/1k | Apache-2.0 | Highest open score with a commercial license; needs ~48 GB | [super-decider](https://github.com/Singularity-Compute/super-decider) |
+   404	| **Kev** (0.8B-27B) | Qwen3.5 + LoRA + pointer head; TypeSafe Python SDK works unchanged | Apache-2.0 | Popular (8.4k stars), easy serve | [jaredpalmer/kev](https://github.com/jaredpalmer/kev) |
+   405	| **AWS Strands Decider 2B** | Qwen3.5-2B + pointer head; fully open incl. data; Ollama entry | Apache-2.0 | CPU/edge tool gating; weak on general benchmarks | [strandsagents.com](https://strandsagents.com/blog/introducing-strands-decider/) |
+   406	| **AnyJev** (training-free) | Reads option-letter logits from any instruction-tuned LLM you already run; rotation averaging fixes order bias | Apache-2.0 | Zero new weights: untuned Gemma 4 31B matches Jev (79.6 vs 80.1 on OpenDecisions) | [AnyJev](https://github.com/nokia-applied-research/AnyJev) · [Geuter et al.](https://arxiv.org/abs/2610.17205) |
+   407	
+   408	**Licensing trap:** several leaderboard leaders are non-commercial (H2O-Lightning-31B, Jeff-1.x, StartLux weights, Torchcast weights, Bespoke Nimble v3). Check the license before shipping. **Size floor:** ~4B parameters for Jev-level general quality; 0.6-2B models and encoders (Laya, GLiNER2.5-Decide) score near zero on chance-corrected indices unless fine-tuned in-domain. **Serving caveat:** Ollama's raw softmax discards author calibration; quantization below Q8 costs 1-4 points.
+   409	
+   410	---
+   411	
+   412	## 10. Pre-ship checklist
+   413	
+   414	- [ ] Every Choice has an escape option.
+   415	- [ ] Thresholds tuned on ≥ 10 (ideally hundreds of) labeled examples from *your* traffic, per question, per consequence.
+   416	- [ ] Nothing numeric, temporal, or counted is left for the model to compute.
+   417	- [ ] State is filtered to relevant content and under 32k tokens per question (64k per request).
+   418	- [ ] Model version pinned; decisions cached; inputs logged with each verdict.
+   419	- [ ] Behavior on API failure, 429/529, and low confidence is explicit (fail-closed for guards, fail-open for routers) and tested.
+   420	- [ ] Shadow run completed; disagreement rate with the previous decision mechanism measured.
+   421	- [ ] Order-sensitivity checked on a sample (rotate options, compare).
+   422	- [ ] Security: deterministic validator in front of any destructive action; untrusted text sanitized or screened with an injection Noul; no secrets in state.
+   423	- [ ] Base URL and model name are configuration, so the backend can be swapped for an open model.
+   424	
+   425	---
+   426	
+   427	## 11. Links
+   428	
+   429	**Official:** [typesafe.ai](https://typesafe.ai/) · [Docs](https://docs.typesafe.ai/) · [Quickstart](https://docs.typesafe.ai/introduction/quickstart.md) · [API reference](https://docs.typesafe.ai/api/system-one.md) · [Request rules and errors](https://docs.typesafe.ai/api/errors.md) · [Models](https://docs.typesafe.ai/models.md) · [Confidence](https://docs.typesafe.ai/confidence.md) · [Jaggedness (1.13)](https://docs.typesafe.ai/model-jaggedness/jev-1.13.md) · [Images](https://docs.typesafe.ai/images.md) · [Box](https://docs.typesafe.ai/primitives/box.md) · [Patterns](https://docs.typesafe.ai/patterns/fan-out) · [Cookbooks](https://docs.typesafe.ai/cookbooks/parallel_questions) · [Launch post](https://typesafe.ai/blog/introducing-system-one-models-and-jev) · [Jev 1.14 post](https://typesafe.ai/blog/jev-1-14) · [Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) · [JS SDK](https://github.com/typesafe-ai/typesafe-sdk-js) · [TypeSafe agent skills](https://github.com/typesafe-ai/skills) · [Legal](https://docs.typesafe.ai/legal.md)
+   430	
+   431	**Gateways and frameworks:** [Vercel AI SDK provider](https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai) · [Vercel Decision docs](https://vercel.com/docs/ai-gateway/modalities/decision) · [OpenRouter jev-1.14](https://openrouter.ai/typesafe/jev-1.14) · [Cloudflare Workers AI](https://developers.cloudflare.com/ai/models/typesafe/jev/) · [Netlify](https://www.netlify.com/changelog/typesafe-jev-ai-gateway/) · [LiteLLM](https://docs.litellm.ai/docs/decisions) · [Pydantic AI](https://pydantic.dev/docs/ai/models/decision/) · [LangChain](https://www.langchain.com/blog/building-a-harness-with-jev) · [TanStack AI](https://tanstack.com/ai/latest/docs/evaluate/evaluate) · [Effect](https://github.com/Effect-TS/effect/pull/8287) · [BAML](https://boundaryml.com/blog/typesafe-ai-jev) · [Laravel](https://laravel.com/blog/introducing-laravel-ai-sdk-v1) · [jev4k (Kotlin)](https://github.com/pambrose/jev4k)
+   432	
+   433	**Independent evaluations:** [OpenRouter Banking77 head-to-head](https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification/) · [Deußer et al., 37 datasets](https://arxiv.org/abs/2609.37647) · [Guo et al., calibration/thresholds](https://arxiv.org/html/2609.29429v1) · [Porcedda, Sys1Cal-v1](https://arxiv.org/html/2609.35342) · [Gao et al., ordinal underuse](https://arxiv.org/html/2609.38827v2) · [Sun et al., names over definitions](https://arxiv.org/abs/2609.26758) · [Yang et al., evaluation vs simulation](https://arxiv.org/html/2610.01834v2) · [Wang et al., security/privacy](https://arxiv.org/html/2610.04985) · [JevAdvBench](https://arxiv.org/abs/2609.31142) · [Azizi et al., guardrail fail-open](https://arxiv.org/abs/2610.12292) · [HiddenLayer](https://www.hiddenlayer.com/research/system-one-model-security) · [Du et al., medicine](https://arxiv.org/html/2610.18529v1) · [Imperatrice et al., bias](https://arxiv.org/html/2610.19619) · [Geuter et al., "Releasing the Inner Jev"](https://arxiv.org/abs/2610.17205) · [Hume, architecture probing](https://archerhume.com/posts/jevs-architecture-unmasked/)
+   434	
+   435	**Leaderboards:** [JevBench (Benchmark Heaven)](https://benchmarkheaven.com/jev-models/all) · [Decision Index (HF)](https://huggingface.co/datasets/multimodalart/decision-index-leaderboard) · [Artificial Analysis Decision Index](https://artificialanalysis.ai/articles/artificial-analysis-decision-index) · [OpenRouter decision rankings](https://openrouter.ai/rankings/decisions)
+   436	
+   437	**Catalogs and reference projects:** [cobanov/awesome-jev](https://github.com/cobanov/awesome-jev) · [heyjunpenn/awesome-jev](https://github.com/heyjunpenn/awesome-jev) · [walidboulanouar/awesome-jev-use-cases](https://github.com/walidboulanouar/awesome-jev-use-cases) · [madewithjev](https://madewithjev.com/) · [nexibeo/jev-cookbook](https://github.com/nexibeo/jev-cookbook) · [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) · [pi-warden](https://github.com/DevMortimer/pi-warden) · [jgrep](https://github.com/keltokhy/jgrep) · [pg-jev](https://github.com/realZachi/pg-jev) · [typesafe-chess FINDINGS](https://github.com/Dimesio/typesafe-chess/blob/main/FINDINGS.md) · [Ollaya](https://github.com/ollaya-dev/ollaya) · [vllm-jev](https://github.com/mode-io/vllm-jev)

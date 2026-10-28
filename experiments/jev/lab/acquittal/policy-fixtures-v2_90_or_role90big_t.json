@@ -1,0 +1,1197 @@
+{
+ "policy": "v2_90_or_role90big_t",
+ "fixtures": {
+  "changed": 5,
+  "changed_list": [
+   "footnotes--maggieappleton.com-xanadu-patterns",
+   "footnotes--wikipedia-references",
+   "general--wikipedia",
+   "issues--pascalcase-section-id-partial-match",
+   "metadata--rel-author-in-bio-container"
+  ],
+  "restored": 54,
+  "restored_list": [
+   {
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeHiddenElements|div|b1ad594360ff|43ccc4ab",
+    "step": "removeHiddenElements",
+    "reason": "class:hidden",
+    "selector": "",
+    "exact": [],
+    "fam": "hidden",
+    "inline": false,
+    "words": 39,
+    "tag": "div",
+    "text": "Maggie Appleton - indieweb.social/@maggierepliedNovember 30, 2022 Still very half-baked. Have to circle back and finish it off (Also don’t check on mobile - just pushed an update that screwed up responsive layouts 🤦‍♀️ - will fix in a minute)",
+    "ans": {
+     "ex": 0.73,
+     "plain": 0.58,
+     "po": 0.73,
+     "role": 0.02,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|div|35b0723d6dbb|efe448ce",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "A Pattern Language Christopher Alexander The book outlined a number of solutions for architecture and urban planning design, but the theory has since (appropriately) taken on a life of its own.",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.375,
+     "v2": 0.98
+    }
+   },
+   {
+    "page": "footnotes--wikipedia-references",
+    "fp": "removeByContentPattern|p|f01107f4b428|6e145bd3",
+    "step": "removeByContentPattern",
+    "reason": "thin CTA section",
+    "selector": "",
+    "exact": [],
+    "fam": "promo",
+    "inline": false,
+    "words": 16,
+    "tag": "p",
+    "text": "In particular, the framework has proven useful for modeling complex systems where traditional approaches are insufficient.4",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 1,
+     "v2": 0.99
+    }
+   },
+   {
+    "page": "general--wikipedia",
+    "fp": "removeBySelector|table|38ae86aa4e0b|63387a4c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "table.infobox"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 38,
+    "tag": "table",
+    "text": "Obsidian Developer(s) Dynalist Inc. Initial release March 2020 (2020-03) Stable release 1.5.81 / January 15, 2024 Written in TypeScript, JavaScript Operating system Windows, macOS, Linux, Android, iOS, iPadOS Type Note-taking, personal knowledge management License Proprietary freemium Website obsidi",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.99,
+     "v2": 0.97
+    }
+   },
+   {
+    "page": "issues--pascalcase-section-id-partial-match",
+    "fp": "removeBySelector|div|091c8a1b4a82|d0e4408d",
+    "step": "removeBySelector",
+    "reason": "partial match: feedback",
+    "selector": "feedback",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "This delimited widget id should still be removed because its identifier contains a real delimiter, so the substring match still applies and correctly recognises it as clutter.",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.82,
+     "po": 0.89,
+     "role": 0.49,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|fe1a5d50",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.79,
+     "plain": 0.82,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|788587c8f3ed|a1e263de",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "G=Sn​",
+    "ans": {
+     "ex": 0.79,
+     "plain": 0.81,
+     "po": 0.43,
+     "role": 0.97,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|4a7c9770",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.83,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.91
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|504a8f4f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.74,
+     "plain": 0.67,
+     "po": 0.65,
+     "role": 0.955,
+     "v2": 0.95
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|95059c48",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.91,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|86f7e437faa5|75e91f44",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "a",
+    "ans": {
+     "ex": 0.84,
+     "plain": 0.84,
+     "po": 0.37,
+     "role": 0.74,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e9d71f5ee7c9|ac4cf816",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "b",
+    "ans": {
+     "ex": 0.72,
+     "plain": 0.68,
+     "po": 0.26,
+     "role": 0.765,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|07c342be6e56|d446da1b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "l",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.67,
+     "po": 0.3,
+     "role": 0.74,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|aba4b871",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|848a197d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.76,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|92bdb438",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.78,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|ecbd7bdb",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.76,
+     "plain": 0.66,
+     "po": 0.65,
+     "role": 0.955,
+     "v2": 0.95
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|ff6083c2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.91,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|86f7e437faa5|433b38d8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "a",
+    "ans": {
+     "ex": 0.84,
+     "plain": 0.84,
+     "po": 0.37,
+     "role": 0.74,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e9d71f5ee7c9|eb7bb86d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "b",
+    "ans": {
+     "ex": 0.72,
+     "plain": 0.68,
+     "po": 0.26,
+     "role": 0.765,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|07c342be6e56|137bae6d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "l",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.67,
+     "po": 0.3,
+     "role": 0.74,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|066cdb37",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|13b60592",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.76,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|7e951e71",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.78,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|dcae642f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|86f7e437faa5|0948f491",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "a",
+    "ans": {
+     "ex": 0.84,
+     "plain": 0.84,
+     "po": 0.37,
+     "role": 0.74,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e9d71f5ee7c9|b1b19aea",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "b",
+    "ans": {
+     "ex": 0.72,
+     "plain": 0.68,
+     "po": 0.26,
+     "role": 0.765,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|07c342be6e56|5b5b0c77",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "l",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.67,
+     "po": 0.3,
+     "role": 0.74,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|60011b3b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|36388a8a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.76,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|9f734b8d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.78,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|86f7e437faa5|434c1aca",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "a",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.84,
+     "po": 0.37,
+     "role": 0.74,
+     "v2": 0.91
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e9d71f5ee7c9|353586fb",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "b",
+    "ans": {
+     "ex": 0.72,
+     "plain": 0.68,
+     "po": 0.26,
+     "role": 0.765,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|07c342be6e56|2357592b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "l",
+    "ans": {
+     "ex": 0.6,
+     "plain": 0.67,
+     "po": 0.3,
+     "role": 0.74,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|95024219",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|bfd87233",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.77,
+     "plain": 0.76,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|15f92fda",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.78,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e9d71f5ee7c9|86878bc6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "b",
+    "ans": {
+     "ex": 0.7,
+     "plain": 0.72,
+     "po": 0.26,
+     "role": 0.765,
+     "v2": 0.94
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|07c342be6e56|a7756aff",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "l",
+    "ans": {
+     "ex": 0.64,
+     "plain": 0.66,
+     "po": 0.3,
+     "role": 0.74,
+     "v2": 0.92
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|b6f013d6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.71,
+     "plain": 0.73,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|54fd1711209f|5ff622ff",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "g",
+    "ans": {
+     "ex": 0.81,
+     "plain": 0.83,
+     "po": 0.3,
+     "role": 0.68,
+     "v2": 0.9
+    }
+   },
+   {
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|564900cf",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.78,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.95
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|388806ca34e2|2111315c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∀x(M(x)→D(x))",
+    "ans": {
+     "ex": 0.47,
+     "plain": 0.51,
+     "po": 0.39,
+     "role": 0.955,
+     "v2": 0.91
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|c663095a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|2ac70aa7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.89,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.95
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|f24efd34",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.91,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|6260e147c63d|1d00436d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "span",
+    "text": "x=2a−b±b2−4ac",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 0.97,
+     "v2": 0.91
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|ab473ea8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.81,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|27c3bee8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.8,
+     "plain": 0.79,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|d1933893",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.9,
+     "plain": 0.9,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.94
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|932e278e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.74,
+     "plain": 0.64,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|b34abac5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.8,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.93
+    }
+   },
+   {
+    "page": "math--katex-data-math",
+    "fp": "removeBySelector|span|11f6ad8ec52a|69388f8c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"]):not(svg):not([class*=\"paywall\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "x",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.87,
+     "po": 0.31,
+     "role": 0.785,
+     "v2": 0.94
+    }
+   },
+   {
+    "page": "metadata--rel-author-in-bio-container",
+    "fp": "removeBySelector|section|2cb330ea8734|988f713c",
+    "step": "removeBySelector",
+    "reason": "partial match: frontmatter",
+    "selector": "frontmatter",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 10,
+    "tag": "section",
+    "text": "A short abstract paragraph that summarizes the article for readers.",
+    "ans": {
+     "ex": 0.87,
+     "plain": 0.79,
+     "po": 0.87,
+     "role": 0.65,
+     "v2": 0.92
+    }
+   }
+  ]
+ },
+ "bugs": null,
+ "history": null,
+ "seconds": 31
+}

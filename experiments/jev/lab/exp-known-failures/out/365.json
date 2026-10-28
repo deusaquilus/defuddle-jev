@@ -1,0 +1,1105 @@
+{
+ "file": "pages/365.html",
+ "url": "https://freedium-mirror.cfd/https://blog.ydb.tech/making-coroutines-routine-building-a-scalable-tpc-c-client-in-c-b14f55a09471",
+ "ms": 610,
+ "wordCount": 4000,
+ "contentSelector": "html > body > div > div.flex.flex-col.min-h-screen.transition-all.duration-200.ease-in-out > div.flex.flex-col.min-h-screen > main.flex-1.w-full.h-full.max-w-5xl.px-4.py-8.mx-auto > div > article.overflow-hidden.bg-white.rounded-lg.shadow-lg[class~=\"dark:bg-zinc-900\"]",
+ "title": "Making Coroutines Routine: Building a Scalable TPC-C Client in C++",
+ "contentChars": 33503,
+ "presence": {
+  "void RunTerminal": false
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:md:hidden",
+   "text": "Toggle menu"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "void RunTerminal(TInstant endTs) {\n    while (Now() < endTs) {\n        auto type = PickTransaction();\n        auto input = MakeInput(type);\n\n        // Simulate"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "void RunTerminal(TInstant endTs) {\n    while (Now() < endTs) {\n        auto type = PickTransaction();\n        auto input = MakeInput(type);\n\n        // Simulate"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "TxResult RunTx(Input input) {\n    auto tx = Db.BeginTransaction();\n\n    auto r1 = tx.Query(sql1).GetValueSync();\n    // Process r1 and prepare sql2.\n\n    auto r"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "TxResult RunTx(Input input) {\n    auto tx = Db.BeginTransaction();\n\n    auto r1 = tx.Query(sql1).GetValueSync();\n    // Process r1 and prepare sql2.\n\n    auto r"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "auto future = tx.Query(sql1)\n    .Apply([&](auto r1) {\n        // Process r1.\n        return tx.Query(sql2);\n    });"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "auto future = tx.Query(sql1)\n    .Apply([&](auto r1) {\n        // Process r1.\n        return tx.Query(sql2);\n    });"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "Future<TxResult> RunTx(Input input) {\n    auto tx = db.BeginTransaction();\n\n    // Executed in the caller's thread.\n    return tx.Query(sql1)\n        .Apply([&]"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Future<TxResult> RunTx(Input input) {\n    auto tx = db.BeginTransaction();\n\n    // Executed in the caller's thread.\n    return tx.Query(sql1)\n        .Apply([&]"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "while (Now() < EndTs) {\n    auto type = PickTransaction();\n    auto input = MakeInput(type);\n\n    // Simulate user typing / preparing the request.\n    Sleep(Key"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "while (Now() < EndTs) {\n    auto type = PickTransaction();\n    auto input = MakeInput(type);\n\n    // Simulate user typing / preparing the request.\n    Sleep(Key"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "auto future1 = pool.After(KeyingTime(type));\n\nauto future2 = pool.ContinueWith(future1, [&](auto) {\n    return RunTx(input, pool);\n});"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "auto future1 = pool.After(KeyingTime(type));\n\nauto future2 = pool.ContinueWith(future1, [&](auto) {\n    return RunTx(input, pool);\n});"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "Future<TxResult> RunTx(Input input, IPool& pool) {\n    auto tx = db.BeginTransaction();\n\n    auto f1 = tx.Query(sql1);\n\n    auto f2 = pool.ContinueWith(f1, [&]("
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Future<TxResult> RunTx(Input input, IPool& pool) {\n    auto tx = db.BeginTransaction();\n\n    auto f1 = tx.Query(sql1);\n\n    auto f2 = pool.ContinueWith(f1, [&]("
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "struct TTerminalState {\n    Promise<void> Done;\n    TInstant EndTs;\n    TransactionType Type;\n    Input Input;\n};\n\nFuture<void> RunTerminal(TInstant endTs, IPoo"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "struct TTerminalState {\n    Promise<void> Done;\n    TInstant EndTs;\n    TransactionType Type;\n    Input Input;\n};\n\nFuture<void> RunTerminal(TInstant endTs, IPoo"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "TFuture<TxResult> RunTx(Input input) {\n    auto tx = Db.BeginTransaction();\n\n    auto r1 = co_await tx.Query(sql1);\n    // Process r1.\n\n    auto r2 = co_await t"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "TFuture<TxResult> RunTx(Input input) {\n    auto tx = Db.BeginTransaction();\n\n    auto r1 = co_await tx.Query(sql1);\n    // Process r1.\n\n    auto r2 = co_await t"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "TFuture<void> RunTerminal(TInstant endTs) {\n    while (Now() < endTs) {\n        auto type = PickTransaction();\n        auto input = MakeInput(type);\n\n        co"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "TFuture<void> RunTerminal(TInstant endTs) {\n    while (Now() < endTs) {\n        auto type = PickTransaction();\n        auto input = MakeInput(type);\n\n        co"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "void RunTerminal(TInstant endTs) {\n    while (Now() < endTs) {\n        auto type = PickTransaction();\n        auto input = MakeInput(type);\n\n        Sleep(Keyin"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "void RunTerminal(TInstant endTs) {\n    while (Now() < endTs) {\n        auto type = PickTransaction();\n        auto input = MakeInput(type);\n\n        Sleep(Keyin"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "enum class EState {\n    Sleep,\n    RunTx,\n    ProcessResult,\n    Terminate,\n};"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "enum class EState {\n    Sleep,\n    RunTx,\n    ProcessResult,\n    Terminate,\n};"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "struct TStatefulTask {\n    EState State = EState::Sleep;\n\n    TFuture<void> StateDone;\n\n    IPool* Pool;\n    TInstant EndTs;\n\n    TransactionType Type;\n    Inpu"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "struct TStatefulTask {\n    EState State = EState::Sleep;\n\n    TFuture<void> StateDone;\n\n    IPool* Pool;\n    TInstant EndTs;\n\n    TransactionType Type;\n    Inpu"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "void RunTerminal(TStatefulTask* state) {\n    if (Now() >= state->EndTs) {\n        state->State = EState::Terminate;\n        return;\n    }\n\n    auto& pool = *sta"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "void RunTerminal(TStatefulTask* state) {\n    if (Now() >= state->EndTs) {\n        state->State = EState::Terminate;\n        return;\n    }\n\n    auto& pool = *sta"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "case EState::RunTx: {\n    state->StateDone = RunTx(state->Input, pool)\n        .Apply([state](auto result) {\n            state->Result = std::move(result);\n    "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "case EState::RunTx: {\n    state->StateDone = RunTx(state->Input, pool)\n        .Apply([state](auto result) {\n            state->Result = std::move(result);\n    "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "case EState::ProcessResult: {\n    Stats.Record(state->Type, *state->Result);\n\n    state->StateDone = pool.After(ThinkTime(state->Type));\n    state->State = ESta"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "case EState::ProcessResult: {\n    Stats.Record(state->Type, *state->Result);\n\n    state->StateDone = pool.After(ThinkTime(state->Type));\n    state->State = ESta"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "Sleep(...);\nauto result = RunTx(...);\nStats.Record(...);\nSleep(...);"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "Sleep(...);\nauto result = RunTx(...);\nStats.Record(...);\nSleep(...);"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "struct TStatefulTask {\n    EState State = EState::Sleep;\n    // ...\n\n    void Resume() {\n        RunTerminal(this);\n    }\n\n    bool Done() const {\n        retur"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "struct TStatefulTask {\n    EState State = EState::Sleep;\n    // ...\n\n    void Resume() {\n        RunTerminal(this);\n    }\n\n    bool Done() const {\n        retur"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "TStatefulTask CreateTerminal(TInstant endTs, IPool& pool) {\n    return TStatefulTask{\n        .State = EState::Sleep,\n        .Pool = &pool,\n        .EndTs = en"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "TStatefulTask CreateTerminal(TInstant endTs, IPool& pool) {\n    return TStatefulTask{\n        .State = EState::Sleep,\n        .Pool = &pool,\n        .EndTs = en"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "auto state =\n    std::make_shared<TStatefulTask>(CreateTerminal(endTs, pool));\n\nstd::function<void()> driver;\n\ndriver = [state, &driver] {\n    if (state->Done()"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "auto state =\n    std::make_shared<TStatefulTask>(CreateTerminal(endTs, pool));\n\nstd::function<void()> driver;\n\ndriver = [state, &driver] {\n    if (state->Done()"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "auto task = RunTerminal(endTs);"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "auto task = RunTerminal(endTs);"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "auto* promise = new promise_type;\nauto task = promise->get_return_object();\nauto h = MakeCoroutineHandle(promise);\nif (promise->initial_suspend() == suspend_nev"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "auto* promise = new promise_type;\nauto task = promise->get_return_object();\nauto h = MakeCoroutineHandle(promise);\nif (promise->initial_suspend() == suspend_nev"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "struct promise_type {\n    TPromise<void> Promise;\n\n    TFuture<void> get_return_object() {\n        return Promise.GetFuture();\n    }\n\n    std::suspend_never ini"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "struct promise_type {\n    TPromise<void> Promise;\n\n    TFuture<void> get_return_object() {\n        return Promise.GetFuture();\n    }\n\n    std::suspend_never ini"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "bool await_ready();\nvoid await_suspend(std::coroutine_handle<> handle);\nT await_resume();"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "bool await_ready();\nvoid await_suspend(std::coroutine_handle<> handle);\nT await_resume();"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "template <typename T>\nstruct TFutureAwaiter {\n    TFuture<T> Future;\n\n    bool await_ready() const {\n        return Future.IsReady();\n    }\n\n    void await_susp"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "template <typename T>\nstruct TFutureAwaiter {\n    TFuture<T> Future;\n\n    bool await_ready() const {\n        return Future.IsReady();\n    }\n\n    void await_susp"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "struct promise_type {\n    std::suspend_never initial_suspend() noexcept;\n};\n\n// coroutine\nTFuture<void> RunTerminal(TInstant endTs) {\n    // this is executed by"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "struct promise_type {\n    std::suspend_never initial_suspend() noexcept;\n};\n\n// coroutine\nTFuture<void> RunTerminal(TInstant endTs) {\n    // this is executed by"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "const auto threadHint = terminalId % pool.Size();"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "const auto threadHint = terminalId % pool.Size();"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "struct TScheduleOnPool {\n    IThreadPool& Pool;\n    size_t ThreadHint;\n\n    bool await_ready() const {\n        return Pool.IsInThisThread(ThreadHint);\n    }\n\n  "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "struct TScheduleOnPool {\n    IThreadPool& Pool;\n    size_t ThreadHint;\n\n    bool await_ready() const {\n        return Pool.IsInThisThread(ThreadHint);\n    }\n\n  "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "TFuture<void> RunTerminal(\n    TInstant endTs,\n    IThreadPool& pool,\n    ui64 terminalId)\n{\n    const auto threadHint = terminalId % pool.Size();\n\n    co_await"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "TFuture<void> RunTerminal(\n    TInstant endTs,\n    IThreadPool& pool,\n    ui64 terminalId)\n{\n    const auto threadHint = terminalId % pool.Size();\n\n    co_await"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "template <typename T>\nstruct TAwaitFutureOnPool {\n    TFuture<T> Future;\n    IThreadPool& Pool;\n    size_t ThreadHint;\n\n    bool await_ready() const {\n        r"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "template <typename T>\nstruct TAwaitFutureOnPool {\n    TFuture<T> Future;\n    IThreadPool& Pool;\n    size_t ThreadHint;\n\n    bool await_ready() const {\n        r"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:dark:hidden",
+   "text": "TFuture<void> RunTerminal(\n    TInstant endTs,\n    IThreadPool& pool,\n    ui64 terminalId)\n{\n    const auto threadHint = terminalId % pool.Size();\n    co_await "
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": "TFuture<void> RunTerminal(\n    TInstant endTs,\n    IThreadPool& pool,\n    ui64 terminalId)\n{\n    const auto threadHint = terminalId % pool.Size();\n    co_await "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "// Legacy resize function for older iframe implementations\n\t\t\twindow._resizeIframe = function (obj) {\n\t\t\t\tconst logMessage = `Received _resizeIframe call: ifram"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "(function setInitialMode({ defaultMode = \"system\", themeColors, darkClassNames = [\"dark\"], lightClassNames = [], defaultTheme = \"\", modeStorageKey = \"mode-watch"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "· Freedium beta         🎉 1.1M"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "🎉 1.1M"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Download article"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Contents 18"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Show all 18 sections"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "By Freedium. — made with care. About Privacy Terms RSS GitHub Codeberg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "About Privacy Terms RSS GitHub Codeberg"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\n\t\t\t\t\t__sveltekit_mwax74 = {\n\t\t\t\t\t\tbase: \"\",\n\t\t\t\t\t\tenv: {\"PUBLIC_API_BASE_URL\":\"http://traefik:7090\",\"PUBLIC_API_URL\":\"http://traefik:7090/api\"}\n\t\t\t\t\t};\n\n\t\t\t\t\t"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -10",
+   "text": "By Evgeniy Ivanov 20 min read"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -10",
+   "text": "By Evgeniy Ivanov 20 min read"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -25",
+   "text": "1 TPC-C as a Perfect Coroutine Workload2 First We Benchmarked the Client3 The Ideal Code Is Synchronous4 Threads vs. Coroutines: A Small Experiment5 Futures Fix"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -25",
+   "text": "1 TPC-C as a Perfect Coroutine Workload2 First We Benchmarked the Client3 The Ideal Code Is Synchronous4 Threads vs. Coroutines: A Small Experiment5 Futures Fix"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "article metadata header block",
+   "text": "August 20, 2026"
+  }
+ ],
+ "content": "<article class=\"overflow-hidden bg-white rounded-lg shadow-lg dark:bg-zinc-900\"><div data-nosnippet=\"\"></div> <img src=\"https://freedium-mirror.cfd/img/medium/700/1*eumYwWbBySuw2pEhmwbaiQ.png\" alt=\"Post cover image\" data-zoom-src=\"/img/medium/4000/1*eumYwWbBySuw2pEhmwbaiQ.png\" class=\"object-cover w-full h-auto min-h-96 svelte-tpe5ub\"> <header class=\"p-6 bg-gray-50 dark:bg-zinc-800\">  <p class=\"mb-4 text-xl text-gray-700 dark:text-gray-300\">We started with Java, 150,000 OS threads and roughly 600 GiB of RAM. We ended with readable sequential code in C++, 16 worker threads for…</p> </header>  <div class=\"p-6 dark:text-gray-300\"><div class=\"prose max-w-none prose-external-links\"><p><em>We started with Java, 150,000 OS threads and roughly 600 GiB of RAM. We ended with readable sequential code in C++, 16 worker threads for terminal execution, memory usage reduced by more than 1,000x, and a benchmark client that could finally keep up with a distributed database.</em></p>\n<p>At YDB, we build a fault-tolerant distributed database in C++. That means we also spend a lot of time building and running benchmarks.</p>\n<p>Benchmarks are not optional infrastructure. We use them to load-test the system, detect performance regressions, validate optimizations and new features, and compare YDB with other databases. The larger the database becomes, the more important the benchmark client becomes as well: it is surprisingly easy to saturate the machine generating the load long before the database itself is busy.</p>\n<p>That is exactly what happened when we tried to run TPC-C at scale. We wanted to benchmark the database. Instead, we benchmarked the client.</p>\n<p>This post tells the story of how that led us from OS threads to futures, from futures to callback hell, and finally to C++20 coroutines. Along the way, we will look under <code>co_await</code>, reconstruct a coroutine by hand, and discuss one of the most important practical questions in asynchronous C++:</p>\n<blockquote>\n<p><em>After a future or coroutine becomes ready, which thread executes the rest of your code?</em></p>\n</blockquote>\n<p>The code below is simplified and adapted for explanation, but it follows the architecture of our real TPC-C implementation.</p>\n<h3>TPC-C as a Perfect Coroutine Workload</h3>\n<p>TPC-C is an OLTP benchmark standardized in 1992. Despite its age, it is still widely used because it models a nontrivial transactional application rather than a stream of independent key-value operations.</p>\n<p>The benchmark represents a wholesale company with multiple warehouses. Each warehouse serves ten districts and contains roughly 100 MB of data. Each district has a terminal representing a user or employee interacting with the system.</p>\n<p>A terminal repeatedly performs one of several transactions: placing an order, making a payment, checking order status, processing delivery, or checking stock levels. The important part for our purposes is the execution model:</p>\n<ul>\n<li>A large run may have hundreds of thousands of terminals.</li>\n<li>A terminal is usually idle, simulating a human typing or thinking.</li>\n<li>When active, it executes a multi-step interactive transaction.</li>\n<li>A transaction contains roughly 5–10 database requests, with only a small amount of CPU work between them.</li>\n</ul>\n<p>In other words, each terminal is a mostly sequential workflow with many natural suspension points. It spends almost all its lifetime waiting: for a timer, the network, or the database.</p>\n<p>This is precisely the kind of workload where coroutines should shine.</p>\n<h3>First We Benchmarked the Client</h3>\n<p>We initially used <a href=\"https://github.com/cmu-db/benchbase\">BenchBase<span></span></a>, the well-known JDBC benchmarking framework developed at Carnegie Mellon University under Andy Pavlo. It has a good architecture, supports multiple databases, and includes one of the few widely used implementations of TPC-C.</p>\n<p>The problem was not the benchmark logic. The problem was its execution model. TPC-C has ten terminals per warehouse. Therefore, a run with 15,000 warehouses has 150,000 terminals. In the original implementation we used, that meant 150,000 OS threads.</p>\n<p>For one of our runs, the client required approximately:</p>\n<ul>\n<li>150,000 OS threads;</li>\n<li>600 GiB of RAM;</li>\n<li>five client machines, each with 128 CPU cores and 512 GiB of RAM.</li>\n</ul>\n<p>The YDB cluster under test used only three machines of the same size.</p>\n<p>This ratio is difficult to justify. At larger cluster sizes, the load generator becomes a substantial part of the cloud bill. We estimated that a single experiment across several database configurations could cost around $10,000 in AWS, with much of the cost going to the client rather than the databases being tested.</p>\n<p>We first optimized the existing Java implementation. We replaced platform threads with Java virtual threads and immediately ran into a subtle <a href=\"https://blog.ydb.tech/how-we-switched-to-java-21-virtual-threads-and-got-deadlock-in-tpc-c-for-postgresql-cca2fe08d70b\">deadlock<span></span></a> related to their execution model. We also reduced memory consumption. For 15,000 warehouses, memory usage fell from roughly 600 GiB to about 90 GiB, and the benchmark could run on one machine with a reasonable number of platform threads.</p>\n<p>That was a major improvement, but it was still heavier than we wanted. We are C++ developers, YDB is written in C++, and we needed more control over memory, scheduling, and observability. So we made the decision every programmer secretly enjoys making:</p>\n<p>We rewrote it.</p>\n<picture>\n  \n  \n  <img src=\"https://freedium-mirror.cfd/img/medium/700/1*BgylHVTVaZO2QVkJaixjuA.png\" alt=\"None\" width=\"1536\" height=\"1024\" data-zoom-src=\"/img/medium/4000/1*BgylHVTVaZO2QVkJaixjuA.png\" class=\"prose-image\">\n</picture>\n<h3>The Ideal Code Is Synchronous</h3>\n<p>Let us start with the most natural implementation of a TPC-C terminal:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>A simplified transaction is equally straightforward:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>This code is excellent from the application developer's point of view. It is linear, local, and easy to debug. The business logic is visible from top to bottom.</p>\n<p>The operating system also does a great deal of work for us. When a thread sleeps or waits for a database response, the kernel saves its execution context and schedules another thread. When the wait finishes and a CPU becomes available, the kernel restores the context and execution continues after the blocking call. The terminal does not need to know that it was suspended.</p>\n<p>Unfortunately, this model implies one thread per terminal. A few dozen threads are fine. A few thousand may already be uncomfortable. A hundred and fifty thousand is not a viable architecture.</p>\n<p>Each thread needs a stack and kernel resources. Context switching is relatively expensive. Page-level fragmentation adds more memory overhead. Thread creation and destruction also take a significant amount of time when there are a lot of threads already.</p>\n<p>The synchronous code is beautiful, but the execution model does not scale.</p>\n<h3>Threads vs. Coroutines: A Small Experiment</h3>\n<p>To make the difference visible, we wrote a simple <a href=\"https://github.com/ydb-platform/tpcc-postgres-cpp/tree/main/src/coroutines_vs_threads\">microbenchmark<span></span></a>.</p>\n<p>The machine had 32 physical cores on one NUMA node. We created <em>N</em> workers, either OS threads or stackless coroutines. Each worker performed approximately one microsecond of CPU work and then yielded. The test used one second of warm-up followed by five seconds of measurement.</p>\n<p>Up to 32 workers, both versions scaled similarly: there was a physical core for every worker. Above that point, their behavior diverged.</p>\n<p>The coroutine version maintained nearly constant aggregate throughput across thousands of workers. The thread version dropped immediately after oversubscription and became progressively worse as the number of threads increased. As shown in Figure 1, both approaches scaled similarly up to the number of physical cores, but only coroutines preserved throughput beyond that point.</p>\n<picture>\n  \n  \n  <img src=\"https://freedium-mirror.cfd/img/medium/700/1*tnhZunwLLZMBlKhg28_IKw.png\" alt=\"None\" width=\"889\" height=\"489\" data-zoom-src=\"/img/medium/4000/1*tnhZunwLLZMBlKhg28_IKw.png\" class=\"prose-image\" data-caption=\"<em>Figure 1. Aggregate throughput as concurrency increases. With a 1 μs work slice and 32 physical cores, coroutine throughput remains nearly flat after saturation, while thread throughput steadily declines.</em>\">\n</picture>\n<p>The wall-clock time was even more revealing. The benchmark was supposed to take approximately six seconds, including warm-up. The coroutine version stayed close to that value. With thousands of threads, however, the time spent creating, scheduling, and joining them grew sharply. Figure 2 shows that this overhead eventually dominates the benchmark itself.</p>\n<picture>\n  \n  \n  <img src=\"https://freedium-mirror.cfd/img/medium/700/1*KriE8iJaYcrpQ8UUmdyPSQ.png\" alt=\"None\" width=\"889\" height=\"489\" data-zoom-src=\"/img/medium/4000/1*KriE8iJaYcrpQ8UUmdyPSQ.png\" class=\"prose-image\" data-caption=\"<em>Figure 2. Total benchmark duration. Coroutine execution remains close to the expected six seconds, while the thread-based version becomes increasingly expensive once the worker count reaches the thousands.</em>\">\n</picture>\n<p>The exact numbers depend on the machine and implementation, but the shape is what matters:</p>\n<blockquote>\n<p><em>OS threads are a good unit of parallel execution. They are a poor unit for representing hundreds of thousands of mostly sleeping workflows.</em></p>\n</blockquote>\n<picture>\n  \n  \n  <img src=\"https://freedium-mirror.cfd/img/medium/700/1*xx0Sev5Bqutb3q9tFe6PxQ.png\" alt=\"None\" width=\"1024\" height=\"1024\" data-zoom-src=\"/img/medium/4000/1*xx0Sev5Bqutb3q9tFe6PxQ.png\" class=\"prose-image\">\n</picture>\n<h3>Futures Fix the Execution Model</h3>\n<p>The obvious next step is to use the asynchronous database API.</p>\n<p>A query returns a future. The SDK eventually stores the result in the corresponding promise, and the future becomes ready. With a composable future implementation, we can attach continuations:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>The standard <code>std::future</code> is not particularly helpful here because it does not provide continuation chains. Practical async code usually relies on a third-party future implementation such as YDB's <code>TFuture</code>, Folly futures, or another library with <code>then</code>/<code>Apply</code>/<code>Subscribe</code>-style operations.</p>\n<p>But there is an important subtle issue hidden in this code: <strong>which thread actually executes each part?</strong></p>\n<p>With many future implementations, the continuation attached with <code>Apply()</code> is executed by the thread that makes the future ready. In this case, that is an SDK thread:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>That means the first part of <code>RunTx()</code> executes in the caller's thread, but everything after the first asynchronous query may execute in an SDK thread.</p>\n<p>This is not merely an aesthetic concern. User code may do substantial CPU work, acquire locks, wait for another resource, or accidentally block. If enough continuations run in SDK threads, the application can stall the SDK itself and potentially deadlock.</p>\n<p>Async code often hides thread migration. The syntax shows dependencies, but not the execution context.</p>\n<p>So futures solve one problem — we no longer need an OS thread waiting for every query — but they introduce another question: <strong>where should the continuations execute?</strong></p>\n<p>And transactions are only half of the problem.</p>\n<p>Our terminal is still written as synchronous code:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p><code>RunTx()</code> now returns a future, so we cannot simply wait for it without once again blocking an OS thread.</p>\n<p>The two <code>Sleep()</code> calls have exactly the same problem. TPC-C intentionally spends a significant amount of time simulating keying time before a transaction and think time after it. With hundreds of thousands of terminals, blocking an OS thread for every sleeping terminal would bring us straight back to the one-thread-per-terminal design.</p>\n<p>The whole terminal therefore has to become asynchronous as well. We need non-blocking timers for the sleeps, and when either a timer or a database request completes, we need to continue the terminal on threads that we control.</p>\n<p>This brings us to a worker pool. We need a pool capable of scheduling both continuations and timers:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p><code>After()</code> gives us a non-blocking sleep: no worker thread has to sit idle while a terminal is waiting. <code>ContinueWith()</code> also gives us an explicit execution boundary: instead of allowing application logic to continue inside an arbitrary SDK thread, we schedule it onto our own pool.</p>\n<p>The transaction can now be fully asynchronous without blocking an OS thread:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>The transaction code is close to the original one. Let's rewrite the terminal code using futures and pools.</p>\n<h3>Callback Hell</h3>\n<p>The terminal used to be a loop. In the asynchronous version, each blocking point becomes a continuation. State that used to live naturally in local variables must be stored somewhere that survives after the function returns.</p>\n<p>A nonblocking terminal looks like this:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>The code is efficient, but the business logic is wrapped in pool calls, future chains, captures, ownership transfers, and nested lambdas.</p>\n<p>Large lambdas are difficult to read. Extracting every continuation into a separate function avoids nesting, but scatters one logical workflow across the file. Error handling and cancellation make the structure even more complicated.</p>\n<picture>\n  \n  \n  <img src=\"https://freedium-mirror.cfd/img/medium/700/1*oa02z_4wqY__vv16emnjFQ.png\" alt=\"None\" width=\"1536\" height=\"1024\" data-zoom-src=\"/img/medium/4000/1*oa02z_4wqY__vv16emnjFQ.png\" class=\"prose-image\">\n</picture>\n<p>Waiting no longer consumes one OS thread per terminal, and application continuations execute on a pool under our control. A small number of worker threads can execute a very large number of terminals. Unfortunately, the price is readability.</p>\n<h3>Coroutines Restore the Shape of the Code</h3>\n<p>With C++20 coroutines, the transaction again looks almost synchronous:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>The terminal becomes a loop again:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>The code uses the same asynchronous operations as the future-chain implementation. It does not block a worker thread while waiting. We can create hundreds of thousands of coroutine instances, yet the business logic remains local and sequential.</p>\n<p>Coroutines do not make the operation synchronous. They make asynchronous control flow <em>look</em> sequential. That distinction becomes much easier to understand once we look at what the compiler generates.</p>\n<h3>Looking Under the Hood</h3>\n<h3>co_await Is Syntax Sugar, Not an Operating-System Feature</h3>\n<p>The operating system knows about threads. It does not know about C++ coroutines. When synchronous code blocks, the kernel saves thread state: registers, stack position, and scheduler metadata. With a stackless C++ coroutine, it is the compiler who generates code that stores the state needed to continue the function later.</p>\n<p>If the compiler can generate the code for us, we can write it manually. Before looking at what <code>co_await</code> does, let's try to get the same behavior <em>without using coroutines at all</em> and sketch a sugar-free terminal.</p>\n<p>Below is the initial terminal code:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>The code has a natural sequence of stages. At any given moment, the terminal is either waiting before a transaction, running a transaction, processing its result, or finished.</p>\n<p>We can make those states explicit:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>Once execution can stop between these stages, local variables can no longer live only on the stack of <code>RunTerminal()</code>. We need to store everything required to continue later:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p><code>StateDone</code> represents the asynchronous operation we are currently waiting for: a timer or a database transaction.</p>\n<p>Now <code>RunTerminal()</code> no longer runs the whole terminal. It performs one transition of the state machine and returns.</p>\n<p>The first state prepares the next transaction and starts the keying-time timer:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>Notice what happened to <code>Sleep()</code>. We no longer block here. <code>pool.After()</code> returns a future, we remember it in <code>StateDone</code>, set the state that should execute next, and return.</p>\n<p>Once that future becomes ready, the state machine can be resumed. This time it enters <code>RunTx</code>:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>Again, we start an asynchronous operation and return. When the transaction completes, its result is saved in our explicit state.</p>\n<p>The next resume processes that result and starts the think-time timer:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>After the timer fires, the state machine returns to <code>Sleep</code>, selects another transaction, and repeats.</p>\n<p>So our original straight-line code:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>has turned into an explicit state machine that remembers <strong>where execution stopped and which local variables must survive until it resumes.</strong></p>\n<p>There is still one missing piece. Something has to call <code>RunTerminal()</code> again whenever <code>StateDone</code> becomes ready.</p>\n<p>Let's wrap the state machine in a task:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>Creating a terminal now means creating its persistent state:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>And we need a small driver that resumes the task whenever the asynchronous operation it is waiting for completes:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>The exact mechanics are simplified here, but the structure is the important part:</p>\n<ol>\n<li>Transform the straight-line function into a state machine.</li>\n<li>Move the state that must survive suspension into a persistent task object.</li>\n<li>Have some external entity resume that task when it can make progress.</li>\n</ol>\n<p>Here the external entity is a tiny <code>driver</code>. In a real implementation, this role is normally played by a scheduler.</p>\n<p>Congratulations. We have effectively implemented a coroutine ourselves.</p>\n<p>And that is the useful mental model for understanding C++ coroutines: the compiler is not introducing an entirely new execution mechanism. It is automating much of the tedious transformation we just performed manually.</p>\n<picture>\n  \n  \n  <img src=\"https://freedium-mirror.cfd/img/medium/700/1*vWwl5HOBcvirB9Cvlp1pbg.png\" alt=\"None\" width=\"1402\" height=\"1122\" data-zoom-src=\"/img/medium/4000/1*vWwl5HOBcvirB9Cvlp1pbg.png\" class=\"prose-image\">\n</picture>\n<p>A useful mental model is:</p>\n<blockquote>\n<p>Every <code>co_await</code> is a possible return from the coroutine, and every resumption is a jump back into the generated state machine.</p>\n</blockquote>\n<h3>A Coroutine Function Is Not an Ordinary Function Call</h3>\n<p>A function containing <code>co_await</code>, <code>co_return</code>, or <code>co_yield</code> is a coroutine function.</p>\n<p>Calling it does not behave like calling an ordinary function that must run to completion before returning. The call creates a coroutine frame and a promise object, obtains the return object, and then either starts executing the body immediately or leaves it suspended for later.</p>\n<p>Conceptually, this:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>is closer to creating a task object and a coroutine frame first:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>The real compiler transformation is more nuanced, but this model explains several otherwise surprising details:</p>\n<ul>\n<li>Calling a coroutine may execute part of its body immediately.</li>\n<li>It may instead create a lazy task that does nothing until resumed.</li>\n<li>Local variables that cross a suspension point live in the coroutine frame.</li>\n<li>Destroying the returned task may destroy the suspended coroutine, depending on the task type's ownership rules.</li>\n</ul>\n<p>Once you stop thinking of a coroutine call as an ordinary function call, much of the apparent magic disappears.</p>\n<p>For a much deeper dive into coroutine internals, I highly recommend <a href=\"https://lewissbaker.github.io/\">Lewis Baker's series on C++ coroutines<span></span></a>, especially his articles on the compiler transform, <code>co_await</code>, and promise types.</p>\n<h3>The Two Customization Points: Promise and Awaiter</h3>\n<p>The C++ standard gives us the language transformation, but the surrounding types define how it behaves.</p>\n<p>First, the coroutine's return type must be associated with a <code>promise_type</code>. For a simplified <code>TFuture&lt;void&gt;</code>, it might look like this:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>The promise type determines the returned object, eager vs. lazy start, final suspension behavior, result propagation, and exception propagation.</p>\n<p>Second, the expression to the right of <code>co_await</code> must produce an awaiter. An awaiter exposes three operations:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>A minimal future awaiter could be written as follows:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>The logic is simple:</p>\n<ul>\n<li>If the future is already ready, continue without suspending.</li>\n<li>Otherwise, store the coroutine handle in a callback and return control to the caller.</li>\n<li>When the future becomes ready, the callback resumes the coroutine.</li>\n<li><code>await_resume()</code> extracts the value or rethrows the exception.</li>\n</ul>\n<p>But this minimal awaiter brings us back to the thread question: <code>handle.resume()</code> runs the coroutine in whichever thread completes the future. Consider the example below:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>This resembles our first future-based version without explicit scheduling. We need a different awaiter.</p>\n<h3>Scheduling the Coroutine onto Our Pool</h3>\n<p>We give each terminal a monotonically increasing ID and map it to a worker thread:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>A terminal is always resumed in its assigned worker. This gives us affinity without creating a thread per terminal and makes per-thread load easy to measure.</p>\n<p>First, we need an awaiter that moves execution onto the pool:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>At the beginning of the terminal, we ensure that it runs in the correct worker:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>We also need to resume the coroutine on the pool after a future becomes ready:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>Now an SDK thread may mark the future ready, but it does not execute our application logic. It only schedules the suspended coroutine onto our worker pool.</p>\n<p>The final terminal is still readable, while the scheduling boundary is explicit:</p>\n\n\t\t\t\t\t\t<div class=\"relative\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n<p>A library can hide these wrappers behind <code>operator co_await</code>, an executor-bound future, or a task type that carries its scheduler. We kept the scheduling explicit in the examples because it reveals where execution can move between threads.</p>\n<h3>C++ Gives You Three Keywords, Not a Runtime</h3>\n<picture>\n  \n  \n  <img src=\"https://freedium-mirror.cfd/img/medium/700/1*KvXCdhoL75TVlC8GTTTTxA.png\" alt=\"None\" width=\"1536\" height=\"1024\" data-zoom-src=\"/img/medium/4000/1*KvXCdhoL75TVlC8GTTTTxA.png\" class=\"prose-image\">\n</picture>\n<p>C++20 added <code>co_await</code>, <code>co_return</code>, and <code>co_yield</code>, plus the machinery in <code>&lt;coroutine&gt;</code>. It did not add a complete asynchronous runtime.</p>\n<p>The standard library does not provide the pieces we needed for this benchmark:</p>\n<ul>\n<li>a coroutine-friendly future/task type</li>\n<li>a thread-pool scheduler</li>\n<li>timers</li>\n<li>an event loop</li>\n</ul>\n<p>We built a small runtime for our TPC-C client: futures and promises, a FIFO scheduler, worker threads, a timer thread, and awaiters that preserve execution context.</p>\n<p>That low-level work is interesting, but it is library work. Application developers should normally use an existing runtime or library rather than implement every coroutine primitive themselves.</p>\n<p>This is also where C++ differs sharply from Java virtual threads and Go goroutines. Their runtimes provide scheduling and I/O integration. The entry barrier is much lower, but the runtime makes more decisions for you. C++ gives much more control and much less infrastructure.</p>\n<p>Neither design is free. Java let us move to virtual threads with an almost one-line change, but we still encountered a deadlock in the PostgreSQL TPC-C client because virtual threads impose their own constraints. A simple surface API does not eliminate the need to understand the runtime underneath it.</p>\n<h3>The Result</h3>\n<p>The rewritten client includes a terminal UI for both data import and the benchmark run. During import, it reports current and average throughput, progress, index creation, elapsed time, ETA, and logs. In one 15,000-warehouse run, the importer used 53 threads for an estimated 1.49 TiB dataset and showed a current rate of about 966 MiB/s with an average of 744 MiB/s.</p>\n<p>During the benchmark, the UI shows a preview of TPC-C efficiency and throughput, latency percentiles for every transaction type, and the load and QPS of every terminal worker.</p>\n<p>For a 15,000-warehouse run, the client used approximately:</p>\n<ul>\n<li>25 CPU cores on average;</li>\n<li>520 MiB of RAM instead of roughly 600 GiB;</li>\n<li>about 500 process threads instead of 150,000.</li>\n</ul>\n<p>The dramatic memory reduction came from the broader client redesign and much smaller per-terminal state, not from coroutines or the transition to C++ alone.</p>\n<p>The total thread count includes a large number of gRPC/SDK threads. Only 16 workers executed terminal coroutines.</p>\n<picture>\n  \n  \n  <img src=\"https://freedium-mirror.cfd/img/medium/700/1*Ck93eQZv0o2LFLFfXC4FzQ.gif\" alt=\"None\" width=\"1000\" height=\"480\" data-zoom-src=\"/img/medium/4000/1*Ck93eQZv0o2LFLFfXC4FzQ.gif\" class=\"prose-image\">\n</picture>\n<p>A proper execution model allowed us to implement the thread-load display, which turned out to be just as important as the resource reduction.</p>\n<h3>Benchmarking the Client Is Part of Benchmark Correctness</h3>\n<p>Suppose we configure too few workers. They reach almost 100% utilization, and ready coroutines wait in the client's run queue before they can send the next database request or process a completed response.</p>\n<p>From outside, transaction latency appears to rise dramatically. TPC-C efficiency falls. It is tempting to conclude that the database is slow.</p>\n<p>But the database is not necessarily the bottleneck. The client is.</p>\n<p>In one deliberately undersized configuration, four terminal workers were saturated at approximately 99% load. Reported median latencies rose to around two seconds, and efficiency fell below 90%. With enough workers, per-thread load stayed much lower and the benchmark reported roughly 99% efficiency.</p>\n<picture>\n  \n  \n  <img src=\"https://freedium-mirror.cfd/img/medium/700/1*7dLbeWv5z9bcKvLQTO5CPw.png\" alt=\"None\" width=\"3354\" height=\"1336\" data-zoom-src=\"/img/medium/4000/1*7dLbeWv5z9bcKvLQTO5CPw.png\" class=\"prose-image\">\n</picture>\n<p>A load generator must expose its own saturation. Otherwise, it can attribute client-side queueing time to the system under test and produce misleading results.</p>\n<p>The same rule applies beyond benchmarks: every asynchronous service should make executor load and queueing visible. Coroutines make concurrency cheap; they do not make CPU capacity infinite.</p>\n<h3>Coroutines Are Not a Guarantee of Speed</h3>\n<p>After adopting coroutines, we still found major bottlenecks unrelated to coroutine mechanics.</p>\n<p>The first was a thundering herd. Starting all 150,000 terminals at the same instant caused a burst of work and poor behavior. We fixed it by spreading terminal startup across the warm-up interval.</p>\n<p>The second was a surprisingly large gRPC slowdown caused by a build configuration issue: what we thought was a proper release build was still missing <code>NDEBUG</code>. The database appeared slow, but the bottleneck was in the client-side RPC stack.</p>\n<p>We also found an interesting gRPC channel bottleneck and wrote a separate <a href=\"https://medium.com/ydbtech/the-surprising-grpc-client-bottleneck-in-low-latency-networks-and-how-to-get-around-it-69d6977a1d02\">post<span></span></a> about it.</p>\n<p>These problems reinforce the central lesson:</p>\n<blockquote>\n<p><em>Coroutines remove the cost of representing large numbers of suspended workflows. They do not remove bottlenecks in scheduling, networking, allocation, synchronization, or startup behavior.</em></p>\n</blockquote>\n<p>You still have to measure the whole system.</p>\n<h3>TPC-C for PostgreSQL</h3>\n<p>As a small bonus, we also <a href=\"https://github.com/ydb-platform/tpcc-postgres\">ported<span></span></a> our TPC-C implementation to PostgreSQL.</p>\n<p>Most of the port was done with an LLM — Opus 4.6. The codebase is about 8,000 lines, so this turned into an interesting experiment in how far an LLM can take a real systems-code port.</p>\n<p>The result was useful, but certainly not push-button. The model introduced bugs, occasionally dropped functionality, and needed quite a bit of guidance. It helped enormously that we already knew the original code well: reviewing and correcting an LLM-generated port of unfamiliar code would have been much harder.</p>\n<p>Still, it saved a substantial amount of mechanical work, and we ended up with a version of the same coroutine-based TPC-C client that can run against PostgreSQL.</p>\n<p>This is useful to us for another reason as well: we can use it to test YDB through its PostgreSQL-compatible interface, while keeping the workload and client architecture close to the native YDB benchmark.</p>\n<p>So, at least based on this experiment, programmers are not out of a job yet — but LLMs are already quite good at helping with this kind of large, repetitive porting work.</p>\n<h3>Conclusion</h3>\n<p>C++ coroutines gave us the combination we wanted:</p>\n<ul>\n<li>the scalability of asynchronous futures;</li>\n<li>the readability of synchronous code;</li>\n<li>explicit control over scheduling and thread affinity;</li>\n<li>enough efficiency to represent 150,000 TPC-C terminals (and many more) on one client machine.</li>\n</ul>\n<p>The language feature itself is only part of the solution. The compiler builds the state machine, but a real application still needs futures, timers, a scheduler, an event loop, and clear rules for where continuations run.</p>\n<p>For library developers, this is a workshop full of low-level tools: promise types, awaiters, coroutine handles, lifetime management, and schedulers. For application developers, a good coroutine library turns those tools into something much simpler: code that reads like the business process it implements.</p>\n<picture>\n  \n  \n  <img src=\"https://freedium-mirror.cfd/img/medium/700/1*MPCJmOv4r5biBYjfFNLW7Q.png\" alt=\"None\" width=\"2048\" height=\"768\" data-zoom-src=\"/img/medium/4000/1*MPCJmOv4r5biBYjfFNLW7Q.png\" class=\"prose-image\">\n</picture>\n<p>That is the real value of coroutines. They do not make asynchronous systems simple. They let us move much of the unavoidable complexity out of every application workflow and into a reusable runtime.</p>\n<p>And once that runtime exists, coroutines can finally become routine.</p></div></div> <div data-nosnippet=\"\" class=\"border-t border-gray-200 dark:border-zinc-700\"></div></article>",
+ "markdown": null
+}

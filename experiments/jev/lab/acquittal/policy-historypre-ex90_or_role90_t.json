@@ -1,0 +1,4012 @@
+{
+ "policy": "ex90_or_role90_t",
+ "fixtures": null,
+ "bugs": null,
+ "history": null,
+ "historypre": {
+  "wrongful": 21,
+  "recovered": 13,
+  "controls": 402,
+  "controls_leaked": 9,
+  "restored": 167,
+  "restored_list": [
+   {
+    "commit": "076d17e",
+    "page": "issues--142-arxiv-multi-citations",
+    "fp": "removeBySelector|a|fe870e9c6897|3f68a180",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.12,
+     "plain": 0.08,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.23
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--142-arxiv-multi-citations",
+    "fp": "removeBySelector|a|fe870e9c6897|60ae6480",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.11,
+     "plain": 0.08,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.24
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--142-arxiv-multi-citations",
+    "fp": "removeBySelector|a|fe870e9c6897|0f97e7b8",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.11,
+     "plain": 0.07,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.23
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|356a192b7913|3280bb64",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "1",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.94,
+     "po": 0.2,
+     "role": 0.99,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|47ffd93865bc|e1221a04",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "3.2",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.91,
+     "po": 0.29,
+     "role": 0.875,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|356a192b7913|29ee15f5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "1",
+    "ans": {
+     "ex": 0.92,
+     "plain": 0.86,
+     "po": 0.2,
+     "role": 0.98,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|47ffd93865bc|f78143ed",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "3.2",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.91,
+     "po": 0.29,
+     "role": 0.875,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|356a192b7913|59594345",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "1",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.92,
+     "po": 0.2,
+     "role": 0.98,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "076d17e",
+    "page": "issues--143-arxiv-cross-references",
+    "fp": "removeBySelector|a|356a192b7913|5660d2e6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "1",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.9,
+     "po": 0.2,
+     "role": 0.98,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "9e6fa75",
+    "page": "general--www.figma.com:blog:introducing-codex-to-figma",
+    "fp": "scoreAndRemove|div|2cf08b4262b3|af14d827",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 0.99,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "9e6fa75",
+    "page": "general--www.figma.com:blog:introducing-codex-to-figma",
+    "fp": "scoreAndRemove|div|2cf08b4262b3|cd51999f",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 0.99,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|2ee4d049",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.19,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.65
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|52a31ec5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.24,
+     "plain": 0.24,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.5
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|8d2388dc",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.23,
+     "plain": 0.21,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.47
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|c4937168",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.22,
+     "plain": 0.19,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.43
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|497a096b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.36,
+     "plain": 0.31,
+     "po": 0.36,
+     "role": 0.965,
+     "v2": 0.46
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|e4ac9c6b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.24,
+     "plain": 0.23,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.59
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|cae231c0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.33,
+     "plain": 0.32,
+     "po": 0.33,
+     "role": 0.98,
+     "v2": 0.52
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|1ce6ac52",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.42,
+     "plain": 0.42,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.53
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|0a3be13c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.35,
+     "plain": 0.33,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.48
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|b50f2e7d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.23,
+     "po": 0.12,
+     "role": 0.97,
+     "v2": 0.46
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|16d7dc32",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.28,
+     "plain": 0.25,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.43
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|3b97d715",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.18,
+     "plain": 0.16,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.52
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|4c226821",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.38,
+     "plain": 0.38,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.64
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|43fc5e48",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.21,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.43
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|25773571",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.19,
+     "plain": 0.18,
+     "po": 0.12,
+     "role": 0.96,
+     "v2": 0.39
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|8989c13a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.39,
+     "plain": 0.31,
+     "po": 0.12,
+     "role": 0.97,
+     "v2": 0.56
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|d0a84a7a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.32,
+     "plain": 0.29,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.54
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|cac54276",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.24,
+     "plain": 0.22,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.49
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|df424487",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.53,
+     "plain": 0.56,
+     "po": 0.12,
+     "role": 0.97,
+     "v2": 0.66
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|8ad65229",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.22,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.48
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|3e0209a5",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.3,
+     "plain": 0.26,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.4
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|726703cb",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.18,
+     "po": 0.12,
+     "role": 0.97,
+     "v2": 0.45
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|6688182b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.17,
+     "plain": 0.14,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.44
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|256ec4ec",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.2,
+     "plain": 0.18,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.49
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|2ce1369a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.25,
+     "po": 0.12,
+     "role": 0.97,
+     "v2": 0.46
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|7fd48cef",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.14,
+     "plain": 0.15,
+     "po": 0.12,
+     "role": 0.96,
+     "v2": 0.34
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|df69cb9b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.51,
+     "plain": 0.48,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.69
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|4eda5361",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.22,
+     "plain": 0.19,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.46
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|247c2ce1",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.19,
+     "plain": 0.17,
+     "po": 0.12,
+     "role": 0.955,
+     "v2": 0.38
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|8624a032",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.23,
+     "po": 0.12,
+     "role": 0.97,
+     "v2": 0.49
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|86fa4825",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.37,
+     "plain": 0.34,
+     "po": 0.12,
+     "role": 0.97,
+     "v2": 0.62
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|7f6791da",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.25,
+     "po": 0.12,
+     "role": 0.97,
+     "v2": 0.41
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|h1|701a1f192aa2|867f28ba",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "selector": "appendix",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h1",
+    "text": "Appendix: Quasi-simulators",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "ae6fc5c",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|fe870e9c6897|3fc8b0d3",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.38,
+     "plain": 0.37,
+     "po": 0.12,
+     "role": 0.97,
+     "v2": 0.57
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|a|fe870e9c6897|e20053aa",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.21,
+     "plain": 0.22,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.38
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|a|fe870e9c6897|216da015",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.25,
+     "plain": 0.23,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.45
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|a|fe870e9c6897|e6ae010e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.23,
+     "plain": 0.27,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.41
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|a|fe870e9c6897|fc68986c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.35,
+     "plain": 0.33,
+     "po": 0.12,
+     "role": 0.975,
+     "v2": 0.55
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|a|fe870e9c6897|09f68ec2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "a[href^=\"#\"][class*=\"ref\" i]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩",
+    "ans": {
+     "ex": 0.26,
+     "plain": 0.23,
+     "po": 0.12,
+     "role": 0.965,
+     "v2": 0.52
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "footnotes--maggieappleton.com-xanadu-patterns",
+    "fp": "removeBySelector|div|35b0723d6dbb|efe448ce",
+    "step": "removeBySelector",
+    "reason": "partial match: metadata",
+    "selector": "metadata",
+    "exact": [],
+    "fam": "meta",
+    "inline": false,
+    "words": 31,
+    "tag": "div",
+    "text": "A Pattern Language Christopher Alexander The book outlined a number of solutions for architecture and urban planning design, but the theory has since (appropriately) taken on a life of its own.",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.36,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|788587c8f3ed|a1e263de",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "G=Sn​",
+    "ans": {
+     "ex": 0.79,
+     "plain": 0.81,
+     "po": 0.43,
+     "role": 0.965,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|3bfcfe3d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.64,
+     "plain": 0.58,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.87
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|51576cd6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.7,
+     "plain": 0.67,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.81
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|504a8f4f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.74,
+     "plain": 0.67,
+     "po": 0.65,
+     "role": 0.96,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|1637bd442d45|0717e2a0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩⟺∣⟨g⟩∣=∣CG​(g)∣⟺∣g∣=∣CG​(g)∣​",
+    "ans": {
+     "ex": 0.51,
+     "plain": 0.5,
+     "po": 0.7,
+     "role": 0.98,
+     "v2": 0.87
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|95059c48",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.91,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|6b8bed69d072|05a68267",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "span",
+    "text": "Stab(g)=CG​(g)​",
+    "ans": {
+     "ex": 0.81,
+     "plain": 0.84,
+     "po": 0.81,
+     "role": 0.98,
+     "v2": 0.06
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|aba4b871",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|c70a9e00bd2a|7820f828",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "abn!​=ab∣G∣​​",
+    "ans": {
+     "ex": 0.44,
+     "plain": 0.34,
+     "po": 0.62,
+     "role": 0.98,
+     "v2": 0.67
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|74b190371d55|f92373d2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣=ab∣G∣​​",
+    "ans": {
+     "ex": 0.3,
+     "plain": 0.27,
+     "po": 0.64,
+     "role": 0.99,
+     "v2": 0.73
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|92bdb438",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.78,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2fc9e3aaaaa8|5a85ff58",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Stab(g)∣=∣Orb(g)∣∣G∣​=∣G∣/ab∣G∣​=ab≥∣g∣b≥∣g∣=l​",
+    "ans": {
+     "ex": 0.43,
+     "plain": 0.51,
+     "po": 0.76,
+     "role": 0.99,
+     "v2": 0.87
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|8910acfec31a|ed7de527",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 3,
+    "tag": "span",
+    "text": "∣Stab(g)∣=∣g∣⟺a=l and b=1​",
+    "ans": {
+     "ex": 0.38,
+     "plain": 0.45,
+     "po": 0.72,
+     "role": 0.995,
+     "v2": 0.82
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|958f0c20eca5|71b3d086",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 9,
+    "tag": "span",
+    "text": "a=l⟺g has coprime cycle lengthsb=1⟺g has unequal cycle lengths​",
+    "ans": {
+     "ex": 0.26,
+     "plain": 0.27,
+     "po": 0.51,
+     "role": 0.99,
+     "v2": 0.78
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|39e7514e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.51,
+     "plain": 0.45,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.86
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|5b03ae46",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.58,
+     "plain": 0.52,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.88
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|a4c1eac2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.75,
+     "po": 0.65,
+     "role": 0.96,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|ff99e9d0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|3466aad2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|1b6ff43b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|123443d0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.78,
+     "plain": 0.76,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|58a69e0f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.84,
+     "po": 0.65,
+     "role": 0.96,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|404156bf",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|cc45c676",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|e5e57589",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|2196e6d6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.74,
+     "po": 0.65,
+     "role": 0.96,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|a335278a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|0baf4d9b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|84c04b7e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|cb3b0ce4",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.84,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|481c9d3f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "d4e5898",
+    "page": "math--katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|786d1f40",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "4e00da2",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|463924bb1d80|a0356a95",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/topics\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "TAI",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.28,
+     "role": 0.21,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "4e00da2",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "4e00da2",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|h1|701a1f192aa2|867f28ba",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "selector": "appendix",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h1",
+    "text": "Appendix: Quasi-simulators",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "de0f86a",
+    "page": "stripe",
+    "fp": "scoreAndRemove|div|5243ba343805|f5f5168c",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 192,
+    "tag": "div",
+    "text": "Payments Billing x402 payments Use x402 for machine-to-machine payments. Ask about this page Copy for LLM x402 is a protocol for internet payments. When a client requests a paid resource, your server returns a 402 Payment Required response with payment details. The client completes the payment and r",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.94,
+     "po": 0.97,
+     "role": 0.975,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "de0f86a",
+    "page": "stripe",
+    "fp": "scoreAndRemove|div|3f8cc4d04244|57484846",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 27,
+    "tag": "div",
+    "text": "Test your endpoint Make a request to your server without an existing payment header, and you receive a 402 response with payment requirements. Command Line curl http://localhost:3000/paid",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 0.99,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "de0f86a",
+    "page": "stripe",
+    "fp": "scoreAndRemove|div|59b075434401|0d76072e",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 2,
+    "tag": "div",
+    "text": "Command Line",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.91,
+     "po": 0.93,
+     "role": 0.96,
+     "v2": 0.89
+    }
+   },
+   {
+    "commit": "de0f86a",
+    "page": "stripe",
+    "fp": "removeBySelector|div|89f417aacfca|6f3c51d5",
+    "step": "removeBySelector",
+    "reason": "partial match: dropdown",
+    "selector": "dropdown",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 2,
+    "tag": "div",
+    "text": "curl http://localhost:3000/paid",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "de0f86a",
+    "page": "stripe",
+    "fp": "removeBySelector|div|02916bb1d1e5|b9113dc6",
+    "step": "removeBySelector",
+    "reason": "partial match: dropdown",
+    "selector": "dropdown",
+    "exact": [],
+    "fam": "nav",
+    "inline": false,
+    "words": 4,
+    "tag": "div",
+    "text": "Command Line curl http://localhost:3000/paid",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.98,
+     "role": 1,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "ad87033",
+    "page": "mintlify",
+    "fp": "removeBySelector|header|87a6547f0a23|d64d35d9",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "header"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 18,
+    "tag": "header",
+    "text": "Cover vs Contain Modes Learn the difference between cover and contain modes and when to use each one",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.995,
+     "v2": 0.61
+    }
+   },
+   {
+    "commit": "ad87033",
+    "page": "mintlify",
+    "fp": "removeBySelector|h3|675516cc7eea|855c91db",
+    "step": "removeBySelector",
+    "reason": "partial match: cover-",
+    "selector": "cover-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h3",
+    "text": "Cover Mode",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.735,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "ad87033",
+    "page": "mintlify",
+    "fp": "removeBySelector|h2|3f170caead65|a6c058a4",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "selector": "next-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h2",
+    "text": "Next Steps",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.7,
+     "po": 0.75,
+     "role": 0.99,
+     "v2": 0.83
+    }
+   },
+   {
+    "commit": "ad87033",
+    "page": "mintlify",
+    "fp": "removeBySelector|h2|3f170caead65|422486ce",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "selector": "next-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h2",
+    "text": "Next Steps",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.7,
+     "po": 0.75,
+     "role": 0.99,
+     "v2": 0.86
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "scoreAndRemove|div|5f2da735418d|1a3d66de",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 17,
+    "tag": "div",
+    "text": "<SanityImage id={image._id} baseUrl=\"https://cdn.sanity.io/images/abcd1234/production/\" width={500} height={300} mode=\"contain\" // or omit, as this is the default alt=\"Product image\" />",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.96,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "scoreAndRemove|div|d86df4a21ddb|1a3d66de",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 9,
+    "tag": "div",
+    "text": "<SanityImage id={image._id} baseUrl=\"https://cdn.sanity.io/images/abcd1234/production/\" width={500} height={300} mode=\"cover\" alt=\"Product image\" />",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.92,
+     "po": 0.95,
+     "role": 1,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|header|87a6547f0a23|e0fc5a31",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "header"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 18,
+    "tag": "header",
+    "text": "Cover vs Contain Modes Learn the difference between cover and contain modes and when to use each one",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.995,
+     "v2": 0.61
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|h3|675516cc7eea|eb608990",
+    "step": "removeBySelector",
+    "reason": "partial match: cover-",
+    "selector": "cover-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h3",
+    "text": "Cover Mode",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.98,
+     "po": 0.99,
+     "role": 0.735,
+     "v2": 0.99
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|h2|3f170caead65|3ba9f47c",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "selector": "next-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h2",
+    "text": "Next Steps",
+    "ans": {
+     "ex": 0.65,
+     "plain": 0.64,
+     "po": 0.65,
+     "role": 0.99,
+     "v2": 0.75
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|header|87a6547f0a23|1b918e5b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "header"
+    ],
+    "fam": "chrome",
+    "inline": false,
+    "words": 18,
+    "tag": "header",
+    "text": "Cover vs Contain Modes Learn the difference between cover and contain modes and when to use each one",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.995,
+     "v2": 0.63
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|h3|675516cc7eea|ed6ddbda",
+    "step": "removeBySelector",
+    "reason": "partial match: cover-",
+    "selector": "cover-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h3",
+    "text": "Cover Mode",
+    "ans": {
+     "ex": 0.99,
+     "plain": 0.97,
+     "po": 0.99,
+     "role": 0.735,
+     "v2": 0.98
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|h2|3f170caead65|aed0f0c5",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "selector": "next-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h2",
+    "text": "Next Steps",
+    "ans": {
+     "ex": 0.65,
+     "plain": 0.64,
+     "po": 0.65,
+     "role": 0.99,
+     "v2": 0.81
+    }
+   },
+   {
+    "commit": "34e35d5",
+    "page": "mintlify",
+    "fp": "removeBySelector|h2|3f170caead65|77628b33",
+    "step": "removeBySelector",
+    "reason": "partial match: next-",
+    "selector": "next-",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h2",
+    "text": "Next Steps",
+    "ans": {
+     "ex": 0.65,
+     "plain": 0.64,
+     "po": 0.65,
+     "role": 0.99,
+     "v2": 0.81
+    }
+   },
+   {
+    "commit": "eb51474",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|463924bb1d80|a0356a95",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/topics\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "TAI",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.28,
+     "role": 0.21,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "eb51474",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "eb51474",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|h1|701a1f192aa2|867f28ba",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "selector": "appendix",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h1",
+    "text": "Appendix: Quasi-simulators",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|788587c8f3ed|a1e263de",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "G=Sn​",
+    "ans": {
+     "ex": 0.79,
+     "plain": 0.81,
+     "po": 0.43,
+     "role": 0.965,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|3bfcfe3d",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.64,
+     "plain": 0.58,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.87
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|51576cd6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.7,
+     "plain": 0.67,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.81
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|504a8f4f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.74,
+     "plain": 0.67,
+     "po": 0.65,
+     "role": 0.96,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|1637bd442d45|0717e2a0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩⟺∣⟨g⟩∣=∣CG​(g)∣⟺∣g∣=∣CG​(g)∣​",
+    "ans": {
+     "ex": 0.51,
+     "plain": 0.5,
+     "po": 0.7,
+     "role": 0.98,
+     "v2": 0.87
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|95059c48",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.89,
+     "plain": 0.91,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|6b8bed69d072|05a68267",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": false,
+    "words": 1,
+    "tag": "span",
+    "text": "Stab(g)=CG​(g)​",
+    "ans": {
+     "ex": 0.81,
+     "plain": 0.84,
+     "po": 0.81,
+     "role": 0.98,
+     "v2": 0.06
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|aba4b871",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|c70a9e00bd2a|7820f828",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "abn!​=ab∣G∣​​",
+    "ans": {
+     "ex": 0.44,
+     "plain": 0.34,
+     "po": 0.62,
+     "role": 0.98,
+     "v2": 0.67
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|74b190371d55|f92373d2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣=ab∣G∣​​",
+    "ans": {
+     "ex": 0.3,
+     "plain": 0.27,
+     "po": 0.64,
+     "role": 0.99,
+     "v2": 0.73
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|92bdb438",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.78,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|2fc9e3aaaaa8|5a85ff58",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Stab(g)∣=∣Orb(g)∣∣G∣​=∣G∣/ab∣G∣​=ab≥∣g∣b≥∣g∣=l​",
+    "ans": {
+     "ex": 0.43,
+     "plain": 0.51,
+     "po": 0.76,
+     "role": 0.99,
+     "v2": 0.87
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|8910acfec31a|ed7de527",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 3,
+    "tag": "span",
+    "text": "∣Stab(g)∣=∣g∣⟺a=l and b=1​",
+    "ans": {
+     "ex": 0.38,
+     "plain": 0.45,
+     "po": 0.72,
+     "role": 0.995,
+     "v2": 0.82
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|958f0c20eca5|71b3d086",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 9,
+    "tag": "span",
+    "text": "a=l⟺g has coprime cycle lengthsb=1⟺g has unequal cycle lengths​",
+    "ans": {
+     "ex": 0.26,
+     "plain": 0.27,
+     "po": 0.51,
+     "role": 0.99,
+     "v2": 0.78
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|39e7514e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.51,
+     "plain": 0.45,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.86
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|5b03ae46",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.58,
+     "plain": 0.52,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.88
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|a4c1eac2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.75,
+     "po": 0.65,
+     "role": 0.96,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|ff99e9d0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|3466aad2",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|1b6ff43b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|4c1eba952a77|123443d0",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "CG​(g)=⟨g⟩",
+    "ans": {
+     "ex": 0.78,
+     "plain": 0.76,
+     "po": 0.47,
+     "role": 0.97,
+     "v2": 0.9
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|58a69e0f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.82,
+     "plain": 0.84,
+     "po": 0.65,
+     "role": 0.96,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|404156bf",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|cc45c676",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|e5e57589",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|e8e308adcbee|2196e6d6",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "⟨g⟩⊆CG​(g)",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.74,
+     "po": 0.65,
+     "role": 0.96,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|a335278a",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.86,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|0baf4d9b",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|84c04b7e",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|5c29dd6f98b2|cb3b0ce4",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "xgx−1=x⟺xg=gx",
+    "ans": {
+     "ex": 0.84,
+     "plain": 0.86,
+     "po": 0.58,
+     "role": 0.98,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|ab5ece9dec50|481c9d3f",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣g∣=l≤a",
+    "ans": {
+     "ex": 0.75,
+     "plain": 0.72,
+     "po": 0.56,
+     "role": 0.95,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "a987633",
+    "page": "math-katex-centraliser",
+    "fp": "removeBySelector|span|2018d872bf83|786d1f40",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[aria-hidden=\"true\"]:not([class*=\"math\"])"
+    ],
+    "fam": "hidden",
+    "inline": true,
+    "words": 1,
+    "tag": "span",
+    "text": "∣Orb(g)∣×∣Stab(g)∣=∣G∣",
+    "ans": {
+     "ex": 0.88,
+     "plain": 0.91,
+     "po": 0.59,
+     "role": 0.99,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "1270bb4",
+    "page": "wikipedia",
+    "fp": "removeBySelector|table|317062944805|73c01c55",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "table.infobox"
+    ],
+    "fam": "other",
+    "inline": false,
+    "words": 38,
+    "tag": "table",
+    "text": "Obsidian Developer(s) Dynalist Inc. Initial release March 2020 (2020-03) Stable release 1.5.8[1] / January 15, 2024 Written in TypeScript, JavaScript Operating system Windows, macOS, Linux, Android, iOS, iPadOS Type Note-taking, personal knowledge management License Proprietary freemium Website obsi",
+    "ans": {
+     "ex": 0.95,
+     "plain": 0.9,
+     "po": 0.95,
+     "role": 0.99,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "6aa4c15",
+    "page": "www.figma.com:blog:introducing-codex-to-figma",
+    "fp": "scoreAndRemove|div|2cf08b4262b3|af14d827",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.96,
+     "po": 0.97,
+     "role": 0.99,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "6aa4c15",
+    "page": "www.figma.com:blog:introducing-codex-to-figma",
+    "fp": "scoreAndRemove|div|2cf08b4262b3|cd51999f",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 18,
+    "tag": "div",
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "ans": {
+     "ex": 0.97,
+     "plain": 0.95,
+     "po": 0.97,
+     "role": 0.99,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-106-menu-id",
+    "fp": "removeBySelector|div|506c9f0ec95c|af99bf9c",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "#menu"
+    ],
+    "fam": "nav",
+    "inline": false,
+    "words": 40,
+    "tag": "div",
+    "text": "Appetizers Spring rolls with sweet chili sauce — a perfect way to start your meal. Main Course Grilled salmon with roasted vegetables, served with a lemon butter sauce. Desserts Chocolate lava cake with vanilla ice cream — our signature dessert.",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.94,
+     "po": 0.93,
+     "role": 0.525,
+     "v2": 0.85
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-136-time-element",
+    "fp": "removeBySelector|time|360d584b4087|088063e9",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "time"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "time",
+    "text": "January 15, 2025",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.89,
+     "po": 0.26,
+     "role": 0.015,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-136-time-element",
+    "fp": "removeBySelector|time|84c6cc90236c|9d2fc979",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "time"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 2,
+    "tag": "time",
+    "text": "10:00 AM",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.24,
+     "role": 0.03,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-136-time-element",
+    "fp": "removeBySelector|time|39a09492964a|3b4548d7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "time"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 2,
+    "tag": "time",
+    "text": "2:00 PM",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.29,
+     "role": 0.03,
+     "v2": 0.96
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-136-time-element",
+    "fp": "removeBySelector|relative-time|e47c72479b6d|d53faab7",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "relative-time"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "relative-time",
+    "text": "3 months ago",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.32,
+     "role": 0.015,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "0620b4e",
+    "page": "issue-136-time-element",
+    "fp": "removeBySelector|time|39a09492964a|772ff910",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "time"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 2,
+    "tag": "time",
+    "text": "2:00 PM",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.98,
+     "po": 0.29,
+     "role": 0.03,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "scoreAndRemove|div|56a9011bae33|d949ad83",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 42,
+    "tag": "div",
+    "text": "Footnotes 1. No relation to the Washington Nationals team of the modern day. 2. The fact that both teams folded was not unusual, as both had been mired in multiple seasons of poor performance. 3. Jack Glasscock, Hoosiers shortstop and team captain.",
+    "ans": {
+     "ex": 0.8,
+     "plain": 0.78,
+     "po": 0.8,
+     "role": 1,
+     "v2": 0.85
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "removeBySelector|div|36cf2f7cc305|59c21771",
+    "step": "removeBySelector",
+    "reason": "partial match: page-title",
+    "selector": "page-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "SCP-9935",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.94,
+     "role": 0.985,
+     "v2": 0.55
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "scoreAndRemove|div|a787d7bd9bee|3763060d",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 12,
+    "tag": "div",
+    "text": "1. No relation to the Washington Nationals team of the modern day.",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.83,
+     "po": 0.85,
+     "role": 1,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "scoreAndRemove|div|529c6c0344c9|2dfa9bd2",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 21,
+    "tag": "div",
+    "text": "2. The fact that both teams folded was not unusual, as both had been mired in multiple seasons of poor performance.",
+    "ans": {
+     "ex": 0.85,
+     "plain": 0.81,
+     "po": 0.85,
+     "role": 1,
+     "v2": 0.92
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "scoreAndRemove|div|8a094716063f|6392980f",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 8,
+    "tag": "div",
+    "text": "3. Jack Glasscock, Hoosiers shortstop and team captain.",
+    "ans": {
+     "ex": 0.81,
+     "plain": 0.79,
+     "po": 0.81,
+     "role": 1,
+     "v2": 0.89
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "removeBySelector|div|36cf2f7cc305|5b8e829c",
+    "step": "removeBySelector",
+    "reason": "partial match: page-title",
+    "selector": "page-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "SCP-9935",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.94,
+     "role": 0.985,
+     "v2": 0.55
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "removeBySelector|div|ec0c3b76630f|8741e5ec",
+    "step": "removeBySelector",
+    "reason": "partial match: footer",
+    "selector": "footer",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "Footnotes",
+    "ans": {
+     "ex": 0.59,
+     "plain": 0.55,
+     "po": 0.59,
+     "role": 0.995,
+     "v2": 0.45
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "scoreAndRemove|div|529c6c0344c9|8fceecdd",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 21,
+    "tag": "div",
+    "text": "2. The fact that both teams folded was not unusual, as both had been mired in multiple seasons of poor performance.",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.78,
+     "po": 0.83,
+     "role": 1,
+     "v2": 0.94
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "scoreAndRemove|div|8a094716063f|bcfad711",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 8,
+    "tag": "div",
+    "text": "3. Jack Glasscock, Hoosiers shortstop and team captain.",
+    "ans": {
+     "ex": 0.8,
+     "plain": 0.71,
+     "po": 0.8,
+     "role": 1,
+     "v2": 0.91
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "removeBySelector|div|36cf2f7cc305|51afdaf4",
+    "step": "removeBySelector",
+    "reason": "partial match: page-title",
+    "selector": "page-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "SCP-9935",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.94,
+     "role": 0.985,
+     "v2": 0.55
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "scoreAndRemove|div|8a094716063f|da8037a4",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "selector": "",
+    "exact": [],
+    "fam": "score",
+    "inline": false,
+    "words": 8,
+    "tag": "div",
+    "text": "3. Jack Glasscock, Hoosiers shortstop and team captain.",
+    "ans": {
+     "ex": 0.83,
+     "plain": 0.81,
+     "po": 0.83,
+     "role": 1,
+     "v2": 0.93
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "removeBySelector|div|36cf2f7cc305|59bf40da",
+    "step": "removeBySelector",
+    "reason": "partial match: page-title",
+    "selector": "page-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "SCP-9935",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.94,
+     "role": 0.985,
+     "v2": 0.56
+    }
+   },
+   {
+    "commit": "7d31963",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "fp": "removeBySelector|div|36cf2f7cc305|7823b4d3",
+    "step": "removeBySelector",
+    "reason": "partial match: page-title",
+    "selector": "page-title",
+    "exact": [],
+    "fam": "chrome",
+    "inline": false,
+    "words": 1,
+    "tag": "div",
+    "text": "SCP-9935",
+    "ans": {
+     "ex": 0.94,
+     "plain": 0.91,
+     "po": 0.94,
+     "role": 0.985,
+     "v2": 0.56
+    }
+   },
+   {
+    "commit": "58a2ae5",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|463924bb1d80|a0356a95",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/topics\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "TAI",
+    "ans": {
+     "ex": 0.98,
+     "plain": 0.97,
+     "po": 0.28,
+     "role": 0.21,
+     "v2": 0.97
+    }
+   },
+   {
+    "commit": "58a2ae5",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|a|1fd75b57b75d|662dc576",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "selector": "exact",
+    "exact": [
+     "[href*=\"/tag/\"]"
+    ],
+    "fam": "other",
+    "inline": true,
+    "words": 3,
+    "tag": "a",
+    "text": "in subsequent usage",
+    "ans": {
+     "ex": 0.93,
+     "plain": 0.93,
+     "po": 0.8,
+     "role": 0.76,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "58a2ae5",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "fp": "removeBySelector|h1|701a1f192aa2|867f28ba",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "selector": "appendix",
+    "exact": [],
+    "fam": "other",
+    "inline": false,
+    "words": 2,
+    "tag": "h1",
+    "text": "Appendix: Quasi-simulators",
+    "ans": {
+     "ex": 0.96,
+     "plain": 0.92,
+     "po": 0.96,
+     "role": 1,
+     "v2": 0.95
+    }
+   },
+   {
+    "commit": "af4ebde",
+    "page": "daringfireball.net:2025:02:the_iphone_16e",
+    "fp": "removeBySelector|a|a9db4a47aa81|1ca5eb19",
+    "step": "removeBySelector",
+    "reason": "partial match: footnoteback",
+    "selector": "footnoteback",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩︎",
+    "ans": {
+     "ex": 0.18,
+     "plain": 0.18,
+     "po": 0.11,
+     "role": 0.975,
+     "v2": 0.32
+    }
+   },
+   {
+    "commit": "af4ebde",
+    "page": "daringfireball.net:2025:02:the_iphone_16e",
+    "fp": "removeBySelector|a|a9db4a47aa81|274b876d",
+    "step": "removeBySelector",
+    "reason": "partial match: footnoteback",
+    "selector": "footnoteback",
+    "exact": [],
+    "fam": "other",
+    "inline": true,
+    "words": 1,
+    "tag": "a",
+    "text": "↩︎",
+    "ans": {
+     "ex": 0.31,
+     "plain": 0.26,
+     "po": 0.11,
+     "role": 0.97,
+     "v2": 0.44
+    }
+   }
+  ],
+  "wrong_list": [
+   {
+    "commit": "076d17e",
+    "subject": "Fix arXiv LaTeXML rendering issues #141 #142 #143 #144",
+    "page": "issues--143-arxiv-cross-references",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]",
+    "words": 1,
+    "text": "1",
+    "recovered": true
+   },
+   {
+    "commit": "076d17e",
+    "subject": "Fix arXiv LaTeXML rendering issues #141 #142 #143 #144",
+    "page": "issues--143-arxiv-cross-references",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "a[href^=\"#\"][class*=\"ref\" i]",
+    "words": 1,
+    "text": "3.2",
+    "recovered": true
+   },
+   {
+    "commit": "9e6fa75",
+    "subject": "Fix scoring issues #112, scoreAndRemove was removing <div> blocks containing navigation indicator words (\"privacy\", \"social\", \"share\", \"popular\") that appeared naturally in conversation text",
+    "page": "general--www.figma.com:blog:introducing-codex-to-figma",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 18,
+    "text": "Beyond extracting design information, there are a number of other helpful tools available in the Figma MCP server.",
+    "recovered": true
+   },
+   {
+    "commit": "ae6fc5c",
+    "subject": "Fix #107 #77 over-aggressive stripping",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "partial match: appendix",
+    "sel": "appendix",
+    "words": 2,
+    "text": "Appendix: Quasi-simulators",
+    "recovered": true
+   },
+   {
+    "commit": "4e00da2",
+    "subject": "Fix some accidental removals",
+    "page": "general--lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/topics\"]",
+    "words": 1,
+    "text": "TAI",
+    "recovered": true
+   },
+   {
+    "commit": "de0f86a",
+    "subject": "Better support for stripe docs pages",
+    "page": "stripe",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 27,
+    "text": "Test your endpoint Make a request to your server without an existing payment header, and you receive a 402 response with",
+    "recovered": true
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-106-menu-id",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "#menu",
+    "words": 40,
+    "text": "Appetizers Spring rolls with sweet chili sauce — a perfect way to start your meal. Main Course Grilled salmon with roast",
+    "recovered": true
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-131-category-links",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/category\"]",
+    "words": 2,
+    "text": "Web Development",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-131-category-links",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/categories\"]",
+    "words": 1,
+    "text": "JavaScript",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-131-category-links",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[href*=\"/category\"]",
+    "words": 1,
+    "text": "Tutorials",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-132-hero-class",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": ".hero",
+    "words": 14,
+    "text": "This is the hero section with important introductory content that should not be removed.",
+    "recovered": false
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-136-time-element",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "time",
+    "words": 3,
+    "text": "January 15, 2025",
+    "recovered": true
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-136-time-element",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "time",
+    "words": 2,
+    "text": "10:00 AM",
+    "recovered": true
+   },
+   {
+    "commit": "0620b4e",
+    "subject": "Fixes 106, 128, 114, 132, 131, 136",
+    "page": "issue-136-time-element",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "relative-time",
+    "words": 3,
+    "text": "3 months ago",
+    "recovered": true
+   },
+   {
+    "commit": "7d31963",
+    "subject": "Better wikidot support",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 42,
+    "text": "Footnotes 1. No relation to the Washington Nationals team of the modern day. 2. The fact that both teams folded was not ",
+    "recovered": true
+   },
+   {
+    "commit": "7d31963",
+    "subject": "Better wikidot support",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 12,
+    "text": "1. No relation to the Washington Nationals team of the modern day.",
+    "recovered": true
+   },
+   {
+    "commit": "7d31963",
+    "subject": "Better wikidot support",
+    "page": "scp-wiki.wikidot.com-scp-9935",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 21,
+    "text": "2. The fact that both teams folded was not unusual, as both had been mired in multiple seasons of poor performance.",
+    "recovered": true
+   },
+   {
+    "commit": "58bdd32",
+    "subject": "support callouts and fix output from lesswrong",
+    "page": "lesswrong.com:s:N7nDePaNabJdnbXeE:p:vJFdjigzmcXMhNTsx",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "[hidden]",
+    "words": 12967,
+    "text": "Simulators Simulators by janus 2nd Sep 2022 AI Alignment ForumLinkpost from generative.ink 49 min read 169 690 Ω 142 Tha",
+    "recovered": false
+   },
+   {
+    "commit": "58bdd32",
+    "subject": "support callouts and fix output from lesswrong",
+    "page": "rockthejvm.com:articles:kotlin-101-type-classes",
+    "step": "removeBySelector",
+    "reason": "exact selector match",
+    "sel": "aside",
+    "words": 47,
+    "text": "Tip Type classes are tough. If you need to become proficient in Kotlin quickly and with thousands of lines of code and a",
+    "recovered": false
+   },
+   {
+    "commit": "451fe87",
+    "subject": "Add GitHub extractor for GitHub issues (#75)",
+    "page": "github.com-issue-56",
+    "step": "scoreAndRemove",
+    "reason": "score<0",
+    "sel": "",
+    "words": 5,
+    "text": "defuddle/src/defuddle.ts Line 213 in cb4291d",
+    "recovered": false
+   },
+   {
+    "commit": "451fe87",
+    "subject": "Add GitHub extractor for GitHub issues (#75)",
+    "page": "github.com-issue-56",
+    "step": "removeBySelector",
+    "reason": "partial match: comments",
+    "sel": "comments",
+    "words": 203,
+    "text": "Activity For my use-case, I'm already running a headless browser rendering worker to load the page anyway. Instead of do",
+    "recovered": false
+   }
+  ]
+ },
+ "seconds": 157
+}

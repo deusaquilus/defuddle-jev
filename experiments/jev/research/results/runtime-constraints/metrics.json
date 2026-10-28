@@ -1,0 +1,15 @@
+{
+  "measured_on": "2026-10-27",
+  "repo": "/home/alexi/git/defuddle @ 3e8bde9 (defuddle 0.19.6)",
+  "bundle_gzip_kb": {"dist/index.js": 90.2, "budget_core": 92, "headroom_core": 1.8, "dist/index.full.js": 207.3, "budget_full": 215, "headroom_full": 7.7, "raw_bytes_core": 340738, "raw_bytes_full": 770629},
+  "typesafe_sdk_npm": {"name": "@typesafe-ai/sdk", "version": "0.7.0", "unpackedSize_bytes": 338733, "fileCount": 9, "engines_node": ">=22"},
+  "parse_time_ms_linkedom_226_fixtures": {"min": 3, "p50": 16, "p75": 27, "p90": 53, "p95": 81, "p99": 207, "max": 418, "mean": 29.8, "sum": 6731, "dom_parse_sum": 196},
+  "parse_time_ms_jsdom_226_fixtures": {"min": 12, "p50": 65, "p75": 105, "p90": 184, "p95": 257, "p99": 659, "max": 1306, "mean": 103.7, "sum": 23425, "dom_parse_sum": 2729},
+  "fixture_visible_text_tokens_est": {"p50": 155, "p75": 336, "p90": 766, "p95": 1501, "p99": 4739, "max": 20619, "suite_total": 99760, "suite_cost_usd_one_pass": 0.0042},
+  "worker": {"FETCH_TIMEOUT_ms": 10000, "MAX_PAGE_BYTES": 5242880, "oembed_timeout_ms": 4000, "CACHE_TTL_s": 300, "MONTHLY_RATE_LIMIT_free": 1000, "price_per_request_usd": {"1000": 0.005, "10000": 0.004, "100000": 0.003}, "ai_binding_present": false},
+  "workers_ai_jev": {"model": "typesafe/jev", "input_per_M_usd": 0.042, "output_per_M_usd": 0, "zdr": true, "version_returned": "jev-1.13.0", "context_tokens": 32000, "free_neurons_per_day": 10000, "paid_per_1000_neurons_usd": 0.011, "paid_plan_required_beyond_free": true},
+  "cf_workers_limits": {"cpu_ms_free": 10, "cpu_ms_paid_default": 30000, "cpu_ms_paid_max": 300000, "wall_clock_http": "no limit", "waitUntil_s": 30, "subrequests_free": 50, "subrequests_paid": 10000, "concurrent_connections": 6, "memory_mb": 128},
+  "model_cost_fraction_of_revenue": {"5k_tokens": "4.2%-7.0%", "10k_tokens": "8.4%-14%", "32k_tokens": "26.9%-44.8%", "task_range_0.0004_to_0.004": "8%-133%"},
+  "flake_probability_12pct_flip": {"N1": 0.88, "N5": 0.528, "N10": 0.279, "N20": 0.078, "N50": 0.0017},
+  "clipper": {"package": "obsidian-clipper 1.7.1", "defuddle_dep": "^0.19.2", "content_ts": "new Defuddle(document,{url:document.URL}); await Promise.race([parseAsync(), ~8s timeout]).catch(()=>parse())", "clip_utils_ts": "defuddle/full .parse() sync", "llm_sdk_deps": "none"}
+}

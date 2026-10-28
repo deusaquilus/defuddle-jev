@@ -1,0 +1,1093 @@
+{
+ "file": "pages/371.html",
+ "url": "https://dsa.chaicode.com/",
+ "ms": 4774,
+ "wordCount": 1085,
+ "contentSelector": "html > body > div.min-h-screen.bg-paper.text-ink.flex.flex-col.overflow-x-clip > main.flex-1",
+ "title": "Chai Prep: Your preparation ground for interviews",
+ "contentChars": 18458,
+ "presence": {
+  "sketch": false
+ },
+ "removals": [
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:lg:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "opacity:0",
+   "text": "system design round."
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "opacity:0",
+   "text": "aptitude test."
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "opacity:0",
+   "text": "placement drive."
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "opacity:0",
+   "text": "1 + 15 = 16 > 14, move right in"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:sm:hidden",
+   "text": "Fix it"
+  },
+  {
+   "step": "removeHiddenElements",
+   "reason": "class:hidden",
+   "text": ""
+  },
+  {
+   "step": "removeEyebrowLabel",
+   "reason": "eyebrow label",
+   "text": "System design interviews are live"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "try{var t=localStorage.getItem('theme');document.documentElement.dataset.theme=(t==='light')?'light':'dark';}catch(e){document.documentElement.dataset.theme='da"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Chai PrepLearnPracticeRoadmap"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Learn"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Practice"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "coding interview."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Two pointers"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "TCP handshake"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Deadlocks"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "B+ tree indexes"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Design a rate limiter"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Sliding window"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Parking lot design"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "How DNS resolves"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Time and work"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Paging and the TLB"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Normal forms"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Dynamic programming"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Review a pull request"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Transactions and ACID"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Graphs and BFS"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "TLS and HTTPS"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "CPU scheduling"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "LRU cache"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Probability"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Design a chat app"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Binary search"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Subnets and CIDR"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Threads and locks"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "SQL joins"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "01LearnUnderstand the subject, not just the answer. 184 animated problems, 147 illustrated chapters and lessons, and 104 videos with your notes beside them."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "02PractiseBuild speed and accuracy under a clock. Topic sheets with 50 problems, timed aptitude papers in eight categories, topic quizzes with instant feedback,"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "03InterviewRehearse the round before it counts. Four AI interview rounds, each ending with a written debrief that quotes your own work back to you."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Aptitude mock · Quantitative12:48Question 7 of 30 · Time and workOne pipe fills a tank in 6 hours. Another empties it in 9 hours. With both open, how long does "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Read itFix itExtend itMake it fast28:1441def balance(self, account):42 total = 043 for e in self._entries:44    total += e.amount45 return totalEvery entry, eve"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Talk to usTell us a little about your team. We will call you, usually within two working days.A collegeA companyYour nameWork emailCollegePhone numberStudents i"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "A college"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "A company"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Your name"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Work email"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "College"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Phone number"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Under 200"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "200 to 1,000"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "1,000 to 5,000"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Over 5,000"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Any time"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Morning, 10 am to 1 pm"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Afternoon, 1 to 4 pm"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Evening, 4 to 7 pm"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "What would you like to do? (optional)"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Send"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Chai PrepYour preparation ground for interviews. Visual courses, notes, videos, practice sheets, aptitude mocks and AI interviews, in one place.LearnDSA VisualL"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "Privacy PolicyTerms of ServicePricing PolicyRefund Policy"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": ""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "(self.__next_f=self.__next_f||[]).push([0])"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[16174,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"st"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"/chunks/951-3dbda3a86d4c6444.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"8532\\\",\\\"static/chunks/8532-e97f12c5795f8615.js?dpl=dpl_6WyidHwj"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"JzDwgk8rVBiUPpJBmrFOj\\\",\\\"p\\\":\\\"\\\",\\\"c\\\":[\\\"\\\",\\\"index\\\"],\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"__PAGE__\\\",{}]"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"12:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"17:I[80622,[],\\\"IconMark\\\"]\\n10:{\\\"metadata\\\":[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"Chai Prep: Your preparation ground for interviews\\\""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"15:\\\"$10:metadata\\\"\\n\"])"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"18:I[96589,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"19:I[52619,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"1a:I[30765,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"1b:I[21383,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"1c:I[96589,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"c:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"min-h-screen bg-paper text-ink flex flex-col overflow-x-clip\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L18\\\",null,"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"45:I[2105,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922e"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"46:I[57562,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"47:I[17868,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"48:I[82971,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"49:I[17077,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"5e:I[23592,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"68:I[81356,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"1d:[\\\"$\\\",\\\"$L1c\\\",null,{\\\"id\\\":\\\"dsa\\\",\\\"size\\\":18}]\\n1e:[\\\"$\\\",\\\"span\\\",\\\"6\\\",{\\\"aria-hidden\\\":false,\\\"className\\\":\\\"mx-1.5 inline-flex"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"px-3.5 py-1.5 text-[14px] text-sketch\\\",\\\"style\\\":{\\\"background\\\":\\\"var(--card)\\\"},\\\"children\\\":[[\\\"$\\\",\\\"$L1c\\\",null,{\\\"id\\\":\\\"dsa\\\",\\\"s"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"inline-flex items-center gap-2 whitespace-nowrap rounded-full border border-[color:var(--line)] px-3.5 py-1.5 text-[14px] text-sketch\\\",\\"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"30:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"home-marquee home-marquee-rev\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",\\\"0\\\",{\\\"aria-hidden\\\":false,\\\"clas"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"31:[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"border-y border-[color:var(--line)]\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"ui-co"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"32:[\\\"$\\\",\\\"section\\\",null,{\\\"id\\\":\\\"tracks\\\",\\\"className\\\":\\\"ui-section scroll-mt-14\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"33:[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"ui-section border-t border-[color:var(--line)] relative\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"34:[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"ui-section border-t border-[color:var(--line)]\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"classNam"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"35:[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"ui-section border-t border-[color:var(--line)]\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"classNam"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"36:[\\\"$\\\",\\\"section\\\",null,{\\\"id\\\":\\\"teams\\\",\\\"className\\\":\\\"ui-section border-t border-[color:var(--line)] scroll-mt-14 relative ui-glow"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"37:[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"ui-section border-t border-[color:var(--line)]\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"classNam"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"38:[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"border-t border-[color:var(--line)]\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"ui-co"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"39:[\\\"$\\\",\\\"footer\\\",null,{\\\"className\\\":\\\"mt-auto border-t border-[color:var(--line)]\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\""
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"6a:I[17155,[\\\"2619\\\",\\\"static/chunks/2619-04bc32f026a0d946.js?dpl=dpl_6WyidHwjtnnKGH7E18KktXMPv9eY\\\",\\\"6489\\\",\\\"static/chunks/6489-699922"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"3a:[\\\"$\\\",\\\"$L1c\\\",null,{\\\"id\\\":\\\"dbms\\\",\\\"size\\\":18}]\\n3b:[\\\"$\\\",\\\"span\\\",\\\"14\\\",{\\\"aria-hidden\\\":true,\\\"className\\\":\\\"mx-1.5 inline-fle"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"text-[14px] text-sketch\\\",\\\"style\\\":{\\\"background\\\":\\\"var(--card)\\\"},\\\"children\\\":[[\\\"$\\\",\\\"$L1c\\\",null,{\\\"id\\\":\\\"dsa\\\",\\\"size\\\":18}],\\\"B"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"en\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"t-eyebrow text-[11px]\\\",\\\"children\\\":\\\"Assistant\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"ml-auto "
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"4f:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex flex-wrap items-center gap-x-3 gap-y-1.5 border-t border-[color:var(--line)] px-4 py-2.5\\\",\\"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"50:[\\\"$\\\",\\\"img\\\",null,{\\\"src\\\":\\\"https://96375ehh.ap-southeast.insforge.app/api/storage/buckets/dbms-notes/objects/ch09%2F01-inner-join."
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"52:[\\\"$\\\",\\\"li\\\",\\\"https://96375ehh.ap-southeast.insforge.app/api/storage/buckets/cn-notes/objects/ch20%2F04-recursive-walk.jpg?v=06116c0"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"53:[\\\"$\\\",\\\"li\\\",\\\"https://96375ehh.ap-southeast.insforge.app/api/storage/buckets/os-notes/objects/ch11%2F07-round-robin.jpg?v=b36c4627a4"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"54:[\\\"$\\\",\\\"li\\\",\\\"https://96375ehh.ap-southeast.insforge.app/api/storage/buckets/cn-notes/objects/ch24%2F04-handshake.jpg?v=da868a37304a"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"55:[\\\"$\\\",\\\"li\\\",\\\"https://96375ehh.ap-southeast.insforge.app/api/storage/buckets/os-notes/objects/ch22%2F08-the-tlb.jpg?v=36a7bc0040fdc9"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"56:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-4 flex flex-wrap justify-center gap-3\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L19\\\",null,{\\\"href\\\":\\\"/comput"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"5a:[\\\"$\\\",\\\"$L46\\\",null,{\\\"delay\\\":90,\\\"children\\\":[\\\"$\\\",\\\"$L19\\\",null,{\\\"href\\\":\\\"/interview\\\",\\\"className\\\":\\\"group ui-card ui-card-ho"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"5b:[\\\"$\\\",\\\"$L46\\\",null,{\\\"delay\\\":180,\\\"children\\\":[\\\"$\\\",\\\"$L19\\\",null,{\\\"href\\\":\\\"/interview\\\",\\\"className\\\":\\\"group ui-card ui-card-h"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"5c:[\\\"$\\\",\\\"$L46\\\",null,{\\\"delay\\\":270,\\\"children\\\":[\\\"$\\\",\\\"$L19\\\",null,{\\\"href\\\":\\\"/interview\\\",\\\"className\\\":\\\"group ui-card ui-card-h"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"5d:[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"t-small mt-5\\\",\\\"children\\\":[\\\"Interviews from \\\",\\\"₹99\\\",\\\" each. System design practice mode is i"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"63:[\\\"$\\\",\\\"ol\\\",null,{\\\"className\\\":\\\"mt-4 space-y-2.5\\\",\\\"children\\\":[[\\\"$\\\",\\\"li\\\",\\\"21CS041\\\",{\\\"className\\\":\\\"grid grid-cols-[1.25re"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"64:[\\\"$\\\",\\\"$L46\\\",null,{\\\"className\\\":\\\"mt-16 grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"65:[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"M12 5v14M5 12h14\\\"}]\\n66:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"t-body mt-3 max-w-2xl\\\",\\\"children\\\":\\\"Eve"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"67:[\\\"$\\\",\\\"details\\\",null,{\\\"className\\\":\\\"group py-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"summary\\\",null,{\\\"className\\\":\\\"flex cursor-pointer list-"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "exact selector match",
+   "selector": "exact",
+   "text": "self.__next_f.push([1,\"69:[\\\"$\\\",\\\"nav\\\",null,{\\\"className\\\":\\\"flex flex-wrap items-center gap-x-4 gap-y-1.5 font-sketch text-xs text-mute justify-center\\\",\\\"ch"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: btn-",
+   "selector": "btn-",
+   "text": "Start free"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: btn-",
+   "selector": "btn-",
+   "text": "For colleges and companies"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: eyebrow",
+   "selector": "eyebrow",
+   "text": "How it fits together"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: eyebrow",
+   "selector": "eyebrow",
+   "text": "Assistant"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: eyebrow",
+   "selector": "eyebrow",
+   "text": "Illustrated notes"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: btn-",
+   "selector": "btn-",
+   "text": "Networking"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: btn-",
+   "selector": "btn-",
+   "text": "Operating systems"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: btn-",
+   "selector": "btn-",
+   "text": "Databases"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: eyebrow",
+   "selector": "eyebrow",
+   "text": "AI interviews"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: btn-",
+   "selector": "btn-",
+   "text": "Explore the rounds"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: eyebrow",
+   "selector": "eyebrow",
+   "text": "AI roadmap"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: btn-",
+   "selector": "btn-",
+   "text": "Build your roadmap"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: eyebrow",
+   "selector": "eyebrow",
+   "text": "For colleges and companies"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: eyebrow",
+   "selector": "eyebrow",
+   "text": "Questions"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: btn-",
+   "selector": "btn-",
+   "text": "Start free"
+  },
+  {
+   "step": "removeBySelector",
+   "reason": "partial match: btn-",
+   "selector": "btn-",
+   "text": "Create an account"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -15",
+   "text": "DSA VisualFreeLLD VisualNetworkingOperating SystemsDatabasesVideo CoursesFreetwo‑pointers · target 1414681115▲L▲R"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -15",
+   "text": "DSA VisualFreeLLD VisualNetworkingOperating SystemsDatabasesVideo CoursesFreetwo‑pointers · target 1414681115▲L▲R"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -30",
+   "text": "DSA VisualFreeLLD VisualNetworkingOperating SystemsDatabasesVideo CoursesFree"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -30",
+   "text": "DSA VisualFreeLLD VisualNetworkingOperating SystemsDatabasesVideo CoursesFree"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -30",
+   "text": "DSA VisualFreeLLD VisualNetworkingOperating SystemsDatabasesVideo CoursesFree"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -25",
+   "text": "NetworkingThe three-way handshakeOperating systemsWhat a deadlock actually isDatabasesInner joinsNetworkingHow DNS walks the treeOperating systemsRound robin sc"
+  },
+  {
+   "step": "scoreAndRemove",
+   "reason": "score: -25",
+   "text": "NetworkingThe three-way handshakeOperating systemsWhat a deadlock actually isDatabasesInner joinsNetworkingHow DNS walks the treeOperating systemsRound robin sc"
+  }
+ ],
+ "content": "## Prepare for the coding interview.\n\nLearn the subjects, practise against the clock and sit realistic interview rounds before the real one. Visual courses, notes, videos, practice sheets, aptitude mocks and AI interviews, all on one account.\n\nYour week\n\nPlacement prep, week 3\n\n3 of 5 done\n\n1. MonTCP, the three-way handshakeLearn · Networking, illustrated chapter\n2. TueSliding window sheetPractise · 6 problems, C++ and Java\n3. WedAptitude mock, quantitativePractise · 30 questions, 30 minutes\n4. ThuIndexes and B+ treesLearn · Databases, with your notesToday\n5. FriSystem design roundInterview · Link shortener, 45 min\n\nLast debrief · Code review · 4 of 5\n\n“You caught the race in the retry loop. Next time, ask why the new query has no index before approving.”\n\nTwo pointersTCP handshakeDeadlocksB+ tree indexesDesign a rate limiterSliding windowParking lot designHow DNS resolvesTime and workPaging and the TLBNormal formsDynamic programming\n\nReview a pull requestTransactions and ACIDGraphs and BFSTLS and HTTPSCPU schedulingLRU cacheProbabilityDesign a chat appBinary searchSubnets and CIDRThreads and locksSQL joins\n\n184+\n\nanimated DSA problems\n\n147+\n\nillustrated chapters and lessons\n\n54+\n\nhours of video courses\n\n221+\n\nAI interview problems\n\n## Learn it, practise it, then sit the round.\n\nInterview preparation is usually spread across a dozen tabs. Here it follows one path, and your progress, notes and streak come with you at every step.\n\n## Notes that read like a good teacher drew them for you.\n\nNetworking, operating systems and databases, explained one hand-drawn page at a time. Every chapter is written with interviews in mind: what it is, why it matters, and how it comes up.\n\n## Sit the round before the round.\n\nFour rounds modelled on how companies interview today. Each one ends with a written debrief that quotes your own work back to you, so you know exactly what to improve.\n\n[\n\n<svg viewBox=\"0 0 280 144\" class=\"absolute inset-0 h-full w-full\" aria-hidden=\"true\"><g><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"14\" y=\"14\" width=\"150\" height=\"116\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"22\" y=\"33\" font-size=\"7\" class=\"text-mute ui-num\">1</text><text fill=\"currentColor\" x=\"22\" y=\"46\" font-size=\"7\" class=\"text-mute ui-num\">2</text><text fill=\"currentColor\" x=\"22\" y=\"59\" font-size=\"7\" class=\"text-mute ui-num\">3</text><text fill=\"currentColor\" x=\"22\" y=\"72\" font-size=\"7\" class=\"text-mute ui-num\">4</text><text fill=\"currentColor\" x=\"22\" y=\"85\" font-size=\"7\" class=\"text-mute ui-num\">5</text><text fill=\"currentColor\" x=\"22\" y=\"98\" font-size=\"7\" class=\"text-mute ui-num\">6</text><text fill=\"currentColor\" x=\"22\" y=\"111\" font-size=\"7\" class=\"text-mute ui-num\">7</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"28\" width=\"70\" height=\"5\" rx=\"2.5\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"42\" y=\"41\" width=\"92\" height=\"5\" rx=\"2.5\"></rect><rect fill=\"currentColor\" x=\"42\" y=\"54\" width=\"56\" height=\"5\" rx=\"2.5\" class=\"text-accent/70 home-grow\" style=\"--d:0.2s;transform-box:fill-box\"></rect><rect fill=\"currentColor\" x=\"50\" y=\"67\" width=\"80\" height=\"5\" rx=\"2.5\" class=\"text-accent/70 home-grow\" style=\"--d:0.6s;transform-box:fill-box\"></rect><rect fill=\"currentColor\" x=\"50\" y=\"80\" width=\"44\" height=\"5\" rx=\"2.5\" class=\"text-accent/70 home-grow\" style=\"--d:1s;transform-box:fill-box\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"42\" y=\"93\" width=\"66\" height=\"5\" rx=\"2.5\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"106\" width=\"30\" height=\"5\" rx=\"2.5\"></rect><g class=\"home-pop\" style=\"--d:0.4s\"><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"176\" y=\"18\" width=\"92\" height=\"40\" rx=\"8\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"184\" y=\"34\" font-size=\"8\" class=\"text-mute\">Assistant</text><text fill=\"currentColor\" x=\"184\" y=\"47\" font-size=\"8.5\" class=\"text-ink\">Use a heap here?</text></g><g class=\"home-pop\" style=\"--d:1.6s\"><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"176\" y=\"70\" width=\"92\" height=\"56\" rx=\"8\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"184\" y=\"86\" font-size=\"8\" class=\"text-mute\">Hidden tests</text><g><circle fill=\"currentColor\" cx=\"188\" cy=\"102\" r=\"5\" class=\"text-accent\"></circle><path fill=\"none\" stroke=\"currentColor\" d=\"M185.5 102l2 2 3.5-3.5\" class=\"fill-none text-paper\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g><g><circle fill=\"currentColor\" cx=\"202\" cy=\"102\" r=\"5\" class=\"text-accent\"></circle><path fill=\"none\" stroke=\"currentColor\" d=\"M199.5 102l2 2 3.5-3.5\" class=\"fill-none text-paper\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g><g><circle fill=\"currentColor\" cx=\"216\" cy=\"102\" r=\"5\" class=\"text-accent\"></circle><path fill=\"none\" stroke=\"currentColor\" d=\"M213.5 102l2 2 3.5-3.5\" class=\"fill-none text-paper\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g><text fill=\"currentColor\" x=\"184\" y=\"120\" font-size=\"8.5\" class=\"text-ink ui-num\">12 of 12 pass</text></g></g></svg>\n\nRound one\n\n### AI coding interview\n\nA real codebase, an AI assistant beside you and hidden tests. You are assessed on how well you steer the assistant, not on how fast you type.\n\n45 to 55 minutes\n\n](https://dsa.chaicode.com/interview)\n\n[\n\n<svg viewBox=\"0 0 280 144\" class=\"absolute inset-0 h-full w-full\" aria-hidden=\"true\"><g><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"14\" y=\"14\" width=\"252\" height=\"116\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"22\" y=\"28\" font-size=\"8\" class=\"text-mute\">orders/retry.ts · +3 −1</text><g><text fill=\"currentColor\" x=\"22\" y=\"44\" font-size=\"9\" class=\"text-mute ui-num\"> </text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"39\" width=\"90\" height=\"5\" rx=\"2.5\"></rect></g><g><text fill=\"currentColor\" x=\"22\" y=\"57\" font-size=\"9\" class=\"text-mute ui-num\">-</text><rect fill=\"currentColor\" x=\"34\" y=\"52\" width=\"70\" height=\"5\" rx=\"2.5\" class=\"text-mute/40\"></rect><path fill=\"none\" stroke=\"currentColor\" d=\"M34 54.5h70\" class=\"text-mute\" stroke-width=\"1\"></path></g><g><rect fill=\"currentColor\" x=\"15\" y=\"61\" width=\"250\" height=\"12\" class=\"text-accent/10\"></rect><text fill=\"currentColor\" x=\"22\" y=\"70\" font-size=\"9\" class=\"text-accent ui-num\">+</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"65\" width=\"104\" height=\"5\" rx=\"2.5\"></rect></g><g><rect fill=\"currentColor\" x=\"15\" y=\"74\" width=\"250\" height=\"12\" class=\"text-accent/10\"></rect><text fill=\"currentColor\" x=\"22\" y=\"83\" font-size=\"9\" class=\"text-accent ui-num\">+</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"78\" width=\"82\" height=\"5\" rx=\"2.5\"></rect></g><g><rect fill=\"currentColor\" x=\"15\" y=\"87\" width=\"250\" height=\"12\" class=\"text-accent/10\"></rect><text fill=\"currentColor\" x=\"22\" y=\"96\" font-size=\"9\" class=\"text-accent ui-num\">+</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"91\" width=\"60\" height=\"5\" rx=\"2.5\"></rect></g><g><text fill=\"currentColor\" x=\"22\" y=\"109\" font-size=\"9\" class=\"text-mute ui-num\"> </text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"104\" width=\"96\" height=\"5\" rx=\"2.5\"></rect></g><g><text fill=\"currentColor\" x=\"22\" y=\"122\" font-size=\"9\" class=\"text-mute ui-num\"></text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"117\" width=\"50\" height=\"5\" rx=\"2.5\"></rect></g><g class=\"home-pop\" style=\"--d:0.8s\"><path style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M150 74 l8 -6\"></path><rect fill=\"currentColor\" x=\"156\" y=\"46\" width=\"102\" height=\"34\" rx=\"8\" class=\"text-paper\"></rect><rect fill=\"none\" stroke=\"currentColor\" x=\"156\" y=\"46\" width=\"102\" height=\"34\" rx=\"8\" class=\"fill-none text-accent/60\"></rect><text fill=\"currentColor\" x=\"164\" y=\"60\" font-size=\"8\" class=\"text-accent\">You · line 4</text><text fill=\"currentColor\" x=\"164\" y=\"72\" font-size=\"8.5\" class=\"text-ink\">Retries never back off</text></g></g></svg>\n\nRound two\n\n### Code review\n\nReview a pull request the way a senior engineer would. Find what matters, explain why, and know when approving is the right call.\n\n20 to 30 minutes\n\n](https://dsa.chaicode.com/interview)\n\n[\n\n<svg viewBox=\"0 0 280 144\" class=\"absolute inset-0 h-full w-full\" aria-hidden=\"true\"><g><path fill=\"none\" stroke=\"currentColor\" d=\"M88 47 H 103\" class=\"home-draw-loop text-accent fill-none\" stroke-width=\"1.5\" style=\"--len:20;--d:0.5s\"></path><path fill=\"none\" stroke=\"currentColor\" d=\"M177 47 H 192\" class=\"home-draw-loop text-accent fill-none\" stroke-width=\"1.5\" style=\"--len:20;--d:1s\"></path><path fill=\"none\" stroke=\"currentColor\" d=\"M140 72 V 92\" class=\"home-draw-loop text-accent fill-none\" stroke-width=\"1.5\" style=\"--len:24;--d:1.4s\"></path><g><rect fill=\"currentColor\" x=\"14\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"14\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"fill-none\"></rect><path style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M14 38h74\"></path><text fill=\"currentColor\" x=\"22\" y=\"33.5\" font-size=\"8.5\" class=\"text-ink\">ParkingLot</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"22\" y=\"46\" width=\"44\" height=\"4\" rx=\"2\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"22\" y=\"57\" width=\"32\" height=\"4\" rx=\"2\"></rect></g><g><rect fill=\"currentColor\" x=\"103\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"103\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"fill-none\"></rect><path style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M103 38h74\"></path><text fill=\"currentColor\" x=\"111\" y=\"33.5\" font-size=\"8.5\" class=\"text-ink\">Level</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"111\" y=\"46\" width=\"44\" height=\"4\" rx=\"2\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"111\" y=\"57\" width=\"32\" height=\"4\" rx=\"2\"></rect></g><g><rect fill=\"currentColor\" x=\"192\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"192\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"fill-none\"></rect><path style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M192 38h74\"></path><text fill=\"currentColor\" x=\"200\" y=\"33.5\" font-size=\"8.5\" class=\"text-ink\">Spot</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"200\" y=\"46\" width=\"44\" height=\"4\" rx=\"2\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"200\" y=\"57\" width=\"32\" height=\"4\" rx=\"2\"></rect></g><g class=\"home-pop\" style=\"--d:1.2s\"><rect fill=\"currentColor\" x=\"103\" y=\"92\" width=\"74\" height=\"50\" rx=\"5\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"103\" y=\"92\" width=\"74\" height=\"50\" rx=\"5\" class=\"fill-none\"></rect><path style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M103 108h74\"></path><text fill=\"currentColor\" x=\"111\" y=\"103.5\" font-size=\"8.5\" class=\"text-ink\">EVSpot</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"111\" y=\"116\" width=\"44\" height=\"4\" rx=\"2\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"111\" y=\"127\" width=\"32\" height=\"4\" rx=\"2\"></rect></g><path fill=\"currentColor\" d=\"M88 47 l5 -3.5 5 3.5 -5 3.5z\" class=\"text-accent\"></path><path fill=\"none\" stroke=\"currentColor\" d=\"M140 72 l-4 6 h8z\" class=\"fill-none text-accent\" stroke-width=\"1.3\"></path></g></svg>\n\nRound three\n\n### Low-level design\n\nModel a system class by class, then walk the interviewer through your choices and the trade-offs behind them.\n\n45 minutes · 25 systems\n\n](https://dsa.chaicode.com/interview)\n\n[\n\n<svg viewBox=\"0 0 280 144\" class=\"absolute inset-0 h-full w-full\" aria-hidden=\"true\"><g><path fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M72 72 H 108 M166 72 H 196\" class=\"fill-none\" stroke-width=\"1.3\"></path><path fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M225 59 V 40 M225 85 V 104\" class=\"fill-none\" stroke-width=\"1.3\"></path><g><rect fill=\"currentColor\" x=\"14\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"14\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"43\" y=\"75.5\" font-size=\"8.5\" text-anchor=\"middle\" class=\"text-ink\">Client</text></g><g><rect fill=\"currentColor\" x=\"108\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"108\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"137\" y=\"75.5\" font-size=\"8.5\" text-anchor=\"middle\" class=\"text-ink\">API</text></g><g><rect fill=\"currentColor\" x=\"196\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"196\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"225\" y=\"75.5\" font-size=\"8.5\" text-anchor=\"middle\" class=\"text-ink\">Service</text></g><g><rect fill=\"currentColor\" x=\"196\" y=\"14\" width=\"58\" height=\"26\" rx=\"6\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"196\" y=\"14\" width=\"58\" height=\"26\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"225\" y=\"30.5\" font-size=\"8.5\" text-anchor=\"middle\" class=\"text-ink\">Cache</text></g><g><rect fill=\"currentColor\" x=\"196\" y=\"104\" width=\"58\" height=\"26\" rx=\"6\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"196\" y=\"104\" width=\"58\" height=\"26\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"225\" y=\"120.5\" font-size=\"8.5\" text-anchor=\"middle\" class=\"text-ink\">Database</text></g><circle fill=\"currentColor\" r=\"3.5\" class=\"text-accent home-packet\"></circle><circle fill=\"currentColor\" r=\"3\" class=\"text-accent home-packet\"></circle><g class=\"home-pop\" style=\"--d:1s\"><rect fill=\"currentColor\" x=\"74\" y=\"98\" width=\"104\" height=\"30\" rx=\"7\" class=\"text-paper\"></rect><rect fill=\"none\" stroke=\"currentColor\" x=\"74\" y=\"98\" width=\"104\" height=\"30\" rx=\"7\" class=\"fill-none text-accent/60\"></rect><text fill=\"currentColor\" x=\"82\" y=\"111\" font-size=\"8\" class=\"text-accent\">Interviewer</text><text fill=\"currentColor\" x=\"82\" y=\"122\" font-size=\"8.5\" class=\"text-ink\">What if the cache dies?</text></g></g></svg>\n\nRound four\n\n### System design\n\nDesign a service on a whiteboard in six clear steps, with an interviewer who answers your questions and pushes back.\n\n45 minutes · 25 systems\n\n](https://dsa.chaicode.com/interview)\n\nInterviews from ₹99 each. System design practice mode is included in the plan.\n\n## A plan that fits the time you actually have.\n\nTell us what you want to learn and how many days you have. You get a syllabus sized to your level, in an order that makes sense, and one clear list for each day. Miss a day and it simply moves to your backlog.\n\n- Any subject, from linked lists to system design\n- Algorithm tasks open straight into the visual lesson\n- One short list each morning, nothing to manage\n\ninterview prep · your plan\n\nMode\n\nTimedComplete\n\nDays\n\n73045\n\nPer day\n\n124\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nOn track0 / 60 solved · 0%\n\n## Prepare a whole batch, not one student at a time.\n\nPlacement cells use Chai Prep to get final-year students ready and run practice drives. Companies use it to onboard graduate hires and assess them before day one. You get your own portal; we handle the platform.\n\n- Bring everyone in at once\n\tImport your roster, assign seats and see who has joined and who needs a nudge.\n- Run drives on your schedule\n\tAptitude, coding and code review rounds, one link for everyone, make-up windows built in.\n- Fair by design\n\tPapers drawn fresh for each round. Focus changes and pastes recorded, with no camera.\n- Results you can act on\n\tRanked lists and score spreads, so you see who is ready and who needs more practice.\n\nFinal-year practice drive\n\nRound 2 · Coding interview\n\nEnded 4:30 pm\n\n212\n\nof 240 sat it\n\n3.4\n\naverage of 5\n\n28\n\nin the make-up\n\n1. 121CS0414.8\n2. 221IT0174.6\n3. 321CS1024.3\n4. 421EC066Left the page 6 times4.1\n5. 521CS0883.9\n6. 621IT0453.6\n\n### Let’s set it up together.\n\nTell us about your batch and what you would like to achieve. We will take it from there.\n\n1. 1\n\tTell us about your batch\n\tWho they are, how many, and what a good result looks like for you.\n2. 2\n\tSee it in action\n\tA short walkthrough of the portal, the rounds and the reports, shaped around your plans.\n3. 3\n\tGo live\n\tWe set up your portal and admins. You invite your students or new hires with one link.\n\n## Good to know.\n\nIs Chai Prep free?\n\nYou can start for free. The first DSA track, the video courses and the practice sheets are open to everyone. One plan, from ₹499 a month, unlocks every course, aptitude mock and roadmap. AI interviews are bought separately, from ₹99 each.\n\nWhat happened to Chai Visual?\n\nIt grew. Chai Visual started as animated DSA lessons, and those are all still here as the visual courses. Chai Prep is the name for everything around them now: notes, videos, practice, mocks and interviews.\n\nWho is it for?\n\nStudents preparing for placements, engineers getting ready to switch jobs, and colleges or companies preparing a whole batch together.\n\nHow are the AI interviews marked?\n\nEvery round is marked against a written rubric for that problem. Your debrief explains each score and quotes the parts of your work it is based on, so the feedback is specific and easy to act on.\n\nDo I need to install anything?\n\nNo. Everything runs in your browser, including the codebase and editor in the coding interview.\n\n![](https://dsa.chaicode.com/_next/image?url=%2Fchai-mascot-dark.png&w=256&q=75)\n\n## Start where you are. Walk in ready.\n\nOpen a lesson, solve a sheet or sit a practice round today. Everything you do here builds towards the same goal: your next interview.",
+ "markdown": "## Prepare for the coding interview.\n\nLearn the subjects, practise against the clock and sit realistic interview rounds before the real one. Visual courses, notes, videos, practice sheets, aptitude mocks and AI interviews, all on one account.\n\nYour week\n\nPlacement prep, week 3\n\n3 of 5 done\n\n1. MonTCP, the three-way handshakeLearn · Networking, illustrated chapter\n2. TueSliding window sheetPractise · 6 problems, C++ and Java\n3. WedAptitude mock, quantitativePractise · 30 questions, 30 minutes\n4. ThuIndexes and B+ treesLearn · Databases, with your notesToday\n5. FriSystem design roundInterview · Link shortener, 45 min\n\nLast debrief · Code review · 4 of 5\n\n“You caught the race in the retry loop. Next time, ask why the new query has no index before approving.”\n\nTwo pointersTCP handshakeDeadlocksB+ tree indexesDesign a rate limiterSliding windowParking lot designHow DNS resolvesTime and workPaging and the TLBNormal formsDynamic programming\n\nReview a pull requestTransactions and ACIDGraphs and BFSTLS and HTTPSCPU schedulingLRU cacheProbabilityDesign a chat appBinary searchSubnets and CIDRThreads and locksSQL joins\n\n184+\n\nanimated DSA problems\n\n147+\n\nillustrated chapters and lessons\n\n54+\n\nhours of video courses\n\n221+\n\nAI interview problems\n\n## Learn it, practise it, then sit the round.\n\nInterview preparation is usually spread across a dozen tabs. Here it follows one path, and your progress, notes and streak come with you at every step.\n\n## Notes that read like a good teacher drew them for you.\n\nNetworking, operating systems and databases, explained one hand-drawn page at a time. Every chapter is written with interviews in mind: what it is, why it matters, and how it comes up.\n\n## Sit the round before the round.\n\nFour rounds modelled on how companies interview today. Each one ends with a written debrief that quotes your own work back to you, so you know exactly what to improve.\n\n[\n\n<svg viewBox=\"0 0 280 144\" class=\"absolute inset-0 h-full w-full\" aria-hidden=\"true\"><g><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"14\" y=\"14\" width=\"150\" height=\"116\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"22\" y=\"33\" font-size=\"7\" class=\"text-mute ui-num\">1</text><text fill=\"currentColor\" x=\"22\" y=\"46\" font-size=\"7\" class=\"text-mute ui-num\">2</text><text fill=\"currentColor\" x=\"22\" y=\"59\" font-size=\"7\" class=\"text-mute ui-num\">3</text><text fill=\"currentColor\" x=\"22\" y=\"72\" font-size=\"7\" class=\"text-mute ui-num\">4</text><text fill=\"currentColor\" x=\"22\" y=\"85\" font-size=\"7\" class=\"text-mute ui-num\">5</text><text fill=\"currentColor\" x=\"22\" y=\"98\" font-size=\"7\" class=\"text-mute ui-num\">6</text><text fill=\"currentColor\" x=\"22\" y=\"111\" font-size=\"7\" class=\"text-mute ui-num\">7</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"28\" width=\"70\" height=\"5\" rx=\"2.5\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"42\" y=\"41\" width=\"92\" height=\"5\" rx=\"2.5\"></rect><rect fill=\"currentColor\" x=\"42\" y=\"54\" width=\"56\" height=\"5\" rx=\"2.5\" class=\"text-accent/70 home-grow\" style=\"--d:0.2s;transform-box:fill-box\"></rect><rect fill=\"currentColor\" x=\"50\" y=\"67\" width=\"80\" height=\"5\" rx=\"2.5\" class=\"text-accent/70 home-grow\" style=\"--d:0.6s;transform-box:fill-box\"></rect><rect fill=\"currentColor\" x=\"50\" y=\"80\" width=\"44\" height=\"5\" rx=\"2.5\" class=\"text-accent/70 home-grow\" style=\"--d:1s;transform-box:fill-box\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"42\" y=\"93\" width=\"66\" height=\"5\" rx=\"2.5\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"106\" width=\"30\" height=\"5\" rx=\"2.5\"></rect><g class=\"home-pop\" style=\"--d:0.4s\"><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"176\" y=\"18\" width=\"92\" height=\"40\" rx=\"8\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"184\" y=\"34\" font-size=\"8\" class=\"text-mute\">Assistant</text><text fill=\"currentColor\" x=\"184\" y=\"47\" font-size=\"8.5\" class=\"text-ink\">Use a heap here?</text></g><g class=\"home-pop\" style=\"--d:1.6s\"><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"176\" y=\"70\" width=\"92\" height=\"56\" rx=\"8\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"184\" y=\"86\" font-size=\"8\" class=\"text-mute\">Hidden tests</text><g><circle fill=\"currentColor\" cx=\"188\" cy=\"102\" r=\"5\" class=\"text-accent\"></circle><path fill=\"none\" stroke=\"currentColor\" d=\"M185.5 102l2 2 3.5-3.5\" class=\"fill-none text-paper\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g><g><circle fill=\"currentColor\" cx=\"202\" cy=\"102\" r=\"5\" class=\"text-accent\"></circle><path fill=\"none\" stroke=\"currentColor\" d=\"M199.5 102l2 2 3.5-3.5\" class=\"fill-none text-paper\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g><g><circle fill=\"currentColor\" cx=\"216\" cy=\"102\" r=\"5\" class=\"text-accent\"></circle><path fill=\"none\" stroke=\"currentColor\" d=\"M213.5 102l2 2 3.5-3.5\" class=\"fill-none text-paper\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g><text fill=\"currentColor\" x=\"184\" y=\"120\" font-size=\"8.5\" class=\"text-ink ui-num\">12 of 12 pass</text></g></g></svg>\n\nRound one\n\n### AI coding interview\n\nA real codebase, an AI assistant beside you and hidden tests. You are assessed on how well you steer the assistant, not on how fast you type.\n\n45 to 55 minutes\n\n](https://dsa.chaicode.com/interview)\n\n[\n\n<svg viewBox=\"0 0 280 144\" class=\"absolute inset-0 h-full w-full\" aria-hidden=\"true\"><g><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"14\" y=\"14\" width=\"252\" height=\"116\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"22\" y=\"28\" font-size=\"8\" class=\"text-mute\">orders/retry.ts · +3 −1</text><g><text fill=\"currentColor\" x=\"22\" y=\"44\" font-size=\"9\" class=\"text-mute ui-num\"> </text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"39\" width=\"90\" height=\"5\" rx=\"2.5\"></rect></g><g><text fill=\"currentColor\" x=\"22\" y=\"57\" font-size=\"9\" class=\"text-mute ui-num\">-</text><rect fill=\"currentColor\" x=\"34\" y=\"52\" width=\"70\" height=\"5\" rx=\"2.5\" class=\"text-mute/40\"></rect><path fill=\"none\" stroke=\"currentColor\" d=\"M34 54.5h70\" class=\"text-mute\" stroke-width=\"1\"></path></g><g><rect fill=\"currentColor\" x=\"15\" y=\"61\" width=\"250\" height=\"12\" class=\"text-accent/10\"></rect><text fill=\"currentColor\" x=\"22\" y=\"70\" font-size=\"9\" class=\"text-accent ui-num\">+</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"65\" width=\"104\" height=\"5\" rx=\"2.5\"></rect></g><g><rect fill=\"currentColor\" x=\"15\" y=\"74\" width=\"250\" height=\"12\" class=\"text-accent/10\"></rect><text fill=\"currentColor\" x=\"22\" y=\"83\" font-size=\"9\" class=\"text-accent ui-num\">+</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"78\" width=\"82\" height=\"5\" rx=\"2.5\"></rect></g><g><rect fill=\"currentColor\" x=\"15\" y=\"87\" width=\"250\" height=\"12\" class=\"text-accent/10\"></rect><text fill=\"currentColor\" x=\"22\" y=\"96\" font-size=\"9\" class=\"text-accent ui-num\">+</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"91\" width=\"60\" height=\"5\" rx=\"2.5\"></rect></g><g><text fill=\"currentColor\" x=\"22\" y=\"109\" font-size=\"9\" class=\"text-mute ui-num\"> </text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"104\" width=\"96\" height=\"5\" rx=\"2.5\"></rect></g><g><text fill=\"currentColor\" x=\"22\" y=\"122\" font-size=\"9\" class=\"text-mute ui-num\"></text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"34\" y=\"117\" width=\"50\" height=\"5\" rx=\"2.5\"></rect></g><g class=\"home-pop\" style=\"--d:0.8s\"><path style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M150 74 l8 -6\"></path><rect fill=\"currentColor\" x=\"156\" y=\"46\" width=\"102\" height=\"34\" rx=\"8\" class=\"text-paper\"></rect><rect fill=\"none\" stroke=\"currentColor\" x=\"156\" y=\"46\" width=\"102\" height=\"34\" rx=\"8\" class=\"fill-none text-accent/60\"></rect><text fill=\"currentColor\" x=\"164\" y=\"60\" font-size=\"8\" class=\"text-accent\">You · line 4</text><text fill=\"currentColor\" x=\"164\" y=\"72\" font-size=\"8.5\" class=\"text-ink\">Retries never back off</text></g></g></svg>\n\nRound two\n\n### Code review\n\nReview a pull request the way a senior engineer would. Find what matters, explain why, and know when approving is the right call.\n\n20 to 30 minutes\n\n](https://dsa.chaicode.com/interview)\n\n[\n\n<svg viewBox=\"0 0 280 144\" class=\"absolute inset-0 h-full w-full\" aria-hidden=\"true\"><g><path fill=\"none\" stroke=\"currentColor\" d=\"M88 47 H 103\" class=\"home-draw-loop text-accent fill-none\" stroke-width=\"1.5\" style=\"--len:20;--d:0.5s\"></path><path fill=\"none\" stroke=\"currentColor\" d=\"M177 47 H 192\" class=\"home-draw-loop text-accent fill-none\" stroke-width=\"1.5\" style=\"--len:20;--d:1s\"></path><path fill=\"none\" stroke=\"currentColor\" d=\"M140 72 V 92\" class=\"home-draw-loop text-accent fill-none\" stroke-width=\"1.5\" style=\"--len:24;--d:1.4s\"></path><g><rect fill=\"currentColor\" x=\"14\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"14\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"fill-none\"></rect><path style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M14 38h74\"></path><text fill=\"currentColor\" x=\"22\" y=\"33.5\" font-size=\"8.5\" class=\"text-ink\">ParkingLot</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"22\" y=\"46\" width=\"44\" height=\"4\" rx=\"2\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"22\" y=\"57\" width=\"32\" height=\"4\" rx=\"2\"></rect></g><g><rect fill=\"currentColor\" x=\"103\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"103\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"fill-none\"></rect><path style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M103 38h74\"></path><text fill=\"currentColor\" x=\"111\" y=\"33.5\" font-size=\"8.5\" class=\"text-ink\">Level</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"111\" y=\"46\" width=\"44\" height=\"4\" rx=\"2\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"111\" y=\"57\" width=\"32\" height=\"4\" rx=\"2\"></rect></g><g><rect fill=\"currentColor\" x=\"192\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"192\" y=\"22\" width=\"74\" height=\"50\" rx=\"5\" class=\"fill-none\"></rect><path style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M192 38h74\"></path><text fill=\"currentColor\" x=\"200\" y=\"33.5\" font-size=\"8.5\" class=\"text-ink\">Spot</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"200\" y=\"46\" width=\"44\" height=\"4\" rx=\"2\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"200\" y=\"57\" width=\"32\" height=\"4\" rx=\"2\"></rect></g><g class=\"home-pop\" style=\"--d:1.2s\"><rect fill=\"currentColor\" x=\"103\" y=\"92\" width=\"74\" height=\"50\" rx=\"5\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"103\" y=\"92\" width=\"74\" height=\"50\" rx=\"5\" class=\"fill-none\"></rect><path style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M103 108h74\"></path><text fill=\"currentColor\" x=\"111\" y=\"103.5\" font-size=\"8.5\" class=\"text-ink\">EVSpot</text><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"111\" y=\"116\" width=\"44\" height=\"4\" rx=\"2\"></rect><rect style=\"font-size:color:var(--line-hi)\" fill=\"currentColor\" x=\"111\" y=\"127\" width=\"32\" height=\"4\" rx=\"2\"></rect></g><path fill=\"currentColor\" d=\"M88 47 l5 -3.5 5 3.5 -5 3.5z\" class=\"text-accent\"></path><path fill=\"none\" stroke=\"currentColor\" d=\"M140 72 l-4 6 h8z\" class=\"fill-none text-accent\" stroke-width=\"1.3\"></path></g></svg>\n\nRound three\n\n### Low-level design\n\nModel a system class by class, then walk the interviewer through your choices and the trade-offs behind them.\n\n45 minutes · 25 systems\n\n](https://dsa.chaicode.com/interview)\n\n[\n\n<svg viewBox=\"0 0 280 144\" class=\"absolute inset-0 h-full w-full\" aria-hidden=\"true\"><g><path fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M72 72 H 108 M166 72 H 196\" class=\"fill-none\" stroke-width=\"1.3\"></path><path fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" d=\"M225 59 V 40 M225 85 V 104\" class=\"fill-none\" stroke-width=\"1.3\"></path><g><rect fill=\"currentColor\" x=\"14\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"14\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"43\" y=\"75.5\" font-size=\"8.5\" text-anchor=\"middle\" class=\"text-ink\">Client</text></g><g><rect fill=\"currentColor\" x=\"108\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"108\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"137\" y=\"75.5\" font-size=\"8.5\" text-anchor=\"middle\" class=\"text-ink\">API</text></g><g><rect fill=\"currentColor\" x=\"196\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"196\" y=\"59\" width=\"58\" height=\"26\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"225\" y=\"75.5\" font-size=\"8.5\" text-anchor=\"middle\" class=\"text-ink\">Service</text></g><g><rect fill=\"currentColor\" x=\"196\" y=\"14\" width=\"58\" height=\"26\" rx=\"6\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"196\" y=\"14\" width=\"58\" height=\"26\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"225\" y=\"30.5\" font-size=\"8.5\" text-anchor=\"middle\" class=\"text-ink\">Cache</text></g><g><rect fill=\"currentColor\" x=\"196\" y=\"104\" width=\"58\" height=\"26\" rx=\"6\" class=\"text-paper\"></rect><rect fill=\"none\" style=\"font-size:color:var(--line-hi)\" stroke=\"currentColor\" x=\"196\" y=\"104\" width=\"58\" height=\"26\" rx=\"6\" class=\"fill-none\"></rect><text fill=\"currentColor\" x=\"225\" y=\"120.5\" font-size=\"8.5\" text-anchor=\"middle\" class=\"text-ink\">Database</text></g><circle fill=\"currentColor\" r=\"3.5\" class=\"text-accent home-packet\"></circle><circle fill=\"currentColor\" r=\"3\" class=\"text-accent home-packet\"></circle><g class=\"home-pop\" style=\"--d:1s\"><rect fill=\"currentColor\" x=\"74\" y=\"98\" width=\"104\" height=\"30\" rx=\"7\" class=\"text-paper\"></rect><rect fill=\"none\" stroke=\"currentColor\" x=\"74\" y=\"98\" width=\"104\" height=\"30\" rx=\"7\" class=\"fill-none text-accent/60\"></rect><text fill=\"currentColor\" x=\"82\" y=\"111\" font-size=\"8\" class=\"text-accent\">Interviewer</text><text fill=\"currentColor\" x=\"82\" y=\"122\" font-size=\"8.5\" class=\"text-ink\">What if the cache dies?</text></g></g></svg>\n\nRound four\n\n### System design\n\nDesign a service on a whiteboard in six clear steps, with an interviewer who answers your questions and pushes back.\n\n45 minutes · 25 systems\n\n](https://dsa.chaicode.com/interview)\n\nInterviews from ₹99 each. System design practice mode is included in the plan.\n\n## A plan that fits the time you actually have.\n\nTell us what you want to learn and how many days you have. You get a syllabus sized to your level, in an order that makes sense, and one clear list for each day. Miss a day and it simply moves to your backlog.\n\n- Any subject, from linked lists to system design\n- Algorithm tasks open straight into the visual lesson\n- One short list each morning, nothing to manage\n\ninterview prep · your plan\n\nMode\n\nTimedComplete\n\nDays\n\n73045\n\nPer day\n\n124\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nOn track0 / 60 solved · 0%\n\n## Prepare a whole batch, not one student at a time.\n\nPlacement cells use Chai Prep to get final-year students ready and run practice drives. Companies use it to onboard graduate hires and assess them before day one. You get your own portal; we handle the platform.\n\n- Bring everyone in at once\n\tImport your roster, assign seats and see who has joined and who needs a nudge.\n- Run drives on your schedule\n\tAptitude, coding and code review rounds, one link for everyone, make-up windows built in.\n- Fair by design\n\tPapers drawn fresh for each round. Focus changes and pastes recorded, with no camera.\n- Results you can act on\n\tRanked lists and score spreads, so you see who is ready and who needs more practice.\n\nFinal-year practice drive\n\nRound 2 · Coding interview\n\nEnded 4:30 pm\n\n212\n\nof 240 sat it\n\n3.4\n\naverage of 5\n\n28\n\nin the make-up\n\n1. 121CS0414.8\n2. 221IT0174.6\n3. 321CS1024.3\n4. 421EC066Left the page 6 times4.1\n5. 521CS0883.9\n6. 621IT0453.6\n\n### Let’s set it up together.\n\nTell us about your batch and what you would like to achieve. We will take it from there.\n\n1. 1\n\tTell us about your batch\n\tWho they are, how many, and what a good result looks like for you.\n2. 2\n\tSee it in action\n\tA short walkthrough of the portal, the rounds and the reports, shaped around your plans.\n3. 3\n\tGo live\n\tWe set up your portal and admins. You invite your students or new hires with one link.\n\n## Good to know.\n\nIs Chai Prep free?\n\nYou can start for free. The first DSA track, the video courses and the practice sheets are open to everyone. One plan, from ₹499 a month, unlocks every course, aptitude mock and roadmap. AI interviews are bought separately, from ₹99 each.\n\nWhat happened to Chai Visual?\n\nIt grew. Chai Visual started as animated DSA lessons, and those are all still here as the visual courses. Chai Prep is the name for everything around them now: notes, videos, practice, mocks and interviews.\n\nWho is it for?\n\nStudents preparing for placements, engineers getting ready to switch jobs, and colleges or companies preparing a whole batch together.\n\nHow are the AI interviews marked?\n\nEvery round is marked against a written rubric for that problem. Your debrief explains each score and quotes the parts of your work it is based on, so the feedback is specific and easy to act on.\n\nDo I need to install anything?\n\nNo. Everything runs in your browser, including the codebase and editor in the coding interview.\n\n![](https://dsa.chaicode.com/_next/image?url=%2Fchai-mascot-dark.png&w=256&q=75)\n\n## Start where you are. Walk in ready.\n\nOpen a lesson, solve a sheet or sit a practice round today. Everything you do here builds towards the same goal: your next interview."
+}
